@@ -1,0 +1,155 @@
+EventPointerTable(0x7, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Vendor(Ch1Vendor,12,7)
+Armory(Ch1Armoury,14,6)
+House(0,Ch1House1,13,5)
+House(0,Ch1House2,12,6)
+House(0,Ch1House3,13,6)
+House(0,Ch1House4,14,7)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Eirika  0x2 0x1 0xA1   [10,7] 0b 0x0 0x0 0x0 [0x1,0x98,0x88,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+Bad:
+UNIT ONeill Fighter 0x40 0xA5     [2,1] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+ENDA
+
+EndingScene:
+ENDA
+
+Ch1House1:
+ENDA
+
+Ch1House2:
+ENDA
+
+Ch1House3:
+ENDA
+
+Ch1House4:
+ENDA
+
+UnitGacha:
+//LABEL whatever
+Text(0x900)
+RANDOMNUMBER 4
+SVAL s1 0
+BEQ 100 s1 sC //unit 1
+SVAL s1 1
+BEQ 101 s1 sC //unit 2
+SVAL s1 2
+BEQ 102 s1 sC //unit 3
+SVAL s1 3
+BEQ 103 s1 sC //unit 4
+SVAL s1 4
+BEQ 104 s1 sC //unit 5
+ENDA
+
+LoadGachaUnit1:
+LABEL 100
+LOAD1 0x1 GachaUnit1
+ENUN
+ENDA
+
+LoadGachaUnit2:
+LABEL 101
+LOAD1 0x1 GachaUnit2
+ENUN
+ENDA
+
+LoadGachaUnit3:
+LABEL 102
+LOAD1 0x1 GachaUnit3
+ENUN
+ENDA
+
+LoadGachaUnit4:
+LABEL 103
+LOAD1 0x1 GachaUnit4
+ENUN
+ENDA
+
+LoadGachaUnit5:
+LABEL 104
+LOAD1 0x1 GachaUnit5
+ENUN
+ENDA
+
+GachaUnit1:
+UNIT Seth  0x7 0x1 0xA1     [11,24] 0b 0x0 0x0 0x0 [0x1,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+GachaUnit2:
+UNIT Ephraim  0x1 0x1 0xA1  [7,24] 0b 0x0 0x0 0x0 [0x14,0x99,0x88,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+GachaUnit3:
+UNIT Joshua 0x13 0x1 0xA1   [9,28] 0b 0x0 0x0 0x0 [0x1,0x64,0x88,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+GachaUnit4:
+UNIT Tana 0x48 0x1 0xA1     [14,28] 0b 0x0 0x0 0x0 [0x14,0x67,0x88,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+GachaUnit5:
+UNIT Myrrh 0x3C 0x1 0xA1    [7,27] 0b 0x0 0x0 0x0 [0xAA,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+UNIT
+
+Ch1Armoury:
+SHLI Thunder Elfire Nosferatu Divine Mend Physic PureWater Elixir
+ALIGN 4
+
+Ch1Vendor:
+SHLI SteelAxe SteelLance SteelBow SteelSword HandAxe Javelin
+ALIGN 4
