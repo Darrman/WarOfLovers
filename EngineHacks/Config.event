@@ -54,7 +54,7 @@
 #define TRAP_REWORK
 
 //If uncommented, will enable Dragon Veins.
-#define DRAGON_VEINS
+//#define DRAGON_VEINS
 
 //If uncommented, will enable Heal Tiles.
 #define HEAL_TILES
@@ -68,7 +68,7 @@
 #define EVENT_WRITER
 
 //If uncommented, will enable Freeze.
-#define FREEZE_HACK
+//#define FREEZE_HACK
 
 //If uncommented, will enable HP Bars.
 #define HP_BARS
@@ -80,7 +80,7 @@
 #define LTOGGLE_HACK
 
 //If uncommented, will enable Menu Semitransparency.
-#define SEMITRANSPARENCY_CHANGES
+//#define SEMITRANSPARENCY_CHANGES
 
 //If uncommented, will enable use of Supply during the prologue.
 #define PROLOGUE_SUPPLY
@@ -166,7 +166,7 @@
 // If uncommented, the fourth page of the stat screen will include personal information on the character.
 // This information can be edited in the "Personal Data Editor.csv" file.
 // This will automatically enable Narrow Font.
-#define ENABLE_PERSONAL_INFO
+//#define ENABLE_PERSONAL_INFO
 
 // If uncommented, the third page of the stat screen will only show weapon ranks that the unit has a rank in.
 #define ONLY_SHOW_USED_RANKS
