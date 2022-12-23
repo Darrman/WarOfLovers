@@ -39,4 +39,44 @@
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
-// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+#define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+//Characters
+#define Marth 0x01
+#define Sheeda 0x02
+#define Chiki 0x03
+#define Marich 0x04
+#define Mario 0x05
+#define Luigi 0x06
+#define Peach 0x07
+#define Bowser 0x08
+#define DK 0x0a
+#define Toad 0x0b
+#define Wario 0x0c
+#define Daisy 0x0d
+#define Yoshi 0x0e
+//Ephraim slot, avoid
+#define Waluigi 0x10
+#define Ash 0x11
+#define Misty 0x12
+#define Brock 0x13
+#define Jessie 0x14
+#define James 0x15
+#define May 0x16
+#define Dawn 0x17
+#define Serena 0x18
+#define Link 0x19
+#define Samus 0x1a
+#define Kirby 0x1b
+#define Fox 0x1c
+#define Pikachu 0x1d
+#define Falcon 0x1e
+#define Jigglypuff 0x1f
+#define Ness 0x20
+#define Paula 0x21
+#define Jeff 0x22
+#define Poo 0x23
+#define Pokey 0x24
+#define Cecil 0x25
+#define Butz 0x26
+#define Terra 0x27

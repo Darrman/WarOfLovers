@@ -34,6 +34,9 @@ $RECYCLE.BIN/
 *.sym
 !Tools/sym/*.sym
 
+# Screens, etc.
+Screenshots
+
 # python cache
 __pycache__
 
