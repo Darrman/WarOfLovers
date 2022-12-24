@@ -36,7 +36,7 @@ setMugEntry(0x9, Bowser_Mug, 3,7,3,4)
 
 DK_Mug:
 #incext PortraitFormatter "DK.png"
-setMugEntry(0xA, DK_Mug, 4,6,4,4)
+setMugEntry(0xA, DK_Mug, 2,7,3,4)
 
 Toad_Mug:
 #incext PortraitFormatter "Toad.png"
@@ -44,35 +44,35 @@ setMugEntry(0xB, Toad_Mug, 3,8,3,6)
 
 Wario_Mug:
 #incext PortraitFormatter "Wario.png"
-setMugEntry(0xC, Wario_Mug, 4,6,4,4)
+setMugEntry(0xC, Wario_Mug, 3,7,3,4)
 
 Daisy_Mug:
 #incext PortraitFormatter "Daisy.png"
-setMugEntry(0xD, Daisy_Mug, 4,6,4,4)
+setMugEntry(0xD, Daisy_Mug, 1,8,3,6)
 
 Yoshi_Mug:
 #incext PortraitFormatter "Yoshi.png"
-setMugEntry(0xE, Yoshi_Mug, 4,6,4,4)
+setMugEntry(0xE, Yoshi_Mug, 4,7,4,3)
 
 Waluigi_Mug:
 #incext PortraitFormatter "Waluigi.png"
-setMugEntry(0xF, Waluigi_Mug, 4,6,4,4)
+setMugEntry(0xF, Waluigi_Mug, 3,7,3,5)
 
 Ash_Mug:
 #incext PortraitFormatter "Ash.png"
-setMugEntry(0x10, Ash_Mug, 4,6,4,4)
+setMugEntry(0x10, Ash_Mug, 4,7,4,5)
 
 Misty_Mug:
 #incext PortraitFormatter "Misty.png"
-setMugEntry(0x11, Misty_Mug, 4,6,4,4)
+setMugEntry(0x11, Misty_Mug, 4,7,4,5)
 
 Brock_Mug:
 #incext PortraitFormatter "Brock.png"
-setMugEntry(0x12, Brock_Mug, 4,6,4,4)
+setMugEntry(0x12, Brock_Mug, 3,5,3,3)
 
 Jessie_Mug:
 #incext PortraitFormatter "Jessie.png"
-setMugEntry(0x13, Jessie_Mug, 4,6,4,4)
+setMugEntry(0x13, Jessie_Mug, 5,7,4,4)
 
 James_Mug:
 #incext PortraitFormatter "James.png"
@@ -80,75 +80,75 @@ setMugEntry(0x14, James_Mug, 4,6,4,4)
 
 May_Mug:
 #incext PortraitFormatter "May.png"
-setMugEntry(0x15, May_Mug, 4,6,4,4)
+setMugEntry(0x15, May_Mug, 4,5,4,3)
 
 Dawn_Mug:
 #incext PortraitFormatter "Dawn.png"
-setMugEntry(0x16, Dawn_Mug, 4,6,4,4)
+setMugEntry(0x16, Dawn_Mug, 3,6,3,4)
 
 Serena_Mug:
 #incext PortraitFormatter "Serena.png"
-setMugEntry(0x17, Serena_Mug, 4,6,4,4)
+setMugEntry(0x17, Serena_Mug, 4,7,4,4)
 
 Link_Mug:
 #incext PortraitFormatter "Link.png"
-setMugEntry(0xA, Link_Mug, 4,6,4,4)
+setMugEntry(0x18, Link_Mug, 2,5,3,3)
 
 Samus_Mug:
 #incext PortraitFormatter "Samus.png"
-setMugEntry(0xA, Samus_Mug, 4,6,4,4)
+setMugEntry(0x19, Samus_Mug, 4,7,4,5)
 
 Kirby_Mug:
 #incext PortraitFormatter "Kirby.png"
-setMugEntry(0xA, Kirby_Mug, 4,6,4,4)
+setMugEntry(0x1A, Kirby_Mug, 4,5,3,3)
 
 Fox_Mug:
 #incext PortraitFormatter "Fox.png"
-setMugEntry(0xA, Fox_Mug, 4,6,4,4)
+setMugEntry(0x1B, Fox_Mug, 3,7,3,5)
 
 Pikachu_Mug:
 #incext PortraitFormatter "Pikachu.png"
-setMugEntry(0xA, Pikachu_Mug, 4,6,4,4)
+setMugEntry(0x1C, Pikachu_Mug, 3,4,3,2)
 
 Falcon_Mug:
 #incext PortraitFormatter "Falcon.png"
-setMugEntry(0xA, Falcon_Mug, 4,6,4,4)
+setMugEntry(0x1D, Falcon_Mug, 3,6,3,4)
 
 Jigglypuff_Mug:
 #incext PortraitFormatter "Jigglypuff.png"
-setMugEntry(0xA, Jigglypuff_Mug, 4,6,4,4)
+setMugEntry(0x1E, Jigglypuff_Mug, 3,6,3,4)
 
 Ness_Mug:
 #incext PortraitFormatter "Ness.png"
-setMugEntry(0x5, Ness_Mug, 4,7,4,5)
+setMugEntry(0x1F, Ness_Mug, 4,7,4,5)
 
 Paula_Mug:
 #incext PortraitFormatter "Paula.png"
-setMugEntry(0xA, Paula_Mug, 4,6,4,4)
+setMugEntry(0x20, Paula_Mug, 4,7,4,5)
 
 Jeff_Mug:
 #incext PortraitFormatter "Jeff.png"
-setMugEntry(0xA, Jeff_Mug, 4,6,4,4)
+setMugEntry(0x21, Jeff_Mug, 4,7,4,4)
 
 Poo_Mug:
 #incext PortraitFormatter "Poo.png"
-setMugEntry(0xA, Poo_Mug, 4,6,4,4)
+setMugEntry(0x22, Poo_Mug, 4,7,4,5)
 
 Pokey_Mug:
 #incext PortraitFormatter "Pokey.png"
-setMugEntry(0xA, Pokey_Mug, 4,6,4,4)
+setMugEntry(0x23, Pokey_Mug, 4,7,4,3)
 
 Cecil_Mug:
 #incext PortraitFormatter "Cecil.png"
-setMugEntry(0xd, Cecil_Mug, 3,7,3,5)
+setMugEntry(0x24, Cecil_Mug, 3,7,3,5)
 
 Butz_Mug:
 #incext PortraitFormatter "Butz.png"
-setMugEntry(0x6, Butz_Mug, 5,5,5,3)
+setMugEntry(0x25, Butz_Mug, 5,5,5,3)
 
 Terra_Mug:
 #incext PortraitFormatter "Terra.png"
-setMugEntry(0xc, Terra_Mug, 3,8,3,6)
+setMugEntry(0x26, Terra_Mug, 3,8,3,6)
 
 
 //Leftovers from Evening Train Crash 2, may need in future

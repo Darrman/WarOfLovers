@@ -29,12 +29,14 @@ Height:[X]
 #0xd4f AgeText
 Age:[X]
 
-## HouseText
-//first text ID in the free block
+#0x903 HouseText
+//Main story text
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
 
 ## VillageText
 [MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+
+#include Menu/UnitName.txt
 
 ## DV1Desc
 Freeze all enemies[N]

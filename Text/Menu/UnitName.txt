@@ -1,0 +1,295 @@
+## MarthName
+Marth[X]
+
+## MarthDesc
+Emperor of Akaneia, husband of[N]
+Sheeda, Alear's ex-fiance.[N]
+He must now stablise Akaneia.[X]
+
+## SheedaName
+Sheeda[X]
+
+## SheedaDesc
+Empress of Akaneia. Charismatic[N]
+and loyal to Marth, and not afraid[N]
+to get her hands dirty when needed.[X]
+
+## ChikiName
+Chiki[X]
+
+## ChikiDesc
+Princess of the Divine Dragons.[N]
+Formerly under Alear's command,[N]
+now outgoing and friendly.[X]
+
+## MarichName
+Marich[X]
+
+## MarichDesc
+Marth's brother-in-law and leader[N]
+of the pro-Marth faction.[N]
+Values duty and family.[X]
+
+## MarioName
+Mario[X]
+
+## MarioDesc
+A plumber from Brooklyn, residing[N]
+in the Mushroom Kingdom. Races karts[N]
+and throws wild parties.[X]
+
+## LuigiName
+Luigi[X]
+
+## LuigiDesc
+Mario's brother, frequently over-[N]
+shadowed. A better jumper than[N]
+Mario, hunting ghosts on the side.[X]
+
+## PeachName
+Peach[X]
+
+## PeachDesc
+Princess of the Mushroom Kingdom.[N]
+Frequently kidnapped by Bowser,[N]
+she is feared at parties.[X]
+
+## BowserName
+Bowser[X]
+
+## BowserDesc
+King of the Koopas. Mario's main[N]
+enemy, usually aiming to kidnap[N]
+Peach or bump into Sunday drivers.[X]
+
+## DKName
+DK[X]
+
+## DKDesc
+He's the leader of the bunch, you[N]
+know him well, he's finally back[N]
+to kick some tail. Loves bananas.[X]
+
+## ToadName
+Toad[X]
+
+## ToadDesc
+He's often found in houses handing[N]
+out items or sitting in incorrect[N]
+castles. Thankful to Mario.[X]
+
+## WarioName
+Wario[X]
+
+## WarioDesc
+A treasure hunter and game developer[N]
+with land holdings including a castle[N]
+and woods. Lover of garlic.[X]
+
+## DaisyName
+Daisy[X]
+
+## DaisyDesc
+Princess of Sarasaland. Energetic and[N]
+loud, known for shouting "Hi, I'm[N]
+Daisy!" and possibly having three eyes.[X]
+
+## YoshiName
+Yoshi[X]
+
+## YoshiDesc
+Mario's steed since birth. Rumours[N]
+suggest Mario has dropped him into[N]
+many bottomless pits to save himself.[X]
+
+## WaluigiName
+Waluigi[X]
+
+## WaluigiDesc
+A tall, lean man who showed up one day[N]
+to be Wario's tennis partner. Often[N]
+seen lurking around parties and races.[X]
+
+## AshName
+Ash[X]
+
+## AshDesc
+A Pokemon Trainer from Pallet, Kanto.[N]
+Claims to be 10, but has been travelling[N]
+the world for over twenty years.[X]
+
+## MistyName
+Misty[X]
+
+## MistyDesc
+Cerulean Gym Leader. Got her bicycle[N]
+stolen by Ash the day he started his[N]
+journey. She followed him afterwards.[X]
+
+## BrockName
+Brock[X]
+
+## BrockDesc
+Pewter Gym Leader. Falls head-over-[N]
+heels in love with any cute girl.[N]
+Misty frequently drags him away.[X]
+
+## JessieName
+Jessie[X]
+
+## JessieDesc
+A Rocket grunt constantly aiming[N]
+to steal Pikachu from Ash. Likes[N]
+entering contests from time to time.[X]
+
+## JamesName
+James[X]
+
+## JamesDesc
+Jessie's partner in crime. The two[N]
+often recite a motto with Meowth and[N]
+get sent blasting off again.[X]
+
+## MayName
+May[X]
+
+## MayDesc
+A Pokemon Co-ordinator from Hoenn.[N]
+Instead of searching for power, she[N]
+prefers Pokemon with grace.[X]
+
+## DawnName
+Dawn[X]
+
+## DawnDesc
+A Co-ordinator from Sinnoh. Often[N]
+says "No need to worry!" when in a[N]
+good mood or if Ash was down.[X]
+
+## SerenaName
+Serena[X]
+
+## SerenaDesc
+A girl from Kalos, in reality France.[N]
+Met Ash before he ever left Pallet[N]
+and gave him a kiss at the end.[X]
+
+## LinkName
+Link[X]
+
+## LinkDesc
+A man reborn many times throughout[N]
+the generations, but always Hyrule's[N]
+hero. Detests all forms of pottery.[X]
+
+## SamusName
+Samus[X]
+
+## SamusDesc
+A bounty hunter. Has a bad habit of[N]
+ending her missions by destroying[N]
+the planet they took place on.[X]
+
+## KirbyName
+Kirby[X]
+
+## KirbyDesc
+First you draw a circle, then you[N]
+dot the eyes. Add a great big smile[N]
+and presto, it's Kirby! Always hungry.[X]
+
+## FoxName
+Fox[X]
+
+## FoxDesc
+Hailing from Corneria, Lylat, he[N]
+fights the mad scientist Andross.[N]
+Hates items, loves Final Destination.[X]
+
+## PikachuName
+Pikachu[X]
+
+## PikachuDesc
+The Pokemon mascot, owned by most[N]
+incarnations of Red. Often hostile[N]
+to evolving into a Raichu.[X]
+
+## FalconName
+Falcon[X]
+
+## FalconDesc
+A driver in F-Zero. Known for the[N]
+Falcon Punch and Kick and asking[N]
+people to show him their moves.[X]
+
+## JigglypuffName
+Jigglypuff[X]
+
+## JigglypuffDesc
+Known for singing abilities.[N]
+Hear her out if you don't want[N]
+your face to be covered in marker.[X]
+
+## NessName
+Ness[X]
+
+## NessDesc
+A kid from Onett, Eagleland. His[N]
+hobbies include beating people up[N]
+with a bat and saying "Okay".[X]
+
+## PaulaName
+Paula[X]
+
+## PaulaDesc
+From Twoson, she believes prayer[N]
+can solve any problem. If it fails,[N]
+PK Freeze will do just as well.[X]
+
+## JeffName
+Jeff[X]
+
+## JeffDesc
+He ditches boarding school after[N]
+hearing Paula in a dream. He also[N]
+fixes broken bazookas.[X]
+
+## PooName
+Poo[X]
+
+## PooDesc
+Prince of Dalaam. He sacrificed[N]
+everything to pass the Mu test.[N]
+He was perfectly fine afterwards.[X]
+
+## PokeyName
+Pokey[X]
+
+## PokeyDesc
+Sometimes known as Porky, this fat[N]
+and rude boy is a constant thorn in[N]
+Ness's side. Willing to spank things.[X]
+
+## CecilName
+Cecil[X]
+
+## CecilDesc
+Ex-commander of the Red Wings of[N]
+Baron. Orphaned a girl, betrayed[N]
+by his friend, got shipwrecked...[X]
+
+## ButzName
+Butz[X]
+
+## ButzDesc
+A wanderer from one place to the next.[N]
+His wandering reaches the point of[N]
+inter-dimensional travel.[X]
+
+## TerraName
+Terra[X]
+
+## TerraDesc
+A woman who knows m-m-m-m-m-magic![N]
+With magic long gone in the world,[N]
+this is an unusual occurance.[X]
