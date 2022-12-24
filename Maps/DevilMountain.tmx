@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="32" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" name="01000203" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="01000203.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Main" width="32" height="22">
+  <properties>
+   <property name="Anims1" value="5"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="2"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0xc"/>
+   <property name="MapID" value="0xb"/>
+   <property name="ObjectType" value="1"/>
+   <property name="PaletteID" value="2"/>
+   <property name="TileConfig" value="3"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzFVdsNwjAMjJoJGCISMAcfwCTAHnx2jEqVgEmASYAdcEQiudHZTRqkfpyqOnXu/GzfGNMTNuaHvpkPtRragDn4o69H22CMaXfWmLOVNSzCWXxyeFsH7PFM0xDPUr8YF+fjGrQcpLYcfhSXlIvUjvS3QIPEL+U2p58QN9Iwxn8hXAk3pQdy6pf2wVgOou+d/B6Ep82PnfNLeUC9gPhfxPsmfFgtSuZZ62OuAfFLvVe7D5Bdir90bqfqyo0/J/9L+mZFWIN9UMKPNOTsqy357Aj74OsUHVpNUe8gnY7Nhn8e6P1IONmhnzQTnTDbaPcgbVKvSLtfg5Snzg65S++t4de+d0KMPm/a/JZomHIHqlttDaZwS/fU7LaaGLh/yb/939C0fwGLilQ6
+  </data>
+ </layer>
+ <layer id="2" name="VillageDestroyed" width="32" height="22">
+  <properties>
+   <property name="Height" value="3"/>
+   <property name="ID" value="1"/>
+   <property name="Width" value="3"/>
+   <property name="X" value="16"/>
+   <property name="Y" value="12"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzcENABAUBNFNfvOoBJWgKtsCl3+Zl8x5JAAA3pWQqmuR8+/+DjeT/svf7U7SH8C/C0cUBg0=
+  </data>
+ </layer>
+ <layer id="3" name="VillageSaved" width="32" height="22">
+  <properties>
+   <property name="Height" value="1"/>
+   <property name="ID" value="2"/>
+   <property name="Width" value="1"/>
+   <property name="X" value="17"/>
+   <property name="Y" value="14"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztzjENAAAIA7AlyMc0HvbwtAqaAACNne8B0DgdYwCP
+  </data>
+ </layer>
+</map>

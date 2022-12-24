@@ -69,6 +69,8 @@ EndingScene:
 ENDA
 
 Ch1House1:
+Text(0x900)
+CALL UnitGacha
 ENDA
 
 Ch1House2:
@@ -81,8 +83,7 @@ Ch1House4:
 ENDA
 
 UnitGacha:
-//LABEL whatever
-Text(0x900)
+LABEL 10
 RANDOMNUMBER 4
 SVAL s1 0
 BEQ 100 s1 sC //unit 1
@@ -96,54 +97,64 @@ SVAL s1 4
 BEQ 104 s1 sC //unit 5
 ENDA
 
-LoadGachaUnit1:
+LoadMario:
 LABEL 100
-LOAD1 0x1 GachaUnit1
+CHECK_EXISTS Mario
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MarioUnit
 ENUN
-ENDA
+ENDB
 
-LoadGachaUnit2:
+LoadLuigi:
 LABEL 101
-LOAD1 0x1 GachaUnit2
+CHECK_EXISTS Luigi
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LuigiUnit
 ENUN
-ENDA
+ENDB
 
-LoadGachaUnit3:
+LoadPeach:
 LABEL 102
-LOAD1 0x1 GachaUnit3
+CHECK_EXISTS Peach
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PeachUnit
 ENUN
-ENDA
+ENDB
 
-LoadGachaUnit4:
+LoadBowser:
 LABEL 103
-LOAD1 0x1 GachaUnit4
+CHECK_EXISTS Bowser
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 BowserUnit
 ENUN
-ENDA
+ENDB
 
-LoadGachaUnit5:
+LoadToad:
 LABEL 104
-LOAD1 0x1 GachaUnit5
+CHECK_EXISTS Toad
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ToadUnit
 ENUN
-ENDA
+ENDB
 
-GachaUnit1:
-UNIT Seth  0x7 0x1 0xA1     [11,24] 0b 0x0 0x0 0x0 [0x1,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+MarioUnit:
+UNIT Mario Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
 UNIT
 
-GachaUnit2:
-UNIT Ephraim  0x1 0x1 0xA1  [7,24] 0b 0x0 0x0 0x0 [0x14,0x99,0x88,0x0] [0x0,0x0,0x0,0x0]
+LuigiUnit:
+UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
 UNIT
 
-GachaUnit3:
-UNIT Joshua 0x13 0x1 0xA1   [9,28] 0b 0x0 0x0 0x0 [0x1,0x64,0x88,0x0] [0x0,0x0,0x0,0x0]
+PeachUnit:
+UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
 UNIT
 
-GachaUnit4:
-UNIT Tana 0x48 0x1 0xA1     [14,28] 0b 0x0 0x0 0x0 [0x14,0x67,0x88,0x0] [0x0,0x0,0x0,0x0]
+BowserUnit:
+UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
 UNIT
 
-GachaUnit5:
-UNIT Myrrh 0x3C 0x1 0xA1    [7,27] 0b 0x0 0x0 0x0 [0xAA,0x0,0x0,0x0] [0x0,0x0,0x0,0x0]
+ToadUnit:
+UNIT Toad Rogue 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
 UNIT
 
 Ch1Armoury:

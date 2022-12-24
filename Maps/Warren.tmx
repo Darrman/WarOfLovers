@@ -5,7 +5,7 @@
  </tileset>
  <layer id="1" name="Main" width="20" height="11">
   <properties>
-   <property name="Anims1" value="0"/>
+   <property name="Anims1" value="5"/>
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="0"/>
    <property name="Main" value=""/>
@@ -16,7 +16,7 @@
    <property name="TileConfig" value="3"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxbw8jA4MyAwGsYMXENUPwrkRimB9lMdHOpYR6ymTJY9IWSaF4vE6ob0c20ZMBuDzbzQGaBMLpbQfqlGRC0ADOmmchuwOZnkB4YvsoEwWpIbHQz0eMS3bwgRgSGmQXCbTjMJGQeuvvcgPQzZlQ3IpuJLb1hM38NI6p+dAwyz4YI83BhG2gcw9xug8O/xJoFC/84RgiG8QFPbH+y
+   eJxbwcTA4MyAwCuYMHENUPwrkRimB9lMdHOpYR6ymTJY9IWSaF4vmp/RzbRkwG4PNvNAZvViCVeQfmkGBC3AjGkmshuw+RmkB4avMkGwGhIb3Uz0uEQ3L4gRgWFmgXAbDjMJmYfuPjcg/YwZ1Y3IZmJLb9jMX8GEqh8dg8yzIcI8XNgGGscwt9vg8C+xZsHCP44RgmF8ACRPfuA=
   </data>
  </layer>
  <layer id="3" name="Gates" width="20" height="11" visible="0">
