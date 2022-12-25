@@ -1,0 +1,453 @@
+UnitGacha:
+LABEL 10
+RANDOMNUMBER 31
+SVAL s1 0
+BEQ 100 s1 sC //unit 1
+SVAL s1 1
+BEQ 101 s1 sC //unit 2
+SVAL s1 2
+BEQ 102 s1 sC //unit 3
+SVAL s1 3
+BEQ 103 s1 sC //unit 4
+SVAL s1 4
+BEQ 104 s1 sC //unit 5
+SVAL s1 5
+BEQ 105 s1 sC //unit 5
+SVAL s1 6
+BEQ 106 s1 sC //unit 5
+SVAL s1 7
+BEQ 107 s1 sC //unit 5
+SVAL s1 8
+BEQ 108 s1 sC //unit 5
+SVAL s1 9
+BEQ 109 s1 sC //unit 5
+SVAL s1 10
+BEQ 110 s1 sC //unit 5
+SVAL s1 11
+BEQ 111 s1 sC //unit 5
+SVAL s1 12
+BEQ 112 s1 sC //unit 5
+SVAL s1 13
+BEQ 113 s1 sC //unit 5
+SVAL s1 14
+BEQ 114 s1 sC //unit 5
+SVAL s1 15
+BEQ 115 s1 sC //unit 5
+SVAL s1 16
+BEQ 116 s1 sC //unit 5
+SVAL s1 17
+BEQ 117 s1 sC //unit 5
+SVAL s1 18
+BEQ 118 s1 sC //unit 5
+SVAL s1 19
+BEQ 119 s1 sC //unit 5
+SVAL s1 20
+BEQ 120 s1 sC //unit 5
+SVAL s1 21
+BEQ 121 s1 sC //unit 5
+SVAL s1 22
+BEQ 122 s1 sC //unit 5
+SVAL s1 23
+BEQ 123 s1 sC //unit 5
+SVAL s1 24
+BEQ 124 s1 sC //unit 5
+SVAL s1 25
+BEQ 125 s1 sC //unit 5
+SVAL s1 26
+BEQ 126 s1 sC //unit 5
+SVAL s1 27
+BEQ 127 s1 sC //unit 5
+SVAL s1 28
+BEQ 128 s1 sC //unit 5
+SVAL s1 29
+BEQ 129 s1 sC //unit 5
+SVAL s1 30
+BEQ 130 s1 sC //unit 5
+SVAL s1 31
+BEQ 131 s1 sC //unit 5
+
+ENDA
+
+LoadMario:
+LABEL 100
+CHECK_EXISTS Mario
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MarioUnit
+ENUN
+ENDA
+
+LoadLuigi:
+LABEL 101
+CHECK_EXISTS Luigi
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LuigiUnit
+ENUN
+ENDA
+
+LoadPeach:
+LABEL 102
+CHECK_EXISTS Peach
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PeachUnit
+ENUN
+ENDA
+
+LoadBowser:
+LABEL 103
+CHECK_EXISTS Bowser
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 BowserUnit
+ENUN
+ENDA
+
+LoadToad:
+LABEL 104
+CHECK_EXISTS Toad
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ToadUnit
+ENUN
+ENDA
+
+LoadWario:
+LABEL 105
+CHECK_EXISTS Wario
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 WarioUnit
+ENUN
+ENDA
+
+LoadYoshi:
+LABEL 106
+CHECK_EXISTS Yoshi
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 YoshiUnit
+ENUN
+ENDA
+
+LoadDaisy:
+LABEL 107
+CHECK_EXISTS Daisy
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 DaisyUnit
+ENUN
+ENDA
+
+LoadWaluigi:
+LABEL 108
+CHECK_EXISTS Waluigi
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 WaluigiUnit
+ENUN
+ENDA
+
+LoadAsh:
+LABEL 109
+CHECK_EXISTS Ash
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 AshUnit
+ENUN
+ENDA
+
+LoadMisty:
+LABEL 110
+CHECK_EXISTS Misty
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MistyUnit
+ENUN
+ENDA
+
+LoadBrock:
+LABEL 111
+CHECK_EXISTS Brock
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 BrockUnit
+ENUN
+ENDA
+
+LoadJessie:
+LABEL 112
+CHECK_EXISTS Jessie
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JessieUnit
+ENUN
+ENDA
+
+LoadJames:
+LABEL 113
+CHECK_EXISTS James
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JamesUnit
+ENUN
+ENDA
+
+LoadMay:
+LABEL 114
+CHECK_EXISTS May
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MayUnit
+ENUN
+ENDA
+
+LoadDawn:
+LABEL 115
+CHECK_EXISTS Dawn
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 DawnUnit
+ENUN
+ENDA
+
+LoadSerena:
+LABEL 116
+CHECK_EXISTS Serena
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SerenaUnit
+ENUN
+ENDA
+
+LoadLink:
+LABEL 117
+CHECK_EXISTS Link
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LinkUnit
+ENUN
+ENDA
+
+LoadSamus:
+LABEL 118
+CHECK_EXISTS Samus
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SamusUnit
+ENUN
+ENDA
+
+LoadKirby:
+LABEL 119
+CHECK_EXISTS Kirby
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KirbyUnit
+ENUN
+ENDA
+
+LoadFox:
+LABEL 120
+CHECK_EXISTS Fox
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 FoxUnit
+ENUN
+ENDA
+
+LoadPikachu:
+LABEL 121
+CHECK_EXISTS Pikachu
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PikachuUnit
+ENUN
+ENDA
+
+LoadFalcon:
+LABEL 122
+CHECK_EXISTS Falcon
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 FalconUnit
+ENUN
+ENDA
+
+LoadJigglypuff:
+LABEL 123
+CHECK_EXISTS Jigglypuff
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JigglypuffUnit
+ENUN
+ENDA
+
+LoadNess:
+LABEL 124
+CHECK_EXISTS Ness
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 NessUnit
+ENUN
+ENDA
+
+LoadPaula:
+LABEL 125
+CHECK_EXISTS Paula
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PaulaUnit
+ENUN
+ENDA
+
+LoadJeff:
+LABEL 126
+CHECK_EXISTS Jeff
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JeffUnit
+ENUN
+ENDA
+
+LoadPoo:
+LABEL 127
+CHECK_EXISTS Poo
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PooUnit
+ENUN
+ENDA
+
+LoadPokey:
+LABEL 128
+CHECK_EXISTS Pokey
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PokeyUnit
+ENUN
+ENDA
+
+LoadCecil:
+LABEL 129
+CHECK_EXISTS Cecil
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 CecilUnit
+ENUN
+ENDA
+
+LoadButz:
+LABEL 130
+CHECK_EXISTS Butz
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ButzUnit
+ENUN
+ENDA
+
+LoadTerra:
+LABEL 131
+CHECK_EXISTS Terra
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 TerraUnit
+ENUN
+ENDA
+
+MarioUnit:
+UNIT Mario Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT
+
+LuigiUnit:
+UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT
+
+PeachUnit:
+UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
+UNIT
+
+BowserUnit:
+UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
+UNIT
+
+ToadUnit:
+UNIT Toad Rogue 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
+UNIT
+
+WarioUnit:
+UNIT Wario GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary] NoAI
+UNIT
+
+DaisyUnit:
+UNIT Daisy Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Heal] NoAI
+UNIT
+
+YoshiUnit:
+UNIT Yoshi Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Javelin] NoAI
+UNIT
+
+WaluigiUnit:
+UNIT Waluigi GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance] NoAI
+UNIT
+
+AshUnit:
+UNIT Ash Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe] NoAI
+UNIT
+
+MistyUnit:
+UNIT Misty Ranger_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Longbow, Vulnerary] NoAI
+UNIT
+
+BrockUnit:
+UNIT Brock Warrior 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow] NoAI
+UNIT
+
+JessieUnit:
+UNIT Jessie FalcoKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, Vulnerary] NoAI
+UNIT
+
+JamesUnit:
+UNIT James WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, Vulnerary] NoAI
+UNIT
+
+MayUnit:
+UNIT May Swordmaster_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI
+UNIT
+
+DawnUnit:
+UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Physic, Divine] NoAI
+UNIT
+
+SerenaUnit:
+UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, Javelin] NoAI
+UNIT
+
+LinkUnit:
+UNIT Link Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [BraveSword, Halberd] NoAI
+UNIT
+
+SamusUnit:
+UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
+UNIT
+
+KirbyUnit:
+UNIT Kirby Druid 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fenrir, Heal] NoAI
+UNIT
+
+FoxUnit:
+UNIT Fox Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI
+UNIT
+
+PikachuUnit:
+UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Bolting, Thunder] NoAI
+UNIT
+
+FalconUnit:
+UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer] NoAI
+UNIT
+
+JigglypuffUnit:
+UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Sleep, Mend] NoAI
+UNIT
+
+NessUnit:
+UNIT Ness MageKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Mend] NoAI
+UNIT
+
+PaulaUnit:
+UNIT Paula Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire] NoAI
+UNIT
+
+JeffUnit:
+UNIT Jeff Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI
+UNIT
+
+PooUnit:
+UNIT Poo Swordmaster 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge, Vulnerary] NoAI
+UNIT
+
+PokeyUnit:
+UNIT Pokey General 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato] NoAI
+UNIT
+
+CecilUnit:
+UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+UNIT
+
+ButzUnit:
+UNIT Butz WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
+UNIT
+
+TerraUnit:
+UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
+UNIT

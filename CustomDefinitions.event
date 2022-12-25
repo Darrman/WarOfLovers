@@ -80,3 +80,12 @@
 #define Cecil 0x24
 #define Butz 0x25
 #define Terra 0x26
+
+//Enemies
+#define Lucina 0x50
+#define Lyn 0x51
+#define Leaf 0x52
+#define Byleth 0x53
+#define Alear 0x54
+#define Alear2 0x55
+#define Kris 0x56

@@ -1,0 +1,87 @@
+EventPointerTable(0xA, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [9,23] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [8,25] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [6,25] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [7,26] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [12,25] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [11,24] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT
+
+Bad:
+UNIT Lyn Sniper_F 0x00 Level(7,Enemy,0) [13,14] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
+UNIT 0x81 General Lyn Level(6,Enemy,1) [13,15] 0x0 0x0 0x0 0x0 [SilverAxe, Tomahawk] NeverMoveAI
+UNIT 0x81 Sniper  Lyn Level(3,Enemy,1) [11,15] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
+UNIT 0x81 Paladin Lyn Level(2,Enemy,1) [6,1] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT 0x81 Paladin Lyn Level(2,Enemy,1) [7,2] DropItem 0x0 0x0 0x0 [Javelin] ChaseOnceApproachedAI
+UNIT 0x81 Paladin Lyn Level(2,Enemy,1) [8,1] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT 0x81 Paladin Lyn Level(2,Enemy,1) [9,2] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT 0x81 Paladin Lyn Level(2,Enemy,1) [10,1] DropItem 0x0 0x0 0x0 [SilverSword] ChaseOnceApproachedAI
+UNIT 0x81 General Lyn Level(6,Enemy,1) [13,8] 0x0 0x0 0x0 0x0 [SteelAxe] NeverMoveAI
+UNIT 0x81 Warrior Lyn Level(2,Enemy,1) [9,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT 0x81 Sage    Lyn Level(2,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT 0x81 Sage    Lyn Level(2,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT 0x81 Paladin Lyn Level(2,Enemy,1) [1,19] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT 0x81 Soldier Lyn Level(20,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [SilverLance] ChaseOnceApproachedAI
+UNIT 0x81 Soldier Lyn Level(20,Enemy,1) [13,19] 0x0 0x0 0x0 0x0 [KillerLance] ChaseOnceApproachedAI
+UNIT 0x81 Soldier Lyn Level(20,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [SilverLance] ChaseOnceApproachedAI
+UNIT 0x81 Soldier Lyn Level(20,Enemy,1) [5,23] DropItem 0x0 0x0 0x0 [ShortSpear, RedGem] ChaseOnceApproachedAI
+UNIT 0x81 Brigand Lyn Level(20,Enemy,1) [8,13] 0x0 0x0 0x0 0x0 [SilverAxe] ChaseOnceApproachedAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+ENDA
+
+EndingScene:
+MNCH 0x2
+ENDA
+

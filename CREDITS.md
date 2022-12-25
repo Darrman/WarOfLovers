@@ -42,6 +42,12 @@
 - Butz: Final Fantasy 5 mobile (Darrman)
 - Terra: Final Fantasy 6 (Darrman)
 
+- Lucina: TheImperialKnight
+- Lyn: FE7
+- Leaf: FE4 (Darrman)
+- Byleth: FE16 (Darrman)
+- Alear: Jey the Count
+
 # Skill System Credits:
 
 ## Skill contributors

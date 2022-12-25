@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0,Turn2ActivateGacha,2)
 END_MAIN
 
 CharacterBasedEvents:
@@ -29,6 +30,7 @@ House(0,Ch1House4,14,7)
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -45,11 +47,16 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Eirika  0x2 0x1 0xA1   [10,7] 0b 0x0 0x0 0x0 [0x1,0x98,0x88,0x0] [0x0,0x0,0x0,0x0]
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT
 
 Bad:
-UNIT ONeill Fighter 0x40 0xA5     [2,1] 0b 0x0 0x0 0x0 [SteelAxe, HandAxe] AttackInRangeAI
+UNIT Lucina Swordmaster_F 0x00 Level(5,Enemy,0) [2,0] 0x0 0x0 0x0 0x0 [SilverSword, LightBrand] AttackInRangeAI
+UNIT 0x80 Warrior Lucina Level(1,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT 0x80 Warrior Lucina Level(1,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT 0x80 Sniper  Lucina Level(1,Enemy,1) [5,4] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT 0x80 General Lucina Level(1,Enemy,1) [3,2] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT 0x80 Fleet   Lucina Level(1,Enemy,1) [12,1] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
 UNIT
 
 Traps1:
@@ -66,11 +73,42 @@ LOAD1 0x1 Bad
 ENDA
 
 EndingScene:
+MNCH 0x1
+ENDA
+
+Turn2ActivateGacha:
+SVAL sB 0x00110007
+CALL UnitGacha
+CURSOR_FLASHING [-1,-1]
+STAL 30
+REMOVE_CURSORS
+MOVE_1STEP 10 0xFFFE 0 //speed/unit/dir
+
+CALL UnitGacha
+STAL 10
+CURSOR_FLASHING [-1,-1]
+STAL 30
+REMOVE_CURSORS
+MOVE_1STEP 10 0xFFFE 1
+
+CALL UnitGacha
+STAL 10
+CURSOR_FLASHING [-1,-1]
+STAL 30
+REMOVE_CURSORS
+MOVE_1STEP 10 0xFFFE 2
+
+CALL UnitGacha
+STAL 10
+CURSOR_FLASHING [-1,-1]
+STAL 30
+REMOVE_CURSORS
+MOVE_1STEP 10 0xFFFE 3
+
+CALL UnitGacha
 ENDA
 
 Ch1House1:
-Text(0x900)
-CALL UnitGacha
 ENDA
 
 Ch1House2:
@@ -82,85 +120,11 @@ ENDA
 Ch1House4:
 ENDA
 
-UnitGacha:
-LABEL 10
-RANDOMNUMBER 4
-SVAL s1 0
-BEQ 100 s1 sC //unit 1
-SVAL s1 1
-BEQ 101 s1 sC //unit 2
-SVAL s1 2
-BEQ 102 s1 sC //unit 3
-SVAL s1 3
-BEQ 103 s1 sC //unit 4
-SVAL s1 4
-BEQ 104 s1 sC //unit 5
-ENDA
-
-LoadMario:
-LABEL 100
-CHECK_EXISTS Mario
-BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 MarioUnit
-ENUN
-ENDB
-
-LoadLuigi:
-LABEL 101
-CHECK_EXISTS Luigi
-BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 LuigiUnit
-ENUN
-ENDB
-
-LoadPeach:
-LABEL 102
-CHECK_EXISTS Peach
-BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 PeachUnit
-ENUN
-ENDB
-
-LoadBowser:
-LABEL 103
-CHECK_EXISTS Bowser
-BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 BowserUnit
-ENUN
-ENDB
-
-LoadToad:
-LABEL 104
-CHECK_EXISTS Toad
-BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 ToadUnit
-ENUN
-ENDB
-
-MarioUnit:
-UNIT Mario Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
-UNIT
-
-LuigiUnit:
-UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
-UNIT
-
-PeachUnit:
-UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
-UNIT
-
-BowserUnit:
-UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
-UNIT
-
-ToadUnit:
-UNIT Toad Rogue 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
-UNIT
 
 Ch1Armoury:
-SHLI Thunder Elfire Nosferatu Divine Mend Physic PureWater Elixir
+SHLI IronSword SteelSword IronLance SteelLance IronAxe SteelAxe IronBow SteelBow
 ALIGN 4
 
 Ch1Vendor:
-SHLI SteelAxe SteelLance SteelBow SteelSword HandAxe Javelin
+SHLI Fire Thunder Lightning Shine Flux Heal Mend Vulnerary PureWater
 ALIGN 4

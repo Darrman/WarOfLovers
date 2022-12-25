@@ -1,4 +1,20 @@
+#include Gacha.event
 {
 #include "Chapter1.event"
 }
 #include "WorldMapEvents.event"
+{
+#include "Chapter2.event"
+}
+{
+#include "Chapter3.event"
+}
+{
+#include "Chapter4.event"
+}
+{
+#include "Chapter5-1.event"
+}
+{
+#include "Chapter5-2.event"
+}
