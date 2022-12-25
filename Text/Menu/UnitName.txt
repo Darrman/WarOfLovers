@@ -293,3 +293,71 @@ Terra[X]
 A woman who knows m-m-m-m-m-magic![N]
 With magic long gone in the world,[N]
 this is an unusual occurance.[X]
+
+// Extra playables go here
+
+## LucinaName
+Lucina[X]
+
+## LucinaDesc
+Claims to be from 2000 years in the[N]
+future. More notable for being a Marth[N]
+imposter. Emblem of Awakening.[X]
+
+## LynName
+Lyn[X]
+
+## LynDesc
+The lord of the slowest tutorial in[N]
+all Fire Emblem. Her strength leaves[N]
+much to be desired. Emblem of FE7.[X]
+
+## LeafName
+Leaf[X]
+
+## LeafDesc
+King of New Thracia, or Lenster. Has[N]
+a working knowledge of almost every[N]
+weapon ever invented. Emblem of FE5.[X]
+
+## BylethName
+Byleth[X]
+
+## BylethDesc
+His family tree can be described as[N]
+circular. Got his job via nepotism and[N]
+often goes fishing. Emblem of 3H.[X]
+
+## AlearName
+Alear[X]
+
+## AlearDesc
+A Divine Dragon, princess of Lythos,[N]
+Elyos. Takes historical figures and[N]
+makes them fight for her.[X]
+
+## Alear2Desc
+Alear in her true form. Revered as the[N]
+"Divine One" in Lythos and has no respect[N]
+in the interests of lands beyond Elyos.[X]
+
+## KrisName
+Kris[X]
+
+## KrisDesc
+Claims to be head of Marth's royal guards.[N]
+He also claims he defended Marth from[N]
+assassins throughout the War of Heroes.[X]
+
+## KrisFactionName
+Kris's[X]
+
+## KrisFactionDesc
+A soldier who supports Kris in[N]
+the Akaneian civil war.[X]
+
+## LythosName
+Lythos[X]
+
+## LythosDesc
+A soldier of Lythos, Alear's homeland.[X]

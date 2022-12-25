@@ -150,7 +150,29 @@ Terra_Mug:
 #incext PortraitFormatter "Terra.png"
 setMugEntry(0x26, Terra_Mug, 3,8,3,6)
 
+Lucina_Mug:
+#incext PortraitFormatter "Lucina.png"
+setMugEntry(0x27, Lucina_Mug, 4,6,4,4)
 
+Lyn_Mug:
+#incext PortraitFormatter "Lyn.png"
+setMugEntry(0x28, Lyn_Mug, 2,6,3,4)
+
+Leaf_Mug:
+#incext PortraitFormatter "Leaf.png"
+setMugEntry(0x29, Leaf_Mug, 4,7,3,5)
+
+Byleth_Mug:
+#incext PortraitFormatter "Byleth.png"
+setMugEntry(0x2A, Byleth_Mug, 4, 7, 4, 4)
+
+Alear_Mug:
+#incext PortraitFormatter "Alear.png"
+setMugEntry(0x2B, Alear_Mug, 3,5,3,3)
+
+Kris_Mug:
+#incext PortraitFormatter "Kris.png"
+setMugEntry(0x2C, Kris_Mug, 4,5,4,3)
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"
@@ -259,10 +281,6 @@ setMugEntry(0x26, Terra_Mug, 3,8,3,6)
 //Elise_Mug:
 //#incext PortraitFormatter "Elise.png"
 //setMugEntry(0x40, Elise_Mug, 2, 6, 2, 4)
-//
-//Byleth_Mug:
-//#incext PortraitFormatter "Byleth.png"
-//setMugEntry(0x41, Byleth_Mug, 4, 7, 4, 4)
 //
 //Corrin_Mug:
 //#incext PortraitFormatter "Corrin.png"

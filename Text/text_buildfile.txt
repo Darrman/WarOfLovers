@@ -38,6 +38,9 @@ Age:[X]
 
 #include Menu/UnitName.txt
 
+#include Quotes/BossQuotes.txt
+#include Quotes/DeathQuotes.txt
+
 ## DV1Desc
 Freeze all enemies[N]
 for one turn[X]

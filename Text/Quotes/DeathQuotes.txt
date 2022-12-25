@@ -1,0 +1,31 @@
+## LucinaDeath
+[ML][LoadLucina]
+Father... I'm sorry...[N]
+Forgive me... Marth...[A][X]
+
+## LynDeath
+[ML][LoadLyn]
+Ow... I'm free again.[N]
+Hector, Eliwood, Florina...[AN]
+Good luck. I won't see you[N]
+or the plains of Sacae...[A][X]
+
+## LeafDeath
+[ML][LoadLeaf]
+Well done... You beat me...[N]
+I'm... not long for this[AN]
+world. Get to Talis as fast[N]
+as you can... Alear awaits.[AN]
+Nanna, please forgive me.[N]
+I love you...[A][X]
+
+## BylethDeath
+[ML][LoadByleth]
+Urgh... You're strong...[N]
+if you can beat me...[AN]
+I hope Fodlan is in a good[N]
+state... without me...[A][X]
+
+## AlearDeath
+[ML][LoadAlear]
+What? No! Impossible![A][X]
