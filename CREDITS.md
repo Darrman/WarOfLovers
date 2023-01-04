@@ -48,6 +48,15 @@
 - Byleth: FE16 (Darrman)
 - Alear: Jey the Count
 
+# Maps:
+
+- Warren: FE1 Ch8 (Darrman)
+- Lefcandy: FE1 Ch7 (Glaceo for GFE1R)
+- Devil Mountain: FE1 Ch3 (Sme, Nickt for GFE1R)
+- Garda: FE1 Ch2 (Kirb, Nickt for GFE1R)
+- Talis Castle: Darrman
+- Talis: FE1 Ch1 (Kirb, Nickt for GFE1R)
+
 # Skill System Credits:
 
 ## Skill contributors
