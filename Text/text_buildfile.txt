@@ -37,6 +37,8 @@ Age:[X]
 [MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
 
 #include Menu/UnitName.txt
+#include Menu/ClassName.txt
+#include Menu/ItemName.txt
 
 #include Quotes/BossQuotes.txt
 #include Quotes/DeathQuotes.txt

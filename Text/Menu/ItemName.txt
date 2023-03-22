@@ -1,0 +1,124 @@
+## FalchionName
+Falchion[X]
+
+## FalchionDesc
+Sword of Light. Marth, eff. dragons.[X]
+
+## MiracleSwordName
+Miracle Sword[X]
+
+## MiracleSwordDesc
+The legendary sword. 2x EXP.[X]
+
+## GradiusName
+Gradius[X]
+
+## GradiusDesc
+Said to crush rock. 2x EXP.[X]
+
+## PartiaDesc
+Shoots flaming arrows. 2x EXP.[X]
+
+## StarlightName
+Starlight[X]
+
+## StarlightDesc
+Pierces Maph's protection.[X]
+
+## DivineStoneName
+Divine Stone[X]
+
+## DivineStoneDesc
+//Transform Chiki into Divine[N]
+//Dragon form.[X]
+Chiki only; effective vs. dragons.[X]
+
+## MasterSwordName
+Master Sword[X]
+
+## MasterSwordDesc
+Very high critical hit rate.[X]
+
+## ThunderSwordName
+Thunder Sw.[X]
+
+## ThunderSwordDesc
+Shoots lightning at foes.[X]
+
+## QuickRainName
+Quick Rain[X]
+
+## StonehedgeName
+Stonehedge[X]
+
+## ThunderboltName
+Thunderbolt[X]
+
+## FireGunName
+Fire Gun[X]
+
+## ElephantName
+Elephant[X]
+
+## ThoronName
+Thoron[X]
+
+## BlizzardName
+Blizzard[X]
+
+## BolganoneName
+Bolganone[X]
+
+## MeteorName
+Meteor[X]
+
+## ShaverName
+Shaver[X]
+
+## ResireName
+Resire[X]
+
+## DulamName
+Dulam[X]
+
+## MaphName
+Maph[X]
+
+## MaphDesc
+Garnef's corrupt magic. Immune to harm.[X]
+
+## WingSpearName
+Wing Spear[X]
+
+## WingSpearDesc
+Effective vs. mounts/armour. Sheeda only.[X]
+
+## RapierDesc
+Effective vs. mounts/armour. Marth only.[X]
+
+## LadySwordName
+Lady Sword[X]
+
+## LadySwordDesc
+Effective against outlaws. Women only.[X]
+
+## AgainName
+Again[X]
+
+## AgainDesc
+Allows all allies to move again.[X]
+
+## IotesShieldName
+Iote's Shield[X]
+
+## FireBreathName
+Fire Breath[X]
+
+## IceBreathName
+Ice Breath[X]
+
+## MistBreathName
+Mist Breath[X]
+
+## DarkBreathName
+Dark Breath[X]

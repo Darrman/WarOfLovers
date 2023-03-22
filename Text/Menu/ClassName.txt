@@ -1,0 +1,53 @@
+## DragonKnightName
+Dragon Kn.[X]
+
+## HorsemanName
+Horseman[X]
+
+## ArmourKnightName
+Armour Kn.[X]
+
+## KnightName
+Knight[X]
+
+## KnightDesc
+A soldier who has dismounted.[N]
+Uses swords.[X]
+
+## HunterName
+Hunter[X]
+
+## HunterDesc
+A bow user who is skilled at[N]
+combat in rough terrain.[X]
+
+## MamkuteName
+Mamkute[X]
+
+## FireDragonName
+Fire Dragon[X]
+
+## IceDragonName
+Ice Dragon[X]
+
+## DemonDragonName
+Demon Dragon[X]
+
+## FlyingDragonName
+Flying Dragon[X]
+
+## DivineDragonName
+Divine Dragon[X]
+
+## EarthDragonName
+Earth Dragon[X]
+
+## DarkDragonName
+Dark Dragon[X]
+
+## StarLordName
+Star Lord[X]
+
+## StarLordDesc
+A name given to the liberator of[N]
+Aritia from the Durhuan Empire.[X]
