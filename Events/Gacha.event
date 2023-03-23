@@ -74,6 +74,7 @@ CHECK_EXISTS Mario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MarioUnit
 ENUN
+SVAL s2 Mario
 ENDA
 
 LoadLuigi:
@@ -82,6 +83,7 @@ CHECK_EXISTS Luigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LuigiUnit
 ENUN
+SVAL s2 Luigi
 ENDA
 
 LoadPeach:
@@ -90,6 +92,7 @@ CHECK_EXISTS Peach
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PeachUnit
 ENUN
+SVAL s2 Peach
 ENDA
 
 LoadBowser:
@@ -98,6 +101,7 @@ CHECK_EXISTS Bowser
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BowserUnit
 ENUN
+SVAL s2 Bowser
 ENDA
 
 LoadToad:
@@ -106,6 +110,7 @@ CHECK_EXISTS Toad
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ToadUnit
 ENUN
+SVAL s2 Toad
 ENDA
 
 LoadWario:
@@ -114,6 +119,7 @@ CHECK_EXISTS Wario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WarioUnit
 ENUN
+SVAL s2 Wario
 ENDA
 
 LoadYoshi:
@@ -122,6 +128,7 @@ CHECK_EXISTS Yoshi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 YoshiUnit
 ENUN
+SVAL s2 Yoshi
 ENDA
 
 LoadDaisy:
@@ -130,6 +137,7 @@ CHECK_EXISTS Daisy
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DaisyUnit
 ENUN
+SVAL s2 Daisy
 ENDA
 
 LoadWaluigi:
@@ -138,6 +146,7 @@ CHECK_EXISTS Waluigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WaluigiUnit
 ENUN
+SVAL s2 Waluigi
 ENDA
 
 LoadAsh:
@@ -146,6 +155,7 @@ CHECK_EXISTS Ash
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 AshUnit
 ENUN
+SVAL s2 Ash
 ENDA
 
 LoadMisty:
@@ -154,6 +164,7 @@ CHECK_EXISTS Misty
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MistyUnit
 ENUN
+SVAL s2 Misty
 ENDA
 
 LoadBrock:
@@ -162,6 +173,7 @@ CHECK_EXISTS Brock
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BrockUnit
 ENUN
+SVAL s2 Brock
 ENDA
 
 LoadJessie:
@@ -170,6 +182,7 @@ CHECK_EXISTS Jessie
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JessieUnit
 ENUN
+SVAL s2 Jessie
 ENDA
 
 LoadJames:
@@ -178,6 +191,7 @@ CHECK_EXISTS James
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JamesUnit
 ENUN
+SVAL s2 James
 ENDA
 
 LoadMay:
@@ -186,6 +200,7 @@ CHECK_EXISTS May
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MayUnit
 ENUN
+SVAL s2 May
 ENDA
 
 LoadDawn:
@@ -194,6 +209,7 @@ CHECK_EXISTS Dawn
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DawnUnit
 ENUN
+SVAL s2 Dawn
 ENDA
 
 LoadSerena:
@@ -202,6 +218,7 @@ CHECK_EXISTS Serena
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SerenaUnit
 ENUN
+SVAL s2 Serena
 ENDA
 
 LoadLink:
@@ -210,6 +227,7 @@ CHECK_EXISTS Link
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LinkUnit
 ENUN
+SVAL s2 Link
 ENDA
 
 LoadSamus:
@@ -218,6 +236,7 @@ CHECK_EXISTS Samus
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SamusUnit
 ENUN
+SVAL s2 Samus
 ENDA
 
 LoadKirby:
@@ -226,6 +245,7 @@ CHECK_EXISTS Kirby
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 KirbyUnit
 ENUN
+SVAL s2 Kirby
 ENDA
 
 LoadFox:
@@ -234,6 +254,7 @@ CHECK_EXISTS Fox
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FoxUnit
 ENUN
+SVAL s2 Fox
 ENDA
 
 LoadPikachu:
@@ -242,6 +263,7 @@ CHECK_EXISTS Pikachu
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PikachuUnit
 ENUN
+SVAL s2 Pikachu
 ENDA
 
 LoadFalcon:
@@ -250,6 +272,7 @@ CHECK_EXISTS Falcon
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FalconUnit
 ENUN
+SVAL s2 Falcon
 ENDA
 
 LoadJigglypuff:
@@ -258,6 +281,7 @@ CHECK_EXISTS Jigglypuff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JigglypuffUnit
 ENUN
+SVAL s2 Jigglypuff
 ENDA
 
 LoadNess:
@@ -266,6 +290,7 @@ CHECK_EXISTS Ness
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 NessUnit
 ENUN
+SVAL s2 Ness
 ENDA
 
 LoadPaula:
@@ -274,6 +299,7 @@ CHECK_EXISTS Paula
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PaulaUnit
 ENUN
+SVAL s2 Paula
 ENDA
 
 LoadJeff:
@@ -282,6 +308,7 @@ CHECK_EXISTS Jeff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JeffUnit
 ENUN
+SVAL s2 Jeff
 ENDA
 
 LoadPoo:
@@ -290,6 +317,7 @@ CHECK_EXISTS Poo
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PooUnit
 ENUN
+SVAL s2 Poo
 ENDA
 
 LoadPokey:
@@ -298,6 +326,7 @@ CHECK_EXISTS Pokey
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PokeyUnit
 ENUN
+SVAL s2 Pokey
 ENDA
 
 LoadCecil:
@@ -306,6 +335,7 @@ CHECK_EXISTS Cecil
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 CecilUnit
 ENUN
+SVAL s2 Cecil
 ENDA
 
 LoadButz:
@@ -314,6 +344,7 @@ CHECK_EXISTS Butz
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ButzUnit
 ENUN
+SVAL s2 Butz
 ENDA
 
 LoadTerra:
@@ -322,6 +353,7 @@ CHECK_EXISTS Terra
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 TerraUnit
 ENUN
+SVAL s2 Terra
 ENDA
 
 MarioUnit:

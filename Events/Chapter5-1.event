@@ -59,5 +59,6 @@ LOAD1 0x1 Bad
 ENDA
 
 EndingScene:
+MNC3 0x6
 ENDA
 

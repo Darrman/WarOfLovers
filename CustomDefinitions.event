@@ -89,3 +89,42 @@
 #define Alear 0x54
 #define Alear2 0x55
 #define Kris 0x56
+
+#define KrisFaction 0x80
+#define Lythos 0x81
+#define Samsian 0x82
+#define Akaneia 0x83
+
+//Classes
+#undef Knight
+#define StarLord EphraimMasterLord
+#define ArmourKnight 0x9
+#define DragonKnight WyvernLord
+#define DragonKnight_F WyvernLord_F
+#define Mamkute Manakete
+#define Mamkute_F Manakete_F
+#define Horseman Ranger
+#define KnightCavalier 0x37
+#define KnightPegasus 0x38
+#define KnightPaladin 0x39
+#define KnightDragon 0x3A
+#define KnightFalcon 0x3D
+#define KnightPaladin_F 0x3E
+#define KnightCavalier_F 0x47
+
+//Items
+#define MiracleSword Audhulma
+#define Gradius Vidofnir
+#define Partia Nidhogg
+#define Falchion Sieglinde
+#define Blizzard Fimbulvetr
+#define Meteor Shine
+#define Shaver Divine
+#define Starlight 0x44
+#define Resire Nosferatu
+#define Dulam Eclipse
+#define Maph Gleipnir
+#define IotesShield FiliShield
+#define WingSpear Reginleif
+#define FireGun 0x98
+#define Elephant 0x99
