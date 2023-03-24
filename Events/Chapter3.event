@@ -39,11 +39,53 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [4,9] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [3,10] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [5,10] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,7] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [2,6] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [4,5] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,7] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [5,12] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,10] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
 UNIT
 
 Bad:
-UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,14] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
+UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
+UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [15,15] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [17,15] DropItem 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [16,13] DropItem 0x0 0x0 0x0 [ThunderSword] PursueWithoutHeedAI
+UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT KrisFaction GreatKnight 0x00 Level(3,Enemy,1) [20,13] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT KrisFaction GreatKnight 0x00 Level(3,Enemy,1) [20,14] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT KrisFaction Horseman 0x00 Level(3,Enemy,1) [21,14] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT KrisFaction Horseman 0x00 Level(3,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT KrisFaction Horseman 0x00 Level(3,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [KillerBow] PursueWithoutHeedAI
+UNIT KrisFaction General 0x00 Level(3,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
+UNIT KrisFaction Hero 0x00 Level(3,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT KrisFaction Sniper 0x00 Level(3,Enemy,1) [7,17] 0x0 0x0 0x0 0x0 [SteelBow, SecretBook] AttackInRangeAI
+UNIT KrisFaction Warrior 0x00 Level(3,Enemy,1) [25,15] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT
+
+BadBandits:
+UNIT Samsian Berserker 0x00 Level(1,Enemy,1) [21,6] DropItem 0x0 0x0 0x0 [SilverAxe, BlueGem] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [19,2] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [8,2] 0x0 0x0 0x0 0x0 [DevilAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Samsian Hunter 0x00 Level(15,Enemy,1) [20,8] 0x0 0x0 0x0 0x0 [SteelBow] ChaseOnceApproachedAI
+UNIT Samsian Thief 0x00 Level(15,Enemy,1) [22,2] 0x0 0x0 0x0 0x0 [SteelSword] StealingThiefAI
+UNIT
+
+BadNearLeaf:
+UNIT KrisFaction General 0x00 Level(3,Enemy,1) [28,9] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
+UNIT KrisFaction Hero 0x00 Level(5,Enemy,1) [25,14] DropItem 0x0 0x0 0x0 [Tomahawk] AttackInRangeAI
+UNIT KrisFaction Hero 0x00 Level(5,Enemy,1) [29,11] 0x0 0x0 0x0 0x0 [BraveAxe] AttackInRangeAI
+UNIT KrisFaction Paladin 0x00 Level(5,Enemy,1) [28,14] DropItem 0x0 0x0 0x0 [BraveLance] AttackInRangeAI
+UNIT KrisFaction Valkyrie 0x00 Level(5,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [Resire, Physic] HealUnits
 UNIT
 
 Traps1:
@@ -57,6 +99,8 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 BadBandits
+LOAD1 0x1 BadNearLeaf
 ENDA
 
 EndingScene:
