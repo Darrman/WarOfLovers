@@ -36,6 +36,10 @@ $RECYCLE.BIN/
 
 # Screens, etc.
 Screenshots
+*.png
+!Graphics/*.png
+!Mugs/*.png
+!Maps/*.png
 
 # python cache
 __pycache__

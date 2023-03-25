@@ -16,6 +16,9 @@ Gradius[X]
 ## GradiusDesc
 Said to crush rock. 2x EXP.[X]
 
+## PartiaName
+Partia[X]
+
 ## PartiaDesc
 Shoots flaming arrows. 2x EXP.[X]
 
@@ -122,3 +125,40 @@ Mist Breath[X]
 
 ## DarkBreathName
 Dark Breath[X]
+
+## PowerRingName
+Power Ring[X]
+
+## SpeedRingName
+Speed Ring[X]
+
+## BootsName
+Boots[X]
+
+## PowerRingDesc
+Increases strength by 4 points.[N]
+Vanishes after use.[X]
+
+## SecretBookDesc
+Increases skill by 5 points.[N]
+Vanishes after use.[X]
+
+## SpeedRingDesc
+Increases speed by 5 points.[N]
+Vanishes after use.[X]
+
+## GoddessIconDesc
+Increases luck by 5 points.[N]
+Vanishes after use.[X]
+
+## DragonShieldDesc
+Increases defence by 4 points.[N]
+Vanishes after use.[X]
+
+## TalismanDesc
+Increases resistance by 3 points.[N]
+Vanishes after use.[X]
+
+## BootsDesc
+Increases movement by 4 points.[N]
+Vanishes after use.[X]

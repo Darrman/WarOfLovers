@@ -55,3 +55,4 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 #endif
 
 #include SupportsEndings.event
+#include StatBoostPointers.event

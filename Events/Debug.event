@@ -36,9 +36,9 @@ ENDA
 
 //ORG $8D118C
 DebugUnitsFE:
-UNIT Marth StarLord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, Vulnerary] NoAI
-UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, Vulnerary] NoAI
-UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
+UNIT Marth StarLord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, Warp] NoAI
 UNIT
 
 DebugUnitsMario:
