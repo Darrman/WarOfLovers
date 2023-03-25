@@ -102,8 +102,10 @@
 #define DragonKnight WyvernLord
 #define DragonKnight_F WyvernLord_F
 #define Mamkute Manakete
-#define Mamkute_F Manakete_F
+#define Mamkute_F Manakete_2_F
 #define Horseman Ranger
+#define Hunter Archer_F
+#define HunterT2 Ranger_F
 #define KnightCavalier 0x37
 #define KnightPegasus 0x38
 #define KnightPaladin 0x39
@@ -128,3 +130,5 @@
 #define WingSpear Reginleif
 #define FireGun 0x98
 #define Elephant 0x99
+#define DivineStone HolyDragonStone
+#define ThunderSword LightBrand

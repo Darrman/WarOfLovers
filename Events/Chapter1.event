@@ -69,6 +69,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MNC2 0x3C
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 ENDA

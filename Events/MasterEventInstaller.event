@@ -1,5 +1,8 @@
 #include Gacha.event
 {
+#include "Debug.event"
+}
+{
 #include "Chapter1.event"
 }
 #include "WorldMapEvents.event"
