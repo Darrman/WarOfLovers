@@ -1,0 +1,255 @@
+#define CharacterSupport(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportBases(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+#define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
+
+MarthSupports:
+CharacterSupport(Sheeda, Chiki, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+SheedaSupports:
+CharacterSupport(Marth, Chiki, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+ChikiSupports:
+CharacterSupport(Marth, Sheeda, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+MarioSupports:
+CharacterSupport(Peach, Luigi, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+LuigiSupports:
+CharacterSupport(Daisy, Mario, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+PeachSupports:
+CharacterSupport(Mario, Daisy, Toad, 0, 0, 0, 0)
+SupportBases(241, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+BowserSupports:
+CharacterSupport(DK, Wario, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+DKSupports:
+CharacterSupport(Bowser, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+ToadSupports:
+CharacterSupport(Peach, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+WarioSupports:
+CharacterSupport(Waluigi, Bowser, 0, 0, 0, 0, 0)
+SupportBases(241, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+DaisySupports:
+CharacterSupport(Luigi, Peach, 0, 0, 0, 0, 0)
+SupportBases(241, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+YoshiSupports:
+CharacterSupport(Link, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+WaluigiSupports:
+CharacterSupport(Wario, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+AshSupports:
+CharacterSupport(Misty, Brock, Pikachu, 0, 0, 0, 0)
+SupportBases(161, 161, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+MistySupports:
+CharacterSupport(Ash, Brock, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+BrockSupports:
+CharacterSupport(Ash, Misty, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+JessieSupports:
+CharacterSupport(James, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+JamesSupports:
+CharacterSupport(Jessie, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+MaySupports:
+CharacterSupport(Dawn, Serena, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+DawnSupports:
+CharacterSupport(May, Serena, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+SerenaSupports:
+CharacterSupport(May, Dawn, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+LinkSupports:
+CharacterSupport(Yoshi, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+SamusSupports:
+CharacterSupport(Falcon, Pikachu, 0, 0, 0, 0, 0)
+SupportBases(241, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+KirbySupports:
+CharacterSupport(Jigglypuff, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+FoxSupports:
+CharacterSupport(Pikachu, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+PikachuSupports:
+CharacterSupport(Ash, Samus, Fox, 0, 0, 0, 0)
+SupportBases(81, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+FalconSupports:
+CharacterSupport(Samus, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+JigglypuffSupports:
+CharacterSupport(Kirby, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+NessSupports:
+CharacterSupport(Paula, Jeff, Poo, 0, 0, 0, 0)
+SupportBases(241, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+PaulaSupports:
+CharacterSupport(Ness, Jeff, Poo, 0, 0, 0, 0)
+SupportBases(241, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+JeffSupports:
+CharacterSupport(Ness, Paula, Poo, 0, 0, 0, 0)
+SupportBases(81, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+PooSupports:
+CharacterSupport(Ness, Paula, Jeff, 0, 0, 0, 0)
+SupportBases(81, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+PokeySupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0 //support count
+BYTE 0 0
+
+CecilSupports:
+CharacterSupport(Butz, Terra, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+ButzSupports:
+CharacterSupport(Cecil, Terra, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+TerraSupports:
+CharacterSupport(Cecil, Butz, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
