@@ -121,7 +121,7 @@
 #define Falchion Sieglinde
 #define Blizzard Fimbulvetr
 #define Meteor Shine
-#define Shaver Divine
+#define Shaver Aircalibur
 #define Starlight 0x44
 #define Resire Nosferatu
 #define Dulam Eclipse
@@ -132,3 +132,4 @@
 #define Elephant 0x99
 #define DivineStone HolyDragonStone
 #define ThunderSword LightBrand
+#define MasterSword Shamshir

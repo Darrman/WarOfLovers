@@ -21,6 +21,8 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(0x3,EndingScene,12,11)
+Vendor(Ch2Vendor,11,1)
+House(0x0,Ch2House,6,3)
 END_MAIN
 
 MiscBasedEvents:
@@ -76,6 +78,10 @@ UNIT KrisFaction DragonKnight Lyn Level(2,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SteelL
 UNIT KrisFaction Horseman Lyn Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [SilverBow] ChaseOnceApproachedAI
 UNIT
 
+ChikiGroup:
+UNIT Chiki Mamkute_F 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -88,14 +94,25 @@ BeginningScene:
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
-CALL UnitGacha
-WARPIN [7,24]
-MOVE 0xFFFF 0xFFFD [7,24]
-ENUN
-ENDWARP
 ENDA
 
 EndingScene:
+CALL UnitGacha
+WARPIN [12,10]
+MOVE 0xFFFF 0xFFFD [12,10]
+ENUN
+ENDWARP
+STAL 20
+//Text
+LOAD1 0x1 ChikiGroup
+ENUN
 MNC2 0x2
 ENDA
 
+Ch2Vendor:
+SHLI Fire Thunder Shaver Lightning Flux Heal Mend Barrier
+ALIGN 4
+
+Ch2House:
+//text
+ENDA

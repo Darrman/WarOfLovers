@@ -47,11 +47,11 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth StarLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [Falchion, Vulnerary] NoAI
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT
 
 Bad:
-UNIT Lucina Swordmaster_F 0x00 Level(5,Enemy,0) [2,0] 0x0 0x0 0x0 0x0 [SilverSword, LightBrand] AttackInRangeAI
+UNIT Lucina Swordmaster_F 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SilverSword, LightBrand] AttackInRangeAI
 UNIT 0x80 Warrior Lucina Level(1,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT 0x80 Warrior Lucina Level(1,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT 0x80 Sniper  Lucina Level(1,Enemy,1) [5,4] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
@@ -69,12 +69,20 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-MNC2 0x3C
+//MNC2 0x3C
+//go to debug map
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 ENDA
 
 EndingScene:
+CALL UnitGacha
+WARPIN [0,1]
+MOVE 0xFFFF 0xFFFD [0,1]
+ENUN
+ENDWARP
+STAL 20
+//Text
 MNC2 0x1
 ENDA
 

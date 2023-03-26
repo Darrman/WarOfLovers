@@ -20,9 +20,16 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Armory(Ch3Armoury,4,2)
+Vendor(Ch3Vendor,3,2)
+Village(0x7,Ch3Village,17,12)
+House(0x0,Ch3House1,11,16)
+House(0x0,Ch3House2,12,13)
+House(0x0,Ch3House3,19,12)
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -52,21 +59,21 @@ UNIT
 
 Bad:
 UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
-UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [15,15] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
-UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [17,15] DropItem 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
-UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
-UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [16,13] DropItem 0x0 0x0 0x0 [ThunderSword] PursueWithoutHeedAI
-UNIT KrisFaction Paladin 0x00 Level(3,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
-UNIT KrisFaction GreatKnight 0x00 Level(3,Enemy,1) [20,13] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
-UNIT KrisFaction GreatKnight 0x00 Level(3,Enemy,1) [20,14] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
-UNIT KrisFaction Horseman 0x00 Level(3,Enemy,1) [21,14] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT KrisFaction Horseman 0x00 Level(3,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT KrisFaction Horseman 0x00 Level(3,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [KillerBow] PursueWithoutHeedAI
-UNIT KrisFaction General 0x00 Level(3,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
-UNIT KrisFaction Hero 0x00 Level(3,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
-UNIT KrisFaction Sniper 0x00 Level(3,Enemy,1) [7,17] 0x0 0x0 0x0 0x0 [SteelBow, SecretBook] AttackInRangeAI
-UNIT KrisFaction Warrior 0x00 Level(3,Enemy,1) [25,15] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [15,15] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [17,15] DropItem 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [16,13] DropItem 0x0 0x0 0x0 [ThunderSword] PursueWithoutHeedAI
+UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT KrisFaction GreatKnight Leaf Level(3,Enemy,1) [20,13] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT KrisFaction GreatKnight Leaf Level(3,Enemy,1) [20,14] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT KrisFaction Horseman Leaf Level(3,Enemy,1) [21,14] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT KrisFaction Horseman Leaf Level(3,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT KrisFaction Horseman Leaf Level(3,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [KillerBow] PursueWithoutHeedAI
+UNIT KrisFaction General Leaf Level(3,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
+UNIT KrisFaction Hero Leaf Level(3,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT KrisFaction Sniper Leaf Level(3,Enemy,1) [7,17] 0x0 0x0 0x0 0x0 [SteelBow, SecretBook] AttackInRangeAI
+UNIT KrisFaction Warrior Leaf Level(3,Enemy,1) [25,15] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT
 
 BadBandits:
@@ -81,11 +88,11 @@ UNIT Samsian Thief 0x00 Level(15,Enemy,1) [22,2] 0x0 0x0 0x0 0x0 [SteelSword] St
 UNIT
 
 BadNearLeaf:
-UNIT KrisFaction General 0x00 Level(3,Enemy,1) [28,9] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
-UNIT KrisFaction Hero 0x00 Level(5,Enemy,1) [25,14] DropItem 0x0 0x0 0x0 [Tomahawk] AttackInRangeAI
-UNIT KrisFaction Hero 0x00 Level(5,Enemy,1) [29,11] 0x0 0x0 0x0 0x0 [BraveAxe] AttackInRangeAI
-UNIT KrisFaction Paladin 0x00 Level(5,Enemy,1) [28,14] DropItem 0x0 0x0 0x0 [BraveLance] AttackInRangeAI
-UNIT KrisFaction Valkyrie 0x00 Level(5,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [Resire, Physic] HealUnits
+UNIT KrisFaction General Leaf Level(3,Enemy,1) [28,9] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
+UNIT KrisFaction Hero Leaf Level(5,Enemy,1) [25,14] DropItem 0x0 0x0 0x0 [Tomahawk] AttackInRangeAI
+UNIT KrisFaction Hero Leaf Level(5,Enemy,1) [29,11] 0x0 0x0 0x0 0x0 [BraveAxe] AttackInRangeAI
+UNIT KrisFaction Paladin Leaf Level(5,Enemy,1) [28,14] DropItem 0x0 0x0 0x0 [BraveLance] AttackInRangeAI
+UNIT KrisFaction Valkyrie Leaf Level(5,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [Resire, Physic] HealUnits
 UNIT
 
 Traps1:
@@ -97,13 +104,45 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Good
+LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 BadBandits
 LOAD1 0x1 BadNearLeaf
 ENDA
 
 EndingScene:
+CALL UnitGacha
+WARPIN [28,13]
+MOVE 0xFFFF 0xFFFD [28,13]
+ENUN
+ENDWARP
+STAL 20
+//Text
 MNC2 0x3
 ENDA
 
+Ch3Armoury:
+SHLI SteelSword SteelLance SteelAxe SteelBow Javelin HandAxe Longbow
+ALIGN 4
+
+Ch3Vendor:
+SHLI Thunder Elfire Blizzard Lightning Divine Mend Recover
+ALIGN 4
+
+Ch3Village:
+//Text
+SVAL s3 Speedwings
+GIVEITEMTO 0xFFFF
+ENDA
+
+Ch3House1:
+//text
+ENDA
+
+Ch3House2:
+//text
+ENDA
+
+Ch3House3:
+//text
+ENDA

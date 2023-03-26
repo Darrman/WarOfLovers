@@ -367,133 +367,133 @@ SVAL s2 DK
 ENDA
 
 MarioUnit:
-UNIT Mario Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT Mario Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, HandAxe, Vulnerary] NoAI
 UNIT
 
 LuigiUnit:
-UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, HandAxe, Vulnerary] NoAI
 UNIT
 
 PeachUnit:
-UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
+UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Mend, Lightning, Vulnerary] NoAI
 UNIT
 
 BowserUnit:
-UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
+UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, SteelLance, Vulnerary] NoAI
 UNIT
 
 ToadUnit:
-UNIT Toad Rogue 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
+UNIT Toad Rogue 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick, Vulnerary] NoAI
 UNIT
 
 WarioUnit:
-UNIT Wario GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary] NoAI
+UNIT Wario GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverAxe, HandAxe, Vulnerary] NoAI
 UNIT
 
 DaisyUnit:
-UNIT Daisy Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Heal] NoAI
+UNIT Daisy Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Heal, Vulnerary] NoAI
 UNIT
 
 YoshiUnit:
-UNIT Yoshi Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Javelin] NoAI
+UNIT Yoshi Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Javelin, Vulnerary] NoAI
 UNIT
 
 WaluigiUnit:
-UNIT Waluigi GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance] NoAI
+UNIT Waluigi GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance, Vulnerary] NoAI
 UNIT
 
 AshUnit:
-UNIT Ash Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe] NoAI
+UNIT Ash Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe, Vulnerary] NoAI
 UNIT
 
 MistyUnit:
-UNIT Misty Ranger_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Longbow, Vulnerary] NoAI
+UNIT Misty Ranger_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Longbow, SteelBow, Vulnerary] NoAI
 UNIT
 
 BrockUnit:
-UNIT Brock Warrior 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow] NoAI
+UNIT Brock Warrior 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow, Vulnerary] NoAI
 UNIT
 
 JessieUnit:
-UNIT Jessie FalcoKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, Vulnerary] NoAI
+UNIT Jessie FalcoKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, IronSword, Vulnerary] NoAI
 UNIT
 
 JamesUnit:
-UNIT James WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, Vulnerary] NoAI
+UNIT James WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, IronLance, Vulnerary] NoAI
 UNIT
 
 MayUnit:
-UNIT May Swordmaster_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI
+UNIT May Swordmaster_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [BraveSword, IronSword, Vulnerary] NoAI
 UNIT
 
 DawnUnit:
-UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Physic, Divine] NoAI
+UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Physic, Divine, Vulnerary] NoAI
 UNIT
 
 SerenaUnit:
-UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, Javelin] NoAI
+UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, Javelin, Vulnerary] NoAI
 UNIT
 
 LinkUnit:
-UNIT Link Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [BraveSword, Halberd] NoAI
+UNIT Link Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [MasterSword, Halberd, Vulnerary] NoAI
 UNIT
 
 SamusUnit:
-UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
+UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, IronBow, Vulnerary] NoAI
 UNIT
 
 KirbyUnit:
-UNIT Kirby Druid 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fenrir, Heal] NoAI
+UNIT Kirby Druid 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fenrir, Heal, Vulnerary] NoAI
 UNIT
 
 FoxUnit:
-UNIT Fox Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI
+UNIT Fox Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverBow, SteelBow, Vulnerary] NoAI
 UNIT
 
 PikachuUnit:
-UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Bolting, Thunder] NoAI
+UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Bolting, Thunder, Vulnerary] NoAI
 UNIT
 
 FalconUnit:
-UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer] NoAI
+UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer, Vulnerary] NoAI
 UNIT
 
 JigglypuffUnit:
-UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Sleep, Mend] NoAI
+UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Sleep, Mend, Vulnerary] NoAI
 UNIT
 
 NessUnit:
-UNIT Ness MageKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Mend] NoAI
+UNIT Ness MageKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Mend, Vulnerary] NoAI
 UNIT
 
 PaulaUnit:
-UNIT Paula Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire] NoAI
+UNIT Paula Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire, Vulnerary] NoAI
 UNIT
 
 JeffUnit:
-UNIT Jeff Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI
+UNIT Jeff Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow, Vulnerary] NoAI
 UNIT
 
 PooUnit:
-UNIT Poo Swordmaster 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge, Vulnerary] NoAI
+UNIT Poo Swordmaster 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge, IronSword, Vulnerary] NoAI
 UNIT
 
 PokeyUnit:
-UNIT Pokey General 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato] NoAI
+UNIT Pokey General 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato, Vulnerary] NoAI
 UNIT
 
 CecilUnit:
-UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [LightBrand, SilverSword, Vulnerary] NoAI
 UNIT
 
 ButzUnit:
-UNIT Butz WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
+UNIT Butz WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword, Vulnerary] NoAI
 UNIT
 
 TerraUnit:
-UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
+UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend, Vulnerary] NoAI
 UNIT
 
 DKUnit:
-UNIT DK General 0x00 Level(1,Ally,0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, HandAxe] NoAI
+UNIT DK General 0x00 Level(1,Ally,0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, HandAxe, Vulnerary] NoAI
 UNIT
