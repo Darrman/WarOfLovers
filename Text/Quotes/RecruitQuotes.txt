@@ -1,0 +1,226 @@
+## RecruitMario
+[MR][LoadMarth][ML][LoadMario]
+It's a me, Mario! I've a travelled[N]
+across galaxies, so let's a go![A][X]
+
+## RecruitLuigi
+[MR][LoadMarth][ML][LoadLuigi]
+It's a me, Luigi. Mario gets all[N]
+the respect, but I'm a better jumper.[AN]
+Just keep me away from ghosts:[N]
+they're terrifying![A][X]
+
+## RecruitPeach
+[MR][LoadMarth][ML][LoadPeach]
+I am Princess Peach of the Mushroom[N]
+Kingdom. I don't know where I am,[AN]
+but it's definitely not home.[N]
+Allow me to help you.[A][X]
+
+## RecruitBowser
+[MR][LoadMarth][ML][LoadBowser]
+ROAR! You're talking to King Bowser[N]
+of the Koopas! You've interrupted[AN]
+my kidnapping plot, but I do prefer[N]
+the world not destroyed. Sure, I'm in.[A][X]
+
+## RecruitDK
+[MR][LoadMarth][ML][LoadDK]
+I'm Donkey Kong! K. Rool stole my bananas[N]
+and now I'm hungry. He will pay![A][X]
+
+## RecruitToad
+[MR][LoadMarth][ML][LoadToad]
+W-w-where am I? I was in Peach's Castle[N]
+and suddenly I'm in this place![AN]
+MARIO! HELP ME! I'm in... Akaneia?[N]
+I've never heard of it in my life![A][X]
+
+## RecruitWario
+[MR][LoadMarth][ML][LoadWario]
+Wahahahaha! I ran into a cave and now[N]
+I'm out here! Perfect for treasure![AN]
+Hey, blue guy! Your sword looks fancy.[N]
+I think I'll fund my next game with it.[A][X]
+
+## RecruitDaisy
+[MR][LoadMarth][ML][LoadDaisy]
+Hi, I'm Daisy! I don't understand what's[N]
+going on here, but that's fine.[AN]
+As far as I can tell, you need help,[N]
+so that's what I'm going to do.[A][X]
+
+## RecruitYoshi
+[MR][LoadMarth][ML][LoadYoshi]
+I'm Yoshi, Mario's steed since the day[N]
+he was born. However, I can make myself[AN]
+useful in other ways without him. I'm[N]
+hungry for some villain right now...[A][X]
+
+## RecruitWaluigi
+[MR][LoadMarth][ML][LoadWaluigi]
+Waaaaluigi number one! I'm an expert in[N]
+tennis, golf, and motor sports.[AN]
+Waa? You're saying you don't need a[N]
+tennis player around? Waa...[A][X]
+
+## RecruitAsh
+[MR][LoadMarth][ML][LoadAsh]
+I wanna be the very best, like no-one[N]
+ever was... Oh, hi. I'm Ash Ketchum.[AN]
+Last thing I remember, I stole a girl's[N]
+bike... Now where are all the Pokemon?[A][X]
+
+## RecruitMisty
+[MR][LoadMarth][ML][LoadMisty]
+My name is Misty, and I am the Gym[N]
+Leader of Cerulean City.[AN]
+Typically I have my Pokemon battle,[N]
+but now I must fight personally.[A][X]
+
+## RecruitBrock
+[MR][LoadMarth][ML][LoadBrock]
+I'm Brock. Pewter Gym Leader, Pokemon[N]
+breeder, and sadly not Nurse Joy's[AN]
+boyfriend. But who knows what awaits[N]
+me in this place? I'm interested.[A][X]
+
+## RecruitJessie
+[MR][LoadMarth][ML][LoadJessie]
+Prepare for trouble! I'm Jessie,[N]
+and I represent Team Rocket![AN]
+However, there seems to be a twerp[N]
+and Pokemon shortage here![A][X]
+
+## RecruitJames
+[MR][LoadMarth][ML][LoadLuigi]
+Make it double! I'm James, a Team[N]
+Rocket grunt. It appears that you[AN]
+aren't a Pokemon trainer and have[N]
+nothing for me to steal.[A][X]
+
+## RecruitMay
+[MR][LoadMarth][ML][LoadMay]
+I'm May, daughter of Petalburg[N]
+Gym Leader Norman. Personally,[AN]
+I prefer to battle with grace[N]
+instead of pure force.[A][X]
+
+## RecruitDawn
+[MR][LoadMarth][ML][LoadDawn]
+Hi, my name's Dawn! As I always say,[N]
+no need to worry! Now, what's got[AN]
+you looking so blue, blue guy?[N]
+Turn that frown upside-down![A][X]
+
+## RecruitSerena
+[MR][LoadMarth][ML][LoadSerena]
+I'm Serena, and I live in the country[N]
+of Kalos. Now, have you seen anyone[AN]
+by the name of Ash around here? I want[N]
+to tell him something.[A][X]
+
+## RecruitLink
+[MR][LoadMarth][ML][LoadLink]
+I am Link, bearer of the Triforce of[N]
+Courage and wielder of the Master[AN]
+Sword. This land is not Hyrule, but[N]
+I will aid you in saving it.[A][X]
+
+## RecruitSamus
+[MR][LoadMarth][ML][LoadSamus]
+My name is Samus Aran. I hunt bounties[N]
+throughout the galaxy, such as the[AN]
+Metroids. I doubt any Metroids live[N]
+here. So who's your target?[A][X]
+
+## RecruitKirby
+[MR][LoadMarth][ML][LoadKirby]
+Poyo! I'm Kirby, and I'm really[N]
+hungry. And there's nothing I[AN]
+hate more than food thieves.[N]
+Biggest meanies on Pop Star.[A][X]
+
+## RecruitFox
+[MR][LoadMarth][ML][LoadFox]
+I'm Fox McCloud, head of Star Fox.[N]
+Unfortunately my Arwing isn't here,[AN]
+so I'll have to fight on foot. Pay me[N]
+well and I'll take on any target.[A][X]
+
+## RecruitPikachu
+[MR][LoadMarth][ML][LoadPikachu]
+Pika pika! I'm Pikachu. My electricity[N]
+is excellent in dealing with birds and[AN]
+fish, but keep me away from the ground.[N]
+...I don't attack humans directly often.[A][X]
+
+## RecruitFalcon
+[MR][LoadMarth][ML][LoadFalcon]
+I am Captain Falcon, and I must ask you:[N]
+show me your moves! Normally I race in[AN]
+a car, but it looks like I have to ride[N]
+this horse. So long as I can Falcon Punch![A][X]
+
+## RecruitJigglypuff
+[MR][LoadMarth][ML][LoadJigglypuff]
+La la la... Are you listening?![N]
+If you don't listen to my song,[AN]
+your face is going to get to know[N]
+my microphone marker![A][X]
+
+## RecruitNess
+[MR][LoadMarth][ML][LoadNess]
+Okay, I'm Ness. I may look like just[N]
+a normal kid, but I have psychic[AN]
+powers. I've been around the world[N]
+trying to foil Giygas's plans.[A][X]
+
+## RecruitPaula
+[MR][LoadMarth][ML][LoadPaula]
+My name is Paula. Sometimes I call[N]
+out to friends I haven't met yet[AN]
+with my powers, but I don't know[N]
+who you are or where I am.[A][X]
+
+## RecruitJeff
+[MR][LoadMarth][ML][LoadJeff]
+I'm Jeff, the son of Doctor Andonuts.[N]
+I like to repair broken things,[AN]
+but I must admit I lack knowledge in[N]
+fixing up swords and bows.[A][X]
+
+## RecruitPoo
+[MR][LoadMarth][ML][LoadPoo]
+I am Prince Poo of Dalaam. My duty is to[N]
+assist Ness as one of the Chosen Four.[AN]
+It appears that I have been sent to this[N]
+place for uncertain reasons. I will aid you.[A][X]
+
+## RecruitPokey
+[MR][LoadMarth][ML][LoadPokey]
+You are speaking to Pokey Minch. I've[N]
+assisted in the rise to power of many[AN]
+individuals and institutions. Looks[N]
+like your group is the next one![A][X]
+
+## RecruitCecil
+[MR][LoadMarth][ML][LoadCecil]
+I am Cecil Harvey, once the commander[N]
+of the Red Wings of Baron. Now I am[AN]
+a paladin, and I've travelled beneath[N]
+the earth and flown to the moon.[A][X]
+
+## RecruitButz
+[MR][LoadMarth][ML][LoadButz]
+The name's Butz, and I'm a wanderer.[N]
+Normally it's just me and my buddy.[AN]
+But Boco ain't here. You seem well-[N]
+travelled, so I'll follow ya around.[A][X]
+
+## RecruitTerra
+[MR][LoadMarth][ML][LoadTerra]
+...Where am I? The last thing I know[N]
+was Kefka destroying everything...[AN]
+I'm sorry. My name is Terra, and[N]
+I have great and dangerous magic.[A][X]

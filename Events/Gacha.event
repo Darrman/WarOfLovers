@@ -75,6 +75,8 @@ CHECK_EXISTS Mario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MarioUnit
 ENUN
+//should play this after movement, proper way of handling this would take more time than I have
+Text(RecruitMario)
 SVAL s2 Mario
 ENDA
 
@@ -84,6 +86,7 @@ CHECK_EXISTS Luigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LuigiUnit
 ENUN
+Text(RecruitLuigi)
 SVAL s2 Luigi
 ENDA
 
@@ -93,6 +96,7 @@ CHECK_EXISTS Peach
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PeachUnit
 ENUN
+Text(RecruitPeach)
 SVAL s2 Peach
 ENDA
 
@@ -102,6 +106,7 @@ CHECK_EXISTS Bowser
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BowserUnit
 ENUN
+Text(RecruitBowser)
 SVAL s2 Bowser
 ENDA
 
@@ -111,6 +116,7 @@ CHECK_EXISTS Toad
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ToadUnit
 ENUN
+Text(RecruitToad)
 SVAL s2 Toad
 ENDA
 
@@ -120,6 +126,7 @@ CHECK_EXISTS Wario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WarioUnit
 ENUN
+Text(RecruitWario)
 SVAL s2 Wario
 ENDA
 
@@ -129,6 +136,7 @@ CHECK_EXISTS Yoshi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 YoshiUnit
 ENUN
+Text(RecruitYoshi)
 SVAL s2 Yoshi
 ENDA
 
@@ -138,6 +146,7 @@ CHECK_EXISTS Daisy
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DaisyUnit
 ENUN
+Text(RecruitDaisy)
 SVAL s2 Daisy
 ENDA
 
@@ -147,6 +156,7 @@ CHECK_EXISTS Waluigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WaluigiUnit
 ENUN
+Text(RecruitWaluigi)
 SVAL s2 Waluigi
 ENDA
 
@@ -156,6 +166,7 @@ CHECK_EXISTS Ash
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 AshUnit
 ENUN
+Text(RecruitAsh)
 SVAL s2 Ash
 ENDA
 
@@ -165,6 +176,7 @@ CHECK_EXISTS Misty
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MistyUnit
 ENUN
+Text(RecruitMisty)
 SVAL s2 Misty
 ENDA
 
@@ -174,6 +186,7 @@ CHECK_EXISTS Brock
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BrockUnit
 ENUN
+Text(RecruitBrock)
 SVAL s2 Brock
 ENDA
 
@@ -183,6 +196,7 @@ CHECK_EXISTS Jessie
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JessieUnit
 ENUN
+Text(RecruitJessie)
 SVAL s2 Jessie
 ENDA
 
@@ -192,6 +206,7 @@ CHECK_EXISTS James
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JamesUnit
 ENUN
+Text(RecruitJames)
 SVAL s2 James
 ENDA
 
@@ -201,6 +216,7 @@ CHECK_EXISTS May
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MayUnit
 ENUN
+Text(RecruitMay)
 SVAL s2 May
 ENDA
 
@@ -210,6 +226,7 @@ CHECK_EXISTS Dawn
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DawnUnit
 ENUN
+Text(RecruitDawn)
 SVAL s2 Dawn
 ENDA
 
@@ -219,6 +236,7 @@ CHECK_EXISTS Serena
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SerenaUnit
 ENUN
+Text(RecruitSerena)
 SVAL s2 Serena
 ENDA
 
@@ -228,6 +246,7 @@ CHECK_EXISTS Link
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LinkUnit
 ENUN
+Text(RecruitLink)
 SVAL s2 Link
 ENDA
 
@@ -237,6 +256,7 @@ CHECK_EXISTS Samus
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SamusUnit
 ENUN
+Text(RecruitSamus)
 SVAL s2 Samus
 ENDA
 
@@ -246,6 +266,7 @@ CHECK_EXISTS Kirby
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 KirbyUnit
 ENUN
+Text(RecruitKirby)
 SVAL s2 Kirby
 ENDA
 
@@ -255,6 +276,7 @@ CHECK_EXISTS Fox
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FoxUnit
 ENUN
+Text(RecruitFox)
 SVAL s2 Fox
 ENDA
 
@@ -264,6 +286,7 @@ CHECK_EXISTS Pikachu
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PikachuUnit
 ENUN
+Text(RecruitPikachu)
 SVAL s2 Pikachu
 ENDA
 
@@ -273,6 +296,7 @@ CHECK_EXISTS Falcon
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FalconUnit
 ENUN
+Text(RecruitFalcon)
 SVAL s2 Falcon
 ENDA
 
@@ -282,6 +306,7 @@ CHECK_EXISTS Jigglypuff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JigglypuffUnit
 ENUN
+Text(RecruitJigglypuff)
 SVAL s2 Jigglypuff
 ENDA
 
@@ -291,6 +316,7 @@ CHECK_EXISTS Ness
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 NessUnit
 ENUN
+Text(RecruitNess)
 SVAL s2 Ness
 ENDA
 
@@ -300,6 +326,7 @@ CHECK_EXISTS Paula
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PaulaUnit
 ENUN
+Text(RecruitPaula)
 SVAL s2 Paula
 ENDA
 
@@ -309,6 +336,7 @@ CHECK_EXISTS Jeff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JeffUnit
 ENUN
+Text(RecruitJeff)
 SVAL s2 Jeff
 ENDA
 
@@ -318,6 +346,7 @@ CHECK_EXISTS Poo
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PooUnit
 ENUN
+Text(RecruitPoo)
 SVAL s2 Poo
 ENDA
 
@@ -327,6 +356,7 @@ CHECK_EXISTS Pokey
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PokeyUnit
 ENUN
+Text(RecruitPokey)
 SVAL s2 Pokey
 ENDA
 
@@ -336,6 +366,7 @@ CHECK_EXISTS Cecil
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 CecilUnit
 ENUN
+Text(RecruitCecil)
 SVAL s2 Cecil
 ENDA
 
@@ -345,6 +376,7 @@ CHECK_EXISTS Butz
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ButzUnit
 ENUN
+Text(RecruitButz)
 SVAL s2 Butz
 ENDA
 
@@ -354,6 +386,7 @@ CHECK_EXISTS Terra
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 TerraUnit
 ENUN
+Text(RecruitTerra)
 SVAL s2 Terra
 ENDA
 
@@ -363,6 +396,7 @@ CHECK_EXISTS DK
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DKUnit
 ENUN
+Text(RecruitDK)
 SVAL s2 DK
 ENDA
 
