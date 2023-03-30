@@ -1,0 +1,93 @@
+//C0 to C6 are unused
+#define VoiceMarthSelect 0xC0
+#define VoiceSheedaSelect 0xC1
+#define VoiceChikiSelect 0xC2
+
+ALIGN 2
+MarthVoiceEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceMarthSelect
+
+MarthVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MarthVoice:
+WORD $01
+POIN MarthVoice_map
+POIN MarthVoice_data
+
+MarthVoice_map:
+WORD $3c00
+POIN MarthVoice_wav
+WORD $FF00FF
+
+MarthVoice_wav:
+#incbin "bin/Marth_ShineFalchion.bin"
+SongTable(VoiceMarthSelect,MarthVoice,7)
+
+ALIGN 2
+SheedaVoiceEffect:
+BYTE Sheeda
+BYTE 0x00
+SHORT VoiceSheedaSelect
+
+SheedaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SheedaVoice:
+WORD $01
+POIN SheedaVoice_map
+POIN SheedaVoice_data
+
+SheedaVoice_map:
+WORD $3c00
+POIN SheedaVoice_wav
+WORD $FF00FF
+
+SheedaVoice_wav:
+#incbin "bin/Sheeda_LoveConquersAll.bin"
+SongTable(VoiceSheedaSelect,SheedaVoice,7)
+
+ALIGN 2
+ChikiVoiceEffect:
+BYTE Chiki
+BYTE 0x00
+SHORT VoiceChikiSelect
+
+ChikiVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ChikiVoice:
+WORD $01
+POIN ChikiVoice_map
+POIN ChikiVoice_data
+
+ChikiVoice_map:
+WORD $3c00
+POIN ChikiVoice_wav
+WORD $FF00FF
+
+ChikiVoice_wav:
+#incbin "bin/Chiki_DoWhatIWant.bin"
+SongTable(VoiceChikiSelect,ChikiVoice,7)
+
+/*ALIGN 2
+EirikaSoundEffect:
+BYTE Eirika
+BYTE 0x00
+SHORT EirikaSoundID
+
+EirikaSound_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+EirikaSound:
+WORD $01
+POIN EirikaSound_map
+POIN EirikaSound_data
+
+EirikaSound_map:
+WORD $3c00
+POIN EirikaSound_wav
+WORD $FF00FF
+
+EirikaSound_wav:
+#incbin "bin/Eirika.bin"
+SongTable(EirikaSoundID,EirikaSound,7)
+*/

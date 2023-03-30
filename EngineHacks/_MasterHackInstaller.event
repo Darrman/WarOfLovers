@@ -247,3 +247,8 @@ POP
     #include "Necessary/SuspendDebuffs/SuspendExpansion.event"
 
   #endif // USE_SAVE_EXPANSION
+
+//Beyond here things are not skill system defaults
+
+  //Unit Select Voice Lines (Leonarth)
+  #include "GachaJam/UnitSelectSFX/UnitSelectSFXInstaller.event"
