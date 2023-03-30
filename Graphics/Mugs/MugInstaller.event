@@ -173,6 +173,10 @@ setMugEntry(0x2B, Alear_Mug, 3,5,3,3)
 Kris_Mug:
 #incext PortraitFormatter "Kris.png"
 setMugEntry(0x2C, Kris_Mug, 4,5,4,3)
+
+Rody_Mug:
+#incext PortraitFormatter "Rody.png"
+setMugEntry(0x2D, Marth_Mug, 2, 6, 2, 4)
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"

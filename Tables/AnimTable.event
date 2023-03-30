@@ -19,7 +19,7 @@ SetAnimationPointers(Mamkute_F, ChikiAnims)
 ChikiAnims:
 weaponTypeAnim(animNone, 0xc7)
 weaponAnim(WretchedAir,0xc9)
-weaponAnim(HolyDragonStone,0xc9)
+weaponAnim(HolyDragonStone,0xc7)
 weaponAnimEnd
 
 ALIGN 4

@@ -294,7 +294,13 @@ A woman who knows m-m-m-m-m-magic![N]
 With magic long gone in the world,[N]
 this is an unusual occurance.[X]
 
-// Extra playables go here
+## RodyName
+Rody[X]
+
+## RodyDesc
+A paladin of Aritia who served in the[N]
+War of Heroes. A serious, responsible,[N]
+and loyal man to Marth.[X]
 
 ## LucinaName
 Lucina[X]
@@ -361,3 +367,17 @@ Lythos[X]
 
 ## LythosDesc
 A soldier of Lythos, Alear's homeland.[X]
+
+## SamsianName
+Samsian[X]
+
+## SamsianDesc
+A member of the Samsian bandits[N]
+roaming Devil Mountain.[X]
+
+## GardaName
+Garda[X]
+
+## GardaDesc
+A member of the Garda garrison,[N]
+loyal to Marth's rule.[X]

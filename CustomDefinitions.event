@@ -81,6 +81,8 @@
 #define Butz 0x25
 #define Terra 0x26
 
+#define Rody 0x27
+
 //Enemies
 #define Lucina 0x50
 #define Lyn 0x51
@@ -93,7 +95,7 @@
 #define KrisFaction 0x80
 #define Lythos 0x81
 #define Samsian 0x82
-#define Akaneia 0x83
+#define Garda 0x83
 
 //Classes
 #undef Knight
@@ -133,3 +135,8 @@
 #define DivineStone HolyDragonStone
 #define ThunderSword LightBrand
 #define MasterSword Shamshir
+#define QuickRain Ballista
+#define StoneHedge IronBallista
+#define Thunderbolt KillerBallista
+#define Bolganone Forblaze
+#define Thoron Ivaldi

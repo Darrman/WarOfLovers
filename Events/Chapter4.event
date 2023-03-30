@@ -14,15 +14,24 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0, AfterPrepScreen, 1)
+TurnEventPlayer(0x0, SheedaArrives, 4)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Armory(Ch4Armoury,8,9)
+Vendor(Ch4Vendor,6,9)
+Village(0x7,Ch4Village,9,1)
+House(0x0,Ch4House1,7,11)
+House(0x0,Ch4House2,20,11)
+House(0x0,Ch4House3,16,4)
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -36,13 +45,68 @@ Dunno3:
 END_MAIN
 
 Tutorial:
-END_MAIN
+END_MAIN		
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [2,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [1,3] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [3,3] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [3,4] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [3,6] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [5,2] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [0,2] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [4,2] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,6] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
 UNIT
 
 Bad:
+UNIT Byleth Hero 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveSword, Tomahawk] NeverMoveAI
+UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos Berserker 0x00 Level(4,Enemy,1) [8,4] 0x0 0x0 0x0 0x0 [SilverAxe] PursueWithoutHeedAI
+UNIT Lythos Hero 0x00 Level(4,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos Paladin 0x00 Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Lythos Paladin 0x00 Level(4,Enemy,1) [15,9] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Lythos General 0x00 Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Lythos Mercenary 0x00 Level(20,Enemy,1) [16,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Lythos Mercenary 0x00 Level(20,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Lythos Fighter 0x00 Level(20,Enemy,1) [14,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Lythos Sage 0x00 Level(4,Enemy,1) [15,6] DropItem 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT Lythos Sage 0x00 Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+UNIT Lythos Sniper 0x00 Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Lythos Bishop 0x00 Level(4,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Lightning, Physic] HealUnits
+UNIT
+
+Bad2:
+UNIT Lythos Sage 0x00 Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
+UNIT Lythos DragonKnight 0x00 Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] ChaseOnceApproachedAI
+UNIT Lythos General 0x00 Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SilverAxe, RedGem] ChaseOnceApproachedAI
+UNIT Lythos General 0x00 Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [KillerLance, BlueGem] ChaseOnceApproachedAI
+UNIT Lythos Druid 0x00 Level(4,Enemy,1) [28,1] 0x0 0x0 0x0 0x0 [Luna] ChaseOnceApproachedAI
+UNIT Lythos Valkyrie 0x00 Level(4,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Aura, Physic] HealUnits
+UNIT Lythos Warrior 0x00 Level(4,Enemy,1) [21,2] 0x0 0x0 0x0 0x0 [SilverAxe, SteelBow] ChaseOnceApproachedAI
+UNIT Lythos Swordmaster 0x00 Level(4,Enemy,1) [22,7] DropItem 0x0 0x0 0x0 [Armourslayer] ChaseOnceApproachedAI
+UNIT Lythos Paladin 0x00 Level(4,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [SilverLance] ChaseOnceApproachedAI
+UNIT Lythos Horseman 0x00 Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [KillerBow] ChaseOnceApproachedAI
+UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [12,3] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
+UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [17,1] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
+UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [30,5] 0x0 0x0 0x0 0x0 [QuickRain] AttackInRangeAI
+UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [30,8] 0x0 0x0 0x0 0x0 [StoneHedge] AttackInRangeAI
+UNIT Lythos Berserker 0x00 Level(4,Enemy,1) [27,6] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT
+
+GardaGarrison:
+UNIT Rody Paladin 0x00 Level(3,NPC,0) [6,8] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Vulnerary] NoAI
+UNIT Garda Warrior 0x00 Level(1,NPC,1) [6,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Garda Warrior 0x00 Level(1,NPC,1) [6,5] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Garda General 0x00 Level(1,NPC,1) [9,12] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Garda Horseman 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT
+
+SheedaGroup:
+UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [WingSpear, SilverLance, Elixir] NoAI
 UNIT
 
 Traps1:
@@ -54,11 +118,48 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Good
+LOAD3 0x0 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+LOAD1 0x1 GardaGarrison
+GotoPrepScreen
 ENDA
 
 EndingScene:
 MNC2 0x4
 ENDA
 
+AfterPrepScreen:
+TurnAlly(Rody)
+ENDA
+
+SheedaArrives:
+LOAD1 0x1 SheedaGroup
+//text and events
+ENDA
+
+Ch4Village:
+//text
+SVAL s3 Wyrmslayer
+GIVEITEMTO 0xFFFF
+ENDA
+
+Ch4House1:
+//Text
+ENDA
+
+Ch4House2:
+//text
+ENDA
+
+Ch4House3:
+//Text
+ENDA
+
+Ch4Armoury:
+SHLI SilverSword SilverLance SilverAxe SilverBow
+ALIGN 4
+
+Ch4Vendor:
+SHLI Bolganone Thoron Luna Sleep Vulnerary Elixir
+ALIGN 4
