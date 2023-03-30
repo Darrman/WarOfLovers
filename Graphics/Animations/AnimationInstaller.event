@@ -1,0 +1,21 @@
+//Star Lord - Marth
+{
+#include "Marth/Sword/SwordInstaller.event"
+}
+{
+#include "Marth/Unarmed/UnarmedInstaller.event"
+}
+
+//Divine Dragon - Chiki
+{
+#include "Chiki/Dragon/DragonInstaller.event"
+}
+{
+#include "Chiki/Dragon/DragonInstaller2.event"
+}
+//#include "Chiki/Dragon/TransformInstaller.event"
+//#include "Chiki/Dragon/RevertInstaller.event"
+//AA refuses to assemble, something "not in list"
+{
+#include "Chiki/Unarmed/UnarmedInstaller.event"
+}

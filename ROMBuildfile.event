@@ -3,6 +3,7 @@
     #include "CustomDefinitions.event"
 //PROTECT $25224
     ORG FreeSpace
+    PROTECT $C00000
 
     #include "repointedTextTable.event"
 
@@ -18,8 +19,11 @@
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 
+    //Graphics
+    #include "Graphics/MasterGraphicsInstaller.event"
+
     //Portraits
-    #include "Mugs/MugInstaller.event"
+    #include "Graphics/Mugs/MugInstaller.event"
 
     //Events
     #include "Events/MasterEventInstaller.event"
