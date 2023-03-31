@@ -138,24 +138,29 @@ ENDA
 
 Ch1House1:
 Text(HouseBG,Ch1House1Text)
+NoFade
 ENDA
 
 Ch1House2:
 Text(HouseBG,Ch1House2Text)
+NoFade
 ENDA
 
 Ch1House3:
 Text(HouseBG,Ch1House3Text)
+NoFade
 ENDA
 
 Ch1House4:
 Text(HouseBG,Ch1House4Text)
+NoFade
 ENDA
 
 KrisArrives:
 LOAD1 0x1 TooLate
 FlashCursor(Kris,60)
 Text(Ch1KrisArrives)
+NoFade
 ENDA
 
 KrisREDA:

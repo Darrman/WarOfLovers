@@ -45,6 +45,8 @@ Age:[X]
 #include Quotes/RecruitQuotes.txt
 
 #include Story/Chapter1.txt
+#include Story/Chapter2.txt
+
 ## DV1Desc
 Freeze all enemies[N]
 for one turn[X]
