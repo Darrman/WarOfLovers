@@ -103,3 +103,7 @@
 [LoadByleth] = [LoadFace][0x2A][0x1]
 [LoadAlear] = [LoadFace][0x2B][0x1]
 [LoadKris] = [LoadFace][0x2C][0x1]
+[LoadRody] = [LoadFace][0x2D][0x1]
+[LoadGoon] = [LoadFace][0x2E][0x1]
+
+[LoadAnna] = [LoadFace][0x64][0x1]
