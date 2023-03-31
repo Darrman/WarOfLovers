@@ -1,12 +1,12 @@
 ## LucinaBattle
-[ML][LoadFace][0x01][0x01]
+[Left][LoadLucina]
 I am Lucina, the Emblem of[N]
 Awakening! Lady Alear has[AN]
 ordered me to fight you.[N]
 Her hope will never die![A][X]
 
 ## LynBattle
-[ML][LoadFace][0x01][0x01]
+[Left][LoadLyn]
 I am Lady Lyndis of Caelin.[N]
 However, I am now known as[AN]
 the Emblem of Blazing. An[N]
@@ -15,7 +15,7 @@ And my job is to get it back.[N]
 Now, prepare yourself![A][X]
 
 ## LeafBattle
-[ML][LoadFace][0x01][0x01]
+[Left][LoadLeaf]
 Pleased to meet you. My name[N]
 is Leaf, and I am the King-[AN]
 I am the Emblem of Thracia-[N]
@@ -26,7 +26,7 @@ her. It falls to me to bring[N]
 him back into the fold![A][X]
 
 ## BylethBattle
-[ML][LoadFace][0x01][0x01]
+[Left][LoadByleth]
 My name is Byleth Eisner. I am 27[N]
 years old. I am a servant of[AN]
 Lady Alear. My title is Emblem of[N]
@@ -35,6 +35,6 @@ My orders are to defeat Marth[N]
 Lowell. Prepare to die.[A][X]
 
 ## AlearBattle1
-[ML][LoadFace][0x01][0x01]
+[Left][LoadAlear]
 The time for talk has passed.[N]
 I will liberate you![A][X]

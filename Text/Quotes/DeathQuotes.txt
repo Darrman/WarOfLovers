@@ -29,3 +29,183 @@ state... without me...[A][X]
 ## AlearDeath
 [Left][LoadAlear]
 What? No! Impossible![A][X]
+
+## MarthDeath
+[Right][LoadMarth]
+Sheeda... I'm sorry...[N]
+for everything...[A][X]
+
+## SheedaDeath
+[Right][LoadSheeda]
+Marth... Forgive me...[N]
+This is goodbye...[A][X]
+
+## ChikiDeath
+[Right][LoadChiki]
+Mar... Mar... It's so[N]
+cold... so dark...[A][X]
+
+## MarioDeath
+[Right][LoadMario]
+Oh, mamma mia...[A][X]
+
+## LuigiDeath
+[Right][LoadLuigi]
+Aaah! I'm going to become[N]
+a ghost myself![A][X]
+
+## PeachDeath
+[Right][LoadPeach]
+It hurts... Mario! Somebody[N]
+please help me![A][X]
+
+## BowserDeath
+[Right][LoadBowser]
+I've been taken out by[N]
+these guys? Impossible...[A][X]
+
+## DKDeath
+[Right][LoadDK]
+Diddy, take care of the[N]
+banana hoard...[A][X]
+
+## ToadDeath
+[Right][LoadToad]
+Waaaa! I'm... I'm really[N]
+going to die here! HELP![A][X]
+
+## WarioDeath
+[Right][LoadWario]
+So much treasure...[N]
+calls my name...[A][X]
+
+## DaisyDeath
+[Right][LoadDaisy]
+Oh noooo![A][X]
+
+## YoshiDeath
+[Right][LoadYoshi]
+Once more into the abyss...[N]
+Dropped to my doom...[A][X]
+
+## WaluigiDeath
+[Right][LoadWaluigi]
+Wa? Ah-wa-wa-wa-wa![N]
+I'm finished![A][X]
+
+## AshDeath
+[Right][LoadAsh]
+I... will never be a[N]
+Pokemon Master...[A][X]
+
+## MistyDeath
+[Right][LoadMisty]
+No bicycle could ever get[N]
+me out of this situation...[A][X]
+
+## BrockDeath
+[Right][LoadBrock]
+This world is cruel... And now[N]
+I am paying the ultimate price...[A][X]
+
+## JessieDeath
+[Right][LoadJessie]
+Looks like I'm blasting off[N]
+again... to heaven![A][X]
+
+## JamesDeath
+[Right][LoadJames]
+It looks like this is the[N]
+end for me... My Pokemon...[A][X]
+
+## MayDeath
+[Right][LoadMay]
+No amount of grace would have[N]
+saved me from such power...[A][X]
+
+## DawnDeath
+[Right][LoadDawn]
+There... really is a need to[N]
+worry... I'm... dying...[A][X]
+
+## SerenaDeath
+[Right][LoadSerena]
+Ash... Where are you...[A][X]
+
+## LinkDeath
+[Right][LoadLink]
+My fall... will usher in[N]
+Ganon's rise... in Hyrule...[A][X]
+
+## SamusDeath
+[Right][LoadSamus]
+In the end, it wasn't the[N]
+Metroids that got me...[A][X]
+
+## KirbyDeath
+[Right][LoadKirby]
+Poyo? Oh... I feel so dizzy...[N]
+So sleepy... Night night...[A][X]
+
+## FoxDeath
+[Right][LoadFox]
+I'm... not going to make it...[N]
+back to Lylat... Aaah![A][X]
+
+## PikachuDeath
+[Right][LoadPikachu]
+I don't just feel faint...[N]
+This... is true death...[A][X]
+
+## FalconDeath
+[Right][LoadFalcon]
+Looks like my racing days[N]
+are over. Dead in a ditch...[A][X]
+
+## JigglypuffDeath
+[Right][LoadJigglypuff]
+My next concert's... going to[N]
+be on the big stage in the sky...[A][X]
+
+## NessDeath
+[Right][LoadNess]
+Looks like I've got my[N]
+head handed to me...[A][X]
+
+## PaulaDeath
+[Right][LoadPaula]
+No amount of prayer can[N]
+bring me back from this...[A][X]
+
+## JeffDeath
+[Right][LoadJeff]
+Even simple technologies[N]
+possess the power to kill...[A][X]
+
+## PooDeath
+[Right][LoadPoo]
+Was dying here fate?[N]
+Or did I do something wrong?[A][X]
+
+## PokeyDeath
+[Right][LoadPokey]
+Oww... I prefer spanking,[N]
+not getting spanked![A][X]
+
+## CecilDeath
+[Right][LoadCecil]
+What will happen... without[N]
+me? Rosa, take care...[A][X]
+
+## ButzDeath
+[Right][LoadButz]
+I've spent my life wandering.[N]
+And I will die in a foreign land.[A][X]
+
+## TerraDeath
+[Right][LoadTerra]
+I feel... so... lonely...[A][X]
+
+## RodyDeath
+[Right][LoadRody]
+Emperor Marth... forgive me...[A][X]

@@ -15,7 +15,7 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0,Turn2ActivateGacha,2)
-TurnEventPlayer(0,Turn2ActivateGacha,10)
+TurnEventPlayer(0,KrisArrives,10)
 END_MAIN
 
 CharacterBasedEvents:
@@ -62,7 +62,7 @@ UNIT 0x80 Fleet   Lucina Level(10,Enemy,1) [12,1] 0x0 0x0 0x0 0x0 [Ballista] Nev
 UNIT
 
 TooLate:
-UNIT Kris Hero 0x00 Level(20,Enemy,0) [1,0] 0x00 0x00 0x0 0x00 [MiracleSword] PursueWithoutHeedAI
+UNIT Kris Hero 0x00 Level(20,Enemy,0) [1,0] 0x00 0x00 0x1 KrisREDA [MiracleSword] PursueWithoutHeedAI
 UNIT
 
 
@@ -157,6 +157,9 @@ LOAD1 0x1 TooLate
 FlashCursor(Kris,60)
 Text(Ch1KrisArrives)
 ENDA
+
+KrisREDA:
+REDA [1,0]
 
 
 Ch1Armoury:
