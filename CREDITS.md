@@ -3,6 +3,7 @@
 - Sheeda: FE3 Book 2 (Darrman)
 - Chiki: FE3 Book 2 (Darrman)
 - Marich: Alusq
+- Rody: FE3 Book 2 (Darrman)
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
@@ -47,6 +48,12 @@
 - Leaf: FE4 (Darrman)
 - Byleth: FE16 (Darrman)
 - Alear: Jey the Count
+- Kris: FE12 (Darrman)
+
+# Animations:
+
+- Marth: Blaze/Abzel
+- Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
 
 # Maps:
 

@@ -1,0 +1,34 @@
+## Ch1Name
+Ch. 1: Return to Akaneia[X]
+
+## Ch1Goal
+Defeat Lucina,[N]
+Emblem of 13[X]
+
+## Ch2Name
+Ch. 2: Through Lefcandy[X]
+
+## Ch2Goal
+Seize the village[N]
+Lyn guards[X]
+
+## Ch3Name
+Ch. 3: Persistent Bandits[X]
+
+## Ch3Goal
+Defeat Leaf,[N]
+Emblem of 5[X]
+
+## Ch4Name
+Ch. 4: Guarding Garda[X]
+
+## Ch4Goal
+Defeat Byleth,[N]
+Emblem of 16[X]
+
+## Ch5Name
+Ch. 5: Sanctuary No More[X]
+
+## Ch5Goal
+Defeat Alear, who[N]
+owns the rings[X]
