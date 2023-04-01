@@ -71,6 +71,9 @@
 - FEH, Super Mario 64, Mario Kart 64, Mario Party 1, Mario Kart Wii
 - Converted by Darrman
 
+# Other Graphics
+- Status Screen: SaXor the Nobody
+
 # Skill System Credits:
 
 ## Skill contributors

@@ -1,0 +1,19 @@
+PUSH
+ORG 0xC2044
+POIN SmallWorldMapGFX
+POIN SmallWorldMapPalette
+POIN SmallWorldMapTSA
+POP
+
+ALIGN 4
+SmallWorldMapGFX:
+#incext Png2Dmp "AkaneiaMapTiles.png" --lz77
+
+ALIGN 4
+SmallWorldMapPalette:
+#incext Png2Dmp "AkaneiaMapTiles.png" --palette-only
+
+ALIGN 4
+SmallWorldMapTSA:
+#incbin "Map_Small_Tsa.bin"
+ALIGN 4
