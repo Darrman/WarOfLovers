@@ -140,3 +140,41 @@
 #define Thunderbolt KillerBallista
 #define Bolganone Forblaze
 #define Thoron Ivaldi
+
+//Music
+#define M_AkaneiaAnthem 0x43 //FE Theme, no intro
+#define M_HolyWar Land_of_Promise
+#define M_Ricardo 0x24 //Advance FE8
+#define M_Advance Distant_Roads
+#define M_Insurrection Shadow_of_the_Enemy	
+#define M_EvilOnes Solve_the_Riddle
+#define M_StartingANewJourney The_Beginning
+#define M_DragonsAltar Twisted_ShadowsA
+#define M_VictoryIsOurs Grasping_at_Victory
+#define M_And Victory_and_the_Future
+#define M_Conspiracy Raid
+#define M_LegendOfTheDivineDragonMusicBox Lyon_OrganArrangement
+#define M_ThemeOfLove Sorrow
+#define M_Epilogue Epilogue
+#define M_Attack Attack
+#define M_Crisis Defense
+#define M_Confront The_Battle_to_be_Won
+#define M_Vendor Shops
+#define M_Armoury Armories
+#define M_Arena Colosseum_Entrance
+#define M_OffToWar Tension
+#define M_Victory Victory
+
+//VA
+//26D to 2BB all empty
+
+#define VoiceMarioSummon 0x26D
+#define VoiceLuigiSummon 0x26E
+#define VoicePeachSummon 0x26F
+#define VoiceBowserSummon 0x270
+#define VoiceDKSummon 0x271
+#define VoiceToadSummon 0x272
+#define VoiceYoshiSummon 0x273
+#define VoiceWarioSummon 0x274
+#define VoiceDaisySummon 0x275
+#define VoiceWaluigiSummon 0x276

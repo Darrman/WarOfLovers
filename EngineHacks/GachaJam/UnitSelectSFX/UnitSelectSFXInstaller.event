@@ -38,6 +38,10 @@ SelectSfxList:
 //Default fire emblem 8 voices, feel free to comment them out if you don't want them
 //POIN EphraimSoundEffect; POIN EirikaSoundEffect
 POIN MarthVoiceEffect; POIN SheedaVoiceEffect; POIN ChikiVoiceEffect
+POIN MarioVoiceEffect; POIN LuigiVoiceEffect; POIN PeachVoiceEffect; POIN BowserVoiceEffect
+POIN DKVoiceEffect; POIN YoshiVoiceEffect; POIN ToadVoiceEffect; POIN WarioVoiceEffect
+POIN DaisyVoiceEffect; POIN WaluigiVoiceEffect
+
 WORD 0//End marker
 //Default fire emblem 8 voices definitions and bins
 //#include "StandardFE8voices.event"
@@ -77,6 +81,9 @@ POP
 ClearIDs3:
 #incbin "clearIDs3.dmp"
 #endif
+
+#include "SummonVoiceLines.event"
+//Shove that in here
 
 #else
     ERROR This version of Selection Quotes is for FE8!

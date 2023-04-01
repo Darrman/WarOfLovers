@@ -1,0 +1,233 @@
+/*26D to 2BB all empty
+
+#define VoiceMarioSummon 0x26D
+#define VoiceLuigiSummon 0x26E
+#define VoicePeachSummon 0x26F
+#define VoiceBowserSummon 0x270
+#define VoiceDKSummon 0x271
+#define VoiceToadSummon 0x272
+#define VoiceYoshiSummon 0x273
+#define VoiceWarioSummon 0x274
+#define VoiceDaisySummon 0x275
+#define VoiceWaluigiSummon 0x276*/
+
+ALIGN 2
+MarioVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceMarioSummon
+
+MarioVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MarioVoiceSummon:
+WORD $01
+POIN MarioVoiceSummon_map
+POIN MarioVoiceSummon_data
+
+MarioVoiceSummon_map:
+WORD $3c00
+POIN MarioVoiceSummon_wav
+WORD $FF00FF
+
+MarioVoiceSummon_wav:
+#incbin "bin/Mario_ItsAMe.bin"
+SongTable(VoiceMarioSummon,MarioVoiceSummon,7)
+
+ALIGN 2
+LuigiVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceLuigiSummon
+
+LuigiVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+LuigiVoiceSummon:
+WORD $01
+POIN LuigiVoiceSummon_map
+POIN LuigiVoiceSummon_data
+
+LuigiVoiceSummon_map:
+WORD $3c00
+POIN LuigiVoiceSummon_wav
+WORD $FF00FF
+
+LuigiVoiceSummon_wav:
+#incbin "bin/Luigi_Number1.bin"
+SongTable(VoiceLuigiSummon,LuigiVoiceSummon,7)
+
+ALIGN 2
+PeachVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoicePeachSummon
+
+PeachVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+PeachVoiceSummon:
+WORD $01
+POIN PeachVoiceSummon_map
+POIN PeachVoiceSummon_data
+
+PeachVoiceSummon_map:
+WORD $3c00
+POIN PeachVoiceSummon_wav
+WORD $FF00FF
+
+PeachVoiceSummon_wav:
+#incbin "bin/Peach_GotIt.bin"
+SongTable(VoicePeachSummon,PeachVoiceSummon,7)
+
+ALIGN 2
+BowserVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceBowserSummon
+
+BowserVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+BowserVoiceSummon:
+WORD $01
+POIN BowserVoiceSummon_map
+POIN BowserVoiceSummon_data
+
+BowserVoiceSummon_map:
+WORD $3c00
+POIN BowserVoiceSummon_wav
+WORD $FF00FF
+
+BowserVoiceSummon_wav:
+#incbin "bin/Bowser_VictoryRoar.bin"
+SongTable(VoiceBowserSummon,BowserVoiceSummon,7)
+
+ALIGN 2
+DKVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceDKSummon
+
+DKVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DKVoiceSummon:
+WORD $01
+POIN DKVoiceSummon_map
+POIN DKVoiceSummon_data
+
+DKVoiceSummon_map:
+WORD $3c00
+POIN DKVoiceSummon_wav
+WORD $FF00FF
+
+DKVoiceSummon_wav:
+#incbin "bin/DK_Noise2.bin"
+SongTable(VoiceDKSummon,DKVoiceSummon,7)
+
+ALIGN 2
+ToadVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceToadSummon
+
+ToadVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ToadVoiceSummon:
+WORD $01
+POIN ToadVoiceSummon_map
+POIN ToadVoiceSummon_data
+
+ToadVoiceSummon_map:
+WORD $3c00
+POIN ToadVoiceSummon_wav
+WORD $FF00FF
+
+ToadVoiceSummon_wav:
+#incbin "bin/Toad_TheBest.bin"
+SongTable(VoiceToadSummon,ToadVoiceSummon,7)
+
+ALIGN 2
+YoshiVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceYoshiSummon
+
+YoshiVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+YoshiVoiceSummon:
+WORD $01
+POIN YoshiVoiceSummon_map
+POIN YoshiVoiceSummon_data
+
+YoshiVoiceSummon_map:
+WORD $3c00
+POIN YoshiVoiceSummon_wav
+WORD $FF00FF
+
+YoshiVoiceSummon_wav:
+#incbin "bin/Yoshi_Yoshi.bin"
+SongTable(VoiceYoshiSummon,YoshiVoiceSummon,7)
+
+ALIGN 2
+WarioVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceWarioSummon
+
+WarioVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+WarioVoiceSummon:
+WORD $01
+POIN WarioVoiceSummon_map
+POIN WarioVoiceSummon_data
+
+WarioVoiceSummon_map:
+WORD $3c00
+POIN WarioVoiceSummon_wav
+WORD $FF00FF
+
+WarioVoiceSummon_wav:
+#incbin "bin/Wario_DohIMissed.bin"
+SongTable(VoiceWarioSummon,WarioVoiceSummon,7)
+
+ALIGN 2
+DaisyVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceDaisySummon
+
+DaisyVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DaisyVoiceSummon:
+WORD $01
+POIN DaisyVoiceSummon_map
+POIN DaisyVoiceSummon_data
+
+DaisyVoiceSummon_map:
+WORD $3c00
+POIN DaisyVoiceSummon_wav
+WORD $FF00FF
+
+DaisyVoiceSummon_wav:
+#incbin "bin/Daisy_Daisy.bin"
+SongTable(VoiceDaisySummon,DaisyVoiceSummon,7)
+
+ALIGN 2
+WaluigiVoiceSummonEffect:
+BYTE Marth
+BYTE 0x00
+SHORT VoiceWaluigiSummon
+
+WaluigiVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+WaluigiVoiceSummon:
+WORD $01
+POIN WaluigiVoiceSummon_map
+POIN WaluigiVoiceSummon_data
+
+WaluigiVoiceSummon_map:
+WORD $3c00
+POIN WaluigiVoiceSummon_wav
+WORD $FF00FF
+
+WaluigiVoiceSummon_wav:
+#incbin "bin/Waluigi_Time.bin"
+SongTable(VoiceWaluigiSummon,WaluigiVoiceSummon,7)
+

@@ -75,6 +75,8 @@ CHECK_EXISTS Mario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MarioUnit
 ENUN
+SOUN VoiceMarioSummon
+STAL 20
 //should play this after movement, proper way of handling this would take more time than I have
 Text(RecruitMario)
 SVAL s2 Mario
@@ -86,6 +88,8 @@ CHECK_EXISTS Luigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LuigiUnit
 ENUN
+SOUN VoiceLuigiSummon
+STAL 20
 Text(RecruitLuigi)
 SVAL s2 Luigi
 ENDA
@@ -96,6 +100,8 @@ CHECK_EXISTS Peach
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PeachUnit
 ENUN
+SOUN VoicePeachSummon
+STAL 20
 Text(RecruitPeach)
 SVAL s2 Peach
 ENDA
@@ -106,6 +112,8 @@ CHECK_EXISTS Bowser
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BowserUnit
 ENUN
+SOUN VoiceBowserSummon
+STAL 20
 Text(RecruitBowser)
 SVAL s2 Bowser
 ENDA
@@ -116,6 +124,8 @@ CHECK_EXISTS Toad
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ToadUnit
 ENUN
+SOUN VoiceToadSummon
+STAL 20
 Text(RecruitToad)
 SVAL s2 Toad
 ENDA
@@ -126,6 +136,8 @@ CHECK_EXISTS Wario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WarioUnit
 ENUN
+SOUN VoiceWarioSummon
+STAL 20
 Text(RecruitWario)
 SVAL s2 Wario
 ENDA
@@ -136,6 +148,8 @@ CHECK_EXISTS Yoshi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 YoshiUnit
 ENUN
+SOUN VoiceYoshiSummon
+STAL 20
 Text(RecruitYoshi)
 SVAL s2 Yoshi
 ENDA
@@ -146,6 +160,8 @@ CHECK_EXISTS Daisy
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DaisyUnit
 ENUN
+SOUN VoiceDaisySummon
+STAL 20
 Text(RecruitDaisy)
 SVAL s2 Daisy
 ENDA
@@ -156,6 +172,8 @@ CHECK_EXISTS Waluigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WaluigiUnit
 ENUN
+SOUN VoiceWaluigiSummon
+STAL 20
 Text(RecruitWaluigi)
 SVAL s2 Waluigi
 ENDA

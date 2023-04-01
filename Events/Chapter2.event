@@ -95,11 +95,14 @@ BeginningScene:
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+MUSC M_OffToWar
 Text(Woodland,Ch2OpeningMarth)
+MUSC M_Conspiracy
 Text(Village,Ch2OpeningLyn)
 ENDA
 
 EndingScene:
+MUSC M_Victory
 CALL UnitGacha
 WARPIN [12,10]
 MOVE 0xFFFF 0xFFFD [12,10]

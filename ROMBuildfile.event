@@ -31,8 +31,10 @@
     //Maps
     #include "Maps/MasterMapInstaller.event"
     
+    //install music at the end of the rom
+    ORG 0x1000000
     //Music
-    #include "Music/BGM/_MusicInstaller.event"
+    #include "Music/MasterAudioInstaller.event"
 
 	
     MESSAGE Used free space ends at currentOffset

@@ -2,6 +2,16 @@
 #define VoiceMarthSelect 0xC0
 #define VoiceSheedaSelect 0xC1
 #define VoiceChikiSelect 0xC2
+#define VoiceMarioSelect 0xC3
+#define VoiceLuigiSelect 0xC4
+#define VoicePeachSelect 0xC5
+#define VoiceBowserSelect 0xC6
+#define VoiceDKSelect 0xD9
+#define VoiceToadSelect 0xDA
+#define VoiceYoshiSelect 0xDB
+#define VoiceWarioSelect 0xE0
+#define VoiceDaisySelect 0xE1
+#define VoiceWaluigiSelect 0xE4
 
 ALIGN 2
 MarthVoiceEffect:
@@ -68,6 +78,227 @@ WORD $FF00FF
 ChikiVoice_wav:
 #incbin "bin/Chiki_DoWhatIWant.bin"
 SongTable(VoiceChikiSelect,ChikiVoice,7)
+
+ALIGN 2
+MarioVoiceEffect:
+BYTE Mario
+BYTE 0x00
+SHORT VoiceMarioSelect
+
+MarioVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MarioVoice:
+WORD $01
+POIN MarioVoice_map
+POIN MarioVoice_data
+
+MarioVoice_map:
+WORD $3c00
+POIN MarioVoice_wav
+WORD $FF00FF
+
+MarioVoice_wav:
+#incbin "bin/Mario_LetsAGo.bin"
+SongTable(VoiceMarioSelect,MarioVoice,7)
+
+ALIGN 2
+LuigiVoiceEffect:
+BYTE Luigi
+BYTE 0x00
+SHORT VoiceLuigiSelect
+
+LuigiVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+LuigiVoice:
+WORD $01
+POIN LuigiVoice_map
+POIN LuigiVoice_data
+
+LuigiVoice_map:
+WORD $3c00
+POIN LuigiVoice_wav
+WORD $FF00FF
+
+LuigiVoice_wav:
+#incbin "bin/Luigi_Bingo.bin"
+SongTable(VoiceLuigiSelect,LuigiVoice,7)
+
+ALIGN 2
+PeachVoiceEffect:
+BYTE Peach
+BYTE 0x00
+SHORT VoicePeachSelect
+
+PeachVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+PeachVoice:
+WORD $01
+POIN PeachVoice_map
+POIN PeachVoice_data
+
+PeachVoice_map:
+WORD $3c00
+POIN PeachVoice_wav
+WORD $FF00FF
+
+PeachVoice_wav:
+#incbin "bin/Peach_Yeah.bin"
+SongTable(VoicePeachSelect,PeachVoice,7)
+
+ALIGN 2
+BowserVoiceEffect:
+BYTE Bowser
+BYTE 0x00
+SHORT VoiceBowserSelect
+
+BowserVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+BowserVoice:
+WORD $01
+POIN BowserVoice_map
+POIN BowserVoice_data
+
+BowserVoice_map:
+WORD $3c00
+POIN BowserVoice_wav
+WORD $FF00FF
+
+BowserVoice_wav:
+#incbin "bin/Bowser_Roar.bin"
+SongTable(VoiceBowserSelect,BowserVoice,7)
+
+ALIGN 2
+DKVoiceEffect:
+BYTE DK
+BYTE 0x00
+SHORT VoiceDKSelect
+
+DKVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DKVoice:
+WORD $01
+POIN DKVoice_map
+POIN DKVoice_data
+
+DKVoice_map:
+WORD $3c00
+POIN DKVoice_wav
+WORD $FF00FF
+
+DKVoice_wav:
+#incbin "bin/DK_Noise1.bin"
+SongTable(VoiceDKSelect,DKVoice,7)
+
+ALIGN 2
+ToadVoiceEffect:
+BYTE Toad
+BYTE 0x00
+SHORT VoiceToadSelect
+
+ToadVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ToadVoice:
+WORD $01
+POIN ToadVoice_map
+POIN ToadVoice_data
+
+ToadVoice_map:
+WORD $3c00
+POIN ToadVoice_wav
+WORD $FF00FF
+
+ToadVoice_wav:
+#incbin "bin/Toad_HereWeGo.bin"
+SongTable(VoiceToadSelect,ToadVoice,7)
+
+ALIGN 2
+YoshiVoiceEffect:
+BYTE Yoshi
+BYTE 0x00
+SHORT VoiceYoshiSelect
+
+YoshiVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+YoshiVoice:
+WORD $01
+POIN YoshiVoice_map
+POIN YoshiVoice_data
+
+YoshiVoice_map:
+WORD $3c00
+POIN YoshiVoice_wav
+WORD $FF00FF
+
+YoshiVoice_wav:
+#incbin "bin/Yoshi_Yahoo.bin"
+SongTable(VoiceYoshiSelect,YoshiVoice,7)
+
+ALIGN 2
+WarioVoiceEffect:
+BYTE Wario
+BYTE 0x00
+SHORT VoiceWarioSelect
+
+WarioVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+WarioVoice:
+WORD $01
+POIN WarioVoice_map
+POIN WarioVoice_data
+
+WarioVoice_map:
+WORD $3c00
+POIN WarioVoice_wav
+WORD $FF00FF
+
+WarioVoice_wav:
+#incbin "bin/Wario_Laugh.bin"
+SongTable(VoiceWarioSelect,WarioVoice,7)
+
+ALIGN 2
+DaisyVoiceEffect:
+BYTE Daisy
+BYTE 0x00
+SHORT VoiceDaisySelect
+
+DaisyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DaisyVoice:
+WORD $01
+POIN DaisyVoice_map
+POIN DaisyVoice_data
+
+DaisyVoice_map:
+WORD $3c00
+POIN DaisyVoice_wav
+WORD $FF00FF
+
+DaisyVoice_wav:
+#incbin "bin/Daisy_OhYeah.bin"
+SongTable(VoiceDaisySelect,DaisyVoice,7)
+
+ALIGN 2
+WaluigiVoiceEffect:
+BYTE Waluigi
+BYTE 0x00
+SHORT VoiceWaluigiSelect
+
+WaluigiVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+WaluigiVoice:
+WORD $01
+POIN WaluigiVoice_map
+POIN WaluigiVoice_data
+
+WaluigiVoice_map:
+WORD $3c00
+POIN WaluigiVoice_wav
+WORD $FF00FF
+
+WaluigiVoice_wav:
+#incbin "bin/Waluigi_GonnaWin.bin"
+SongTable(VoiceWaluigiSelect,WaluigiVoice,7)
+
 
 /*ALIGN 2
 EirikaSoundEffect:

@@ -19,8 +19,8 @@ Chiki[X]
 
 ## ChikiDesc
 Princess of the Divine Dragons.[N]
-Formerly under Alear's command,[N]
-now outgoing and friendly.[X]
+Friendly and easy to get on with,[N]
+she adores Marth with all her heart.[X]
 
 ## MarichName
 Marich[X]
@@ -351,9 +351,9 @@ in the interests of lands beyond Elyos.[X]
 Kris[X]
 
 ## KrisDesc
-Claims to be head of Marth's royal guards.[N]
-He also claims he defended Marth from[N]
-assassins throughout the War of Heroes.[X]
+Captain of the Aritian Royal Guards.[N]
+Claims to have valiantly defended[N]
+Marth from many assassinations.[X]
 
 ## KrisFactionName
 Kris's[X]

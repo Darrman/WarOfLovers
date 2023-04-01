@@ -104,15 +104,21 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_ThemeOfLove
 Text(Castle_Room,Ch3AlearPouts)
+MUSC M_Conspiracy
 Text(Castle_Room,Ch3AlearKrisPlotting)
+FADU 10
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 BadBandits
 LOAD1 0x1 BadNearLeaf
+FADI 10
+NoFade
 ENDA
 
 EndingScene:
+MUSC M_Victory
 CALL UnitGacha
 WARPIN [28,13]
 MOVE 0xFFFF 0xFFFD [28,13]
@@ -120,7 +126,9 @@ ENUN
 ENDWARP
 STAL 20
 Text(Woodland,Ch3EndingLeaf)
+MUSC M_Crisis
 Text(Castle_Hall,Ch3EndingPalesFalls)
+MUSC M_DragonsAltar
 Text(Town_Gate,Ch3EndingKrisSpeech)
 MNC2 0x3
 ENDA
