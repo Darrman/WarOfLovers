@@ -46,6 +46,7 @@ Age:[X]
 
 #include Story/Chapter1.txt
 #include Story/Chapter2.txt
+#include Story/Chapter3.txt
 
 ## DV1Desc
 Freeze all enemies[N]

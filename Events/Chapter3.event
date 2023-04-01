@@ -104,6 +104,8 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+Text(Castle_Room,Ch3AlearPouts)
+Text(Castle_Room,Ch3AlearKrisPlotting)
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 BadBandits
@@ -117,7 +119,9 @@ MOVE 0xFFFF 0xFFFD [28,13]
 ENUN
 ENDWARP
 STAL 20
-//Text
+Text(Woodland,Ch3EndingLeaf)
+Text(Castle_Hall,Ch3EndingPalesFalls)
+Text(Town_Gate,Ch3EndingKrisSpeech)
 MNC2 0x3
 ENDA
 
@@ -130,19 +134,23 @@ SHLI Thunder Elfire Blizzard Lightning Divine Mend Recover
 ALIGN 4
 
 Ch3Village:
-//Text
+Text(Village,Ch3VillageText)
 SVAL s3 Speedwings
 GIVEITEMTO 0xFFFF
+NoFade
 ENDA
 
 Ch3House1:
-//text
+Text(HouseBG,Ch3House1Text)
+NoFade
 ENDA
 
 Ch3House2:
-//text
+Text(HouseBG,Ch3House2Text)
+NoFade
 ENDA
 
 Ch3House3:
-//text
+Text(HouseBG,Ch3House3Text)
+NoFade
 ENDA
