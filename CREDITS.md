@@ -64,6 +64,13 @@
 - Talis Castle: Darrman
 - Talis: FE1 Ch1 (Kirb, Nickt for GFE1R)
 
+# Music
+
+- All FE3 music converted by Sme.
+- Voice lines from:
+- FEH, Super Mario 64, Mario Kart 64, Mario Party 1, Mario Kart Wii
+- Converted by Darrman
+
 # Skill System Credits:
 
 ## Skill contributors

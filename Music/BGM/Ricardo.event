@@ -1,0 +1,783 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	RicardoTheme_grp  voicegroup000
+	#define	RicardoTheme_pri  0
+	#define	RicardoTheme_rev  0
+	#define	RicardoTheme_mvl  95
+	#define	RicardoTheme_key  0
+	#define	RicardoTheme_tbs  1
+	#define	RicardoTheme_exg  0
+	#define	RicardoTheme_cmp  1
+
+	// .rodata
+	//	RicardoTheme
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+RicardoTheme_001:
+// 000   ----------------------------------------
+ BYTE   KEYSH   RicardoTheme_key+0
+Label_0_01440112:
+ BYTE   TEMPO   48*RicardoTheme_tbs/2
+ BYTE   VOICE   21
+ BYTE   VOL   40*RicardoTheme_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   N02  Gn1  v100
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W05
+// 001   ----------------------------------------
+Label_0_0144013D:
+ BYTE   W01
+ BYTE   N02  Fn1  v100
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W05
+ BYTE   PEND 
+// 002   ----------------------------------------
+Label_0_01440161:
+ BYTE   W01
+ BYTE   N02  Fn1  v100
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W05
+ BYTE   PEND 
+// 003   ----------------------------------------
+ BYTE   W01
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W05
+// 004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_0_01440112
+// 005   ----------------------------------------
+ BYTE   W01
+ BYTE   N02  Gn1  v100
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W05
+ BYTE   PATT
+  POIN2 Label_0_0144013D
+ BYTE   PATT
+  POIN2 Label_0_01440161
+// 006   ----------------------------------------
+ BYTE   W01
+ BYTE   N02  Cn1  v100
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W02
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+RicardoTheme_002:
+// 000   ----------------------------------------
+ BYTE   KEYSH   RicardoTheme_key+0
+Label_1_014401FE:
+ BYTE   VOICE   57
+ BYTE   VOL   83*RicardoTheme_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W78
+ BYTE   N02  Bn3  v092
+ BYTE   W03
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Bn3  v100
+ BYTE   W06
+ BYTE   Gn3  v096
+ BYTE   W06
+// 001   ----------------------------------------
+Label_1_01440212:
+ BYTE   N02  An3  v100
+ BYTE   W06
+ BYTE   Fn3  v092
+ BYTE   W03
+ BYTE   Gn3  v096
+ BYTE   W03
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cn4  v104
+ BYTE   W06
+ BYTE   Bn3  v096
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W03
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   An3  v096
+ BYTE   W06
+ BYTE   En4  v104
+ BYTE   W06
+ BYTE   Dn4  v096
+ BYTE   W03
+ BYTE   Cn4  v092
+ BYTE   W03
+ BYTE   Bn3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Bn3  v096
+ BYTE   W03
+ BYTE   Cn4  v100
+ BYTE   W03
+ BYTE   Bn3  v096
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W03
+ BYTE   Gn3  v088
+ BYTE   W06
+ BYTE   N13  An3  v092
+ BYTE   W12
+ BYTE   PEND 
+// 002   ----------------------------------------
+Label_1_0144024D:
+ BYTE   W48
+ BYTE   N02  Dn4  v096
+ BYTE   W03
+ BYTE   Cn4  v092
+ BYTE   W03
+ BYTE   Bn3
+ BYTE   W06
+ BYTE   An3  v088
+ BYTE   W06
+ BYTE   Bn3  v096
+ BYTE   W03
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Bn3  v100
+ BYTE   W03
+ BYTE   An3  v096
+ BYTE   W03
+ BYTE   Gn3  v092
+ BYTE   W06
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   PEND 
+// 003   ----------------------------------------
+ BYTE   W42
+ BYTE   Gn3  v100
+ BYTE   W03
+ BYTE   Fn3  v092
+ BYTE   W03
+ BYTE   Gn3  v096
+ BYTE   W18
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Fn3  v092
+ BYTE   W03
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Bn3  v100
+ BYTE   W06
+ BYTE   N07  An3  v092
+ BYTE   W12
+// 004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_1_014401FE
+// 005   ----------------------------------------
+ BYTE   W78
+ BYTE   N02  Bn3  v092
+ BYTE   W03
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Bn3  v100
+ BYTE   W06
+ BYTE   Gn3  v096
+ BYTE   W06
+ BYTE   PATT
+  POIN2 Label_1_01440212
+ BYTE   PATT
+  POIN2 Label_1_0144024D
+// 006   ----------------------------------------
+ BYTE   W42
+ BYTE   N02  Gn3  v100
+ BYTE   W03
+ BYTE   Fn3  v092
+ BYTE   W03
+ BYTE   Gn3  v096
+ BYTE   W18
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Fn3  v092
+ BYTE   W03
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Bn3  v100
+ BYTE   W06
+ BYTE   N07  An3  v092
+ BYTE   W09
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+RicardoTheme_003:
+// 000   ----------------------------------------
+ BYTE   KEYSH   RicardoTheme_key+0
+Label_2_014402C2:
+ BYTE   VOICE   57
+ BYTE   VOL   83*RicardoTheme_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   N02  Dn4  v104
+ BYTE   W06
+ BYTE   Bn3  v100
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W03
+ BYTE   Bn3  v096
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W03
+ BYTE   Fn3
+ BYTE   W03
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W03
+ BYTE   Cn3
+ BYTE   W03
+ BYTE   En3  v096
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W03
+ BYTE   Cn3  v092
+ BYTE   W03
+ BYTE   N44  Dn3  v100
+ BYTE   W48
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+Label_2_014402ED:
+ BYTE   N02  An3  v104
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W03
+ BYTE   An3  v088
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W03
+ BYTE   Bn3  v096
+ BYTE   W06
+ BYTE   Dn4  v104
+ BYTE   W06
+ BYTE   Cn4  v100
+ BYTE   W03
+ BYTE   Bn3  v096
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W06
+ BYTE   Bn3  v100
+ BYTE   W06
+ BYTE   En4  v108
+ BYTE   W48
+ BYTE   En3  v104
+ BYTE   W03
+ BYTE   Dn3  v096
+ BYTE   W03
+ BYTE   PEND 
+// 003   ----------------------------------------
+ BYTE   Cn3  v092
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W03
+ BYTE   Ds3  v096
+ BYTE   W03
+ BYTE   Fn3
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W03
+ BYTE   An3
+ BYTE   W03
+ BYTE   As3  v100
+ BYTE   W06
+ BYTE   Cn4  v112
+ BYTE   W03
+ BYTE   As3  v100
+ BYTE   W03
+ BYTE   An3  v096
+ BYTE   W18
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Gn3  v096
+ BYTE   W03
+ BYTE   Fn3  v092
+ BYTE   W18
+ BYTE   Dn4  v104
+ BYTE   W06
+ BYTE   N08  Cn4
+ BYTE   W12
+// 004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_2_014402C2
+// 005   ----------------------------------------
+ BYTE   N02  Dn4  v104
+ BYTE   W06
+ BYTE   Bn3  v100
+ BYTE   W03
+ BYTE   An3  v092
+ BYTE   W03
+ BYTE   Bn3  v096
+ BYTE   W06
+ BYTE   Gn3  v092
+ BYTE   W03
+ BYTE   Fn3
+ BYTE   W03
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W03
+ BYTE   Cn3
+ BYTE   W03
+ BYTE   En3  v096
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W03
+ BYTE   Cn3  v092
+ BYTE   W03
+ BYTE   N44  Dn3  v100
+ BYTE   W48
+// 006   ----------------------------------------
+ BYTE   W96
+ BYTE   PATT
+  POIN2 Label_2_014402ED
+// 007   ----------------------------------------
+ BYTE   N02  Cn3  v092
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W03
+ BYTE   Ds3  v096
+ BYTE   W03
+ BYTE   Fn3
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W03
+ BYTE   An3
+ BYTE   W03
+ BYTE   As3  v100
+ BYTE   W06
+ BYTE   Cn4  v112
+ BYTE   W03
+ BYTE   As3  v100
+ BYTE   W03
+ BYTE   An3  v096
+ BYTE   W18
+ BYTE   Cn4  v104
+ BYTE   W03
+ BYTE   Gn3  v096
+ BYTE   W03
+ BYTE   Fn3  v092
+ BYTE   W18
+ BYTE   Dn4  v104
+ BYTE   W06
+ BYTE   N08  Cn4
+ BYTE   W09
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+RicardoTheme_004:
+// 000   ----------------------------------------
+ BYTE   KEYSH   RicardoTheme_key+0
+Label_3_0144039E:
+ BYTE   VOICE   21
+ BYTE   VOL   80*RicardoTheme_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   N02  Gn1  v100
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+// 001   ----------------------------------------
+Label_3_014403C6:
+ BYTE   N02  Fn1  v100
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   PEND 
+// 002   ----------------------------------------
+Label_3_014403E9:
+ BYTE   N02  Fn1  v100
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   En1
+ BYTE   W06
+ BYTE   Bn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   PEND 
+// 003   ----------------------------------------
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+// 004   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_3_0144039E
+// 005   ----------------------------------------
+ BYTE   N02  Gn1  v100
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn2
+ BYTE   W06
+ BYTE   Fn1
+ BYTE   W06
+ BYTE   Cn2
+ BYTE   W06
+ BYTE   PATT
+  POIN2 Label_3_014403C6
+ BYTE   PATT
+  POIN2 Label_3_014403E9
+// 006   ----------------------------------------
+ BYTE   N02  Cn1  v100
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W06
+ BYTE   Cn1
+ BYTE   W06
+ BYTE   Gn1
+ BYTE   W06
+ BYTE   Dn1
+ BYTE   W06
+ BYTE   An1
+ BYTE   W03
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+RicardoTheme:
+	BYTE	4	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	RicardoTheme_pri	// Priority
+	BYTE	RicardoTheme_rev	// Reverb.
+    
+	POIN2	RicardoTheme_grp
+    
+	POIN2	RicardoTheme_001
+	POIN2	RicardoTheme_002
+	POIN2	RicardoTheme_003
+	POIN2	RicardoTheme_004
+
+	

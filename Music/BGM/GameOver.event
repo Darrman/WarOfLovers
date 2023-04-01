@@ -1,0 +1,4051 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	GameOverMusic_grp  voicegroup000
+	#define	GameOverMusic_pri  0
+	#define	GameOverMusic_rev  0
+	#define	GameOverMusic_mvl  95
+	#define	GameOverMusic_key  0
+	#define	GameOverMusic_tbs  1
+	#define	GameOverMusic_exg  0
+	#define	GameOverMusic_cmp  1
+
+	// .rodata
+	//	GameOverMusic
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+GameOverMusic_001:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_0_0142917E:
+ BYTE   TEMPO   42*GameOverMusic_tbs/2
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W24
+ BYTE   VOL   38*GameOverMusic_mvl/mxv
+ BYTE   N23  Dn3  v092
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N32  Gn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 003   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 004   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Fn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Dn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 005   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Cn5
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 006   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23  Gn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  En4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 007   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N44  En3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W40
+ BYTE   W01
+ BYTE   GoTo
+  POIN2 Label_0_0142917E
+// 008   ----------------------------------------
+ BYTE   W48
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   W48
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W24
+ BYTE   VOL   36*GameOverMusic_mvl/mxv
+ BYTE   N23  Dn3  v092
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 010   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N32  Gn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 011   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 012   ----------------------------------------
+ BYTE   As1
+ BYTE   N23  Fn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Dn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 013   ----------------------------------------
+ BYTE   W24
+ BYTE   As1
+ BYTE   N23  Cn5
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Gn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  En4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 014   ----------------------------------------
+ BYTE   As1
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N44  En3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W40
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+GameOverMusic_002:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_1_0142942E:
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W12
+ BYTE   VOL   38*GameOverMusic_mvl/mxv
+ BYTE   N23  En3  v092
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W40
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 003   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Fn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Dn4
+ BYTE   W01
+ BYTE   VOL   41*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cs3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 004   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 005   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23  Gn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  As4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 006   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N23  Dn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  En3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 007   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   GoTo
+  POIN2 Label_1_0142942E
+// 008   ----------------------------------------
+ BYTE   W48
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   W48
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W12
+ BYTE   VOL   36*GameOverMusic_mvl/mxv
+ BYTE   N23  En3  v092
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 010   ----------------------------------------
+ BYTE   W36
+ BYTE   As1
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 011   ----------------------------------------
+ BYTE   As1
+ BYTE   N23  Fn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Gn1
+ BYTE   N23  Dn4
+ BYTE   W01
+ BYTE   VOL   38*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   Bn2
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   An3
+ BYTE   W01
+ BYTE   Dn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 012   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23  Gn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Ds4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 013   ----------------------------------------
+ BYTE   As1
+ BYTE   N32  Cn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23  As4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Dn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 014   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N23  En3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+GameOverMusic_003:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_2_01429706:
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W24
+ BYTE   VOL   38*GameOverMusic_mvl/mxv
+ BYTE   N23  Dn2  v112
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N32  Gn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 003   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  As2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 004   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Dn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 005   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  As2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 006   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  En3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Gn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 007   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N44  En2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W40
+ BYTE   W01
+ BYTE   GoTo
+  POIN2 Label_2_01429706
+// 008   ----------------------------------------
+ BYTE   W48
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   W48
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W24
+ BYTE   VOL   36*GameOverMusic_mvl/mxv
+ BYTE   N23  Dn2  v112
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 010   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N32  Gn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 011   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N23  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  As2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 012   ----------------------------------------
+ BYTE   As1
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Dn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  As2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 013   ----------------------------------------
+ BYTE   W24
+ BYTE   As1
+ BYTE   N23  Cn4
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  En3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 014   ----------------------------------------
+ BYTE   As1
+ BYTE   N23  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Gn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N44  En2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W40
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+GameOverMusic_004:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_3_014299B6:
+ BYTE   VOICE   42
+ BYTE   VOL   56*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W48
+ BYTE   VOL   27*GameOverMusic_mvl/mxv
+ BYTE   N44  Cn4  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 002   ----------------------------------------
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W12
+ BYTE   VOL   38*GameOverMusic_mvl/mxv
+ BYTE   N23  En2  v112
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Cn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W40
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Fn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 003   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Dn3
+ BYTE   W01
+ BYTE   VOL   41*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cs3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 004   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 005   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   Cn2
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 006   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N23  Dn3
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Gn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  En2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Cn2
+ BYTE   N23  Fn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 007   ----------------------------------------
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N32  Cn2
+ BYTE   W01
+ BYTE   VOL   43*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Gs3
+ BYTE   W01
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   Fn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   GoTo
+  POIN2 Label_3_014299B6
+// 008   ----------------------------------------
+ BYTE   VOICE   42
+ BYTE   VOL   56*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+25
+ BYTE   W48
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   VOL   25*GameOverMusic_mvl/mxv
+ BYTE   N44  Cn4  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   VOICE   57
+ BYTE   VOL   70*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W12
+ BYTE   VOL   36*GameOverMusic_mvl/mxv
+ BYTE   N23  En2  v112
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 010   ----------------------------------------
+ BYTE   W36
+ BYTE   As1
+ BYTE   N23  Fn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+// 011   ----------------------------------------
+ BYTE   As1
+ BYTE   N23  Fn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   Gn1
+ BYTE   N23  Dn3
+ BYTE   W01
+ BYTE   VOL   38*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   Bn2
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   An3
+ BYTE   W01
+ BYTE   Dn4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 012   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N23
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23  Gn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Ds3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+// 013   ----------------------------------------
+ BYTE   As1
+ BYTE   N32  Cn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   W01
+ BYTE   As1
+ BYTE   N23  As3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Dn3
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Gn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W05
+// 014   ----------------------------------------
+ BYTE   W12
+ BYTE   As1
+ BYTE   N23  En2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N23  Fn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W17
+ BYTE   As1
+ BYTE   N32  Cn2
+ BYTE   W01
+ BYTE   VOL   40*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   Fn3
+ BYTE   W01
+ BYTE   As3
+ BYTE   W01
+ BYTE   Ds4
+ BYTE   W01
+ BYTE   Gs4
+ BYTE   W28
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+GameOverMusic_005:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_4_01429CCA:
+ BYTE   VOICE   42
+ BYTE   VOL   56*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v-25
+ BYTE   W24
+ BYTE   VOL   27*GameOverMusic_mvl/mxv
+ BYTE   N68  Dn4  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 001   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N68  Ds3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 002   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N44  Fn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Cs1
+ BYTE   N44  Dn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 003   ----------------------------------------
+ BYTE   W48
+ BYTE   Cs1
+ BYTE   N44  An2  v108
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 004   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N44  Gn2  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Cs1
+ BYTE   N44  An2
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 005   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N44  Bn2
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Cs1
+ BYTE   N68  Gs3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 006   ----------------------------------------
+ BYTE   W96
+// 007   ----------------------------------------
+ BYTE   W48
+ BYTE   GoTo
+  POIN2 Label_4_01429CCA
+// 008   ----------------------------------------
+ BYTE   W24
+ BYTE   VOL   25*GameOverMusic_mvl/mxv
+ BYTE   N68  Dn4  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+ BYTE   W48
+// 009   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N68  Ds3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   W48
+// 010   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N44  Fn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   W24
+ BYTE   Bn0
+ BYTE   N44  Dn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 011   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N44  An2  v108
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Bn0
+ BYTE   N44  Gn2  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 012   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N44  An2
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Bn0
+ BYTE   N44  Bn2
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 013   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N68  Gs3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 014   ----------------------------------------
+ BYTE   W92
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+GameOverMusic_006:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_5_01429E66:
+ BYTE   VOICE   42
+ BYTE   VOL   56*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   VOL   27*GameOverMusic_mvl/mxv
+ BYTE   N44  En4  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Cs1
+ BYTE   N68  En3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 001   ----------------------------------------
+ BYTE   W24
+ BYTE   Cs1
+ BYTE   N44  Dn4  v112
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Cs1
+ BYTE   N44  Bn3  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 002   ----------------------------------------
+ BYTE   W48
+ BYTE   Cs1
+ BYTE   N44  Ds3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 003   ----------------------------------------
+ BYTE   W24
+ BYTE   Cs1
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 004   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N68  Ds3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Cs1
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 005   ----------------------------------------
+ BYTE   W48
+ BYTE   Cs1
+ BYTE   N68  Cs3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 006   ----------------------------------------
+ BYTE   W96
+// 007   ----------------------------------------
+ BYTE   W48
+ BYTE   GoTo
+  POIN2 Label_5_01429E66
+// 008   ----------------------------------------
+ BYTE   VOL   25*GameOverMusic_mvl/mxv
+ BYTE   N44  En4  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Bn0
+ BYTE   N68  En3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 009   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N44  Dn4  v112
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+ BYTE   W24
+ BYTE   Bn0
+ BYTE   N44  Bn3  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 010   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N44  Ds3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Bn0
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 011   ----------------------------------------
+ BYTE   W48
+ BYTE   Bn0
+ BYTE   N68  Ds3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 012   ----------------------------------------
+ BYTE   W24
+ BYTE   Bn0
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 013   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N68  Cs3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 014   ----------------------------------------
+ BYTE   W92
+ BYTE   W03
+ BYTE   FINE
+
+//**************** Track 7 (Midi-Chn.6) ****************//
+
+GameOverMusic_007:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_6_0142A002:
+ BYTE   VOICE   42
+ BYTE   VOL   56*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   VOL   27*GameOverMusic_mvl/mxv
+ BYTE   N68  Fn3  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Cs1
+ BYTE   N68  Cn4
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 001   ----------------------------------------
+ BYTE   W48
+ BYTE   Cs1
+ BYTE   N68  Dn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 002   ----------------------------------------
+ BYTE   W24
+ BYTE   Cs1
+ BYTE   N44  En3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 003   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N44  Cn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   Cs1
+ BYTE   N68  Fn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 004   ----------------------------------------
+ BYTE   W24
+ BYTE   Cs1
+ BYTE   N44  Gs2
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 005   ----------------------------------------
+ BYTE   Cs1
+ BYTE   N68  Gn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 006   ----------------------------------------
+ BYTE   Cs1
+ BYTE   TIE
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 007   ----------------------------------------
+ BYTE   W44
+ BYTE   W03
+ BYTE   EOT
+ BYTE   W01
+ BYTE   GoTo
+  POIN2 Label_6_0142A002
+// 008   ----------------------------------------
+ BYTE   VOL   25*GameOverMusic_mvl/mxv
+ BYTE   N68  Fn3  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   W24
+ BYTE   Bn0
+ BYTE   N68  Cn4
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 009   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N68  Dn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Bn0
+ BYTE   N44  En3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 010   ----------------------------------------
+ BYTE   W48
+ BYTE   Bn0
+ BYTE   N44  Cn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 011   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N68  Fn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Bn0
+ BYTE   N44  Gs2
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 012   ----------------------------------------
+ BYTE   W48
+ BYTE   Bn0
+ BYTE   N68  Gn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 013   ----------------------------------------
+ BYTE   W48
+ BYTE   Bn0
+ BYTE   TIE
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 014   ----------------------------------------
+ BYTE   W92
+ BYTE   W03
+ BYTE   EOT
+ BYTE   FINE
+
+//**************** Track 8 (Midi-Chn.7) ****************//
+
+GameOverMusic_008:
+// 000   ----------------------------------------
+ BYTE   KEYSH   GameOverMusic_key+0
+Label_7_0142A19A:
+ BYTE   VOICE   42
+ BYTE   VOL   56*GameOverMusic_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   VOL   27*GameOverMusic_mvl/mxv
+ BYTE   TIE  Gn3  v104
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   W96
+// 003   ----------------------------------------
+ BYTE   W68
+ BYTE   W03
+ BYTE   EOT
+ BYTE   W01
+ BYTE   VOL   27*GameOverMusic_mvl/mxv
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 004   ----------------------------------------
+ BYTE   W48
+ BYTE   Cs1
+ BYTE   N68  Fn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 005   ----------------------------------------
+ BYTE   W24
+ BYTE   Cs1
+ BYTE   N44  Cn3
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 006   ----------------------------------------
+ BYTE   Cs1
+ BYTE   TIE
+ BYTE   W01
+ BYTE   VOL   31*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   An1
+ BYTE   W01
+ BYTE   Cs2
+ BYTE   W01
+ BYTE   En2
+ BYTE   W01
+ BYTE   Gs2
+ BYTE   W01
+ BYTE   Cn3
+ BYTE   W01
+ BYTE   En3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W88
+// 007   ----------------------------------------
+ BYTE   W44
+ BYTE   W03
+ BYTE   EOT
+ BYTE   W01
+ BYTE   GoTo
+  POIN2 Label_7_0142A19A
+// 008   ----------------------------------------
+ BYTE   VOL   25*GameOverMusic_mvl/mxv
+ BYTE   TIE  Gn3  v104
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   W96
+// 010   ----------------------------------------
+ BYTE   W96
+// 011   ----------------------------------------
+ BYTE   W23
+ BYTE   EOT
+ BYTE   W01
+ BYTE   VOL   25*GameOverMusic_mvl/mxv
+ BYTE   N44  As2
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+// 012   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N68  Fn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W64
+ BYTE   Bn0
+ BYTE   N44  Cn3
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W16
+// 013   ----------------------------------------
+ BYTE   W48
+ BYTE   Bn0
+ BYTE   TIE
+ BYTE   W01
+ BYTE   VOL   29*GameOverMusic_mvl/mxv
+ BYTE   W01
+ BYTE   Gn1
+ BYTE   W01
+ BYTE   Bn1
+ BYTE   W01
+ BYTE   Dn2
+ BYTE   W01
+ BYTE   Fs2
+ BYTE   W01
+ BYTE   As2
+ BYTE   W01
+ BYTE   Dn3
+ BYTE   W01
+ BYTE   Fs3
+ BYTE   W40
+// 014   ----------------------------------------
+ BYTE   W92
+ BYTE   W03
+ BYTE   EOT
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+GameOverMusic:
+	BYTE	8	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	GameOverMusic_pri	// Priority
+	BYTE	GameOverMusic_rev	// Reverb.
+    
+	POIN2	GameOverMusic_grp
+    
+	POIN2	GameOverMusic_001
+	POIN2	GameOverMusic_002
+	POIN2	GameOverMusic_003
+	POIN2	GameOverMusic_004
+	POIN2	GameOverMusic_005
+	POIN2	GameOverMusic_006
+	POIN2	GameOverMusic_007
+	POIN2	GameOverMusic_008
+
+	

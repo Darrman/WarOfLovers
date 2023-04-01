@@ -30,6 +30,9 @@
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
+    
+    //Music
+    #include "Music/BGM/_MusicInstaller.event"
 
 	
     MESSAGE Used free space ends at currentOffset
