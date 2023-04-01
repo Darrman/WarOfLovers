@@ -2,7 +2,7 @@ INLINE ClassSkillTable,Skill
 0x00 Separator/Nothing,0x0
 0x01 Ephraim Lord,SupplyID
 0x02 Eirika Lord,SupplyID
-0x03 Ephraim Great Lord,CantoID
+0x03 Ephraim Great Lord,0x0
 0x04 Eirika Great Lord,0x0
 0x05 Cavalier,CantoID
 0x06 Cavalier (F),CantoID
