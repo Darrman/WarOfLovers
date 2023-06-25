@@ -252,3 +252,6 @@ POP
 
   //Unit Select Voice Lines (Leonarth)
   //#include "GachaJam/UnitSelectSFX/UnitSelectSFXInstaller.event"
+
+  //FE3 weapon weight (Contro)
+  #include "GachaJam/FE3AttackSpeed/WeightIgnoresCon.event"

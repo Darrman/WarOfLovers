@@ -10,8 +10,8 @@
 // If commented, the test map will not be installed.
 #define USE_TEST_MAP
 
-// The amount of attack speed needed to double an opponent.
-#define AS_DOUBLING_THRESHOLD 3
+// The amount of attack speed needed to double an opponent minus one.
+#define AS_DOUBLING_THRESHOLD 2
 
 // If true, dropped items will retain their durability.
 #define DROPPED_ITEM_DURABILITY True
