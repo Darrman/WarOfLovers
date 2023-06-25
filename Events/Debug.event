@@ -104,6 +104,11 @@ LOCA 0x0 MapViewer [1,1] 0x10
 LOCA 0x0 PortraitViewer [3,1] 0x10
 LOCA 0x0 BackgroundViewer [5,1] 0x10
 Armory(DebugArmoury,7,1)
+House(0x0,GachaEffectTest,2,0)
+House(0x0,LoadSuperMarioUnits,4,0)
+House(0x0,LoadPocketMonstersUnits,6,0)
+House(0x0,LoadSmashBrosUnits,8,0)
+House(0x0,LoadOtherRPGUnits,10,0)
 END_MAIN
 
 DebugMiscBasedEvents:
@@ -140,14 +145,6 @@ ALIGN 4
 //ORG $9FF4B8
 DebugBeginningScene:
 LOAD1 0x01 DebugUnitsFE
-ENUN
-LOAD1 0x1 DebugUnitsMario
-ENUN
-LOAD1 0x1 DebugUnitsPokemon
-ENUN
-LOAD1 0x1 DebugUnitsSmash
-ENUN
-LOAD1 0x1 DebugUnitsRPG
 ENUN
 LOAD1 0x1 DebugBad
 ENUN
@@ -518,6 +515,37 @@ FADU 16
 EVBIT_T 0x7
 ENDA
 
+GachaEffectTest:
+SetBackground(0x38)
+SOUN VoiceMarioSummon
+STAL 30
+CGTEXTSTART
+TEXTSHOW RecruitMario
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+ENDA
+
 DebugArmoury:
 SHLI AngelicRobe EnergyRing SecretBook Speedwings GoddessIcon Dragonshield Talisman BodyRing Boots
 ALIGN 4
+
+LoadSuperMarioUnits:
+LOAD1 0x1 DebugUnitsMario
+ENUN
+ENDA
+
+LoadPocketMonstersUnits:
+LOAD1 0x1 DebugUnitsPokemon
+ENUN
+ENDA
+
+LoadSmashBrosUnits:
+LOAD1 0x1 DebugUnitsSmash
+ENUN
+ENDA
+
+LoadOtherRPGUnits:
+LOAD1 0x1 DebugUnitsRPG
+ENUN
+ENDA

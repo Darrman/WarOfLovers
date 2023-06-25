@@ -40,6 +40,8 @@ Screenshots
 !Graphics/*.png
 !Mugs/*.png
 !Maps/*.png
+
+# Other folders to disregard
 Release
 
 # python cache
