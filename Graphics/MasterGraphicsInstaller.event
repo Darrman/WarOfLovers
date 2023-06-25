@@ -3,3 +3,4 @@
 #include TitleScreen/titlebackgroundinstaller.event
 #include WorldMap/WorldMapInstaller.event
 #include StatScreen/StatScreenInstaller.event
+#include BGsCGs/BG.event

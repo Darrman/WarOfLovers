@@ -255,3 +255,6 @@ POP
 
   //FE3 weapon weight (Contro)
   #include "GachaJam/FE3AttackSpeed/WeightIgnoresCon.event"
+  
+  //256 colour CGs (Huichelaar)
+  #include "GachaJam/ManyColourCG/CGCol.event"
