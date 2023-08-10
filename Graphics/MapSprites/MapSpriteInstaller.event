@@ -1,0 +1,19 @@
+#define MovingMapSprite(classId, gfxPointer, apPointer) "PUSH; ORG (0x9A2DF8 + (classId * 8)); POIN gfxPointer apPointer; POP"
+#define StandingMapSprite(id, animPattern, size, gfxPointer) "PUSH; ORG (0x8AF880 + (id * 8)); SHORT animPattern size; POIN gfxPointer; POP"
+#define _16x16 0
+#define _16x32 1
+#define _32x32 2
+//anim pattern is anything between 0 and 3, not sure what they actually do
+
+ALIGN 4
+
+MarthStandingSprite:
+#incext Png2Dmp "MarthStanding.png" --lz77
+ALIGN 4
+
+MarthMovingSprite:
+#incext Png2Dmp "MarthMoving.png" --lz77
+ALIGN 4
+
+StandingMapSprite(0x00, 2, _16x32, MarthStandingSprite) //ephraim lord
+MovingMapSprite(StarLord, MarthMovingSprite, 0x1C3D7C)

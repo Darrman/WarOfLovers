@@ -44,6 +44,9 @@ Screenshots
 # Other folders to disregard
 Release
 
+# Probably shouldn't distribute these
+*.dll
+
 # python cache
 __pycache__
 

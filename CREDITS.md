@@ -55,6 +55,9 @@
 - Marth: Blaze/Abzel
 - Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
 
+# Map Sprites:
+- Marth: Dominus_Vobiscum, Snewping
+
 # Maps:
 
 - Warren: FE1 Ch8 (Darrman)
