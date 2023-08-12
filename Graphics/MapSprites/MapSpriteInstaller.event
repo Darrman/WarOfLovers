@@ -1,4 +1,4 @@
-#define MovingMapSprite(classId, gfxPointer, apPointer) "PUSH; ORG (0x9A2DF8 + (classId * 8)); POIN gfxPointer apPointer; POP"
+#define MovingMapSprite(classId, gfxPointer, apPointer) "PUSH; ORG (MovingMapSpriteTable + (classId * 8)); POIN gfxPointer apPointer; POP"
 #define StandingMapSprite(id, animPattern, size, gfxPointer) "PUSH; ORG (0x8AF880 + (id * 8)); SHORT animPattern size; POIN gfxPointer; POP"
 #define _16x16 0
 #define _16x32 1

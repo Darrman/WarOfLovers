@@ -57,12 +57,3 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 #include SupportsEndings.event
 #include StatBoostPointers.event
 #include AnimTable.event
-
-//Change Marth's moving sprite
-//Couldn't be bothered to do it right
-//Just make him T1 Ephraim
-PUSH
-ORG 0x9A2E10
-POIN 0x1C33CC
-POIN 0x1C3D7C
-POP
