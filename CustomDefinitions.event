@@ -115,6 +115,10 @@
 #define KnightFalcon 0x3D
 #define KnightPaladin_F 0x3E
 #define KnightCavalier_F 0x47
+//Expanded zone
+#define Infantry 0x80
+#define AntiAir 0x81
+#define Tank 0x82
 
 //Items
 #define MiracleSword Audhulma

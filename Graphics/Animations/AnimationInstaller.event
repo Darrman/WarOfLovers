@@ -19,3 +19,14 @@
 {
 #include "Chiki/Unarmed/UnarmedInstaller.event"
 }
+
+//Advance Wars animations - future Jugdral
+{
+#include "Infantry/Gun/GunInstaller.event"
+}
+{
+#include "AntiAir/Cannon/CannonInstaller.event"
+}
+{
+#include "Tank/Cannon/CannonInstaller.event"
+}

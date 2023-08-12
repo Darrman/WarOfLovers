@@ -109,6 +109,7 @@ House(0x0,LoadSuperMarioUnits,4,0)
 House(0x0,LoadPocketMonstersUnits,6,0)
 House(0x0,LoadSmashBrosUnits,8,0)
 House(0x0,LoadOtherRPGUnits,10,0)
+House(0x0,FEE3TrailerRecording,12,0)
 END_MAIN
 
 DebugMiscBasedEvents:
@@ -549,3 +550,13 @@ LoadOtherRPGUnits:
 LOAD1 0x1 DebugUnitsRPG
 ENUN
 ENDA
+
+FEE3TrailerRecording:
+LOAD1 0x1 FEE3Units
+ENDA
+
+FEE3Units:
+UNIT 0x80 Infantry 0x00 Level(1, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SilverBow, BlackGem, BlackGem, BlackGem] NoAI
+UNIT 0x80 AntiAir 0x00 Level(1, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SilverBow, MiracleSword, Gradius, Partia] NoAI
+UNIT 0x80 Tank 0x00 Level(1, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SilverBow, MemberCard, SilverCard, Warp] NoAI
+UNIT

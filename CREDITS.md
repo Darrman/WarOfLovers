@@ -54,6 +54,9 @@
 
 - Marth: Blaze/Abzel
 - Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
+- Infantry: Advance Wars (Amyd, Dark)
+- Anti-Air: Advance Wars (Amyd, Dark)
+- Tank: Advance Wars (Amyd, Dark)
 
 # Map Sprites:
 - Marth: Dominus_Vobiscum, Snewping

@@ -29,3 +29,21 @@ weaponTypeAnim(animSword, 0x5)
 //no special Falchion animation
 weaponTypeAnim(animNone, 0x7)
 weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(Infantry, InfantryAnims)
+InfantryAnims:
+weaponTypeAnim(animBow, 0x92)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(AntiAir, AntiAirAnims)
+AntiAirAnims:
+weaponTypeAnim(animBow, 0x93)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(Tank, TankAnims)
+TankAnims:
+weaponTypeAnim(animBow, 0x94)
+weaponAnimEnd
