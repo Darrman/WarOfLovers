@@ -178,6 +178,24 @@ Rody_Mug:
 #incext PortraitFormatter "Rody.png"
 setMugEntry(0x2D, Rody_Mug, 4, 7, 4, 5)
 
+Celice_Mug:
+#incext PortraitFormatter "Celice.png"
+setMugEntry(0x2E, Celice_Mug, 4,7,4,5)
+
+Alm_Mug:
+#incext PortraitFormatter "Alm.png"
+setMugEntry(0x2F, Alm_Mug, 3,6,3,4)
+
+Lilina_Mug:
+#incext PortraitFormatter "Lilina.png"
+setMugEntry(0x30, Lilina_Mug, 2,6,3,4)
+
+Eliwood_Mug:
+#incext PortraitFormatter "Eliwood.png"
+setMugEntry(0x31, Eliwood_Mug, 2,5,3,3)
+
+
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"
@@ -222,10 +240,6 @@ setMugEntry(0x2D, Rody_Mug, 4, 7, 4, 5)
 //Sigurd_Mug:
 //#incext PortraitFormatter "Sigurd.png"
 //setMugEntry(0x12, Sigurd_Mug, 4,6,4,4)
-//
-//Celice_Mug:
-//#incext PortraitFormatter "Celice.png"
-//setMugEntry(0x13, Celice_Mug, 4,7,4,5)
 //
 //Lana_Mug:
 //#incext PortraitFormatter "Lana.png"

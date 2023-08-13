@@ -50,6 +50,11 @@
 - Alear: Jey the Count
 - Kris: FE12 (Darrman)
 
+- Alm: Atey
+- Chalphy descendant/Celice: FE4 (Darrman)
+- Eliwood: FE6 (Obsidian Daddy)
+- Lilina: FE6 (Obsidian Daddy)
+
 # Animations:
 
 - Marth: Blaze/Abzel
