@@ -12,6 +12,14 @@
 #define VoiceWarioSelect 0xE0
 #define VoiceDaisySelect 0xE1
 #define VoiceWaluigiSelect 0xE4
+#define VoiceLinkSelect 0xE8
+#define VoiceSamusSelect 0xE9
+#define VoiceKirbySelect 0xEC
+#define VoiceFoxSelect 0xEE
+#define VoicePikachuSelect 0xF3
+#define VoiceFalconSelect 0x104
+#define VoiceNessSelect 0x105
+#define VoiceJigglypuffSelect 0x106
 
 ALIGN 2
 MarthVoiceEffect:
@@ -186,7 +194,7 @@ POIN DKVoice_wav
 WORD $FF00FF
 
 DKVoice_wav:
-#incbin "bin/DK_Noise1.bin"
+#incbin "bin/DK_Yeah.bin"
 SongTable(VoiceDKSelect,DKVoice,7)
 
 ALIGN 2
@@ -299,6 +307,181 @@ WaluigiVoice_wav:
 #incbin "bin/Waluigi_GonnaWin.bin"
 SongTable(VoiceWaluigiSelect,WaluigiVoice,7)
 
+ALIGN 2
+LinkVoiceEffect:
+BYTE Link
+BYTE 0x00
+SHORT VoiceLinkSelect
+
+LinkVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+LinkVoice:
+WORD $01
+POIN LinkVoice_map
+POIN LinkVoice_data
+
+LinkVoice_map:
+WORD $3c00
+POIN LinkVoice_wav
+WORD $FF00FF
+
+LinkVoice_wav:
+#incbin "bin/Link_Grunt.bin"
+SongTable(VoiceLinkSelect,LinkVoice,7)
+
+ALIGN 2
+SamusVoiceEffect:
+BYTE Samus
+BYTE 0x00
+SHORT VoiceSamusSelect
+
+SamusVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SamusVoice:
+WORD $01
+POIN SamusVoice_map
+POIN SamusVoice_data
+
+SamusVoice_map:
+WORD $3c00
+POIN SamusVoice_wav
+WORD $FF00FF
+
+SamusVoice_wav:
+#incbin "bin/Samus_PowerBomb.bin"
+SongTable(VoiceSamusSelect,SamusVoice,7)
+
+ALIGN 2
+KirbyVoiceEffect:
+BYTE Kirby
+BYTE 0x00
+SHORT VoiceKirbySelect
+
+KirbyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+KirbyVoice:
+WORD $01
+POIN KirbyVoice_map
+POIN KirbyVoice_data
+
+KirbyVoice_map:
+WORD $3c00
+POIN KirbyVoice_wav
+WORD $FF00FF
+
+KirbyVoice_wav:
+#incbin "bin/Kirby_Yeah.bin"
+SongTable(VoiceKirbySelect,KirbyVoice,7)
+
+ALIGN 2
+FoxVoiceEffect:
+BYTE Fox
+BYTE 0x00
+SHORT VoiceFoxSelect
+
+FoxVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+FoxVoice:
+WORD $01
+POIN FoxVoice_map
+POIN FoxVoice_data
+
+FoxVoice_map:
+WORD $3c00
+POIN FoxVoice_wav
+WORD $FF00FF
+
+FoxVoice_wav:
+#incbin "bin/Fox_ComeOn.bin"
+SongTable(VoiceFoxSelect,FoxVoice,7)
+
+ALIGN 2
+PikachuVoiceEffect:
+BYTE Pikachu
+BYTE 0x00
+SHORT VoicePikachuSelect
+
+PikachuVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+PikachuVoice:
+WORD $01
+POIN PikachuVoice_map
+POIN PikachuVoice_data
+
+PikachuVoice_map:
+WORD $3c00
+POIN PikachuVoice_wav
+WORD $FF00FF
+
+PikachuVoice_wav:
+#incbin "bin/Pikachu_Cry.bin"
+SongTable(VoicePikachuSelect,PikachuVoice,7)
+
+ALIGN 2
+FalconVoiceEffect:
+BYTE Falcon
+BYTE 0x00
+SHORT VoiceFalconSelect
+
+FalconVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+FalconVoice:
+WORD $01
+POIN FalconVoice_map
+POIN FalconVoice_data
+
+FalconVoice_map:
+WORD $3c00
+POIN FalconVoice_wav
+WORD $FF00FF
+
+FalconVoice_wav:
+#incbin "bin/Falcon_ShowMeYourMoves.bin"
+SongTable(VoiceFalconSelect,FalconVoice,7)
+
+ALIGN 2
+NessVoiceEffect:
+BYTE Ness
+BYTE 0x00
+SHORT VoiceNessSelect
+
+NessVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+NessVoice:
+WORD $01
+POIN NessVoice_map
+POIN NessVoice_data
+
+NessVoice_map:
+WORD $3c00
+POIN NessVoice_wav
+WORD $FF00FF
+
+NessVoice_wav:
+#incbin "bin/Ness_PKFlash.bin"
+SongTable(VoiceNessSelect,NessVoice,7)
+
+ALIGN 2
+JigglypuffVoiceEffect:
+BYTE Jigglypuff
+BYTE 0x00
+SHORT VoiceJigglypuffSelect
+
+JigglypuffVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+JigglypuffVoice:
+WORD $01
+POIN JigglypuffVoice_map
+POIN JigglypuffVoice_data
+
+JigglypuffVoice_map:
+WORD $3c00
+POIN JigglypuffVoice_wav
+WORD $FF00FF
+
+JigglypuffVoice_wav:
+#incbin "bin/Jigglypuff_Cry.bin"
+SongTable(VoiceJigglypuffSelect,JigglypuffVoice,7)
 
 /*ALIGN 2
 EirikaSoundEffect:

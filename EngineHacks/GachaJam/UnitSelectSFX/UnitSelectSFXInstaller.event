@@ -41,6 +41,8 @@ POIN MarthVoiceEffect; POIN SheedaVoiceEffect; POIN ChikiVoiceEffect
 POIN MarioVoiceEffect; POIN LuigiVoiceEffect; POIN PeachVoiceEffect; POIN BowserVoiceEffect
 POIN DKVoiceEffect; POIN YoshiVoiceEffect; POIN ToadVoiceEffect; POIN WarioVoiceEffect
 POIN DaisyVoiceEffect; POIN WaluigiVoiceEffect
+POIN LinkVoiceEffect; POIN SamusVoiceEffect; POIN KirbyVoiceEffect; POIN FoxVoiceEffect
+POIN PikachuVoiceEffect; POIN FalconVoiceEffect; POIN NessVoiceEffect; POIN JigglypuffVoiceEffect
 
 WORD 0//End marker
 //Default fire emblem 8 voices definitions and bins

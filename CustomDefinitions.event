@@ -182,3 +182,11 @@
 #define VoiceWarioSummon 0x274
 #define VoiceDaisySummon 0x275
 #define VoiceWaluigiSummon 0x276
+#define VoiceLinkSummon 0x277
+#define VoiceSamusSummon 0x278
+#define VoiceKirbySummon 0x279
+#define VoiceFoxSummon 0x27A
+#define VoicePikachuSummon 0x27B
+#define VoiceFalconSummon 0x27C
+#define VoiceNessSummon 0x27D
+#define VoiceJigglypuffSummon 0x27E
