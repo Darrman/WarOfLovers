@@ -264,6 +264,8 @@ CHECK_EXISTS Link
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LinkUnit
 ENUN
+SOUN VoiceLinkSummon
+STAL 20
 Text(RecruitLink)
 SVAL s2 Link
 ENDA
@@ -274,6 +276,8 @@ CHECK_EXISTS Samus
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SamusUnit
 ENUN
+SOUN VoiceSamusSummon
+STAL 20
 Text(RecruitSamus)
 SVAL s2 Samus
 ENDA
@@ -284,6 +288,8 @@ CHECK_EXISTS Kirby
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 KirbyUnit
 ENUN
+SOUN VoiceKirbySummon
+STAL 20
 Text(RecruitKirby)
 SVAL s2 Kirby
 ENDA
@@ -294,6 +300,8 @@ CHECK_EXISTS Fox
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FoxUnit
 ENUN
+SOUN VoiceFoxSummon
+STAL 20
 Text(RecruitFox)
 SVAL s2 Fox
 ENDA
@@ -304,6 +312,8 @@ CHECK_EXISTS Pikachu
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PikachuUnit
 ENUN
+SOUN VoicePikachuSummon
+STAL 20
 Text(RecruitPikachu)
 SVAL s2 Pikachu
 ENDA
@@ -314,6 +324,8 @@ CHECK_EXISTS Falcon
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FalconUnit
 ENUN
+SOUN VoiceFalconSummon
+STAL 20
 Text(RecruitFalcon)
 SVAL s2 Falcon
 ENDA
@@ -324,6 +336,8 @@ CHECK_EXISTS Jigglypuff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JigglypuffUnit
 ENUN
+SOUN VoiceJigglypuffSummon
+STAL 20
 Text(RecruitJigglypuff)
 SVAL s2 Jigglypuff
 ENDA
@@ -334,6 +348,8 @@ CHECK_EXISTS Ness
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 NessUnit
 ENUN
+SOUN VoiceNessSummon
+STAL 20
 Text(RecruitNess)
 SVAL s2 Ness
 ENDA
@@ -414,6 +430,8 @@ CHECK_EXISTS DK
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DKUnit
 ENUN
+SOUN VoiceDKSummon
+STAL 20
 Text(RecruitDK)
 SVAL s2 DK
 ENDA
