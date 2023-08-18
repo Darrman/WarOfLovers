@@ -552,6 +552,7 @@ ENUN
 ENDA
 
 FEE3TrailerRecording:
+CALL LoadMario
 LOAD1 0x1 FEE3Units
 ENDA
 

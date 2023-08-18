@@ -19,22 +19,22 @@
     #include "EngineHacks/_MasterHackInstaller.event"
     MESSAGE Used hax space ends at currentOffset
 
-    //Graphics
-    #include "Graphics/MasterGraphicsInstaller.event"
-
-    //Portraits
-    #include "Graphics/Mugs/MugInstaller.event"
-
     //Events
     #include "Events/MasterEventInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
     
-    //install music at the end of the rom
+    //install graphics/music at the end of the rom
     ORG 0x1000000
     //Music
     #include "Music/MasterAudioInstaller.event"
+
+    //Graphics
+    #include "Graphics/MasterGraphicsInstaller.event"
+
+    //Portraits
+    #include "Graphics/Mugs/MugInstaller.event"
 
 	
     MESSAGE Used free space ends at currentOffset

@@ -74,7 +74,14 @@ WORD 0x0895D75C 0x0895D768 0x0895DC1C
 WORD 0x0 0x0 0x0                                    // Not sure what this is used for.
 WORD 0x0 0x0 0x0                                    // ID used for random BG.
 POIN TestBG; WORD 0x0; POIN TestBGPal       // TSA == 0 indicates 256-colour BGs.
-//POIN Sommie224BG; WORD 0x1; POIN Sommie224Pal       // TSA == 1 indicates 224-colour BGs.
+POIN MarioBG; WORD 0x0; POIN MarioBGPal       // TSA == 1 indicates 224-colour BGs.
+POIN DKBG; WORD 0x0; POIN DKBGPal
+POIN LinkBG; WORD 0x0; POIN LinkBGPal
+POIN SamusBG; WORD 0x0; POIN SamusBGPal
+POIN YoshiBG; WORD 0x0; POIN YoshiBGPal
+POIN KirbyBG; WORD 0x0; POIN KirbyBGPal
+POIN FoxBG; WORD 0x0; POIN FoxBGPal
+POIN PikachuBG; WORD 0x0; POIN PikachuBGPal
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -84,3 +91,51 @@ TestBG:
 ALIGN 4
 TestBGPal:
 #incbin bin/256TestCGPal.dmp
+
+MarioBG:
+#incbin bin/256Mario.dmp
+ALIGN 4
+MarioBGPal:
+#incbin bin/256MarioPal.dmp
+
+DKBG:
+#incbin bin/256DK.dmp
+ALIGN 4
+DKBGPal:
+#incbin bin/256DKPal.dmp
+
+LinkBG:
+#incbin bin/256Link.dmp
+ALIGN 4
+LinkBGPal:
+#incbin bin/256LinkPal.dmp
+
+SamusBG:
+#incbin bin/256Samus.dmp
+ALIGN 4
+SamusBGPal:
+#incbin bin/256SamusPal.dmp
+
+YoshiBG:
+#incbin bin/256Yoshi.dmp
+ALIGN 4
+YoshiBGPal:
+#incbin bin/256YoshiPal.dmp
+
+KirbyBG:
+#incbin bin/256Kirby.dmp
+ALIGN 4
+KirbyBGPal:
+#incbin bin/256KirbyPal.dmp
+
+FoxBG:
+#incbin bin/256Fox.dmp
+ALIGN 4
+FoxBGPal:
+#incbin bin/256FoxPal.dmp
+
+PikachuBG:
+#incbin bin/256Pikachu.dmp
+ALIGN 4
+PikachuBGPal:
+#incbin bin/256PikachuPal.dmp

@@ -190,3 +190,13 @@
 #define VoiceFalconSummon 0x27C
 #define VoiceNessSummon 0x27D
 #define VoiceJigglypuffSummon 0x27E
+
+//Summon CGs
+#define CGMario 0x39
+#define CGDK 0x3A
+#define CGLink 0x3B
+#define CGSamus 0x3C
+#define CGYoshi 0x3D
+#define CGKirby 0x3E
+#define CGFox 0x3F
+#define CGPikachu 0x40

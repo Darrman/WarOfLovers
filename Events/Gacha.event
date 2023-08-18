@@ -75,10 +75,14 @@ CHECK_EXISTS Mario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MarioUnit
 ENUN
+SetBackground(CGMario)
 SOUN VoiceMarioSummon
 STAL 20
-//should play this after movement, proper way of handling this would take more time than I have
-Text(RecruitMario)
+CGTEXTSTART
+TEXTSHOW RecruitMario
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Mario
 ENDA
 
@@ -148,9 +152,14 @@ CHECK_EXISTS Yoshi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 YoshiUnit
 ENUN
+SetBackground(CGYoshi)
 SOUN VoiceYoshiSummon
 STAL 20
-Text(RecruitYoshi)
+CGTEXTSTART
+TEXTSHOW RecruitYoshi
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Yoshi
 ENDA
 
@@ -264,9 +273,14 @@ CHECK_EXISTS Link
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LinkUnit
 ENUN
+SetBackground(CGLink)
 SOUN VoiceLinkSummon
 STAL 20
-Text(RecruitLink)
+CGTEXTSTART
+TEXTSHOW RecruitLink
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Link
 ENDA
 
@@ -276,9 +290,14 @@ CHECK_EXISTS Samus
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SamusUnit
 ENUN
+SetBackground(CGSamus)
 SOUN VoiceSamusSummon
 STAL 20
-Text(RecruitSamus)
+CGTEXTSTART
+TEXTSHOW RecruitSamus
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Samus
 ENDA
 
@@ -288,9 +307,14 @@ CHECK_EXISTS Kirby
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 KirbyUnit
 ENUN
+SetBackground(CGKirby)
 SOUN VoiceKirbySummon
 STAL 20
-Text(RecruitKirby)
+CGTEXTSTART
+TEXTSHOW RecruitKirby
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Kirby
 ENDA
 
@@ -300,9 +324,14 @@ CHECK_EXISTS Fox
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FoxUnit
 ENUN
+SetBackground(CGFox)
 SOUN VoiceFoxSummon
 STAL 20
-Text(RecruitFox)
+CGTEXTSTART
+TEXTSHOW RecruitFox
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Fox
 ENDA
 
@@ -312,9 +341,14 @@ CHECK_EXISTS Pikachu
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PikachuUnit
 ENUN
+SetBackground(CGPikachu)
 SOUN VoicePikachuSummon
 STAL 20
-Text(RecruitPikachu)
+CGTEXTSTART
+TEXTSHOW RecruitPikachu
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Pikachu
 ENDA
 
