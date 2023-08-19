@@ -553,6 +553,13 @@ ENDA
 
 FEE3TrailerRecording:
 CALL LoadMario
+CALL LoadDK
+CALL LoadLink
+CALL LoadSamus
+CALL LoadYoshi
+CALL LoadKirby
+CALL LoadFox
+CALL LoadPikachu
 LOAD1 0x1 FEE3Units
 ENDA
 

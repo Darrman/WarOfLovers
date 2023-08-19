@@ -464,9 +464,14 @@ CHECK_EXISTS DK
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DKUnit
 ENUN
+SetBackground(CGDK)
 SOUN VoiceDKSummon
 STAL 20
-Text(RecruitDK)
+CGTEXTSTART
+TEXTSHOW RecruitDK
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 DK
 ENDA
 

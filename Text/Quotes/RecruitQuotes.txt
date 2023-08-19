@@ -1,5 +1,5 @@
 ## RecruitMario
-[MR][LoadMarth][ML][LoadMario]
+#[MR][LoadMarth][ML][LoadMario]
 It's a me, Mario! I've a travelled[N]
 across galaxies, so let's a go![A][X]
 
@@ -25,9 +25,10 @@ my kidnapping plot, but I do prefer[N]
 the world not destroyed. Sure, I'm in.[A][X]
 
 ## RecruitDK
-[MR][LoadMarth][ML][LoadDK]
-I'm Donkey Kong! K. Rool stole my bananas[N]
-and now I'm hungry. He will pay![A][X]
+#[MR][LoadMarth][ML][LoadDK]
+I'm Donkey Kong! K. Rool stole my[N]
+bananas and now I'm hungry.[AN]
+He will pay![A][X]
 
 ## RecruitToad
 [MR][LoadMarth][ML][LoadToad]
@@ -51,11 +52,12 @@ As far as I can tell, you need help,[N]
 so that's what I'm going to do.[A][X]
 
 ## RecruitYoshi
-[MR][LoadMarth][ML][LoadYoshi]
-I'm Yoshi, Mario's steed since the day[N]
-he was born. However, I can make myself[AN]
-useful in other ways without him. I'm[N]
-hungry for some villain right now...[A][X]
+#[MR][LoadMarth][ML][LoadYoshi]
+I'm Yoshi, Mario's steed since the[N]
+day he was born. However, I can[AN]
+make myself useful in other ways[N]
+without him. I'm hungry for some[AN]
+villain right now...[A][X]
 
 ## RecruitWaluigi
 [MR][LoadMarth][ML][LoadWaluigi]
@@ -121,39 +123,43 @@ by the name of Ash around here? I want[N]
 to tell him something.[A][X]
 
 ## RecruitLink
-[MR][LoadMarth][ML][LoadLink]
-I am Link, bearer of the Triforce of[N]
-Courage and wielder of the Master[AN]
-Sword. This land is not Hyrule, but[N]
-I will aid you in saving it.[A][X]
+#[MR][LoadMarth][ML][LoadLink]
+I am Link, bearer of the Triforce[N]
+of Courage and wielder of the[AN]
+Master Sword. This land is not[N]
+Hyrule, but I will aid you in[AN]
+saving it.[A][X]
 
 ## RecruitSamus
-[MR][LoadMarth][ML][LoadSamus]
-My name is Samus Aran. I hunt bounties[N]
-throughout the galaxy, such as the[AN]
-Metroids. I doubt any Metroids live[N]
-here. So who's your target?[A][X]
+#[MR][LoadMarth][ML][LoadSamus]
+My name is Samus Aran. I hunt[N]
+bounties throughout the galaxy,[AN]
+such as the Metroids. I doubt[N]
+any Metroids live here. So who's[AN]
+your target?[A][X]
 
 ## RecruitKirby
-[MR][LoadMarth][ML][LoadKirby]
+#[MR][LoadMarth][ML][LoadKirby]
 Poyo! I'm Kirby, and I'm really[N]
 hungry. And there's nothing I[AN]
 hate more than food thieves.[N]
 Biggest meanies on Pop Star.[A][X]
 
 ## RecruitFox
-[MR][LoadMarth][ML][LoadFox]
-I'm Fox McCloud, head of Star Fox.[N]
-Unfortunately my Arwing isn't here,[AN]
-so I'll have to fight on foot. Pay me[N]
-well and I'll take on any target.[A][X]
+#[MR][LoadMarth][ML][LoadFox]
+I'm Fox McCloud, head of Star[N]
+Fox. Unfortunately, my Arwing[AN]
+isn't here, so I'll have to fight[N]
+on foot. Pay me well and I'll[AN]
+take on any target.[A][X]
 
 ## RecruitPikachu
-[MR][LoadMarth][ML][LoadPikachu]
-Pika pika! I'm Pikachu. My electricity[N]
-is excellent in dealing with birds and[AN]
-fish, but keep me away from the ground.[N]
-...I don't attack humans directly often.[A][X]
+#[MR][LoadMarth][ML][LoadPikachu]
+Pika pika! I'm Pikachu. My[N]
+electricity is excellent in dealing[AN]
+with birds and fish, but keep me[N]
+away from the ground. ...I don't[AN]
+attack humans directly often.[A][X]
 
 ## RecruitFalcon
 [MR][LoadMarth][ML][LoadFalcon]
