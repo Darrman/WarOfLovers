@@ -4,7 +4,7 @@
 	#define	OffToWar_grp  voicegroup000
 	#define	OffToWar_pri  0
 	#define	OffToWar_rev  0
-	#define	OffToWar_mvl  127
+	#define	OffToWar_mvl  95
 	#define	OffToWar_key  0
 	#define	OffToWar_tbs  1
 	#define	OffToWar_exg  0

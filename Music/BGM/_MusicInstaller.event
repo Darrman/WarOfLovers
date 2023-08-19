@@ -128,3 +128,18 @@ SongTable(M_OffToWar,OffToWar,0)
 #include "Victory.event"
 SongTable(Victory,VictoryMusic,0)
 }
+
+{
+#include "TogetherWeRide.event"
+SongTable(M_TogetherWeRide,TogetherWeRide,0)
+}
+
+{
+#include "ScepterOfLife.event"
+SongTable(M_HealStaff,HealMusic,1)
+}
+
+{
+#include "Dancer.event"
+SongTable(M_Dancer,DancerMusic,1)
+}

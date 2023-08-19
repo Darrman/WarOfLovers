@@ -4,7 +4,7 @@
 	#define	Crisis_grp  voicegroup000
 	#define	Crisis_pri  0
 	#define	Crisis_rev  0
-	#define	Crisis_mvl  127
+	#define	Crisis_mvl  95
 	#define	Crisis_key  0
 	#define	Crisis_tbs  1
 	#define	Crisis_exg  0

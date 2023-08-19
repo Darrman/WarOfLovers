@@ -4,7 +4,7 @@
 	#define	Armoury_grp  voicegroup000
 	#define	Armoury_pri  0
 	#define	Armoury_rev  0
-	#define	Armoury_mvl  127
+	#define	Armoury_mvl  95
 	#define	Armoury_key  0
 	#define	Armoury_tbs  1
 	#define	Armoury_exg  0

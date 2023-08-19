@@ -153,6 +153,7 @@
 #define M_Insurrection Shadow_of_the_Enemy	
 #define M_EvilOnes Solve_the_Riddle
 #define M_StartingANewJourney The_Beginning
+#define M_ANewJourney M_StartingANewJourney
 #define M_DragonsAltar Twisted_ShadowsA
 #define M_VictoryIsOurs Grasping_at_Victory
 #define M_And Victory_and_the_Future
@@ -168,6 +169,12 @@
 #define M_Arena Colosseum_Entrance
 #define M_OffToWar Tension
 #define M_Victory Victory
+#define M_TogetherWeRide Comrades
+#define M_ThemeOfEncounter M_TogetherWeRide
+#define M_HealStaff Curing
+#define M_LiveStaff M_HealStaff
+#define M_Dancer TethysTheme
+
 
 //VA
 //26D to 2BB all empty

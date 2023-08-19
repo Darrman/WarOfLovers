@@ -4,7 +4,7 @@
 	#define	Insurrection_grp  voicegroup000
 	#define	Insurrection_pri  0
 	#define	Insurrection_rev  0
-	#define	Insurrection_mvl  127
+	#define	Insurrection_mvl  95
 	#define	Insurrection_key  0
 	#define	Insurrection_tbs  1
 	#define	Insurrection_exg  0

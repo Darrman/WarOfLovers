@@ -4,7 +4,7 @@
 	#define	Advance_grp  voicegroup000
 	#define	Advance_pri  0
 	#define	Advance_rev  0
-	#define	Advance_mvl  127
+	#define	Advance_mvl  95
 	#define	Advance_key  0
 	#define	Advance_tbs  1
 	#define	Advance_exg  0

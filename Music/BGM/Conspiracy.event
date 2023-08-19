@@ -4,7 +4,7 @@
 	#define	Conspiracy_grp  voicegroup000
 	#define	Conspiracy_pri  0
 	#define	Conspiracy_rev  0
-	#define	Conspiracy_mvl  127
+	#define	Conspiracy_mvl  95
 	#define	Conspiracy_key  0
 	#define	Conspiracy_tbs  1
 	#define	Conspiracy_exg  0

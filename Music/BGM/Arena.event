@@ -4,7 +4,7 @@
 	#define	Arena_grp  voicegroup000
 	#define	Arena_pri  0
 	#define	Arena_rev  0
-	#define	Arena_mvl  127
+	#define	Arena_mvl  95
 	#define	Arena_key  0
 	#define	Arena_tbs  1
 	#define	Arena_exg  0

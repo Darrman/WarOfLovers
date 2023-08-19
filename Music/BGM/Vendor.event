@@ -4,7 +4,7 @@
 	#define	Vendor_grp  voicegroup000
 	#define	Vendor_pri  0
 	#define	Vendor_rev  0
-	#define	Vendor_mvl  127
+	#define	Vendor_mvl  95
 	#define	Vendor_key  0
 	#define	Vendor_tbs  1
 	#define	Vendor_exg  0

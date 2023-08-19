@@ -4,7 +4,7 @@
 	#define	AttackBook2_grp  voicegroup000
 	#define	AttackBook2_pri  0
 	#define	AttackBook2_rev  0
-	#define	AttackBook2_mvl  127
+	#define	AttackBook2_mvl  95
 	#define	AttackBook2_key  0
 	#define	AttackBook2_tbs  1
 	#define	AttackBook2_exg  0

@@ -4,7 +4,7 @@
 	#define	song2C_grp  voicegroup000
 	#define	song2C_pri  0
 	#define	song2C_rev  0
-	#define	song2C_mvl  127
+	#define	song2C_mvl  95
 	#define	song2C_key  0
 	#define	song2C_tbs  1
 	#define	song2C_exg  0

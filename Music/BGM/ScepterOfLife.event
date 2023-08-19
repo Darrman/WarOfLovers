@@ -1,0 +1,325 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	HealMusic_grp  voicegroup000
+	#define	HealMusic_pri  0
+	#define	HealMusic_rev  0
+	#define	HealMusic_mvl  95
+	#define	HealMusic_key  0
+	#define	HealMusic_tbs  1
+	#define	HealMusic_exg  0
+	#define	HealMusic_cmp  1
+
+	// .rodata
+	//	HealMusic
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+HealMusic_001:
+// 000   ----------------------------------------
+ BYTE   KEYSH   HealMusic_key+0
+Label_0_0144F906:
+ BYTE   TEMPO   116*HealMusic_tbs/2
+ BYTE   VOICE   60
+ BYTE   VOL   46*HealMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W11
+// 001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_0_0144F906
+// 002   ----------------------------------------
+ BYTE   W01
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   N09  Cn4
+ BYTE   W10
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+HealMusic_002:
+// 000   ----------------------------------------
+ BYTE   KEYSH   HealMusic_key+0
+Label_1_0144F93E:
+ BYTE   VOICE   60
+ BYTE   VOL   46*HealMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   W01
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W11
+// 001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_1_0144F93E
+// 002   ----------------------------------------
+ BYTE   W01
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   N09  Fn3
+ BYTE   W10
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+HealMusic_003:
+// 000   ----------------------------------------
+ BYTE   KEYSH   HealMusic_key+0
+Label_2_0144F976:
+ BYTE   VOICE   60
+ BYTE   VOL   46*HealMusic_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   W01
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W11
+// 001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_2_0144F976
+// 002   ----------------------------------------
+ BYTE   W01
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   N09  Gn3
+ BYTE   W10
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+HealMusic_004:
+// 000   ----------------------------------------
+ BYTE   KEYSH   HealMusic_key+0
+Label_3_0144F9AE:
+ BYTE   VOICE   60
+ BYTE   VOL   66*HealMusic_mvl/mxv
+ BYTE   PAN   c_v+14
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+// 001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_3_0144F9AE
+// 002   ----------------------------------------
+ BYTE   N11  As3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W11
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+HealMusic_005:
+// 000   ----------------------------------------
+ BYTE   KEYSH   HealMusic_key+0
+Label_4_0144F9E2:
+ BYTE   VOICE   60
+ BYTE   VOL   66*HealMusic_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+// 001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_4_0144F9E2
+// 002   ----------------------------------------
+ BYTE   N11  Cn3  v104
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W11
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+HealMusic_006:
+// 000   ----------------------------------------
+ BYTE   KEYSH   HealMusic_key+0
+Label_5_0144FA16:
+ BYTE   VOICE   60
+ BYTE   VOL   66*HealMusic_mvl/mxv
+ BYTE   PAN   c_v-14
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+// 001   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_5_0144FA16
+// 002   ----------------------------------------
+ BYTE   N11  Gn3  v104
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W11
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+HealMusic:
+	BYTE	6	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	HealMusic_pri	// Priority
+	BYTE	HealMusic_rev	// Reverb.
+    
+	POIN2	HealMusic_grp
+    
+	POIN2	HealMusic_001
+	POIN2	HealMusic_002
+	POIN2	HealMusic_003
+	POIN2	HealMusic_004
+	POIN2	HealMusic_005
+	POIN2	HealMusic_006
+
+	

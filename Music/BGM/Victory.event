@@ -4,7 +4,7 @@
 	#define	VictoryMusic_grp  voicegroup000
 	#define	VictoryMusic_pri  0
 	#define	VictoryMusic_rev  0
-	#define	VictoryMusic_mvl  127
+	#define	VictoryMusic_mvl  95
 	#define	VictoryMusic_key  0
 	#define	VictoryMusic_tbs  1
 	#define	VictoryMusic_exg  0

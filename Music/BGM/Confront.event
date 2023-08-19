@@ -4,7 +4,7 @@
 	#define	Confront_grp  voicegroup000
 	#define	Confront_pri  0
 	#define	Confront_rev  0
-	#define	Confront_mvl  127
+	#define	Confront_mvl  95
 	#define	Confront_key  0
 	#define	Confront_tbs  1
 	#define	Confront_exg  0
