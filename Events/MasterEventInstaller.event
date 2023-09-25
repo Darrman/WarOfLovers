@@ -16,8 +16,5 @@
 #include "Chapter4.event"
 }
 {
-#include "Chapter5-1.event"
-}
-{
-#include "Chapter5-2.event"
+#include "Chapter5.event"
 }

@@ -1,0 +1,130 @@
+EventPointerTable(0x17, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(0x7,Ch5WestVillage,4,10)
+Village(0x8,Ch5EastVillage,28,5)
+Village(0x9,Ch5RuinedVillage,22,9)
+Armory(Ch5Armoury,26,2)
+House(0x0,Ch5House1,6,12)
+House(0x0,Ch5House2,21,3)
+END_MAIN
+
+MiscBasedEvents:
+DefeatBoss(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [5,4] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [7,4] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [4,5] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Luigi Berserker 0x00 Level(1,Ally,0) [6,8] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Luigi Berserker 0x00 Level(1,Ally,0) [7,7] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [2,4] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [3,2] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [5,7] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [2,7] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT Mario Berserker 0x00 Level(1,Ally,0) [3,3] 0x0 0x0 0x0 0x0 [Hammer] NoAI
+UNIT
+
+Bad:
+UNIT Alear Sage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
+UNIT Lythos General Alear Level(5,Enemy,1) [9,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
+UNIT Lythos Berserker 0x00 Level(5,Enemy,1) [15,1] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Lythos Berserker 0x00 Level(5,Enemy,1) [11,13] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Lythos Hero 0x00 Level(5,Enemy,1) [6,11] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Lythos Thief 0x00 Level(20,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [KillingEdge] BrigandAI
+UNIT Lythos Paladin 0x00 Level(5,Enemy,1) [21,4] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Lythos Paladin 0x00 Level(5,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Lythos Warrior 0x00 Level(5,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Lythos Warrior 0x00 Level(5,Enemy,1) [16,7] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Lythos Sniper 0x00 Level(5,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [SilverBow] AttackInRangeAI
+UNIT Lythos Sage 0x00 Level(5,Enemy,1) [27,8] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT Lythos Bishop 0x00 Level(5,Enemy,1) [26,10] 0x0 0x0 0x0 0x0 [Divine, Mend] HealUnits
+UNIT Lythos Druid 0x00 Level(5,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [Luna] AttackInRangeAI
+UNIT
+
+Bad2:
+UNIT Lythos Fleet 0x00 Level(10,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
+UNIT Lythos Fleet 0x00 Level(10,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
+UNIT Lythos General 0x00 Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD3 0x0 Good
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+GotoPrepScreen
+ENDA
+
+EndingScene:
+ENDA
+
+Ch5WestVillage:
+//text
+SVAL s3 Vulnerary //placeholder
+GIVEITEMTO 0xFFFF
+ENDA
+
+Ch5EastVillage:
+//text
+SVAL s3 Vulnerary //placeholder
+GIVEITEMTO 0xFFFF
+ENDA
+
+Ch5RuinedVillage:
+//text
+SVAL s3 Vulnerary //placeholder
+GIVEITEMTO 0xFFFF
+ENDA
+
+Ch5House1:
+ENDA
+
+Ch5House2:
+ENDA
+
+Ch5Armoury:
+SHLI IronSword IronLance IronAxe IronBow
+ALIGN 4
