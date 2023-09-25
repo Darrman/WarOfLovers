@@ -552,14 +552,20 @@ ENUN
 ENDA
 
 FEE3TrailerRecording:
-CALL LoadMario
+/*CALL LoadMario
 CALL LoadDK
 CALL LoadLink
 CALL LoadSamus
 CALL LoadYoshi
 CALL LoadKirby
 CALL LoadFox
-CALL LoadPikachu
+CALL LoadPikachu*/
+
+Text(Town_Gate,ValencianScene)
+Text(Castle_Room,ElibianScene)
+Text(Village,JugdralianScene)
+Text(Castle_Hall,AkaneianScene)
+
 LOAD1 0x1 FEE3Units
 ENDA
 

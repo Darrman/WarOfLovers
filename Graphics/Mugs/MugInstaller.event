@@ -194,7 +194,9 @@ Eliwood_Mug:
 #incext PortraitFormatter "Eliwood.png"
 setMugEntry(0x31, Eliwood_Mug, 2,5,3,3)
 
-
+OifayeMug:
+#incext PortraitFormatter "oifaye.png"
+setMugEntry(0x32, OifayeMug, 3, 6, 2, 4)
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:

@@ -106,4 +106,10 @@
 [LoadRody] = [LoadFace][0x2D][0x1]
 [LoadGoon] = [LoadFace][0x2E][0x1]
 
+[LoadAlm] = [LoadFace][0x2F][0x1]
+[LoadCelice] = [LoadFace][0x2E][0x1]
+[LoadOifaye] = [LoadFace][0x32][0x1]
+[LoadLilina] = [LoadFace][0x30][0x1]
+[LoadEliwood] = [LoadFace][0x31][0x1]
+
 [LoadAnna] = [LoadFace][0x64][0x1]
