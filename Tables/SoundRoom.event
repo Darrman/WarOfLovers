@@ -1,0 +1,33 @@
+#define SoundRoom(SongID,SongLength,SongUnlock,SongNameID) "WORD SongID SongLength; POIN SongUnlock; WORD SongNameID"
+
+PUSH
+ORG 0xA20E74 //69 entries in vanilla, repoint if you go past that
+
+SoundRoom(Main_Theme,5880,0,SRFETheme)
+SoundRoom(M_AkaneiaAnthem,5400,0,SRAkaneiaOverture)
+SoundRoom(M_ANewJourney,5400,0,SRANewJourney)
+SoundRoom(M_Advance,5400,0,SRAdvance)
+SoundRoom(M_HolyWar,5400,0,SRHolyWar)
+SoundRoom(M_VictoryIsOurs,5400,0,SRVictoryIsOurs)
+SoundRoom(M_Insurrection,5400,0,SRInsurrection)
+SoundRoom(M_DragonsAltar,5400,0,SRDragonsAltar)
+SoundRoom(M_Attack,5400,0,SRAttackBook2)
+SoundRoom(M_Crisis,5400,0,SRCrisis)
+SoundRoom(M_Confront,5400,0,SRConfront)
+SoundRoom(M_HealStaff,5400,0,SRHealStaff)
+SoundRoom(M_Dancer,5400,0,SRDancerFE3)
+SoundRoom(M_OffToWar,5400,0,SROffToWar)
+SoundRoom(M_Conspiracy,5400,0,SRConspiracy)
+SoundRoom(M_Ricardo,5400,0,SRRicardoTheme)
+SoundRoom(M_EvilOnes,5400,0,SREvilOnes)
+SoundRoom(M_ThemeOfLove,5400,0,SRThemeOfLove)
+SoundRoom(M_ThemeOfEncounter,5400,0,SRThemeOfEncounter)
+SoundRoom(M_Victory,5400,0,SRVictoryBook2)
+SoundRoom(M_LegendOfTheDivineDragonMusicBox,5400,0,SRLegendOfTheDivineDragonMusicBox)
+SoundRoom(Game_Over,5400,0,SRGameOverBook2)
+SoundRoom(M_Armoury,5400,0,SRArmouryFE3)
+SoundRoom(M_Vendor,5400,0,SRVendorFE3)
+SoundRoom(M_Arena,5400,0,SRArenaFE3)
+WORD 0xFFFFFFFF
+
+POP

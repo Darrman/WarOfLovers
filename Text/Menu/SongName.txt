@@ -1,0 +1,74 @@
+## SRFETheme
+Fire Emblem Theme[X]
+
+## SRAkaneiaOverture
+Akaneian Overture[X]
+
+## SRANewJourney
+A New Journey[X]
+
+## SRAdvance
+Advance[X]
+
+## SRHolyWar
+Holy War[X]
+
+## SRVictoryIsOurs
+Victory is Ours[X]
+
+## SRInsurrection
+Insurrection[X]
+
+## SRDragonsAltar
+Dragons' Altar[X]
+
+## SRAttackBook2
+Attack (FE3 Book 2)[X]
+
+## SRCrisis
+Crisis (FE3 Book 1)[X]
+
+## SRConfront
+Confront[X]
+
+## SRHealStaff
+Heal Staff[X]
+
+## SRDancerFE3
+Dancer (FE3)[X]
+
+## SROffToWar
+Off to War[X]
+
+## SRConspiracy
+Conspiracy[X]
+
+## SRRicardoTheme
+Ricardo[X]
+
+## SREvilOnes
+Evil Ones[X]
+
+## SRThemeOfLove
+Theme of Love[X]
+
+## SRThemeOfEncounter
+Theme of Encounter (Book 2)[X]
+
+## SRVictoryBook2
+Victory (FE3 Book 2)[X]
+
+## SRLegendOfTheDivineDragonMusicBox
+Legend of the Divine Dragon[X]
+
+## SRGameOverBook2
+Game Over (FE3 Book 2)[X]
+
+## SRArmouryFE3
+Armoury (FE3)[X]
+
+## SRVendorFE3
+Vendor (FE3)[X]
+
+## SRArenaFE3
+Arena (FE3)[X]

@@ -40,6 +40,7 @@ Age:[X]
 #include Menu/ClassName.txt
 #include Menu/ItemName.txt
 #include Menu/ChapterNameGoal.txt
+#include Menu/SongName.txt
 
 #include Quotes/BossQuotes.txt
 #include Quotes/DeathQuotes.txt
