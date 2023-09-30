@@ -92,9 +92,14 @@ CHECK_EXISTS Luigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 LuigiUnit
 ENUN
+SetBackground(CGLuigi)
 SOUN VoiceLuigiSummon
 STAL 20
-Text(RecruitLuigi)
+CGTEXTSTART
+TEXTSHOW RecruitLuigi
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Luigi
 ENDA
 
@@ -104,9 +109,14 @@ CHECK_EXISTS Peach
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PeachUnit
 ENUN
+SetBackground(CGPeach)
 SOUN VoicePeachSummon
 STAL 20
-Text(RecruitPeach)
+CGTEXTSTART
+TEXTSHOW RecruitPeach
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Peach
 ENDA
 
@@ -116,9 +126,14 @@ CHECK_EXISTS Bowser
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BowserUnit
 ENUN
+SetBackground(CGBowser)
 SOUN VoiceBowserSummon
 STAL 20
-Text(RecruitBowser)
+CGTEXTSTART
+TEXTSHOW RecruitBowser
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
 SVAL s2 Bowser
 ENDA
 
@@ -128,9 +143,14 @@ CHECK_EXISTS Toad
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ToadUnit
 ENUN
+SetBackground(CGToad)
 SOUN VoiceToadSummon
 STAL 20
-Text(RecruitToad)
+CGTEXTSTART
+TEXTSHOW RecruitToad
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Toad
 ENDA
 
@@ -140,9 +160,14 @@ CHECK_EXISTS Wario
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WarioUnit
 ENUN
+SetBackground(CGWario)
 SOUN VoiceWarioSummon
 STAL 20
-Text(RecruitWario)
+CGTEXTSTART
+TEXTSHOW RecruitWario
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Wario
 ENDA
 
@@ -169,9 +194,14 @@ CHECK_EXISTS Daisy
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DaisyUnit
 ENUN
+SetBackground(CGDaisy)
 SOUN VoiceDaisySummon
 STAL 20
-Text(RecruitDaisy)
+CGTEXTSTART
+TEXTSHOW RecruitDaisy
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Daisy
 ENDA
 
@@ -181,9 +211,14 @@ CHECK_EXISTS Waluigi
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 WaluigiUnit
 ENUN
+SetBackground(CGWaluigi)
 SOUN VoiceWaluigiSummon
 STAL 20
-Text(RecruitWaluigi)
+CGTEXTSTART
+TEXTSHOW RecruitWaluigi
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Waluigi
 ENDA
 
@@ -193,7 +228,12 @@ CHECK_EXISTS Ash
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 AshUnit
 ENUN
-Text(RecruitAsh)
+SetBackground(CGAsh)
+CGTEXTSTART
+TEXTSHOW RecruitAsh
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Ash
 ENDA
 
@@ -203,7 +243,12 @@ CHECK_EXISTS Misty
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MistyUnit
 ENUN
-Text(RecruitMisty)
+SetBackground(CGMisty)
+CGTEXTSTART
+TEXTSHOW RecruitMisty
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Misty
 ENDA
 
@@ -213,7 +258,12 @@ CHECK_EXISTS Brock
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 BrockUnit
 ENUN
-Text(RecruitBrock)
+SetBackground(CGBrock)
+CGTEXTSTART
+TEXTSHOW RecruitBrock
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Brock
 ENDA
 
@@ -223,7 +273,12 @@ CHECK_EXISTS Jessie
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JessieUnit
 ENUN
-Text(RecruitJessie)
+SetBackground(CGJessie)
+CGTEXTSTART
+TEXTSHOW RecruitJessie
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Jessie
 ENDA
 
@@ -233,7 +288,12 @@ CHECK_EXISTS James
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JamesUnit
 ENUN
-Text(RecruitJames)
+SetBackground(CGJames)
+CGTEXTSTART
+TEXTSHOW RecruitJames
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 James
 ENDA
 
@@ -243,7 +303,12 @@ CHECK_EXISTS May
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 MayUnit
 ENUN
-Text(RecruitMay)
+SetBackground(CGMay)
+CGTEXTSTART
+TEXTSHOW RecruitMay
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 May
 ENDA
 
@@ -253,7 +318,12 @@ CHECK_EXISTS Dawn
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 DawnUnit
 ENUN
-Text(RecruitDawn)
+SetBackground(CGDawn)
+CGTEXTSTART
+TEXTSHOW RecruitDawn
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Dawn
 ENDA
 
@@ -263,7 +333,12 @@ CHECK_EXISTS Serena
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 SerenaUnit
 ENUN
-Text(RecruitSerena)
+SetBackground(CGSerena)
+CGTEXTSTART
+TEXTSHOW RecruitSerena
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Serena
 ENDA
 
@@ -358,9 +433,14 @@ CHECK_EXISTS Falcon
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 FalconUnit
 ENUN
+SetBackground(CGFalcon)
 SOUN VoiceFalconSummon
 STAL 20
-Text(RecruitFalcon)
+CGTEXTSTART
+TEXTSHOW RecruitFalcon
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Falcon
 ENDA
 
@@ -370,9 +450,14 @@ CHECK_EXISTS Jigglypuff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JigglypuffUnit
 ENUN
+SetBackground(CGJigglypuff)
 SOUN VoiceJigglypuffSummon
 STAL 20
-Text(RecruitJigglypuff)
+CGTEXTSTART
+TEXTSHOW RecruitJigglypuff
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Jigglypuff
 ENDA
 
@@ -382,9 +467,14 @@ CHECK_EXISTS Ness
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 NessUnit
 ENUN
+SetBackground(CGNess)
 SOUN VoiceNessSummon
 STAL 20
-Text(RecruitNess)
+CGTEXTSTART
+TEXTSHOW RecruitNess
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Ness
 ENDA
 
@@ -394,7 +484,12 @@ CHECK_EXISTS Paula
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PaulaUnit
 ENUN
-Text(RecruitPaula)
+SetBackground(CGPaula)
+CGTEXTSTART
+TEXTSHOW RecruitPaula
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Paula
 ENDA
 
@@ -404,7 +499,12 @@ CHECK_EXISTS Jeff
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 JeffUnit
 ENUN
-Text(RecruitJeff)
+SetBackground(CGJeff)
+CGTEXTSTART
+TEXTSHOW RecruitJeff
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Jeff
 ENDA
 
@@ -414,7 +514,12 @@ CHECK_EXISTS Poo
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PooUnit
 ENUN
-Text(RecruitPoo)
+SetBackground(CGPoo)
+CGTEXTSTART
+TEXTSHOW RecruitPoo
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Poo
 ENDA
 
@@ -424,7 +529,12 @@ CHECK_EXISTS Pokey
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 PokeyUnit
 ENUN
-Text(RecruitPokey)
+SetBackground(CGPokey)
+CGTEXTSTART
+TEXTSHOW RecruitPokey
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Pokey
 ENDA
 
@@ -434,7 +544,12 @@ CHECK_EXISTS Cecil
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 CecilUnit
 ENUN
-Text(RecruitCecil)
+SetBackground(CGCecil)
+CGTEXTSTART
+TEXTSHOW RecruitCecil
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Cecil
 ENDA
 
@@ -444,7 +559,12 @@ CHECK_EXISTS Butz
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 ButzUnit
 ENUN
-Text(RecruitButz)
+SetBackground(CGButz)
+CGTEXTSTART
+TEXTSHOW RecruitButz
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Butz
 ENDA
 
@@ -454,7 +574,12 @@ CHECK_EXISTS Terra
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 TerraUnit
 ENUN
-Text(RecruitTerra)
+SetBackground(CGTerra)
+CGTEXTSTART
+TEXTSHOW RecruitTerra
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
 SVAL s2 Terra
 ENDA
 
