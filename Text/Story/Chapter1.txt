@@ -1,4 +1,7 @@
 ## Ch1WorldMap
+//Somniel stuff needs a go over to show the other royals
+//Also moments I attributed to Alear in later plans were
+//spoken by Vander, so Alear will have to say it now
 The continent of Akaneia.[AN]
 Upon the defeat of the Dark Dragon[N]
 Mediuth in the year 608,[AN]
@@ -221,6 +224,8 @@ Get him back later. Let me mourn...[A][X]
 ## Ch1OpeningBackInWarren
 [ML][LoadFace][0x58][0x01][MR][LoadMarth]
 //Moustache man
+//The idea is Marth is to some degree incognito, like the lords in Bern, FE7
+//Doesn't really work when he's still completely recognisable, but I can't draw
 Hello. I'm... passing through the[N]
 area. Could you fill me in?[AN]
 [ML]
@@ -449,6 +454,7 @@ should prove very useful.[A][X]
 
 ## Ch1Ending
 [MR][LoadMarth]
+//Everything with emblem autonomy needs to be rewritten
 Phew... I did it. Lucina was one of[N]
 Alear's other "Emblems". That can[AN]
 only mean that Alear and Kris are[N]
