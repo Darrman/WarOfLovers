@@ -54,6 +54,39 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 	BYTE 0x0	//end of list
 #endif
 
+//Forced Deployment
+#define ForcedDeployment(Character,Route,Chapter) "SHORT Character; BYTE Route Chapter"
+PUSH
+ORG 0x9ED64C
+ForcedDeployment(Marth,0x1,0xFF) //Marth forced in "tutorial mode"
+ForcedDeployment(Marth,0x2,0xFF) //Marth forced in Eirika mode
+ForcedDeployment(Sheeda,0x1,0x4) //force Sheeda for Talis
+ForcedDeployment(0x0,0x0,0x0) //blank the rest
+ForcedDeployment(0x0,0x0,0x0)
+ForcedDeployment(0x0,0x0,0x0)
+ForcedDeployment(0x0,0x0,0x0)
+ForcedDeployment(0x0,0x0,0x0)
+ForcedDeployment(0x0,0x0,0x0)
+POP
+
+//Blank Link Arena blacklist
+PUSH
+ORG 0x205BFC
+SHORT 0 0 0 0 0 0 0 0 0 0 0
+POP
+
+//Blank skirmish chapter list
+PUSH
+ORG 0x206948
+BYTE 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF
+POP
+
+//Move Sacred Strength to Starlight
+PUSH
+ORG 0x58B12
+BYTE Starlight
+POP
+
 #include SupportsEndings.event
 #include StatBoostPointers.event
 #include AnimTable.event

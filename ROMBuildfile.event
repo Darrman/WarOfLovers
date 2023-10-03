@@ -3,8 +3,9 @@
     #include "CustomDefinitions.event"
 //PROTECT $25224
     ORG FreeSpace
-    PROTECT $C00000
-
+    PROTECT $C00000 //end of free space
+	PROTECT $2000000 //hard rom limit; hopefully this never activates
+	
     #include "repointedTextTable.event"
 
     //Text first for Text ID definitions
@@ -26,7 +27,7 @@
     #include "Maps/MasterMapInstaller.event"
     
     //install graphics/music at the end of the rom
-    ORG 0x1000000
+    ORG 0xEFB2E0
     //Music
     #include "Music/MasterAudioInstaller.event"
 

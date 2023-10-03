@@ -81,7 +81,7 @@ UNIT
 
 Bad2:
 UNIT Lythos Sage 0x00 Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
-UNIT Lythos DragonKnight 0x00 Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] ChaseOnceApproachedAI
+UNIT Lythos DragonKnight 0x00 Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] AttackInRangeAI
 UNIT Lythos General 0x00 Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SilverAxe, RedGem] ChaseOnceApproachedAI
 UNIT Lythos General 0x00 Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [KillerLance, BlueGem] NeverMoveAI
 UNIT Lythos Druid 0x00 Level(4,Enemy,1) [28,1] 0x0 0x0 0x0 0x0 [Luna] ChaseOnceApproachedAI
