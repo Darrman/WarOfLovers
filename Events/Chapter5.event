@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0, AfterPrepScreen, 1)
 END_MAIN
 
 CharacterBasedEvents:
@@ -92,6 +93,12 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_Conspiracy
+Text(Castle_Hall,Ch5ThatMeddlingSheeda)
+Text(Harbor,Ch5OffTheBoat)
+MUSC M_OffToWar
+Text(Castle_Hall,Ch5ConfrontingAlear)
+Text(Castle_Hall,Ch5AfterScriptedBattle)
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
@@ -99,30 +106,65 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC M_TogetherWeRide
+CALL UnitGacha
+WARPIN [25,8]
+MOVE 0xFFFF 0xFFFD [25,8]
+ENUN
+ENDWARP
+STAL 20
+
+MUSC M_Victory
+Text(Ch5BossDead)
+MUSC M_ThemeOfLove
+Text(Woodland_Night,Ch5MostynGrave)
+MUSC M_Conspiracy
+Text(Castle_Hall_Night,Ch5AlfonseAppears)
+MUSC M_OffToWar
+Text(Castle_Hall_Night,Ch5RodyEscapes)
+Text(Castle_Hall_Night,Ch5MarthSailsNorth)
+MNC2 0x6
+ENDA
+
+AfterPrepScreen:
+MUSC M_OffToWar
+Text(Ch5BossTaunt)
+NoFade
 ENDA
 
 Ch5WestVillage:
-//text
-SVAL s3 Vulnerary //placeholder
+Text(Village,Ch5RiffVillage)
+SVAL s3 Dragonshield
 GIVEITEMTO 0xFFFF
+NoFade
 ENDA
 
 Ch5EastVillage:
-//text
-SVAL s3 Vulnerary //placeholder
-GIVEITEMTO 0xFFFF
+Text(Village,Ch5MoneyVillage)
+CALL UnitGacha
+WARPIN [28,5]
+MOVE 0xFFFF 0xFFFD [28,5]
+ENUN
+ENDWARP
+STAL 20
+NoFade
 ENDA
 
 Ch5RuinedVillage:
-//text
-SVAL s3 Vulnerary //placeholder
+Text(Village,Ch5RuinedVillageText)
+SVAL s3 SilverLance
 GIVEITEMTO 0xFFFF
+NoFade
 ENDA
 
 Ch5House1:
+Text(HouseBG,Ch5House1Text)
+NoFade
 ENDA
 
 Ch5House2:
+Text(HouseBG,Ch5House3Text)
+NoFade
 ENDA
 
 Ch5Armoury:

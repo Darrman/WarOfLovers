@@ -8,7 +8,7 @@ the way things are going in Akaneia[N]
 I'll have to have daily naval patrols[AN]
 to the east![A]
 [FFR]
-#Celine posing as Celica; we won't see this for lack of assets
+//Celine posing as Celica; we won't see this for lack of assets
 Alm... I'm back. It[N]
 was the Akaneians.[A]
 [ML]
