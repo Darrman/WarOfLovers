@@ -50,11 +50,16 @@ NewTitleScroll:
 NewDragonGraphics:
 #incext Png2Dmp "Dragon.png" --lz77
 
+
+
 PUSH
 ORG $c5830
 POIN NewTitleScroll
 ORG 0x0C57E4
 POIN NewDragonGraphics
+ORG 0xAADBA8
+NewFEPalette:
+#incext Png2Dmp "Title.png" --palette-only
 POP
 #else
 	ERROR The 256 colors titlebackground installer is only for FE8!
