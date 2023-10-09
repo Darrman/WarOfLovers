@@ -198,6 +198,68 @@ OifayeMug:
 #incext PortraitFormatter "oifaye.png"
 setMugEntry(0x32, OifayeMug, 3, 6, 2, 4)
 
+VanderMug:
+#incext PortraitFormatter "Vander.png"
+setMugEntry(0x33, VanderMug, 4,6,3,4)
+
+BoucheronMug:
+#incext PortraitFormatter "Boucheron.png"
+setMugEntry(0x34, BoucheronMug, 3,5,3,3)
+
+ClanneMug:
+#incext PortraitFormatter "Clanne.png"
+setMugEntry(0x35, ClanneMug, 4,7,4,5)
+
+AlfredMug:
+#incext PortraitFormatter "Alfred.png"
+setMugEntry(0x36, AlfredMug, 4,6,4,4)
+
+CelineMug:
+#incext PortraitFormatter "Celine.png"
+setMugEntry(0x37, CelineMug, 4,6,3,4)
+
+DiamantMug:
+#incext PortraitFormatter "Diamant.png"
+setMugEntry(0x38, DiamantMug, 3,7,3,5)
+
+AlcrystMug:
+#incext PortraitFormatter "Alcryst.png"
+setMugEntry(0x39, AlcrystMug, 4,6,4,4)
+
+IvyMug:
+#incext PortraitFormatter "Ivy.png"
+setMugEntry(0x3A, IvyMug, 4,7,4,5)
+
+HortensiaMug:
+#incext PortraitFormatter "Hortensia.png"
+setMugEntry(0x3B, HortensiaMug, 4,7,3,5)
+
+TimerraMug:
+#incext PortraitFormatter "Timerra.png"
+setMugEntry(0x3C, TimerraMug, 4,7,4,5)
+
+FogadoMug:
+#incext PortraitFormatter "Fogado.png"
+setMugEntry(0x3D, FogadoMug, 4,6,3,4)
+
+VeyleMug:
+#incext PortraitFormatter "Veyle.png"
+setMugEntry(0x3E, VeyleMug, 3,6,2,4)
+
+//Put the Ch6 boss in here
+
+CaesarMug:
+#incext PortraitFormatter "Caesar.png"
+setMugEntry(0x40, CaesarMug, 3,6,2,4)
+
+RyanMug:
+#incext PortraitFormatter "Ryan.png"
+setMugEntry(0x41, RyanMug, 4, 6, 3, 4)
+
+LukeMug:
+#incext PortraitFormatter "Luke.png"
+setMugEntry(0x42, LukeMug, 4, 6, 4, 4)
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"
