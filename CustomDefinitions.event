@@ -175,7 +175,6 @@
 #define M_LiveStaff M_HealStaff
 #define M_Dancer TethysTheme
 
-
 //VA
 //26D to 2BB all empty
 
@@ -232,3 +231,6 @@
 #define CGCecil 0x57
 #define CGButz 0x58
 #define CGTerra 0x59
+
+//Event IDs
+#define JamModeOn 0x71

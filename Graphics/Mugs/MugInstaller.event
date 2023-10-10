@@ -244,13 +244,13 @@ setMugEntry(0x3D, FogadoMug, 4,6,3,4)
 
 VeyleMug:
 #incext PortraitFormatter "Veyle.png"
-setMugEntry(0x3E, VeyleMug, 3,6,2,4)
+setMugEntry(0x3E, VeyleMug, 4,7,4,5)
 
 //Put the Ch6 boss in here
 
 CaesarMug:
 #incext PortraitFormatter "Caesar.png"
-setMugEntry(0x40, CaesarMug, 3,6,2,4)
+setMugEntry(0x40, CaesarMug, 4,6,4,4)
 
 RyanMug:
 #incext PortraitFormatter "Ryan.png"
