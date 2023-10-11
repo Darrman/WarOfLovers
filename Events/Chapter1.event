@@ -28,6 +28,9 @@ House(0,Ch1House1,13,5)
 House(0,Ch1House2,12,6)
 House(0,Ch1House3,13,6)
 House(0,Ch1House4,14,7)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,13,8)
+#endif
 END_MAIN
 
 MiscBasedEvents:
@@ -151,7 +154,7 @@ ENUN
 ENDWARP
 STAL 20
 CHECK_EVENTID JamModeOn
-BNE 2 sC s0 //branch if not jam mode 
+BNE 2 sC s0 //branch if jam mode 
 Text(Plain,Ch1EndingNew)
 GOTO 3
 LABEL 2

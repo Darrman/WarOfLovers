@@ -27,6 +27,9 @@ Village(0x9,Ch5RuinedVillage,22,9)
 Armory(Ch5Armoury,26,2)
 House(0x0,Ch5House1,6,12)
 House(0x0,Ch5House2,21,3)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,5,4)
+#endif
 END_MAIN
 
 MiscBasedEvents:

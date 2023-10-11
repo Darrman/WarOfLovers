@@ -23,6 +23,9 @@ LocationBasedEvents:
 Seize(0x3,EndingScene,12,11)
 Vendor(Ch2Vendor,11,1)
 House(0x0,Ch2House,6,3)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,9,23)
+#endif
 END_MAIN	
 
 MiscBasedEvents:
@@ -52,7 +55,6 @@ UNIT Mario Berserker 0x00 Level(1,Ally,0) [6,24] 0x0 0x0 0x0 0x0 [Hammer] NoAI
 UNIT
 
 Bad:
-UNIT Lyn Sniper_F 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
 UNIT KrisFaction General Lyn Level(6,Enemy,1) [12,12] 0x0 0x0 0x0 0x0 [SilverAxe, Tomahawk] NeverMoveAI
 UNIT KrisFaction Sniper  Lyn Level(3,Enemy,1) [12,13] 0x0 0x0 0x0 0x0 [FireGun] NeverMoveAI
 UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [6,1] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
@@ -79,6 +81,14 @@ UNIT KrisFaction DragonKnight Lyn Level(2,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SteelL
 UNIT KrisFaction Horseman Lyn Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [SilverBow] ChaseOnceApproachedAI
 UNIT
 
+LynGroup:
+UNIT Lyn Sniper_F 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
+UNIT
+
+RyanGroup:
+UNIT Lyn Sniper 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
+UNIT
+
 ChikiGroup:
 UNIT Chiki Mamkute_F 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
 UNIT
@@ -95,10 +105,24 @@ BeginningScene:
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+CHECK_EVENTID JamModeOn
+BNE 201 sC s0 //branch if jam mode 
+LOAD1 0x1 RyanGroup
+GOTO 202
+LABEL 201
+LOAD1 0x1 LynGroup
+LABEL 202
 MUSC M_OffToWar
 Text(Woodland,Ch2OpeningMarth)
 MUSC M_Conspiracy
+CHECK_EVENTID JamModeOn
+BNE 203 sC s0 //branch if jam mode 
+Text(Village,Ch2OpeningRyan)
+GOTO 204
+LABEL 203
 Text(Village,Ch2OpeningLyn)
+LABEL 204
+NoFade
 ENDA
 
 EndingScene:
@@ -109,11 +133,21 @@ MOVE 0xFFFF 0xFFFD [12,10]
 ENUN
 ENDWARP
 STAL 20
-Text(Village,Ch2EndingLyn)
+CHECK_EVENTID JamModeOn
+BNE 205 sC s0 //branch if jam mode 
+Text(Village,Ch2EndingRyan)
 LOAD1 0x1 ChikiGroup
 ENUN
 Text(Prison_Cell, Ch2EndingFindingChiki)
 Text(Castle_Outside, Ch2EndingChikiStory)
+GOTO 206
+LABEL 205
+Text(Village,Ch2EndingLyn)
+LOAD1 0x1 ChikiGroup
+ENUN
+Text(Prison_Cell, Ch2EndingFindingChikiOld)
+Text(Castle_Outside, Ch2EndingChikiStoryOld)
+LABEL 206
 MNC2 0x2
 ENDA
 

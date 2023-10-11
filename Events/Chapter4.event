@@ -28,6 +28,9 @@ Village(0x7,Ch4Village,9,1)
 House(0x0,Ch4House1,7,11)
 House(0x0,Ch4House2,20,11)
 House(0x0,Ch4House3,16,4)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,2,2)
+#endif
 END_MAIN
 
 MiscBasedEvents:
@@ -61,7 +64,6 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,6] 0x0 0x0 0x0 0x0 [DivineStone] No
 UNIT
 
 Bad:
-UNIT Byleth Hero 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveSword, Tomahawk] NeverMoveAI
 UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
@@ -95,6 +97,14 @@ UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [17,1] 0x0 0x0 0x0 0x0 [FireGun] Attack
 UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [30,5] 0x0 0x0 0x0 0x0 [QuickRain] AttackInRangeAI
 UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [30,8] 0x0 0x0 0x0 0x0 [StoneHedge] AttackInRangeAI
 UNIT Lythos Berserker 0x00 Level(4,Enemy,1) [27,6] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT
+
+BylethGroup:
+UNIT Byleth Hero 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveSword, Tomahawk] NeverMoveAI
+UNIT
+
+BoucheronGroup:
+UNIT Byleth Warrior 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveAxe, Tomahawk] NeverMoveAI
 UNIT
 
 GardaGarrison:

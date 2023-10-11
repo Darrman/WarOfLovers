@@ -26,6 +26,9 @@ Village(0x7,Ch3Village,17,12)
 House(0x0,Ch3House1,11,16)
 House(0x0,Ch3House2,12,13)
 House(0x0,Ch3House3,19,12)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,4,9)
+#endif
 END_MAIN
 
 MiscBasedEvents:
@@ -58,7 +61,6 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,10] 0x0 0x0 0x0 0x0 [DivineStone] N
 UNIT
 
 Bad:
-UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
 UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [17,15] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [18,15] DropItem 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
@@ -95,6 +97,20 @@ UNIT KrisFaction Paladin Leaf Level(5,Enemy,1) [28,14] DropItem 0x0 0x0 0x0 [Bra
 UNIT KrisFaction Valkyrie Leaf Level(5,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [Resire, Physic] HealUnits
 UNIT
 
+LeafGroup:
+UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
+UNIT
+
+LukeGroup:
+UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
+UNIT
+
+KrisVsMarich:
+UNIT Kris Hero 0x00 Level(10,Enemy,0) [15,10] 0 0 0 0 [MiracleSword] AttackInRangeAI
+UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [14,10] 0 0 0 0 [KillingEdge] AttackInRangeAI
+UNIT Marich Sage 0x00 Level(10,NPC,0) [15,9] 0 0 0 0 [Excalibur] AttackInRangeAI
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -104,20 +120,38 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+CHECK_EVENTID JamModeOn
+BNE 301 sC s0 //branch if jam mode 
 MUSC M_ThemeOfLove
 Text(Castle_Room,Ch3AlearPouts)
 MUSC M_Conspiracy
 Text(Castle_Room,Ch3AlearKrisPlotting)
+GOTO 302
+LABEL 301
+MUSC M_ThemeOfLove
+Text(Castle_Room,Ch3AlearPoutsOld)
+MUSC M_Conspiracy
+Text(Castle_Room,Ch3AlearKrisPlottingOld)
+LABEL 302
 FADU 10
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 BadBandits
 LOAD1 0x1 BadNearLeaf
+CHECK_EVENTID JamModeOn
+BNE 303 sC s0 //branch if jam mode 
+LOAD1 0x1 LukeGroup
+GOTO 304
+LABEL 303
+LOAD1 0x1 LeafGroup
+LABEL 304
 FADI 10
 NoFade
 ENDA
 
 EndingScene:
+CLEA 0
+CLEE 0
 MUSC M_Victory
 CALL UnitGacha
 WARPIN [28,13]
@@ -125,11 +159,42 @@ MOVE 0xFFFF 0xFFFD [28,13]
 ENUN
 ENDWARP
 STAL 20
-Text(Woodland,Ch3EndingLeaf)
+CHECK_EVENTID JamModeOn
+BNE 305 sC s0 //branch if jam mode 
+Text(Woodland,Ch3EndingLuke)
 MUSC M_Crisis
+LOAD1 0x1 KrisVsMarich
 Text(Castle_Hall,Ch3EndingPalesFalls)
+StartBattle
+NormalDamage(0,14)
+NormalDamage(1,2)
+NormalDamage(0,14)
+EndAttack
+FIGHT Kris Marich MiracleSword 0
+Text(Castle_Hall,Ch3EndingAfterEngage)
 MUSC M_DragonsAltar
 Text(Town_Gate,Ch3EndingKrisSpeech)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW Ch3MarthAbdicationNote
+TEXTEND
+STAL 10
+TEXTSHOW Ch3ImperialEdict
+TEXTEND
+Text(Town_Gate,Ch3SpeechEnd)
+GOTO 306
+LABEL 305
+Text(Woodland,Ch3EndingLeaf)
+MUSC M_Crisis
+Text(Castle_Hall,Ch3EndingPalesFallsOld)
+MUSC M_DragonsAltar
+Text(Town_Gate,Ch3EndingKrisSpeech)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW Ch3MarthAbdicationNote
+TEXTSHOW Ch3ImperialEdict
+TEXTEND
+LABEL 306
 MNC2 0x3
 ENDA
 
