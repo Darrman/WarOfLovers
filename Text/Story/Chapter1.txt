@@ -298,9 +298,10 @@ is a very big day for us![A][X]
 Ah, Lord Marth. As you know, today[N]
 is a very big day. I have to finish[AN]
 the preperations, so if you'd excuse[N]
-me. How about talking to the guests?[A]
-[Clear]
-[Right][LoadAlfred][FR][LoadCeline]
+me. How about talking to the guests?[A][X]
+
+## Ch1RoyalIntroductionsFirene
+[ML][LoadMarth][Right][LoadAlfred][FR][LoadCeline]
 [Right]
 Ah, Lord Marth... it is wonderful[N]
 to see you again. Cough, cough...[AN]
@@ -326,8 +327,10 @@ want to share a cup?[AN]
 Gladly, Lord Marth. Now, I must be[N]
 going: I have to negotiate with[AN]
 an Askran representative a deal.[N]
-May you live a happy life.[A][Clear]
-[Right][Clear][LoadDiamant][FR][LoadAlcryst]
+May you live a happy life.[A][X]
+
+## Ch1RoyalIntroductionsBrodia
+[ML][LoadMarth][Right][LoadDiamant][FR][LoadAlcryst]
 [Right]
 Lord Marth. It is an honour.[N]
 As the King of Brodia, I am[AN]
@@ -349,8 +352,10 @@ do if we're late...[A]
 Of course. Forgive us, Lord Marth:[N]
 Alcryst is correct. We must be[AN]
 going: I hope everything goes[N]
-smoothly. Farewell.[A][Clear]
-[FR][Clear][Right][LoadIvy][FR][LoadHortensia]
+smoothly. Farewell.[A][X]
+
+## Ch1RoyalIntroductionsElusia
+[ML][LoadMarth][Right][LoadIvy][FR][LoadHortensia]
 [Right]
 So that's where you are, Lord Marth...[N]
 Greetings. So you are marrying the[AN]
@@ -395,8 +400,10 @@ distract you any further.[A]
 Yes, you're right. It was a pleasure[N]
 meeting you, Lord Marth. May the[AN]
 Divine One and you find happiness.[N]
-Hortensia! Come along now.[A][Clear]
-[FR][Clear][Right][LoadTimerra][FR][LoadFogado]
+Hortensia! Come along now.[A][X]
+
+## Ch1RoyalIntroductionsSolm
+[ML][LoadMarth][Right][LoadTimerra][FR][LoadFogado]
 [Right]
 Oh, it's Marth. Hi! I love this party.[N]
 Can't you throw them more often?[AN]
@@ -418,8 +425,10 @@ to do whatever you want. Enjoy the[N]
 party, your highnesses.[A]
 [Right]
 Thanks! I can't wait for the[N]
-ceremony. It's so exciting![A][Clear][FR][Clear]
-[ML]
+ceremony. It's so exciting![A][X]
+
+## Ch1RoyalIntroductionsVeyle
+[ML][LoadMarth]
 Finally, a moment of peace.[N]
 Ever since Alear asked me about[AN]
 the new Emblem, I can't get that[N]
@@ -525,7 +534,10 @@ Divine One, I believe we should[N]
 call off the wedding.[AN]
 [Left][MoveMidLeft][FR][MoveLeft]
 I'll be keeping this "Emblem[N]
-Ring". You'll pay.[A][Clear]
+Ring". You'll pay.[A][X]
+
+## Ch1AlearLeftAtAltar
+[FL][LoadVeyle][ML][LoadAlear][Right][LoadGoon]
 [ML]
 B-b-but how? He left me at the[N]
 altar... Waaa! Sob...[AN]
@@ -891,4 +903,12 @@ Jam Mode has been [Red]enabled.[Red][A][X]
 Jam Mode has been [Red]disabled.[Red][N]
 Game will continue in Normal Mode.[A][X]
 
+## LocationSomniel
+The Somniel[X]
+
+## LocationNextMorning
+The next morning...[X]
+
+## LocationPortWarren
+Port Warren[X]
 
