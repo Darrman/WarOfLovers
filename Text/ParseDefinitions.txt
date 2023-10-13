@@ -126,6 +126,7 @@
 [LoadFogato] = [LoadFace][0x3D][0x1]
 [LoadFogado] = [LoadFogato]
 [LoadVeyle] = [LoadFace][0x3E][0x1]
+[LoadAlfonse] = [LoadFace][0x3F][0x1]
 [LoadCaesar] = [LoadFace][0x40][0x1]
 [LoadRyan] = [LoadFace][0x41][0x1]
 [LoadLuke] = [LoadFace][0x42][0x1]

@@ -246,7 +246,9 @@ VeyleMug:
 #incext PortraitFormatter "Veyle.png"
 setMugEntry(0x3E, VeyleMug, 4,7,4,5)
 
-//Put the Ch6 boss in here
+AlfonseMug:
+#incext PortraitFormatter "Alfonse.png"
+setMugEntry(0x3F, AlfonseMug, 3,6,3,4)
 
 CaesarMug:
 #incext PortraitFormatter "Caesar.png"

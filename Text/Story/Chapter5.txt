@@ -393,8 +393,7 @@ Let's go. I need to figure out[N]
 what we will do next.[A][X]
 
 ## Ch5AlfonseAppears
-[ML][LoadMarth][MR][LoadAnna]
-//Placeholder for Alfonse
+[ML][LoadMarth][MR][LoadAlfonse]
 [MR]
 So, this is where you've ended[N]
 up. Emperor Marth of Akaneia.[AN]

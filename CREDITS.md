@@ -50,6 +50,23 @@
 - Alear: Jey the Count
 - Kris: FE12 (Darrman)
 
+- Caesar: FE3 (Darrman)
+- Ryan: FE3 (Darrman)
+- Luke: FE3 (Darrman)
+- Boucheron: FE17 (Darrman)
+- Clanne: FE17 (Darrman)
+- Vander: FE17 (Darrman)
+- Alfred: FE17 (Darrman)
+- Celine: FE17 (Darrman)
+- Diamant: FE17 (Darrman)
+- Alcryst: FE17 (Darrman)
+- Ivy: FE17 (Darrman)
+- Hortensia: FE17 (Darrman)
+- Timerra: FE17 (Darrman)
+- Fogado: FE17 (Darrman)
+- Veyle: FE17 (Darrman)
+- Alfonse: FEH (Darrman)
+
 - Alm: Atey
 - Chalphy descendant/Celice: FE4 (Darrman)
 - Eliwood: FE6 (Obsidian Daddy)
@@ -68,18 +85,78 @@
 
 # Maps:
 
+- Somniel: Darrman
 - Warren: FE1 Ch8 (Darrman)
 - Lefcandy: FE1 Ch7 (Glaceo for GFE1R)
 - Devil Mountain: FE1 Ch3 (Sme, Nickt for GFE1R)
+- Outside Pales: FE1 Ch11 (Shuusuke, Nickt for GFE1R)
+- Pales: FE1 Ch12 (Sme for GFE1R)
 - Garda: FE1 Ch2 (Kirb, Nickt for GFE1R)
 - Talis Castle: Darrman
 - Talis: FE1 Ch1 (Kirb, Nickt for GFE1R)
+
+# CGs:
+- Mario: Super Mario 64
+- DK: Donkey Kong Country
+- Link: The Legend of Zelda: A Link to the Past
+- Samus: Super Metroid
+- Yoshi: Yoshi's Island
+- Kirby: Kirby Super Star
+- Fox: Star Fox 64 3D
+- Pikachu: Pokemon Red/Blue
+- Luigi: Super Mario Bros 2
+- Peach: Mario and Luigi: Superstar Saga
+- Bowser: Super Mario World
+- Toad: Mario Party 8
+- Wario: Wario Land 2
+- Daisy: Mario Party 6
+- Waluigi: Mario Tennis
+- Ash: Pokemon Anime
+- Misty: Pokemon Anime
+- Brock: Pokemon Anime
+- Jessie: Pokemon Anime
+- James: Pokemon Anime
+- May: Pokemon Anime
+- Dawn: Pokemon Anime
+- Serena: Pokemon Anime
+- Falcon: F-Zero GX
+- Jigglypuff: Pokemon Red/Blue
+- Ness: Super Smash Bros
+- Paula: Earthbound guidebook
+- Jeff: Earthbound guidebook
+- Poo: Earthbound guidebook
+- Pokey: Earthbound guidebook
+- Cecil: Final Fantasy 4
+- Butz: Final Fantasy 5
+- Terra: Final Fantasy 6
+
 
 # Music
 
 - All FE3 music converted by Sme.
 - Voice lines from:
-- FEH, Super Mario 64, Mario Kart 64, Mario Party 1, Mario Kart Wii
+- Marth: Fire Emblem Heroes
+- Sheeda: Fire Emblem Heroes
+- Chiki: Fire Emblem Heroes
+- Mario: Super Mario 64
+- DK: Donkey Kong 64
+- Link: Super Smash Bros Melee
+- Samus: Super Metroid
+- Yoshi: Mario Kart Wii
+- Kirby: Super Smash Bros Melee
+- Fox: Super Smash Bros Melee
+- Pikachu: Super Smash Bros Melee, Pokemon Red/Blue
+- Luigi: Mario Kart 64
+- Falcon: Super Smash Bros Melee
+- Ness: Super Smash Bros Melee
+- Jigglypuff: Super Smash Bros Melee, Pokemon Red/Blue
+- Peach: Mario Party 1
+- Bowser: Mario Kart Wii
+- Toad: Mario Kart 64
+- Wario: Mario Party 1
+- Daisy: Mario Kart Wii
+- Waluigi: Mario Kart Wii
+
 - Converted by Darrman
 
 # Other Graphics
