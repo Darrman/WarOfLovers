@@ -28,6 +28,7 @@ Village(0x7,Ch4Village,9,1)
 House(0x0,Ch4House1,7,11)
 House(0x0,Ch4House2,20,11)
 House(0x0,Ch4House3,16,4)
+Seize(0x3,EndingScene,25,1)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,2,2)
 #endif
@@ -116,7 +117,7 @@ UNIT Garda Horseman 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackI
 UNIT
 
 SheedaGroup:
-UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [WingSpear, SilverLance, Elixir] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SilverLance, Elixir] NoAI
 UNIT
 
 Traps1:
@@ -132,6 +133,7 @@ MUSC M_Conspiracy
 Text(Castle_Room,Ch4Garrison)
 Text(Fort_Outside,Ch4Marth)
 Text(Castle_Room,Ch4News)
+FADI 10
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
@@ -143,10 +145,22 @@ GOTO 402
 LABEL 401
 LOAD1 0x1 BylethGroup
 LABEL 402
+MUSC M_PreperationsFE11
+CAM1 [0,0]
+FADU 10
+STAL 10
+CAM1 [31,0]
+STAL 10
+CAM1 [31,13]
+STAL 10
+CAM1 [0,13]
+STAL 10
+CAM1 [0,0]
 GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC M_TogetherWeRide
 CALL UnitGacha
 WARPIN [25,2]
 MOVE 0xFFFF 0xFFFD [25,2]
@@ -165,31 +179,52 @@ AfterPrepScreen:
 MUSC M_OffToWar
 Text(Ch4AfterPrep)
 TurnAlly(Rody)
+NoFade
 ENDA
 
 SheedaArrives:
+EVBIT_T 9 //follow Sheeda
 LOAD1 0x1 SheedaGroup
-Text(Ch4SheedaFliesIn)
+CAM1 Sheeda
+TEXTSTART
+TEXTSHOW Ch4SheedaFliesIn
+TEXTEND
+SOUN 0x136
+STAL 15
+SOUN 0x137 //ballista
+STAL 20
+SOUN 0x137
+STAL 10
+TEXTCONT
+TEXTEND
+REMA
+MOVE 8 Sheeda [3,4]
+ENUN
 MUSC M_TogetherWeRide
 Text(Ch4SheedaMarth)
+NoFade
 ENDA
 
 Ch4Village:
 Text(Outside_Village_Day,Ch4VillageText)
 SVAL s3 Wyrmslayer
 GIVEITEMTO 0xFFFF
+NoFade
 ENDA
 
 Ch4House1:
 Text(HouseBG,Ch4House1Text)
+NoFade
 ENDA
 
 Ch4House2:
 Text(HouseBG,Ch4House3Text)
+NoFade
 ENDA
 
 Ch4House3:
 Text(HouseBG,Ch4House4Text)
+NoFade
 ENDA
 
 Ch4Armoury:
@@ -199,3 +234,6 @@ ALIGN 4
 Ch4Vendor:
 SHLI Bolganone Thoron Luna Sleep Vulnerary Elixir
 ALIGN 4
+
+SheedaREDA:
+REDA [26,6]

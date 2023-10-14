@@ -17,7 +17,7 @@ worthwhile? Marth arrives in a besieged[N]
 Garda: another faction has attacked...[A][X]
 
 ## Ch4Garrison
-[ML][LoadRody][MR][LoadFace][0x66][0x01]
+[ML][LoadRody][MR][LoadFace][0x6F][0x01]
 //random placeholder, a soldier maybe
 //Could make Kashim if I was using more FE people
 Sir Rody, it's not good news. More of[N]
@@ -154,8 +154,11 @@ Then there's no time to waste.[N]
 We will drive the invaders out.[A][X]
 
 ## Ch4AfterPrep
-//Boss taunt in line with gimmick
-Hahaha![A][X]
+[MR][LoadBoucheron]
+I've read up on our plans. The Divine[N]
+One has said that defeating these[AN]
+enemies will help her get Marth back.[N]
+Let's not disappoint her, men![A][X]
 
 ## Ch4House1Text
 [ML][LoadFace][0x60][0x01][MR][LoadCurrent]
@@ -211,7 +214,7 @@ Unlikely. But what's beyond Jugdral?[A][X]
 [MR][LoadSheeda]
 Huff... I can't rest now. I have to[N]
 make it to Garda...[AN]
-//Dodge ballista bolt
+[LoadOverworldFaces]
 Ah! That was a close call. I need[N]
 to break the news, no matter what.[AN]
 Oh Marth... Why did you just vanish?[N]
@@ -257,7 +260,7 @@ Take this wyrmslayer and save us![A][X]
 
 ## Ch4EndingVictory
 [FL][LoadSheeda][Left][LoadMarth][MR][LoadRody]
-[ML]
+[MR]
 We have killed the enemy commander.[N]
 All remaining forces are in retreat.[AN]
 What do we do now?[AN]

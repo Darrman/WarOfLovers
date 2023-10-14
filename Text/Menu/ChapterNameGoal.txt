@@ -2,33 +2,33 @@
 Ch. 1: Return to Akaneia[X]
 
 ## Ch1Goal
-Defeat Lucina,[N]
-Emblem of 13[X]
+Escape Warren by[N]
+killing the boss[X]
 
 ## Ch2Name
 Ch. 2: Through Lefcandy[X]
 
 ## Ch2Goal
 Seize the village[N]
-Lyn guards[X]
+in the mountains[X]
 
 ## Ch3Name
 Ch. 3: Persistent Bandits[X]
 
 ## Ch3Goal
-Defeat Leaf,[N]
-Emblem of 5[X]
+Seize the fort to[N]
+the southeast[X]
 
 ## Ch4Name
 Ch. 4: Guarding Garda[X]
 
 ## Ch4Goal
-Defeat Byleth,[N]
-Emblem of 16[X]
+Seize the fort on[N]
+the northwest island[X]
 
 ## Ch5Name
 Ch. 5: Sanctuary No More[X]
 
 ## Ch5Goal
-Defeat Alear, who[N]
-owns the rings[X]
+Kill the boss sitting[N]
+on the eastern fort[X]

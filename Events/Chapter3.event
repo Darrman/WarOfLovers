@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,1,Ch3LukeTaunt)
 END_MAIN
 
 CharacterBasedEvents:
@@ -26,6 +27,7 @@ Village(0x7,Ch3Village,17,12)
 House(0x0,Ch3House1,11,16)
 House(0x0,Ch3House2,12,13)
 House(0x0,Ch3House3,19,12)
+Seize(0x3,EndingScene,28,13)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,4,9)
 #endif
@@ -105,10 +107,28 @@ LukeGroup:
 UNIT Luke Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
 UNIT
 
+CutsceneMarth:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [28,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [27,13] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT
+
 KrisVsMarich:
-UNIT Kris Hero 0x00 Level(10,Enemy,0) [15,10] 0 0 0 0 [MiracleSword] AttackInRangeAI
-UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [14,10] 0 0 0 0 [KillingEdge] AttackInRangeAI
-UNIT Marich Sage 0x00 Level(10,NPC,0) [15,9] 0 0 0 0 [Excalibur] AttackInRangeAI
+UNIT Kris Hero 0x00 Level(10,Enemy,0) [16,23] 0 0 0 0 [MiracleSword] AttackInRangeAI
+UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [15,23] 0 0 0 0 [KillingEdge] AttackInRangeAI
+UNIT Marich Sage 0x00 Level(10,NPC,0) [16,21] 0 0 0 0 [Excalibur] AttackInRangeAI
+UNIT
+
+KrisSpeechGroup:
+UNIT Kris Hero 0x00 Level(10,Enemy,0) [5,8] 0 0 1 KrisREDA [MiracleSword] AttackInRangeAI
+UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [5,8] 0 0 1 AlearREDA [KillingEdge] AttackInRangeAI
+UNIT
+
+KrisSpeechCivilians:
+UNIT Akaneia Civilian 0x00 Level(10,NPC,0) [5,12] 0 0 0 0 [0x0] AttackInRangeAI
+UNIT Akaneia Civilian_F 0x00 Level(10,NPC,0) [8,12] 0 0 0 0 [0x0] AttackInRangeAI
+UNIT Akaneia Civilian_2 0x00 Level(10,NPC,0) [4,11] 0 0 0 0 [0x0] AttackInRangeAI
+UNIT Akaneia Civilian_F_3 0x00 Level(10,NPC,0) [7,12] 0 0 0 0 [0x0] AttackInRangeAI
+UNIT Akaneia Civilian 0x00 Level(10,NPC,0) [3,12] 0 0 0 0 [0x0] AttackInRangeAI
 UNIT
 
 Traps1:
@@ -150,21 +170,36 @@ NoFade
 ENDA
 
 EndingScene:
+FADI 10
 CLEA 0
 CLEE 0
-MUSC M_Victory
+LOAD2 0x1 CutsceneMarth
+MUSC M_TogetherWeRide
 CALL UnitGacha
 WARPIN [28,13]
 MOVE 0xFFFF 0xFFFD [28,13]
 ENUN
 ENDWARP
 STAL 20
+FlashCursor(Marth,60)
 CHECK_EVENTID JamModeOn
 BNE 305 sC s0 //branch if jam mode 
+MUSC M_Victory
 Text(Woodland,Ch3EndingLuke)
+STAL 10
+FADI 10
+CLEA 0
+LOMA 25
 MUSC M_Crisis
 LOAD1 0x1 KrisVsMarich
+CAM1 Kris
+FADU 10
+BROWNBOX LocationPales [0,0]
+FlashCursor(Marich,60)
 Text(Castle_Hall,Ch3EndingPalesFalls)
+MOVE 10 Kris [16,22]
+ENUN
+STAL 10
 StartBattle
 NormalDamage(0,14)
 NormalDamage(1,2)
@@ -172,7 +207,17 @@ NormalDamage(0,14)
 EndAttack
 FIGHT Kris Marich MiracleSword 0
 Text(Castle_Hall,Ch3EndingAfterEngage)
+FADI 10
+CLEN 0
+CLEE 0
+LOMA 24
+CAM1 [5,8]
+LOAD1 0x1 KrisSpeechCivilians
 MUSC M_DragonsAltar
+FADU 10
+STAL 10
+LOAD1 0x1 KrisSpeechGroup
+STAL 10
 Text(Town_Gate,Ch3EndingKrisSpeech)
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
@@ -196,6 +241,10 @@ TEXTSHOW Ch3ImperialEdict
 TEXTEND
 LABEL 306
 MNC2 0x3
+ENDA
+
+Ch3LukeTaunt:
+Text(Ch3LukeLine)
 ENDA
 
 Ch3Armoury:
@@ -227,3 +276,8 @@ Ch3House3:
 Text(HouseBG,Ch3House3Text)
 NoFade
 ENDA
+
+KrisREDA:
+REDA [5,9]
+AlearREDA:
+REDA [6,9]

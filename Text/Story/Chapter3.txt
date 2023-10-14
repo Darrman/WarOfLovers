@@ -159,6 +159,15 @@ the islands are mine. Talis, to[AN]
 be more specific. There's someone[N]
 from there I want to hurt...[A][X]
 
+## Ch3LukeLine
+[MR][LoadLuke]
+So, there's movement from the west...[N]
+I'm surprised anyone is even trying[AN]
+to cross Devil Mountain. But if the[N]
+rumours of Ryan dying are true...[AN]
+Kris trusts me, gave me my job back.[N]
+Marich will fear the Legendary Luke![A][X]
+
 ## Ch3House1Text
 [ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
 [ML]
@@ -476,3 +485,6 @@ Thank you, people of Akaneia![AN]
 [FFL]
 Long live Emperor Kris![N]
 Long may he reign![A][X]
+
+## LocationPales
+Pales[X]

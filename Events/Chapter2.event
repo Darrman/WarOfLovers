@@ -112,14 +112,20 @@ GOTO 202
 LABEL 201
 LOAD1 0x1 LynGroup
 LABEL 202
+CAM1 Marth
+FADU 10
 MUSC M_OffToWar
 Text(Woodland,Ch2OpeningMarth)
 MUSC M_Conspiracy
 CHECK_EVENTID JamModeOn
-BNE 203 sC s0 //branch if jam mode 
+BNE 203 sC s0 //branch if jam mode
+CAM1 Ryan
+FlashCursor(Ryan,60) 
 Text(Village,Ch2OpeningRyan)
 GOTO 204
 LABEL 203
+CAM1 Lyn
+FlashCursor(Lyn,60)
 Text(Village,Ch2OpeningLyn)
 LABEL 204
 NoFade
