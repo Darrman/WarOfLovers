@@ -355,6 +355,46 @@ Captain of the Aritian Royal Guards.[N]
 Claims to have valiantly defended[N]
 Marth from many assassinations.[X]
 
+## CaesarName
+Caesar[X]
+
+## CaesarDesc
+A mercenary in service to Kris.[N]
+Harbours no sentimentality towards[N]
+former comrades and will do the job.[X]
+
+## RyanName
+Ryan[X]
+
+## RyanDesc
+Gordon's brother and knight of Aritia.[N]
+Timid, but loyal to his friends from[N]
+his training days and the War of Heroes.[X]
+
+## LukeName
+Luke[X]
+
+## LukeDesc
+An overconfident braggart known for[N]
+constantly declaring his legend.[N]
+Resigned his Aritian commission.[X]
+
+## BoucheronName
+Boucheron[X]
+
+## BoucheronDesc
+A retainer of Alfred, King of Firene.[N]
+Known for his high levels of strength[N]
+and has a tendency to lose his way.[X]
+
+## ClanneName
+Clanne[X]
+
+## ClanneDesc
+Guardian of Alear. Takes the role of[N]
+Steward of the Dragon to the extreme[N]
+and will do absolutely anything for her.[X]
+
 ## KrisFactionName
 Kris's[X]
 
@@ -381,3 +421,10 @@ Garda[X]
 ## GardaDesc
 A member of the Garda garrison,[N]
 loyal to Marth's rule.[X]
+
+## AkaneiaName
+Akaneia[X]
+
+## AkaneiaDesc
+A soldier of Akaneia.[N]
+This flavour is a placeholder.[X]

@@ -104,7 +104,7 @@ UNIT Byleth Hero 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveSword,
 UNIT
 
 BoucheronGroup:
-UNIT Byleth Warrior 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveAxe, Tomahawk] NeverMoveAI
+UNIT Boucheron Warrior 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveAxe, Tomahawk] NeverMoveAI
 UNIT
 
 GardaGarrison:
@@ -136,7 +136,13 @@ LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 GardaGarrison
-
+CHECK_EVENTID JamModeOn
+BNE 401 sC s0 //branch if jam mode 
+LOAD1 0x1 BoucheronGroup
+GOTO 402
+LABEL 401
+LOAD1 0x1 BylethGroup
+LABEL 402
 GotoPrepScreen
 ENDA
 

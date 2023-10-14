@@ -102,7 +102,7 @@ UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, Sil
 UNIT
 
 LukeGroup:
-UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
+UNIT Luke Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
 UNIT
 
 KrisVsMarich:

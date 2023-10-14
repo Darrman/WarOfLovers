@@ -86,7 +86,7 @@ UNIT Lyn Sniper_F 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, Kill
 UNIT
 
 RyanGroup:
-UNIT Lyn Sniper 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
+UNIT Ryan Sniper 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
 UNIT
 
 ChikiGroup:

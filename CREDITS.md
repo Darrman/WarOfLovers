@@ -129,6 +129,7 @@
 - Cecil: Final Fantasy 4
 - Butz: Final Fantasy 5
 - Terra: Final Fantasy 6
+- All converted by Darrman.
 
 
 # Music

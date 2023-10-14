@@ -68,7 +68,7 @@ UNIT Lucina Swordmaster_F 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SilverSwo
 UNIT
 
 CaesarGroup:
-UNIT Lucina Hero 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SilverSword, LightBrand] AttackInRangeAI
+UNIT Caesar Hero 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SilverSword, LightBrand] AttackInRangeAI
 UNIT
 
 TooLate:

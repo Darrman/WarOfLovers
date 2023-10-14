@@ -65,7 +65,6 @@ UNIT Mario Berserker 0x00 Level(1,Ally,0) [3,3] 0x0 0x0 0x0 0x0 [Hammer] NoAI
 UNIT
 
 Bad:
-UNIT Alear Sage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
 UNIT Lythos General Alear Level(5,Enemy,1) [9,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
 UNIT Lythos Berserker 0x00 Level(5,Enemy,1) [15,1] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
 UNIT Lythos Berserker 0x00 Level(5,Enemy,1) [11,13] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
@@ -87,6 +86,10 @@ UNIT Lythos Fleet 0x00 Level(10,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [FireGun] Pursue
 UNIT Lythos General 0x00 Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
 UNIT
 
+ClanneGroup:
+UNIT Clanne Sage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -105,6 +108,13 @@ Text(Castle_Hall,Ch5AfterScriptedBattle)
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+CHECK_EVENTID JamModeOn
+BNE 501 sC s0 //branch if jam mode 
+LOAD1 0x1 ClanneGroup
+GOTO 502
+LABEL 501
+//the pre-release script assumed Alear was truthful... but I know the truth
+LABEL 502
 GotoPrepScreen
 ENDA
 

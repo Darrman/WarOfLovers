@@ -91,11 +91,17 @@
 #define Alear 0x54
 #define Alear2 0x55
 #define Kris 0x56
+#define Caesar 0x57
+#define Ryan 0x58
+#define Luke 0x59
+#define Boucheron 0x5A
+#define Clanne 0x5B
 
 #define KrisFaction 0x80
 #define Lythos 0x81
 #define Samsian 0x82
 #define Garda 0x83
+#define Akaneia 0x84
 
 //Classes
 #undef Knight

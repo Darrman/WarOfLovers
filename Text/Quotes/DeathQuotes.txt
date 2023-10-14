@@ -32,6 +32,31 @@ state... without me...[A][X]
 [Left][LoadAlear]
 What? No! Impossible![A][X]
 
+## CaesarDeath
+[Left][LoadCaesar]
+Damn, I slipped up... Life[N]
+sure is cheap...[A][X]
+
+## RyanDeath
+[Left][LoadRyan]
+Gordon... I believed... in Kris.[N]
+I'm sorry... and stay safe...[A][X]
+
+## LukeDeath
+[Left][LoadLuke]
+Agh, it hurts... This is what I[N]
+get for risking my neck again...[A][X]
+
+## BoucheronDeath
+[Left][LoadBoucheron]
+No... I've failed. King Alfred,[N]
+Divine One, please forgive me...[A][X]
+
+## ClanneDeath
+[Left][LoadClanne]
+No... I didn't help here at all...[N]
+Divine One, help me... Alear... help...[A][X]
+
 ## MarthDeath
 [Right][LoadMarth]
 Sheeda... I'm sorry...[N]
