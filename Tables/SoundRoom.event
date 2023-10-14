@@ -28,6 +28,7 @@ SoundRoom(Game_Over,5400,0,SRGameOverBook2)
 SoundRoom(M_Armoury,5400,0,SRArmouryFE3)
 SoundRoom(M_Vendor,5400,0,SRVendorFE3)
 SoundRoom(M_Arena,5400,0,SRArenaFE3)
+SoundRoom(M_PreperationsFE11,5400,0,SRPreperationsFE11)
 WORD 0xFFFFFFFF
 
 POP

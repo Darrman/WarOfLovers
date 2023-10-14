@@ -143,3 +143,8 @@ SongTable(M_HealStaff,HealMusic,1)
 #include "Dancer.event"
 SongTable(M_Dancer,DancerMusic,1)
 }
+
+{
+#include "Preperations.event"
+SongTable(M_PreperationsFE11,PreperationsFE11,0)
+}

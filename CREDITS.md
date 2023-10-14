@@ -135,6 +135,8 @@
 # Music
 
 - All FE3 music converted by Sme.
+- FE11 Battle Preps: RSFlame
+
 - Voice lines from:
 - Marth: Fire Emblem Heroes
 - Sheeda: Fire Emblem Heroes

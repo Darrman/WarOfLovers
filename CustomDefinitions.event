@@ -180,6 +180,7 @@
 #define M_HealStaff Curing
 #define M_LiveStaff M_HealStaff
 #define M_Dancer TethysTheme
+#define M_PreperationsFE11 Combat_Preparation
 
 //VA
 //26D to 2BB all empty
