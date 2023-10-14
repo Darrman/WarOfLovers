@@ -94,7 +94,7 @@ Garnef's corrupt magic. Immune to harm.[X]
 Wing Spear[X]
 
 ## WingSpearDesc
-Effective vs. mounts/armour. Sheeda only.[X]
+Eff. mounts/armour. Sheeda only.[X]
 
 ## RapierDesc
 Effective vs. mounts/armour. Marth only.[X]

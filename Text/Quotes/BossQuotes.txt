@@ -44,7 +44,7 @@ I will liberate you![A][X]
 My orders are clear: subdue[N]
 Warren. If you will not[AN]
 surrender, then your life[N]
-is forfeit.[X]
+is forfeit.[A][X]
 
 ## RyanBattle
 [Left][LoadRyan]

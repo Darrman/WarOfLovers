@@ -51,16 +51,21 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth StarLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [16,10] 0x0 0x0 0x1 MarthREDA [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT
 
+CutsceneMarth:
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT
+
+
 Bad:
-UNIT 0x80 Warrior Lucina Level(1,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-UNIT 0x80 Warrior Lucina Level(1,Enemy,1) [4,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-UNIT 0x80 Sniper  Lucina Level(1,Enemy,1) [5,4] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
-UNIT 0x80 General Lucina Level(1,Enemy,1) [3,2] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
-UNIT 0x80 PegasusKnight Lucina Level(15,Enemy,1) [3,9] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
-UNIT 0x80 Fleet   Lucina Level(10,Enemy,1) [12,1] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
+UNIT KrisFaction Fleet   Lucina Level(10,Enemy,1) [12,0] 0x0 0x0 0x1 REDA6 [Ballista] NeverMoveAI
+UNIT KrisFaction Warrior Lucina Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA1 [IronAxe] AttackInRangeAI
+UNIT KrisFaction Warrior Lucina Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA2 [IronAxe] AttackInRangeAI
+UNIT KrisFaction Sniper  Lucina Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA3 [IronBow] AttackInRangeAI
+UNIT KrisFaction General Lucina Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA4 [IronLance] AttackInRangeAI
+UNIT KrisFaction PegasusKnight Lucina Level(15,Enemy,1) [3,10] 0x0 0x0 0x1 REDA5 [IronLance] PursueWithoutHeedAI
 UNIT
 
 LucinaGroup:
@@ -117,6 +122,10 @@ UNIT 0x91 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem
 UNIT 0x89 Druid_F 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
 UNIT 0x80 Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
 UNIT 0x80 Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
+UNIT
+
+MarthBoat:
+UNIT Akaneia Fleet   Marth Level(1,NPC,1) [19,10] 0x0 0x0 0x1 BoatREDA [Ballista] NeverMoveAI
 UNIT
 
 
@@ -229,15 +238,31 @@ CLEN 0
 CLEE 0
 REMA
 LOMA 0
-LOAD1 0x1 Good
 FADU 10
+LOAD1 0x1 MarthBoat
+ENUN
+LOAD1 0x1 Good
 BROWNBOX LocationPortWarren [0,0]
+MOVE 8 Marth [13,6]
+ENUN
 Text(Inn,Ch1OpeningBackInWarren)
+MOVE 8 Marth [15,4]
+ENUN
 Text(HouseBG,Ch1OpeningSecretShopNew)
-LOAD1 0x1 Bad
 LOAD1 0x1 CaesarGroup
+CAM1 Caesar
+FlashCursor(Caesar,60)
 Text(Ch1OpeningOrderAttackNew)
+LOAD1 0x1 Bad
+ENUN
+CriticalHit(0,30)
+EndAttack
+FIGHT_MAP KrisFaction Akaneia Ballista 1
+//KILL Akaneia
+//AWAIT_KILL Akaneia
+MOVE 8 KrisFaction [12,1]
 Text(Ch1OpeningMarthFights)
+MOVE 10 Marth [13,8]
 NoFade
 ENDA
 
@@ -266,13 +291,21 @@ NoFade
 ENDA
 
 EndingScene:
-MUSC M_Victory
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+LOAD2 0x1 CutsceneMarth
+FADU 10
+MUSC M_TogetherWeRide
 CALL UnitGacha
-WARPIN [0,1]
-MOVE 0xFFFF 0xFFFD [0,1]
+WARPIN [1,0]
+MOVE 0xFFFF 0xFFFD [1,0]
 ENUN
 ENDWARP
 STAL 20
+MUSC M_Victory
 CHECK_EVENTID JamModeOn
 BNE 2 sC s0 //branch if jam mode 
 Text(Plain,Ch1EndingNew)
@@ -350,6 +383,29 @@ ENDA
 KrisREDA:
 REDA [1,0]
 
+REDA1:
+REDA [8,6]
+
+REDA2:
+REDA [4,5]
+
+REDA3:
+REDA [5,4]
+
+REDA4:
+REDA [3,2]
+
+REDA5:
+REDA [3,9]
+
+REDA6:
+REDA [16,1]
+
+BoatREDA:
+REDA [16,10]
+
+MarthREDA:
+REDA [13,8]
 
 Ch1Armoury:
 SHLI IronSword SteelSword IronLance SteelLance IronAxe SteelAxe IronBow SteelBow

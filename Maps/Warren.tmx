@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.2" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="20" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="1">
  <tileset firstgid="1" name="01000203" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="01000203.png" width="512" height="512"/>
  </tileset>
@@ -16,7 +16,7 @@
    <property name="TileConfig" value="3"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJxbwcTA4MyAwCuYMHENUPwrkRimB9lMdHOpYR6ymTJY9IWSaF4vmp/RzbRkwG4PNvNAZvViCVeQfmkGBC3AjGkmshuw+RmkB4avMkGwGhIb3Uz0uEQ3L4gRgWFmgXAbDjMJmYfuPjcg/YwZ1Y3IZmJLb9jMX8GEqh8dg8yzIcI8XNgGGscwt9vg8C+xZsHCP44RgmF8ACRPfuA=
+   eJz7xMjA4MyAwOuBfB4mVFwDFP9KJF4H1P8JzUx0c0k17xIW80D4PNRMGSz6Qkk0rxdojjAUr8BipiUDdnuwmQcyC4SRxWBmSjMgaAFmTDNB5uEKQxCeyAzRB8I/gGZ+BWI1Zgj9E4gN0MyEmYfLzCBGBL4GNQuE24D4OtRMZHcimxfIhGkezG0gd3wHyrsB6WdQM0HmX4WaKQg1E919AUjpDtm9eUC+BFCPKBYsCcSBQGyDZh42DLMDmV3EBNFrCXW/ENQsdP8Si22Qwj+OEYJhfACciXbh
   </data>
  </layer>
  <layer id="3" name="Gates" width="20" height="11" visible="0">
