@@ -14,7 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventEnemy(0x0,1,Ch3LukeTaunt)
+TurnEventEnemy(0x0,Ch3LukeTaunt,1)
 END_MAIN
 
 CharacterBasedEvents:

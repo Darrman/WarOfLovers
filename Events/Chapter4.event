@@ -172,6 +172,10 @@ MUSC M_Victory
 Text(Ch4EndingVictory)
 MUSC M_ThemeOfLove
 Text(Castle_Room,Ch4EndingStory)
+CHECK_EXISTS Sheeda //if you somehow manage to skip her, recruit Sheeda anyway
+BNE 403 s0 sC
+LOAD1 0x1 SheedaGroup
+LABEL 403
 MNC2 0x4
 ENDA
 
@@ -198,7 +202,7 @@ STAL 10
 TEXTCONT
 TEXTEND
 REMA
-MOVE 8 Sheeda [3,4]
+MOVE 8 Sheeda [4,4]
 ENUN
 MUSC M_TogetherWeRide
 Text(Ch4SheedaMarth)
