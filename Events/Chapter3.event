@@ -34,7 +34,7 @@ Seize(0x3,EndingScene,4,9)
 END_MAIN
 
 MiscBasedEvents:
-DefeatBoss(EndingScene)
+//DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 

@@ -214,9 +214,15 @@ to do. We will not give them a[N]
 chance to carry those orders out![A][X]
 
 ## Ch5BossTaunt
-[MR][LoadAnna]
-//placeholder
-Hahaha![A][X]
+[MR][LoadClanne]
+The Divine One needs me to protect[N]
+this fort, and so that's what I am[AN]
+going to do. I'm surprised we're[N]
+under attack, though. I suppose that[AN]
+means Boucheron's unit has failed.[N]
+Still, unless Sheeda found herself[AN]
+hundreds of extra soldiers, Talis[N]
+will fall. For the Divine Dragon![A][X]
 
 ## Ch5RiffVillage
 [MR][LoadCurrent][ML][LoadFace][0x5F][0x01]
@@ -400,7 +406,7 @@ up. Emperor Marth of Akaneia.[AN]
 The Hero King, the Star Lord...[N]
 You've earned no shortage of[AN]
 accolades in your campaigns.[N]
-You did well. Killing (Boss)...[AN]
+You did well. Killing Clanne...[AN]
 [ML]
 Who... of course. Alfonse of[N]
 Askr. I've already driven[AN]
