@@ -139,6 +139,7 @@ ENUN
 CLEA 0
 FADI 10
 LOMA 0x42
+RECLASS Sheeda KnightFalcon //dismount her
 LOAD1 0x1 CutsceneAlear
 LOAD2 0x1 CutsceneMarthInside
 TILECHANGE 5 //open the door by Alear
@@ -161,6 +162,7 @@ FIGHT Marth Alear Falchion 0
 MUSC M_ThemeOfLove
 Text(Castle_Hall,Ch5AfterScriptedBattle)
 FADI 10
+RECLASS Sheeda FalcoKnight //and back up she goes
 CLEA 0
 CLEE 0
 LOMA 0x4

@@ -60,7 +60,7 @@ But... you've disappeared![A][Clear]
 [Right][LoadMarth]
 Sir Ryan, there is no need to[N]
 continue fighting. Stop this.[A][Clear]
-[Left]
+[Left][LoadRyan]
 No... you're not Marth. This is[N]
 just a trick. I won't be fooled.[A][X]
 

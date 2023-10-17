@@ -1,0 +1,203 @@
+EventPointerTable(0x21, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+//opening: pirate boat present
+//turn 1 ep: pirates drop bridge
+//turn 3?: lythos boat arrives
+//turn 8: win, which means you crash
+//flyers move in consistently, stairs spawn reinforcements
+//defend your stairs or else!
+TurnEventEnemy(0x0, PiratePlanksDrop, 1)
+TurnEventPlayer(0x0,Turn2Reinforcements,2)
+TurnEventPlayer(0x0, LythosBoatArrives, 3)
+TurnEventEnemy(0x0, LythosPlanksDrop, 3)
+TurnEventPlayer(0x0,Turn4Reinforcements,4)
+TurnEventPlayer(0x0,Turn5Reinforcements,5)
+TurnEventPlayer(0x0,Turn6Reinforcements,6)
+TurnEventNPC(0x3, EndingScene, 7) //npc phase to stop a turn being tacked on
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,14,11)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [14,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [12,7] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,8] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [12,9] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,10] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [12,11] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,12] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [12,13] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,14] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [14,8] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [14,14] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [15,7] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [15,10] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [15,13] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [14,12] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT
+
+Bad:
+UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [18,19] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,7] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,13] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,16] 0x0 0x0 0x0 0x0 [ShortSpear] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [12,0] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [14,0] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT
+
+GazackCloneSixGroup:
+UNIT PirateGeneric Berserker 0x00 Level(1,Enemy,1) [4,12] DropItem 0x0 0x0 0x0 [Tomahawk, EnergyRing] NeverMoveAI //make this guy an actual boss in the future
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,12] 0x0 0x0 0x0 0x0 [Halberd] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT PirateGeneric Archer 0x00 Level(15,Enemy,1) [4,13] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [SteelAxe] StealingThiefAI
+UNIT
+
+LythosBoatGroup:
+UNIT Lythos General 0x00 Level(10,Enemy,0) [24,7] DropItem 0x0 0x0 0x0 [Spear, KnightCrest] NeverMoveAI //let's go with Louis, I can't think of an appropriate boat map character
+UNIT Lythos General 0x00 Level(6,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [SilverAxe] NeverMoveAI
+UNIT Lythos General 0x00 Level(6,Enemy,1) [22,13] 0x0 0x0 0x0 0x0 [SilverLance] NeverMoveAI
+UNIT Lythos Hero 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT Lythos Hero 0x00 Level(6,Enemy,1) [24,13] 0x0 0x0 0x0 0x0 [Wyrmslayer] PursueWithoutHeedAI
+UNIT Lythos Hero 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT Lythos Sniper 0x00 Level(6,Enemy,1) [24,15] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI
+UNIT Lythos Bishop 0x00 Level(6,Enemy,1) [23,7] 0x0 0x0 0x0 0x0 [Divine, Physic] HealUnits
+UNIT Lythos Sage 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Blizzard] PursueWithoutHeedAI
+UNIT Lythos Sage 0x00 Level(6,Enemy,1) [24,8] 0x0 0x0 0x0 0x0 [Elfire] GuardTileAI
+UNIT
+
+T2Group:
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT
+
+T3Group:
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [DevilAxe] PursueWithoutHeedAI
+UNIT
+
+T4Group:
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,10] DropItem 0x0 0x0 0x0 [DevilAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [SteelSword] AttackInRangeAI
+UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Elfire] AttackInRangeAI
+UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [12,19] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT
+
+T5Group:
+UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
+UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Elfire] AttackInRangeAI
+UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [ShortSpear] PursueWithoutHeedAI
+UNIT
+
+T6Group:
+UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [SteelSword] AttackInRangeAI
+UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Thoron] AttackInRangeAI
+UNIT PirateGeneric Archer 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+TILECHANGE 4
+LOAD1 0x1 GazackCloneSixGroup
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 0x7
+ENDA
+
+PiratePlanksDrop:
+TILECHANGE 3
+ENDA
+
+LythosBoatArrives:
+LOAD1 0x1 T3Group
+FADU 10
+TILECHANGE 1
+LOAD1 0x1 LythosBoatGroup
+FADI 10
+ENDA
+
+LythosPlanksDrop:
+TILECHANGE 2
+ENDA
+
+Turn2Reinforcements:
+LOAD1 0x1 T2Group
+ENDA
+
+Turn4Reinforcements:
+LOAD1 0x1 T4Group
+ENDA
+
+Turn5Reinforcements:
+LOAD1 0x1 T5Group
+ENDA
+
+Turn6Reinforcements:
+LOAD1 0x1 T6Group
+ENDA
+
+LythosREDA1:
+REDA [22,14]
+
+LythosREDA2:
+REDA [23,15]

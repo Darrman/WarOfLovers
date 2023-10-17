@@ -428,3 +428,10 @@ Akaneia[X]
 ## AkaneiaDesc
 A soldier of Akaneia.[N]
 This flavour is a placeholder.[X]
+
+## PirateName
+Pirate[X]
+
+## PirateDesc
+A pirate roaming the seven[N]
+seas for plunder.[X]
