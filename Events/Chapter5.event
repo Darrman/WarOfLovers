@@ -15,6 +15,7 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0, AfterPrepScreen, 1)
+TurnEventPlayer(0x0, LoadVillageWrecker,5)
 END_MAIN
 
 CharacterBasedEvents:
@@ -107,6 +108,10 @@ UNIT
 CutsceneMarthInside:
 UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [6,10] 0x0  0x0 0x0 0x0 [Falchion] NoAI
 UNIT Sheeda KnightFalcon 0x00 Level(1,Ally,0) [8,10] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT
+
+VillageWrecker:
+UNIT Lythos Thief 0x00 Level(20,Enemy,1) [16,4] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
 UNIT
 
 Traps1:
@@ -251,6 +256,13 @@ ENDA
 
 Ch5House2:
 Text(HouseBG,Ch5House3Text)
+NoFade
+ENDA
+
+LoadVillageWrecker:
+CAM1 [16,4]
+LOAD1 0x1 VillageWrecker
+ENUN
 NoFade
 ENDA
 

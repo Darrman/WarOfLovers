@@ -176,8 +176,8 @@ CLEE 0
 LOAD2 0x1 CutsceneMarth
 MUSC M_TogetherWeRide
 CALL UnitGacha
-WARPIN [28,13]
-MOVE 0xFFFF 0xFFFD [28,13]
+WARPIN [28,14]
+MOVE 0xFFFF 0xFFFD [28,14]
 ENUN
 ENDWARP
 STAL 20
@@ -244,7 +244,11 @@ MNC2 0x3
 ENDA
 
 Ch3LukeTaunt:
+MUSC M_Insurrection
+CAM1 Luke
+FlashCursor(Luke,60)
 Text(Ch3LukeLine)
+NoFade
 ENDA
 
 Ch3Armoury:

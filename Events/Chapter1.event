@@ -263,6 +263,7 @@ FIGHT_MAP KrisFaction Akaneia Ballista 1
 MOVE 8 KrisFaction [12,1]
 Text(Ch1OpeningMarthFights)
 MOVE 10 Marth [13,8]
+CLEN 0
 NoFade
 ENDA
 

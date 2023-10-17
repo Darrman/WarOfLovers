@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,Turn8Reinforcements,8)
 END_MAIN
 
 CharacterBasedEvents:
@@ -93,6 +94,12 @@ ChikiGroup:
 UNIT Chiki Mamkute_F 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
 UNIT
 
+TopReinforcements:
+UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [6,0] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [Javelin] ChaseOnceApproachedAI
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -155,6 +162,13 @@ Text(Prison_Cell, Ch2EndingFindingChikiOld)
 Text(Castle_Outside, Ch2EndingChikiStoryOld)
 LABEL 206
 MNC2 0x2
+ENDA
+
+Turn8Reinforcements:
+CAM1 [7,0]
+LOAD1 0x1 TopReinforcements
+ENUN
+NoFade
 ENDA
 
 Ch2Vendor:

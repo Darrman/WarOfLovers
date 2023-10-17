@@ -36,6 +36,10 @@ Divine Stone[X]
 //Dragon form.[X]
 Chiki only; effective vs. dragons.[X]
 
+## DivineStoneUseDesc
+Transform Chiki into a[N]
+Divine Dragon.[X]
+
 ## MasterSwordName
 Master Sword[X]
 
