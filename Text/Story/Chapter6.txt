@@ -93,8 +93,7 @@ some torches. I hope they help![A]
 They should, Chiki. Thank you.[A][X]
 
 ## Ch6LythosFleetArrives
-[MR][LoadAnna]
-//Louis
+[MR][LoadLouis]
 Hmm... I've been watching the movements[N]
 of Sheeda's escape vessel for a while.[AN]
 This fog is dangerous, though. We don't[N]
@@ -105,7 +104,7 @@ what! Once the enemy soldiers have taken[N]
 up positions, that is when we strike![A][X]
 
 ## Ch6LythosRetreatBoss
-[Right][LoadAnna]
+[Right][LoadLouis]
 The seas beyond here are extremely[N]
 dangerous. As much as I want to[AN]
 keep observing Sheeda and her little[N]
