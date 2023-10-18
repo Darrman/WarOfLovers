@@ -97,7 +97,7 @@ UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [SteelSwor
 UNIT
 
 LythosBoatGroup:
-UNIT Lythos General 0x00 Level(10,Enemy,0) [24,7] DropItem 0x0 0x0 0x0 [Spear, KnightCrest] NeverMoveAI //let's go with Louis, I can't think of an appropriate boat map character
+UNIT Louis General 0x00 Level(10,Enemy,0) [24,7] DropItem 0x0 0x0 0x0 [Spear, KnightCrest] NeverMoveAI 
 UNIT Lythos General 0x00 Level(6,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [SilverAxe] NeverMoveAI
 UNIT Lythos General 0x00 Level(6,Enemy,1) [22,13] 0x0 0x0 0x0 0x0 [SilverLance] NeverMoveAI
 UNIT Lythos Hero 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
@@ -129,7 +129,7 @@ UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Javelin]
 UNIT
 
 T5Group:
-UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+//UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
 UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
 UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Elfire] AttackInRangeAI
 UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
@@ -347,7 +347,9 @@ FADI 10
 MUSC M_Conspiracy
 TILECHANGE 1
 LOAD1 0x1 LythosBoatGroup
+CAM1 Louis
 FADU 10
+STAL 10
 Text(Ch6LythosFleetArrives)
 NoFade
 ENDA

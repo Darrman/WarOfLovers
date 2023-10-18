@@ -43,7 +43,7 @@
 - Butz: Final Fantasy 5 mobile (Darrman)
 - Terra: Final Fantasy 6 (Darrman)
 
-- Lucina: TheImperialKnight
+- Lucina: Garytop
 - Lyn: FE7
 - Leaf: FE4 (Darrman)
 - Byleth: FE16 (Darrman)
@@ -65,6 +65,7 @@
 - Timerra: FE17 (Darrman)
 - Fogado: FE17 (Darrman)
 - Veyle: FE17 (Darrman)
+- Louis: FE17 (Darrman)
 - Alfonse: FEH (Darrman)
 
 - Alm: Atey

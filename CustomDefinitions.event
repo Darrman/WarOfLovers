@@ -96,6 +96,7 @@
 #define Luke 0x59
 #define Boucheron 0x5A
 #define Clanne 0x5B
+#define Louis 0x5C
 
 #define KrisFaction 0x80
 #define Lythos 0x81
@@ -182,6 +183,7 @@
 #define M_LiveStaff M_HealStaff
 #define M_Dancer TethysTheme
 #define M_PreperationsFE11 Combat_Preparation
+#define M_GameOverBook1 In_Sorrows_Shroud
 
 //VA
 //26D to 2BB all empty
