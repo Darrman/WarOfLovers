@@ -228,6 +228,7 @@ Text(Castle_Hall_Night,Ch5AlfonseAppears)
 MUSC M_OffToWar
 Text(Castle_Hall_Night,Ch5RodyEscapes)
 Text(Castle_Hall_Night,Ch5MarthSailsNorth)
+REMU Rody
 MNC2 0x6
 ENDA
 
