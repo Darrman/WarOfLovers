@@ -20,6 +20,7 @@ TurnBasedEvents:
 //turn 8: win, which means you crash
 //flyers move in consistently, stairs spawn reinforcements
 //defend your stairs or else!
+TurnEventPlayer(0x0,AfterPrepTorches,1)
 TurnEventEnemy(0x0, PiratePlanksDrop, 1)
 TurnEventPlayer(0x0,Turn2Reinforcements,2)
 TurnEventPlayer(0x0, LythosBoatArrives, 3)
@@ -78,8 +79,8 @@ UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [18,19] 0x0 0x0 0x0 0x0 [SteelSwor
 UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,7] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,13] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,16] 0x0 0x0 0x0 0x0 [ShortSpear] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [12,0] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [14,0] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT
@@ -92,7 +93,7 @@ UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [SteelAx
 UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT PirateGeneric Archer 0x00 Level(15,Enemy,1) [4,13] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
-UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [SteelAxe] StealingThiefAI
+UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [SteelSword] StealingThiefAI
 UNIT
 
 LythosBoatGroup:
@@ -131,9 +132,9 @@ T5Group:
 UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
 UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
 UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Elfire] AttackInRangeAI
-UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [ShortSpear] PursueWithoutHeedAI
 UNIT
 
@@ -142,6 +143,23 @@ UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [SteelSword]
 UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Thoron] AttackInRangeAI
 UNIT PirateGeneric Archer 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
 UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
+UNIT
+
+OpeningMarthSheeda:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [14,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,11] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT
+
+EndingGood:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [14,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,11] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [14,12] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT
+
+EndingDragons:
+UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [15,3] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [16,4] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [17,2] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
 UNIT
 
 Traps1:
@@ -153,47 +171,210 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+LOAD2 0x1 OpeningMarthSheeda
+CAM1 Marth
+MUSC M_ThemeOfLove
+Text(Ship,Ch6OpeningOnABoatAgain)
+MUSC M_OffToWar
+CAM1 [6,12]
+STAL 10
+TILECHANGE 4
+STAL 30
+Text(Ship,Ch6OpeningPiratesSpotted)
+FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
-TILECHANGE 4
 LOAD1 0x1 GazackCloneSixGroup
+CAM1 [0,0]
+MUSC M_PreperationsFE11
+FADU 10
+STAL 10
+CAM1 [29,0]
+STAL 10
+CAM1 [29,19]
+STAL 10
+CAM1 [0,19]
+STAL 10
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
 EndingScene:
+WEATHER 2 //blizzard
+MUSC M_Victory
+CHECK_EVENTID 0x2
+BNE 601 s0 sC
+Text(Ship,Ch6LythosRetreatBoss)
+GOTO 602
+LABEL 601
+Text(Ship,Ch6LythosRetreatNoBoss)
+LABEL 602
+FADI 10
+CLEA 0
+CLEN 0
+CLEE 0
+ENUN
+LOAD2 0x1 EndingGood
+FADU 10
+TILEREVERT 2
+STAL 10
+TILEREVERT 1
+STAL 10
+TILEREVERT 3
+TILEREVERT 4
+Text(Ship,Ch6GettingWindy)
+TILECHANGE 5
+EVBIT_T 9
+MOVE 10 Sheeda [24,5]
+ENUN
+STAL 10
+MOVE 10 Sheeda [24,17]
+ENUN
+STAL 10
+MOVE 10 Sheeda [3,17]
+ENUN
+STAL 10
+MOVE 10 Sheeda [3,5]
+ENUN
+STAL 10
+MOVE 12 Sheeda [13,11]
+ENUN
+STAL 10
+EVBIT_F 9
+MUSC M_EvilOnes
+Text(Ship,Ch6LandNearby)
+STAL 10
+CAM1 [16,5]
+TILECHANGE 6
+STAL 30
+SOUN 0xAF //snag destroyed
+EARTHQUAKE 1 1
+STAL 120
+EARTHQUAKE_END
+Text(Ship,Ch6HitRock)
+SOUN 0xE6 //dragon roar
+LOAD2 0x1 EndingDragons
+ENUN
+MOVE 10 Sheeda [16,6]
+STAL 20
+SOUN 0x37B //dragon roar
+STAL 10
+SOUN 0x11A //Bolting
+STAL 10
+MOVE 10 Sheeda [13,11]
+ENUN
+//SOUN 0x4E //wind noises
+SOUN 0x2D9 //thud sound, probably something better to represent dropping the Divine Stone
+STAL 20
+EARTHQUAKE 1 1
+TEXTSTART
+TEXTSHOW Ch6Shipwrecked
+TEXTEND
+CAM1 Chiki
+SOUN 0x11A //Bolting
+TEXTCONT
+TEXTEND
+SOUN 0x11A //Bolting
+TEXTCONT
+TEXTEND
+STAL 10
+FAWI 20
+SOUN 0x11A //Bolting
+STAL 10
+FAWU 20
+MOVE 12 Chiki [0,10]
+STAL 10
+MOVE 12 Marth [12,11]
+ENUN
+CAM1 Marth
+SOUN 0xBD //tile sinking into the water, ideally a splash sound
+TEXTCONT
+TEXTEND
+FAWI 20
+SOUN 0x11A //Bolting
+STAL 10
+FAWU 20
+MOVE 12 Marth [13,6]
+MOVE 6 Sheeda [13,9]
+ENUN
+REMU Marth
+SOUN 0xBD //tile sinking into the water, ideally a splash sound
+TEXTCONT
+TEXTEND
+CLEAN
+STAL 10
+FAWI 20
+SOUN 0x11A //Bolting
+STAL 10
+FAWU 20
+MOVE 5 Sheeda [1,0]
+SOUN 0x11A //Bolting
+STAL 40
+SOUN 0xAF //snag destroyed
+STAL 40
+SOUN 0xE6 //dragon roar
+STAL 40
+ENUN
+//FAWI 30
+EARTHQUAKE_END
 MNC2 0x7
+ENDA
+
+AfterPrepTorches:
+CHECK_DEPLOYED Chiki
+BNE 603 s0 sC
+CAM1 Chiki
+FlashCursor(Chiki,60)
+GOTO 604
+LABEL 603
+CAM1 Marth
+LABEL 604
+Text(Ch6AfterPrepGetTorches)
+SVAL s3 Torch
+GIVEITEMTO Marth
+NoFade
 ENDA
 
 PiratePlanksDrop:
 TILECHANGE 3
+NoFade
 ENDA
 
 LythosBoatArrives:
 LOAD1 0x1 T3Group
-FADU 10
+FADI 10
+MUSC M_Conspiracy
 TILECHANGE 1
 LOAD1 0x1 LythosBoatGroup
-FADI 10
+FADU 10
+Text(Ch6LythosFleetArrives)
+NoFade
 ENDA
 
 LythosPlanksDrop:
 TILECHANGE 2
+NoFade
 ENDA
 
 Turn2Reinforcements:
 LOAD1 0x1 T2Group
+NoFade
 ENDA
 
 Turn4Reinforcements:
 LOAD1 0x1 T4Group
+NoFade
 ENDA
 
 Turn5Reinforcements:
 LOAD1 0x1 T5Group
+NoFade
 ENDA
 
 Turn6Reinforcements:
 LOAD1 0x1 T6Group
+NoFade
 ENDA
 
 LythosREDA1:

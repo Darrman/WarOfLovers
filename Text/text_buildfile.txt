@@ -51,6 +51,7 @@ Age:[X]
 #include Story/Chapter3.txt
 #include Story/Chapter4.txt
 #include Story/Chapter5.txt
+#include Story/Chapter6.txt
 #include Story/FEE32023.txt
 
 ## DV1Desc
