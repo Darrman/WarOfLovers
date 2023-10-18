@@ -130,4 +130,5 @@
 [LoadCaesar] = [LoadFace][0x40][0x1]
 [LoadRyan] = [LoadFace][0x41][0x1]
 [LoadLuke] = [LoadFace][0x42][0x1]
+[LoadLouis] = [LoadFace][0x43][0x1]
 [LoadAnna] = [LoadFace][0x64][0x1]

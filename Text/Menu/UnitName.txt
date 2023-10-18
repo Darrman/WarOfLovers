@@ -395,6 +395,14 @@ Guardian of Alear. Takes the role of[N]
 Steward of the Dragon to the extreme[N]
 and will do absolutely anything for her.[X]
 
+## LouisName
+Louis[X]
+
+## LouisDesc
+A knight of Firene and retainer of[N]
+Celine. Spends most of his time[N]
+observing people in gardens.[X]
+
 ## KrisFactionName
 Kris's[X]
 

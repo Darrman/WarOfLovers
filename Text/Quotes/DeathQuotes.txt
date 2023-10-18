@@ -28,9 +28,18 @@ if you can beat me...[AN]
 I hope Fodlan is in a good[N]
 state... without me...[A][X]
 
-## AlearDeath
+## AlearDeathOld
 [Left][LoadAlear]
 What? No! Impossible![A][X]
+
+## AlearDeathJam
+[Left][LoadAlear]
+MARTH... WHY? WE WERE...[N]
+SO HAPPY... AND YOU...[AN]
+HAVE KILLED ME... REST[N]
+ASSURED... I WILL RETURN.[AN]
+I SWEAR ON MY HEART...[N]
+AND ON THE EMBLEMS...[A][X]
 
 ## CaesarDeath
 [Left][LoadCaesar]
@@ -55,7 +64,25 @@ Divine One, please forgive me...[A][X]
 ## ClanneDeath
 [Left][LoadClanne]
 No... I didn't help here at all...[N]
-Divine One, help me... Alear... help...[A][X]
+Divine One... Alear... help...[A][X]
+
+## LouisDeath
+[Left][LoadLouis]
+Urgh... I can't believe it.[N]
+I have failed the Divine One.[AN]
+Marth... is getting away.[N]
+Princess Celine, take... care...[A][X]
+
+## KrisCh1Death
+[Left][LoadKris]
+What?! No... No! This is...[N]
+impossible! I can't die here![AN]
+Not now! I haven't even taken[N]
+Pales yet! Marich... What are[AN]
+you planning? What... just...[N]
+happened to me? What is Alear[AN]
+doing? What is Alfonse doing?[N]
+Who is Marich with? Katarina...[A][X]
 
 ## MarthDeath
 [Right][LoadMarth]

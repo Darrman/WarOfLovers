@@ -175,7 +175,7 @@ little of what goes on in Pales,[N]
 but know this: I smell a rat.[A][X]
 
 ## Ch4House2Text
-[ML][LoadFace][0x60][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5D][0x01][MR][LoadCurrent]
 [ML]
 This used to be the site of a storage[N]
 tent. But their services were the[AN]
@@ -187,7 +187,7 @@ That's progress for you. Why have[N]
 tents when you can have wagons?[A][X]
 
 ## Ch4House3Text
-[ML][LoadFace][0x60][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x62][0x01][MR][LoadCurrent]
 [ML]
 Empress Sheeda - maybe it's only Queen[N]
 Sheeda now, but if Kris had his way[AN]
@@ -199,7 +199,7 @@ And personally, I quite like the idea[N]
 of freedom from those warmongers![A][X]
 
 ## Ch4House4Text
-[ML][LoadFace][0x60][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
 [ML]
 I couldn't begin to tell you about[N]
 the army currently invading us.[AN]
@@ -245,7 +245,7 @@ Of course. I've got a lot to tell you[N]
 as well. But first, we must win.[A][X]
 
 ## Ch4VillageText
-[ML][LoadFace][0x60][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5F][0x01][MR][LoadCurrent]
 [ML]
 The world has gotten very dangerous[N]
 lately. That invading army seems[AN]

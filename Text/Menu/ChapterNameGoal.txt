@@ -32,3 +32,13 @@ Ch. 5: Sanctuary No More[X]
 ## Ch5Goal
 Kill the boss sitting[N]
 on the eastern fort[X]
+
+## Ch6Name
+Ch. 6: The Icy Seas[X]
+
+## Ch6Goal
+Defend from hijackers[N]
+for 7 turns[X]
+
+## Ch7Name
+Ch. 7: Through the Gate[X]

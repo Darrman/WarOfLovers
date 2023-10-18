@@ -152,7 +152,7 @@ setMugEntry(0x26, Terra_Mug, 3,8,3,6)
 
 Lucina_Mug:
 #incext PortraitFormatter "Lucina.png"
-setMugEntry(0x27, Lucina_Mug, 4,6,4,4)
+setMugEntry(0x27, Lucina_Mug, 3,6,3,4)
 
 Lyn_Mug:
 #incext PortraitFormatter "Lyn.png"
@@ -261,6 +261,10 @@ setMugEntry(0x41, RyanMug, 4, 6, 3, 4)
 LukeMug:
 #incext PortraitFormatter "Luke.png"
 setMugEntry(0x42, LukeMug, 4, 6, 4, 4)
+
+LouisMug:
+#incext PortraitFormatter "Louis.png"
+setMugEntry(0x43, LouisMug, 3,7,3,5)
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:

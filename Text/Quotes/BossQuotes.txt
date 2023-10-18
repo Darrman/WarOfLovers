@@ -34,10 +34,15 @@ the Academy. I am engaged.[AN]
 My orders are to defeat Marth[N]
 Lowell. Prepare to die.[A][X]
 
-## AlearBattle1
+## AlearBattle1Old
 [Left][LoadAlear]
 The time for talk has passed.[N]
 I will liberate you![A][X]
+
+## AlearBattleJam
+[Left][LoadAlear]
+STUPID HUMANS... STOP YOUR[N]
+INTERFERENCE AT ONCE![A][X]
 
 ## CaesarBattle
 [Left][LoadCaesar]
@@ -97,3 +102,43 @@ The Divine One is counting on[N]
 me to stop your attack.[AN]
 And what she says, goes! Talis[N]
 will... I shouldn't tell.[A][X]
+
+## LouisBattle
+[Left][LoadLouis]
+The Divine One is watching you.[N]
+And I have kept a very close[AN]
+eye on all of you. Now, I have[N]
+caught you. The Divine One's[AN]
+orders were to recover Emblem[N]
+Marth. I can't watch her cry![A][X]
+
+## KrisCh1Battle
+[Left][LoadKris]
+Hmph. Clearly you have not[N]
+been training adequately.[AN]
+I am Emperor Marth's most[N]
+loyal servant. In his name,[AN]
+I will strike you down with[N]
+the Miracle Sword's might![A][X]
+
+## MarthVsKrisCh1
+[Left][LoadKris]
+Emperor Marth?! Impossible![N]
+You're in retirement with[AN]
+Alear in Lythos! She said[N]
+you were perfectly in love![AN]
+Are you sick of your affair?[N]
+Running back home to Sheeda?[A][Clear]
+[Right][LoadMarth]
+So, you're Kris? I think I[N]
+remember who you are now.[AN]
+[Left]
+Ahem... I am your most loyal[N]
+servant, Captain Kris of the[AN]
+Royal Guard. Please forgive[N]
+my prior statements. I am[AN]
+fighting in a civil war with[N]
+that traitorous Marich...[A][Clear]
+[Right]
+If you are who I think you are,[N]
+then I will not stand aside.[A][X]

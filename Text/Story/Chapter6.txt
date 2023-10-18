@@ -114,7 +114,8 @@ Drop anchor; the Divine One will be[N]
 with us shortly.[A][X]
 
 ## Ch6LythosRetreatNoBoss
-[Right][LoadFace][0x6B][0x01] //generic red soldier
+[Right][LoadFace][0x6B][0x01]
+//generic red soldier
 T-t-the commander's dead! The[N]
 Divine One's going to be livid![AN]
 I'm sick of all of this fog![N]
@@ -228,3 +229,10 @@ Marth? MARTH! MARTH! I won't be[N]
 able to fly away soon...[AN]
 I'm near land... I can make it...[N]
 I will make it...[A][X]
+
+## EndOfDemoMessage
+[ML][LoadMarth]
+You have made it to the end of[N]
+the current demo. Thank you[AN]
+for playing, and stay tuned[N]
+for any future updates.[A][X]
