@@ -128,6 +128,12 @@ WM_FADEOUTSPRITE, 0xA440, 8, -game:FE8 -indexMode:8
 
 WM_WAITFORSPRITELOAD, 0xA520, 4, -game:FE8 -indexMode:8
 
+#Name from FEBuilder; there might be newer raws somewhere
+WM_SETNEXTLOCATION, 0xA640, 8, -game:FE8 -indexMode:8
+	Value1, 2, 2
+	Value2, 4, 2
+	Location, 6, 2
+
 WM_PUTSPRITE, 0xA760, 12, -game:FE8 -indexMode:8
 	ID, 2, 2
 	ClassID, 4, 2

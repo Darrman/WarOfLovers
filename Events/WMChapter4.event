@@ -1,0 +1,13 @@
+WorldMapPointerTable(4,WM_Events)
+
+WM_Events:
+BeginWorldMap
+MUSC M_ANewJourney
+WorldMapShowTextBox
+WorldMapTextBegin(Ch4WorldMap)
+TEXTEND
+
+STAL 60
+FADI 16
+SKIPWN
+ENDA

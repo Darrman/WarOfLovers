@@ -176,7 +176,9 @@ CHECK_EXISTS Sheeda //if you somehow manage to skip her, recruit Sheeda anyway
 BNE 403 s0 sC
 LOAD1 0x1 SheedaGroup
 LABEL 403
-MNC2 0x4
+WM_SETDESTINATION 0 4 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 4 //Needed for world map narration.
+MNCH 0x4
 ENDA
 
 AfterPrepScreen:

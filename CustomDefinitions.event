@@ -39,7 +39,7 @@
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
-//#define __DEBUG__ // Uncomment to get the Debug startup menu :p
+#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 //Characters
 #define Marth 0x01
@@ -184,6 +184,7 @@
 #define M_Dancer TethysTheme
 #define M_PreperationsFE11 Combat_Preparation
 #define M_GameOverBook1 In_Sorrows_Shroud
+#define M_MysteryOfTheEmblem PrologueMusic
 
 //VA
 //26D to 2BB all empty

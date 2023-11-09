@@ -240,7 +240,9 @@ TEXTSHOW Ch3MarthAbdicationNote
 TEXTSHOW Ch3ImperialEdict
 TEXTEND
 LABEL 306
-MNC2 0x3
+WM_SETDESTINATION 0 3 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 3 //Needed for world map narration.
+MNCH 0x3
 ENDA
 
 Ch3LukeTaunt:

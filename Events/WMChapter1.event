@@ -1,0 +1,13 @@
+WorldMapPointerTable(0,WM_Events)
+
+WM_Events:
+BeginWorldMap
+MUSC M_MysteryOfTheEmblem
+WorldMapShowTextBox
+WorldMapTextBegin(Ch1WorldMap)
+TEXTEND
+
+STAL 60
+FADI 16
+SKIPWN
+ENDA

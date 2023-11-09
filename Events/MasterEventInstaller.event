@@ -1,11 +1,11 @@
 #include Gacha.event
+#include "WorldMapEvents.event"
 {
 #include "Debug.event"
 }
 {
 #include "Chapter1.event"
 }
-#include "WorldMapEvents.event"
 {
 #include "Chapter2.event"
 }

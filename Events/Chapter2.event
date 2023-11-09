@@ -161,7 +161,9 @@ ENUN
 Text(Prison_Cell, Ch2EndingFindingChikiOld)
 Text(Castle_Outside, Ch2EndingChikiStoryOld)
 LABEL 206
-MNC2 0x2
+WM_SETDESTINATION 0 2 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 2 //Needed for world map narration.
+MNCH 0x2
 ENDA
 
 Turn8Reinforcements:
