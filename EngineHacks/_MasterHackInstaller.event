@@ -261,3 +261,6 @@ POP
 
   //Dismount (Crazycolorz, Contro)
   #include "GachaJam/Dismount/DismountInstaller.event"
+
+  //32-colour animations (Huichelaar)
+  #include "GachaJam/TwoPaletteAnims/ASM.event"

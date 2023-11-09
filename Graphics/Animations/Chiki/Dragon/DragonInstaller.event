@@ -5,7 +5,8 @@ AnimTableEntry(0xC4) //CHANGE THIS TO THE SLOT YOU ARE REPLACING
 //AnimTableEntry(0xC5)
 //AnimTableEntry(0xC6) //get rid of these two if transformation is fixed
 //0xC4 if transformation anims are fixed
-WORD 0 0 0 //empty name field, who cares
+String("DivinDBr")
+WORD 0
 POIN Anim_Dragonstone_sectiondata
 POIN Anim_Dragonstone_framedata
 POIN Anim_Dragonstone_rtl Anim_Dragonstone_ltr Anim_Dragonstone_pal
