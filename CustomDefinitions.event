@@ -185,6 +185,7 @@
 #define M_PreperationsFE11 Combat_Preparation
 #define M_GameOverBook1 In_Sorrows_Shroud
 #define M_MysteryOfTheEmblem PrologueMusic
+#define M_EndingMedleyBook1 Records
 
 //VA
 //26D to 2BB all empty

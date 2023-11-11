@@ -43,6 +43,7 @@ Screenshots
 
 # Other folders to disregard
 Release
+Tools
 
 # Probably shouldn't distribute these
 *.dll

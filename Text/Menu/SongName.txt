@@ -75,3 +75,12 @@ Arena (FE3)[X]
 
 ## SRPreperationsFE11
 Preperations (FE11)[X]
+
+## SRGameOverBook1
+Game Over (FE3 Book 1)[X]
+
+## SRMysteryOfTheEmblem
+Mystery of the Emblem[X]
+
+## SREndingMedleyBook1
+Ending Medley (Book 1)[X]

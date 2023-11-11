@@ -202,6 +202,21 @@ CHECK_EVENTID JamModeOn
 BEQ 503 sC s0 //branch if not jam mode 
 MUSC M_LegendOfTheDivineDragonMusicBox
 Text(Ch5JamModeEnding)
+STAL 10
+FADI 30
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+ASMC 0x30185 //clears map tilesets?
+EVBIT_F 0x2
+STAL 120
+MUSC M_EndingMedleyBook1
+ASMC 0xB8175 //turn counts display
+STAL 1
+CALL 0xA0036C //Character Endings
+STAL 90
+FADU 10
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
 TEXTSHOW EndOfJamModeMessage

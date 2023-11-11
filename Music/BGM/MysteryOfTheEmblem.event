@@ -4,7 +4,7 @@
 	#define	MysteryOfTheEmblem_grp  voicegroup000
 	#define	MysteryOfTheEmblem_pri  0
 	#define	MysteryOfTheEmblem_rev  0
-	#define	MysteryOfTheEmblem_mvl  127
+	#define	MysteryOfTheEmblem_mvl  95
 	#define	MysteryOfTheEmblem_key  0
 	#define	MysteryOfTheEmblem_tbs  1
 	#define	MysteryOfTheEmblem_exg  0

@@ -253,3 +253,95 @@ SupportBases(81, 81, 0, 0, 0, 0, 0)
 SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
+
+#define Ending(Type, Char1, Char2, Text) "BYTE Type Char1 Char2 0; SHORT Text 0"
+#define Paired 0x2
+#define Single 0x1
+#define Title(Char, Text) "BYTE Char 0 0 0; SHORT Text 0"
+
+//Titles
+ALIGN 4
+EndingTitles:
+Title(Mario, MarioTitle)
+Title(Luigi, LuigiTitle)
+Title(Peach, PeachTitle)
+Title(Bowser, BowserTitle)
+Title(DK, DKTitle)
+Title(Toad, ToadTitle)
+Title(Wario, WarioTitle)
+Title(Daisy, DaisyTitle)
+Title(Yoshi, YoshiTitle)
+Title(Waluigi, WaluigiTitle)
+Title(Ash, AshTitle)
+Title(Misty, MistyTitle)
+Title(Brock, BrockTitle)
+Title(Jessie, JessieTitle)
+Title(James, JamesTitle)
+Title(May, MayTitle)
+Title(Dawn, DawnTitle)
+Title(Serena, SerenaTitle)
+Title(Link, LinkTitle)
+Title(Samus, SamusTitle)
+Title(Kirby, KirbyTitle)
+Title(Fox, FoxTitle)
+Title(Pikachu, PikachuTitle)
+Title(Falcon, FalconTitle)
+Title(Jigglypuff, JigglypuffTitle)
+Title(Ness, NessTitle)
+Title(Paula, PaulaTitle)
+Title(Jeff, JeffTitle)
+Title(Poo, PooTitle)
+Title(Pokey, PokeyTitle)
+Title(Cecil, CecilTitle)
+Title(Butz, ButzTitle)
+Title(Terra, TerraTitle)
+WORD 0 0
+
+
+PUSH
+ORG 0xB6728
+POIN EndingTitles
+POP
+
+//Endings
+ALIGN 4
+CharacterEndings:
+Ending(Single, Mario, 0, MarioEnding)
+Ending(Single, Luigi, 0, LuigiEnding)
+Ending(Single, Peach, 0, PeachEnding)
+Ending(Single, Bowser, 0, BowserEnding)
+Ending(Single, DK, 0, DKEnding)
+Ending(Single, Toad, 0, ToadEnding)
+Ending(Single, Wario, 0, WarioEnding)
+Ending(Single, Daisy, 0, DaisyEnding)
+Ending(Single, Yoshi, 0, YoshiEnding)
+Ending(Single, Waluigi, 0, WaluigiEnding)
+Ending(Single, Ash, 0, AshEnding)
+Ending(Single, Misty, 0, MistyEnding)
+Ending(Single, Brock, 0, BrockEnding)
+Ending(Single, Jessie, 0, JessieEnding)
+Ending(Single, James, 0, JamesEnding)
+Ending(Single, May, 0, MayEnding)
+Ending(Single, Dawn, 0, DawnEnding)
+Ending(Single, Serena, 0, SerenaEnding)
+Ending(Single, Link, 0, LinkEnding)
+Ending(Single, Samus, 0, SamusEnding)
+Ending(Single, Kirby, 0, KirbyEnding)
+Ending(Single, Fox, 0, FoxEnding)
+Ending(Single, Pikachu, 0, PikachuEnding)
+Ending(Single, Falcon, 0, FalconEnding)
+Ending(Single, Jigglypuff, 0, JigglypuffEnding)
+Ending(Single, Ness, 0, NessEnding)
+Ending(Single, Paula, 0, PaulaEnding)
+Ending(Single, Jeff, 0, JeffEnding)
+Ending(Single, Poo, 0, PooEnding)
+Ending(Single, Pokey, 0, PokeyEnding)
+Ending(Single, Cecil, 0, CecilEnding)
+Ending(Single, Butz, 0, ButzEnding)
+Ending(Single, Terra, 0, TerraEnding)
+WORD 0 0
+
+PUSH
+ORG 0xA3D1A8 //pointer to Ephraim endings immediately after this address
+POIN CharacterEndings
+POP

@@ -1,0 +1,329 @@
+## MarioTitle
+Super Mario, Mushroom Hero[X]
+
+## MarioEnding
+Mario returned to the Mushroom Kingdom[N]
+to find the Void looming in the distance.[N]
+In his absence, Bowser and Peach were[N]
+married, resulting in the Void starting[N]
+to consume all of existence...[X]
+
+## LuigiTitle
+Luigi, Green 'Stache[X]
+
+## LuigiEnding
+Luigi returned home to reports of mass[N]
+disappearances. A mansion of Boos had[N]
+appeared and had begun abducting anyone[N]
+who approached. The missing included E.[N]
+Gadd, who was researching a ghost killer...[X]
+
+## PeachTitle
+Princess "Peach" Toadstool[X]
+
+## PeachEnding
+Peach's absence resulted in a power[N]
+vacuum. The Mushroom Kingdom was up[N]
+for the taking, and the Koopa Troop[N]
+were all too willing to take it. Peach[N]
+herself came back to a divided land...[X]
+
+## BowserTitle
+King Bowser of the Koopas[X]
+
+## BowserEnding
+Bowser's disappearance did not result in[N]
+peace for the Mushroom World. The Mushroom[N]
+Kingdom's military grew complacent, until[N]
+one day, aliens were spotted. The Shroobs[N]
+had come to lay waste to the world...[X]
+
+## DKTitle
+Donkey Kong, Jungle King[X]
+
+## DKEnding
+DK had hoped for a nice banana to relax,[N]
+but all he got was the destruction of[N]
+DK Island by King K. Rool in his absence.[N]
+He swore revenge and set out to destroy[N]
+K. Rool's laser cannon.[X]
+
+## ToadTitle
+Toad, Mushroom Retainer[X]
+
+## ToadEnding
+Toad decided to make his way back to Toad[N]
+Town. Along the way, he found several[N]
+castles, but the princess was always in[N]
+another one. By the time he made it home,[N]
+he was exhausted, and Mario was missing...[X]
+
+## WarioTitle
+Wario, Garlic Developer[X]
+
+## WarioEnding
+Akaneia held great treasure, which Wario[N]
+hoped he could convert into cash. However,[N]
+WarioWare Inc. went bankrupt and his castle[N]
+was repossessed due to extreme debts. Wario[N]
+had no choice but to drive out of Diamond City.[X]
+
+## DaisyTitle
+Daisy, Floral Princess[X]
+
+## DaisyEnding
+Daisy returned to Sarasaland to utter[N]
+confusion. Apparently it was connected[N]
+to Brooklyn, the capital was known as[N]
+"Dinohattan", and everyone descended from[N]
+the dinosaurs. This baffled Daisy.[X]
+
+## YoshiTitle
+Yoshi, Plumber's Steed[X]
+
+## YoshiEnding
+Yoshi returned home to find Kamek the[N]
+Magikoopa and his Toadies in the middle[N]
+of a child abduction spree. With most[N]
+of his friends in eggs, Yoshi tried to[N]
+stop Kamek himself. It did not end well.[X]
+
+## WaluigiTitle
+Waluigi, Tennis Player[X]
+
+## WaluigiEnding
+Waluigi applied to the Mushroom Open[N]
+tennis tournament, but his licence had[N]
+expired. Despite participation in a[N]
+terrorist attack on tennis, he was let[N]
+back in. Waluigi crashed out round 1.[X]
+
+## AshTitle
+Ash Ketchum, the Very Best[X]
+
+## AshEnding
+Ash returned to a Kanto under criminal[N]
+rule. Giovanni was the Champion now, and[N]
+anyone in his way would be killed by his[N]
+Mewtwo. Ash took his six strongest and[N]
+fought Team Rocket. It was his last battle.[X]
+
+## MistyTitle
+Water Trainer Misty[X]
+
+## MistyEnding
+Misty made it her business to get a[N]
+bicycle repair, but as she passed Cerulean[N]
+Gym, she noticed a closure notice. Her[N]
+sisters had mismanaged the Gym so badly[N]
+it had been stripped of its status...[X]
+
+## BrockTitle
+Rock Breeder Brock[X]
+
+## BrockEnding
+Brock returned to Pewter City. The local[N]
+bug catchers had been steadily replaced[N]
+by swimmers with their water Pokemon,[N]
+resulting in Brock handing out Boulder[N]
+Badges to everyone. Nurse Joy rejected him.[X]
+
+## JessieTitle
+Rocket Trio Boss Jessie[X]
+
+## JessieEnding
+Jessie attempted to resume her quest to[N]
+steal Ash's Pikachu. However, her group[N]
+broke up in her absence. Jessie decided[N]
+there was no point in continuing alone,[N]
+quitting Team Rocket for contests.[X]
+
+## JamesTitle
+Rocket Trio Lackey James[X]
+
+## JamesEnding
+James ultimately returned to his home.[N]
+However, his respite was short-lived,[N]
+for he soon encountered Jessebelle[N]
+again. She never let him get away with[N]
+anything, leading to an unhappy marriage.[X]
+
+## MayTitle
+Pokemon Co-ordinator May[X]
+
+## MayEnding
+May returned to a Hoenn in ruins. Kyogre[N]
+and Groudon ran wild, drowning most of[N]
+Hoenn and scorching the rest, leaving it[N]
+uninhabitable. May had to abandon her[N]
+home, and she never fought again after.[X]
+
+## DawnTitle
+Optimistic Dawn[X]
+
+## DawnEnding
+There was no Sinnoh for Dawn to come[N]
+home to. Cyrus succeeded in his goal[N]
+to create a new world, leaving Dawn[N]
+the last remnant of the old world.[N]
+Nothing she could do would restore Sinnoh.[X]
+
+## SerenaTitle
+Fashionable Serena[X]
+
+## SerenaEnding
+Serena's Kalos was cultured: she returned[N]
+to a warmongering state. The crime boss[N]
+Lysandre had fired his ultimate weapon at[N]
+nearby Galar and Paldea, dragging them all[N]
+into a massive war. Serena despaired.[X]
+
+## LinkTitle
+Link, the Hero of Hyrule[X]
+
+## LinkEnding
+In Link's absence, Hyrule was devestated.[N]
+The King of Evil, Ganondorf, had taken over[N]
+and corrupted the country into an evil[N]
+wasteland. Link bravely fought, but fell[N]
+in battle and gave Ganon the whole Triforce...[X]
+
+## SamusTitle
+Bounty Hunter Samus Aran[X]
+
+## SamusEnding
+Samus resumed her search for a bounty to hunt.[N]
+However, news of a parasite impersonating[N]
+its victims soon spread, sending the galaxy[N]
+into a panic as it spread from Planet SR388.[N]
+There would be no containing the X Parasites...[X]
+
+## KirbyTitle
+Kirby of the Stars[X]
+
+## KirbyEnding
+Kirby returned to Pop Star and promptly fell[N]
+asleep. His sleep was dreamless and the sun[N]
+was constantly fighting with the moon. Soon[N]
+all manner of cosmic horrors would descend on[N]
+Pop Star, all while Kirby feasted on his cake.[X]
+
+## FoxTitle
+Barrel-Rolling Fox McCloud[X]
+
+## FoxEnding
+As soon as Fox returned to Corneria, he[N]
+received a radio communication: General[N]
+Pepper had surrendered to Venom's army![N]
+Andross now had control over the entire[N]
+Lylat system. Fox chose to fight alone...[X]
+
+## PikachuTitle
+Pikachu, the Mouse Pokemon[X]
+
+## PikachuEnding
+With no sign of any friends, Pikachu[N]
+made his way back into the wild. Rumours[N]
+of a Pikachu attacking girls' bicycles,[N]
+clouds shaped like a Meowth, and eating[N]
+anything with ketchup spread near Pallet.[X]
+
+## FalconTitle
+Captain Falcon, Race Champ[X]
+
+## FalconEnding
+Falcon hoped to resume racing in the F-Zero[N]
+Grand Prix, but in his extended absence the[N]
+sport had been outlawed for safety reasons.[N]
+Ever the thrill-seeker, Falcon started fighting[N]
+in illegal brawls, showing everyone his moves.[X]
+
+## JigglypuffTitle
+Singing Jigglypuff[X]
+
+## JigglypuffEnding
+Jigglypuff dreamt of one thing: stardom.[N]
+As such, she floated away to Unova to[N]
+apply to join Pokestar Studios. However,[N]
+her interview was a disaster. Everyone[N]
+fell asleep and had marker on their face.[X]
+
+## NessTitle
+Rockin' Kid Ness[X]
+
+## NessEnding
+Ness returned to Onett to find it in ruins.[N]
+Giygas's alien invasion force had struck,[N]
+and nobody was remotely strong enough to[N]
+fend them off. Giygas soon swept his way[N]
+across Eagleland, ruining all he touched.[X]
+
+## PaulaTitle
+Praying Paula[X]
+
+## PaulaEnding
+Paula returned to a very blue Twoson. The[N]
+Happy Happy church had spread its influence[N]
+wide, and its head, Carpainter, was one of[N]
+the most powerful men in Eagleland. Reports[N]
+of kidnappings were frequent: Paula then hid.[X]
+
+## JeffTitle
+Handyman Jeff[X]
+
+## JeffEnding
+Jeff had spent his whole life in boarding[N]
+school, and chose to resume that. Reports[N]
+of a zombie outbreak in Threed, Eagleland[N]
+didn't concern the people of Winters. They[N]
+were an ocean away, safe from the threat...[X]
+
+## PooTitle
+Prince Poo of Dalaam[X]
+
+## PooEnding
+Poo returned to Dalaam, ready to assist[N]
+the rest of the Chosen Four. However,[N]
+he had no idea where they were. He reached[N]
+Deep Darkness and was taunted by Master[N]
+Barf. Poo feared the worst...[X]
+
+## PokeyTitle
+Pokey Minch, Businessman[X]
+
+## PokeyEnding
+Pokey set himself to work making friends[N]
+in high places. He soon was assistant[N]
+to Geldegarde Monotoli of Fourside, before[N]
+throwing him off the Monotoli Building's[N]
+helipad and taking control of Fourside...[N][X]
+
+## CecilTitle
+Cecil Harvey, Red Wing[X]
+
+## CecilEnding
+Cecil returned to Baron to find the world[N]
+had been conquered in his absence. All[N]
+answered to Golbez, and Cecil had no more[N]
+friends he could call upon for help. He[N]
+started searching for any potential rebels.[X]
+
+## ButzTitle
+Butz Klauser, Wanderer[X]
+
+## ButzEnding
+Butz found the world dotted with holes:[N]
+Exdeath had opened the way to the Void.[N]
+One of those holes had consumed Butz's[N]
+hometown. This ultimately drove him to[N]
+despair. He fought against Exdeath in vain...[X]
+
+## TerraTitle
+Magical Terra Branford[X]
+
+## TerraEnding
+With the world destroyed, Terra found her[N]
+way to a remote village trying to survive[N]
+with what was left. Terra's fighting spirit[N]
+was gone, however. All she wanted was peace,[N]
+which Kefka had no inclination for at all.[X]

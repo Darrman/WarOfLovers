@@ -45,6 +45,7 @@ Age:[X]
 #include Quotes/BossQuotes.txt
 #include Quotes/DeathQuotes.txt
 #include Quotes/RecruitQuotes.txt
+#include Quotes/CharacterEndings.txt
 
 #include Story/Chapter1.txt
 #include Story/Chapter2.txt

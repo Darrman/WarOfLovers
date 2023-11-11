@@ -158,3 +158,8 @@ SongTable(M_GameOverBook1,GameOverBook1,0)
 #include "MysteryOfTheEmblem.event"
 SongTable(M_MysteryOfTheEmblem,MysteryOfTheEmblem,0)
 }
+
+{
+#include "B1EndingMedley.event"
+SongTable(M_EndingMedleyBook1,B1EndingMedley,0)
+}

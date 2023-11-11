@@ -5,6 +5,7 @@ ORG 0xA20E74 //69 entries in vanilla, repoint if you go past that
 
 SoundRoom(Main_Theme,5880,0,SRFETheme)
 SoundRoom(M_AkaneiaAnthem,5400,0,SRAkaneiaOverture)
+SoundRoom(M_MysteryOfTheEmblem,5400,0,SRMysteryOfTheEmblem)
 SoundRoom(M_ANewJourney,5400,0,SRANewJourney)
 SoundRoom(M_Advance,5400,0,SRAdvance)
 SoundRoom(M_HolyWar,5400,0,SRHolyWar)
@@ -24,11 +25,13 @@ SoundRoom(M_ThemeOfLove,5400,0,SRThemeOfLove)
 SoundRoom(M_ThemeOfEncounter,5400,0,SRThemeOfEncounter)
 SoundRoom(M_Victory,5400,0,SRVictoryBook2)
 SoundRoom(M_LegendOfTheDivineDragonMusicBox,5400,0,SRLegendOfTheDivineDragonMusicBox)
+SoundRoom(M_GameOverBook1,5400,0,SRGameOverBook1)
 SoundRoom(Game_Over,5400,0,SRGameOverBook2)
 SoundRoom(M_Armoury,5400,0,SRArmouryFE3)
 SoundRoom(M_Vendor,5400,0,SRVendorFE3)
 SoundRoom(M_Arena,5400,0,SRArenaFE3)
 SoundRoom(M_PreperationsFE11,5400,0,SRPreperationsFE11)
+SoundRoom(M_EndingMedleyBook1,5400,0,SREndingMedleyBook1)
 WORD 0xFFFFFFFF
 
 POP
