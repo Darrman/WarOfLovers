@@ -3,11 +3,34 @@ WorldMapPointerTable(6,WM_Events)
 WM_Events:
 BeginWorldMap
 MUSC M_ANewJourney
+STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch5WorldMap)
 TEXTEND
-
+WorldMapLoadMapSprite(0, FalcoKnight, 0, 4) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, Swordmaster_F, 1, 4)
+WorldMapLoadMapSprite(2, Fleet, 1, 4)
+WorldMapLoadMapSprite(3, Fleet, 1, 4)
+WorldMapDisplayMapSprite(0, 0, 150, 70, 10)
+WorldMapDisplayMapSprite(1, 0, 188, 65, 10)
+WorldMapDisplayMapSprite(2, 0, 198, 55, 10)
+WorldMapDisplayMapSprite(3, 0, 198, 80, 10)
+STAL 20
+TEXTCONT
+TEXTEND
+WorldMapShowPortraitLeft(0, 0x3) //Sheeda
+STAL 30
+WorldMapShowPortraitRight(1, 0x2B) //Alear
+STAL 30
+WorldMapMoveMapSprite(0, 5, 150, 70, 180, 65, 200, 0, 10) //Sheeda to Alear
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
 STAL 60
 FADI 16
+REMSPRITE 0
+REMSPRITE 1
+REMSPRITE 2
+REMSPRITE 3
 SKIPWN
 ENDA

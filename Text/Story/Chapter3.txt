@@ -1,13 +1,32 @@
 ## Ch3WorldMap
-Marth has crossed Lefcandy and left[N]
-Akaneia proper. His next destination[AN]
-is Devil Mountain, a towering peak[N]
-to Marth's east. Kris's faction has[N]
-a force here, but the local bandits[AN]
-still retain a sizeable amount of[N]
-control. Marth and Chiki stare down[AN]
-a combination of the Samsian bandits,[N]
-Kris's division, and Lythos influence...[A][X]
+//Marth has crossed Lefcandy and left[N]
+//Akaneia proper. His next destination[AN]
+//is Devil Mountain, a towering peak[N]
+//to Marth's east. Kris's faction has[N]
+//a force here, but the local bandits[AN]
+//still retain a sizeable amount of[N]
+//control. Marth and Chiki stare down[AN]
+//a combination of the Samsian bandits,[N]
+//Kris's division, and Lythos influence...[A][X]
+
+Marth has crossed the Lefcandy Valley and[N]
+left the old Holy Kingdom of Akaneia behind.[AN]
+[Event]
+//Kaga notes suggest the Devil Mountain area is de jure Akaneia,
+//but it's never seen under its de facto control at any point
+//I can't think of any graceful way to reconcile these
+His next destination is Samsufe Peak, a[N]
+towering mountain to the east.[AN]
+Since time immemorial, bandits have infested[N]
+the region, leading to the local population[AN]
+to nickname it Devil Mountain. Even now,[N]
+the Samsian bandits roam the mountainside.[AN]
+Kris only despatched a small division, and[N]
+that division co-exists with the Samsians.[AN]
+To the south, Marth faces Kris's division.[N]
+To the north, Chiki eyes Samsian axes.[AN]
+One thing is for certain: blood will spill[N]
+on the hills of Devil Mountain.[A][X]
 
 ## Ch3AlearPoutsOld
 [MR][LoadAlear][ML][LoadGoon]

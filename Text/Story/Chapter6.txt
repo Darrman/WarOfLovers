@@ -1,6 +1,9 @@
 ## Ch6WorldMap
 The Garda Ocean, north of Talis, is a[N]
 rough and windswept sea.[AN]
+//Rendered as "Oceanus Garda" on the relevant map, changing to full English
+//You get stuff like "Oceanus North" instead of "Northern Ocean" anyway...
+[Event]
 Outside of the port it is named for,[N]
 there are few settlements along its[AN]
 shores. All there is to be found are[N]
@@ -9,7 +12,7 @@ The further north one sails, the colder[N]
 the air gets. Rumours of great treasure[AN]
 abound, but few ever lay their eyes on[N]
 structures such as the Ice Dragons'[AN]
-Temple. Marth visited it once before.[N]
+Temple.[Event] Marth visited it once before.[N]
 Now, he aims to return, biding his time[AN]
 until the eyes of Lythos and Askr look[N]
 away from Akaneia...[A][X]

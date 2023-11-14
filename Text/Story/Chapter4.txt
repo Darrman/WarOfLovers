@@ -1,7 +1,7 @@
 ## Ch4WorldMap
 Marth successfully crosses the dangerous[N]
 Devil Mountain and makes his way to the[AN]
-port town of Garda. Garda is a remote[N]
+port town of Garda.[Event] Garda is a remote[N]
 town, far from any major power centres.[AN]
 Due to its isolation, it has had to deal[N]
 with frequent piracy from along the coast.[AN]
@@ -12,7 +12,7 @@ for Marth during the War of Darkness;[AN]
 Kris has never visited the region. But[N]
 his latest announcement has Garda deeply[AN]
 concerned: if Marth really has abdicated[N]
-and divorced Sheeda, is a united Akaneia[AN]
+and divorced Sheeda, is a United Akaneia[AN]
 worthwhile? Marth arrives in a besieged[N]
 Garda: another faction has attacked...[A][X]
 

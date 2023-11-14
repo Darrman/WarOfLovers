@@ -3,11 +3,20 @@ WorldMapPointerTable(4,WM_Events)
 WM_Events:
 BeginWorldMap
 MUSC M_ANewJourney
+STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch4WorldMap)
+TEXTEND
+WorldMapLoadMapSprite(0, StarLord, 0, 3) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, Warrior, 1, 3)
+WorldMapDisplayMapSprite(0, 0, 135, 70, 10)
+WorldMapDisplayMapSprite(1, 0, 150, 70, 10)
+TEXTCONT
 TEXTEND
 
 STAL 60
 FADI 16
+REMSPRITE 0
+REMSPRITE 1
 SKIPWN
 ENDA

@@ -3,11 +3,31 @@ WorldMapPointerTable(2,WM_Events)
 WM_Events:
 BeginWorldMap
 MUSC M_ANewJourney
+STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch2WorldMap)
+TEXTEND
+WorldMapShowPortraitLeft(0,0x05) //Marich
+TEXTCONT
+TEXTEND
+WorldMapShowPortraitRight(1,0x2C) //Kris
+TEXTCONT
+TEXTEND
+WorldMapClearLeftPortrait(0)
+STAL 30
+WorldMapClearRightPortrait(1)
+STAL 30
+WorldMapLoadMapSprite(0, StarLord, 0, 1) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, Sniper, 1, 1)
+WorldMapDisplayMapSprite(0, 0, 170, 96, 10)
+WorldMapDisplayMapSprite(1, 0, 130, 90, 10)
+STAL 30
+TEXTCONT
 TEXTEND
 
 STAL 60
 FADI 16
+REMSPRITE 0
+REMSPRITE 1
 SKIPWN
 ENDA
