@@ -161,6 +161,8 @@ ENUN
 Text(Prison_Cell, Ch2EndingFindingChikiOld)
 Text(Castle_Outside, Ch2EndingChikiStoryOld)
 LABEL 206
+ENUT 0x89 //Initialise world map ID
+WM_LOADLOCATION2 0 2 0 //Required to fix chapter name
 WM_SETDESTINATION 0 2 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 2 //Needed for world map narration.
 MNCH 0x2

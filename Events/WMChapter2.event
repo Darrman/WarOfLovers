@@ -1,4 +1,4 @@
-WorldMapPointerTable(2,WM_Events)
+WorldMapPointerTable(1,WM_Events)
 
 WM_Events:
 BeginWorldMap
@@ -29,5 +29,6 @@ STAL 60
 FADI 16
 REMSPRITE 0
 REMSPRITE 1
+//ENUT 0x89 //initialise world map event id
 SKIPWN
 ENDA

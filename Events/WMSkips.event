@@ -1,5 +1,5 @@
 WorldMapIntroPointerTable(0,SkipIntro)
-WorldMapIntroPointerTable(1,SkipIntro)
+WorldMapIntroPointerTable(1,Intro)
 WorldMapIntroPointerTable(2,SkipIntro)
 WorldMapIntroPointerTable(3,SkipIntro)
 WorldMapIntroPointerTable(4,SkipIntro)
@@ -52,9 +52,3 @@ EVBIT_MODIFY 0x1
 ENUT 0x88
 ENDA
 
-//Edit WM node 1 to play Ch2 opening instead of the Hayden scene
-//If icons, etc, ever get edited, do this properly in the table
-PUSH
-ORG 0x2060D4
-BYTE 0x1 0x1
-POP

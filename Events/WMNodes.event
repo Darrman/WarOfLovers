@@ -1,0 +1,26 @@
+//Node Definitions
+#define WorldMapNode(Type,Skirmish,PreClearIcon,PostClearIcon,ChapterIDEirika,ChapterIDEphraim,EventID,NextNodeEirika1,NextNodeEirika2,NextNodeEphraim1,NextNodeEphraim2,NodeArmoury,NodeVendor,NodeSecret,X,Y,Name,Ship) "BYTE Type Skirmish PreClearIcon PostClearIcon ChapterIDEirika ChapterIDEphraim; SHORT EventID; BYTE NextNodeEirika1 NextNodeEirika2 NextNodeEphraim1 NextNodeEphraim2; POIN NodeArmoury NodeVendor NodeSecret; SHORT X Y Name; BYTE Ship 0x0"
+//Node type, aka "Placement Flag"
+#define Progress 0x0
+#define FreliaCastle 0x1
+#define Skirmishes 0x2
+#define TowerRuins 0x3
+//Skirmish data
+#define NoSkirmishes 0x1
+#define Skirmish 0x2
+#define TowerBehaviour 0x3
+//Ship
+#define NoShip 0x0
+#define ShipTravel 0x1
+
+//Main changes from vanilla: node 1 is now Ch1 instead of Frelia Castle
+//Also the intended next node is now effectively a current node
+PUSH
+ORG 0x2060B0
+WorldMapNode(Progress,NoSkirmishes,0xA,0xA,0,0,0,0,0,1,1,0,0,0,152,88,0x650,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xF,0xF,1,1,0,1,1,2,2,0,0,0,152,88,0x650,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xF,0xF,2,2,0,2,2,3,3,0,0,0,152,88,0x650,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xA,0xA,3,3,0,3,3,4,4,0,0,0,152,88,0x650,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0x0,0x0,4,4,0,4,4,5,5,0,0,0,152,88,0x650,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xF,0xF,6,6,0,5,5,6,6,0,0,0,152,88,0x650,NoShip)
+POP

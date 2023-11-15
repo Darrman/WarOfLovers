@@ -1,4 +1,4 @@
-WorldMapPointerTable(4,WM_Events)
+WorldMapPointerTable(3,WM_Events)
 
 WM_Events:
 BeginWorldMap

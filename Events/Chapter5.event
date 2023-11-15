@@ -244,6 +244,7 @@ MUSC M_OffToWar
 Text(Castle_Hall_Night,Ch5RodyEscapes)
 Text(Castle_Hall_Night,Ch5MarthSailsNorth)
 REMU Rody
+WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
 MNCH 0x6

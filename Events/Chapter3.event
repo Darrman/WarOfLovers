@@ -240,6 +240,7 @@ TEXTSHOW Ch3MarthAbdicationNote
 TEXTSHOW Ch3ImperialEdict
 TEXTEND
 LABEL 306
+WM_LOADLOCATION2 0 3 0 //Required to fix chapter name
 WM_SETDESTINATION 0 3 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 3 //Needed for world map narration.
 MNCH 0x3
