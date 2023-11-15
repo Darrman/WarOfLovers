@@ -160,6 +160,10 @@ One has said that defeating these[AN]
 enemies will help her get Marth back.[N]
 Let's not disappoint her, men![A][X]
 
+## Ch4AfterPrepJam
+[MR][LoadByleth]
+This text is a placeholder.[A][X]
+
 ## Ch4House1Text
 [ML][LoadFace][0x60][0x01][MR][LoadCurrent]
 [ML]

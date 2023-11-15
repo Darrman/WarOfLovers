@@ -247,9 +247,17 @@ ENDA
 
 Ch3LukeTaunt:
 MUSC M_Insurrection
+CHECK_EVENTID JamModeOn
+BNE 307 sC s0 //branch if jam mode
 CAM1 Luke
 FlashCursor(Luke,60)
 Text(Ch3LukeLine)
+GOTO 308
+LABEL 307
+CAM1 Leaf
+FlashCursor(Leaf,60)
+Text(Ch3LeafLine)
+LABEL 308
 NoFade
 ENDA
 

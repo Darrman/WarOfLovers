@@ -226,6 +226,11 @@ Still, unless Sheeda found herself[AN]
 hundreds of extra soldiers, Talis[N]
 will fall. For the Divine Dragon![A][X]
 
+## Ch5AlearTauntJam
+[MR][LoadAlear]
+Stupid humans...[N]
+This text is a placeholder...[A][X]
+
 ## Ch5RiffVillage
 [MR][LoadCurrent][ML][LoadFace][0x61][0x01]
 You're with Emperor Marth's army,[N]

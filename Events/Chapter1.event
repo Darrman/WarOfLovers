@@ -314,6 +314,7 @@ GOTO 3
 LABEL 2
 Text(Plain,Ch1Ending)
 LABEL 3
+ENUT 0x89
 WM_SETDESTINATION 0 1 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 1 //Needed for world map narration.
 MNCH 0x1

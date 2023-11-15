@@ -251,8 +251,13 @@ ENDA
 
 AfterPrepScreen:
 MUSC M_OffToWar
-
+CHECK_EVENTID JamModeOn
+BNE 504 sC s0 //branch if jam mode
 Text(Ch5BossTaunt)
+GOTO 505
+LABEL 504
+Text(Ch5AlearTauntJam)
+LABEL 505
 NoFade
 ENDA
 

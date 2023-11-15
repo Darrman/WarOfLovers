@@ -187,6 +187,10 @@ rumours of Ryan dying are true...[AN]
 Kris trusts me, gave me my job back.[N]
 Marich will fear the Legendary Luke![A][X]
 
+## Ch3LeafLine
+[MR][LoadLeaf]
+This text is a placeholder.[A][X]
+
 ## Ch3House1Text
 [ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
 [ML]

@@ -183,7 +183,13 @@ ENDA
 
 AfterPrepScreen:
 MUSC M_OffToWar
+CHECK_EVENTID JamModeOn
+BNE 404 sC s0 //branch if jam mode
 Text(Ch4AfterPrep)
+GOTO 405
+LABEL 404
+Text(Ch4AfterPrepJam)
+LABEL 405
 TurnAlly(Rody)
 NoFade
 ENDA
