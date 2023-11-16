@@ -92,7 +92,7 @@ UNIT Clanne Sage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMov
 UNIT
 
 DivineOne:
-UNIT Alear2 DracoZombie 0x00 Level(20,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [WretchedAir] NeverMoveAI
+UNIT Alear2 Swordmaster_F /*DracoZombie*/ 0x00 Level(20,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [WretchedAir] NeverMoveAI
 UNIT
 
 CutsceneAlear:
@@ -101,17 +101,23 @@ UNIT 0x80 /*Vander*/ Paladin 0x00 Level(10,Enemy,0) [12,2] 0x0 0x0 0x0 [SilverLa
 UNIT
 
 CutsceneMarthOutside:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [2,4] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [2,4] 0x0  0x0 0x0 0x0 [Falchion] NoAI
 UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [3,5] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT
 
 CutsceneMarthInside:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [6,10] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [6,10] 0x0  0x0 0x0 0x0 [Falchion] NoAI
 UNIT Sheeda KnightFalcon 0x00 Level(1,Ally,0) [8,10] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT
 
 VillageWrecker:
 UNIT Lythos Thief 0x00 Level(20,Enemy,1) [16,4] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
+UNIT
+
+EndingGood:
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [25,7] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [26,7] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [25,6] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
 UNIT
 
 Traps1:
@@ -198,10 +204,42 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+FADI 10
+CLEA 0
+CLEN 0
+CLEE 0
+LOAD2 0x1 EndingGood
+CAM1 Marth
+FADU 10
 CHECK_EVENTID JamModeOn
 BEQ 503 sC s0 //branch if not jam mode 
+MUSC M_Victory
+TEXTSTART
+TEXTSHOW Ch5JamModeEnding
+TEXTEND
+MUSC M_Conspiracy
+TEXTCONT
+TEXTEND
+//oh no, contract!
+TurnEnemy(Marth)
+TurnEnemy(Sheeda)
+TurnEnemy(Chiki)
+STAL 30
+TEXTCONT
+TEXTEND
+//oh yes, it's void!
+TurnAlly(Sheeda)
+STAL 30
+TEXTCONT
+TEXTEND
+TurnAlly(Marth)
+TurnAlly(Chiki)
+STAL 30
+TEXTCONT
+TEXTEND
 MUSC M_LegendOfTheDivineDragonMusicBox
-Text(Ch5JamModeEnding)
+TEXTCONT
+TEXTEND
 STAL 10
 FADI 30
 CLEA 0
@@ -254,10 +292,26 @@ AfterPrepScreen:
 MUSC M_OffToWar
 CHECK_EVENTID JamModeOn
 BNE 504 sC s0 //branch if jam mode
+CAM1 Clanne
+FlashCursor(Clanne,60)
 Text(Ch5BossTaunt)
 GOTO 505
 LABEL 504
-Text(Ch5AlearTauntJam)
+CAM1 Alear2
+FlashCursor(Alear2,60)
+TEXTSTART
+TEXTSHOW Ch5AlearTauntJam
+TEXTEND
+FADI 16
+//REMOVEPORTRAITS
+//PROM Alear2 DracoZombie 0x00 //She's transforming pre-chapter
+//REMOVEPORTRAITS
+RECLASS Alear2 DracoZombie
+FADU 16
+STAL 30
+TEXTCONT
+TEXTEND
+REMA
 LABEL 505
 NoFade
 ENDA

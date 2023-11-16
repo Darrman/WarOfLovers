@@ -162,7 +162,9 @@ Let's not disappoint her, men![A][X]
 
 ## Ch4AfterPrepJam
 [MR][LoadByleth]
-This text is a placeholder.[A][X]
+Lady Alear's orders are clear.[N]
+Subdue Garda. Dissent will not[AN]
+be tolerated. Understood?[A][X]
 
 ## Ch4House1Text
 [ML][LoadFace][0x60][0x01][MR][LoadCurrent]

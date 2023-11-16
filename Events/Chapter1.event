@@ -105,23 +105,23 @@ UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] No
 UNIT 0x80 Paladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
 UNIT 0x81 Paladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
 UNIT 0x82 Sage_F 0x00 Level(1,NPC,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
-UNIT 0x83 Hero 0x00 Level(1,NPC,0) [3,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
-UNIT 0x84 Sniper 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
+UNIT 0x83 Hero 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
+UNIT 0x84 Sniper 0x00 Level(1,NPC,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
 UNIT 0x85 DragonKnight_F 0x00 Level(1,NPC,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
 UNIT 0x86 FalcoKnight 0x00 Level(1,NPC,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
 UNIT 0x87 General 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
 UNIT 0x88 Horseman 0x00 Level(1,NPC,0) [10,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
 UNIT 0x8A Warrior 0x00 Level(1,NPC,0) [5,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
 UNIT 0x8B FalcoKnight 0x00 Level(1,NPC,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
-UNIT 0x8C General 0x00 Level(1,NPC,0) [3,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
-UNIT 0x8D Swordmaster_F 0x00 Level(1,NPC,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
+UNIT 0x8C General 0x00 Level(1,NPC,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
+UNIT 0x8D Swordmaster_F 0x00 Level(1,NPC,0) [1,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
 UNIT 0x8E Rogue 0x00 Level(1,NPC,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
 UNIT 0x8F DragonKnight 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
 UNIT 0x90 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
 UNIT 0x91 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
 UNIT 0x89 Druid_F 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
-UNIT 0x80 Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
-UNIT 0x80 Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
+UNIT Clanne Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
+UNIT 0x92 Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
 UNIT
 
 MarthBoat:
@@ -229,6 +229,26 @@ Text(Shrine_lighter,Ch1AtTheAltar)
 MUSC M_OffToWar
 Text(Shrine_lighter,Ch1IObject)
 TurnEnemy(Alear)
+TurnEnemy(Clanne)
+TurnEnemy(0x80)
+TurnEnemy(0x81)
+TurnEnemy(0x82)
+TurnEnemy(0x83)
+TurnEnemy(0x84)
+TurnEnemy(0x85)
+TurnEnemy(0x86)
+TurnEnemy(0x87)
+TurnEnemy(0x88)
+TurnEnemy(0x89)
+TurnEnemy(0x8A)
+TurnEnemy(0x8B)
+TurnEnemy(0x8C)
+TurnEnemy(0x8D)
+TurnEnemy(0x8E)
+TurnEnemy(0x8F)
+TurnEnemy(0x90)
+TurnEnemy(0x91)
+TurnEnemy(0x92)
 MOVE 8 Marth [7,10]
 ENUN
 Text(Ch1AlearLeftAtAltar)
@@ -263,6 +283,7 @@ FIGHT_MAP KrisFaction Akaneia Ballista 1
 MOVE 8 KrisFaction [12,1]
 Text(Ch1OpeningMarthFights)
 MOVE 10 Marth [13,8]
+ENUN
 CLEN 0
 NoFade
 ENDA

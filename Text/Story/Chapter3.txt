@@ -189,7 +189,12 @@ Marich will fear the Legendary Luke![A][X]
 
 ## Ch3LeafLine
 [MR][LoadLeaf]
-This text is a placeholder.[A][X]
+Hm... We're under attack. Who would[N]
+attack us here? My army is fortified[AN]
+in a mountain pass. Whoever's attacking[N]
+must be desperate. That, I know from[AN]
+experience. Still, my orders remain.[N]
+If there's any jewellery, take it.[A][X]
 
 ## Ch3House1Text
 [ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
