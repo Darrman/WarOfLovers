@@ -16,8 +16,8 @@ loyalty to the absentee Emperor, but ambitious figures
 are more than willing to prosper from the chaos.
 
 While Akaneia burned, Marth had gotten engaged with
-Alear, from the far-off Lythos. He had no memory
-of anything he had done before arriving there.
+Alear, from the far-off Lythos. His prior loyalties had
+been replaced with loyalty to Alear.
 But engagement wasn't sufficient: marraige was on the table.
 Marth and Alear's wedding day will prove to be fateful...
 
@@ -37,15 +37,22 @@ Marth and Alear's wedding day will prove to be fateful...
 Please read the attached CREDITS.md file.
 
 ## Known Issues
-- Chiki's animations are bugged: she will show Myrrh frames while transforming.
-- If Marth attacks with a magic sword, the game will hang.
-  Work around this by holding L after resetting to disable that animation.
+- Mage knights, valkyries, and horsemen cannot dismount currently.
+  The one map with mount restictions temporarily restricts instead of blocking cavalry.
+  Other dismount issues include lacking animations and retaining mounted ranks.
 - Jigglypuff's name is too long for certain menus.
 
 ## Patching Instructions
 Apply War of Lovers.ups file to a clean American FE8 rom.
 
 ## Changelog
+
+*v0.21: 16/11/2023*
+- Fixed the Marth animation crash (thanks to Wan and Abzel)
+- Fixed the Chiki animation errors (thanks to Huichelaar's animation tool)
+- Added proper world-map narration in the vein of FE7 (Sme helped)
+- Fixed several Jam Mode oversights and placeholder text, including a Ch3 crash
+- Character endings play in Jam Mode's ending.
 
 *v0.2 - Akaneia I: 18/10/2023*
 - Finished the first story arc in Akaneia.
