@@ -97,7 +97,7 @@ UNIT
 
 CutsceneAlear:
 UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [SilverSword] NeverMoveAI
-UNIT 0x80 /*Vander*/ Paladin 0x00 Level(10,Enemy,0) [12,2] 0x0 0x0 0x0 [SilverLance] NeverMoveAI
+UNIT 0x80 /*Vander*/ KnightPaladin 0x00 Level(10,Enemy,0) [12,2] 0x0 0x0 0x0 [SilverLance] NeverMoveAI
 UNIT
 
 CutsceneMarthOutside:
