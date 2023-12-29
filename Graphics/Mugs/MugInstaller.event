@@ -266,6 +266,43 @@ LouisMug:
 #incext PortraitFormatter "Louis.png"
 setMugEntry(0x43, LouisMug, 3,7,3,5)
 
+Zelda_Mug:
+#incext PortraitFormatter "Zelda.png"
+setMugEntry(0x44, Zelda_Mug, 3,6,3,4)
+
+Sahasrahla_Mug:
+#incext PortraitFormatter "Sahasrahla.png"
+setMugEntry(0x45, Sahasrahla_Mug, 3,6,4,4)
+
+Marin_Mug:
+#incext PortraitFormatter "Marin.png"
+setMugEntry(0x46, Marin_Mug, 3,6,3,4)
+
+Saria_Mug:
+#incext PortraitFormatter "Saria.png"
+setMugEntry(0x47, Saria_Mug, 4,7,4,4)
+
+Dedede_Mug:
+#incext PortraitFormatter "Dedede.png"
+setMugEntry(0x48, Dedede_Mug, 3,7,3,5)
+
+MetaKnight_Mug:
+#incext PortraitFormatter "MetaKnight.png"
+setMugEntry(0x49, MetaKnight_Mug, 3,6,3,4)
+
+Falco_Mug:
+#incext PortraitFormatter "Falco.png"
+setMugEntry(0x4A, Falco_Mug, 4,5,4,3)
+
+Peppy_Mug:
+#incext PortraitFormatter "Peppy.png"
+setMugEntry(0x4B, Peppy_Mug, 3,7,3,4)
+
+Slippy_Mug:
+#incext PortraitFormatter "Slippy.png"
+setMugEntry(0x4C, Slippy_Mug, 2,6,2,3)
+
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"

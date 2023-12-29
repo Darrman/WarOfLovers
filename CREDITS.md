@@ -24,14 +24,28 @@
 - May: Pokemon Anime (Darrman)
 - Dawn: Pokemon Anime (Darrman)
 - Serena: Pokemon Anime (Darrman)
+- Pikachu: Pokemon Red/Blue (Darrman)
+- Jigglypuff: Pokemon Red/Blue (Darrman)
+
 
 - Link: BatimaTheBat
+- Zelda: Sirknite31
+- Sahasrahla: A Link to the Past (Darrman)
+- Marin: Kanna
+- Saria: Ocarina of Time (Darrman)
+
 - Samus: Fenreir
+
 - Kirby: Super Smash Bros (Darrman)
+- Dedede: Kirby Right Back At Ya (Darrman)
+- Meta Knight: Kirby Right Back At Ya (Darrman)
+
 - Fox: Super Smash Bros (Darrman)
-- Pikachu: Pokemon Red/Blue (Darrman)
+- Falco: Star Fox Command (Darrman)
+- Peppy: Star Fox 2 (Darrman)
+- Slippy: Star Fox 2 (Darrman)
+
 - Falcon: Garytop
-- Jigglypuff: Pokemon Red/Blue (Darrman)
 
 - Ness: Earthbound (Darrman)
 - Paula: Earthbound (Darrman)
@@ -130,6 +144,15 @@
 - Cecil: Final Fantasy 4
 - Butz: Final Fantasy 5
 - Terra: Final Fantasy 6
+- Zelda: The Legend of Zelda: A Link to the Past
+- Sahasrahla: The Legend of Zelda: A Link Between Worlds
+- Marin: Hyrule Warriors
+- Saria: The Legend of Zelda: Ocarina of Time 3D
+- Dedede: Kirby Super Star
+- Meta Knight: Kirby Super Star
+- Falco: Star Fox 64 3D
+- Peppy: Star Fox 64
+- Slippy: Star Fox 64 3D
 - All converted by Darrman.
 
 

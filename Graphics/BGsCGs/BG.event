@@ -107,6 +107,16 @@ POIN PokeyBG; WORD 0x0; POIN PokeyBGPal
 POIN CecilBG; WORD 0x0; POIN CecilBGPal
 POIN ButzBG; WORD 0x0; POIN ButzBGPal
 POIN TerraBG; WORD 0x0; POIN TerraBGPal
+POIN ZeldaBG; WORD 0x0; POIN ZeldaBGPal
+POIN SahasrahlaBG; WORD 0x0; POIN SahasrahlaBGPal
+POIN MarinBG; WORD 0x0; POIN MarinBGPal
+POIN SariaBG; WORD 0x0; POIN SariaBGPal
+POIN DededeBG; WORD 0x0; POIN DededeBGPal
+POIN MetaKnightBG; WORD 0x0; POIN MetaKnightBGPal
+POIN FalcoBG; WORD 0x0; POIN FalcoBGPal
+POIN PeppyBG; WORD 0x0; POIN PeppyBGPal
+POIN SlippyBG; WORD 0x0; POIN SlippyBGPal
+
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
 
@@ -313,3 +323,57 @@ TerraBG:
 ALIGN 4
 TerraBGPal:
 #incbin bin/256TerraPal.dmp
+
+ZeldaBG:
+#incbin bin/256Zelda.dmp
+ALIGN 4
+ZeldaBGPal:
+#incbin bin/256ZeldaPal.dmp
+
+SahasrahlaBG:
+#incbin bin/256Sahasrahla.dmp
+ALIGN 4
+SahasrahlaBGPal:
+#incbin bin/256SahasrahlaPal.dmp
+
+MarinBG:
+#incbin bin/256Marin.dmp
+ALIGN 4
+MarinBGPal:
+#incbin bin/256MarinPal.dmp
+
+SariaBG:
+#incbin bin/256Saria.dmp
+ALIGN 4
+SariaBGPal:
+#incbin bin/256SariaPal.dmp
+
+DededeBG:
+#incbin bin/256Dedede.dmp
+ALIGN 4
+DededeBGPal:
+#incbin bin/256DededePal.dmp
+
+MetaKnightBG:
+#incbin bin/256MetaKnight.dmp
+ALIGN 4
+MetaKnightBGPal:
+#incbin bin/256MetaKnightPal.dmp
+
+FalcoBG:
+#incbin bin/256Falco.dmp
+ALIGN 4
+FalcoBGPal:
+#incbin bin/256FalcoPal.dmp
+
+PeppyBG:
+#incbin bin/256Peppy.dmp
+ALIGN 4
+PeppyBGPal:
+#incbin bin/256PeppyPal.dmp
+
+SlippyBG:
+#incbin bin/256Slippy.dmp
+ALIGN 4
+SlippyBGPal:
+#incbin bin/256SlippyPal.dmp
