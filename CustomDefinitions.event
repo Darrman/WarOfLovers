@@ -80,8 +80,29 @@
 #define Cecil 0x24
 #define Butz 0x25
 #define Terra 0x26
-
 #define Rody 0x27
+#define Eliwood 0x28
+#define Lilina 0x29
+#define Barth 0x2A
+#define Valbo 0x2B
+#define Valencia2 0x2C
+#define Alm 0x2D
+#define BaldoDescendant 0x2E
+#define NobaDescendant 0x2F
+#define Jugdral3 0x30
+#define Kain 0x31
+#define Ellis 0x32
+#define Celica 0x33
+#define Roy 0x34
+#define Zelda 0x35
+#define Sahasrahla 0x36
+#define Marin 0x37
+#define Saria 0x38
+#define Dedede 0x39
+#define MetaKnight 0x3A
+#define Falco 0x3B
+#define Peppy 0x3C
+#define Slippy 0x3D
 
 //Enemies
 #define Lucina 0x50
@@ -243,6 +264,15 @@
 #define CGCecil 0x57
 #define CGButz 0x58
 #define CGTerra 0x59
+#define CGZelda 0x5A
+#define CGSahrasahla 0x5B
+#define CGMarin 0x5C
+#define CGSaria 0x5D
+#define CGDedede 0x5E
+#define CGMetaKnight 0x5F
+#define CGFalco 0x60
+#define CGPeppy 0x61
+#define CGSlippy 0x62
 
 //Event IDs
 #define JamModeOn 0x71

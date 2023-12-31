@@ -302,6 +302,25 @@ Slippy_Mug:
 #incext PortraitFormatter "Slippy.png"
 setMugEntry(0x4C, Slippy_Mug, 2,6,2,3)
 
+Celica_Mug:
+#incext PortraitFormatter "Celica.png"
+setMugEntry(0x4D, Celica_Mug, 3,6,3,4)
+
+Roy_Mug:
+#incext PortraitFormatter "Roy.png"
+setMugEntry(0x4E, Roy_Mug, 2,6,3,4)
+
+Barth_Mug:
+#incext PortraitFormatter "Barth.png"
+setMugEntry(0x4F, Barth_Mug, 2,4,2,2)
+
+Kain_Mug:
+#incext PortraitFormatter "Kain.png"
+setMugEntry(0x50, Kain_Mug, 3,6,4,4)
+
+Ellis_Mug:
+#incext PortraitFormatter "Ellis.png"
+setMugEntry(0x51, Ellis_Mug, 3,6,4,4)
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:

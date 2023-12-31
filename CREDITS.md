@@ -83,9 +83,14 @@
 - Alfonse: FEH (Darrman)
 
 - Alm: Atey
+- Celica: Atey
 - Chalphy descendant/Celice: FE4 (Darrman)
-- Eliwood: FE6 (Obsidian Daddy)
-- Lilina: FE6 (Obsidian Daddy)
+- Eliwood: FE6 (Obsidian Daddy, Lenh)
+- Lilina: FE6 (Obsidian Daddy, Lenh)
+- Barth: FE6 (Obsidian Daddy, Lenh)
+- Roy: FE6 (Obsidian Daddy, Lenh)
+- Kain: Alusq
+- Ellis: FE3 (Darrman)
 
 # Animations:
 

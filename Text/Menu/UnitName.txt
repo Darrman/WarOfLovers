@@ -30,6 +30,110 @@ Marth's brother-in-law and leader[N]
 of the pro-Marth faction.[N]
 Values duty and family.[X]
 
+## EliwoodName
+Eliwood[X]
+
+## EliwoodDesc
+Marquess of Pherae and Roy's father.[N]
+A passionate man who values peace, but[N]
+is also an accomplished warrior.[X]
+
+## LilinaName
+Lilina[X]
+
+## LilinaDesc
+Queen of Lycia and Marquess of Ostia.[N]
+Kind and capable of seeing the best in[N]
+anyone, yet still rules firmly.[X]
+
+## BarthName
+Barth[X]
+
+## BarthDesc
+General of the Ostian army. Stayed loyal[N]
+to Lilina during the Disturbance of Bern,[N]
+and now serves as an advisor to her.[X]
+
+## ValboName
+Valbo[X]
+
+## ValboDesc
+A Sofian knight who travelled with Celica[N]
+during her search for Mila. An honest and[N]
+simple man in spite of his family's death.[X]
+
+## AlmName
+Alm[X]
+
+## AlmDesc
+Emperor of Valencia, unified with his[N]
+marraige to Celica. Purged Valencia of[N]
+the gods and will defend it from all.[X]
+
+## ValencianExtraName
+Valencian[X]
+
+## ValencianExtraDesc
+Placeholder description for a third[N]
+Gaiden character. Robin? Grey? Mycen?[N]
+May? Boey? Claire? Dyute? Camus?[X]
+
+## BaldoDescendantName
+Baldo D.[X]
+
+## BaldoDescendantDesc
+Placeholder description for the[N]
+distant descendant of Celice and[N]
+Lana. Probably like Sigurd?[X]
+
+## NobaDescendantName
+Noba D.[X]
+
+## NobaDescendantDesc
+Placeholder description for the[N]
+distant descendant of Leaf and[N]
+Nanna. Vaguely Ethlin?[X]
+
+## JugdralExtraName
+Jugdralian[X]
+
+## JugdralExtraDesc
+Placeholder description for a third[N]
+Jugdralian. The canon characters are[N]
+all long dead - any descendant will do.[X]
+
+## KainName
+Kain[X]
+
+## KainDesc
+Leader of the rebellion against Kris.[N]
+Brought the message of Cornelius's[N]
+death back, and still feels responsible.[X]
+
+## EllisName
+Ellis[X]
+
+## EllisDesc
+Princess of Akaneia and Marich's wife.[N]
+Selfless, often sacrificing herself for[N]
+the benefit of others.[X]
+
+## CelicaName
+Celica[X]
+
+## CelicaDesc
+Empress of Valencia. Devout to Mila,[N]
+and a woman of peace above all else.[N]
+Her real name is Anteze of Sofia.[X]
+
+## RoyName
+Roy[X]
+
+## RoyDesc
+King of Lycia and Lilina's husband.[N]
+Intelligent and capable of outsmarting[N]
+his enemies; his combat is mediocre.[X]
+
 ## MarioName
 Mario[X]
 
@@ -293,6 +397,78 @@ Terra[X]
 A woman who knows m-m-m-m-m-magic![N]
 With magic long gone in the world,[N]
 this is an unusual occurance.[X]
+
+## ZeldaName
+Zelda[X]
+
+## ZeldaDesc
+Almost always Princess of Hyrule.[N]
+Sometimes disguises herself in order[N]
+to avoid capture by villains.[X]
+
+## SahasrahlaName
+Sahasrahla[X]
+
+## SahasrahlaDesc
+Drawing descent from the Seven Sages,[N]
+he often gives Link hints on his journey.[N]
+Once owned a pair of Pegasus Boots.[X]
+
+## MarinName
+Marin[X]
+
+## MarinDesc
+The girl of Link's dreams. Wanted to see[N]
+the world beyond Koholint Island, but[N]
+Link died a few times on his quest.[X]
+
+## SariaName
+Saria[X]
+
+## SariaDesc
+Link's childhood friend. Gave him an[N]
+ocarina as a goodbye gift, but he[N]
+replaced it with a time-travelling one.[X]
+
+## DededeName
+Dedede[X]
+
+## DededeDesc
+King of Dream Land. Occasionally tries[N]
+to steal all of its food, but he also[N]
+defends it from malevolent entities.[X]
+
+## MetaKnightName
+Meta Knight[X]
+
+## MetaKnightDesc
+Owner of the battleship Halberd. Failed to[N]
+stop Dream Land's sloth, and instead[N]
+became a notoriously powerful brawler.[X]
+
+## FalcoName
+Falco[X]
+
+## FalcoDesc
+A member of Team Star Fox. Known for[N]
+his aerial preference and sarcasm.[N]
+His thanks are always reluctant.[X]
+
+## PeppyName
+Peppy[X]
+
+## PeppyDesc
+A veteran pilot who was part of the[N]
+original Star Fox. After a betrayal,[N]
+he offered his services to Fox.[X]
+
+## SlippyName
+Slippy[X]
+
+## SlippyDesc
+An over-eager pilot who gets himself[N]
+into trouble on several occasions. His[N]
+skills instead lie with mechanics.[X]
 
 ## RodyName
 Rody[X]
