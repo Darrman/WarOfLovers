@@ -316,3 +316,122 @@ WORD $FF00FF
 JigglypuffVoiceSummon_wav:
 #incbin "bin/Jigglypuff_Jigglypuff.bin"
 SongTable(VoiceJigglypuffSummon,JigglypuffVoiceSummon,7)
+
+ALIGN 2
+ZeldaVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ZeldaVoiceSummon:
+WORD $01
+POIN ZeldaVoiceSummon_map
+POIN ZeldaVoiceSummon_data
+
+ZeldaVoiceSummon_map:
+WORD $3c00
+POIN ZeldaVoiceSummon_wav
+WORD $FF00FF
+
+ZeldaVoiceSummon_wav:
+#incbin "bin/Zelda_Yah.bin"
+SongTable(VoiceZeldaSummon,ZeldaVoiceSummon,7)
+
+ALIGN 2
+MarinVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MarinVoiceSummon:
+WORD $01
+POIN MarinVoiceSummon_map
+POIN MarinVoiceSummon_data
+
+MarinVoiceSummon_map:
+WORD $3c00
+POIN MarinVoiceSummon_wav
+WORD $FF00FF
+
+MarinVoiceSummon_wav:
+#incbin "bin/Marin_Yay.bin"
+SongTable(VoiceMarinSummon,MarinVoiceSummon,7)
+
+ALIGN 2
+DededeVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DededeVoiceSummon:
+WORD $01
+POIN DededeVoiceSummon_map
+POIN DededeVoiceSummon_data
+
+DededeVoiceSummon_map:
+WORD $3c00
+POIN DededeVoiceSummon_wav
+WORD $FF00FF
+
+DededeVoiceSummon_wav:
+#incbin "bin/Dedede_Jump.bin"
+SongTable(VoiceDededeSummon,DededeVoiceSummon,7)
+
+ALIGN 2
+MetaKnightVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MetaKnightVoiceSummon:
+WORD $01
+POIN MetaKnightVoiceSummon_map
+POIN MetaKnightVoiceSummon_data
+
+MetaKnightVoiceSummon_map:
+WORD $3c00
+POIN MetaKnightVoiceSummon_wav
+WORD $FF00FF
+
+MetaKnightVoiceSummon_wav:
+#incbin "bin/MetaKnight_Victory.bin"
+SongTable(VoiceMetaKnightSummon,MetaKnightVoiceSummon,7)
+
+ALIGN 2
+FalcoVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+FalcoVoiceSummon:
+WORD $01
+POIN FalcoVoiceSummon_map
+POIN FalcoVoiceSummon_data
+
+FalcoVoiceSummon_map:
+WORD $3c00
+POIN FalcoVoiceSummon_wav
+WORD $FF00FF
+
+FalcoVoiceSummon_wav:
+#incbin "bin/Falco_HeyEinstein.bin"
+SongTable(VoiceFalcoSummon,FalcoVoiceSummon,7)
+
+ALIGN 2
+PeppyVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+PeppyVoiceSummon:
+WORD $01
+POIN PeppyVoiceSummon_map
+POIN PeppyVoiceSummon_data
+
+PeppyVoiceSummon_map:
+WORD $3c00
+POIN PeppyVoiceSummon_wav
+WORD $FF00FF
+
+PeppyVoiceSummon_wav:
+#incbin "bin/Peppy_DoABarrelRoll.bin"
+SongTable(VoicePeppySummon,PeppyVoiceSummon,7)
+
+ALIGN 2
+SlippyVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SlippyVoiceSummon:
+WORD $01
+POIN SlippyVoiceSummon_map
+POIN SlippyVoiceSummon_data
+
+SlippyVoiceSummon_map:
+WORD $3c00
+POIN SlippyVoiceSummon_wav
+WORD $FF00FF
+
+SlippyVoiceSummon_wav:
+#incbin "bin/Slippy_BigIdea.bin"
+SongTable(VoiceSlippySummon,SlippyVoiceSummon,7)

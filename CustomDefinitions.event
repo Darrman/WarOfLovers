@@ -229,6 +229,13 @@
 #define VoiceFalconSummon 0x27C
 #define VoiceNessSummon 0x27D
 #define VoiceJigglypuffSummon 0x27E
+#define VoiceZeldaSummon 0x27F
+#define VoiceMarinSummon 0x280
+#define VoiceDededeSummon 0x281
+#define VoiceMetaKnightSummon 0x282
+#define VoiceFalcoSummon 0x283
+#define VoicePeppySummon 0x284
+#define VoiceSlippySummon 0x285
 
 //Summon CGs
 #define CGMario 0x39

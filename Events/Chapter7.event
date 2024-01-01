@@ -39,10 +39,16 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [12,4] 0x0  0x0 0x0 0x0 [Falchion, Vulnerary] NoAI
+UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [13,4] 0x0  0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [11,4] 0x0  0x0 0x0 0x0 [DivineStone, Vulnerary] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [11,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Lilina Sage_F 0x00 Level(1,Ally,0) [12,3] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+
 UNIT
 
 Bad:
+UNIT 0x58 Brigand 0x00 Level(1,Enemy,0) [7,20] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 Traps1:
@@ -54,10 +60,10 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-Text(Black,EndOfDemoMessage)
-MNTS 0x0
-//LOAD1 0x1 Good
-//LOAD1 0x1 Bad
+//Text(Black,EndOfDemoMessage)
+//MNTS 0x0
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
 NoFade
 ENDA
 

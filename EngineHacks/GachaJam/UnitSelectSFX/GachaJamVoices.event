@@ -20,6 +20,16 @@
 #define VoiceFalconSelect 0x104
 #define VoiceNessSelect 0x105
 #define VoiceJigglypuffSelect 0x106
+#define VoiceRodySelect 0x107
+#define VoiceLilinaSelect 0x115
+#define VoiceEliwoodSelect 0x116
+#define VoiceZeldaSelect 0x143
+#define VoiceMarinSelect 0x144
+#define VoiceDededeSelect 0x146
+#define VoiceMetaKnightSelect 0x148
+#define VoiceFalcoSelect 0x149
+#define VoicePeppySelect 0x152
+#define VoiceSlippySelect 0x153
 
 ALIGN 2
 MarthVoiceEffect:
@@ -482,6 +492,227 @@ WORD $FF00FF
 JigglypuffVoice_wav:
 #incbin "bin/Jigglypuff_Cry.bin"
 SongTable(VoiceJigglypuffSelect,JigglypuffVoice,7)
+
+ALIGN 2
+RodyVoiceEffect:
+BYTE Rody
+BYTE 0x00
+SHORT VoiceRodySelect
+
+RodyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RodyVoice:
+WORD $01
+POIN RodyVoice_map
+POIN RodyVoice_data
+
+RodyVoice_map:
+WORD $3c00
+POIN RodyVoice_wav
+WORD $FF00FF
+
+RodyVoice_wav:
+#incbin "bin/Rody_DutyAboveAll.bin"
+SongTable(VoiceRodySelect,RodyVoice,7)
+
+ALIGN 2
+LilinaVoiceEffect:
+BYTE Lilina
+BYTE 0x00
+SHORT VoiceLilinaSelect
+
+LilinaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+LilinaVoice:
+WORD $01
+POIN LilinaVoice_map
+POIN LilinaVoice_data
+
+LilinaVoice_map:
+WORD $3c00
+POIN LilinaVoice_wav
+WORD $FF00FF
+
+LilinaVoice_wav:
+#incbin "bin/Lilina_RedFire.bin"
+SongTable(VoiceLilinaSelect,LilinaVoice,7)
+
+ALIGN 2
+EliwoodVoiceEffect:
+BYTE Eliwood
+BYTE 0x00
+SHORT VoiceEliwoodSelect
+
+EliwoodVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+EliwoodVoice:
+WORD $01
+POIN EliwoodVoice_map
+POIN EliwoodVoice_data
+
+EliwoodVoice_map:
+WORD $3c00
+POIN EliwoodVoice_wav
+WORD $FF00FF
+
+EliwoodVoice_wav:
+#incbin "bin/Eliwood_SettleThis.bin"
+SongTable(VoiceEliwoodSelect,EliwoodVoice,7)
+
+ALIGN 2
+ZeldaVoiceEffect:
+BYTE Zelda
+BYTE 0x00
+SHORT VoiceZeldaSelect
+
+ZeldaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ZeldaVoice:
+WORD $01
+POIN ZeldaVoice_map
+POIN ZeldaVoice_data
+
+ZeldaVoice_map:
+WORD $3c00
+POIN ZeldaVoice_wav
+WORD $FF00FF
+
+ZeldaVoice_wav:
+#incbin "bin/Zelda_PuzzleSolved.bin"
+SongTable(VoiceZeldaSelect,ZeldaVoice,7)
+
+ALIGN 2
+MarinVoiceEffect:
+BYTE Marin
+BYTE 0x00
+SHORT VoiceMarinSelect
+
+MarinVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MarinVoice:
+WORD $01
+POIN MarinVoice_map
+POIN MarinVoice_data
+
+MarinVoice_map:
+WORD $3c00
+POIN MarinVoice_wav
+WORD $FF00FF
+
+MarinVoice_wav:
+#incbin "bin/Marin_Ballad.bin"
+SongTable(VoiceMarinSelect,MarinVoice,7)
+
+ALIGN 2
+DededeVoiceEffect:
+BYTE Dedede
+BYTE 0x00
+SHORT VoiceDededeSelect
+
+DededeVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DededeVoice:
+WORD $01
+POIN DededeVoice_map
+POIN DededeVoice_data
+
+DededeVoice_map:
+WORD $3c00
+POIN DededeVoice_wav
+WORD $FF00FF
+
+DededeVoice_wav:
+#incbin "bin/Dedede_Laugh.bin"
+SongTable(VoiceDededeSelect,DededeVoice,7)
+
+ALIGN 2
+MetaKnightVoiceEffect:
+BYTE MetaKnight
+BYTE 0x00
+SHORT VoiceMetaKnightSelect
+
+MetaKnightVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MetaKnightVoice:
+WORD $01
+POIN MetaKnightVoice_map
+POIN MetaKnightVoice_data
+
+MetaKnightVoice_map:
+WORD $3c00
+POIN MetaKnightVoice_wav
+WORD $FF00FF
+
+MetaKnightVoice_wav:
+#incbin "bin/MetaKnight_FightMe.bin"
+SongTable(VoiceMetaKnightSelect,MetaKnightVoice,7)
+
+ALIGN 2
+FalcoVoiceEffect:
+BYTE Falco
+BYTE 0x00
+SHORT VoiceFalcoSelect
+
+FalcoVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+FalcoVoice:
+WORD $01
+POIN FalcoVoice_map
+POIN FalcoVoice_data
+
+FalcoVoice_map:
+WORD $3c00
+POIN FalcoVoice_wav
+WORD $FF00FF
+
+FalcoVoice_wav:
+#incbin "bin/Falco_Payback.bin"
+SongTable(VoiceFalcoSelect,FalcoVoice,7)
+
+ALIGN 2
+PeppyVoiceEffect:
+BYTE Peppy
+BYTE 0x00
+SHORT VoicePeppySelect
+
+PeppyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+PeppyVoice:
+WORD $01
+POIN PeppyVoice_map
+POIN PeppyVoice_data
+
+PeppyVoice_map:
+WORD $3c00
+POIN PeppyVoice_wav
+WORD $FF00FF
+
+PeppyVoice_wav:
+#incbin "bin/Peppy_TrustYourInstincts.bin"
+SongTable(VoicePeppySelect,PeppyVoice,7)
+
+ALIGN 2
+SlippyVoiceEffect:
+BYTE Slippy
+BYTE 0x00
+SHORT VoiceSlippySelect
+
+SlippyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SlippyVoice:
+WORD $01
+POIN SlippyVoice_map
+POIN SlippyVoice_data
+
+SlippyVoice_map:
+WORD $3c00
+POIN SlippyVoice_wav
+WORD $FF00FF
+
+SlippyVoice_wav:
+#incbin "bin/Slippy_Carcass.bin"
+SongTable(VoiceSlippySelect,SlippyVoice,7)
+
 
 /*ALIGN 2
 EirikaSoundEffect:
