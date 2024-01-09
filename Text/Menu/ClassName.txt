@@ -1,6 +1,9 @@
 ## DragonKnightName
 Dragon Kn.[X]
 
+## DragonMasterName
+Dragon Mast.[X]
+
 ## HorsemanName
 Horseman[X]
 
@@ -33,6 +36,9 @@ Ice Dragon[X]
 ## DemonDragonName
 Demon Dragon[X]
 
+## MagicDragonName
+Magic Dragon[X]
+
 ## FlyingDragonName
 Flying Dragon[X]
 
@@ -51,3 +57,104 @@ Star Lord[X]
 ## StarLordDesc
 A name given to the liberator of[N]
 Aritia from the Durhuan Empire.[X]
+
+## FreeKnightName
+Free Knight[X]
+
+## LanceKnightName
+Lance Knight[X]
+
+## AxeKnightName
+Axe Knight[X]
+
+## ArchKnightName
+Arch Knight[X]
+
+## DukeKnightName
+Duke Knight[X]
+
+## BowKnightName
+Bow Knight[X]
+
+## SwordArmourName
+Sword Armour[X]
+
+## LanceArmourName
+Lance Armour[X]
+
+## AxeArmourName
+Axe Armour[X]
+
+## BowArmourName
+Bow Armour[X]
+
+## HalberdierName
+Halberdier[X]
+
+## KnightLordEliwoodName
+Knight Lord[X]
+
+## SageLilinaName
+Sage[X]
+
+## HeroAlmName
+Hero[X]
+
+## LordKnightSigurdName
+Lord Knight[X]
+
+## MageFighterName
+Mage Fighter[X]
+
+## WarMonkName
+War Monk[X]
+
+## BasaraName
+Basara[X]
+
+## InfantryName
+Infantry[X]
+
+## AntiAirName
+Anti-Air[X]
+
+## LightTankName
+Light Tank[X]
+
+## MediumTankName
+Medium Tank[X]
+
+## MechName
+Mech[X]
+
+## ReconName
+Recon[X]
+
+## APCName
+APC[X]
+
+## ArtilleryName
+Artillery[X]
+
+## FighterPlaneName
+Fighter Plane[X]
+
+## BomberName
+Bomber[X]
+
+## HelicopterName
+Helicopter[X]
+
+## BattleshipName
+Battleship[X]
+
+## SubmarineName
+Submarine[X]
+
+## PlaceholderDesc
+This text is a placeholder.[N]
+Please report if seen in any[N]
+public release.[X]
+
+## DummyName
+Dummy[X]
