@@ -66,29 +66,51 @@ UNIT Mario Berserker 0x00 Level(1,Ally,0) [3,3] 0x0 0x0 0x0 0x0 [Hammer] NoAI
 UNIT
 
 Bad:
-UNIT Lythos General Alear Level(5,Enemy,1) [9,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
-UNIT Lythos Berserker 0x00 Level(5,Enemy,1) [15,1] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
-UNIT Lythos Berserker 0x00 Level(5,Enemy,1) [11,13] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
-UNIT Lythos Hero 0x00 Level(5,Enemy,1) [6,11] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
-UNIT Lythos Thief 0x00 Level(20,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [KillingEdge] BrigandAI
-UNIT Lythos Paladin 0x00 Level(5,Enemy,1) [21,4] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
-UNIT Lythos Paladin 0x00 Level(5,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
-UNIT Lythos Warrior 0x00 Level(5,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
-UNIT Lythos Warrior 0x00 Level(5,Enemy,1) [16,7] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
-UNIT Lythos Sniper 0x00 Level(5,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [SilverBow] AttackInRangeAI
-UNIT Lythos Sage 0x00 Level(5,Enemy,1) [27,8] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
-UNIT Lythos Bishop 0x00 Level(5,Enemy,1) [26,10] 0x0 0x0 0x0 0x0 [Divine, Mend] HealUnits
-UNIT Lythos Druid 0x00 Level(5,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [Luna] AttackInRangeAI
+UNIT Lythos ArmourKnight Clanne Level(5,Enemy,1) [9,10] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Lythos Pirate Clanne Level(5,Enemy,1) [15,1] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Lythos Pirate Clanne Level(5,Enemy,1) [11,13] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Lythos Mercenary Clanne Level(5,Enemy,1) [6,11] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT Lythos Thief Clanne Level(3,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
+UNIT Lythos LanceKnight Clanne Level(5,Enemy,1) [21,4] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT Lythos FreeKnight Clanne Level(5,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT Lythos Fighter Clanne Level(5,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Lythos Fighter Clanne Level(5,Enemy,1) [16,7] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Lythos Archer Clanne Level(5,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Lythos Mage Clanne Level(5,Enemy,1) [27,8] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT Lythos Priest Clanne Level(5,Enemy,1) [26,10] 0x0 0x0 0x0 0x0 [Heal] HealUnits
+UNIT Lythos Shaman Clanne Level(5,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
 UNIT
 
 Bad2:
-UNIT Lythos Fleet 0x00 Level(10,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
-UNIT Lythos Fleet 0x00 Level(10,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
-UNIT Lythos General 0x00 Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT Lythos Fleet Clanne Level(5,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
+UNIT Lythos Fleet Clanne Level(5,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
+UNIT Lythos ArmourKnight Clanne Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT
+
+BadJam:
+UNIT Lythos General Alear2 Level(5,Enemy,1) [9,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
+UNIT Lythos Berserker Alear2 Level(5,Enemy,1) [15,1] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Lythos Berserker Alear2 Level(5,Enemy,1) [11,13] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Lythos Hero Alear2 Level(5,Enemy,1) [6,11] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Lythos Thief Alear2 Level(20,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [KillingEdge] BrigandAI
+UNIT Lythos Paladin Alear2 Level(5,Enemy,1) [21,4] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Lythos Paladin Alear2 Level(5,Enemy,1) [21,5] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Lythos Warrior Alear2 Level(5,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Lythos Warrior Alear2 Level(5,Enemy,1) [16,7] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Lythos Sniper Alear2 Level(5,Enemy,1) [15,5] 0x0 0x0 0x0 0x0 [SilverBow] AttackInRangeAI
+UNIT Lythos Sage Alear2 Level(5,Enemy,1) [27,8] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT Lythos Bishop Alear2 Level(5,Enemy,1) [26,10] 0x0 0x0 0x0 0x0 [Divine, Mend] HealUnits
+UNIT Lythos Druid Alear2 Level(5,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [Luna] AttackInRangeAI
+UNIT
+
+Bad2Jam:
+UNIT Lythos Fleet Alear2 Level(10,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
+UNIT Lythos Fleet Alear2 Level(10,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [FireGun] PursueWithoutHeedAI
+UNIT Lythos General Alear2 Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
 UNIT
 
 ClanneGroup:
-UNIT Clanne Sage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
+UNIT Clanne Mage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
 UNIT
 
 DivineOne:
@@ -178,16 +200,18 @@ CLEA 0
 CLEE 0
 LOMA 0x4
 LOAD3 0x0 Good
-LOAD1 0x1 Bad
-LOAD1 0x1 Bad2
 CHECK_EVENTID JamModeOn
 BNE 501 sC s0 //branch if jam mode 
 LOAD1 0x1 ClanneGroup
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
 GOTO 502
 LABEL 501
 //the pre-release script assumed Alear was truthful... but I know the truth
 //dragon zombie she will be!
 LOAD1 0x1 DivineOne
+LOAD1 0x1 BadJam
+LOAD1 0x1 Bad2Jam
 LABEL 502
 MUSC M_PreperationsFE11
 CAM1 [0,0]

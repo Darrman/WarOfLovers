@@ -65,47 +65,84 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,6] 0x0 0x0 0x0 0x0 [DivineStone] No
 UNIT
 
 Bad:
-UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos Soldier 0x00 Level(20,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-//UNIT Lythos Berserker 0x00 Level(4,Enemy,1) [8,4] 0x0 0x0 0x0 0x0 [SilverAxe] PursueWithoutHeedAI
-UNIT Lythos Hero 0x00 Level(4,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
-UNIT Lythos Paladin 0x00 Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
-UNIT Lythos Paladin 0x00 Level(4,Enemy,1) [15,9] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
-UNIT Lythos General 0x00 Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
-UNIT Lythos Mercenary 0x00 Level(20,Enemy,1) [16,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
-UNIT Lythos Mercenary 0x00 Level(20,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
-UNIT Lythos Fighter 0x00 Level(20,Enemy,1) [14,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
-UNIT Lythos Sage 0x00 Level(4,Enemy,1) [8,3] DropItem 0x0 0x0 0x0 [Thunder] AttackInRangeAI
-//UNIT Lythos Sage 0x00 Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
-//UNIT Lythos Sniper 0x00 Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
-UNIT Lythos Bishop 0x00 Level(4,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Lightning, Physic] HealUnits
+UNIT Lythos Soldier Boucheron Level(3,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos Soldier Boucheron Level(3,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos Soldier Boucheron Level(3,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+//UNIT Lythos Berserker Boucheron Level(3,Enemy,1) [8,4] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT Lythos Mercenary Boucheron Level(4,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT Lythos FreeKnight Boucheron Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos LanceKnight Boucheron Level(4,Enemy,1) [15,9] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos ArmourKnight Boucheron Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Lythos Mercenary Boucheron Level(1,Enemy,1) [16,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Lythos Mercenary Boucheron Level(1,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [SlimSword] AttackInRangeAI
+UNIT Lythos Fighter Boucheron Level(1,Enemy,1) [14,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Lythos Mage Boucheron Level(3,Enemy,1) [8,3] DropItem 0x0 0x0 0x0 [Fire] AttackInRangeAI
+//UNIT Lythos Sage Boucheron Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+//UNIT Lythos Sniper Boucheron Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Lythos Priest Boucheron Level(4,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Heal] HealUnits
 UNIT
 
 Bad2:
-UNIT Lythos Sage 0x00 Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
-UNIT Lythos DragonKnight 0x00 Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] AttackInRangeAI
-UNIT Lythos General 0x00 Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SilverAxe, RedGem] ChaseOnceApproachedAI
-UNIT Lythos General 0x00 Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [KillerLance, BlueGem] NeverMoveAI
-UNIT Lythos Druid 0x00 Level(4,Enemy,1) [28,1] 0x0 0x0 0x0 0x0 [Luna] ChaseOnceApproachedAI
-UNIT Lythos Valkyrie 0x00 Level(4,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Divine, Physic] HealUnits
-UNIT Lythos Warrior 0x00 Level(4,Enemy,1) [21,2] 0x0 0x0 0x0 0x0 [SilverAxe, SteelBow] ChaseOnceApproachedAI
-UNIT Lythos Swordmaster 0x00 Level(4,Enemy,1) [22,7] DropItem 0x0 0x0 0x0 [Armourslayer] ChaseOnceApproachedAI
-UNIT Lythos Paladin 0x00 Level(4,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [SilverLance] ChaseOnceApproachedAI
-//UNIT Lythos Horseman 0x00 Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [KillerBow] ChaseOnceApproachedAI
-UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [12,3] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
-UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [17,1] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
-UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [30,5] 0x0 0x0 0x0 0x0 [QuickRain] AttackInRangeAI
-UNIT Lythos Fleet 0x00 Level(20,Enemy,1) [30,8] 0x0 0x0 0x0 0x0 [StoneHedge] AttackInRangeAI
-UNIT Lythos Berserker 0x00 Level(4,Enemy,1) [27,6] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Lythos Mage Boucheron Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
+UNIT Lythos DragonKnight Boucheron Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AttackInRangeAI
+UNIT Lythos AxeArmour Boucheron Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SteelAxe, RedGem] ChaseOnceApproachedAI
+UNIT Lythos ArmourKnight Boucheron Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [IronLance, BlueGem] NeverMoveAI
+UNIT Lythos Shaman Boucheron Level(4,Enemy,1) [28,1] 0x0 0x0 0x0 0x0 [Flux] ChaseOnceApproachedAI
+UNIT Lythos Troubadour Boucheron Level(4,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Heal] HealUnits
+UNIT Lythos Fighter Boucheron Level(4,Enemy,1) [21,2] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Lythos Myrmidon Boucheron Level(4,Enemy,1) [22,7] DropItem 0x0 0x0 0x0 [Armourslayer] ChaseOnceApproachedAI
+UNIT Lythos LanceKnight Boucheron Level(4,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+//UNIT Lythos Horseman Boucheron Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [KillerBow] ChaseOnceApproachedAI
+UNIT Lythos Fleet Boucheron Level(5,Enemy,1) [12,3] 0x0 0x0 0x0 0x0 [QuickRain] AttackInRangeAI
+//UNIT Lythos Fleet Boucheron Level(5,Enemy,1) [17,1] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
+UNIT Lythos Fleet Boucheron Level(5,Enemy,1) [30,5] 0x0 0x0 0x0 0x0 [QuickRain] AttackInRangeAI
+UNIT Lythos Fleet Boucheron Level(5,Enemy,1) [30,8] 0x0 0x0 0x0 0x0 [StoneHedge] AttackInRangeAI
+UNIT Lythos Pirate Boucheron Level(4,Enemy,1) [27,6] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
 UNIT
+
+BadJam:
+UNIT Lythos Soldier Byleth Level(20,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos Soldier Byleth Level(20,Enemy,1) [11,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Lythos Soldier Byleth Level(20,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+//UNIT Lythos Berserker Byleth Level(4,Enemy,1) [8,4] 0x0 0x0 0x0 0x0 [SilverAxe] PursueWithoutHeedAI
+UNIT Lythos Hero Byleth Level(4,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Lythos Paladin Byleth Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Lythos Paladin Byleth Level(4,Enemy,1) [15,9] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Lythos General Byleth Level(4,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Lythos Mercenary Byleth Level(20,Enemy,1) [16,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Lythos Mercenary Byleth Level(20,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Lythos Fighter Byleth Level(20,Enemy,1) [14,13] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Lythos Sage Byleth Level(4,Enemy,1) [8,3] DropItem 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+//UNIT Lythos Sage Byleth Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [Elfire] AttackInRangeAI
+//UNIT Lythos Sniper Byleth Level(4,Enemy,1) [15,6] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Lythos Bishop Byleth Level(4,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Lightning, Physic] HealUnits
+UNIT
+
+Bad2Jam:
+UNIT Lythos Sage Byleth Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
+UNIT Lythos DragonKnight Byleth Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] AttackInRangeAI
+UNIT Lythos General Byleth Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SilverAxe, RedGem] ChaseOnceApproachedAI
+UNIT Lythos General Byleth Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [KillerLance, BlueGem] NeverMoveAI
+UNIT Lythos Druid Byleth Level(4,Enemy,1) [28,1] 0x0 0x0 0x0 0x0 [Luna] ChaseOnceApproachedAI
+UNIT Lythos Valkyrie Byleth Level(4,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Divine, Physic] HealUnits
+UNIT Lythos Warrior Byleth Level(4,Enemy,1) [21,2] 0x0 0x0 0x0 0x0 [SilverAxe, SteelBow] ChaseOnceApproachedAI
+UNIT Lythos Swordmaster Byleth Level(4,Enemy,1) [22,7] DropItem 0x0 0x0 0x0 [Armourslayer] ChaseOnceApproachedAI
+UNIT Lythos Paladin Byleth Level(4,Enemy,1) [23,10] 0x0 0x0 0x0 0x0 [SilverLance] ChaseOnceApproachedAI
+//UNIT Lythos Horseman Byleth Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [KillerBow] ChaseOnceApproachedAI
+UNIT Lythos Fleet Byleth Level(20,Enemy,1) [12,3] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
+UNIT Lythos Fleet Byleth Level(20,Enemy,1) [17,1] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
+UNIT Lythos Fleet Byleth Level(20,Enemy,1) [30,5] 0x0 0x0 0x0 0x0 [QuickRain] AttackInRangeAI
+UNIT Lythos Fleet Byleth Level(20,Enemy,1) [30,8] 0x0 0x0 0x0 0x0 [StoneHedge] AttackInRangeAI
+UNIT Lythos Berserker Byleth Level(4,Enemy,1) [27,6] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT
+
 
 BylethGroup:
 UNIT Byleth Hero 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveSword, Tomahawk] NeverMoveAI
 UNIT
 
 BoucheronGroup:
-UNIT Boucheron Warrior 0x00 Level(10,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [BraveAxe, Tomahawk] NeverMoveAI
+UNIT Boucheron Fighter 0x00 Level(8,Enemy,0) [25,1] DropItem 0x0 0x0 0x0 [SteelAxe, HandAxe] NeverMoveAI
 UNIT
 
 GardaGarrison:
@@ -135,15 +172,17 @@ Text(Fort_Outside,Ch4Marth)
 Text(Castle_Room,Ch4News)
 FADI 10
 LOAD3 0x0 Good
-LOAD1 0x1 Bad
-LOAD1 0x1 Bad2
 LOAD1 0x1 GardaGarrison
 CHECK_EVENTID JamModeOn
 BNE 401 sC s0 //branch if jam mode 
 LOAD1 0x1 BoucheronGroup
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
 GOTO 402
 LABEL 401
 LOAD1 0x1 BylethGroup
+LOAD1 0x1 BadJam
+LOAD1 0x1 Bad2Jam
 LABEL 402
 MUSC M_PreperationsFE11
 CAM1 [0,0]

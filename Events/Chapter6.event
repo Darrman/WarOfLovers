@@ -75,74 +75,74 @@ UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [14,12] 0x0 0x0 0x0 0x0 [WingSpear]
 UNIT
 
 Bad:
-UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [18,19] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,7] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos FalcoKnight 0x00 Level(6,Enemy,1) [29,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(6,Enemy,1) [29,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
-UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [12,0] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos PegasusKnight 0x00 Level(5,Enemy,1) [18,19] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(5,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos PegasusKnight 0x00 Level(5,Enemy,1) [29,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(5,Enemy,1) [29,10] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos PegasusKnight 0x00 Level(5,Enemy,1) [29,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(5,Enemy,1) [29,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [12,0] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [14,0] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT
 
 GazackCloneSixGroup:
-UNIT PirateGeneric Berserker 0x00 Level(1,Enemy,1) [4,12] DropItem 0x0 0x0 0x0 [Tomahawk, EnergyRing] NeverMoveAI //make this guy an actual boss in the future
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,12] 0x0 0x0 0x0 0x0 [Halberd] PursueWithoutHeedAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
-UNIT PirateGeneric Archer 0x00 Level(15,Enemy,1) [4,13] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
-UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [SteelSword] StealingThiefAI
+UNIT PirateGeneric Pirate 0x00 Level(10,Enemy,1) [4,12] DropItem 0x0 0x0 0x0 [HandAxe, EnergyRing] NeverMoveAI //make this guy an actual boss in the future
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [7,12] 0x0 0x0 0x0 0x0 [Halberd] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [5,13] 0x0 0x0 0x0 0x0 [PoisonAxe] AttackInRangeAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT PirateGeneric Archer 0x00 Level(2,Enemy,1) [4,13] 0x0 0x0 0x0 0x0 [PoisonBow] AttackInRangeAI
+UNIT PirateGeneric Thief 0x00 Level(2,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [IronSword] StealingThiefAI
 UNIT
 
 LythosBoatGroup:
-UNIT Louis General 0x00 Level(10,Enemy,0) [24,7] DropItem 0x0 0x0 0x0 [Spear, KnightCrest] NeverMoveAI 
-UNIT Lythos General 0x00 Level(6,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [SilverAxe] NeverMoveAI
-UNIT Lythos General 0x00 Level(6,Enemy,1) [22,13] 0x0 0x0 0x0 0x0 [SilverLance] NeverMoveAI
-UNIT Lythos Hero 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
-UNIT Lythos Hero 0x00 Level(6,Enemy,1) [24,13] 0x0 0x0 0x0 0x0 [Wyrmslayer] PursueWithoutHeedAI
-UNIT Lythos Hero 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
-UNIT Lythos Sniper 0x00 Level(6,Enemy,1) [24,15] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI
-UNIT Lythos Bishop 0x00 Level(6,Enemy,1) [23,7] 0x0 0x0 0x0 0x0 [Divine, Physic] HealUnits
-UNIT Lythos Sage 0x00 Level(6,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Blizzard] PursueWithoutHeedAI
-UNIT Lythos Sage 0x00 Level(6,Enemy,1) [24,8] 0x0 0x0 0x0 0x0 [Elfire] GuardTileAI
+UNIT Louis General 0x00 Level(1,Enemy,0) [24,7] DropItem 0x0 0x0 0x0 [ShortSpear, KnightCrest] NeverMoveAI 
+UNIT Lythos AxeArmour Louis Level(5,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [IronAxe] NeverMoveAI
+UNIT Lythos LanceArmour Louis Level(5,Enemy,1) [22,13] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
+UNIT Lythos Mercenary 0x00 Level(5,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT Lythos Mercenary 0x00 Level(5,Enemy,1) [24,13] 0x0 0x0 0x0 0x0 [Wyrmslayer] PursueWithoutHeedAI
+UNIT Lythos Fighter 0x00 Level(5,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT Lythos Archer 0x00 Level(5,Enemy,1) [24,15] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI
+UNIT Lythos Priest 0x00 Level(5,Enemy,1) [23,7] 0x0 0x0 0x0 0x0 [Heal] HealUnits
+UNIT Lythos Mage 0x00 Level(5,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Thunder] PursueWithoutHeedAI
+UNIT Lythos Mage 0x00 Level(5,Enemy,1) [24,8] 0x0 0x0 0x0 0x0 [Fire] GuardTileAI
 UNIT
 
 T2Group:
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
 UNIT
 
 T3Group:
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [DevilAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [DevilAxe] PursueWithoutHeedAI
 UNIT
 
 T4Group:
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,10] DropItem 0x0 0x0 0x0 [DevilAxe] PursueWithoutHeedAI
-UNIT PirateGeneric Pirate 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
-UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [SteelSword] AttackInRangeAI
-UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Elfire] AttackInRangeAI
-UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [12,19] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [4,10] DropItem 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [PoisonAxe] PursueWithoutHeedAI
+UNIT Lythos Mercenary 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [SteelSword] AttackInRangeAI
+UNIT Lythos Mage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Fire] AttackInRangeAI
+UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [12,19] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT
 
 T5Group:
 //UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
-UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
-UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Elfire] AttackInRangeAI
-UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Lythos FalcoKnight 0x00 Level(3,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [ShortSpear] PursueWithoutHeedAI
+UNIT Lythos Mercenary 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
+UNIT Lythos Mage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Fire] AttackInRangeAI
+UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT
 
 T6Group:
-UNIT Lythos Hero 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [SteelSword] AttackInRangeAI
-UNIT Lythos Sage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Thoron] AttackInRangeAI
-UNIT PirateGeneric Archer 0x00 Level(15,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT PirateGeneric Thief 0x00 Level(15,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
+UNIT Lythos Mercenary 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [IronSword] AttackInRangeAI
+UNIT Lythos Mage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Thunder] AttackInRangeAI
+UNIT PirateGeneric Archer 0x00 Level(2,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [PoisonBow] PursueWithoutHeedAI
+UNIT PirateGeneric Thief 0x00 Level(2,Enemy,1) [4,14] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
 UNIT
 
 OpeningMarthSheeda:

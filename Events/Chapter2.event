@@ -56,6 +56,26 @@ UNIT Mario Berserker 0x00 Level(1,Ally,0) [6,24] 0x0 0x0 0x0 0x0 [Hammer] NoAI
 UNIT
 
 Bad:
+UNIT KrisFaction AxeArmour Ryan Level(6,Enemy,1) [12,12] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] NeverMoveAI
+UNIT KrisFaction Archer  Ryan Level(3,Enemy,1) [12,13] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [6,1] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [7,2] DropItem 0x0 0x0 0x0 [Javelin] ChaseOnceApproachedAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [8,1] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [9,2] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [10,1] DropItem 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT KrisFaction AxeArmour Ryan Level(6,Enemy,1) [13,4] 0x0 0x0 0x0 0x0 [IronAxe] NeverMoveAI
+UNIT KrisFaction Fighter Ryan Level(2,Enemy,1) [13,2] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT KrisFaction Mage    Ryan Level(2,Enemy,1) [5,12] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT KrisFaction Mage    Ryan Level(2,Enemy,1) [3,14] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [1,18] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT KrisFaction Soldier Ryan Level(1,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Soldier Ryan Level(1,Enemy,1) [14,21] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Soldier Ryan Level(1,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Soldier Ryan Level(1,Enemy,1) [6,21] DropItem 0x0 0x0 0x0 [Javelin, RedGem] ChaseOnceApproachedAI
+UNIT KrisFaction Brigand Ryan Level(1,Enemy,1) [8,13] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT
+
+BadJam:
 UNIT KrisFaction General Lyn Level(6,Enemy,1) [12,12] 0x0 0x0 0x0 0x0 [SilverAxe, Tomahawk] NeverMoveAI
 UNIT KrisFaction Sniper  Lyn Level(3,Enemy,1) [12,13] 0x0 0x0 0x0 0x0 [FireGun] NeverMoveAI
 UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [6,1] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
@@ -75,19 +95,28 @@ UNIT KrisFaction Soldier Lyn Level(20,Enemy,1) [6,21] DropItem 0x0 0x0 0x0 [Shor
 UNIT KrisFaction Brigand Lyn Level(20,Enemy,1) [8,13] 0x0 0x0 0x0 0x0 [SilverAxe] ChaseOnceApproachedAI
 UNIT
 
+
 Bad2:
+UNIT KrisFaction Fighter Ryan Level(1,Enemy,1) [3,9] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT KrisFaction Fighter Ryan Level(1,Enemy,1) [6,6] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT KrisFaction DragonKnight Ryan Level(2,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Horseman Ryan Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [IronBow] ChaseOnceApproachedAI
+UNIT
+
+Bad2Jam:
 UNIT KrisFaction Fighter Lyn Level(15,Enemy,1) [3,9] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT KrisFaction Fighter Lyn Level(15,Enemy,1) [6,6] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
-UNIT KrisFaction DragonKnight Lyn Level(2,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT KrisFaction DragonMaster Lyn Level(2,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
 UNIT KrisFaction Horseman Lyn Level(4,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [SilverBow] ChaseOnceApproachedAI
 UNIT
+
 
 LynGroup:
 UNIT Lyn Sniper_F 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
 UNIT
 
 RyanGroup:
-UNIT Ryan Sniper 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow] NeverMoveAI
+UNIT Ryan Archer 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SteelBow] NeverMoveAI
 UNIT
 
 ChikiGroup:
@@ -95,6 +124,12 @@ UNIT Chiki Mamkute_F 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineSto
 UNIT
 
 TopReinforcements:
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [6,0] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT KrisFaction Cavalier Ryan Level(2,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [Javelin] ChaseOnceApproachedAI
+UNIT
+
+TopReinforcementsJam:
 UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [6,0] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
 UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [7,0] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
 UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [Javelin] ChaseOnceApproachedAI
@@ -110,14 +145,16 @@ ALIGN 4
 
 BeginningScene:
 LOAD3 0x0 Good
-LOAD1 0x1 Bad
-LOAD1 0x1 Bad2
 CHECK_EVENTID JamModeOn
 BNE 201 sC s0 //branch if jam mode 
 LOAD1 0x1 RyanGroup
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
 GOTO 202
 LABEL 201
 LOAD1 0x1 LynGroup
+LOAD1 0x1 BadJam
+LOAD1 0x1 Bad2Jam
 LABEL 202
 CAM1 Marth
 FADU 10

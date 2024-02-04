@@ -58,8 +58,17 @@ CutsceneMarth:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT
 
-
 Bad:
+UNIT KrisFaction Fleet   Caesar Level(1,Enemy,1) [12,0] 0x0 0x0 0x1 REDA6 [Ballista] NeverMoveAI
+UNIT KrisFaction Fighter Caesar Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA1 [IronAxe] AttackInRangeAI
+UNIT KrisFaction Fighter Caesar Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA2 [IronAxe] AttackInRangeAI
+UNIT KrisFaction Archer  Caesar Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA3 [IronBow] AttackInRangeAI
+UNIT KrisFaction ArmourKnight Caesar Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA4 [IronLance] AttackInRangeAI
+UNIT KrisFaction PegasusKnight Caesar Level(1,Enemy,1) [3,10] 0x0 0x0 0x1 REDA5 [IronLance] PursueWithoutHeedAI
+UNIT
+
+
+BadJam:
 UNIT KrisFaction Fleet   Lucina Level(10,Enemy,1) [12,0] 0x0 0x0 0x1 REDA6 [Ballista] NeverMoveAI
 UNIT KrisFaction Warrior Lucina Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA1 [IronAxe] AttackInRangeAI
 UNIT KrisFaction Warrior Lucina Level(1,Enemy,1) [1,0] 0x0 0x0 0x1 REDA2 [IronAxe] AttackInRangeAI
@@ -73,7 +82,7 @@ UNIT Lucina Swordmaster_F 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SilverSwo
 UNIT
 
 CaesarGroup:
-UNIT Caesar Hero 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SilverSword, LightBrand] AttackInRangeAI
+UNIT Caesar Mercenary 0x00 Level(5,Enemy,0) [1,0] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT
 
 TooLate:
@@ -155,6 +164,8 @@ CenterTutorialTextBox
 EVBIT_MODIFY 0 //skip away
 TEXTSHOW JamModeNo
 TEXTEND
+
+//Opening
 
 MUSC M_ThemeOfLove
 LOMA 26
@@ -296,6 +307,8 @@ ENUT JamModeOn
 TEXTSHOW JamModeYes
 TEXTEND
 
+//Jam Mode Opening
+
 MUSC M_ThemeOfLove
 Text(Castle_Hall,Ch1OpeningBeforeAltar)
 Text(Castle_Hall,Ch1OpeningAnnaVisits)
@@ -305,7 +318,7 @@ Text(Shrine_lighter,Ch1OpeningIObject)
 LOAD1 0x1 Good
 Text(Inn,Ch1OpeningBackInWarren)
 Text(HouseBG,Ch1OpeningSecretShop)
-LOAD1 0x1 Bad
+LOAD1 0x1 BadJam
 LOAD1 0x1 LucinaGroup
 Text(Ch1OpeningOrderAttack)
 Text(Ch1OpeningMarthFights)

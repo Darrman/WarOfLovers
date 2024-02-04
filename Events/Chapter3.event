@@ -63,6 +63,43 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,10] 0x0 0x0 0x0 0x0 [DivineStone] N
 UNIT
 
 Bad:
+UNIT KrisFaction Cavalier Leaf Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT KrisFaction Cavalier Leaf Level(3,Enemy,1) [17,15] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT KrisFaction Cavalier Leaf Level(3,Enemy,1) [18,15] DropItem 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT KrisFaction FreeKnight Leaf Level(3,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT KrisFaction FreeKnight Leaf Level(3,Enemy,1) [16,13] DropItem 0x0 0x0 0x0 [ThunderSword] PursueWithoutHeedAI
+UNIT KrisFaction FreeKnight Leaf Level(3,Enemy,1) [17,13] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT KrisFaction AxeKnight Leaf Level(3,Enemy,1) [23,14] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT KrisFaction AxeKnight Leaf Level(3,Enemy,1) [23,15] 0x0 0x0 0x0 0x0 [HandAxe]  ChaseOnceApproachedAI
+UNIT KrisFaction Horseman Leaf Level(3,Enemy,1) [24,15] 0x0 0x0 0x0 0x0 [IronBow]  ChaseOnceApproachedAI
+UNIT KrisFaction Horseman Leaf Level(3,Enemy,1) [24,16] 0x0 0x0 0x0 0x0 [IronBow]  ChaseOnceApproachedAI
+UNIT KrisFaction Horseman Leaf Level(3,Enemy,1) [24,17] 0x0 0x0 0x0 0x0 [SteelBow] ChaseOnceApproachedAI
+UNIT KrisFaction ArmourKnight Leaf Level(3,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
+UNIT KrisFaction Fighter Leaf Level(3,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT KrisFaction Archer Leaf Level(3,Enemy,1) [7,17] 0x0 0x0 0x0 0x0 [IronBow, SecretBook] AttackInRangeAI
+UNIT KrisFaction Fighter Leaf Level(3,Enemy,1) [25,15] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT
+
+BadBandits:
+UNIT Samsian Brigand 0x00 Level(3,Enemy,1) [21,6] DropItem 0x0 0x0 0x0 [SteelAxe, BlueGem] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(1,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(1,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(1,Enemy,1) [19,2] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(1,Enemy,1) [8,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Samsian Brigand 0x00 Level(1,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Samsian Hunter 0x00 Level(1,Enemy,1) [20,8] 0x0 0x0 0x0 0x0 [IronBow] ChaseOnceApproachedAI
+UNIT Samsian Thief 0x00 Level(1,Enemy,1) [26,1] 0x0 0x0 0x0 0x0 [SteelSword] StealingThiefAI
+UNIT
+
+BadNearLuke:
+UNIT KrisFaction ArmourKnight Leaf Level(3,Enemy,1) [28,9] 0x0 0x0 0x0 0x0 [SteelLance, Vulnerary] GuardTileAI
+UNIT KrisFaction Fighter Leaf Level(3,Enemy,1) [25,14] DropItem 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT KrisFaction Fighter Leaf Level(3,Enemy,1) [29,11] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT KrisFaction LanceKnight Leaf Level(3,Enemy,1) [28,14] DropItem 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT KrisFaction Troubadour Leaf Level(3,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [Heal] HealUnits
+UNIT
+
+BadJam:
 UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [16,15] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [17,15] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT KrisFaction Paladin Leaf Level(3,Enemy,1) [18,15] DropItem 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
@@ -80,7 +117,7 @@ UNIT KrisFaction Sniper Leaf Level(3,Enemy,1) [7,17] 0x0 0x0 0x0 0x0 [SteelBow, 
 UNIT KrisFaction Warrior Leaf Level(3,Enemy,1) [25,15] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT
 
-BadBandits:
+BadBanditsJam:
 UNIT Samsian Berserker 0x00 Level(1,Enemy,1) [21,6] DropItem 0x0 0x0 0x0 [SilverAxe, BlueGem] AttackInRangeAI
 UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [10,3] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT Samsian Brigand 0x00 Level(15,Enemy,1) [16,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
@@ -104,7 +141,7 @@ UNIT Leaf Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, Sil
 UNIT
 
 LukeGroup:
-UNIT Luke Paladin 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Spear, SilverSword] NeverMoveAI
+UNIT Luke Cavalier 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Javelin, SteelSword] NeverMoveAI
 UNIT
 
 CutsceneMarth:
@@ -155,15 +192,18 @@ Text(Castle_Room,Ch3AlearKrisPlottingOld)
 LABEL 302
 FADU 10
 LOAD3 0x0 Good
-LOAD1 0x1 Bad
-LOAD1 0x1 BadBandits
-LOAD1 0x1 BadNearLeaf
 CHECK_EVENTID JamModeOn
 BNE 303 sC s0 //branch if jam mode 
 LOAD1 0x1 LukeGroup
+LOAD1 0x1 Bad
+LOAD1 0x1 BadBandits
+LOAD1 0x1 BadNearLuke
 GOTO 304
 LABEL 303
 LOAD1 0x1 LeafGroup
+LOAD1 0x1 BadJam
+LOAD1 0x1 BadBanditsJam
+LOAD1 0x1 BadNearLeaf
 LABEL 304
 FADI 10
 NoFade
