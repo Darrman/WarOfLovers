@@ -51,8 +51,8 @@ trying to kill you[X]
 Ch. 8: Colonial Raid[X]
 
 ## Ch8Goal
-Defeat Amber, the head of[N]
-the colonial raiding party[X]
+Defeat Amber, head of[N]
+the raiding party[X]
 
 ## Ch9Name
 Ch. 9: Race to the Summit[X]

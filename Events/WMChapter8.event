@@ -6,7 +6,7 @@ MUSC M_ANewJourney
 //play Elibian track in its place
 STAL 120
 WorldMapShowTextBox
-WorldMapTextBegin(Ch8WorldMap)
+WorldMapTextBegin(Ch8Narration)
 TEXTEND
 WorldMapLoadMapSprite(0, StarLord, 0, 6) //Marth's node seems to control chapter?
 WorldMapLoadMapSprite(1, DukeKnight, 1, 6)

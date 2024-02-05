@@ -118,6 +118,12 @@
 #define Boucheron 0x5A
 #define Clanne 0x5B
 #define Louis 0x5C
+#define Ch7Brigand 0x5D
+#define Amber 0x5E
+#define RogueBernBoss 0x5F
+#define Ch10Boss 0x60
+#define Diamant 0x61
+#define Alcryst 0x62
 
 #define KrisFaction 0x80
 #define Lythos 0x81
@@ -125,6 +131,10 @@
 #define Garda 0x83
 #define Akaneia 0x84
 #define PirateGeneric 0x85
+#define BrigandGeneric 0x86
+#define Colonial 0x87
+#define RogueBern 0x88
+#define Bern 0x89
 
 //Classes
 #undef Knight
