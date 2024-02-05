@@ -1,0 +1,26 @@
+WorldMapPointerTable(8,WM_Events)
+
+WM_Events:
+BeginWorldMap
+MUSC M_ANewJourney
+//play Elibian track in its place
+STAL 120
+WorldMapShowTextBox
+WorldMapTextBegin(Ch8WorldMap)
+TEXTEND
+WorldMapLoadMapSprite(0, StarLord, 0, 6) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
+WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
+WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+TEXTCONT
+TEXTEND
+WorldMapShowPortraitLeft(0,0x2) //Marth
+TEXTCONT
+TEXTEND
+
+STAL 60
+FADI 16
+REMSPRITE 0
+REMSPRITE 1
+SKIPWN
+ENDA

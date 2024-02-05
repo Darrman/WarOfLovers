@@ -45,3 +45,11 @@
   ALIGN 4
   #include "WMChapter6.event"
 }
+{
+  ALIGN 4
+  #include "WMChapter7.event"
+}
+{
+  ALIGN 4
+  #include "WMChapter8.event"
+}

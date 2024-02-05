@@ -17,10 +17,16 @@
 //Also the intended next node is now effectively a current node
 PUSH
 ORG 0x2060B0
-WorldMapNode(Progress,NoSkirmishes,0xA,0xA,0,0,0,0,0,1,1,0,0,0,152,88,0x650,NoShip)
-WorldMapNode(Progress,NoSkirmishes,0xF,0xF,1,1,0,1,1,2,2,0,0,0,152,88,0x650,NoShip)
-WorldMapNode(Progress,NoSkirmishes,0xF,0xF,2,2,0,2,2,3,3,0,0,0,152,88,0x650,NoShip)
-WorldMapNode(Progress,NoSkirmishes,0xA,0xA,3,3,0,3,3,4,4,0,0,0,152,88,0x650,NoShip)
-WorldMapNode(Progress,NoSkirmishes,0x0,0x0,4,4,0,4,4,5,5,0,0,0,152,88,0x650,NoShip)
-WorldMapNode(Progress,NoSkirmishes,0xF,0xF,6,6,0,5,5,6,6,0,0,0,152,88,0x650,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xA,0xA,0,0,0,0,0,1,1,0,0,0,152,88,Ch1LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xF,0xF,1,1,0,1,1,2,2,0,0,0,152,88,Ch2LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xF,0xF,2,2,0,2,2,3,3,0,0,0,152,88,Ch3LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xA,0xA,3,3,0,3,3,4,4,0,0,0,152,88,Ch4LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0x0,0x0,4,4,0,4,4,5,5,0,0,0,152,88,Ch5LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0xF,0xF,6,6,0,5,5,6,6,0,0,0,152,88,Ch6LocationName,ShipTravel)
+WorldMapNode(Progress,NoSkirmishes,0xB,0xB,8,8,0,6,6,7,7,0,0,0,152,88,Ch8LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0x8,0x8,9,9,0,7,7,8,8,0,0,0,152,88,Ch9LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0x6,0x6,10,10,0,8,8,9,9,0,0,0,152,88,Ch10LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0x8,0x8,11,11,0,9,9,10,10,0,0,0,152,88,Ch11LocationName,NoShip)
+WorldMapNode(Progress,NoSkirmishes,0x8,0x8,12,12,0,10,10,11,11,0,0,0,152,88,Ch12LocationName,NoShip)
+
 POP

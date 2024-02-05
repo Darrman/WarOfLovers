@@ -1,0 +1,35 @@
+# 0x650 Ch1LocationName
+Port Warren[X]
+
+## Ch2LocationName
+Lefcandy Valley[X]
+
+## Ch3LocationName
+Devil Mountain[X]
+
+## Ch4LocationName
+Garda[X]
+
+## Ch5LocationName
+Talis[X]
+
+## Ch6LocationName
+Garda Ocean[X]
+
+## Ch7LocationName
+Dragons' Gate[X]
+
+## Ch8LocationName
+Etrurian Border[X]
+
+## Ch9LocationName
+Bern Keep[X]
+
+## Ch10LocationName
+Pherae Castle[X]
+
+## Ch11LocationName
+Ostia[X]
+
+## Ch12LocationName
+Badon[X]

@@ -24,7 +24,7 @@ Ch. 4: Guarding Garda[X]
 
 ## Ch4Goal
 Seize the fort on[N]
-the northwest island[X]
+the northeast island[X]
 
 ## Ch5Name
 Ch. 5: Sanctuary No More[X]
@@ -42,3 +42,42 @@ for 7 turns[X]
 
 ## Ch7Name
 Ch. 7: Through the Gate[X]
+
+## Ch7Goal
+Rout the brigands[N]
+trying to kill you[X]
+
+## Ch8Name
+Ch. 8: Colonial Raid[X]
+
+## Ch8Goal
+Defeat Amber, the head of[N]
+the colonial raiding party[X]
+
+## Ch9Name
+Ch. 9: Race to the Summit[X]
+
+## Ch9Goal
+Reach Bern Keep while[N]
+repelling rogue knights[X]
+
+## Ch10Name
+Ch. 10: Pherae Falls[X]
+
+## Ch10Goal
+Seize the throne of[N]
+Pherae Castle[X]
+
+## Ch11Name
+Ch. 11: Diamant's Charge[X]
+
+## Ch11Goal
+Defend Ostia for X turns[N]
+from Diamant's forces[X]
+
+## Ch12Name
+Ch. 12: Evacuation[X]
+
+## Ch12Goal
+All units escape onto[N]
+a boat to flee Elibe[X]

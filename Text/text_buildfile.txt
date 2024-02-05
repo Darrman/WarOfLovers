@@ -16,6 +16,8 @@ Learned  [X]
 
 #include "unitmenu_text.txt"
 
+#include "Menu/LocationName.txt"
+
 #0xd4c LikesText
 //first text ID in the free block
 Likes:[X]
@@ -54,6 +56,7 @@ Age:[X]
 #include Story/Chapter5.txt
 #include Story/Chapter6.txt
 #include Story/Chapter7.txt
+#include Story/Chapter8.txt
 #include Story/FEE32023.txt
 
 ## DV1Desc
