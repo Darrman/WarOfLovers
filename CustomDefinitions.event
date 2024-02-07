@@ -217,6 +217,16 @@
 #define Battleship 0xB7
 #define Submarine 0xB8
 
+//Map sprites
+#define MarthSprite 0x0
+#define FreeKnightSprite 0x6B
+#define AxeKnightSprite 0x6C
+#define SwordArmourSprite 0x6D
+#define AxeArmourSprite 0x6E
+#define BowArmourSprite 0x6F
+#define KnightSprite 0x70
+#define KnightFSprite 0x71
+
 //Items
 #define MiracleSword Audhulma
 #define Gradius Vidofnir

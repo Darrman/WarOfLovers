@@ -96,12 +96,22 @@
 
 - Marth: Blaze/Abzel
 - Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
+- Axe Knight: Primefusion
+- Sword Armour: TheBlindArcher
+- Axe Armour: TheBlindArcher
+- Bow Armour: TheBlindArcher
 - Infantry: Advance Wars (Amyd, Dark)
 - Anti-Air: Advance Wars (Amyd, Dark)
 - Tank: Advance Wars (Amyd, Dark)
 
 # Map Sprites:
 - Marth: Dominus_Vobiscum, Snewping
+- Free Knight: Agro
+- Axe Knight: Siuloir
+- Sword Armour: Agro
+- Axe Armour: Agro
+- Bow Armour: Agro, Blademaster
+- Knight: ArcherBias
 
 # Maps:
 
