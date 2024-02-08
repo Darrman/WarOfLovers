@@ -31,6 +31,36 @@ weaponTypeAnim(animNone, 0x7)
 weaponAnimEnd
 
 ALIGN 4
+SetAnimationPointers(AxeKnight, AxeKnightAnims)
+AxeKnightAnims:
+weaponTypeAnim(animAxe, 0x95)
+weaponAnim(HandAxe, 0x96)
+weaponAnim(Tomahawk, 0x96)
+weaponAnim(Hatchet, 0x96)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(SwordArmour, SwordArmourAnims)
+SwordArmourAnims:
+weaponTypeAnim(animSword, 0x49)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(AxeArmour, AxeArmourAnims)
+AxeArmourAnims:
+weaponTypeAnim(animAxe, 0x4A)
+weaponAnim(HandAxe, 0x4B)
+weaponAnim(Tomahawk, 0x4B)
+weaponAnim(Hatchet, 0x4B)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(BowArmour, BowArmourAnims)
+BowArmourAnims:
+weaponTypeAnim(animBow, 0x4C)
+weaponAnimEnd
+
+ALIGN 4
 SetAnimationPointers(Infantry, InfantryAnims)
 InfantryAnims:
 weaponTypeAnim(animBow, 0x92)

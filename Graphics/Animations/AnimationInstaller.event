@@ -34,3 +34,25 @@
 {
 #include "Tank/Cannon/CannonInstaller.event"
 }
+
+//Axe Knight
+{
+#include "AxeKnight/Axe/AxeInstaller.event"
+}
+{
+#include "AxeKnight/HandAxe/HandAxeInstaller.event"
+}
+
+//Armour Knight variants
+{
+#include "ArmourKnight/Sword/SwordInstaller.event"
+}
+{
+#include "ArmourKnight/Axe/AxeInstaller.event"
+}
+{
+#include "ArmourKnight/HandAxe/HandAxeInstaller.event"
+}
+{
+#include "ArmourKnight/Bow/BowInstaller.event"
+}
