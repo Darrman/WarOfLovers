@@ -22,6 +22,9 @@
 
     //Events
     #include "Events/MasterEventInstaller.event"
+	
+	//Tilesets
+	#include "Maps/Tilesets/TilesetInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"

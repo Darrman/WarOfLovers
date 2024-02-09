@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="21" height="28" tilewidth="16" tileheight="16" infinite="0" nextlayerid="22" nextobjectid="1">
  <tileset firstgid="1" name="0e007210" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="0e007210.png" trans="ffffff" width="512" height="512"/>
+  <image source="Tilesets/FE6 - Village - 12001314.png" trans="ffffff" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Main" width="21" height="28">
   <properties>
@@ -11,9 +11,9 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x32"/>
    <property name="MapID" value="0x31"/>
-   <property name="ObjectType" value="0xe"/>
-   <property name="PaletteID" value="0x72"/>
-   <property name="TileConfig" value="0x10"/>
+   <property name="ObjectType" value="0xC3"/>
+   <property name="PaletteID" value="0xC4"/>
+   <property name="TileConfig" value="0xC5"/>
   </properties>
   <data>
    <tile gid="377"/>
