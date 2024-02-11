@@ -171,8 +171,8 @@ MOVE 8 Sheeda [5,4]
 ENUN
 CLEA 0
 FADI 10
-LOMA 0x42
 RECLASS Sheeda KnightFalcon //dismount her
+LOMA 0x42
 LOAD1 0x1 CutsceneAlear
 LOAD2 0x1 CutsceneMarthInside
 TILECHANGE 5 //open the door by Alear

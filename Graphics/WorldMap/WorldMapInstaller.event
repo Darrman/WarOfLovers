@@ -17,3 +17,24 @@ ALIGN 4
 SmallWorldMapTSA:
 #incbin "Map_Small_Tsa.bin"
 ALIGN 4
+
+PUSH
+ORG 0xBA7FC
+POIN WorldMapGFX
+POIN WorldMapTSA
+ORG 0xBA808
+POIN WorldMapPalette
+
+ORG 0xA83364
+//Can't overwrite original, it makes some chapters crash
+WorldMapGFX:
+#incext Png2Dmp "WorldMap.png"
+
+ORG 0xA95FE4
+WorldMapPalette:
+#incext Png2Dmp "WorldMap.png" --palette-only
+POP
+
+ALIGN 4
+WorldMapTSA:
+#incbin "WorldMapTSA.bin"

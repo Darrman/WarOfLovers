@@ -33,3 +33,51 @@ Ostia[X]
 
 ## Ch12LocationName
 Badon[X]
+
+## Ch13LocationName
+Floodgate[X]
+
+## Ch14LocationName
+Grove Village[X]
+
+## Ch15LocationName
+Sofia Castle[X]
+
+## Ch17LocationName
+Miletos[X]
+
+## Ch18LocationName
+Western Thracia[X]
+
+## Ch19LocationName
+Eastern Grandbell[X]
+
+## Ch20LocationName
+Yied Desert[X]
+
+## Ch21LocationName
+Yied Shrine[X]
+
+## Ch22LocationName
+Durhua Port[X]
+
+## Ch23LocationName
+Straits of Durhua[X]
+
+## Ch24LocationName
+Akaneia Port[X]
+
+## Ch25LocationName
+Pales[X]
+
+## Ch26LocationName
+Somniel[X]
+
+## Ch28LocationName
+Askr[X]
+
+## Ch29LocationName
+Summoning Zone[X]
+
+## Ch30LocationName
+Askr Castle[X]
