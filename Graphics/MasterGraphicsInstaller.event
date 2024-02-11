@@ -6,3 +6,4 @@
 #include BGsCGs/BG.event
 #include BattleFrame/BattleFrameInstaller.event
 #include MapSprites/MapSpriteInstaller.event
+#include ItemIcons/ItemIconInstaller.event

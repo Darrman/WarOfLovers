@@ -1,0 +1,16 @@
+PUSH
+ORG $36B4
+POIN ItemIconSheet
+ORG $3788
+POIN ItemIconSheet
+POP
+
+ALIGN 4
+ItemIconSheet:
+#incext Png2Dmp "FE3ItemIcons.png"
+
+ItemIconPalette:
+PUSH
+ORG 0x5996F4
+#incbin "FE3ItemIconPalette.dmp"
+POP
