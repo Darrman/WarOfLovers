@@ -226,7 +226,7 @@ def genHeaderLines():
     yield "    #endif\n"
     yield "#endif\n\n"
 
-    yield '#define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*ChapterDataTableEntSize)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP"\n\n'
+    yield '#define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*ChapterDataTableEntSize)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; MapPointerTable(MapID,MapPointer); POP"\n\n'
 
     yield "#endif // TMX2EA\n\n"
 
@@ -313,7 +313,7 @@ def process(tmxFilename, eventFilename, dmpFilename, boolAddHeader):
 
             f.write('  TileMapEnd\n')
 
-            f.write("\nEventPointerTable({}, MapChangesData)\n".format(
+            f.write("\nMapChangesPointerTable({}, MapChangesData)\n".format(
                 feMap.properties[KEY_PROPERTY_MAPCID]))
 
         f.write('\n}\n')
@@ -381,7 +381,7 @@ def main():
             sys.exit("ERROR: {}: {}".format(tmxFilename, e.message))
 
     if createInstaller:
-        installerFile = args.installer if args.installer else "Master Map Installer.event"
+        installerFile = args.installer if args.installer else "MasterMapInstaller.event"
 
         with open(installerFile, 'w') as f:
             f.writelines(map(lambda file: '#include "{}"\n'.format(os.path.relpath(file, os.path.dirname(installerFile))), processedFiles))

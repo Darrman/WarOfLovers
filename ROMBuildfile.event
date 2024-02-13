@@ -3,6 +3,7 @@
     #include "CustomDefinitions.event"
 //PROTECT $25224
     ORG FreeSpace
+	PROTECT $0 $C0 //no writing to the start of the rom
     PROTECT $C00000 //end of free space
 	PROTECT $2000000 //hard rom limit; hopefully this never activates
 	
@@ -22,9 +23,6 @@
 
     //Events
     #include "Events/MasterEventInstaller.event"
-	
-	//Tilesets
-	#include "Maps/Tilesets/TilesetInstaller.event"
 
     //Maps
     #include "Maps/MasterMapInstaller.event"

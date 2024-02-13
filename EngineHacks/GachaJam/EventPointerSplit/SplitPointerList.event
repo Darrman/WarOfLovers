@@ -1,0 +1,253 @@
+PUSH
+ORG 0x19900
+POIN TileConfigPointers
+
+//Uncommenting this bricks the rom! But it is the pointer!
+ORG 0x19968
+POIN ObjTypePalettePointers
+
+ORG 0x1999C
+POIN ObjTypePalettePointers
+
+ORG 0x30134
+POIN TileAnimPointers
+
+ORG 0x30C78
+POIN TileAnimPointers
+
+ORG 0x34680
+POIN MapPointers
+
+ORG 0x346AC
+POIN MapChangesPointers
+
+ORG 0xB3018
+POIN MapChangesPointers
+
+ORG 0xC66E8
+POIN MapChangesPointers
+
+POP
+
+ALIGN 4
+TileConfigPointers:
+ORG TileConfigPointers + (0x4 * 0xFF)
+ObjTypePalettePointers:
+ORG ObjTypePalettePointers + (0x4 * 0xFF)
+TileAnimPointers:
+ORG TileAnimPointers + (0x4 * 0xFF)
+MapPointers:
+ORG MapPointers + (0x4 * 0xFF)
+MapChangesPointers:
+ORG MapChangesPointers + (0x4 * 0xFF)
+
+#define TileConfigPointerTable(aId, apointer) "PUSH; ORG TileConfigPointers+(0x4 * aId); POIN apointer; POP"
+#define ObjTypePalettePointerTable(aId, apointer) "PUSH; ORG ObjTypePalettePointers+(0x4 * aId); POIN apointer; POP"
+#define TileAnimPointerTable(aId, apointer) "PUSH; ORG TileAnimPointers+(0x4 * aId); POIN apointer; POP"
+#define MapPointerTable(aId, apointer) "PUSH; ORG MapPointers+(4*aId); POIN apointer; POP"
+#define MapChangesPointerTable(aId, apointer) "PUSH; ORG MapChangesPointers+(0x4 * aId); POIN apointer; POP"
+
+// -------------------------------TILE CONFIG-------------------------------
+
+#define FieldsTileConfig 0x3
+TileConfigPointerTable(FieldsTileConfig, 0x1AB69C) //03
+
+#define VillageTileConfig 0x10
+TileConfigPointerTable(VillageTileConfig, 0x1AA140) //10
+
+#define CastleTileConfig 0x1a
+TileConfigPointerTable(CastleTileConfig, 0x1A8CCC) //1A
+
+#define PlainsTileConfig 0x30
+TileConfigPointerTable(PlainsTileConfig, 0x1A7674) //30
+
+#define FortTileConfig 0x3e
+TileConfigPointerTable(FortTileConfig, 0x1A6604) //3E
+
+#define DesertTileConfig 0x44
+TileConfigPointerTable(DesertTileConfig, 0x1A55B4) //44
+
+#define LavaCaveTileConfig 0x52
+TileConfigPointerTable(LavaCaveTileConfig, 0x1A4510) //52
+
+#define RuinsTileConfig 0x61
+TileConfigPointerTable(RuinsTileConfig, 0x1A3660) //61
+
+#define MountainsTileConfig 0x6e
+TileConfigPointerTable(MountainsTileConfig, 0x1A1FC0) //6E
+
+#define StrongholdTileConfig 0x7b
+TileConfigPointerTable(StrongholdTileConfig, 0x1A1440) //7B
+
+#define TempleTileConfig 0x8a
+TileConfigPointerTable(TempleTileConfig, 0x1A0514) //8A
+
+#define OstiaTileConfig 0x12
+TileConfigPointerTable(OstiaTileConfig, OstiaTiles) //12 in FE6
+
+// -------------------------------OBJ TYPE-------------------------------
+
+#define FieldsObjType 1
+ObjTypePalettePointerTable(FieldsObjType, 0x198D8C) //01
+
+#define VillageObjType 0xe
+ObjTypePalettePointerTable(VillageObjType, 0x191B14) //0E
+
+#define CastleObjType 0x18
+ObjTypePalettePointerTable(CastleObjType, 0x18B89C) //18
+
+#define PlainsObjType 0x2e
+ObjTypePalettePointerTable(PlainsObjType, 0x185154) //2E
+
+#define FortObjType 0x3c
+ObjTypePalettePointerTable(FortObjType, 0x1816B8) //3C
+
+#define DesertObjType 0x42
+ObjTypePalettePointerTable(DesertObjType, 0x17A9F4) //42
+
+#define LavaCastleObjType 0x50
+ObjTypePalettePointerTable(LavaCastleObjType, 0x1756B4) //50
+
+#define RuinsObjType 0x5f
+ObjTypePalettePointerTable(RuinsObjType, 0x170DA8) //5F
+
+#define MountainsObjType 0x6c
+ObjTypePalettePointerTable(MountainsObjType, 0x169D54) //6C
+
+#define StrongholdObjType 0x79
+ObjTypePalettePointerTable(StrongholdObjType, 0x165F7C) //79
+
+#define TempleObjType 0x88
+ObjTypePalettePointerTable(TempleObjType, 0x1609BC) //88
+
+#define OstiaObjType 0x13
+ObjTypePalettePointerTable(OstiaObjType, OstiaObjects) //13 in FE6
+
+// -------------------------------Palette-------------------------------
+
+#define FieldsPalette1 0x2
+ObjTypePalettePointerTable(FieldsPalette1, 0x1AEBF0) //02
+
+#define FieldsPalette2 0x38
+ObjTypePalettePointerTable(FieldsPalette2, 0x1AE5B0) //38
+
+#define FieldsPalette3 0x4c
+ObjTypePalettePointerTable(FieldsPalette3, 0x1AE0B0) //4C
+
+#define FieldsPalette4 0x5b
+ObjTypePalettePointerTable(FieldsPalette4, 0x1ADCF0) //5B
+
+#define VillagePalette1 0xf
+ObjTypePalettePointerTable(VillagePalette1, 0x1AEAB0) //0F
+
+#define VillagePalette2 0x72
+ObjTypePalettePointerTable(VillagePalette2, 0x1AD7F0) //72
+
+#define CastlePalette1 0x19
+ObjTypePalettePointerTable(CastlePalette1, 0x1AE970) //19
+
+#define CastlePalette2 0x48
+ObjTypePalettePointerTable(CastlePalette2, 0x1AE1F0) //48
+
+#define CastlePalette3 0x57
+ObjTypePalettePointerTable(CastlePalette3, 0x1ADE30) //57
+
+#define CastlePalette4 0xb9
+ObjTypePalettePointerTable(CastlePalette4, 0x1AD2F0) //B9
+
+#define PlainsPalette1 0x2f
+ObjTypePalettePointerTable(PlainsPalette1, 0x1AE830) //2F
+
+#define PlainsPalette2 0x34
+ObjTypePalettePointerTable(PlainsPalette2, 0x1AE6F0) //34
+
+#define FortPalette1 0x3d
+ObjTypePalettePointerTable(FortPalette1, 0x1AE470) //3D
+
+#define FortPalette2 0x68
+ObjTypePalettePointerTable(FortPalette2, 0x1ADA70) //68
+
+#define FortPalette3 0xce
+ObjTypePalettePointerTable(FortPalette3, 0x1AD1B0) //CE
+
+#define DesertPalette1 0x43
+ObjTypePalettePointerTable(DesertPalette1, 0x1AE330) //43
+
+#define LavaCavePalette1 0x51
+ObjTypePalettePointerTable(LavaCavePalette1, 0x1ADF70) //51
+
+#define RuinsPalette1 0x60
+ObjTypePalettePointerTable(RuinsPalette1, 0x1ADBB0) //60
+
+#define MountainsPalette1 0x6d
+ObjTypePalettePointerTable(MountainsPalette1, 0x1AD930) //6D
+
+#define MountainsPalette2 0xa3
+ObjTypePalettePointerTable(MountainsPalette2, 0x1AD430) //A3
+
+#define StrongholdPalette1 0x7a
+ObjTypePalettePointerTable(StrongholdPalette1, 0x1AD6B0) //7A
+
+#define TemplePalette1 0x89
+ObjTypePalettePointerTable(TemplePalette1, 0x1AD570) //89
+
+#define OstiaPalette1 0x14
+ObjTypePalettePointerTable(OstiaPalette1, OstiaPalette) //14 in FE6
+
+// -------------------------------Tile Anims-------------------------------
+
+#define MapAnimsTiles(duration, tileSize, imgPointer) "SHORT duration tileSize; POIN imgPointer"
+
+
+TileAnimPointerTable(5, 0x59D498)
+TileAnimPointerTable(0x12, 0x0859D568)
+TileAnimPointerTable(0x1C, 0x0859D6F8)
+TileAnimPointerTable(0x54, 0x0859D800)
+TileAnimPointerTable(0x7D, 0x0859D678)
+TileAnimPointerTable(0xD3, 0x0859D520)
+
+// ------------------------------Insertion---------------------------------
+
+ALIGN 4
+OstiaObjects:
+#incext Png2Dmp "../../../Maps/Tilesets/OstiaObjects.png" --lz77
+//#incbin "../../../Maps/Tilesets/OstiaObjects.dmp"
+
+ALIGN 4
+OstiaTiles:
+#incext compress "../../../Maps/Tilesets/Ostia.mapchip_config"
+
+ALIGN 4
+OstiaPalette:
+#incbin "../../../Maps/Tilesets/OstiaPalette.dmp"
+
+// ------------------------------- MAP ------------------------------------
+
+#define Ch1Map 0x4
+#define Ch2Map 0x8
+#define Ch3Map 0xB
+#define Ch4Map 0x11
+#define Ch5Map 0x15
+#define Ch6Map 0x1F
+#define Ch7Map 0x23
+#define Ch8Map 0x25
+#define Ch9Map 0x28
+#define Ch10Map 0x2B
+#define Ch11Map 0x31
+#define Ch12Map 0x35
+
+
+// ------------------------------- MAP CHANGES ----------------------------
+
+#define Ch1MapChanges 0x6
+#define Ch2MapChanges 0x9
+#define Ch3MapChanges 0xC
+#define Ch4MapChanges 0x13
+#define Ch5MapChanges 0x16
+#define Ch6MapChanges 0x20
+#define Ch7MapChanges 0x22
+#define Ch8MapChanges 0x26
+#define Ch9MapChanges 0x29
+#define Ch10MapChanges 0x2C
+#define Ch11MapChanges 0x32
+#define Ch12MapChanges 0x36

@@ -264,3 +264,6 @@ POP
 
   //32-colour animations (Huichelaar)
   #include "GachaJam/TwoPaletteAnims/ASM.event"
+
+  //Split the Event Pointer Table (Kirb)
+  #include "GachaJam/EventPointerSplit/SplitPointerList.event"
