@@ -2,7 +2,6 @@ PUSH
 ORG 0x19900
 POIN TileConfigPointers
 
-//Uncommenting this bricks the rom! But it is the pointer!
 ORG 0x19968
 POIN ObjTypePalettePointers
 
@@ -33,7 +32,9 @@ ALIGN 4
 TileConfigPointers:
 ORG TileConfigPointers + (0x4 * 0xFF)
 ObjTypePalettePointers:
-ORG ObjTypePalettePointers + (0x4 * 0xFF)
+//Without this WORD 0 the game locks up when repointing this list
+WORD 0
+ORG ObjTypePalettePointers + (0x4 * 0xFE)
 TileAnimPointers:
 ORG TileAnimPointers + (0x4 * 0xFF)
 MapPointers:
