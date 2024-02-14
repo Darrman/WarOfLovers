@@ -284,7 +284,7 @@ not surprise me if King Mordred[N]
 was unaware of these raids.[AN][X]
 
 ## Ch8OpeningEngageTaunt
-[ML][LoadFace][0x67][0x01][MR][LoadFace][0x68][0x01]
+[ML][LoadArcardJunior][MR][LoadAmber]
 //placeholders, replace with boss and head of the colonials
 //mostly focus on Brodians since Diamant is arc villain
 //Let's go with Amber here
@@ -355,7 +355,7 @@ At least we made it before the attack.[N]
 Troops, prepare a counter-attack![A][X]
 
 ## Ch8AfterPrepBad
-[ML][LoadFace][0x68][0x01]
+[ML][LoadAmber]
 //Amber
 This may well be the beginning of a[N]
 new legend. His majesty and the[AN]

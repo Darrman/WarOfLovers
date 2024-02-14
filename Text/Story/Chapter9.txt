@@ -255,7 +255,7 @@ we must be off.[A][X]
 [Right][LoadLilina][FR][LoadEliwood]
 Home. I can only hope Roy will come[N]
 home soon, and Elibe stays safe.[A]
-[ML][LoadFace][0x60][0x01]
+[ML][LoadMerlinus]
 //placeholder, Merlinus
 Lord Eliwood! Your majesty![N]
 It is good to see you again.[AN]
@@ -328,7 +328,7 @@ or we're about to get ambushed.[A]
 I'll go take a look.[A][X]
 
 ## Ch9OpeningRebellion
-[ML][LoadFace][0x61][MR][LoadDiamant]
+[ML][LoadRogueBernBoss][MR][LoadDiamant]
 //the leader of the rebels
 [ML]
 Our scouts have spotted an[N]
@@ -416,7 +416,7 @@ But now is the time for action. All[N]
 men, attack the southern convoy![A][X]
 
 ## Ch9AfterPrepBernKeep
-[ML][LoadFace][0x65][0x01][MR][LoadFace][0x56][0x01]
+[ML][LoadFace][0x6F][0x01][MR][LoadGuinevere]
 //green generic, Guinevere
 Your majesty, (name)'s unit has[N]
 attacked a convoy approaching[AN]
@@ -514,7 +514,7 @@ gets himself killed, that's what[N]
 he gets for stupid warmongering.[A][X]
 
 ## Ch9EndingBernKeep
-[Left][LoadFace][0x56][Right][LoadLilina][FR][LoadEliwood]
+[Left][LoadGuinevere[LoadLilina][FR][LoadEliwood]
 //Guinevere
 [Left]
 Queen Lilina, Marquess Eliwood. I am[N]
