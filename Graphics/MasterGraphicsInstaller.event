@@ -7,3 +7,4 @@
 #include BattleFrame/BattleFrameInstaller.event
 #include MapSprites/MapSpriteInstaller.event
 #include ItemIcons/ItemIconInstaller.event
+#include FileSelect/FileSelectInstaller.event

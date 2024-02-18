@@ -1,0 +1,53 @@
+PUSH
+ORG 0xA26A74
+#incbin "FileSelectLabels.bin"
+
+ORG 0xA2812C
+#incext Png2Dmp "ExtrasLabels.png" --lz77
+
+ORG 0xA28A0C
+#incext Png2Dmp "ModeSelect.png" --lz77
+
+ORG 0xA09E4C
+#incext Png2Dmp "SaveSlot.png" --lz77
+
+ORG 0xA21658
+#incext Png2Dmp "FileSelectBackground.png" --lz77
+ORG 0xA25DCC
+#incext Png2Dmp "FileSelectBackground.png" --palette-only
+ORG 0xA25ECC
+#incbin "FileSelectBackgroundTSA.bin"
+//Pasting FEbuilder's output into a bin magically doesn't work.
+//Getting rid of the TSA didn't work either.
+//File comparisons suggest Builder imported the image differently.
+
+//POP
+//FileSelectTSA:
+//#incbin "FileSelectBackgroundTSA.bin"
+//PUSH
+
+//ORG 0x38414
+//POIN FileSelectTSA
+//ORG 0xA8EBC
+//POIN FileSelectTSA
+//ORG 0xAA41C
+//POIN FileSelectTSA
+//ORG 0xB8148
+//POIN FileSelectTSA
+
+ORG 0xA27F68 //active palette, main menu
+#incbin "MainMenuPalette.dmp"
+ORG 0xA27FE8 //inactive palette
+#incbin "MainMenuPalette.dmp"
+ORG 0xA1B638 //"other something palette"
+#incbin "MainMenuPalette.dmp"
+ORG 0xA27F88 //main menu cursor palette
+#incbin "MainMenuPalette.dmp"
+ORG 0xA29458 //difficulty select cursor palette
+#incbin "MainMenuPalette.dmp"
+
+ORG 0xA27FA8
+#incbin "MenuTextPalette.dmp"
+ORG 0xA29478
+#incbin "MenuTextPalette.dmp"
+POP
