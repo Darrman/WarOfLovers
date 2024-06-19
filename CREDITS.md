@@ -91,6 +91,12 @@
 - Roy: FE6 (Obsidian Daddy, Lenh)
 - Kain: Alusq
 - Ellis: FE3 (Darrman)
+- "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
+- Amber: FE17 (Darrman)
+- "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
+- Merlinus: FE6 (Obsidian Daddy, Lenh)
+- Guinevere: FE6 (Obsidian Daddy, Lenh)
+- Citrinne: FE17 (Darrman)
 
 # Animations:
 
@@ -124,6 +130,13 @@
 - Garda: FE1 Ch2 (Kirb, Nickt for GFE1R)
 - Talis Castle: Darrman
 - Talis: FE1 Ch1 (Kirb, Nickt for GFE1R)
+- Garda Ocean: Darrman
+- Dragons' Gate: FE7 Ch19
+- Etrurian Border: Darrman
+- Outside Bern Keep: FE7 Ch24
+- Pherae Castle: Darrman
+- Ostia: FE6 Ch7
+- Badon: FE7 Ch16x, Ch20
 
 # CGs:
 - Mario: Super Mario 64

@@ -134,8 +134,8 @@ ALIGN 4
 BeginningScene:
 BROWNBOX Ch7OpeningTheNextDay [0,0]
 SHOWUNIT Marth
-Text(Ch7OpeningWhereIsEveryone)
-Text(Ch7OpeningFindingMarth)
+Text(Forest,Ch7OpeningWhereIsEveryone)
+Text(Forest,Ch7OpeningFindingMarth)
 Text(Ch7OpeningInsideRuins)
 Text(Ch7OpeningFindingChiki)
 Text(Ch7OpeningSomethingTerrible)
@@ -168,7 +168,7 @@ TurnAlly(Eliwood)
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
 Text(Ch7EndingMarthEliwood)
-Text(Ch7EndingSomniel)
+Text(Castle_Room,Ch7EndingSomniel)
 WM_LOADLOCATION2 0 6 0 //Required to fix chapter name
 WM_SETDESTINATION 0 6 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 6 //Needed for world map narration.

@@ -256,7 +256,6 @@ we must be off.[A][X]
 Home. I can only hope Roy will come[N]
 home soon, and Elibe stays safe.[A]
 [ML][LoadMerlinus]
-//placeholder, Merlinus
 Lord Eliwood! Your majesty![N]
 It is good to see you again.[AN]
 What brings you here to Pherae[N]
@@ -418,6 +417,7 @@ men, attack the southern convoy![A][X]
 ## Ch9AfterPrepBernKeep
 [ML][LoadFace][0x6F][0x01][MR][LoadGuinevere]
 //green generic, Guinevere
+[ML]
 Your majesty, (name)'s unit has[N]
 attacked a convoy approaching[AN]
 the castle without authorisation.[N]
@@ -514,7 +514,7 @@ gets himself killed, that's what[N]
 he gets for stupid warmongering.[A][X]
 
 ## Ch9EndingBernKeep
-[Left][LoadGuinevere[LoadLilina][FR][LoadEliwood]
+[Left][LoadGuinevere][LoadLilina][FR][LoadEliwood]
 //Guinevere
 [Left]
 Queen Lilina, Marquess Eliwood. I am[N]
@@ -562,7 +562,7 @@ Have you encountered a man named[N]
 Alfonse, Queen Guinevere?[A][X]
 
 ## Ch9EndingBernKeep2
-[Left][LoadFace][0x56][Right][LoadLilina][FR][LoadMarth]
+[Left][LoadGuinevere][Right][LoadLilina][FR][LoadMarth]
 //Guinevere
 //No need to show introductions/give Alear speech on screen
 [FR]

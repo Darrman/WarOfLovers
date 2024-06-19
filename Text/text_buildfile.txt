@@ -57,7 +57,9 @@ Age:[X]
 #include Story/Chapter6.txt
 #include Story/Chapter7.txt
 #include Story/Chapter8.txt
-#include Story/FEE32023.txt
+#include Story/Chapter9.txt
+#include Story/Chapter10.txt
+#include Story/MiscPromo.txt
 
 ## DV1Desc
 Freeze all enemies[N]

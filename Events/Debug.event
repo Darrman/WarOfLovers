@@ -561,10 +561,7 @@ CALL LoadKirby
 CALL LoadFox
 CALL LoadPikachu*/
 
-Text(Town_Gate,ValencianScene)
-Text(Castle_Room,ElibianScene)
-Text(Village,JugdralianScene)
-Text(Castle_Hall,AkaneianScene)
+Text(Castle_Garden,ValentinesUpdate)
 
 LOAD1 0x1 FEE3Units
 ENDA

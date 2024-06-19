@@ -114,12 +114,12 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-Text(Ch8OpeningLanding)
-Text(Ch8OpeningMeetingEntrance)
-Text(Ch8OpeningMeetingEliwoodLilina)
-Text(Ch8OpeningMeetingProper)
-Text(Ch8OpeningAtTheBorder)
-Text(Ch8OpeningEngageTaunt)
+Text(Harbor,Ch8OpeningLanding)
+Text(Castle_Outside,Ch8OpeningMeetingEntrance)
+Text(Castle_Room,Ch8OpeningMeetingEliwoodLilina)
+Text(Castle_Room,Ch8OpeningMeetingProper)
+Text(Fort_Outside,Ch8OpeningAtTheBorder)
+Text(Village,Ch8OpeningEngageTaunt)
 FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
@@ -140,8 +140,8 @@ ENDA
 
 EndingScene:
 Text(Ch8EndingBossDies)
-Text(Ch8EndingInFort)
-Text(Ch8EndingSomniel)
+Text(Fort,Ch8EndingInFort)
+Text(Castle_Room,Ch8EndingSomniel)
 WM_LOADLOCATION2 0 7 0 //Required to fix chapter name
 WM_SETDESTINATION 0 7 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 7 //Needed for world map narration.

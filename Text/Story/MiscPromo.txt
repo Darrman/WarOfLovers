@@ -54,3 +54,8 @@ But you are not Marth's other half.[A]
 [ML]
 Whether I am or not in reality matters[N]
 little, so long as Akaneia believes me.[A][X]
+
+## ValentinesUpdate
+[MR][LoadSheeda]
+Tell me: do you[N]
+believe in love?[A][X]
