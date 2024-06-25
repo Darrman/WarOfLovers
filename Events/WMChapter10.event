@@ -1,0 +1,32 @@
+WorldMapPointerTable(10,WM_Events)
+
+WM_Events:
+//BeginWorldMap calls the intro WM which is Akaneia.
+//We don't want WM_SHOWDRAWNMAP called, so...
+_0xC220
+STAL 2
+WM_SETCAM 240 160
+WM_FADEOUT 0x0 0x0 0x0
+MUSC M_ANewJourney
+//play Elibian track in its place
+WM_SETCAM 240 160
+STAL 120
+WorldMapShowTextBox
+WorldMapTextBegin(Ch8Narration)
+TEXTEND
+WorldMapLoadMapSprite(0, StarLord, 0, 8) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
+WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
+WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+TEXTCONT
+TEXTEND
+WorldMapShowPortraitLeft(0,0x2) //Marth
+TEXTCONT
+TEXTEND
+
+STAL 60
+FADI 16
+REMSPRITE 0
+REMSPRITE 1
+SKIPWN
+ENDA

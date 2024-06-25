@@ -1,0 +1,113 @@
+EventPointerTable(0x37, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,AfterBattlePrep,1)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,39,9)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [39,9] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [38,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,6] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,4] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,2] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,10] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,13] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,3] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,6] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,4] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,12] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,13] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,14] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,7] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,11] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Alcryst Sniper 0x00 Level(1,Enemy,0) [2,8] 0x0 0x0 0x0 0x0 [SilverBow] NeverMoveAI
+UNIT
+
+Bad2:
+UNIT
+
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+FADI 10
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+CAM1 [0,0]
+FADU 10
+STAL 20
+CAM1 [39,0]
+STAL 20
+CAM1 [39,14]
+STAL 20
+CAM1 [0,14]
+STAL 20
+CAM1 [0,0]
+STAL 10
+GotoPrepScreen
+ENDA
+
+EndingScene:
+Text(PlaceholderText)
+WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
+WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+MNCH 0xD
+ENDA
+
+ENDA
+
+AfterBattlePrep:
+Text(PlaceholderText)
+NoFade
+ENDA
+
