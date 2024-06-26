@@ -21,6 +21,20 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(0x7,TopLeftVillage,3,1)
+Village(0x8,VillageByDock,8,5)
+Village(0x9,VillageInsideWalls,12,4)
+Village(0xa,CanasOldVillage,17,6)
+Village(0xb,SouthOfCanas,15,9)
+Village(0xc,NorthOfEntrance,33,1)
+Village(0xd,SouthOfEntrance,31,11)
+House(0x0,NextToArena,8,12)
+House(0x0,TheInn,21,6)
+House(0x0,ByVendor,25,11)
+Armory(Ch12DocksArmoury,4,4)
+Armory(Ch12EntranceArmoury,25,1)
+Vendor(Ch12CentralVendor,21,12)
+Vendor(Ch12EntranceVendor,29,1)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,39,9)
 #endif
@@ -47,13 +61,13 @@ Good:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [39,9] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [38,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,6] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,2] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,10] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,3] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,5] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,4] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,2] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,10] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,13] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,3] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,6] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,4] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [38,12] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,13] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,14] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
@@ -111,3 +125,82 @@ Text(PlaceholderText)
 NoFade
 ENDA
 
+TopLeftVillage:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+VillageByDock:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+VillageInsideWalls:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+CanasOldVillage:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+SouthOfCanas:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+NorthOfEntrance:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+SouthOfEntrance:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+NextToArena:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+TheInn:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+ByVendor:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+Ch12DocksArmoury:
+SHLI IronSword
+ALIGN 4
+
+Ch12EntranceArmoury:
+SHLI IronLance
+ALIGN 4
+
+Ch12CentralVendor:
+SHLI Fire
+ALIGN 4
+
+Ch12EntranceVendor:
+SHLI Heal
+ALIGN 4

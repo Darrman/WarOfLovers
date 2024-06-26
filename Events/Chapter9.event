@@ -22,6 +22,11 @@ END_MAIN
 
 LocationBasedEvents:
 Seize(0x3,EndingScene,10,2)
+Village(0x7,StartingVillage,1,23)
+House(0x0,FE7StartHouse1,17,16)
+House(0x0,FE7StartHouse2,18,16)
+Armory(Ch9Armoury,19,4)
+Vendor(Ch9Vendor,20,4)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,11,25)
 #endif
@@ -56,7 +61,7 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,26] 0x0 0x0 0x0 0x0 [SilverLan
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,25] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,24] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [1,24] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [2,26] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,26] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [15,26] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,26] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [12,25] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
@@ -112,3 +117,27 @@ Text(PlaceholderText)
 NoFade
 ENDA
 
+StartingVillage:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Ch9Armoury:
+SHLI IronSword
+ALIGN 4
+
+Ch9Vendor:
+SHLI Fire
+ALIGN 4
+
+FE7StartHouse1:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+FE7StartHouse2:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
