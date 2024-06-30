@@ -15,6 +15,7 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
+TurnEventNPC(0x0,GuinevereSendsReinforcements,2)
 END_MAIN
 
 CharacterBasedEvents:
@@ -68,12 +69,44 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [12,25] 0x0 0x0 0x0 0x0 [SilverLa
 UNIT
 
 Bad:
-UNIT RogueBernBoss DragonMaster 0x00 Level(1,Enemy,0) [10,2] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
+UNIT RogueBernBoss DragonMaster 0x00 Level(1,Enemy,0) [3,4] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [2,3] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,5] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,3] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [2,5] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBern Fighter RogueBernBoss Level(7,Enemy,1) [19,14] 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT RogueBern Fighter RogueBernBoss Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 [Halberd] PursueWithoutHeedAI
+UNIT RogueBern Brigand RogueBernBoss Level(7,Enemy,1) [20,17] 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT RogueBern Archer RogueBernBoss Level(7,Enemy,1) [19,21] 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT RogueBern ArmourKnight RogueBernBoss Level(7,Enemy,1) [12,19] 0x0 0x0 0x0 [Javelin] GuardTileAI
+UNIT RogueBern Archer RogueBernBoss Level(7,Enemy,1) [12,16] 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT RogueBern Soldier RogueBernBoss Level(7,Enemy,1) [9,17] 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT RogueBern Shaman RogueBernBoss Level(7,Enemy,1) [8,19] 0x0 0x0 0x0 [Flux] PursueWithoutHeedAI
+UNIT RogueBern AxeArmour RogueBernBoss Level(8,Enemy,1) [4,17] 0x0 0x0 0x0 [HandAxe] NeverMoveAI
+UNIT RogueBern ArmourKnight RogueBernBoss Level(8,Enemy,1) [5,16] 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT RogueBern Archer RogueBernBoss Level(8,Enemy,1) [5,15] 0x0 0x0 0x0 [Longbow] NeverMoveAI
 UNIT
 
 Bad2:
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [13,13] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBern Mercenary RogueBernBoss Level(10,Enemy,1) [0,1] DropItem 0x0 0x0 [IronBlade, GoddessIcon] AttackInRangeAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,5] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBern FreeKnight RogueBernBoss Level(7,Enemy,1) [9,7] 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT RogueBern AxeKnight RogueBernBoss Level(7,Enemy,1) [11,7] 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT RogueBern Myrmidon RogueBernBoss Level(7,Enemy,1) [7,10] 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT RogueBern Shaman RogueBernBoss Level(7,Enemy,1) [8,11] 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT RogueBern ArchKnight RogueBernBoss Level(7,Enemy,1) [20,7] 0x0 0x0 0x0 [SteelBow, Longbow] AttackInRangeAI
+UNIT RogueBern ArchKnight RogueBernBoss Level(7,Enemy,1) [19,6] 0x0 0x0 0x0 [ShortBow] AttackInRangeAI
+UNIT RogueBern BowArmour RogueBernBoss Level(10,Enemy,1) [15,10] 0x0 0x0 0x0 [SteelBow] NeverMoveAI
+UNIT RogueBern Shaman RogueBernBoss Level(7,Enemy,1) [16,10] 0x0 0x0 0x0 [Luna] NeverMoveAI
 UNIT
 
+MiledySquad:
+UNIT Bern DragonKnight_F 0x0 Level(15,NPC,0) [10,3] 0x0 0x0 0x0 [SilverLance, Elixir] NeverMoveAI //pretend she's Miledy
+UNIT Bern DragonKnight 0x0 Level(10,NPC,1) [9,4] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Bern DragonKnight 0x0 Level(10,NPC,1) [11,4] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Bern Mercenary 0x0 Level(10,NPC,1) [10,5] 0x0 0x0 0x0 [SteelBlade] AttackInRangeAI
+UNIT
 
 Traps1:
 ENDTRAP
@@ -84,8 +117,13 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-FADI 10
+Text(Castle_Room,Ch9OpeningLilinaBarth)
+Text(Castle_Room,Ch9OpeningLilinaMeeting)
+Text(Castle_Hall,Ch9OpeningPherae)
 LOAD1 0x1 Good
+Text(Woodland,Ch9OpeningApproachingBernKeep)
+Text(Woodland,Ch9OpeningRebellion)
+FADI 10
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]
@@ -103,7 +141,9 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
+Text(Castle_Hall,Ch9EndingBernKeep)
+Text(Castle_Hall,Ch9EndingBernKeep2)
+Text(Castle_Room,Ch9EndingAlfredDies)
 WM_LOADLOCATION2 0 8 0 //Required to fix chapter name
 WM_SETDESTINATION 0 8 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 8 //Needed for world map narration.
@@ -113,12 +153,21 @@ ENDA
 ENDA
 
 AfterBattlePrep:
+//Written after prep would flow better as a T2 or so
 Text(PlaceholderText)
 NoFade
 ENDA
 
+GuinevereSendsReinforcements:
+CAM1 [10,2]
+STAL 10
+FlashCursor(10,2,60)
+Text(Castle_Hall,Ch9GuinevereReaction)
+LOAD1 0x1 MiledySquad
+ENDA
+
 StartingVillage:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Outside_Village_Day,Ch9Village)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
@@ -133,11 +182,11 @@ SHLI Fire
 ALIGN 4
 
 FE7StartHouse1:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch9House1)
 NoFade
 ENDA
 
 FE7StartHouse2:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch9House2)
 NoFade
 ENDA

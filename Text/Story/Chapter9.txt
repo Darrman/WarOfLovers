@@ -229,7 +229,7 @@ Bern Keep, but Ostia's defence[AN]
 is strong. It should withstand[N]
 a siege in our absence.[AN]
 [Left]
-General Barth![A]
+General Barth![AN]
 [FL][LoadBarth][Left]
 You are in charge of Ostia while[N]
 I'm visiting Bern. If I don't[AN]
@@ -414,7 +414,7 @@ rule Lycia? I could think all day.[AN]
 But now is the time for action. All[N]
 men, attack the southern convoy![A][X]
 
-## Ch9AfterPrepBernKeep
+## Ch9GuinevereReaction
 [ML][LoadFace][0x6F][0x01][MR][LoadGuinevere]
 //green generic, Guinevere
 [ML]
@@ -514,7 +514,7 @@ gets himself killed, that's what[N]
 he gets for stupid warmongering.[A][X]
 
 ## Ch9EndingBernKeep
-[Left][LoadGuinevere][LoadLilina][FR][LoadEliwood]
+[Left][LoadGuinevere][Right][LoadLilina][FR][LoadEliwood]
 //Guinevere
 [Left]
 Queen Lilina, Marquess Eliwood. I am[N]
