@@ -12,7 +12,7 @@ MUSC M_ANewJourney
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
-WorldMapTextBegin(Ch8Narration)
+WorldMapTextBegin(Ch9WorldMap)
 TEXTEND
 WorldMapLoadMapSprite(0, StarLord, 0, 7) //Marth's node seems to control chapter?
 WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
