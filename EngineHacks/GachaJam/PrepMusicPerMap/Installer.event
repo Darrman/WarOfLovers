@@ -1,0 +1,43 @@
+
+PUSH
+
+ORG  0x965E2
+B(0x96656)
+WORD $46874800
+POIN Change0pre
+
+ORG  0x341C4
+BL(0x965E4)
+ORG  0x965DC
+BL(0x965E4)
+ORG  0xAEB54
+BL(0x965E4)
+ORG  0xA1960
+BL(0x965E4)
+
+
+ORG  0xB1CF0
+WORD $468F4900
+POIN Change1pre
+
+
+ORG 0xB1D0A
+B(0xB24A2)
+WORD $46874800
+POIN Change2pre
+
+ORG  0x9CCD6
+BL($B1D0C)
+ORG  0xCC6B6
+BL($B1D0C)
+
+
+POP
+
+Change0pre:
+ #incbin c0p.dmp
+Change1pre:
+ #incbin c1p.bin
+
+Change2pre:
+ #incbin c2p.bin

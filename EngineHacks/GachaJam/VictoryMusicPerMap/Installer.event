@@ -1,0 +1,11 @@
+VictoryMusic:
+#incbin music10change.bin
+
+PUSH
+ORG 0x160C4
+BYTE 0x00 0x49 0x8f 0x46
+POIN VictoryMusic
+POP
+
+//There's a bunch of "kill chapter prologue bgm" here too.
+//I'll see if I need these, but I'll leave them out if not.

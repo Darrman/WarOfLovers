@@ -267,3 +267,12 @@ POP
 
   //Split the Event Pointer Table (Kirb)
   #include "GachaJam/EventPointerSplit/SplitPointerList.event"
+  
+  //Different battle themes for every chapter (Aera)
+  #include "GachaJam/BattleMusicPerMap/Installer.event"
+  
+  //Different preperation music for every chapter (Aera)
+  #include "GachaJam/PrepMusicPerMap/Installer.event"
+  
+  //Different victory music for every chapter (7743)
+  #include "GachaJam/VictoryMusicPerMap/Installer.event"

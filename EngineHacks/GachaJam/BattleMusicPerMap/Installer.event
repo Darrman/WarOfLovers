@@ -1,0 +1,16 @@
+PUSH
+
+//ORG	0x74ba6 //causes the level-up screen to self-destruct
+ORG	0x726ca
+#incbin "battle_changer.bin"
+
+ORG	0x72700
+#incbin "72700.bin"
+// what this does I've no idea but 7743 has it in the English Builder version
+
+//ORG 0x74bdc
+//WORD	$0202BCEC
+//SHORT	$8886 $46C0
+//not in the febuilder patch, contributes to level up screen errors
+
+POP
