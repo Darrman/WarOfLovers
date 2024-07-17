@@ -120,7 +120,7 @@ SongTable(M_Arena,Arena,0)
 }
 
 {
-#include "OffTowar.event"
+#include "OffToWar.event"
 SongTable(M_OffToWar,OffToWar,0)
 }
 
@@ -162,4 +162,35 @@ SongTable(M_MysteryOfTheEmblem,MysteryOfTheEmblem,0)
 {
 #include "B1EndingMedley.event"
 SongTable(M_EndingMedleyBook1,B1EndingMedley,0)
+}
+
+
+{
+#include "FE6Attack.event"
+SongTable(M_FE6Attack,FE6Attack,0)
+}
+
+{
+#include "ForTheCommanders.event"
+SongTable(M_ForTheCommanders,ForTheCommanders,1)
+}
+
+{
+#include "Frontier.event"
+SongTable(M_Frontier,Frontier,1)
+}
+
+{
+#include "JoinUs.event"
+SongTable(M_JoinUs,JoinUs,0)
+}
+
+{
+#include "WinningRoad.event"
+SongTable(M_WinningRoad,WinningRoad,1)
+}
+
+{
+#include "BattleForWhoseSake.event"
+SongTable(M_BattleForWhoseSake,BattleForWhoseSake,0)
 }

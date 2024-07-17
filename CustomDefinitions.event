@@ -253,6 +253,7 @@
 #define Thoron Ivaldi
 
 //Music
+//Akaneia
 #define M_AkaneiaAnthem 0x43 //FE Theme, no intro
 #define M_HolyWar Land_of_Promise
 #define M_Ricardo 0x24 //Advance FE8
@@ -285,6 +286,14 @@
 #define M_GameOverBook1 In_Sorrows_Shroud
 #define M_MysteryOfTheEmblem PrologueMusic
 #define M_EndingMedleyBook1 Records
+
+//Elibe
+#define M_FE6Attack 0x56 //piece of ending music
+#define M_ForTheCommanders Rise_Above
+#define M_Frontier Assault
+#define M_JoinUs 0x54 //recruitment music duplicate
+#define M_WinningRoad 0x58 //blank
+#define M_BattleForWhoseSake Powerful_Foe
 
 //VA
 //26D to 2BB all empty

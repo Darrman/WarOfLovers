@@ -188,6 +188,12 @@
 
 - All FE3 music converted by Sme.
 - FE11 Battle Preps: RSFlame
+- FE6 Attack: Tristan Hollow
+- For the Commanders: RandomWizard
+- Frontier: 7743
+- Join Us: Tristan Hollow
+- Winning Road: Tristan Hollow
+- Battle for Whose Sake: 7743
 
 - Voice lines from:
 - Marth: Fire Emblem Heroes
