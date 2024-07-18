@@ -17,7 +17,7 @@ TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
 TurnEventEnemy(0x0,ExecutionRedTape,1)
 TurnEventEnemy(0x0,ExecutionersArrive,6)
-TurnEventEnemy(0x0,HurryUpAlready,10)
+TurnEventEnemy(0x0,AntiTurtleGuys,10)
 TurnEventEnemy(0x0,TheThief,4)
 END_MAIN
 

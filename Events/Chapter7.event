@@ -164,7 +164,11 @@ NoFade
 ENDA
 
 EndingScene:
-TurnAlly(Eliwood)
+CHECK_EXISTS Eliwood //contingency for debug skipping
+BNE 701 s0 sC
+LOAD1 0x1 MarquessPherae //load him in
+LABEL 701
+TurnAlly(Eliwood) //so you still get him if you forget to talk, story makes no sense otherwise
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
 Text(Ch7EndingMarthEliwood)
