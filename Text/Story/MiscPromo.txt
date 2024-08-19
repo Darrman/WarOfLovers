@@ -59,3 +59,23 @@ little, so long as Akaneia believes me.[A][X]
 [MR][LoadSheeda]
 Tell me: do you[N]
 believe in love?[A][X]
+
+## BeforeRoyVanishes
+[ML][LoadRoy][MR][LoadLilina]
+[ML]
+Lilina, I must go to Pherae. It has been[N]
+a long time since I saw my father.[AN]
+[MR]
+Look after yourself, will you?[AN]
+[ML]
+Don't worry. I'll be fine.[A][X]
+
+## EliwoodBreaksTheNews
+[ML][LoadLilina][FFR][LoadEliwood]
+[FFR][MoveMidRight]
+[ML]
+Hello, Lord Eliwood.[N]
+How was Roy's visit?[AN]
+[MR]
+Your majesty... Roy never came.[N]
+It seems like he just... vanished.[A][X]

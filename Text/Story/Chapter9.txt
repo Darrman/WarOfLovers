@@ -358,7 +358,7 @@ really is travelling in this[N]
 convoy, then today's my lucky[AN]
 day. I can destroy Lycia with[N]
 a single blow. Yes... yes![AN]
-[FL][LoadFace][0x66][0x01]
+[FL][LoadFace][0x6B][0x01]
 //red soldier
 Sir (name), a detailed report.[N]
 It appears the convoy does[AN]
