@@ -1,6 +1,28 @@
-#include "Tools/Tool Helpers.txt"
+//#include "Tools/Tool Helpers.txt"
 
 #include "PortraitUpshiftEditor.event"
+
+NewPortraitTable:
+#incbin "VanillaPortraitTable.dmp" //Keep generic villagers/class cards the same
+ORG (NewPortraitTable + 0x1C * 0xFF) //If 255 won't cut it, I can always go further
+
+// Repoint to it
+PUSH
+
+ORG 0x5524
+POIN NewPortraitTable
+MESSAGE New portrait table is at currentOffset
+
+POP
+
+#undef PortraitTable
+#define PortraitTable NewPortraitTable
+
+//because they blatantly ignore the repointed portrait table when included,
+//I'm going to have to redefine them here
+#define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01; POP"
+#define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl; POP"
+
 
 Marth_Mug:
 #incext PortraitFormatter "Marth.png"
