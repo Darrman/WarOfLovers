@@ -51,8 +51,13 @@ Tutorial:
 END_MAIN
 
 Good:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [16,10] 0x0 0x0 0x1 MarthREDA [Falchion, BlueGem, Vulnerary] NoAI
+UNIT
+
+GoodJam:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [16,10] 0x0 0x0 0x1 MarthREDA [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT
+
 
 CutsceneMarth:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
@@ -315,7 +320,7 @@ Text(Castle_Hall,Ch1OpeningAnnaVisits)
 Text(Shrine_lighter,Ch1OpeningAltar)
 MUSC M_OffToWar
 Text(Shrine_lighter,Ch1OpeningIObject)
-LOAD1 0x1 Good
+LOAD1 0x1 GoodJam
 Text(Inn,Ch1OpeningBackInWarren)
 Text(HouseBG,Ch1OpeningSecretShop)
 LOAD1 0x1 BadJam

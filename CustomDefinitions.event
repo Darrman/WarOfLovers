@@ -137,6 +137,7 @@
 #define Bern 0x89
 
 //Classes
+#define Lord EphraimLord
 #undef Knight
 #define StarLord EphraimMasterLord
 #define ArmourKnight 0x9

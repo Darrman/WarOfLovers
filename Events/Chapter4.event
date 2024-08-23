@@ -154,8 +154,13 @@ UNIT Garda Horseman 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackI
 UNIT
 
 SheedaGroup:
+UNIT Sheeda PegasusKnight 0x00 Level(1, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SilverLance, Elixir] NoAI
+UNIT
+
+SheedaGroupJam:
 UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SilverLance, Elixir] NoAI
 UNIT
+
 
 Traps1:
 ENDTRAP
@@ -235,8 +240,15 @@ NoFade
 ENDA
 
 SheedaArrives:
+CHECK_EVENTID JamModeOn
+BNE 406 sC s0 //branch if jam mode
 EVBIT_T 9 //follow Sheeda
 LOAD1 0x1 SheedaGroup
+GOTO 407
+LABEL 406
+EVBIT_T 9 //follow Sheeda
+LOAD1 0x1 SheedaGroupJam
+LABEL 407
 CAM1 Sheeda
 TEXTSTART
 TEXTSHOW Ch4SheedaFliesIn
