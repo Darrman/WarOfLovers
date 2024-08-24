@@ -252,3 +252,30 @@ know was Kefka destroying[AN]
 everything... I'm sorry. My name[N]
 is Terra, and I have great and[AN]
 dangerous magic.[A][X]
+
+## RecruitZelda
+PLACEHOLDER![A][X]
+
+## RecruitSahasrahla
+PLACEHOLDER![A][X]
+
+## RecruitMarin
+PLACEHOLDER![A][X]
+
+## RecruitSaria
+PLACEHOLDER![A][X]
+
+## RecruitDedede
+PLACEHOLDER![A][X]
+
+## RecruitMetaKnight
+PLACEHOLDER![A][X]
+
+## RecruitFalco
+PLACEHOLDER![A][X]
+
+## RecruitPeppy
+PLACEHOLDER![A][X]
+
+## RecruitSlippy
+PLACEHOLDER![A][X]

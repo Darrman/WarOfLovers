@@ -177,7 +177,7 @@ ENDA
 
 EndingScene:
 MUSC M_Victory
-CALL UnitGacha
+CALL UnitGachaJam
 WARPIN [12,10]
 MOVE 0xFFFF 0xFFFD [12,10]
 ENUN

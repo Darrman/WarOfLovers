@@ -35,10 +35,25 @@ ENDA
 
 
 //ORG $8D118C
-DebugUnitsFE:
+DebugUnitsGood:
 UNIT Marth StarLord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
 UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, Warp] NoAI
+UNIT
+
+DebugUnitsFE:
+UNIT Marich Sage 0x00 Level(1, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [Excalibur] NoAI
+UNIT Rody DukeKnight 0x00 Level(1, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
+UNIT Eliwood Paladin 0x00 Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [Audhulma] NoAI
+UNIT Lilina Mage_F 0x00 Level(1, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [Excalibur] NoAI
+UNIT Barth General 0x00 Level(1, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
+UNIT Valbo General 0x00 Level(1, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
+UNIT Valencia2 Civilian 0x00 Level(1, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [BlackGem, BlackGem, BlackGem] NoAI
+UNIT Alm Hero 0x00 Level(1, Ally, 0) [3,8] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+UNIT Kain Paladin 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [SilverSword] NoAI
+UNIT Ellis Bishop_F 0x00 Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [Latona] NoAI
+UNIT Celica MageFighter 0x00 Level(1, Ally, 0) [3,5] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+UNIT Roy Swordmaster 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [Falchion] NoAI
 UNIT
 
 DebugUnitsMario:
@@ -65,11 +80,29 @@ UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [Physic, Divi
 UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [SilverSword, Javelin] NoAI
 UNIT
 
-DebugUnitsSmash:
+DebugUnitsZelda:
 UNIT Link Hero 0x00 Level(1, Ally, 0) [8,1] 0x00 0x00 0x0 0x00 [BraveSword, Halberd] NoAI
-UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
+UNIT Zelda Thief 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI
+UNIT Sahasrahla Priest 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT Marin Dancer 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Saria Mage_F 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+UNIT
+
+DebugUnitsKirby:
 UNIT Kirby Druid 0x00 Level(1, Ally, 0) [8,3] 0x00 0x00 0x0 0x00 [Fenrir, Heal] NoAI
+UNIT Dedede Fighter 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT MetaKnight Myrmidon 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+DebugUnitsStarFox:
 UNIT Fox Sniper 0x00 Level(1, Ally, 0) [8,4] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI
+UNIT Falco DragonKnight 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Peppy Soldier 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Slippy Pirate 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT
+
+DebugUnitsSmash:
+UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
 UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [Bolting, Thunder] NoAI
 UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer] NoAI
 UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [Sleep, Mend] NoAI
@@ -107,7 +140,7 @@ Armory(DebugArmoury,7,1)
 House(0x0,GachaEffectTest,2,0)
 House(0x0,LoadSuperMarioUnits,4,0)
 House(0x0,LoadPocketMonstersUnits,6,0)
-House(0x0,LoadSmashBrosUnits,8,0)
+House(0x0,LoadLegendOfZeldaUnits,8,0)
 House(0x0,LoadOtherRPGUnits,10,0)
 House(0x0,FEE3TrailerRecording,12,0)
 END_MAIN
@@ -145,6 +178,7 @@ ALIGN 4
 
 //ORG $9FF4B8
 DebugBeginningScene:
+LOAD1 0x1 DebugUnitsGood
 LOAD1 0x01 DebugUnitsFE
 ENUN
 LOAD1 0x1 DebugBad
@@ -531,6 +565,11 @@ DebugArmoury:
 SHLI AngelicRobe EnergyRing SecretBook Speedwings GoddessIcon Dragonshield Talisman BodyRing Boots
 ALIGN 4
 
+LoadFireEmblemUnits:
+LOAD1 0x1 DebugUnitsFE
+ENUN
+ENDA
+
 LoadSuperMarioUnits:
 LOAD1 0x1 DebugUnitsMario
 ENUN
@@ -541,13 +580,27 @@ LOAD1 0x1 DebugUnitsPokemon
 ENUN
 ENDA
 
-LoadSmashBrosUnits:
-LOAD1 0x1 DebugUnitsSmash
+LoadLegendOfZeldaUnits:
+LOAD1 0x1 DebugUnitsZelda
+ENUN
+ENDA
+
+LoadKirbyUnits:
+LOAD1 0x1 DebugUnitsKirby
+ENUN
+ENDA
+
+LoadStarFoxUnits:
+LOAD1 0x1 DebugUnitsStarFox
 ENUN
 ENDA
 
 LoadOtherRPGUnits:
+//temporary load for misc. groups
 LOAD1 0x1 DebugUnitsRPG
+LOAD1 0x1 DebugUnitsSmash
+LOAD1 0x1 DebugUnitsKirby
+LOAD1 0x1 DebugUnitsStarFox
 ENUN
 ENDA
 
@@ -561,12 +614,22 @@ CALL LoadKirby
 CALL LoadFox
 CALL LoadPikachu*/
 
-Text(Castle_Garden,ValentinesUpdate)
+//Text(Castle_Garden,ValentinesUpdate)
 
-LOAD1 0x1 FEE3Units
+//LOAD1 0x1 FEE32023Units
+
+CALL LoadZelda
+CALL LoadSahasrahla
+CALL LoadMarin
+CALL LoadSaria
+CALL LoadDedede
+CALL LoadMetaKnight
+CALL LoadFalco
+CALL LoadPeppy
+CALL LoadSlippy
 ENDA
 
-FEE3Units:
+FEE32023Units:
 UNIT 0x80 Infantry 0x00 Level(1, Enemy, 1) [0,1] 0x00 0x00 0x0 0x00 [SilverBow, BlackGem, BlackGem, BlackGem] NoAI
 UNIT 0x80 AntiAir 0x00 Level(1, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [SilverBow, MiracleSword, Gradius, Partia] NoAI
 UNIT 0x80 Tank 0x00 Level(1, Enemy, 1) [0,3] 0x00 0x00 0x0 0x00 [SilverBow, MemberCard, SilverCard, Warp] NoAI

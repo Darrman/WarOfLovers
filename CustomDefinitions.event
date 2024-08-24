@@ -360,7 +360,7 @@
 #define CGButz 0x58
 #define CGTerra 0x59
 #define CGZelda 0x5A
-#define CGSahrasahla 0x5B
+#define CGSahasrahla 0x5B
 #define CGMarin 0x5C
 #define CGSaria 0x5D
 #define CGDedede 0x5E

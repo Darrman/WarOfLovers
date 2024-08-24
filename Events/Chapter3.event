@@ -215,7 +215,7 @@ CLEA 0
 CLEE 0
 LOAD2 0x1 CutsceneMarth
 MUSC M_TogetherWeRide
-CALL UnitGacha
+CALL UnitGachaJam
 WARPIN [28,14]
 MOVE 0xFFFF 0xFFFD [28,14]
 ENUN

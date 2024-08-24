@@ -289,7 +289,7 @@ LABEL 503
 
 //main game
 MUSC M_TogetherWeRide
-CALL UnitGacha
+CALL UnitGachaJam
 WARPIN [25,8]
 MOVE 0xFFFF 0xFFFD [25,8]
 ENUN
@@ -349,7 +349,7 @@ ENDA
 
 Ch5EastVillage:
 Text(Village,Ch5MoneyVillage)
-CALL UnitGacha
+CALL UnitGachaJam
 WARPIN [28,5]
 MOVE 0xFFFF 0xFFFD [28,5]
 ENUN

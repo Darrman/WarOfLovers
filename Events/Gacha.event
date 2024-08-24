@@ -1,4 +1,6 @@
-UnitGacha:
+UnitGachaJam:
+//The original gacha used in Jam Mode
+//Replace with different pools per act
 LABEL 10
 RANDOMNUMBER 32
 SVAL s1 0
@@ -73,7 +75,7 @@ LoadMario:
 LABEL 100
 CHECK_EXISTS Mario
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 MarioUnit
+LOAD1 0x1 MarioUnitJam
 ENUN
 SetBackground(CGMario)
 SOUN VoiceMarioSummon
@@ -90,7 +92,7 @@ LoadLuigi:
 LABEL 101
 CHECK_EXISTS Luigi
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 LuigiUnit
+LOAD1 0x1 LuigiUnitJam
 ENUN
 SetBackground(CGLuigi)
 SOUN VoiceLuigiSummon
@@ -107,7 +109,7 @@ LoadPeach:
 LABEL 102
 CHECK_EXISTS Peach
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 PeachUnit
+LOAD1 0x1 PeachUnitJam
 ENUN
 SetBackground(CGPeach)
 SOUN VoicePeachSummon
@@ -124,7 +126,7 @@ LoadBowser:
 LABEL 103
 CHECK_EXISTS Bowser
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 BowserUnit
+LOAD1 0x1 BowserUnitJam
 ENUN
 SetBackground(CGBowser)
 SOUN VoiceBowserSummon
@@ -141,7 +143,7 @@ LoadToad:
 LABEL 104
 CHECK_EXISTS Toad
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 ToadUnit
+LOAD1 0x1 ToadUnitJam
 ENUN
 SetBackground(CGToad)
 SOUN VoiceToadSummon
@@ -158,7 +160,7 @@ LoadWario:
 LABEL 105
 CHECK_EXISTS Wario
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 WarioUnit
+LOAD1 0x1 WarioUnitJam
 ENUN
 SetBackground(CGWario)
 SOUN VoiceWarioSummon
@@ -175,7 +177,7 @@ LoadYoshi:
 LABEL 106
 CHECK_EXISTS Yoshi
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 YoshiUnit
+LOAD1 0x1 YoshiUnitJam
 ENUN
 SetBackground(CGYoshi)
 SOUN VoiceYoshiSummon
@@ -192,7 +194,7 @@ LoadDaisy:
 LABEL 107
 CHECK_EXISTS Daisy
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 DaisyUnit
+LOAD1 0x1 DaisyUnitJam
 ENUN
 SetBackground(CGDaisy)
 SOUN VoiceDaisySummon
@@ -209,7 +211,7 @@ LoadWaluigi:
 LABEL 108
 CHECK_EXISTS Waluigi
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 WaluigiUnit
+LOAD1 0x1 WaluigiUnitJam
 ENUN
 SetBackground(CGWaluigi)
 SOUN VoiceWaluigiSummon
@@ -226,7 +228,7 @@ LoadAsh:
 LABEL 109
 CHECK_EXISTS Ash
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 AshUnit
+LOAD1 0x1 AshUnitJam
 ENUN
 SetBackground(CGAsh)
 CGTEXTSTART
@@ -241,7 +243,7 @@ LoadMisty:
 LABEL 110
 CHECK_EXISTS Misty
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 MistyUnit
+LOAD1 0x1 MistyUnitJam
 ENUN
 SetBackground(CGMisty)
 CGTEXTSTART
@@ -256,7 +258,7 @@ LoadBrock:
 LABEL 111
 CHECK_EXISTS Brock
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 BrockUnit
+LOAD1 0x1 BrockUnitJam
 ENUN
 SetBackground(CGBrock)
 CGTEXTSTART
@@ -271,7 +273,7 @@ LoadJessie:
 LABEL 112
 CHECK_EXISTS Jessie
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 JessieUnit
+LOAD1 0x1 JessieUnitJam
 ENUN
 SetBackground(CGJessie)
 CGTEXTSTART
@@ -286,7 +288,7 @@ LoadJames:
 LABEL 113
 CHECK_EXISTS James
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 JamesUnit
+LOAD1 0x1 JamesUnitJam
 ENUN
 SetBackground(CGJames)
 CGTEXTSTART
@@ -301,7 +303,7 @@ LoadMay:
 LABEL 114
 CHECK_EXISTS May
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 MayUnit
+LOAD1 0x1 MayUnitJam
 ENUN
 SetBackground(CGMay)
 CGTEXTSTART
@@ -316,7 +318,7 @@ LoadDawn:
 LABEL 115
 CHECK_EXISTS Dawn
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 DawnUnit
+LOAD1 0x1 DawnUnitJam
 ENUN
 SetBackground(CGDawn)
 CGTEXTSTART
@@ -331,7 +333,7 @@ LoadSerena:
 LABEL 116
 CHECK_EXISTS Serena
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 SerenaUnit
+LOAD1 0x1 SerenaUnitJam
 ENUN
 SetBackground(CGSerena)
 CGTEXTSTART
@@ -346,7 +348,7 @@ LoadLink:
 LABEL 117
 CHECK_EXISTS Link
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 LinkUnit
+LOAD1 0x1 LinkUnitJam
 ENUN
 SetBackground(CGLink)
 SOUN VoiceLinkSummon
@@ -363,7 +365,7 @@ LoadSamus:
 LABEL 118
 CHECK_EXISTS Samus
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 SamusUnit
+LOAD1 0x1 SamusUnitJam
 ENUN
 SetBackground(CGSamus)
 SOUN VoiceSamusSummon
@@ -380,7 +382,7 @@ LoadKirby:
 LABEL 119
 CHECK_EXISTS Kirby
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 KirbyUnit
+LOAD1 0x1 KirbyUnitJam
 ENUN
 SetBackground(CGKirby)
 SOUN VoiceKirbySummon
@@ -397,7 +399,7 @@ LoadFox:
 LABEL 120
 CHECK_EXISTS Fox
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 FoxUnit
+LOAD1 0x1 FoxUnitJam
 ENUN
 SetBackground(CGFox)
 SOUN VoiceFoxSummon
@@ -414,7 +416,7 @@ LoadPikachu:
 LABEL 121
 CHECK_EXISTS Pikachu
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 PikachuUnit
+LOAD1 0x1 PikachuUnitJam
 ENUN
 SetBackground(CGPikachu)
 SOUN VoicePikachuSummon
@@ -431,7 +433,7 @@ LoadFalcon:
 LABEL 122
 CHECK_EXISTS Falcon
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 FalconUnit
+LOAD1 0x1 FalconUnitJam
 ENUN
 SetBackground(CGFalcon)
 SOUN VoiceFalconSummon
@@ -448,7 +450,7 @@ LoadJigglypuff:
 LABEL 123
 CHECK_EXISTS Jigglypuff
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 JigglypuffUnit
+LOAD1 0x1 JigglypuffUnitJam
 ENUN
 SetBackground(CGJigglypuff)
 SOUN VoiceJigglypuffSummon
@@ -465,7 +467,7 @@ LoadNess:
 LABEL 124
 CHECK_EXISTS Ness
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 NessUnit
+LOAD1 0x1 NessUnitJam
 ENUN
 SetBackground(CGNess)
 SOUN VoiceNessSummon
@@ -482,7 +484,7 @@ LoadPaula:
 LABEL 125
 CHECK_EXISTS Paula
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 PaulaUnit
+LOAD1 0x1 PaulaUnitJam
 ENUN
 SetBackground(CGPaula)
 CGTEXTSTART
@@ -497,7 +499,7 @@ LoadJeff:
 LABEL 126
 CHECK_EXISTS Jeff
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 JeffUnit
+LOAD1 0x1 JeffUnitJam
 ENUN
 SetBackground(CGJeff)
 CGTEXTSTART
@@ -512,7 +514,7 @@ LoadPoo:
 LABEL 127
 CHECK_EXISTS Poo
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 PooUnit
+LOAD1 0x1 PooUnitJam
 ENUN
 SetBackground(CGPoo)
 CGTEXTSTART
@@ -527,7 +529,7 @@ LoadPokey:
 LABEL 128
 CHECK_EXISTS Pokey
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 PokeyUnit
+LOAD1 0x1 PokeyUnitJam
 ENUN
 SetBackground(CGPokey)
 CGTEXTSTART
@@ -542,7 +544,7 @@ LoadCecil:
 LABEL 129
 CHECK_EXISTS Cecil
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 CecilUnit
+LOAD1 0x1 CecilUnitJam
 ENUN
 SetBackground(CGCecil)
 CGTEXTSTART
@@ -557,7 +559,7 @@ LoadButz:
 LABEL 130
 CHECK_EXISTS Butz
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 ButzUnit
+LOAD1 0x1 ButzUnitJam
 ENUN
 SetBackground(CGButz)
 CGTEXTSTART
@@ -572,7 +574,7 @@ LoadTerra:
 LABEL 131
 CHECK_EXISTS Terra
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 TerraUnit
+LOAD1 0x1 TerraUnitJam
 ENUN
 SetBackground(CGTerra)
 CGTEXTSTART
@@ -587,7 +589,7 @@ LoadDK:
 LABEL 132
 CHECK_EXISTS DK
 BNE 10 s0 sC //If unit exists, pick someone else
-LOAD1 0x1 DKUnit
+LOAD1 0x1 DKUnitJam
 ENUN
 SetBackground(CGDK)
 SOUN VoiceDKSummon
@@ -600,134 +602,327 @@ CALL $9EE2C4 //EndConvo
 SVAL s2 DK
 ENDA
 
-MarioUnit:
+LoadZelda:
+LABEL 133
+CHECK_EXISTS Zelda
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ZeldaUnit
+ENUN
+SetBackground(CGZelda)
+SOUN VoiceZeldaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitZelda
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Zelda
+ENDA
+
+LoadSahasrahla:
+LABEL 134
+CHECK_EXISTS Sahasrahla
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SahasrahlaUnit
+ENUN
+SetBackground(CGSahasrahla)
+//SOUN VoiceSahasrahlaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitSahasrahla
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Sahasrahla
+ENDA
+
+LoadMarin:
+LABEL 135
+CHECK_EXISTS Marin
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MarinUnit
+ENUN
+SetBackground(CGMarin)
+SOUN VoiceMarinSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitMarin
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Marin
+ENDA
+
+LoadSaria:
+LABEL 136
+CHECK_EXISTS Saria
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SariaUnit
+ENUN
+SetBackground(CGSaria)
+//SOUN VoiceSariaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitSaria
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Saria
+ENDA
+
+LoadDedede:
+LABEL 137
+CHECK_EXISTS Dedede
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 DededeUnit
+ENUN
+SetBackground(CGDedede)
+SOUN VoiceDededeSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitDedede
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Dedede
+ENDA
+
+LoadMetaKnight:
+LABEL 138
+CHECK_EXISTS MetaKnight
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MetaKnightUnit
+ENUN
+SetBackground(CGMetaKnight)
+SOUN VoiceMetaKnightSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitMetaKnight
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 MetaKnight
+ENDA
+
+LoadFalco:
+LABEL 139
+CHECK_EXISTS Falco
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 FalcoUnit
+ENUN
+SetBackground(CGFalco)
+SOUN VoiceFalcoSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitFalco
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Falco
+ENDA
+
+LoadPeppy:
+LABEL 140
+CHECK_EXISTS Peppy
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PeppyUnit
+ENUN
+SetBackground(CGPeppy)
+SOUN VoicePeppySummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitPeppy
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Peppy
+ENDA
+
+LoadSlippy:
+LABEL 141
+CHECK_EXISTS Slippy
+BNE 10 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SlippyUnit
+ENUN
+SetBackground(CGSlippy)
+SOUN VoiceSlippySummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitSlippy
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Slippy
+ENDA
+
+
+
+//Jam Mode units
+MarioUnitJam:
 UNIT Mario Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, HandAxe, Vulnerary] NoAI
 UNIT
 
-LuigiUnit:
+LuigiUnitJam:
 UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Hammer, HandAxe, Vulnerary] NoAI
 UNIT
 
-PeachUnit:
+PeachUnitJam:
 UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Mend, Lightning, Vulnerary] NoAI
 UNIT
 
-BowserUnit:
+BowserUnitJam:
 UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, SteelLance, Vulnerary] NoAI
 UNIT
 
-ToadUnit:
+ToadUnitJam:
 UNIT Toad Rogue 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick, Vulnerary] NoAI
 UNIT
 
-WarioUnit:
+WarioUnitJam:
 UNIT Wario GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverAxe, HandAxe, Vulnerary] NoAI
 UNIT
 
-DaisyUnit:
+DaisyUnitJam:
 UNIT Daisy Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Heal, Vulnerary] NoAI
 UNIT
 
-YoshiUnit:
+YoshiUnitJam:
 UNIT Yoshi Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, Javelin, Vulnerary] NoAI
 UNIT
 
-WaluigiUnit:
+WaluigiUnitJam:
 UNIT Waluigi GreatKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance, Vulnerary] NoAI
 UNIT
 
-AshUnit:
+AshUnitJam:
 UNIT Ash Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe, Vulnerary] NoAI
 UNIT
 
-MistyUnit:
+MistyUnitJam:
 UNIT Misty Ranger_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Longbow, SteelBow, Vulnerary] NoAI
 UNIT
 
-BrockUnit:
+BrockUnitJam:
 UNIT Brock Warrior 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow, Vulnerary] NoAI
 UNIT
 
-JessieUnit:
+JessieUnitJam:
 UNIT Jessie FalcoKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerLance, IronSword, Vulnerary] NoAI
 UNIT
 
-JamesUnit:
+JamesUnitJam:
 UNIT James WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, IronLance, Vulnerary] NoAI
 UNIT
 
-MayUnit:
+MayUnitJam:
 UNIT May Swordmaster_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [BraveSword, IronSword, Vulnerary] NoAI
 UNIT
 
-DawnUnit:
+DawnUnitJam:
 UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Physic, Divine, Vulnerary] NoAI
 UNIT
 
-SerenaUnit:
+SerenaUnitJam:
 UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverSword, Javelin, Vulnerary] NoAI
 UNIT
 
-LinkUnit:
+LinkUnitJam:
 UNIT Link Hero 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [MasterSword, Halberd, Vulnerary] NoAI
 UNIT
 
-SamusUnit:
+SamusUnitJam:
 UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, IronBow, Vulnerary] NoAI
 UNIT
 
-KirbyUnit:
+KirbyUnitJam:
 UNIT Kirby Druid 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fenrir, Heal, Vulnerary] NoAI
 UNIT
 
-FoxUnit:
+FoxUnitJam:
 UNIT Fox Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverBow, SteelBow, Vulnerary] NoAI
 UNIT
 
-PikachuUnit:
+PikachuUnitJam:
 UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Bolting, Thunder, Vulnerary] NoAI
 UNIT
 
-FalconUnit:
+FalconUnitJam:
 UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer, Vulnerary] NoAI
 UNIT
 
-JigglypuffUnit:
+JigglypuffUnitJam:
 UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Sleep, Mend, Vulnerary] NoAI
 UNIT
 
-NessUnit:
+NessUnitJam:
 UNIT Ness MageKnight 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Elfire, Mend, Vulnerary] NoAI
 UNIT
 
-PaulaUnit:
+PaulaUnitJam:
 UNIT Paula Sage_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire, Vulnerary] NoAI
 UNIT
 
-JeffUnit:
+JeffUnitJam:
 UNIT Jeff Sniper 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow, Vulnerary] NoAI
 UNIT
 
-PooUnit:
+PooUnitJam:
 UNIT Poo Swordmaster 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [KillingEdge, IronSword, Vulnerary] NoAI
 UNIT
 
-PokeyUnit:
+PokeyUnitJam:
 UNIT Pokey General 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato, Vulnerary] NoAI
 UNIT
 
-CecilUnit:
+CecilUnitJam:
 UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [LightBrand, SilverSword, Vulnerary] NoAI
 UNIT
 
-ButzUnit:
+ButzUnitJam:
 UNIT Butz WyvernLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword, Vulnerary] NoAI
 UNIT
 
-TerraUnit:
+TerraUnitJam:
 UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend, Vulnerary] NoAI
 UNIT
 
-DKUnit:
+DKUnitJam:
 UNIT DK General 0x00 Level(1,Ally,0) [16,7] 0x00 0x00 0x0 0x00 [SilverLance, HandAxe, Vulnerary] NoAI
+UNIT
+
+//Placeholders to get debug working, etc.
+ZeldaUnit:
+UNIT Zelda Thief 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI
+UNIT
+
+SahasrahlaUnit:
+UNIT Sahasrahla Priest 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
+MarinUnit:
+UNIT Marin Dancer 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+SariaUnit:
+UNIT Saria Mage_F 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+UNIT
+
+DededeUnit:
+UNIT Dedede Fighter 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT
+
+MetaKnightUnit:
+UNIT MetaKnight Myrmidon 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+FalcoUnit:
+UNIT Falco DragonKnight 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+PeppyUnit:
+UNIT Peppy Soldier 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+SlippyUnit:
+UNIT Slippy Pirate 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
 UNIT

@@ -339,7 +339,7 @@ REMA
 LOAD2 0x1 CutsceneMarth
 FADU 10
 MUSC M_TogetherWeRide
-CALL UnitGacha
+CALL UnitGachaJam
 WARPIN [1,0]
 MOVE 0xFFFF 0xFFFD [1,0]
 ENUN
@@ -362,35 +362,35 @@ ENDA
 Turn2ActivateGacha:
 Text(HouseBG,Ch1AnnaSummonsAnArmy)
 //SVAL sB 0x00110007
-CALL UnitGacha
+CALL UnitGachaJam
 //CURSOR_FLASHING [-1,-1]
 CAM1 [17,7]
 STAL 30
 //REMOVE_CURSORS
 //MOVE_1STEP 10 0xFFFE 0 //speed/unit/dir
 
-CALL UnitGacha
+CALL UnitGachaJam
 STAL 10
 //CURSOR_FLASHING [-1,-1]
 STAL 30
 //REMOVE_CURSORS
 //MOVE_1STEP 10 0xFFFE 1
 
-CALL UnitGacha
+CALL UnitGachaJam
 STAL 10
 //CURSOR_FLASHING [-1,-1]
 STAL 30
 //REMOVE_CURSORS
 //MOVE_1STEP 10 0xFFFE 2
 
-CALL UnitGacha
+CALL UnitGachaJam
 STAL 10
 //CURSOR_FLASHING [-1,-1]
 STAL 30
 //REMOVE_CURSORS
 //MOVE_1STEP 10 0xFFFE 3
 
-CALL UnitGacha
+CALL UnitGachaJam
 Text(HouseBG,Ch1AfterSummoning)
 NoFade
 ENDA
