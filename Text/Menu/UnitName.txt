@@ -579,6 +579,43 @@ A knight of Firene and retainer of[N]
 Celine. Spends most of his time[N]
 observing people in gardens.[X]
 
+## Ch7BossName
+Ch. 7 Boss[X]
+
+## Ch7BossDesc
+Complete placeholder.[N]
+Make him "ratface"?[X]
+
+## AmberName
+Amber[X]
+
+## AmberDesc
+Placeholder.[X]
+
+## RogueBernBossName
+Rogue Boss[X]
+
+## RogueBernBossDesc
+Name required.[X]
+
+## CitrinneName
+Citrinne[X]
+
+## CitrinneDesc
+Placeholder.[X]
+
+## DiamantName
+Diamant[X]
+
+## DiamantDesc
+Placeholder.[X]
+
+## AlcrystName
+Alcryst[X]
+
+## AlcrystDesc
+Placeholder.[X]
+
 ## KrisFactionName
 Kris's[X]
 
@@ -619,3 +656,27 @@ Pirate[X]
 ## PirateDesc
 A pirate roaming the seven[N]
 seas for plunder.[X]
+
+## BrigandName
+Brigand[X]
+
+## BrigandDesc
+Placeholder.[X]
+
+## ColonialName
+Colonial[X]
+
+## ColonialDesc
+Placeholder.[X]
+
+## RogueBernName
+Rogue Bern[X]
+
+## RogueBernDesc
+Placeholder.[X]
+
+## BernName
+Bern[X]
+
+## BernDesc
+Placeholder.[X]
