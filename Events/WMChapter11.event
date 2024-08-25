@@ -14,13 +14,36 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch11WorldMap)
 TEXTEND
-WorldMapLoadMapSprite(0, StarLord, 0, 9) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
-WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
-WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+//WorldMapLoadMapSprite(0, StarLord, 0, 9) //Marth's node seems to control chapter?
+WorldMapShowPortraitLeft(0,0x30) //Lilina
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapClearLeftPortrait(0)
+STAL 20
+WorldMapLoadMapSprite(0, Mage_F, 0, 9)
+WorldMapDisplayMapSprite(0, 0, 386, 220, 10) //Lilina on Pherae
+STAL 10
+WorldMapMoveMapSprite(0, 3, 386, 220, 300, 184, 600, 0, 1) //Move to Ostia
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
+WorldMapLoadMapSprite(1, Paladin, 1, 9)
+WorldMapLoadMapSprite(2, DragonKnight, 1, 9)
+WorldMapDisplayMapSprite(1, 0, 284, 184, 10)
+WorldMapDisplayMapSprite(2, 0, 316, 184, 10)
+WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
+TEXTCONT
+TEXTEND
+WorldMapLoadMapSprite(3, Hero, 1, 9)
+WorldMapDisplayMapSprite(3, 0, 260, 250, 10)
+STAL 10
+WorldMapMoveMapSprite(3, 3, 260, 250, 300, 200, 300, 0, 1)
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
+STAL 10
+WorldMapShowPortraitLeft(0,0x30) //Lilina
+TEXTEND
 TEXTCONT
 TEXTEND
 

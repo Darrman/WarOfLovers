@@ -92,6 +92,10 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+Text(Castle_Outside,Ch11OpeningEntry)
+Text(Castle_Room,Ch11OpeningPolitics)
+Text(Castle_Hall_3,Ch11OpeningDiamantIsOutside)
+Text(Town_Gate,Ch11OpeningDiamantDemands)
 FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
