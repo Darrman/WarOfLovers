@@ -30,6 +30,7 @@ House(0,Ch1House3,13,6)
 House(0,Ch1House4,14,7)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,13,8)
+Seize(0x3,DebugWarp,13,7)
 #endif
 END_MAIN
 
@@ -152,7 +153,6 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-//MNC2 0x3C //go to debug map
 //Intro Setup
 SetBackground(Black)
 EVBIT_MODIFY 1 //No skipping
@@ -421,6 +421,10 @@ LOAD1 0x1 TooLate
 FlashCursor(Kris,60)
 Text(Ch1KrisArrives)
 NoFade
+ENDA
+
+DebugWarp:
+MNC2 0x3C //go to debug map
 ENDA
 
 KrisREDA:

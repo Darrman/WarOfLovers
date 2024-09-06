@@ -39,6 +39,8 @@ DebugUnitsGood:
 UNIT Marth StarLord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
 UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, Warp] NoAI
+UNIT 0x7F Mercenary 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword] NoAI //Units beyond 0x80 disappear when switching chapters!
+//Here they consistently vanish beyond 0x80. Some IDs go in Arch of Coups but some don't? Appears to be vanilla behaviour.
 UNIT
 
 DebugUnitsFE:
@@ -120,7 +122,8 @@ UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [Fimbul
 UNIT
 
 DebugBad:
-UNIT Kris Hero 0x00 Level(20,Enemy,1) [14,9] 0x00 0x00 0x0 0x00 [MiracleSword] GuardTileAI
+//UNIT Kris Hero 0x00 Level(20,Enemy,1) [14,9] 0x00 0x00 0x0 0x00 [MiracleSword] GuardTileAI
+UNIT Pokey ArmourKnight 0x00 Level(1,Enemy,1) [0,1] 0x00 0x00 0x0 0x00 [IronLance] GuardTileAI
 UNIT
 
 //ORG $8D1650
@@ -179,7 +182,7 @@ ALIGN 4
 //ORG $9FF4B8
 DebugBeginningScene:
 LOAD1 0x1 DebugUnitsGood
-LOAD1 0x01 DebugUnitsFE
+//LOAD1 0x01 DebugUnitsFE
 ENUN
 LOAD1 0x1 DebugBad
 ENUN
