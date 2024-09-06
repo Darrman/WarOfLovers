@@ -9,7 +9,8 @@
 	SkillsUnitBuffer  = 0x02026BB0
 	SkillsCountBuffer = 0x02026BB4
 
-	BWLTable = 0x0203E884
+	#BWLTable = 0x0203E884
+	BWLTable = 0x02026E20
 
 	lPersonalSkillTable  = EALiterals+0x00
 	lClassSkillTable     = EALiterals+0x04
