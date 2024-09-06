@@ -276,3 +276,6 @@ POP
   
   //Different victory music for every chapter (7743)
   #include "GachaJam/VictoryMusicPerMap/Installer.event"
+  
+  //BWL Expansion to 0x87 (Based off of Loog's version for Bells of Byelen)
+  #include "GachaJam/BWLExtension/Installer.event"
