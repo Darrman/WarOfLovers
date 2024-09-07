@@ -11,7 +11,7 @@
 @	lGetSkills        = EALiterals+0x04
 @	lChargeupTable    = EALiterals+0x08
 
-	#BWLTable = 0x0203E884
+@	BWLTable = 0x0203E884
 	BWLTable = 0x02026E20
 
 	.macro blh to, reg=r3
@@ -29,7 +29,8 @@ HookUnitLoading:
 	ldr  r4, [r5]
 	ldrb r4, [r4, #4] @char num in r4
 
-	cmp r4, #0x46
+	@ extend this since you've extended the BWL a bunch
+	cmp r4, #0x88
 	bhi no_skills
 
 	ldr r0, =BWLTable

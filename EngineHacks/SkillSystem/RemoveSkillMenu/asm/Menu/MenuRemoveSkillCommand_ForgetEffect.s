@@ -4,7 +4,8 @@
 	.include "../Definitions.inc"
 
 	pExtraItemOrSkill = 0x0202BCDE
-	pBWLTable         = 0x0203E884
+@	pBWLTable         = 0x0203E884
+	pBWLTable         = 0x02026E20
 
 ForgetEffect:
 	push {r4-r6, lr}

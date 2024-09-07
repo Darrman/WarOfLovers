@@ -4,7 +4,8 @@
 	.include "Definitions.inc"
 
 	pExtraItemOrSkill = 0x0202BCDE
-	pBWLTable         = 0x0203E884
+@	pBWLTable         = 0x0203E884
+	pBWLTable         = 0x02026E20
 
 	lpCharSkillTable  = EALiterals+0x00
 	lpClassSkillTable = EALiterals+0x04
@@ -58,7 +59,7 @@ not_extra_learn_skill:
 	ldr  r2, [r0]
 	ldrb r2, [r2, #4]
 
-	@ if CharID > 0x46 then return 0
+	@ if CharID > 0x88 (0x46 in vanilla) then return 0
 	cmp r2, #0x46
 	bhi return_zero
 

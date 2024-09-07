@@ -10,7 +10,8 @@ mov r5, r1
 
 ldr r4, [r0]
 ldrb r4, [r4, #4] @char num in r4
-cmp r4, #0x46
+@ 0x46 to 0x88 for BWL
+cmp r4, #0x88
 bhi False
 
 ldr r0, =BWLTable

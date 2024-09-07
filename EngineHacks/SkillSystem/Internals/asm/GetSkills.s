@@ -9,7 +9,7 @@
 	SkillsUnitBuffer  = 0x02026BB0
 	SkillsCountBuffer = 0x02026BB4
 
-	#BWLTable = 0x0203E884
+	@BWLTable = 0x0203E884
 	BWLTable = 0x02026E20
 
 	lPersonalSkillTable  = EALiterals+0x00
@@ -77,7 +77,8 @@ no_personal:
 
 no_class:
 	@ learned skills, up to 4
-	cmp r6, #0x46
+	@ 0x46 -> 0x88 since BWL up
+	cmp r6, #0x88
 	bhi generic_unit
 
 	ldr r0, =BWLTable
