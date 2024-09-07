@@ -1,4 +1,4 @@
-// Taken from Bells of Byelen's buildfile
+// Taken from Bells of Byelen's buildfile with Loog's permission
 // going to go through all the BWL functions and change them to be the address I specify
 
 //0x02026e30 is the address that i'll use for data storage, 0x02026e20 for data array 
@@ -27,6 +27,11 @@ ALL DONE
 080a49a4  BWL_GetTotalExpGained
 080a4cfc  BWL_GetEntry
 */
+
+//There was a rewrite in the latest dev branch of Bells of Byelen converting this to C
+//Maybe I'll convert it at some point in the future when I know what it's doing.
+//It'll need some adjustments for my own needs anyway; I don't have fatigue, for example.
+//#include "BWLStuff.lyn.event"
 
 #define newBWLDataStorage 0x02026e30
 #define newBWLDataArray 0x02026e20

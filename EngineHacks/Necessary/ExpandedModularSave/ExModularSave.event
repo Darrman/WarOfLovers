@@ -83,6 +83,7 @@ gSaveBlockTypeSizeLookup:
 
 #include "SrcModules/Debuffs.lyn.event" // Debuffs module
 #include "SrcModules/ReadWriteSupplyItems.lyn.event" // Convoy module
+#include "SrcModules/BWLStuff.lyn.event" // BWL module (Loog)
 
 #ifdef USE_STRMAG_SPLIT
 	#ifdef STAIRS_ASM
@@ -129,7 +130,7 @@ gGameSaveChunks:
 
 	DeclSaveChunk($0000, $004C, MSa_SaveChapterState, MSa_LoadChapterState, EMS_CHUNK_CHAPTERSTATE)
 	DeclSaveChunk($004C, $0008, $0A59E0+1,            $0A5A00+1)            // World map skirmish RNG state
-	DeclSaveChunk($0054, $0880, $0A4264+1,            $0A421C+1,            EMS_CHUNK_BWLENTRIES)
+	DeclSaveChunk($0054, $0880, MSa_SaveBWL|1,        MSa_LoadBWL|1,        EMS_CHUNK_BWLENTRIES)
 	DeclSaveChunk($08D4, $00C0, $0A4288+1,            $0A4248+1,            EMS_CHUNK_WINDATA)
 	DeclSaveChunk($0994, $0019, $0A3150+1,            $0A3198+1,            EMS_CHUNK_EIDS_PERMANENT) //Three bytes go missing for word alignment
 	DeclSaveChunk($09B0, $0004, MSa_SaveBonusClaim,   MSa_LoadBonusClaim,   EMS_CHUNK_BONUSCLAIMDATA)
