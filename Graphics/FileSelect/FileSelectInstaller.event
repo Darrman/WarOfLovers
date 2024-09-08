@@ -12,16 +12,21 @@ ORG 0xA09E4C
 #incext Png2Dmp "SaveSlot.png" --lz77
 
 ORG 0xA21658
-#incext Png2Dmp "FileSelectBackground.png" --lz77
+#incext Png2Dmp "FileSelectBackgroundTilemap.png" --lz77
 ORG 0xA25DCC
 #incext Png2Dmp "FileSelectBackground.png" --palette-only
 ORG 0xA25ECC
 #incbin "FileSelectBackgroundTSA.bin"
 //Pasting FEbuilder's output into a bin magically doesn't work.
 //Getting rid of the TSA didn't work either.
-//File comparisons suggest Builder imported the image differently.
+//I tried offsetting the image, but that didn't help. FEbuilder definitely
+//removes duplicate tiles from the TSA.
+//Solution found! FEbuilder reduces the tiles: Usenti can too.
+//Don't use the full image. Reduce the tiles and use that file instead.
+//Import with FEbuilder, paste TSA into .bin, reduce tiles, run.
 
 //POP
+//Unnecessary currently but commented out in case TSA needs repointing later.
 //FileSelectTSA:
 //#incbin "FileSelectBackgroundTSA.bin"
 //PUSH
