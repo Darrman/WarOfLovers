@@ -1,0 +1,5 @@
+!*.png
+#There's really no need to include the output
+*.bin
+#Or old Feditor variants
+/*/feditorcsa/

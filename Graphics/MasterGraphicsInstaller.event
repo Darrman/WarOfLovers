@@ -8,3 +8,4 @@
 #include MapSprites/MapSpriteInstaller.event
 #include ItemIcons/ItemIconInstaller.event
 #include FileSelect/FileSelectInstaller.event
+#include MagicAnims/MagicAnimInstaller.event

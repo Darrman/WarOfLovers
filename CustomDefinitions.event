@@ -234,7 +234,7 @@
 #define Partia Nidhogg
 #define Falchion Sieglinde
 #define Blizzard Fimbulvetr
-#define Meteor Shine
+#define Meteor 0xc1
 #define Shaver Aircalibur
 #define Starlight 0x44
 #define Resire Nosferatu
@@ -252,6 +252,10 @@
 #define Thunderbolt KillerBallista
 #define Bolganone Forblaze
 #define Thoron Ivaldi
+#define Elthunder 0xbd
+#define Wind 0xbe
+#define Elwind 0xbf
+#define Tornado 0xc0
 
 //Music
 //Akaneia

@@ -166,3 +166,16 @@ Vanishes after use.[X]
 ## BootsDesc
 Increases movement by 4 points.[N]
 Vanishes after use.[X]
+
+## ElthunderName
+Elthunder[X]
+
+## WindName
+Wind[X]
+
+## ElwindName
+Elwind[X]
+
+## TornadoName
+Tornado[X]
+
