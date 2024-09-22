@@ -5,7 +5,7 @@
  </tileset>
  <layer id="1" name="Main" width="21" height="28">
   <properties>
-   <property name="Anims1" value="5"/>
+   <property name="Anims1" value="0"/>
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="11"/>
    <property name="Main" value=""/>

@@ -5,7 +5,7 @@
  </tileset>
  <layer id="1" name="Main" width="20" height="30">
   <properties>
-   <property name="Anims1" value="5"/>
+   <property name="Anims1" value="0x1C"/>
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="10"/>
    <property name="Main" value=""/>
@@ -48,7 +48,7 @@
 277,277,453,455,454,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277
 </data>
  </layer>
- <layer id="2" name="TopLeftRoomChest1" width="20" height="30">
+ <layer id="2" name="TopLeftRoomChest1" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -89,7 +89,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="3" name="TopLeftRoomChest2" width="20" height="30">
+ <layer id="3" name="TopLeftRoomChest2" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -130,7 +130,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="4" name="CellChest" width="20" height="30">
+ <layer id="4" name="CellChest" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>
@@ -171,7 +171,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="5" name="TopLeftDoor" width="20" height="30">
+ <layer id="5" name="TopLeftDoor" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
@@ -212,7 +212,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="6" name="ThroneRoomDoor" width="20" height="30">
+ <layer id="6" name="ThroneRoomDoor" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -253,7 +253,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="7" name="NorthCellDoorLeft" width="20" height="30">
+ <layer id="7" name="NorthCellDoorLeft" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="6"/>
@@ -294,7 +294,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="8" name="NorthCellDoorRight" width="20" height="30">
+ <layer id="8" name="NorthCellDoorRight" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="7"/>
@@ -335,7 +335,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="9" name="EastCellDoor1" width="20" height="30">
+ <layer id="9" name="EastCellDoor1" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="8"/>
@@ -376,7 +376,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="10" name="EastCellDoor2" width="20" height="30">
+ <layer id="10" name="EastCellDoor2" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="9"/>
@@ -417,7 +417,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="11" name="EastCellDoor3" width="20" height="30">
+ <layer id="11" name="EastCellDoor3" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="10"/>
@@ -458,7 +458,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="12" name="EastCellDoor4" width="20" height="30">
+ <layer id="12" name="EastCellDoor4" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="10"/>
@@ -499,7 +499,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="13" name="EastCellDoor5" width="20" height="30">
+ <layer id="13" name="EastCellDoor5" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="10"/>
