@@ -27,12 +27,12 @@ at least 1 HP.[N]
 2x crit rate, 0.5x hit rate.[N]
 (3 Durability Per Hit)[X]
 
-
 ## UMText_DV
- Dragon Vein[X]
+ Save[X]
 
 ## UMText_DVDesc
-Use the power of dragons.[X]
+Save progress made during this[N]
+chapter. May only be used once.[X]
 
 ## UM_Shove
  Shove[X]

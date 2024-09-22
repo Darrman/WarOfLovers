@@ -195,4 +195,12 @@ UnitMenuTable:
 
   UM_Separator 
 
+//So the system menu (press A on empty space) doesn't have a neat file like this,
+//so I'll just go in and disable suspend directly. Hacky, I know.
+//Good thing FEBuilder documents all of this.
+PUSH
+ORG 0x59CF50 //suspend's usability pointer
+POIN 0x4F451 //never show up
+POP
+
 #endif // UNIT_MENU

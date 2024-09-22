@@ -283,3 +283,6 @@ POP
   //Convoy Expansion and Item Combining (Tequila)
   #include "GachaJam/ConvoyExtension/FE8-Convoy_Stuff_EA.event"
   
+  //Disable autosave (Laqieer)
+  #include "GachaJam/AutosaveKiller/AutosaveKiller.event"
+  

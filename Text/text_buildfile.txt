@@ -18,19 +18,6 @@ Learned  [X]
 
 #include "Menu/LocationName.txt"
 
-#0xd4c LikesText
-//first text ID in the free block
-Likes:[X]
-
-#0xd4d DislikesText
-[0x9E]i[0x90]li[0x8A][0x85][0x90]:[X]
-
-#0xd4e HeightText
-Height:[X]
-
-#0xd4f AgeText
-Age:[X]
-
 #0x903 HouseText
 //Main story text
 [MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
@@ -66,9 +53,13 @@ This text is a placeholder.[A][X]
 #include Story/Chapter11.txt
 #include Story/MiscPromo.txt
 
-## DV1Desc
-Freeze all enemies[N]
-for one turn[X]
+## SavePointLabel
+Save Point[X]
+
+## GameSavedMessage
+Your progress has been saved.[N]
+You may resume gameplay from this[N]
+point with Resume Chapter.[A][X]
 
 ## nameCamus
 //for identity problems
