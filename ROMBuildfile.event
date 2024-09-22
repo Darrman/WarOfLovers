@@ -6,7 +6,15 @@
 	PROTECT $0 $C0 //no writing to the start of the rom
     PROTECT $C00000 //end of free space
 	PROTECT $2000000 //hard rom limit; hopefully this never activates
-	
+
+    #inctext DateTimeSetter //set build time - unnecessary, but why not
+    ORG 0xB30
+    POIN DebugProjectName
+    ORG FreeSpace
+
+    DebugProjectName:
+    String("War of Lovers v0.3"); BYTE 0
+
     #include "repointedTextTable.event"
 
     //Text first for Text ID definitions

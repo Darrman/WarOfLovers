@@ -11,7 +11,7 @@ PUSH
 
 ORG 0x5524
 POIN NewPortraitTable
-MESSAGE New portrait table is at currentOffset
+//MESSAGE New portrait table is at currentOffset
 
 POP
 
