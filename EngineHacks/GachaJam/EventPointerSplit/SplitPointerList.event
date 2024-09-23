@@ -30,17 +30,21 @@ POP
 
 ALIGN 4
 TileConfigPointers:
-ORG TileConfigPointers + (0x4 * 0xFF)
+WORD 0
+ORG TileConfigPointers + (0x4 * 0xFE)
 ObjTypePalettePointers:
 //Without this WORD 0 the game locks up when repointing this list
 WORD 0
 ORG ObjTypePalettePointers + (0x4 * 0xFE)
 TileAnimPointers:
-ORG TileAnimPointers + (0x4 * 0xFF)
+WORD 0
+ORG TileAnimPointers + (0x4 * 0xFE)
 MapPointers:
-ORG MapPointers + (0x4 * 0xFF)
+WORD 0
+ORG MapPointers + (0x4 * 0xFE)
 MapChangesPointers:
-ORG MapChangesPointers + (0x4 * 0xFF)
+WORD 0
+ORG MapChangesPointers + (0x4 * 0xFE)
 
 #define TileConfigPointerTable(aId, apointer) "PUSH; ORG TileConfigPointers+(0x4 * aId); POIN apointer; POP"
 #define ObjTypePalettePointerTable(aId, apointer) "PUSH; ORG ObjTypePalettePointers+(0x4 * aId); POIN apointer; POP"
