@@ -43,6 +43,23 @@
 	MountedUnmounted(PegasusKnight, KnightPegasus)
 	MountedUnmounted(FalcoKnight, KnightFalcon)
 	MountedUnmounted(DragonKnight, KnightDragon)
+	MountedUnmounted(FreeKnight, KnightFree)
+	MountedUnmounted(LanceKnight, KnightLance)
+	MountedUnmounted(AxeKnight, KnightAxe)
+	MountedUnmounted(ArchKnight, KnightArch)
+	MountedUnmounted(Ranger, KnightRanger)
+	MountedUnmounted(DukeKnight, KnightDuke)
+	MountedUnmounted(GreatKnight, KnightGreat)
+	MountedUnmounted(BowKnight, KnightBow)
+	MountedUnmounted(Horseman, HunterT2)
+	MountedUnmounted(DragonMaster,KnightDragonM)
+	MountedUnmounted(DragonMaster_F,KnightDragonM_F)
+	MountedUnmounted(Troubadour, KnightTroubadour)
+	MountedUnmounted(Valkyrie, KnightValkyrie)
+	MountedUnmounted(MageKnight, KnightMage)
+	MountedUnmounted(MageKnight_F, KnightMage_F)
+	MountedUnmounted(KnightLord, KnightEliwood)
+	MountedUnmounted(LordKnight, KnightSigurd)
     EndMountUnmountedTable
     
     
