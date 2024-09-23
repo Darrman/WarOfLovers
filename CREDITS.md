@@ -110,6 +110,14 @@
 - Anti-Air: Advance Wars (Amyd, Dark)
 - Tank: Advance Wars (Amyd, Dark)
 
+# Magic Animations:
+- Bolganone: Mikey Seregon
+- Meteor: Blazer, Jubby
+- Elthunder: Orihara Saki
+- Thoron: Mikey Seregon
+- Wind: Arch
+- Tornado: Mikey Seregon
+
 # Map Sprites:
 - Marth: Dominus_Vobiscum, Snewping
 - Free Knight: Agro
@@ -221,41 +229,21 @@
 - Converted by Darrman
 
 # Other Graphics
-- Status Screen: SaXor the Nobody
+- Status Screen: Darrman
 
-# Skill System Credits:
+# Assembly
 
-## Skill contributors
+- Built on the FE8 Skill System originally by Circleseverywhere.
+- Please go to the [SkillSys Credits](https://github.com/FireEmblemUniverse/SkillSystem_FE8/blob/master/CREDITS.md) for full credits.
 
-- Tequila
-- Rossendale
-- StanH
-- Leonarth
-- 2WB
-- Teraspark
-- Darrman
-- SD9k
-- Kao
-- blademaster
-- Snakey1
-- Zeta
-- Kirb
-- Sme
-- Ganzap
-- Mikey Seregon
-
-## Other
-
-- 7743: various bugfixes
-- RobertFPY, Pikmin1211, and Snakey1: Str/Mag Split Finalization
-
-## Icons
-
-- Monkeybard, Black Mage
-- Blaze: Stances
-- vlak: Drives
-- Pikmin1211: Miscellaneous
-- 2WB: Miscellaneous
-- Zaim: Indoor March
-- Reds: Quick Riposte
-
+- Unit select voice lines: Leonarth
+- FE3 weapon weight: Contro
+- 256 colour CGs: Huichelaar
+- Dismount: Crazycolorz, Contro
+- 32-colour animations: Huichelaar
+- Event pointer table split: Kirb
+- Unique battle/preperation music per chapter: Aera
+- Unique victory music per chapter: 7743
+- BWL expansion: LegendOfLoog
+- Convoy expansion: Tequila
+- Autosave killer: Laqieer
