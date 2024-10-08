@@ -41,6 +41,37 @@
 
 #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
+//Leaving War of Lovers definitions alone.
+//Will reuse several of them anyway.
+
+//SHPC Characters:
+//Generation 1: NES and Contemporaries
+#define FighterFF1 0x06
+#define WhiteMage 0x07
+#define BlackMage 0x08
+#define Firion 0x09
+#define Maria 0x0a
+#define Guy 0x0b
+#define HeroDW1 0x0c
+#define HeroDQ1 HeroDW1
+#define Erdrick 0x0d
+#define SoldierDW3 0x0e
+#define SoldierDQ3 SoldierDW3
+//No Ephraim, I'm not touching your slot until I'm desperate
+#define Alena 0x10
+#define Cristo 0x11
+#define Taloon 0x12
+#define Ninten 0x13
+#define Ana 0x14
+#define Lloyd 0x15
+#define Alis 0x16
+#define Odin 0x17
+#define Banutu 0x18
+#define Nakajima 0x19
+#define Yumiko 0x1a
+#define Arle 0x1b
+#define British 0x1c
+
 //Characters
 #define Marth 0x01
 #define Sheeda 0x02
@@ -217,6 +248,7 @@
 #define Helicopter 0xB6
 #define Battleship 0xB7
 #define Submarine 0xB8
+#define Halberdier_F 0xB9
 
 //Map sprites
 #define MarthSprite 0x0
