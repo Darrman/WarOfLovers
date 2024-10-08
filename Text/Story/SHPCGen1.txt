@@ -1,0 +1,866 @@
+## SHPCPrelude
+# The premise is grand RPG crossover, FE4-style. 
+# NARRATOR:
+Welcome. The tale you are about to witness[N]
+is a tale of grand ambition, entailing many[AN]
+different countries. To introduce them all[N]
+now would take far too long. This is a story[AN]
+of heroes, of grand schemes, of success and[N]
+failure. A saga spanning generations.[AN]
+Well, good listener? I don't know your name.[N]
+Please, could you tell me?[A]
+
+## SHPCPostNameEntry
+# NARRATOR:
+So your name is [Tact]? I see. Your role in[N]
+the story is to listen to me as it plays out.[AN]
+Yes, I know traditionally the hero is named[N]
+by the player. But there are so many heroes.[AN]
+Light Warrior [Tact]! [Tact], descendant of[N]
+Erdrick! Actually, Erdrick's birth name[AN]
+is [Tact] as well! So you do not get to name[N]
+any of the characters in this story.[AN]
+Now without further ado... this is the[N]
+Final Fantasy.[A][X]
+
+## SHPCFF1Opening
+The world is veiled in darkness.[N]
+The wind stops, the sea is wild,[AN]
+and the earth begins to rot.[N]
+The people wait, their only hope,[AN]
+a prophecy...[AN]
+"When the world is in darkness[N]
+Four Warriors will come..."[AN]
+After a long journey, four young[N]
+warriors arrive, each holding an ORB.[AN][X]
+
+## SHPCInConeria
+# FIGHTER:
+So this Garland guy has kidnapped[N]
+Princess Sara for reasons unknown.[AN]
+# BLACK MAGE:
+So our job is to[N]
+light him up?[A]
+# WHITE MAGE:
+You light him up, I stop the rest[N]
+of you from taking a dirt nap.[AN]
+# THIEF:
+I'll make sure I don't get into any[N]
+unforseen trouble out here.[A]
+# FIGHTER:
+Before we do anything else, we need[N]
+to go shopping. We have 400 gold.[AN]
+Chain Armour for myself, Cure for[N]
+White Mage, Fire for Black Mage.[AN]
+I suppose Thief can take this[N]
+Wooden Armour. Best weapons for[AN]
+everyone. Alright, that should be[N]
+about everything.[AN]
+# BLACK MAGE:
+These crystals won't get any[N]
+brighter here in Coneria.[AN]
+Let's go to the Temple of Fiends.[A][X]
+
+## SHPCGarlandFight
+# FIGHTER:
+We've gotten everything we can.[N]
+Garland has to be through here...[A]
+# WHITE MAGE:
+I've healed you as much as we can.[N]
+Do you think we're ready?[A]
+# FIGHTER:
+Of course, White Mage.[N]
+Let's go.[A]
+# GARLAND:
+No one touches my Princess!![N]
+LIGHT WARRIORS??[AN]
+You impertient fools. I, Garland,[N]
+will knock you all down!![A][X]
+
+## SHPCAfterGarland
+# GARLAND:
+Did you think you had won?[N]
+You may all be still standing,[AN]
+but you won't be bringing Sara[N]
+home to Coneria this time![AN]
+# FIGHTER:
+What do you mean "this time"?[N]
+I don't remember dying.[AN]
+# GARLAND:
+Is this not exactly how you started[N]
+your quest when you defeated me?[AN]
+I remember how you struck me down[N]
+in the past. Light Warriors,[AN]
+I hereby banish you from this plane![N]
+You shall interfere no more![AN]
+# BLACK MAGE:
+I have an idea of what's going on...[N]
+But we need to get out of here![AN]
+# WHITE MAGE:
+If I knew Exit this wouldn't be[N]
+a problem... Run![AN]
+# FIGHTER:
+Looks like Thief already legged it.[N]
+Hey, where'd the ORBs go?[AN][X]
+
+## SHPCInAlefgard
+# FIGHTER:
+This is not how things were meant[N]
+to go. Where in the world am I?[AN]
+# post-DW1, so he can run off with Gwaelin
+# if I feel like requantising her
+# HERO:
+You appear to be lost, traveller.[N]
+What is thy name?[AN]
+# FIGHTER:
+I don't really have one. I'm just[N]
+Fighter, because I'm a fighter.[A]
+# HERO:
+Hm, thou art quite like a soldier,[N]
+but that matters not.[AN]
+I am usually addressed as simply the[N]
+Hero, descendant of Erdrick.[AN]
+# FIGHTER:
+Erdrick? The man buried in Elfland?[N]
+You're descended from him?[AN]
+# HERO:
+Pray tell, where is this Elfland?[N]
+There is no such place on Alefgard.[AN]
+# FIGHTER:
+So I'm on Alefgard, completely lost,[N]
+my party is missing...[AN]
+# HERO:
+Myself and Princess Gwaelin are on a[N]
+quest to found a new kingdom.[AN]
+You are free to accompany us...[A][X]
+
+## SHPCFastForwardToCh5
+## NARRATOR:
+Well, I've been reading from chapter 1 of[N]
+12, but I think the best part is chapter[AN]
+6. [Tact], I hope you have no objections[N]
+to me fast-forwarding through the story.[AN]
+No? Excellent. Let me just recite the[N]
+important plot points...[A][X]
+
+## SHPCTimeTravelToDQ3
+# ERDRICK:
+All that seperates us from Baramos is[N]
+the cave through the Necrogond...[AN]
+Soldier, Priest, Wizard! Let's go![N]
+Wait, where's Wizard? Who are you?[AN]
+# HERO:
+I am the descendant of Erdrick...[A]
+# ERDRICK:
+Who? ...Oh. Oh, I remember now.[N]
+I knew this quest was familiar.[AN]
+The people of Alefgard gave that[N]
+title to me.[AN]
+Wait, if you're my descendant...[N]
+So, you're from the future?[AN]
+I have a lot of questions...[N]
+Let's start with this one:[AN]
+Is Alefgard well?[A][X]
+
+## SHPCLostInDuncansFactory
+# NINTEN:
+Okay, somebody somewhere is making[N]
+us relive our adventure.[AN]
+Duncan's Factory is still as confusing[N]
+as ever to navigate.[AN]
+# LLOYD:
+Another group is approaching us![N]
+I've got the bottle rockets![AN]
+# FIGHTER:
+Hey, don't shoot us! We're lost too![N]
+# LLOYD:
+You are? Well the railway's closed[N]
+because there's a rock on the tracks.[AN]
+So I launched a rocket to clear the[N]
+way last time I was here.[AN]
+# NINTEN:
+You all look so old-fashioned. What's[N]
+with the suits of armour?[AN]
+# FIGHTER:
+How else am I meant to protect[N]
+myself from enemies?[AN]
+# NINTEN:
+Well, let's launch that rocket,[N]
+find Ana, and solve this mystery.[A][X]
+
+## SHPCRevisitingAkaneia
+# MARTH:
+I remember this battle. Trying to[N]
+convince Camus to defect is futile.[AN]
+The only way would be to have saved[N]
+the twins earlier and convince Grunia[AN]
+as a whole to switch sides. But I[N]
+didn't know they were in Khadein![AN]
+# FIGHTER:
+Honestly, I was never in any ambigious[N]
+situations back at home.[AN]
+Never any situations where I'd rather[N]
+not have to fight my opponent.[AN]
+# SHEEDA:
+It's not that simple. Camus and Nina were[N]
+in love, so she tried to recruit him.[AN]
+We then "kill" him, except he lived by[N]
+washing up on the shores of Valencia.[AN]
+# FIGHTER:
+What are you all worrying about then?[N]
+Nobody dies. Everything worked out.[AN]
+# MARTH:
+Nina thought he was dead, and she had to[N]
+get in an arranged marriage with Hardin.[AN]
+He loved her, but she did not love him,[N]
+which ultimately corrupted him.[AN]
+So if we could recruit Camus now, the[AN]
+War of Heroes could be averted![A][X]
+
+## SHPCLostInAMaze
+# NAKAJIMA:
+It's so hot down here. I just need to[N]
+find Izanami, make it to Infini,[AN]
+and send Lucifer right back to hell.[N]
+Hm, they don't look like any demons[AN]
+I've ever seen before. Okay, what do[N]
+you want?[AN]
+# FIGHTER:
+I want to know where I am, who you are,[N]
+what's going on, and it's too hot![A]
+# YUMIKO:
+This is the Rotting Sea of Flames.[N]
+I'm Yumiko, he's Nakajima, and[AN]
+we're basically repeating our quest.[AN]
+# FIGHTER:
+I've been through a lot of places,[N]
+and the same few themes come up.[AN]
+Somebody has to be co-operating[N]
+somewhere, bringing us together...[AN]
+# NAKAJIMA:
+It seems every time I write a program,[N]
+something goes horribly wrong.[AN]
+I wanted to make a game out of this maze.[N]
+But finishing Devil Busters can wait.[A][X]
+
+## SHPCNoMoreAbridging
+# NARRATOR:
+And so, the Fighter and his army had[N]
+travelled across the genre, meeting[AN]
+many people from many walks of life.[N]
+Finally, he aimed to return home.[AN]
+However, the army missed Coneria and[N]
+landed in the future.[AN]
+[Tact], we're at the best part now.[N]
+Trust me. Wake up, you have to see it.[AN]
+This is the hardest final dungeon.[N]
+At least, that I know of.[A][X]
+
+## SHPCOpeningTowerPlotting
+# ZANDE:
+Make yourselves at home, everyone.[N]
+The process is almost complete.[AN]
+Some of our number have succumbed[N]
+to those so-called heroes...[AN]
+But we'll finally have our way with[N]
+all of existance![A]
+# ZOMA:
+Yes... Darkness will cover all![N]
+No more will that bloodline of[AN]
+heroic types try to threaten my[N]
+dominion over Alefgard![A]
+# DRAGONLORD:
+Zoma, Erdrick may have struck you[N]
+down before, but rest assured I[AN]
+have a plan that'll render him and[N]
+his descendant harmless.[AN]
+In fact, they may no longer be our[N]
+enemies at all if this goes right![AN]
+# CHAOS (maybe GARLAND if lazy):
+When has he ever said yes to your[N]
+offer of half the world?[AN]
+This is why trapping everyone in[N]
+time loops is the better idea.[AN]
+# EMPEROR:
+How convoluted. I've bent hell to[N]
+my whim before. I can do it again.[AN]
+And all of those ants will be sent[N]
+there sooner or later.[AN]
+# DRAGONLORD:
+It has absolutely worked before![N]
+But it never gets written on the[AN]
+Imperial Scrolls of Honour, and[N]
+then he's changed his mind![AN]
+# MEDIUTH:
+Silence! The fact of the matter is[N]
+that those stupid humans betrayed[AN]
+the dragons. They shall pay for their[N]
+crimes with mistreatment in kind.[AN]
+# NECROSARO:
+Agreed. Their greed, their savagery...[N]
+it knows no bounds! They killed[AN]
+my Rosa. The Secret of Evolution will[N]
+soon be complete. And then, humanity[AN]
+will fall! It's only justice for what[N]
+they've done to monsters![A][X]
+# EMPEROR:
+Well, let's just focus on exterminating[N]
+our current enemies. They're at the[AN]
+bottom of the Sylx Tower, and we're[N]
+at the top. Can they get in?[AN]
+# ZANDE:
+Considering the amount of teleportation[N]
+they've been doing, Dorga and Unne[AN]
+have almost certainly been visited.[N]
+They can get in.[AN]
+# LASSIC:
+What?! This is why you have a castle[N]
+floating in the sky. Also, make it[AN]
+invisible so you can't fly any space[N]
+ships into it.[AN]
+# ZOMA:
+I'll never understand your obsession[N]
+with "space ships". Such technology[AN]
+is utterly baffling to me. Swords and[N]
+sorcery is what I understand best![AN]
+# GIEGUE:
+No matter how primitive the humans[N]
+may be, they must not be taken lightly.[AN]
+They often find their way where they[N]
+don't belong... such as in song...[A]
+# CHAOS:
+Well, I think that's about everything.[N]
+Prepare for that pesky Fighter![A][X]
+
+## SHPCOpeningEntranceCrystalBrawl
+# FIGHTER:
+If I spent one more minute in that[N]
+maze, I would have lost it.[AN]
+And now the Sylx Tower is right here.[N]
+Every evil plotter is lurking there![A]
+# HERO:
+Thy crystals are as tacky as usual.[N]
+Art thou prepared to ascend?[AN]
+# BLACK MAGE:
+What are you calling tacky?![N]
+I quite like these crystals.[AN]
+It beats the typical dreary[N]
+dungeon, that's for sure.[AN]
+# ERDRICK:
+Not everything is about crystals![N]
+Now you're defending the enemy's[AN]
+castle because you think it looks[N]
+nice. I swear...[AN]
+# FIRION:
+Nobody ever said anything about[N]
+defending the enemy! It looks nice[AN]
+on the outside, but I'm sure it's[N]
+rotten on the inside.[AN]
+# TALOON:
+What is going on here?[N]
+We don't need to fight![AN]
+# ERDRICK:
+Black Mage over there is annoyed[N]
+my descendant criticised crystals.[AN]
+# BLACK MAGE:
+You know the value of things,[N]
+right? How much is this ORB[AN]
+worth? It's priceless. Nature[N]
+will fall apart otherwise.[AN]
+# TALOON:
+Considering that tower is made entirely[N]
+of crystals, the market would be[AN]
+significantly depressed. They'd be nearly[N]
+nearly worthless. A hundred gold each?[AN]
+# FIGHTER:
+You're calling the Crystals worthless?![N]
+Idiots! Chaos can wait - get over here,[AN]
+Erdrick! I'm sending you right back to[N]
+Elfland![AN]
+# ERDRICK:
+Oh, you think you know it all![N]
+Well I'll show you a little[AN]
+trick far beyond you! Lightning![A]
+# BLACK MAGE:
+Oh, that's a nice Lit 3. How do you[N]
+like a taste of this? NUKE![AN]
+# HERO:
+Healmore! We are outnumbered![N]
+Help is urgently required![AN]
+# SOLDIER:
+Alright, I've been itching to test[N]
+these weapons out. Hah![AN]
+# FIRION:
+Hey, leave me out of this. Maria![N]
+Guy! I need some help here![AN]
+# MARIA:
+Alright, I'll hit them from afar.[AN]
+# GUY:
+Hm... Oh, alright.[A]
+# Faces clear as units move around a bunch.
+Ice 3![A]
+Zap![A]
+Fast![A]
+Healall![A]
+Ruse![A]
+Ironise![A]
+# A bit further away...
+# TALOON:
+Phew! I got away. How did I start[N]
+that fight? It needs to be stopped![A]
+# ALENA:
+Did somebody say "fight"? Where?[N]
+I'm a bit out of practice.[AN]
+# CRISTO:
+Please, don't tell her-[A]
+# TALOON:
+It's that way--[A]
+# ALENA:
+Thanks! I'll be on my[N]
+way then. Bye![A]
+# CRISTO:
+Princess! Wait! We're at camp![N]
+They're probably training![A]
+# TALOON:
+Sigh... I didn't even properly[N]
+appraise those crystals![AN]
+# Back in the fight...
+# ALENA:
+Okay, who do I hit first...[N]
+I know! I'll hit you![AN]
+# FIGHTER:
+Ouch! How did you hit me so[N]
+hard? Well take this![AN]
+# CRISTO:
+You... you hurt the princess![N]
+Unforgiveable! Beat![A]
+# FIGHTER:
+Do you see Sara around here?[N]
+No! How could I hurt her?[AN]
+# HERO:
+Where oh where is Gwaelin?[N]
+I believe she was taken by thou![AN]
+# GUY:
+Nonsense! Hilda's safe![A]
+# MARIA:
+Hey, White Mage! We need your help![N]
+# WHITE MAGE:
+What are you fighting about?[N]
+I'll save my magic to heal[AN]
+all of you when you're done,[N]
+and don't make me cast Life![A]
+# MARIA:
+It was worth a try. There's[N]
+one last spell worth trying.[AN]
+# ERDRICK:
+Well you won't get to try![N]
+Stopspell![A]
+# FIRION:
+Mute won't save you! Try stopping[N]
+this attack![A]
+# SOLDIER:
+Don't even try it.[N]
+Take this![A]
+# BLACK MAGE:
+Desperate times call for desperate[N]
+measures. Rub them out![A]
+# ALENA:
+Instant-death spells? I won't give[N]
+you time to learn from your mistake![A]
+# MARIA:
+Fighter, Guy, cover me. I'm going[N]
+to cast Ultima.[AN]
+# GUY:
+Ultima... will it work?[A]
+# FIRION:
+Cure! We will win this fight![A]
+# HERO:
+Thou art a fool! Hurtmore![A]
+# CRISTO:
+I can win this fight[N]
+right now! Defeat![AN]
+# FIGHTER:
+Don't even try it.[N]
+It'll never work![N]
+# ALENA:
+You and me, let's go![N]
+Who's the better fighter?[AN]
+# MARIA:
+It's almost ready. Just a few[N]
+more seconds...[AN]
+# CRISTO:
+If at first you don't succeed,[N]
+try, try again! Defeat![AN]
+# ALENA:
+Cristo, will you ever--[N]
+Ack...[A]
+# FIGHTER:
+Who are you loyal to?[N]
+Are you planning a coup?[A]
+# BLACK MAGE:
+Now that's what I call a[N]
+miss! I now cast Sabre![AN]
+# ERDRICK:
+You're casting useless spells now?[N]
+Could you be any more condecending?[AN]
+You're lucky Wizard's not here, because[N]
+Bikill does its actual job![AN]
+# MARIA:
+It's ready. Meet the strongest spell[N]
+of them all: ULTIMA!![A][X]
+
+## SHPCOpeningBackToSquareOne
+# Away from the brawl...
+# MARTH:
+Did anyone else feel that?[A]
+# SHEEDA:
+Feel what?[A]
+# MARTH:
+Just a light breeze...[N]
+Nothing particularly strong.[A]
+# BANUTU:
+No... it's more than that.[N]
+Something ancient is at work.[AN]
+Our powers combined, in addition[N]
+to our desperate situation...[AN]
+Whatever's going on, it's something[N]
+unprecedented...[A]
+# SHEEDA:
+There's a shape forming there.[N]
+Everyone, get back![A]
+# BRITISH:
+I am Lord British, King of Britannia.[N]
+I usually summon others to me,[AN]
+but this situation is so dire, the[N]
+entire genre is under threat.[AN]
+In the beginning, everything was[N]
+but a prompt on a screen.[AN]
+Then came Ultima and Wizardry...[N]
+The ancestors of all.[AN]
+# MARTH:
+You mean... before the descendant[N]
+of Erdrick? That far back?[AN]
+# BRITISH:
+Marth Lowell, you are the youngest one[N]
+here! You have great potential,[AN]
+but it matters not if you succumb[N]
+to the evil plots surrounding all.[AN]
+Now, tell the Dragon Warrior and[N]
+Final Fantasy people to cease.[AN]
+Such petty, unvirtuous infighting[N]
+serves nobody.[AN]
+Gather everybody together. Much[N]
+needs to be explained.[A][X]
+
+## SHPCOpeningNoOhmStaffHere
+# MARIA:
+I thought this would actually[N]
+achieve something for once.[AN]
+# FIRION:
+So there's five of us, three[N]
+of them, and we're exhausted.[AN]
+# SHEEDA:
+Everyone, stop fighting![N]
+I don't know what you're[AN]
+fighting about, but it[N]
+won't achieve anything.[AN]
+# CRISTO:
+I managed to kill my princess[N]
+with my own Defeat spell![AN]
+And we've done no damage to[N]
+the other side...[AN]
+# ERDRICK:
+What were we fighting over?[N]
+I lost myself in the heat[AN]
+of the moment. I'm sure it[N]
+wasn't anything too big.[AN]
+# WHITE MAGE:
+Fighter, what did I tell you all[N]
+about making me have to use Life?[AN]
+# FIGHTER:
+It wasn't my fault! Something[N]
+about crystals, nothing big...[AN]
+# WHITE MAGE:
+Whatever, we can figure that out[N]
+after we kill Chaos.[AN]
+Life! ...No effect. Why does it[N]
+have to fail now?[AN]
+# CRISTO:
+Let me try. I killed Alena, it's[N]
+only right... Vivify![AN]
+It failed, hardly surprising...[N]
+Vivify! Attempt 3... Vivify![AN]
+# WHITE MAGE:
+Life 2! ...Okay, that should[N]
+never be able to fail.[AN]
+# GUY:
+No Phoenix Downs here. Life won't[N]
+work. Is death... permanent?[AN]
+# SHEEDA:
+I think something is stopping revival[N]
+magic from working. Even though this[AN]
+dungeon is associated with Fighter, it's[N]
+following my rules. The only way to[AN]
+revive the dead is to use a special[N]
+staff that only works for princesses![AN]
+# FIRION:
+Sheeda, aren't you a princess?[A]
+# SHEEDA:
+I have no idea how to use magic.[N]
+Surely there's another princess...[AN]
+Anyway, we have a meeting to attend.[N]
+Everyone needs to be present.[AN][X]
+
+## SHPCOpeningBritishLecture
+# BRITISH:
+So, thou hast finally come. Even if[N]
+many of you are injured or dead.[AN]
+I shall introduce myself again.[N]
+I am Lord British, King of Britannia.[AN]
+This is a mission of grave import.[N]
+Thou must defeat the evil atop the[AN]
+Sylx Tower by any means necessary.[N]
+But charging up there is folly.[AN]
+# ODIN:
+And what'll happen if we do just[N]
+charge on up the tower?[AN]
+# BRITISH:
+Odin, from the Algol star system...[N]
+Certain failure will occur if[AN]
+thy party neglects Eureka.[N]
+You did not lose the key?[AN]
+# TALOON:
+It's hiding in one of these bags,[N]
+I'm sure. Ah, I have it![AN]
+# BRITISH:
+Thou should mind that key, Torneko[N]
+Taloon, or defeat is sure.[AN]
+Many powerful weapons lurk in[N]
+the Forbidden Land, Eureka.[AN]
+# ARLE:
+Why do we need these weapons[N]
+anyway? We should just out-smart[AN]
+them instead. That would save[N]
+us from this long detour![AN]
+# BRITISH:
+Arle Nadja, you may be fond of your[N]
+puzzles, but wisdom alone will not[AN]
+save you. Conventional weaponry will[N]
+do little damage, as will most magic.[AN]
+# ANA:
+But what if it's psychic power?[N]
+Can I get them with some PK Beam?[AN]
+# BRITISH:
+Ana, from freezing Snowman...[N]
+If PK Beam Gamma is what you[AN]
+speak of, it will fail every time.[N]
+PK Freeze Gamma fails also.[AN]
+# NAKAJIMA:
+Is there any potential for talk?[N]
+Can we negotiate at all?[AN]
+# BRITISH:
+Akemi Nakajima, talking would be a[N]
+waste of time. Thy foes will take[AN]
+no quarter whatsoever. Either good[N]
+will prevail, or evil.[AN]
+Fighting amongst yourselves is folly,[N]
+and goes against all virtue.[AN]
+# HERO:
+I am sorry for my role in starting[N]
+that arguement earlier.[AN]
+# FIGHTER:
+I'm sorry too. We need to work together.[N]
+What else must we know...[AN]
+What awaits us at the end of Eureka?[AN]
+# BRITISH:
+Descendant of Erdrick, Light Warrior...[A]
+Once you acquire the ultimate weapons,[N]
+return to the surface and climb[AN]
+the tower. Beware of the many villains[N]
+that line the way to the summit.[AN]
+# SOLDIER:
+Are you a non-combatant, or can you[N]
+defend yourself in any way?[AN]
+# BRITISH:
+Companion of Erdrick, I prefer to avoid[N]
+direct intervention. But this situation[AN]
+is extraordinary. Rest assured, I am[N]
+more than capabable of defending myself.[AN]
+Now, one final matter of business. The[N]
+corpse in this crowd...[AN][X]
+
+## SHPCOpeningEvenOhmIsDubious
+# WHITE MAGE:
+I attempted to revive Alena several[N]
+times, but even Life 2 failed.[AN]
+This shouldn't be possible. Something[N]
+is very wrong in this tower.[AN]
+# BRITISH:
+Allow me to attempt a miracle of[N]
+resurrection. But if this fails,[AN]
+there is no recourse. At worst,[N]
+all that may remain are ashes...[AN]
+# Ohm doesn't need a body, I could reduce Alena to ashes for a minute...
+# Any rewrite is for another day
+... It failed. Her body is still[N]
+intact, but I highly advise against[AN]
+any further attempts of revival.[AN]
+# CRISTO:
+Oh, what have I done? Princess...[N]
+I... It's all my fault![AN]
+# SHEEDA:
+Princess, princess, princess...[N]
+Am I the only living woman of[AN]
+royal blood? Though I think Alena's[N]
+just as bad with magic as me...[AN]
+# ALIS:
+When I finally avenged my brother,[N]
+I found out my father used to[AN]
+be the king. It came out of nowhere,[N]
+but the system needed a ruler, so[AN]
+I became the queen. But what's that[N]
+got to do with anything?[AN]
+# FIRION:
+This is to do with revival magic.[N]
+Apparently Akaneian mortality[AN]
+is in effect despite not being[N]
+there. I'm confused too.[AN]
+# SHEEDA:
+Good thing I borrowed this off of[N]
+Ellis before this started.[AN]
+Alis, this is the Ohm Staff. Do[N]
+you have any magic abilities?[AN]
+# ALIS:
+I've some, but not a great deal.[N]
+What rules does this staff have?[AN]
+# MARTH:
+Only royal women can use it, but[N]
+it can revive the dead without[AN]
+any restrictions whatsoever.[N]
+Sometimes it has one use, other[AN]
+times five. I'm not sure how[N]
+many uses it has right now.[AN]
+# ALIS:
+Well, I never learned Life...[N]
+Now's a good time to learn.[AN]
+OHM![N]
+# ALENA:
+... ... Huh? What just happened?[N]
+Right, somebody hit me with Defeat![AN]
+Sniff... I don't remember smelling[N]
+of rotten flesh...[AN]
+# ALIS:
+The staff broke. Is partial de-[N]
+composition a standard side effect?[AN]
+# MARTH:
+No. I've never heard of such a side[N]
+effect. Is something containing[AN]
+the power of resurrection spells[N]
+within Sylx Tower?[A]
+# ALENA:
+So I've gotten caught in a botched[N]
+resurrection. Can I still fight?[AN]
+# Something gets smashed; actually smacking someone may be a bridge too far
+It seems that I can! Wait, I don't[N]
+recognise you. Who are you?[AN]
+# BRITISH:
+Princess Alena of Santeem...[N]
+Thou hast returned to life.[AN]
+I am Lord British. Thou art[N]
+truly alive, and thy wounds[AN]
+shall heal given time. But if[N]
+the strongest of all revival[AN]
+magic is failing... We must[N]
+not delay any further![AN]
+# FIGHTER:
+Our objective is clear: we[N]
+charge into Eureka, gather[AN]
+the strongest weapons, and[N]
+take the fight to Chaos![A][X]
+
+## SHPCAfterPrepGen1
+(Placeholder)[A][X]
+
+## SHPCMediuthBlocksResurrection
+## MEDIUTH:
+This... it wasn't perfect, but[N]
+it's not far off at all.[A]
+## NECROSARO:
+Mediuth, what did you manage[N]
+to pull off?[A]
+## MEDIUTH:
+Back in Durhua, it takes a massive[N]
+amount of energy to revive the dead.[AN]
+But everywhere else, it is trivial.[N]
+So if I managed to harness enough[AN]
+energy, I could impose my native rules[N]
+on this tower.[AN]
+## NECROSARO:
+Very interesting. Does it only work[N]
+on humans, or is it universal?[AN]
+## MEDIUTH:
+Universal. I'd love to see humanity[N]
+get a taste of their own medicine,[AN]
+but I can't exclusively seal off[N]
+enemy resurrection spells.[AN]
+## NECROSARO:
+A shame... Perhaps there would be[N]
+another way if we could revive.[AN]
+Only divine intervention could[N]
+bring Rosa back, and the gods[AN]
+are not on our side. Evolution[N]
+it is, then.[AN]
+## CHAOS:
+Hm... Mediuth, can you toggle your[N]
+resurrection blocker? I could[AN]
+try to revive the Four Fiends.[N]
+Once they're back, turn it back on.[AN]
+## MEDIUTH:
+...It's permanent. It may be proximity[N]
+based, in which case I could wait in[AN]
+the Dark World, but otherwise, it's[N]
+tied to my own life.[AN]
+## CHAOS:
+Unfortunate. Still, I saw the Light[N]
+Warriors at the Dragon Warrior's[AN]
+throat. Most of their resurrection[N]
+spells doing absolutely nothing,[AN]
+and their absolute strongest only[N]
+partially reviving the dead?[AN]
+## NECROSARO:
+Oh, watching them fumble over[N]
+themselves as their Vivifies[AN]
+kept failing to revive that fool[N]
+Alena... Oh, you were that close[AN]
+to getting rid of one of those[N]
+stupid chosen ones forever![AN]
+Still, if she's a mindless zombie[N]
+now, I thank you, Mediuth.[AN]
+## MEDIUTH:
+Apparently that Alis was a princess[N]
+all along. I'll need a word with[AN]
+Lassic about that one: I know Sheeda[N]
+is and Alena was useless with magic.[AN]
+If I knew Alis could use Ohm too,[N]
+I'd have factored that in![AN]
+## LASSIC:
+What's this about Alis?! Bah, I[N]
+knew I should have had her shot[AN]
+too when I had the chance. Oh,[N]
+good day, Mediuth, Necrosaro.[AN]
+Don't you think we should move?[N]
+I fear we may be found here![AN]
+## NECROSARO:
+You're still just a cowardly human.[N]
+Powerful, but nothing more.[AN]
+If you had told us about Alis,[N]
+we may have prepared for this.[AN]
+There's a queue for evolution,[N]
+and remember I discovered the[AN]
+Secret of Evolution! Lassic,[N]
+you're going to have to wait.[AN]
+## LASSIC:
+Please, I'm just an old man.[N]
+I need this power the most![AN]
+Wait! Where are you going?[N]
+Don't leave me behind![A][X]

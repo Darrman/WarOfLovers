@@ -1,0 +1,417 @@
+## GuideCharactersCategory
+Characters[X]
+
+## GuideFighterTitle
+Fighter, Light Warrior[X]
+
+## GuideFighterEntry
+Fighters are the traditional[N]
+choice to lead a party.[N]
+They have excellent equipment[N]
+selection and easily shrug[N]
+off enemy attacks.[N]
+However, no amount of defence[N]
+can defend a Fighter from[N]
+the many paralysis-inducing[N]
+enemies in the Marsh Cave.[N]
+Fighters promote into Knights.[N]
+From: Final Fantasy, 1987[X]
+
+## GuideWhiteMageTitle
+White Mage, Light Warrior[X]
+
+## GuideWhiteMageEntry
+White Mages are the best healers[N]
+available for a party. They[N]
+learn a great variety of white[N]
+magic spells to support their[N]
+allies. It is recommended to[N]
+keep them near the bottom of[N]
+the party to avoid damage.[N]
+White Mages promote into White[N]
+Wizards, who learn powerful[N]
+spells such as Fade.[N]
+From: Final Fantasy, 1987[X]
+
+## GuideBlackMageTitle
+Black Mage, Light Warrior[X]
+
+## GuideBlackMageEntry
+Black Mages are the premier[N]
+offensive spellcasters.[N]
+They learn a wide array of[N]
+black magic capable of[N]
+dealing severe damage to any[N]
+large groups of enemies.[N]
+Black Mages are physically[N]
+weak and frail, however.[N]
+They promote into Black[N]
+Wizards, capable of Nuke.[N]
+From: Final Fantasy, 1987[X]
+
+## GuideFirionTitle
+Firion[X]
+
+## GuideFirionEntry
+AKA: Firioniel[N]
+Firion is part of the[N]
+resistance against the[N]
+Paramekian Empire.[N]
+However, his party were[N]
+annihilated and Phin fell.[N]
+How Firion grows stronger[N]
+all depends on the weapons[N]
+and magic he uses. Training[N]
+his evasion is recommended.[N]
+Getting hit is dangerous.[N]
+From: Final Fantasy II, 1988[X]
+
+## GuideMariaTitle
+Maria[X]
+
+## GuideMariaEntry
+Like Firion, Maria is also[N]
+a resistance member. She[N]
+was rescued after Phin's[N]
+fall by Princess Hilda,[N]
+but her brother Leon never[N]
+made it there. Maria, too,[N]
+can train whatever skills[N]
+she pleases. It is best to[N]
+have one person attack from[N]
+the back row with magic.[N]
+From: Final Fantasy II, 1988[X]
+
+## GuideGuyTitle
+Guy[X]
+
+## GuideGuyEntry
+Guy is the third member of[N]
+Firion's group to make it[N]
+to safety in Altea. The party[N]
+set out under the Wild Rose[N]
+to liberate Phin. Guy himself[N]
+can also talk to animals.[N]
+One method of gaining strength[N]
+is to resort to friendly fire.[N]
+This has the effect of raising[N]
+maximum HP and weapon skill.[N]
+From: Final Fantasy II, 1988[X]
+
+## GuideErdrickTitle
+Erdrick, Hero[X]
+
+## GuideErdrickEntry
+AKA: Loto, Roto[N]
+On his sixteenth birthday,[N]
+Erdrick (then Arus) set out[N]
+in his father Ortega's foot-[N]
+steps in an attempt to slay[N]
+the Archfiend Baramos.[N]
+Being the Hero, Erdrick has[N]
+access to good equipment and[N]
+magic, including what would[N]
+ultimately bear his name.[N]
+He can't stop being a hero![N]
+From: Dragon Warrior III[N]
+   / Dragon Quest III, 1988[X]
+
+## GuideSoldierTitle
+Soldier[X]
+
+## GuideSoldierEntry
+AKA: Warrior[N]
+Soldiers have the strongest[N]
+defence amongst all the[N]
+classes. Unlike their rival[N]
+Fighters, they have excellent[N]
+equipment choices. However,[N]
+it costs a lot of money to[N]
+outfit Soldiers, and they are[N]
+much slower. Ultimately,[N]
+either offensive class will[N]
+serve the party well.[N]
+From: Dragon Warrior III[N]
+   / Dragon Quest III, 1988[X]
+
+## GuideAlenaTitle
+Princess Alena of Santeem[X]
+
+## GuideAlenaEntry
+AKA: (The DS Russian)[N]
+When banned from leaving the[N]
+castle, Alena simply kicked[N]
+down a damaged wall and escaped.[N]
+She then set out to grow ever[N]
+stronger and defeat everyone.[N]
+She's more than capable of this:[N]
+with high stats in most areas,[N]
+a high crit rate, and the ability[N]
+to strike twice, using Alena is[N]
+highly recommended.[N]
+From: Dragon Warrior IV[N]
+   / Dragon Quest IV, 1990[X]
+
+## GuideCristoTitle
+Chancellor Cristo[X]
+
+## GuideCristoEntry
+AKA: Clift, Kyril[N]
+When Alena made good her[N]
+escape, Cristo and Brey[N]
+were in hot pursuit.[N]
+As he has a crush on Alena,[N]
+he joined in on her quest.[N]
+Cristo is a good "pilgrim",[N]
+learning Healus and Healall.[N]
+He also learns Beat and Defeat,[N]
+which he will use repeatedly[N]
+on enemies immune to them.[N]
+From: Dragon Warrior IV[N]
+   / Dragon Quest IV, 1990[X]
+
+## GuideTaloonTitle
+Torneko Taloon the Arms Merchant[X]
+
+## GuideTaloonEntry
+After scraping together some[N]
+savings in sleepy Lakanaba,[N]
+Taloon travelled the world,[N]
+wheeling and dealing to buy[N]
+his own shop and make a fortune.[N]
+As a combatant, Taloon is a[N]
+goof-off, which usually works[N]
+out somehow. Alena, Solo/Sofia,[N]
+and Ragnar may be stronger, but[N]
+Taloon's miracles can be handy.[N]
+From: Dragon Warrior IV[N]
+   / Dragon Quest IV, 1990[X]
+
+## GuideNintenTitle
+Ninten[X]
+
+## GuideNintenEntry
+Ninten was at home when his[N]
+lamp suddenly came to life.[N]
+This was but one of many[N]
+incidents in Podunk, leading[N]
+Ninten to trace his great-[N]
+grandfather George...[N]
+Ninten has good offence and[N]
+support PSI, but cannot[N]
+psychically attack. 4th-D Slip[N]
+is essential on Mt. Itoi.[N]
+From: Earth Bound (Zero[N]
+/ Beginnings) / Mother, 1988[X]
+
+## GuideAnaTitle
+Ana[X]
+
+## GuideAnaEntry
+Living in distant Snowman, Ana[N]
+foresaw a boy helping her find[N]
+her missing parents. With her[N]
+hat in hand, Ninten appeared to[N]
+answer the call.[N]
+Ana's capable of using almost[N]
+every form of PSI, offensive[N]
+and defensive alike. Her frying[N]
+pan physicals are weak, though.[N]
+Her powers prove very useful.[N]
+From: Earth Bound (Zero[N]
+/ Beginnings) / Mother, 1988[X]
+
+## GuideLloydTitle
+Lloyd[X]
+
+## GuideLloydEntry
+Lloyd took to hiding in a dustbin[N]
+to escape bullies. He is quite[N]
+intelligent, knowing how to use[N]
+complicated equipment such as[N]
+rockets and tanks.[N]
+As a combatant, his strength is[N]
+dwarfed by Teddy's. But Lloyd[N]
+is the hero against R7038, and[N]
+his know-how is required to find[N]
+Eve and claim the Melodies.[N]
+From: Earth Bound (Zero[N]
+/ Beginnings) / Mother, 1988[X]
+
+
+## GuideMarthTitle
+Prince Marth of Aritia[X]
+
+## GuideMarthEntry
+AKA: Mars Lowell, ...of Altea[N]
+After King Cornelius was[N]
+betrayed by allies Gra,[N]
+Marth fled to Talis in[N]
+exile. He trained to slay[N]
+the Dark Dragon Mediuth.[N]
+Marth is deceptively strong.[N]
+Enemies cannot resist the[N]
+temptation to attack him, even[N]
+if they could kill another[N]
+member of the army.[N]
+From: Fire Emblem: (Dark/Shadow)[N]
+Dragon and the (Sword/Blade)[N]
+of Light, 1990[X]
+
+## GuideSheedaTitle
+Princess Sheeda of Talis[X]
+
+## GuideSheedaEntry
+AKA: Caeda, Shiida, ...of Talys[N]
+Sheeda's father Mostyn took[N]
+Marth in when he arrived.[N]
+She fought alongside him,[N]
+with Marth confessing his[N]
+love for her at the end.[N]
+Sheeda is the only flyer until[N]
+Minerva joins. She can steal[N]
+Jeigan's Silver Lance to get[N]
+around her poor strength stat,[N]
+only fixed with a late promotion.[N]
+From: Fire Emblem: (Dark/Shadow)[N]
+Dragon and the (Sword/Blade)[N]
+of Light, 1990[X]
+
+## GuideBanutuTitle
+Banutu[X]
+
+## GuideBanutuEntry
+AKA: Bantu[N]
+Banutu is a Mamkute. He pitied the[N]
+sleeping Chiki and woke her up,[N]
+before losing her and his Fire[N]
+Stone. He asks Marth to find her,[N]
+which he eventually does.[N]
+Banutu's growths are the worst in[N]
+the game. However, his base defence[N]
+is better than Doga's, letting him[N]
+serve as a replacement wall for a[N]
+few chapters.[N]
+From: Fire Emblem: (Dark/Shadow)[N]
+Dragon and the (Sword/Blade)[N]
+of Light, 1990[X]
+
+## GuideNakajimaTitle
+Akemi Nakajima[X]
+
+## GuideNakajimaEntry
+Dissatisfied with his lot in life,[N]
+Nakajima invented the Demon[N]
+Summoning Program. He sacrificed[N]
+people to Loki, but drew the line[N]
+at Yumiko and set off to stop him.[N]
+Nakajima has the ability to talk[N]
+to the many demons lurking in[N]
+the maze. His physical strength is[N]
+good, but he has no magic ability[N]
+whatsoever.[N]
+From: Digital Devil Story:[N]
+   Megami Tensei, 1987[X]
+
+## GuideYumikoTitle
+Yumiko Shirasagi[X]
+
+## GuideYumikoEntry
+A transfer student with a[N]
+connection to the mythological[N]
+Izanami. Her help is required[N]
+in order to subdue Lucifer at[N]
+the top of Infini Palace.[N]
+Yumiko is the opposite of[N]
+Nakajima in many ways: she has[N]
+good magic potential and little[N]
+physical might. Offensive magic[N]
+is weak: healing is best.[N]
+From: Digital Devil Story:[N]
+   Megami Tensei, 1987[X]
+
+## GuideAlisTitle
+Alis[X]
+
+## GuideAlisEntry
+AKA: Alisa[N]
+After witnessing her brother[N]
+Nero get executed in broad[N]
+daylight, Alis swore revenge.[N]
+Her quest to kill King Lassic[N]
+led her to explore three planets.[N]
+Alis starts quite weak, but[N]
+after grinding a few levels[N]
+she becomes the most well-[N]
+rounded character, especially[N]
+with the Laconian Sword.[N]
+From: Phantasy Star, 1987[X]
+
+## GuideOdinTitle
+Odin[X]
+
+## GuideOdinEntry
+AKA: Tylon[N]
+Odin was an opponent of Lassic,[N]
+and Alis sought him out only to[N]
+find a statue. She tracked down[N]
+the talking cat Myau to retrieve[N]
+the medicine to restore him.[N]
+Odin is presented as a physical[N]
+powerhouse, but Alis is stronger.[N]
+He also lacks any magic, resulting[N]
+in him being outclassed by the[N]
+rest of the party.[N]
+From: Phantasy Star, 1987[X]
+
+## GuideHeroTitle
+Descendant of Erdrick[X]
+
+## GuideHeroEntry
+AKA: The Hero[N]
+With the Dragonlord stealing[N]
+the Ball of Light, Alefgard[N]
+plunged into darkness. One[N]
+brave man sought to change[N]
+this, and set forth.[N]
+As he is in a party of one,[N]
+the Hero must do everything[N]
+himself. Before saving Gwaelin[N]
+and slaying the Dragonlord,[N]
+thou must defeat many enemies.[N]
+From: Dragon Warrior[N]
+   / Dragon Quest, 1986[X]
+
+## GuideArleTitle
+Arle Nadja[X]
+
+## GuideArleEntry
+!!! PLACEHOLDER !!![N]
+At some point Madou Mono-[N]
+gatari is going to be[N]
+fired up for accurate plot[N]
+description, even if I am[N]
+dungeon crawled out.[N]
+Don't worry, Doctor Robotnik[N]
+and Kirby won't be scrubbing[N]
+Arle out for international[N]
+release here. No Mean Bean[N]
+Avalanches, I promise![N]
+From: Madou Monogatari[N]
+   / Sorcery Saga, ~1989[X]
+
+## GuideBritishTitle
+Lord British of Britannia[X]
+
+## GuideBritishEntry
+Many moons ago, British[N]
+fought with the evil wizard[N]
+Mondain in what was then[N]
+called Sosaria. A stranger[N]
+was summoned to finish the job.[N]
+British grants the Stranger/[N]
+Avatar support throughout the[N]
+ages, but never directly fights.[N]
+He's typically invincible, but[N]
+that protection is not perfect.[N]
+From: Akalabeth / Ultima 0, 1979[X]
