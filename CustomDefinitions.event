@@ -72,6 +72,8 @@
 #define Arle 0x1b
 #define British 0x1c
 
+#define Zande 0x50
+
 //Characters
 #define Marth 0x01
 #define Sheeda 0x02
@@ -272,7 +274,7 @@
 #define Resire Nosferatu
 #define Dulam Eclipse
 #define Maph Gleipnir
-#define IotesShield FiliShield
+#define IotesShield DelphiShield
 #define WingSpear Reginleif
 #define FireGun 0x98
 #define Elephant 0x99

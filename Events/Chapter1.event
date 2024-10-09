@@ -1,4 +1,4 @@
-EventPointerTable(0x7, PointerList)
+EventPointerTable(0x8, PointerList)
 
 ALIGN 4
 PointerList:

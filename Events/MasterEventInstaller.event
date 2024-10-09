@@ -1,6 +1,9 @@
 #include Gacha.event
 #include "WorldMapEvents.event"
 {
+#include "SHPC1.event"
+}
+{
 #include "Debug.event"
 }
 {
