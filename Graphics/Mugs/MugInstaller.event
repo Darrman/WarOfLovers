@@ -24,13 +24,21 @@ POP
 #define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl; POP"
 
 
-Marth_Mug:
-#incext PortraitFormatter "Marth.png"
-setMugEntry(0x2, Marth_Mug, 2, 6, 2, 4)
+//Marth_Mug:
+//#incext PortraitFormatter "Marth.png"
+//setMugEntry(0x2, Marth_Mug, 2, 6, 2, 4)
+//
+//Sheeda_Mug:
+//#incext PortraitFormatter "Sheeda.png"
+//setMugEntry(0x3, Sheeda_Mug, 4, 7, 3, 5)
 
-Sheeda_Mug:
-#incext PortraitFormatter "Sheeda.png"
-setMugEntry(0x3, Sheeda_Mug, 4, 7, 3, 5)
+MarthFE1_Mug:
+#incext PortraitFormatter "MarthFE1.png"
+setMugEntry(0x2, MarthFE1_Mug, 3, 8, 3, 6)
+
+SheedaFE1_Mug:
+#incext PortraitFormatter "SheedaFE1.png"
+setMugEntry(0x3, SheedaFE1_Mug, 3, 7, 3, 5)
 
 Chiki_Mug:
 #incext PortraitFormatter "Chiki.png"
@@ -44,93 +52,184 @@ Mario_Mug:
 #incext PortraitFormatter "Mario.png"
 setMugEntry(0x6, Mario_Mug, 3, 7, 3, 5)
 
-Luigi_Mug:
-#incext PortraitFormatter "Luigi.png"
-setMugEntry(0x7, Luigi_Mug, 4,5,4,3)
+DragonWarrior_Mug:
+#incext PortraitFormatter "DragonWarrior.png"
+setMugEntry(0x7, DragonWarrior_Mug, 4,8,4,6)
 
-Peach_Mug:
-#incext PortraitFormatter "Peach.png"
-setMugEntry(0x8, Peach_Mug, 2,7,2,5)
+Fighter_Mug:
+#incext PortraitFormatter "Fighter.png"
+setMugEntry(0x8, Fighter_Mug, 4, 5, 4, 3)
 
-Bowser_Mug:
-#incext PortraitFormatter "Bowser.png"
-setMugEntry(0x9, Bowser_Mug, 3,7,3,4)
+WhiteMage_Mug:
+#incext PortraitFormatter "WhiteMage.png"
+setMugEntry(0x9, WhiteMage_Mug, 4, 6, 4, 4)
 
-DK_Mug:
-#incext PortraitFormatter "DK.png"
-setMugEntry(0xA, DK_Mug, 2,7,3,4)
+BlackMage_Mug:
+#incext PortraitFormatter "BlackMage.png"
+setMugEntry(0xa, BlackMage_Mug, 4, 6, 4, 4)
 
-Toad_Mug:
-#incext PortraitFormatter "Toad.png"
-setMugEntry(0xB, Toad_Mug, 3,8,3,6)
+Firion_Mug:
+#incext PortraitFormatter "Firion.png"
+setMugEntry(0xb, Firion_Mug, 3, 6, 3, 4)
 
-Wario_Mug:
-#incext PortraitFormatter "Wario.png"
-setMugEntry(0xC, Wario_Mug, 3,7,3,4)
+Maria_Mug:
+#incext PortraitFormatter "Maria.png"
+setMugEntry(0xc, Maria_Mug, 4, 8, 4, 5)
 
-Daisy_Mug:
-#incext PortraitFormatter "Daisy.png"
-setMugEntry(0xD, Daisy_Mug, 1,8,3,6)
+Guy_Mug:
+#incext PortraitFormatter "Guy.png"
+setMugEntry(0xd, Guy_Mug, 3, 7, 3, 5)
 
-Yoshi_Mug:
-#incext PortraitFormatter "Yoshi.png"
-setMugEntry(0xE, Yoshi_Mug, 4,7,4,3)
+Erdrick_Mug:
+#incext PortraitFormatter "Erdrick.png"
+setMugEntry(0xe, Erdrick_Mug, 4, 7, 4, 5)
 
-Waluigi_Mug:
-#incext PortraitFormatter "Waluigi.png"
-setMugEntry(0xF, Waluigi_Mug, 3,7,3,5)
+Soldier_Mug:
+#incext PortraitFormatter "Soldier.png"
+setMugEntry(0xf, Soldier_Mug, 4, 7, 4, 5)
 
-Ash_Mug:
-#incext PortraitFormatter "Ash.png"
-setMugEntry(0x10, Ash_Mug, 4,7,4,5)
+Alena_Mug:
+#incext PortraitFormatter "Alena.png"
+setMugEntry(0x10, Alena_Mug, 4, 8, 4, 6)
 
-Misty_Mug:
-#incext PortraitFormatter "Misty.png"
-setMugEntry(0x11, Misty_Mug, 4,7,4,5)
+Cristo_Mug:
+#incext PortraitFormatter "Cristo.png"
+setMugEntry(0x11, Cristo_Mug, 5, 7, 5, 5)
 
-Brock_Mug:
-#incext PortraitFormatter "Brock.png"
-setMugEntry(0x12, Brock_Mug, 3,5,3,3)
+Taloon_Mug:
+#incext PortraitFormatter "Taloon.png"
+setMugEntry(0x12, Taloon_Mug, 2, 6, 3, 3)
 
-Jessie_Mug:
-#incext PortraitFormatter "Jessie.png"
-setMugEntry(0x13, Jessie_Mug, 5,7,4,4)
+Ninten_Mug:
+#incext PortraitFormatter "Ninten.png"
+setMugEntry(0x13, Ninten_Mug, 3, 7, 3, 5)
 
-James_Mug:
-#incext PortraitFormatter "James.png"
-setMugEntry(0x14, James_Mug, 4,6,4,4)
+Ana_Mug:
+#incext PortraitFormatter "Ana.png"
+setMugEntry(0x14, Ana_Mug, 4, 8, 4, 5)
 
-May_Mug:
-#incext PortraitFormatter "May.png"
-setMugEntry(0x15, May_Mug, 4,5,4,3)
+Lloyd_Mug:
+#incext PortraitFormatter "Lloyd.png"
+setMugEntry(0x15, Lloyd_Mug, 4, 8, 4, 5)
 
-Dawn_Mug:
-#incext PortraitFormatter "Dawn.png"
-setMugEntry(0x16, Dawn_Mug, 3,6,3,4)
+Alis_Mug:
+#incext PortraitFormatter "Alis.png"
+setMugEntry(0x16, Alis_Mug, 3, 7, 3, 3)
 
-Serena_Mug:
-#incext PortraitFormatter "Serena.png"
-setMugEntry(0x17, Serena_Mug, 4,7,4,4)
+Odin_Mug:
+#incext PortraitFormatter "Odin.png"
+setMugEntry(0x17, Odin_Mug, 3, 6, 3, 3)
 
-Link_Mug:
-#incext PortraitFormatter "Link.png"
-setMugEntry(0x18, Link_Mug, 2,5,3,3)
+Banutu_Mug:
+#incext PortraitFormatter "Banutu.png"
+setMugEntry(0x18, Banutu_Mug, 4, 7, 4, 4)
 
-Samus_Mug:
-#incext PortraitFormatter "Samus.png"
-setMugEntry(0x19, Samus_Mug, 4,7,4,5)
+Nakajima_Mug:
+#incext PortraitFormatter "Nakajima.png"
+setMugEntry(0x19, Nakajima_Mug, 4, 7, 4, 4)
 
-Kirby_Mug:
-#incext PortraitFormatter "Kirby.png"
-setMugEntry(0x1A, Kirby_Mug, 4,5,3,3)
+Yumiko_Mug:
+#incext PortraitFormatter "Yumiko.png"
+setMugEntry(0x1a, Yumiko_Mug, 4, 7, 4, 5)
 
-Fox_Mug:
-#incext PortraitFormatter "Fox.png"
-setMugEntry(0x1B, Fox_Mug, 3,7,3,5)
+Arle_Mug:
+#incext PortraitFormatter "Arle.png"
+setMugEntry(0x1b, Arle_Mug, 4, 8, 4, 5)
 
-Pikachu_Mug:
-#incext PortraitFormatter "Pikachu.png"
-setMugEntry(0x1C, Pikachu_Mug, 3,4,3,2)
+British_Mug:
+#incext PortraitFormatter "British.png"
+setMugEntry(0x1c, British_Mug, 4, 6, 4, 3)
+
+
+
+
+//Luigi_Mug:
+//#incext PortraitFormatter "Luigi.png"
+//setMugEntry(0x7, Luigi_Mug, 4,5,4,3)
+//
+//Peach_Mug:
+//#incext PortraitFormatter "Peach.png"
+//setMugEntry(0x8, Peach_Mug, 2,7,2,5)
+//
+//Bowser_Mug:
+//#incext PortraitFormatter "Bowser.png"
+//setMugEntry(0x9, Bowser_Mug, 3,7,3,4)
+//
+//DK_Mug:
+//#incext PortraitFormatter "DK.png"
+//setMugEntry(0xA, DK_Mug, 2,7,3,4)
+//
+//Toad_Mug:
+//#incext PortraitFormatter "Toad.png"
+//setMugEntry(0xB, Toad_Mug, 3,8,3,6)
+//
+//Wario_Mug:
+//#incext PortraitFormatter "Wario.png"
+//setMugEntry(0xC, Wario_Mug, 3,7,3,4)
+//
+//Daisy_Mug:
+//#incext PortraitFormatter "Daisy.png"
+//setMugEntry(0xD, Daisy_Mug, 1,8,3,6)
+//
+//Yoshi_Mug:
+//#incext PortraitFormatter "Yoshi.png"
+//setMugEntry(0xE, Yoshi_Mug, 4,7,4,3)
+//
+//Waluigi_Mug:
+//#incext PortraitFormatter "Waluigi.png"
+//setMugEntry(0xF, Waluigi_Mug, 3,7,3,5)
+//
+//Ash_Mug:
+//#incext PortraitFormatter "Ash.png"
+//setMugEntry(0x10, Ash_Mug, 4,7,4,5)
+//
+//Misty_Mug:
+//#incext PortraitFormatter "Misty.png"
+//setMugEntry(0x11, Misty_Mug, 4,7,4,5)
+//
+//Brock_Mug:
+//#incext PortraitFormatter "Brock.png"
+//setMugEntry(0x12, Brock_Mug, 3,5,3,3)
+//
+//Jessie_Mug:
+//#incext PortraitFormatter "Jessie.png"
+//setMugEntry(0x13, Jessie_Mug, 5,7,4,4)
+//
+//James_Mug:
+//#incext PortraitFormatter "James.png"
+//setMugEntry(0x14, James_Mug, 4,6,4,4)
+//
+//May_Mug:
+//#incext PortraitFormatter "May.png"
+//setMugEntry(0x15, May_Mug, 4,5,4,3)
+//
+//Dawn_Mug:
+//#incext PortraitFormatter "Dawn.png"
+//setMugEntry(0x16, Dawn_Mug, 3,6,3,4)
+//
+//Serena_Mug:
+//#incext PortraitFormatter "Serena.png"
+//setMugEntry(0x17, Serena_Mug, 4,7,4,4)
+//
+//Link_Mug:
+//#incext PortraitFormatter "Link.png"
+//setMugEntry(0x18, Link_Mug, 2,5,3,3)
+//
+//Samus_Mug:
+//#incext PortraitFormatter "Samus.png"
+//setMugEntry(0x19, Samus_Mug, 4,7,4,5)
+//
+//Kirby_Mug:
+//#incext PortraitFormatter "Kirby.png"
+//setMugEntry(0x1A, Kirby_Mug, 4,5,3,3)
+//
+//Fox_Mug:
+//#incext PortraitFormatter "Fox.png"
+//setMugEntry(0x1B, Fox_Mug, 3,7,3,5)
+//
+//Pikachu_Mug:
+//#incext PortraitFormatter "Pikachu.png"
+//setMugEntry(0x1C, Pikachu_Mug, 3,4,3,2)
 
 Falcon_Mug:
 #incext PortraitFormatter "Falcon.png"
