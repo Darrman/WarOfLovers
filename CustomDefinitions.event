@@ -334,8 +334,32 @@
 #define M_WinningRoad 0x58 //blank
 #define M_BattleForWhoseSake Powerful_Foe
 
+//SHPC tracks
+#define M_Prelude 0x05
+#define M_Coneria 0x06
+#define M_TempleOfFiends 0x07
+#define M_BattleFF1 0x08
+#define M_OverworldFF1 0xB
+#define M_ImperialArmy 0xC
+#define M_RebelArmy 0xD
+#define M_AirshipInvincible 0xF
+#define M_Battle1FF3 0x11
+#define M_BossFF3 0x12
+#define M_DarkCloud 0x15
+#define M_SylxTower 0x16
+#define M_EternalWind 0x17
+#define M_Requiem Game_Over
+#define M_CovertTownFargabaad 0x27
+
+#define M_Pollyanna 0x18
+#define M_TryOut 0x1D
+#define M_CombatMission 0x1E
+#define M_WarOfDarkness 0x28
+#define M_RottingSeaOfFlames 0x1F
+
 //VA
 //26D to 2BB all empty
+//Unnecessary here, feel free to reuse
 
 #define VoiceMarioSummon 0x26D
 #define VoiceLuigiSummon 0x26E

@@ -194,3 +194,104 @@ SongTable(M_WinningRoad,WinningRoad,1)
 #include "BattleForWhoseSake.event"
 SongTable(M_BattleForWhoseSake,BattleForWhoseSake,0)
 }
+
+
+{
+#include "PreludeFF5.event"
+SongTable(M_Prelude,PreludeFF5,1)
+}
+
+{
+#include "Coneria.event"
+SongTable(M_Coneria,Coneria,1)
+}
+
+{
+#include "TempleOfFiends.event"
+SongTable(M_TempleOfFiends,TempleOfFiends,1)
+}
+
+{
+#include "BattleFF1.event"
+SongTable(M_BattleFF1,BattleFF1,0)
+}
+
+{
+#include "OverworldFF1.event"
+SongTable(M_OverworldFF1,OverworldFF1,1)
+}
+
+{
+#include "ImperialArmy.event"
+SongTable(M_ImperialArmy,ImperialArmy,1)
+}
+
+{
+#include "RebelArmy.event"
+SongTable(M_RebelArmy,RebelArmy,1)
+}
+
+{
+#include "AirshipInvincible.event"
+SongTable(M_AirshipInvincible,AirshipInvincible,1)
+}
+
+{
+#include "Battle1FF3.event"
+SongTable(M_Battle1FF3,Battle1FF3,0)
+}
+
+{
+#include "BossFF3.event"
+SongTable(M_BossFF3,BossFF3,0)
+}
+
+{
+#include "DarkCloud.event"
+SongTable(M_DarkCloud,DarkCloudBattle,0)
+}
+
+{
+#include "SylxTower.event"
+SongTable(M_SylxTower,SylxTower,1)
+}
+
+{
+#include "EternalWind.event"
+SongTable(M_EternalWind,EternalWind,1)
+}
+
+{
+#include "Requiem.event"
+SongTable(M_Requiem,Requiem,1)
+}
+
+{
+#include "CovertTownFargabaad.event"
+SongTable(M_CovertTownFargabaad,CovertTownFargabaad,1)
+}
+
+{
+#include "Pollyanna.event"
+SongTable(M_Pollyanna,Pollyanna,1)
+}
+
+{
+#include "TryOut.event"
+SongTable(M_TryOut,TryOut,1)
+}
+
+{
+#include "CombatMission.event"
+SongTable(M_CombatMission,CombatMission,1)
+}
+
+{
+#include "WarOfDarkness.event"
+SongTable(M_WarOfDarkness,WarOfDarkness,1)
+}
+
+{
+#include "RottingSeaOfFlames.event"
+SongTable(M_RottingSeaOfFlames,RottenSeaOfFlames,1)
+}

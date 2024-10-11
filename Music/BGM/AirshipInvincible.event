@@ -1,0 +1,3881 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	AirshipInvincible_grp  voicegroup000
+	#define	AirshipInvincible_pri  0
+	#define	AirshipInvincible_rev  0
+	#define	AirshipInvincible_mvl  127
+	#define	AirshipInvincible_key  0
+	#define	AirshipInvincible_tbs  1
+	#define	AirshipInvincible_exg  0
+	#define	AirshipInvincible_cmp  1
+
+	// .rodata
+	//	AirshipInvincible
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+AirshipInvincible_001:
+//  #01 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   TEMPO   154*AirshipInvincible_tbs/2
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   56
+ BYTE   MOD 0
+ BYTE   VOL   41*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+Label_886DB6:
+ BYTE   N42  Dn4  v104
+ BYTE   W48
+ BYTE   Gn3  v088
+ BYTE   W48
+ BYTE   PEND 
+//  #01 //001   ----------------------------------------
+Label_886DBE:
+ BYTE   N42  Gn4  v088
+ BYTE   W48
+ BYTE   N21  Fs4  v080
+ BYTE   W24
+ BYTE   En4  v088
+ BYTE   W24
+ BYTE   PEND 
+//  #01 //002   ----------------------------------------
+Label_886DCA:
+ BYTE   N09  Dn4  v080
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   TIE  Dn4  v104
+ BYTE   W60
+ BYTE   PEND 
+//  #01 //003   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #01 //004   ----------------------------------------
+ BYTE   N42
+ BYTE   W48
+ BYTE   As3
+ BYTE   W48
+//  #01 //005   ----------------------------------------
+ BYTE   As4
+ BYTE   W48
+ BYTE   N21  An4  v080
+ BYTE   W24
+ BYTE   Gn4  v104
+ BYTE   W24
+//  #01 //006   ----------------------------------------
+Label_886DE7:
+ BYTE   N09  Fn4  v080
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   N19  Fn4  v104
+ BYTE   W24
+ BYTE   N09  Cn4  v080
+ BYTE   W12
+ BYTE   N19  Dn4  v104
+ BYTE   W24
+ BYTE   PEND 
+//  #01 //007   ----------------------------------------
+ BYTE   TIE  En4
+ BYTE   W96
+//  #01 //008   ----------------------------------------
+ BYTE   VOL   24*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   10*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   41*AirshipInvincible_mvl/mxv
+ BYTE   W48
+//  #01 //009   ----------------------------------------
+Label_886E69:
+ BYTE   N48  As3  v104
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N66  As3  v080
+ BYTE   N66  Cs4
+ BYTE   W48
+//  #01 //010   ----------------------------------------
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   Fs4  v104
+ BYTE   W24
+//  #01 //011   ----------------------------------------
+ BYTE   N06  En4  v080
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   TIE  Bn3  v104
+ BYTE   W72
+//  #01 //012   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #01 //013   ----------------------------------------
+ BYTE   N48  As3
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N56  As3  v080
+ BYTE   N56  Cs4
+ BYTE   W48
+//  #01 //014   ----------------------------------------
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   Fs4
+ BYTE   W24
+//  #01 //015   ----------------------------------------
+ BYTE   N06  En4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   TIE  Gn4  v104
+ BYTE   W72
+//  #01 //016   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #01 //017   ----------------------------------------
+ BYTE   N48  Fs4  v080
+ BYTE   N48  An4  v104
+ BYTE   W48
+ BYTE   N66  Cs4  v092
+ BYTE   W48
+//  #01 //018   ----------------------------------------
+ BYTE   W24
+ BYTE   N19  Fs4
+ BYTE   W24
+ BYTE   Gn4  v080
+ BYTE   W24
+ BYTE   An4
+ BYTE   W24
+//  #01 //019   ----------------------------------------
+ BYTE   N04  Gn4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   N76  Dn4  v104
+ BYTE   W72
+//  #01 //020   ----------------------------------------
+ BYTE   W48
+ BYTE   N19
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+//  #01 //021   ----------------------------------------
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N56  Dn4  v080
+ BYTE   W48
+//  #01 //022   ----------------------------------------
+ BYTE   W24
+ BYTE   N19  Dn4  v104
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+ BYTE   Fs4
+ BYTE   W24
+//  #01 //023   ----------------------------------------
+ BYTE   N04  Gn4
+ BYTE   W06
+ BYTE   Fs4  v080
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   N48  Dn4  v104
+ BYTE   W48
+ BYTE   N04  Fs4
+ BYTE   W06
+ BYTE   En4  v080
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #01 //024   ----------------------------------------
+ BYTE   N96  Cs4  v104
+ BYTE   N76  En4
+ BYTE   W96
+//  #01 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_886DB6
+//  #01 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_886DBE
+//  #01 //027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_886DCA
+//  #01 //028   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   Dn4
+ BYTE   W20
+//  #01 //029   ----------------------------------------
+ BYTE   N42  Dn4  v104
+ BYTE   W48
+ BYTE   As3  v088
+ BYTE   W36
+ BYTE   N01  Cn4
+ BYTE   W02
+ BYTE   Dn4
+ BYTE   W02
+ BYTE   En4  v104
+ BYTE   W02
+ BYTE   Fs4
+ BYTE   W02
+ BYTE   Gn4
+ BYTE   W02
+ BYTE   An4
+ BYTE   W02
+//  #01 //030   ----------------------------------------
+ BYTE   N42  As4  v088
+ BYTE   W48
+ BYTE   N21  An4  v080
+ BYTE   W24
+ BYTE   Gn4  v088
+ BYTE   W24
+//  #01 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_886DE7
+//  #01 //032   ----------------------------------------
+ BYTE   TIE  En4  v104
+ BYTE   W96
+//  #01 //033   ----------------------------------------
+ BYTE   VOL   24*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   10*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   41*AirshipInvincible_mvl/mxv
+ BYTE   W48
+//  #01 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_886E69
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+AirshipInvincible_002:
+//  #02 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   56
+ BYTE   MOD 0
+ BYTE   VOL   46*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   W96
+//  #02 //001   ----------------------------------------
+ BYTE   W96
+//  #02 //002   ----------------------------------------
+ BYTE   W96
+//  #02 //003   ----------------------------------------
+ BYTE   W96
+//  #02 //004   ----------------------------------------
+ BYTE   W96
+//  #02 //005   ----------------------------------------
+ BYTE   W96
+//  #02 //006   ----------------------------------------
+ BYTE   N09  Dn4  v080
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   N19  Dn4
+ BYTE   W24
+ BYTE   N09  An3
+ BYTE   W12
+ BYTE   N19  Bn3
+ BYTE   W24
+//  #02 //007   ----------------------------------------
+Label_ED67DF:
+ BYTE   TIE  Gn3  v080
+ BYTE   TIE  Cn4
+ BYTE   W96
+ BYTE   PEND 
+//  #02 //008   ----------------------------------------
+Label_ED67E6:
+ BYTE   VOL   51*AirshipInvincible_mvl/mxv
+ BYTE   N04  En2  v080
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An2  v104
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W02
+ BYTE   PEND 
+ BYTE   EOT
+ BYTE   Gn3  v072
+ BYTE   W04
+ BYTE   N04  An3
+ BYTE   W06
+ BYTE   Cs3  v112
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En3  v127
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #02 //009   ----------------------------------------
+Label_ED6813:
+ BYTE   W96
+//  #02 //010   ----------------------------------------
+ BYTE   W96
+//  #02 //011   ----------------------------------------
+ BYTE   W96
+//  #02 //012   ----------------------------------------
+ BYTE   W96
+//  #02 //013   ----------------------------------------
+ BYTE   W96
+//  #02 //014   ----------------------------------------
+ BYTE   W96
+//  #02 //015   ----------------------------------------
+ BYTE   W96
+//  #02 //016   ----------------------------------------
+ BYTE   W96
+//  #02 //017   ----------------------------------------
+ BYTE   N48  Cs4  v080
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N66  Cs4
+ BYTE   W48
+//  #02 //018   ----------------------------------------
+ BYTE   W24
+ BYTE   N19  Dn4
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+ BYTE   Fs4
+ BYTE   W24
+//  #02 //019   ----------------------------------------
+ BYTE   N06  En3  v127
+ BYTE   W06
+ BYTE   Dn3  v080
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W06
+ BYTE   N48  Bn2
+ BYTE   W48
+ BYTE   N06  Bn3  v104
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+//  #02 //020   ----------------------------------------
+ BYTE   N12  Fs3
+ BYTE   W12
+ BYTE   N06  Fs3  v080
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Fs3  v127
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Fs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Dn3  v080
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Bn2  v060
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Bn2
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+//  #02 //021   ----------------------------------------
+ BYTE   W96
+//  #02 //022   ----------------------------------------
+ BYTE   W96
+//  #02 //023   ----------------------------------------
+ BYTE   W96
+//  #02 //024   ----------------------------------------
+ BYTE   W96
+//  #02 //025   ----------------------------------------
+ BYTE   W96
+//  #02 //026   ----------------------------------------
+ BYTE   W96
+//  #02 //027   ----------------------------------------
+ BYTE   W96
+//  #02 //028   ----------------------------------------
+ BYTE   W96
+//  #02 //029   ----------------------------------------
+ BYTE   W96
+//  #02 //030   ----------------------------------------
+ BYTE   W96
+//  #02 //031   ----------------------------------------
+ BYTE   VOL   46*AirshipInvincible_mvl/mxv
+ BYTE   N09  Dn4  v080
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   N19  Dn4
+ BYTE   W24
+ BYTE   N09  An3
+ BYTE   W12
+ BYTE   N19  Bn3
+ BYTE   W24
+//  #02 //032   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_ED67DF
+//  #02 //033   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_ED67E6
+//  #02 //034   ----------------------------------------
+ BYTE   EOT
+ BYTE   Gn3  v072
+ BYTE   W04
+ BYTE   N04  An3  v104
+ BYTE   W06
+ BYTE   Cs3  v112
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En3  v127
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   GoTo
+  POIN2 Label_ED6813
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+AirshipInvincible_003:
+//  #03 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   51
+ BYTE   MOD 0
+ BYTE   VOL   35*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+Label_50B5B0:
+ BYTE   N42  Dn4  v104
+ BYTE   W48
+ BYTE   Gn3  v088
+ BYTE   W48
+ BYTE   PEND 
+//  #03 //001   ----------------------------------------
+Label_50B5B8:
+ BYTE   N42  Gn4  v088
+ BYTE   W48
+ BYTE   N21  Fs4  v080
+ BYTE   W24
+ BYTE   En4  v088
+ BYTE   W24
+ BYTE   PEND 
+//  #03 //002   ----------------------------------------
+Label_50B5C4:
+ BYTE   N09  Dn4  v080
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   TIE  Dn4  v104
+ BYTE   W60
+ BYTE   PEND 
+//  #03 //003   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #03 //004   ----------------------------------------
+ BYTE   N42
+ BYTE   W48
+ BYTE   As3  v088
+ BYTE   W48
+//  #03 //005   ----------------------------------------
+ BYTE   N36  As4
+ BYTE   W48
+ BYTE   N21  An4  v080
+ BYTE   W24
+ BYTE   Gn4  v088
+ BYTE   W24
+//  #03 //006   ----------------------------------------
+Label_50B5E3:
+ BYTE   N09  Fn4  v080
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   N19  Fn4  v104
+ BYTE   W24
+ BYTE   N09  Cn4  v080
+ BYTE   W12
+ BYTE   N19  Dn4  v104
+ BYTE   W24
+ BYTE   PEND 
+//  #03 //007   ----------------------------------------
+ BYTE   TIE  En4
+ BYTE   W96
+//  #03 //008   ----------------------------------------
+Label_50B5FB:
+ BYTE   VOL   24*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   PEND 
+ BYTE   EOT
+ BYTE   En4
+ BYTE   VOL   10*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*AirshipInvincible_mvl/mxv
+ BYTE   W48
+//  #03 //009   ----------------------------------------
+Label_50B667:
+ BYTE   N48  As3  v104
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N66  As3  v080
+ BYTE   N66  Cs4
+ BYTE   W48
+//  #03 //010   ----------------------------------------
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   Fs4  v104
+ BYTE   W24
+//  #03 //011   ----------------------------------------
+ BYTE   N04  En4  v080
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   TIE  Bn3  v104
+ BYTE   W72
+//  #03 //012   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #03 //013   ----------------------------------------
+ BYTE   N48  As3
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N56  As3  v080
+ BYTE   N56  Cs4
+ BYTE   W48
+//  #03 //014   ----------------------------------------
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   Fs4
+ BYTE   W24
+//  #03 //015   ----------------------------------------
+ BYTE   N06  En4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   TIE  Gn4  v104
+ BYTE   W72
+//  #03 //016   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #03 //017   ----------------------------------------
+ BYTE   N48  Fs4  v080
+ BYTE   N48  An4  v104
+ BYTE   W48
+ BYTE   N66  Cs4  v092
+ BYTE   W48
+//  #03 //018   ----------------------------------------
+ BYTE   W24
+ BYTE   N19  Fs4
+ BYTE   W24
+ BYTE   Gn4  v080
+ BYTE   W24
+ BYTE   An4
+ BYTE   W24
+//  #03 //019   ----------------------------------------
+ BYTE   N04  Gn4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   N76  Dn4  v104
+ BYTE   W72
+//  #03 //020   ----------------------------------------
+ BYTE   W48
+ BYTE   N19
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+//  #03 //021   ----------------------------------------
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N56  Dn4  v080
+ BYTE   W48
+//  #03 //022   ----------------------------------------
+ BYTE   W24
+ BYTE   N19  Dn4  v104
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+ BYTE   Fs4
+ BYTE   W24
+//  #03 //023   ----------------------------------------
+ BYTE   N04  Gn4
+ BYTE   W06
+ BYTE   Fs4  v080
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   N48  Dn4  v104
+ BYTE   W48
+ BYTE   N04  Fs4
+ BYTE   W06
+ BYTE   En4  v080
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #03 //024   ----------------------------------------
+ BYTE   N96  Cs4  v104
+ BYTE   N76  En4
+ BYTE   W96
+//  #03 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_50B5B0
+//  #03 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_50B5B8
+//  #03 //027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_50B5C4
+//  #03 //028   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   Dn4
+ BYTE   W20
+//  #03 //029   ----------------------------------------
+ BYTE   N42  Dn4  v104
+ BYTE   W48
+ BYTE   As3  v088
+ BYTE   W36
+ BYTE   N01  Cn4
+ BYTE   W02
+ BYTE   Dn4
+ BYTE   W02
+ BYTE   En4  v104
+ BYTE   W02
+ BYTE   Fs4
+ BYTE   W02
+ BYTE   Gn4
+ BYTE   W02
+ BYTE   An4
+ BYTE   W02
+//  #03 //030   ----------------------------------------
+ BYTE   N42  As4  v088
+ BYTE   W48
+ BYTE   N21  An4  v080
+ BYTE   W24
+ BYTE   Gn4  v088
+ BYTE   W24
+//  #03 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_50B5E3
+//  #03 //032   ----------------------------------------
+ BYTE   TIE  En4  v104
+ BYTE   W96
+//  #03 //033   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_50B5FB
+//  #03 //034   ----------------------------------------
+ BYTE   EOT
+ BYTE   En4
+ BYTE   VOL   10*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   2*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   35*AirshipInvincible_mvl/mxv
+ BYTE   W48
+ BYTE   GoTo
+  POIN2 Label_50B667
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+AirshipInvincible_004:
+//  #04 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   38
+ BYTE   PAN   c_v+0
+ BYTE   VOL   30*AirshipInvincible_mvl/mxv
+ BYTE   MOD 0
+ BYTE   BEND   c_v+0
+Label_B99984:
+ BYTE   N09  Gn1  v080
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //001   ----------------------------------------
+Label_B999A7:
+ BYTE   N09  En1  v080
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //002   ----------------------------------------
+Label_B999CA:
+ BYTE   N09  Bn0  v080
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //003   ----------------------------------------
+Label_B999ED:
+ BYTE   N09  Bn0  v080
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Cs1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Fs1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //004   ----------------------------------------
+Label_B99A00:
+ BYTE   N09  As1  v080
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //005   ----------------------------------------
+Label_B99A23:
+ BYTE   N09  Gn1  v080
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //006   ----------------------------------------
+Label_B99A46:
+ BYTE   N09  Dn1  v080
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //007   ----------------------------------------
+Label_B99A69:
+ BYTE   N09  Cn1  v080
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //008   ----------------------------------------
+Label_B99A8C:
+ BYTE   N19  An1  v080
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   PEND 
+//  #04 //009   ----------------------------------------
+Label_B99A97:
+ BYTE   N09  Fs1  v080
+ BYTE   W12
+ BYTE   Cs1
+ BYTE   W12
+ BYTE   Fs1
+ BYTE   W12
+ BYTE   Cs1
+ BYTE   W12
+ BYTE   Fs1
+ BYTE   W12
+ BYTE   Cs1
+ BYTE   W12
+ BYTE   Fs1
+ BYTE   W12
+ BYTE   Cs1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A97
+//  #04 //011   ----------------------------------------
+Label_B99AAF:
+ BYTE   N09  Gn1  v080
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99AAF
+//  #04 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A97
+//  #04 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A97
+//  #04 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99AAF
+//  #04 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99AAF
+//  #04 //017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A97
+//  #04 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A97
+//  #04 //019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99AAF
+//  #04 //020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99AAF
+//  #04 //021   ----------------------------------------
+Label_B99AEF:
+ BYTE   N09  Gs1  v080
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   Gs1
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   Gs1
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   Gs1
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99AEF
+//  #04 //023   ----------------------------------------
+Label_B99B07:
+ BYTE   N09  An1  v080
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   An1
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   An1
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   An1
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   PEND 
+//  #04 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99B07
+//  #04 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99984
+//  #04 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B999A7
+//  #04 //027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B999CA
+//  #04 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B999ED
+//  #04 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A00
+//  #04 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A23
+//  #04 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A46
+//  #04 //032   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A69
+//  #04 //033   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_B99A8C
+//  #04 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_B99A97
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+AirshipInvincible_005:
+//  #05 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   57
+ BYTE   MOD 0
+ BYTE   VOL   24*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+Label_1C8B14:
+ BYTE   N76  Dn3  v080
+ BYTE   N76  Gn3
+ BYTE   N76  Bn3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //001   ----------------------------------------
+Label_1C8B1D:
+ BYTE   N76  Bn2  v080
+ BYTE   N76  En3
+ BYTE   N76  Gn3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //002   ----------------------------------------
+ BYTE   Bn2
+ BYTE   N76  Fs3
+ BYTE   W96
+//  #05 //003   ----------------------------------------
+Label_1C8B2A:
+ BYTE   N09  Bn2  v080
+ BYTE   N48  Dn3
+ BYTE   N72  Fs3
+ BYTE   W12
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Cs3
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   N04  Fs3
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   PEND 
+//  #05 //004   ----------------------------------------
+Label_1C8B43:
+ BYTE   N76  Fn2  v080
+ BYTE   N76  As2
+ BYTE   N76  Dn3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //005   ----------------------------------------
+Label_1C8B4C:
+ BYTE   N76  Dn3  v080
+ BYTE   N76  Gn3
+ BYTE   N76  As3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //006   ----------------------------------------
+Label_1C8B55:
+ BYTE   N76  Dn3  v080
+ BYTE   N76  Fn3
+ BYTE   N76  An3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //007   ----------------------------------------
+Label_1C8B5E:
+ BYTE   N76  Gn2  v080
+ BYTE   N76  Cn3
+ BYTE   N76  En3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //008   ----------------------------------------
+ BYTE   W96
+//  #05 //009   ----------------------------------------
+Label_1C8B68:
+ BYTE   TIE  As2  v080
+ BYTE   TIE  Cs3
+ BYTE   TIE  Fs3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //010   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   As2  v061
+ BYTE   Fs3
+ BYTE   W20
+//  #05 //011   ----------------------------------------
+Label_1C8B77:
+ BYTE   TIE  Bn2  v080
+ BYTE   TIE  Dn3
+ BYTE   TIE  Gn3
+ BYTE   W96
+ BYTE   PEND 
+//  #05 //012   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   Bn2  v062
+ BYTE   Gn3
+ BYTE   W20
+//  #05 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B68
+//  #05 //014   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   As2  v061
+ BYTE   Fs3
+ BYTE   W20
+//  #05 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B77
+//  #05 //016   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   Bn2  v062
+ BYTE   Gn3
+ BYTE   W20
+//  #05 //017   ----------------------------------------
+ BYTE   TIE  An2  v080
+ BYTE   TIE  Cs3
+ BYTE   TIE  Fs3
+ BYTE   W96
+//  #05 //018   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   An2  v061
+ BYTE   Fs3
+ BYTE   W20
+//  #05 //019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B77
+//  #05 //020   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   Bn2  v062
+ BYTE   Gn3
+ BYTE   W20
+//  #05 //021   ----------------------------------------
+ BYTE   TIE  Bn2  v080
+ BYTE   TIE  En3
+ BYTE   TIE  Gs3
+ BYTE   W96
+//  #05 //022   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   Bn2
+ BYTE   W20
+//  #05 //023   ----------------------------------------
+ BYTE   En3  v068
+ BYTE   TIE  An2
+ BYTE   TIE  Cs3
+ BYTE   TIE  En3
+ BYTE   TIE  Gs3
+ BYTE   W96
+//  #05 //024   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   An2  v061
+ BYTE   En3  v068
+ BYTE   W20
+//  #05 //025   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B14
+//  #05 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B1D
+//  #05 //027   ----------------------------------------
+ BYTE   N76  Bn2  v080
+ BYTE   N76  Fs3
+ BYTE   W96
+//  #05 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B2A
+//  #05 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B43
+//  #05 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B4C
+//  #05 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B55
+//  #05 //032   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1C8B5E
+//  #05 //033   ----------------------------------------
+ BYTE   W96
+//  #05 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_1C8B68
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+AirshipInvincible_006:
+//  #06 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   60
+ BYTE   PAN   c_v+0
+ BYTE   VOL   34*AirshipInvincible_mvl/mxv
+ BYTE   MOD 0
+ BYTE   BEND   c_v+0
+ BYTE   N09  Gn2  v080
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+//  #06 //001   ----------------------------------------
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+//  #06 //002   ----------------------------------------
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+//  #06 //003   ----------------------------------------
+ BYTE   Bn1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Cs2
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Fs2
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+//  #06 //004   ----------------------------------------
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+//  #06 //005   ----------------------------------------
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+//  #06 //006   ----------------------------------------
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+//  #06 //007   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+//  #06 //008   ----------------------------------------
+Label_8F48CE:
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N04  En2  v080
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An2  v104
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs3  v112
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   VOL   51*AirshipInvincible_mvl/mxv
+ BYTE   N04  En3  v127
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   PEND 
+//  #06 //009   ----------------------------------------
+Label_8F48F9:
+ BYTE   VOL   44*AirshipInvincible_mvl/mxv
+ BYTE   N28  Fs2  v080
+ BYTE   W36
+ BYTE   N09  Gs2
+ BYTE   W12
+ BYTE   N28  As2
+ BYTE   W36
+ BYTE   N09  Bn2
+ BYTE   W12
+//  #06 //010   ----------------------------------------
+Label_8F4908:
+ BYTE   N28  Cs3  v080
+ BYTE   W36
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   N28  En3
+ BYTE   W36
+ BYTE   N09  Cs3
+ BYTE   W12
+ BYTE   PEND 
+//  #06 //011   ----------------------------------------
+Label_8F4916:
+ BYTE   N28  Gn2  v080
+ BYTE   W36
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   N28  Bn2
+ BYTE   W36
+ BYTE   N09  Cs3
+ BYTE   W12
+ BYTE   PEND 
+//  #06 //012   ----------------------------------------
+Label_8F4924:
+ BYTE   N28  Dn3  v080
+ BYTE   W36
+ BYTE   N09  En3
+ BYTE   W12
+ BYTE   N28  Fs3
+ BYTE   W36
+ BYTE   N09  Gn3
+ BYTE   W12
+ BYTE   PEND 
+//  #06 //013   ----------------------------------------
+ BYTE   N28  Fs2
+ BYTE   W36
+ BYTE   N09  Gs2
+ BYTE   W12
+ BYTE   N28  As2
+ BYTE   W36
+ BYTE   N09  Bn2
+ BYTE   W12
+//  #06 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_8F4908
+//  #06 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_8F4916
+//  #06 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_8F4924
+//  #06 //017   ----------------------------------------
+ BYTE   N28  An2  v080
+ BYTE   W36
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   N28  Cs3
+ BYTE   W36
+ BYTE   N09  Dn3
+ BYTE   W12
+//  #06 //018   ----------------------------------------
+ BYTE   N28  En3
+ BYTE   W36
+ BYTE   N09  Fs3
+ BYTE   W12
+ BYTE   N28  Gn3
+ BYTE   W36
+ BYTE   N09  An3
+ BYTE   W07
+ BYTE   VOL   40*AirshipInvincible_mvl/mxv
+ BYTE   W05
+//  #06 //019   ----------------------------------------
+ BYTE   N06  En3  v127
+ BYTE   W06
+ BYTE   Dn3  v080
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W06
+ BYTE   N48  Bn2
+ BYTE   W48
+ BYTE   N06  Bn3  v104
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+//  #06 //020   ----------------------------------------
+ BYTE   N12  Fs3
+ BYTE   W12
+ BYTE   N06  Fs3  v080
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Fs3  v127
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Fs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Dn3  v080
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Bn2  v060
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Bn2
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+//  #06 //021   ----------------------------------------
+ BYTE   VOL   39*AirshipInvincible_mvl/mxv
+ BYTE   N48  Gs3  v104
+ BYTE   W48
+ BYTE   Fs3
+ BYTE   W48
+//  #06 //022   ----------------------------------------
+ BYTE   En3
+ BYTE   W48
+ BYTE   Dn3
+ BYTE   W48
+//  #06 //023   ----------------------------------------
+ BYTE   VOL   44*AirshipInvincible_mvl/mxv
+ BYTE   N28  Cs3  v080
+ BYTE   W36
+ BYTE   N09  Dn3  v104
+ BYTE   W12
+ BYTE   N28  En3
+ BYTE   W36
+ BYTE   N09  Fs3
+ BYTE   W12
+//  #06 //024   ----------------------------------------
+ BYTE   VOL   45*AirshipInvincible_mvl/mxv
+ BYTE   N28  Gn3  v116
+ BYTE   W36
+ BYTE   N09  An3
+ BYTE   W12
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N28  Bn3  v127
+ BYTE   W36
+ BYTE   N09  Cs4  v104
+ BYTE   W12
+//  #06 //025   ----------------------------------------
+ BYTE   VOL   41*AirshipInvincible_mvl/mxv
+ BYTE   N04  Bn3  v092
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+//  #06 //026   ----------------------------------------
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+//  #06 //027   ----------------------------------------
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+//  #06 //028   ----------------------------------------
+ BYTE   N07  Bn1
+ BYTE   N04  Fs4
+ BYTE   W12
+ BYTE   N07  Bn1
+ BYTE   N04  Dn4
+ BYTE   W12
+ BYTE   N07  Cs2
+ BYTE   N04  Cs4
+ BYTE   W12
+ BYTE   N07  Cs2
+ BYTE   N04  Dn4
+ BYTE   W12
+ BYTE   N07  Dn2
+ BYTE   N04  Fs4
+ BYTE   W12
+ BYTE   N07  Dn2
+ BYTE   N04  Dn4
+ BYTE   W12
+ BYTE   N07  Fs2
+ BYTE   N04  Cs4
+ BYTE   W12
+ BYTE   N07  Fs2
+ BYTE   N04  Dn4
+ BYTE   W12
+//  #06 //029   ----------------------------------------
+Label_8F4A30:
+ BYTE   N04  Fn4  v092
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   PEND 
+//  #06 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_8F4A30
+//  #06 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_8F4A30
+//  #06 //032   ----------------------------------------
+ BYTE   N04  Gn4  v092
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+//  #06 //033   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_8F48CE
+//  #06 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_8F48F9
+ BYTE   FINE
+
+//**************** Track 7 (Midi-Chn.6) ****************//
+
+AirshipInvincible_007:
+//  #07 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   11
+ BYTE   MOD 0
+ BYTE   VOL   42*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   W96
+//  #07 //001   ----------------------------------------
+ BYTE   W96
+//  #07 //002   ----------------------------------------
+ BYTE   W96
+//  #07 //003   ----------------------------------------
+ BYTE   W96
+//  #07 //004   ----------------------------------------
+ BYTE   W96
+//  #07 //005   ----------------------------------------
+ BYTE   W96
+//  #07 //006   ----------------------------------------
+ BYTE   W96
+//  #07 //007   ----------------------------------------
+ BYTE   W96
+//  #07 //008   ----------------------------------------
+ BYTE   W96
+//  #07 //009   ----------------------------------------
+Label_D8FF81:
+ BYTE   VOL   42*AirshipInvincible_mvl/mxv
+ BYTE   W96
+//  #07 //010   ----------------------------------------
+ BYTE   W96
+//  #07 //011   ----------------------------------------
+ BYTE   W96
+//  #07 //012   ----------------------------------------
+ BYTE   W96
+//  #07 //013   ----------------------------------------
+ BYTE   W96
+//  #07 //014   ----------------------------------------
+ BYTE   W96
+//  #07 //015   ----------------------------------------
+ BYTE   W96
+//  #07 //016   ----------------------------------------
+ BYTE   W96
+//  #07 //017   ----------------------------------------
+ BYTE   W96
+//  #07 //018   ----------------------------------------
+ BYTE   W96
+//  #07 //019   ----------------------------------------
+ BYTE   W96
+//  #07 //020   ----------------------------------------
+ BYTE   W96
+//  #07 //021   ----------------------------------------
+ BYTE   W96
+//  #07 //022   ----------------------------------------
+ BYTE   W96
+//  #07 //023   ----------------------------------------
+ BYTE   W96
+//  #07 //024   ----------------------------------------
+ BYTE   W96
+//  #07 //025   ----------------------------------------
+Label_D8FF93:
+ BYTE   N07  Bn3  v104
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   PEND 
+//  #07 //026   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_D8FF93
+//  #07 //027   ----------------------------------------
+Label_D8FFAB:
+ BYTE   N07  Fs4  v104
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   PEND 
+//  #07 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_D8FFAB
+//  #07 //029   ----------------------------------------
+Label_D8FFC3:
+ BYTE   N07  Fn4  v104
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   PEND 
+//  #07 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_D8FFC3
+//  #07 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_D8FFC3
+//  #07 //032   ----------------------------------------
+ BYTE   N07  Gn4  v104
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+//  #07 //033   ----------------------------------------
+ BYTE   VOL   46*AirshipInvincible_mvl/mxv
+ BYTE   N04  En2  v060
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An2  v080
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N04  En3  v127
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #07 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_D8FF81
+ BYTE   FINE
+
+//**************** Track 8 (Midi-Chn.7) ****************//
+
+AirshipInvincible_008:
+//  #08 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   63
+ BYTE   VOL   44*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   W96
+//  #08 //001   ----------------------------------------
+ BYTE   W96
+//  #08 //002   ----------------------------------------
+ BYTE   W96
+//  #08 //003   ----------------------------------------
+ BYTE   W96
+//  #08 //004   ----------------------------------------
+ BYTE   W96
+//  #08 //005   ----------------------------------------
+ BYTE   W96
+//  #08 //006   ----------------------------------------
+ BYTE   W96
+//  #08 //007   ----------------------------------------
+ BYTE   W96
+//  #08 //008   ----------------------------------------
+ BYTE   W96
+//  #08 //009   ----------------------------------------
+Label_B062F1:
+ BYTE   VOL   44*AirshipInvincible_mvl/mxv
+ BYTE   N48  As3  v104
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N66  As3  v080
+ BYTE   N66  Cs4
+ BYTE   W48
+//  #08 //010   ----------------------------------------
+ BYTE   W24
+ BYTE   N24  Fs3
+ BYTE   N19  Cs4
+ BYTE   W24
+ BYTE   N24  Fs3
+ BYTE   N19  Cs4
+ BYTE   W24
+ BYTE   N24  Fs3
+ BYTE   N19  Fs4  v104
+ BYTE   W24
+//  #08 //011   ----------------------------------------
+ BYTE   N06  En4  v080
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   TIE  Bn3  v104
+ BYTE   W72
+//  #08 //012   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #08 //013   ----------------------------------------
+ BYTE   N48  As3
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N56  As3  v080
+ BYTE   N56  Cs4
+ BYTE   W48
+//  #08 //014   ----------------------------------------
+ BYTE   W24
+ BYTE   N24  Fs3
+ BYTE   N19  Cs4
+ BYTE   W24
+ BYTE   N24  Fs3
+ BYTE   N19  Cs4
+ BYTE   W24
+ BYTE   N24  Fs3
+ BYTE   N19  Fs4
+ BYTE   W24
+//  #08 //015   ----------------------------------------
+ BYTE   N06  En4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   TIE  Gn4  v104
+ BYTE   W72
+//  #08 //016   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #08 //017   ----------------------------------------
+ BYTE   N48  Fs4  v080
+ BYTE   N48  An4  v104
+ BYTE   W48
+ BYTE   N72  Fs3  v092
+ BYTE   N66  Cs4
+ BYTE   W48
+//  #08 //018   ----------------------------------------
+ BYTE   W24
+ BYTE   N24  Dn4
+ BYTE   N19  Fs4
+ BYTE   W24
+ BYTE   N24  En4  v080
+ BYTE   N19  Gn4
+ BYTE   W24
+ BYTE   N24  Fs4
+ BYTE   N19  An4
+ BYTE   W24
+//  #08 //019   ----------------------------------------
+ BYTE   N04  Gn4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   N76  Dn4  v104
+ BYTE   W72
+//  #08 //020   ----------------------------------------
+ BYTE   W48
+ BYTE   N19
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+//  #08 //021   ----------------------------------------
+ BYTE   N48  Fs4
+ BYTE   W48
+ BYTE   N56  Dn4  v080
+ BYTE   W48
+//  #08 //022   ----------------------------------------
+ BYTE   W24
+ BYTE   N19  Dn4  v104
+ BYTE   W24
+ BYTE   En4
+ BYTE   W24
+ BYTE   Fs4
+ BYTE   W24
+//  #08 //023   ----------------------------------------
+ BYTE   N04  Gn4
+ BYTE   W06
+ BYTE   Fs4  v080
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+ BYTE   Fs4
+ BYTE   W06
+ BYTE   N48  Dn4  v104
+ BYTE   W48
+ BYTE   N04  Fs4
+ BYTE   W06
+ BYTE   En4  v080
+ BYTE   W06
+ BYTE   Dn4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #08 //024   ----------------------------------------
+ BYTE   N96  Cs4  v104
+ BYTE   N76  En4
+ BYTE   W96
+//  #08 //025   ----------------------------------------
+ BYTE   N42  Dn4
+ BYTE   W48
+ BYTE   Gn3  v088
+ BYTE   W48
+//  #08 //026   ----------------------------------------
+ BYTE   Gn4
+ BYTE   W48
+ BYTE   N21  Fs4  v080
+ BYTE   W24
+ BYTE   En4  v088
+ BYTE   W24
+//  #08 //027   ----------------------------------------
+ BYTE   N09  Dn4  v080
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   TIE  Dn4  v104
+ BYTE   W60
+//  #08 //028   ----------------------------------------
+ BYTE   W76
+ BYTE   EOT
+ BYTE   W20
+//  #08 //029   ----------------------------------------
+ BYTE   N42
+ BYTE   W48
+ BYTE   As3  v088
+ BYTE   W36
+ BYTE   N01  Cn4
+ BYTE   W02
+ BYTE   Dn4
+ BYTE   W02
+ BYTE   En4  v104
+ BYTE   W02
+ BYTE   Fs4
+ BYTE   W02
+ BYTE   Gn4
+ BYTE   W02
+ BYTE   An4
+ BYTE   W02
+//  #08 //030   ----------------------------------------
+ BYTE   N42  As4  v088
+ BYTE   W48
+ BYTE   N21  An4  v080
+ BYTE   W24
+ BYTE   Gn4  v088
+ BYTE   W24
+//  #08 //031   ----------------------------------------
+ BYTE   N09  Dn4  v080
+ BYTE   N09  Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   N09  Gn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   N09  An4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   N19  Fn4  v104
+ BYTE   W24
+ BYTE   N09  An3  v080
+ BYTE   N09  Cn4
+ BYTE   W12
+ BYTE   N19  Bn3
+ BYTE   N19  Dn4  v104
+ BYTE   W24
+//  #08 //032   ----------------------------------------
+ BYTE   TIE  Cn4  v080
+ BYTE   TIE  En4  v104
+ BYTE   W96
+//  #08 //033   ----------------------------------------
+ BYTE   VOL   24*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   23*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   21*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   20*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   19*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   18*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   17*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   16*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   15*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   14*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   13*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   12*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   11*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   VOL   10*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   9*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   8*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   7*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   6*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   5*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   4*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   3*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   EOT
+ BYTE   Cn4
+ BYTE   W01
+ BYTE   VOL   2*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   1*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W02
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   0*AirshipInvincible_mvl/mxv
+ BYTE   W01
+ BYTE   VOL   47*AirshipInvincible_mvl/mxv
+ BYTE   W48
+//  #08 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_B062F1
+ BYTE   FINE
+
+//**************** Track 9 (Midi-Chn.8) ****************//
+
+AirshipInvincible_009:
+//  #09 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   63
+ BYTE   MOD 0
+ BYTE   VOL   34*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   N09  Gn2  v080
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  Bn2
+ BYTE   W12
+//  #09 //001   ----------------------------------------
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   En2
+ BYTE   N09  Gn2
+ BYTE   W12
+//  #09 //002   ----------------------------------------
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+ BYTE   Bn1
+ BYTE   N09  Fs2
+ BYTE   W12
+//  #09 //003   ----------------------------------------
+ BYTE   Bn1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Cs2
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Fs2
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+//  #09 //004   ----------------------------------------
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   As2
+ BYTE   N09  Dn3
+ BYTE   W12
+//  #09 //005   ----------------------------------------
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+ BYTE   Gn2
+ BYTE   N09  As2
+ BYTE   W12
+//  #09 //006   ----------------------------------------
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   Dn2
+ BYTE   N09  An2
+ BYTE   W12
+//  #09 //007   ----------------------------------------
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+ BYTE   Cn2
+ BYTE   N09  Gn2
+ BYTE   W12
+//  #09 //008   ----------------------------------------
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N04  En2
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An2  v104
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs3  v112
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N04  En3  v127
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #09 //009   ----------------------------------------
+Label_DCC85B:
+ BYTE   VOL   44*AirshipInvincible_mvl/mxv
+ BYTE   N28  Fs2  v080
+ BYTE   W36
+ BYTE   N09  Gs2
+ BYTE   W12
+ BYTE   N28  As2
+ BYTE   W36
+ BYTE   N09  Bn2
+ BYTE   W12
+//  #09 //010   ----------------------------------------
+Label_DCC86A:
+ BYTE   N28  Cs3  v080
+ BYTE   W36
+ BYTE   N09  Dn3
+ BYTE   W12
+ BYTE   N28  En3
+ BYTE   W36
+ BYTE   N09  Cs3
+ BYTE   W12
+ BYTE   PEND 
+//  #09 //011   ----------------------------------------
+Label_DCC878:
+ BYTE   N28  Gn2  v080
+ BYTE   W36
+ BYTE   N09  An2
+ BYTE   W12
+ BYTE   N28  Bn2
+ BYTE   W36
+ BYTE   N09  Cs3
+ BYTE   W12
+ BYTE   PEND 
+//  #09 //012   ----------------------------------------
+Label_DCC886:
+ BYTE   N28  Dn3  v080
+ BYTE   W36
+ BYTE   N09  En3
+ BYTE   W12
+ BYTE   N28  Fs3
+ BYTE   W36
+ BYTE   N09  Gn3
+ BYTE   W12
+ BYTE   PEND 
+//  #09 //013   ----------------------------------------
+ BYTE   N28  Fs2
+ BYTE   W36
+ BYTE   N09  Gs2
+ BYTE   W12
+ BYTE   N28  As2
+ BYTE   W36
+ BYTE   N09  Bn2
+ BYTE   W12
+//  #09 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCC86A
+//  #09 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCC878
+//  #09 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCC886
+//  #09 //017   ----------------------------------------
+ BYTE   N28  An2  v080
+ BYTE   W36
+ BYTE   N09  Bn2
+ BYTE   W12
+ BYTE   N28  Cs3
+ BYTE   W36
+ BYTE   N09  Dn3
+ BYTE   W12
+//  #09 //018   ----------------------------------------
+ BYTE   N28  En3
+ BYTE   W36
+ BYTE   N09  Fs3
+ BYTE   W12
+ BYTE   N28  Gn3
+ BYTE   W36
+ BYTE   N09  An3
+ BYTE   W07
+ BYTE   VOL   39*AirshipInvincible_mvl/mxv
+ BYTE   W05
+//  #09 //019   ----------------------------------------
+ BYTE   N06  En3  v127
+ BYTE   W06
+ BYTE   Dn3  v080
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W06
+ BYTE   N48  Bn2
+ BYTE   W48
+ BYTE   N06  Bn3  v104
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+//  #09 //020   ----------------------------------------
+ BYTE   N12  Fs3
+ BYTE   W12
+ BYTE   N06  Fs3  v080
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Fs3  v127
+ BYTE   W06
+ BYTE   Gn3
+ BYTE   W06
+ BYTE   Fs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Dn3  v080
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   Dn3
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Bn2  v060
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   Bn2
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+//  #09 //021   ----------------------------------------
+ BYTE   VOL   39*AirshipInvincible_mvl/mxv
+ BYTE   N48  Gs3  v104
+ BYTE   W48
+ BYTE   Fs3
+ BYTE   W48
+//  #09 //022   ----------------------------------------
+ BYTE   En3
+ BYTE   W48
+ BYTE   Dn3
+ BYTE   W48
+//  #09 //023   ----------------------------------------
+ BYTE   VOL   44*AirshipInvincible_mvl/mxv
+ BYTE   N28  Cs3  v080
+ BYTE   W36
+ BYTE   N09  Dn3  v104
+ BYTE   W12
+ BYTE   N28  En3
+ BYTE   W36
+ BYTE   N09  Fs3
+ BYTE   W12
+//  #09 //024   ----------------------------------------
+ BYTE   VOL   45*AirshipInvincible_mvl/mxv
+ BYTE   N28  Gn3  v116
+ BYTE   W36
+ BYTE   N09  An3
+ BYTE   W12
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N28  Bn3  v127
+ BYTE   W36
+ BYTE   N09  Cs4  v104
+ BYTE   W12
+//  #09 //025   ----------------------------------------
+ BYTE   VOL   41*AirshipInvincible_mvl/mxv
+ BYTE   N04  Bn3  v092
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+//  #09 //026   ----------------------------------------
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Bn3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+//  #09 //027   ----------------------------------------
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Fs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+//  #09 //028   ----------------------------------------
+ BYTE   N07  Bn1
+ BYTE   N04  Fs4
+ BYTE   W12
+ BYTE   N07  Bn1
+ BYTE   N04  Dn4
+ BYTE   W12
+ BYTE   N07  Cs2
+ BYTE   N04  Cs4
+ BYTE   W12
+ BYTE   N07  Cs2
+ BYTE   N04  Dn4
+ BYTE   W12
+ BYTE   N07  Dn2
+ BYTE   N04  Fs4
+ BYTE   W12
+ BYTE   N07  Dn2
+ BYTE   N04  Dn4
+ BYTE   W12
+ BYTE   N07  Fs2
+ BYTE   N04  Cs4
+ BYTE   W12
+ BYTE   N07  Fs2
+ BYTE   N04  Dn4
+ BYTE   W12
+//  #09 //029   ----------------------------------------
+Label_DCC992:
+ BYTE   N04  Fn4  v092
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   PEND 
+//  #09 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCC992
+//  #09 //031   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCC992
+//  #09 //032   ----------------------------------------
+ BYTE   N04  Gn4  v092
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+//  #09 //033   ----------------------------------------
+ BYTE   VOL   49*AirshipInvincible_mvl/mxv
+ BYTE   N04  En2  v080
+ BYTE   W06
+ BYTE   An2
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An2  v104
+ BYTE   W06
+ BYTE   Cs3
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs3  v112
+ BYTE   W06
+ BYTE   En3
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   VOL   51*AirshipInvincible_mvl/mxv
+ BYTE   N04  En3  v127
+ BYTE   W06
+ BYTE   An3
+ BYTE   W06
+ BYTE   Cs4
+ BYTE   W06
+ BYTE   En4
+ BYTE   W06
+//  #09 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_DCC85B
+ BYTE   FINE
+
+//**************** Track 10 (Midi-Chn.9) ****************//
+
+AirshipInvincible_010:
+//  #10 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   124
+ BYTE   PAN   c_v+0
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   MOD 0
+ BYTE   BEND   c_v+0
+ BYTE   W96
+//  #10 //001   ----------------------------------------
+ BYTE   W96
+//  #10 //002   ----------------------------------------
+ BYTE   W96
+//  #10 //003   ----------------------------------------
+ BYTE   W96
+//  #10 //004   ----------------------------------------
+ BYTE   W96
+//  #10 //005   ----------------------------------------
+ BYTE   W96
+//  #10 //006   ----------------------------------------
+ BYTE   N24  Cn1  v104
+ BYTE   N24  An2
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+//  #10 //007   ----------------------------------------
+ BYTE   N24
+ BYTE   N24  Cs2
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   W24
+ BYTE   N24
+ BYTE   N24  Dn1  v112
+ BYTE   W24
+ BYTE   Cn1  v104
+ BYTE   W24
+//  #10 //008   ----------------------------------------
+ BYTE   N24
+ BYTE   N24  Dn1
+ BYTE   N24  Cs2
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Dn1
+ BYTE   W21
+ BYTE   VOL   28*AirshipInvincible_mvl/mxv
+ BYTE   W03
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1  v112
+ BYTE   W12
+ BYTE   N06  Dn1  v127
+ BYTE   N12  Gs1  v112
+ BYTE   W12
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1  v112
+ BYTE   W12
+ BYTE   N06  Dn1  v127
+ BYTE   N12  As1  v112
+ BYTE   W06
+ BYTE   N06  Dn1  v127
+ BYTE   W06
+//  #10 //009   ----------------------------------------
+Label_DCCA50:
+ BYTE   VOL   21*AirshipInvincible_mvl/mxv
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1
+ BYTE   N24  Cs2  v127
+ BYTE   N24  An2
+ BYTE   W12
+ BYTE   N12  As1  v104
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+//  #10 //010   ----------------------------------------
+Label_DCCA76:
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   PEND 
+//  #10 //011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //012   ----------------------------------------
+Label_DCCA99:
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N06  Dn1  v127
+ BYTE   N12  Gs1  v104
+ BYTE   W12
+ BYTE   N06  Dn1  v127
+ BYTE   N12  Gn2
+ BYTE   W06
+ BYTE   N06  Dn1
+ BYTE   W06
+ BYTE   PEND 
+//  #10 //013   ----------------------------------------
+Label_DCCAC0:
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1
+ BYTE   N24  An2  v127
+ BYTE   W12
+ BYTE   N12  As1  v104
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   PEND 
+//  #10 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA99
+//  #10 //017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCAC0
+//  #10 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //020   ----------------------------------------
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   Dn1  v127
+ BYTE   N12  Gs1  v104
+ BYTE   W12
+ BYTE   Dn1  v127
+ BYTE   N12  As1  v104
+ BYTE   W12
+//  #10 //021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCA76
+//  #10 //023   ----------------------------------------
+ BYTE   VOL   22*AirshipInvincible_mvl/mxv
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+//  #10 //024   ----------------------------------------
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Dn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   As1
+ BYTE   W12
+ BYTE   N24  Cn1
+ BYTE   N12  Gs1
+ BYTE   W12
+ BYTE   Dn1  v127
+ BYTE   N12  As1  v104
+ BYTE   W12
+ BYTE   Dn1  v127
+ BYTE   N12  Gs1  v104
+ BYTE   N12  Cs2  v127
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N12  As1  v104
+ BYTE   N12  An2  v127
+ BYTE   W12
+//  #10 //025   ----------------------------------------
+ BYTE   N24  Fs1  v116
+ BYTE   N24  An2  v127
+ BYTE   W24
+ BYTE   Fs1  v116
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+//  #10 //026   ----------------------------------------
+ BYTE   VOL   24*AirshipInvincible_mvl/mxv
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+//  #10 //027   ----------------------------------------
+Label_DCCB8E:
+ BYTE   N24  Fs1  v116
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   N24
+ BYTE   W24
+ BYTE   PEND 
+//  #10 //028   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCB8E
+//  #10 //029   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCB8E
+//  #10 //030   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_DCCB8E
+//  #10 //031   ----------------------------------------
+ BYTE   N24  Cn1  v104
+ BYTE   N24  Fs1
+ BYTE   N24  An2
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   W24
+//  #10 //032   ----------------------------------------
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   N24  Cs2
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Dn1  v112
+ BYTE   N24  Fs1  v104
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   W24
+//  #10 //033   ----------------------------------------
+ BYTE   Cn1
+ BYTE   N24  Dn1
+ BYTE   N24  Fs1
+ BYTE   N24  Cs2
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Dn1
+ BYTE   N24  Fs1
+ BYTE   W24
+ BYTE   Cn1
+ BYTE   N24  Fs1
+ BYTE   N12  Gs1  v112
+ BYTE   W12
+ BYTE   N06  Dn1  v127
+ BYTE   N12  Gs1  v112
+ BYTE   W12
+ BYTE   N24  Cn1  v104
+ BYTE   N12  Gs1  v112
+ BYTE   W12
+ BYTE   N06  Dn1  v127
+ BYTE   N12  As1  v112
+ BYTE   W06
+ BYTE   N06  Dn1  v127
+ BYTE   W06
+//  #10 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_DCCA50
+ BYTE   FINE
+
+//**************** Track 11 (Midi-Chn.10) ****************//
+
+AirshipInvincible_011:
+//  #11 //000   ----------------------------------------
+ BYTE   KEYSH   AirshipInvincible_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   63
+ BYTE   MOD 0
+ BYTE   VOL   39*AirshipInvincible_mvl/mxv
+ BYTE   PAN   c_v+0
+ BYTE   BEND   c_v+0
+ BYTE   W96
+//  #11 //001   ----------------------------------------
+ BYTE   W96
+//  #11 //002   ----------------------------------------
+ BYTE   W96
+//  #11 //003   ----------------------------------------
+ BYTE   W96
+//  #11 //004   ----------------------------------------
+ BYTE   W96
+//  #11 //005   ----------------------------------------
+ BYTE   W96
+//  #11 //006   ----------------------------------------
+ BYTE   W96
+//  #11 //007   ----------------------------------------
+ BYTE   W96
+//  #11 //008   ----------------------------------------
+ BYTE   W96
+//  #11 //009   ----------------------------------------
+Label_FD0035:
+ BYTE   VOL   39*AirshipInvincible_mvl/mxv
+ BYTE   W12
+ BYTE   N09  Cs3  v080
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W12
+//  #11 //010   ----------------------------------------
+Label_FD0042:
+ BYTE   W12
+ BYTE   N09  Cs3  v080
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W12
+ BYTE   PEND 
+//  #11 //011   ----------------------------------------
+Label_FD004E:
+ BYTE   W12
+ BYTE   N09  Dn3  v080
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W12
+ BYTE   PEND 
+//  #11 //012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD004E
+//  #11 //013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0042
+//  #11 //014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0042
+//  #11 //015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD004E
+//  #11 //016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD004E
+//  #11 //017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0042
+//  #11 //018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0042
+//  #11 //019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD004E
+//  #11 //020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD004E
+//  #11 //021   ----------------------------------------
+Label_FD0087:
+ BYTE   W12
+ BYTE   N09  En3  v080
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W24
+ BYTE   N09
+ BYTE   W12
+ BYTE   PEND 
+//  #11 //022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0087
+//  #11 //023   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0087
+//  #11 //024   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_FD0087
+//  #11 //025   ----------------------------------------
+ BYTE   VOL   30*AirshipInvincible_mvl/mxv
+ BYTE   N09  Gn1  v080
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  Bn1
+ BYTE   W12
+//  #11 //026   ----------------------------------------
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   En1
+ BYTE   N09  Gn1
+ BYTE   W12
+//  #11 //027   ----------------------------------------
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+ BYTE   Bn0
+ BYTE   N09  Fs1
+ BYTE   W12
+//  #11 //028   ----------------------------------------
+ BYTE   Bn0
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Cs1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+ BYTE   Fs1
+ BYTE   W12
+ BYTE   N09
+ BYTE   W12
+//  #11 //029   ----------------------------------------
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+ BYTE   As1
+ BYTE   N09  Dn2
+ BYTE   W12
+//  #11 //030   ----------------------------------------
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   N09  As1
+ BYTE   W12
+//  #11 //031   ----------------------------------------
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   N09  An1
+ BYTE   W12
+//  #11 //032   ----------------------------------------
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+ BYTE   Cn1
+ BYTE   N09  Gn1
+ BYTE   W12
+//  #11 //033   ----------------------------------------
+ BYTE   N19  An1
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+ BYTE   N19
+ BYTE   W24
+//  #11 //034   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_FD0035
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+AirshipInvincible:
+	BYTE	11	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	AirshipInvincible_pri	// Priority
+	BYTE	AirshipInvincible_rev	// Reverb.
+    
+	POIN2	AirshipInvincible_grp
+    
+	POIN2	AirshipInvincible_001
+	POIN2	AirshipInvincible_002
+	POIN2	AirshipInvincible_003
+	POIN2	AirshipInvincible_004
+	POIN2	AirshipInvincible_005
+	POIN2	AirshipInvincible_006
+	POIN2	AirshipInvincible_007
+	POIN2	AirshipInvincible_008
+	POIN2	AirshipInvincible_009
+	POIN2	AirshipInvincible_010
+	POIN2	AirshipInvincible_011
+
+	
