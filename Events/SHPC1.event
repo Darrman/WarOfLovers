@@ -101,6 +101,78 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+//Troll idea: Force the 1,000 line cutscene to be unskippable.
+//But on a second attempt, it's skippable. Don't forget to save on preps!
+//Name entry
+Text(SHPCPostNameEntry)
+//"Chapter 1" - Final Fantasy
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW SHPCFF1Opening
+TEXTEND
+//BG: Coneria
+Text(SHPCInConeria)
+//BG: Temple of Fiends
+Text(SHPCGarlandFight)
+//Scripted battle vs. Garland
+Text(SHPCAfterGarland)
+//Earthquake! Everyone falls into a hole. FF2 units briefly appear as green.
+//Background: Just outside Tantegel
+Text(SHPCInAlefgard)
+//More earthquakes!
+Text(SHPCFastForwardToCh5)
+//"Chapter 2" - Dragon Quest
+//BG: By the volcano Ortega fell into
+Text(SHPCTimeTravelToDQ3)
+Text(SHPCMeetingYourDescendants)
+//BG: Necrogond entrance
+Text(SHPCFF2CatchesUp)
+Text(SHPCWhirlwinds)
+//BG: Outside Baramos's Castle
+Text(SHPCButThouMustHelp)
+//Erdrick and Alena smack each other?
+Text(SHPCFightingBaramos)
+//Hey, this isn't Alefgard!
+Text(SHPCEndOfCh2)
+//"Chapter 3" - Earthbound
+//BG: Duncan's Factory
+Text(SHPCLostInDuncansFactory)
+Text(SHPCSegaInterlude)
+//BG: The top of Duncan's Factory
+Text(SHPCFireTheRocket)
+//Scripted battle: Ana vs. Odin
+//Oh shoot, we botched the escape.
+Text(SHPCEndOfCh3)
+//"Chapter 4" - Fire Emblem
+//BG: FE1 Chapter 20
+Text(SHPCRevisitingAkaneia)
+Text(SHPCTheNatureOfTheCamus)
+Text(SHPCBanutuStoryTime)
+//Did Marth get Grunia to stand down? That's been abridged out.
+Text(SHPCEndOfCh4)
+//"Chapter 5" - Megami Tensei
+//BG: Rotting Sea of Flames
+Text(SHPCLostInAMaze)
+//You think we have time to show Seth?
+Text(SHPCNoMoreAbridging)
+//"Chapter 6" - The One You Get to Play
+//BG: Sylx Tower overworld
+//Then switch to an interior shot
+Text(SHPCOpeningTowerPlotting)
+//Use the overworld shot, then cut to map
+Text(SHPCOpeningCrystalBrawl)
+//Do the thing with the loose text bubbles in FE8 Ch16
+Text(SHPCUnattributedAttacks)
+//Many, many scripted battles. With anims on for full annoyance.
+Text(SHPCTaloonsDirections)
+Text(SHPCTheBrawlContinues)
+//A few tiles away on the map...
+Text(SHPCOpeningBackToSquareOne)
+Text(SHPCOpeningFEResurrectionIsHard)
+//Clear and reload everyone for this
+Text(SHPCOpeningBritishLecture)
+Text(SHPCOpeningEvenOhmIsDubious)
+//Stop skipping here.
 FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad

@@ -52,6 +52,7 @@ This text is a placeholder.[A][X]
 #include Story/Chapter10.txt
 #include Story/Chapter11.txt
 #include Story/MiscPromo.txt
+#include Story/SHPCGen1.txt
 
 ## SavePointLabel
 Save Point[X]
