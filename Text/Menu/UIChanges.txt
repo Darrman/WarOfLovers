@@ -1,0 +1,487 @@
+# 0x0309 LordDesc
+A prominent figure from the[N]
+Mushroom Kingdom.[X]
+
+# 0x030A Lord2Desc
+Won't need this[.][X]
+
+# 0x030B GreatLordDesc
+Great Lord Description[X]
+
+# 0x030C GreatLord2Desc
+Pointless[X]
+
+# 0x030D CavalierDesc
+Well-balanced knights on[N]
+horseback. High movement.[X]
+
+# 0x030E PaladinDesc
+Mounted knights with superior[.][NL]
+abilities all around.[.][X]
+
+# 0x030F ArmourKnightDesc
+Armoured knights with poor[.][NL]
+movement but high defence.[X]
+
+# 0x0310 GeneralDesc
+Possesses excellent defensive[N]
+and offensive skills.[X]
+
+# 0x0311 ThiefDesc
+Multitalented knaves with[N]
+an eye for riches.[X]
+
+# 0x0312 MercenaryDesc
+Well-balanced professional[N]
+soldiers-for-hire.[X]
+
+# 0x0313 HeroDesc
+Seasoned mercenary veterans[N]
+with remarkable skill.[.][X]
+
+# 0x0314 MyrmidonDesc
+Talented swordsmen skilled[N]
+in swift killing strokes.[.][X]
+
+# 0x0315 SwordmasterDesc
+Lightning-fast swordsmen of[N]
+peerless and lethal skill.[X]
+
+# 0x0316 AssassinDesc
+Masters of the killing arts.[NL]
+May kill a foe instantly.[X]
+
+# 0x0317 ArcherDesc
+Warriors who use bows to[N]
+attack from afar.[X]
+
+# 0x0318 SniperDesc
+Archers of unparalleled[N]
+skill and accuracy.[X]
+
+# 0x0319 RangerDesc
+Mounted fighters skilled in[N]
+both sword and bow.[X]
+
+# 0x031A DragonKnightDesc
+High-flying knights vulnerable[N]
+only to bows and magic.[X]
+
+# 0x031B DragonMasterDesc
+Wyvern-mounted knights of[N]
+superior skill.[X]
+
+# 0x031C WyvernKnightDesc
+Wyvern Knight, rewrite since[N]
+Pierce is gone[X]
+
+# 0x031D MageDesc
+Magic wielders with solid skills[N]
+but low physical strength.[X]
+
+# 0x031E SageDesc
+Advanced scholars of magical[N]
+codices. Can use staves.[X]
+
+# 0x031F MageKnightDesc
+Mounted knights capable of[N]
+using magical attacks.[X]
+
+# 0x0320 BishopDesc
+Users of light magic for[N]
+offensive purposes.[X]
+
+# 0x0321 NomadDesc
+Mounted plainsmen with good[.][NL]
+movement. Armed with bows.[X]
+
+# 0x0322 NomadTrooperDesc
+An honorific given to nomads of[.][NL]
+great skill. Equip: Bows, swords.[.][X]
+
+# 0x0323 MamkuteDesc
+Possesses the power to turn[N]
+into a dragon.[.][X]
+
+# 0x0324 JourneymanDesc
+Remove.[X]
+
+# 0x0325 PupilDesc
+Remove.[X]
+
+# 0x0326 RougeDesc
+Knaves who need no tools[N]
+or keys to open locks.[X]
+
+# 0x0327 FighterDesc
+Ruffians with great strength[N]
+but poor defence.[X]
+
+# 0x0328 WarriorDesc
+Stalwart warriors whose[N]
+power is their pride.[X]
+
+# 0x0329 BrigandDesc
+Mighty mercenaries who[N]
+thrive in mountains.[X]
+
+# 0x032A BerserkerDesc
+Fighters at home both[N]
+in mountains and at sea.[X]
+
+# 0x032B GreatKnightDesc
+Knights with some mobility[N]
+and excellent defense.[X]
+
+# 0x032C ShamanDesc
+Wielders of magic. Stronger,[N]
+but slower, than mages.[X]
+
+# 0x032D DruidDesc
+Wielders of deep and ancient[N]
+magic. Highly powerful.[X]
+
+# 0x032E SummonerDesc
+Master sorcerers who summon[N]
+illusion fighters.[X]
+
+# 0x032F MonkDesc
+Users of light magic with[N]
+high resistance.[.][X]
+
+# 0x0330 PriestDesc
+Spiritual guides who use[NL]
+staves to heal allies.[X]
+
+# 0x0331 BardDesc
+Musicians whose melodies aid[NL]
+allies. Unable to attack.[.][X]
+
+# 0x0332 RecruitDesc
+Remove.[X]
+
+# 0x0333 PegasusKnightDesc
+Flying knights who resist magic[N]
+but are weak against bows.[X]
+
+# 0x0334 FalconKnightDesc
+Swift sky warriors who shrug[N]
+off magical attacks.[X]
+
+# 0x0335 ClericDesc
+Holy women who use sacred[N]
+staves to heal their allies.[.][X]
+
+# 0x0336 TroubadourDesc
+Maidens who wield staves from[NL]
+horseback. Cannot fight.[X]
+
+# 0x0337 ValkyrieDesc
+Battle maidens who wield both[N]
+staves and light magic.[X]
+
+# 0x0338 DancerDesc
+Dancers whose dances revitalise[.][NL]
+their allies. They cannot attack.[.][X]
+
+# 0x0339 SoldierDesc
+Average soldiers possessing[.][NL]
+no special abilities.[.][X]
+
+# 0x033A PirateDesc
+Tough brawlers who call[N]
+the sea their home.[X]
+
+# 0x033B NecromancerDesc
+Necromancer; change to[N]
+some other bad guy[X]
+
+# 0x033C FleetDesc
+Warships that patrol the open seas.[.][NL]
+They carry powerful ballistae.[X]
+
+# 0x033D PhantomDesc
+Phantom warriors who vanish[N]
+when attacked.[X]
+
+# 0x033E RevenantDesc
+Zombies that move slowly[NL]
+and attack with claws.[X]
+
+# 0x033F EntombedDesc
+Reanimated corpses. Slow,[.][NL]
+but rend flesh with ease.[X]
+
+# 0x0340 BonewalkerDesc
+Dead warriors given will.[NL]
+Wield a variety of weapons.[X]
+
+# 0x0341 WightDesc
+Skeletons driven by magic.[NL]
+They can wield many weapons.[X]
+
+# 0x0342 BaelDesc
+Giant poisonous mountain spiders[N]
+with venom-filled fangs.[X]
+
+# 0x0343 ElderBaelDesc
+Magic-infused giant spiders.[NL]
+Their venom is lethal.[X]
+
+# 0x0344 CyclopsDesc
+One-eyed giants who use their[.][NL]
+strength to wield huge axes.[X]
+
+# 0x0345 MautheDoogDesc
+Demon dogs that attack[.][NL]
+with keen-edged fangs.[X]
+
+# 0x0346 GwyligiDesc
+Three-headed hellhounds.[NL]
+Their fangs deal out death.[X]
+
+# 0x0347 TarvosDesc
+Vile man-beasts who fight[NL]
+with colossal axes.[X]
+
+# 0x0348 MaelduinDesc
+Fast and strong creatures[.][NL]
+who hunt with axes and bows.[X]
+
+# 0x0349 MogallDesc
+Perilous floating orbs filled with[NL]
+blighting dark magic.[.][X]
+
+# 0x034A ArchMogallDesc
+Mogall whose power exceeds[NL]
+that of their lesser cousins.[.][X]
+
+# 0x034B GorgonDesc
+Comely and cursed, these[N]
+creatures turn all into stone.[X]
+
+# 0x034C GorgonEggDesc
+Eggs of lovely and deadly gorgons.[X]
+
+# 0x034D GargoyleDesc
+Malignant fiends who hunt with[NL]
+lances. They ride on fell wings.[X]
+
+# 0x034E DeathgoyleDesc
+Gargoyles empowered by magic.[NL]
+Swift and brutal.[X]
+
+# 0x034F DragonZombieDesc
+The revived corpse of a dragon.[N]
+Its putrid breath decays all.[X]
+
+# 0x0350 DemonKingDesc
+This foul being is the master of the[NL]
+dark. Its power exceeds mortal ken.[.][X]
+
+# 0x0351 CivilianDesc
+An innocent peasant lacking any[.][NL]
+combat skills at all.[.][X]
+
+# 0x0352
+Spiritual leader of Rausten. He claims[NL]
+ancestry with the saintly Latona.[.][X]
+
+# 0x0353
+The kingdom's highest authority. She[NL]
+is a popular ruler of great virtue.[.][X]
+
+# 0x0447
+
+The breath of a dragon corpse.[X]
+
+
+# 0x0542 LevelDesc
+Unit level. The unit becomes[NL]
+stronger as it gains levels.[X]
+
+# 0x0543 ExperienceDesc
+Experience points gained. Gain[NL]
+100 points to earn a new level.[.][X]
+
+# 0x0544 HPDesc
+Unit hit points. The unit will[N]
+die if this reaches 0.[X]
+
+# 0x0545 WeaponNameDesc
+Weapon name and type.[.][X]
+
+# 0x0546 StrengthDesc
+Strength. Increases physical[N]
+damage dealt to an enemy.[X]
+
+# 0x0547 MagicDesc
+Magic. Increases magical[N]
+damage and staff healing.[X]
+
+# 0x0548 SkillDesc
+Skill. A higher number improves[N]
+the unit's hit and critical.[X]
+
+# 0x0549 SpeedDesc
+Speed. Increases evasion. If[N]
+4 points faster, attack twice.[X]
+
+# 0x054A LuckDesc
+Luck. Reduces the chance of[N]
+receiving a critical hit.[X]
+
+# 0x054B DefenceDesc
+Defensive skill. Reduces[NL]
+damage from weapons.[X]
+
+# 0x054C ResistanceDesc
+Magical resistance. Reduces[.][NL]
+damage from magic attacks.[X]
+
+# 0x054D MovementDesc
+Movement. The normal distance[.][NL]
+you can cross in 1 turn.[X]
+
+# 0x054E ConstitutionDesc
+Constitution. Reduces the impact[N]
+of weapon weight on the unit.[X]
+
+# 0x054F AidDesc
+Max rescuing constitution. Units[NL]
+with lower Con can be rescued.[.][X]
+
+# 0x0550 TravellerDesc
+Traveler. The name of the unit[NL]
+with whom this unit is traveling.[.][X]
+
+# 0x0551 AffinityDesc
+Elemental affinity. Determines[NL]
+support bonuses given to units.[.][X]
+
+# 0x0552 NormalStatusDesc
+Normal.[.][NL]
+Feeling healthy.[X]
+
+# 0x0553 PoisonStatusDesc
+Ooooog...[.][NL]
+Poison slowly steals HP.[X]
+
+# 0x0554 SleepStatusDesc
+Zzzz... Zzzzz...[NL]
+Sleeping now... Can't move...[.][X]
+
+# 0x0555 BerserkStatusDesc
+Rarrrrr! Attack the nearest[.][NL]
+unit, be it friend or foe![X]
+
+# 0x0556 SilenceStatusDesc
+......[NL]
+Magic and staves are unusable.[X]
+
+# 0x0557 StoneStatusDesc
+Craaack! Turned...to...[.][NL]
+stone. Can't...move![X]
+
+# 0x0558
+Attack power is increased,[NL]
+thanks to Filla's Might.[X]
+
+# 0x0559
+Defense & resistance increased,[.][NL]
+thanks to Ninis's Grace.[X]
+
+# 0x055A
+Critical hit  0s increased,[.][NL]
+thanks to Thor's Ire.[.][X]
+
+# 0x055B
+Dodge is increased, thanks[NL]
+to Set's Litany.[X]
+
+# 0x055C
+Amount of damage this weapon[NL]
+causes. Affected by defenses.[.][X]
+
+# 0x055D
+Chance that attacks will hit.[NL]
+Affected by enemy avoid.[X]
+
+# 0x055E
+Weapon Range. A range of 1[NL]
+can only hit adjacent spaces.[.][X]
+
+# 0x055F
+Chance the weapon will deal[N]
+a critical hit for 3x damage.[X]
+
+# 0x0560
+Ability to dodge enemy attacks.[.][NL]
+Affects enemy's hit %.[X]
+
+# 0x0561
+Sword mastery level.[X]
+
+# 0x0562
+Lance mastery level.[X]
+
+# 0x0563
+Axe mastery level.[X]
+
+# 0x0564
+Bow mastery level.[X]
+
+# 0x0565
+Anima magic mastery level.[X]
+
+# 0x0566
+Light magic mastery level.[X]
+
+# 0x0567
+Dark magic mastery level.[.][X]
+
+# 0x0568
+Staff mastery level.[X]
+
+# 0x0569
+Strengthen the bond[.][NL]
+between units by talking.[.][X]
+
+# 0x056A
+The name of the unit[NL]
+to whom you can talk.[.][X]
+
+# 0x056B
+Weapon or magic in use.[.][X]
+
+# 0x056C
+Weapon or magic in use.[.][NL]
+Effective damage dealt.[.][X]
+
+# 0x056D
+Weapon triangle advantage.[N]
+Accuracy and damage up.[X]
+
+# 0x056E
+Weapon triangle advantage.[N]
+Accuracy and damage up.[X]
+
+# 0x056F
+Weapon triangle disadvantage.[N]
+Accuracy and damage down.[X]
+
+# 0x0570
+Weapon triangle disadvantage.[N]
+Accuracy and damage down.[X]
+
+# 0x0571
+Damage this weapon will do.[.][NL]
+x2 = two attacks, x4 = four.[X]
+
+# 0x0572
+Attack Speed.[.][NL]
+Determines number of attacks.[.][X]
+
+# 0x0573
+Defense. Decreases damage[N]
+from attacks.[X]

@@ -17,6 +17,7 @@ Learned  [X]
 #include "unitmenu_text.txt"
 
 #include "Menu/LocationName.txt"
+#include Menu/UIChanges.txt
 
 #0x903 HouseText
 //Main story text

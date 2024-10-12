@@ -1,0 +1,728 @@
+//Replaces the FE8 font with Chicago
+//aka the FF6/CT font
+//ASCII / straight-lookup only (FE8U)
+//Don't use 0x00-0x1F slots, used for dialogue functions
+//[0x80] is also unusable (forced - character), might be more
+
+//Uppercase
+
+Char_A:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "A.img.bin"
+
+Char_B:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "B.img.bin"
+
+Char_C:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "C.img.bin"
+
+Char_D:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "D.img.bin"
+
+Char_E:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "E.img.bin"
+
+Char_F:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "F.img.bin"
+
+Char_G:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "G.img.bin"
+
+Char_H:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "H.img.bin"
+
+Char_I:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x5 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "I.img.bin"
+
+
+Char_J:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "J.img.bin"
+
+Char_K:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "K.img.bin"
+
+Char_L:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "L.img.bin"
+
+Char_M:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x9 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "M.img.bin"
+
+Char_N:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "N.img.bin"
+
+
+Char_O:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "O.img.bin"
+
+Char_P:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "P.img.bin"
+
+Char_Q:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "Q.img.bin"
+
+Char_R:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "R.img.bin"
+
+Char_S:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "S.img.bin"
+
+Char_T:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "T.img.bin"
+
+
+Char_U:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "U.img.bin"
+
+Char_V:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "V.img.bin"
+
+Char_W:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0xB //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "W.img.bin"
+
+
+Char_X:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "X.img.bin"
+
+Char_Y:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "Y.img.bin"
+
+Char_Z:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "Z.img.bin"
+
+//Lowercase
+
+Char_a:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "a_.img.bin"
+
+Char_b:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "b_.img.bin"
+
+Char_c:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "c_.img.bin"
+
+Char_d:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "d_.img.bin"
+
+Char_e:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "e_.img.bin"
+
+Char_f:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "f_.img.bin"
+
+Char_g:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "g_.img.bin"
+
+Char_h:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "h_.img.bin"
+
+Char_i:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "i_.img.bin"
+
+Char_j:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "j_.img.bin"
+
+Char_k:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "k_.img.bin"
+
+Char_l:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "l_.img.bin"
+
+Char_m:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0xB //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "m_.img.bin"
+
+Char_n:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "n_.img.bin"
+
+
+Char_o:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "o_.img.bin"
+
+Char_p:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "p_.img.bin"
+
+Char_q:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "q_.img.bin"
+
+Char_r:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "r_.img.bin"
+
+Char_s:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "s_.img.bin"
+
+Char_t:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x5 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "t_.img.bin"
+
+
+Char_u:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "u_.img.bin"
+
+Char_v:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "v_.img.bin"
+
+Char_w:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0xB //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "w_.img.bin"
+
+
+Char_x:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "x_.img.bin"
+
+Char_y:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "y_.img.bin"
+
+Char_z:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "z_.img.bin"
+
+//Numbers
+Char_0:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "0.img.bin"
+
+Char_1:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x4 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "1.img.bin"
+
+Char_2:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "2.img.bin"
+
+Char_3:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "3.img.bin"
+
+Char_4:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "4.img.bin"
+
+Char_5:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "5.img.bin"
+
+Char_6:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "6.img.bin"
+
+Char_7:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "7.img.bin"
+
+Char_8:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "8.img.bin"
+
+Char_9:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "9.img.bin"
+
+
+//Punctuation
+
+Char_Exclaimation:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "!.img.bin"
+
+Char_Quote:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x6 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "quote.img.bin"
+
+Char_Hash:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "#.img.bin"
+
+Char_Percent:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x9 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "%.img.bin"
+
+Char_And:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x9 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "&.img.bin"
+
+Char_Apostrophe:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "'.img.bin"
+
+Char_LeftBracket:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x4 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "(.img.bin"
+
+Char_RightBracket:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x4 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin ").img.bin"
+
+Char_Plus:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "+.img.bin"
+
+Char_Comma:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin ",.img.bin"
+
+Char_Hyphen:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "-.img.bin"
+
+Char_FullStop:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "fullstop.img.bin"
+
+Char_Slash:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x5 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "slash.img.bin"
+
+Char_Colon:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x3 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "colon.img.bin"
+
+Char_Equals:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x8 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "=.img.bin"
+
+Char_Question:
+WORD 0x00000000 //empty pointer (no Shift-JIS)
+BYTE 0x00 //empty code-page # (no Shift-JIS)
+BYTE 0x7 //character width
+BYTE 0x00 //always zero
+BYTE 0x00
+#incbin "question.img.bin"
+
+
+
+tGlyphEntry(0x21, Char_Exclaimation)
+tGlyphEntry(0x22, Char_Quote)
+tGlyphEntry(0x23, Char_Hash)
+tGlyphEntry(0x25, Char_Percent)
+tGlyphEntry(0x26, Char_And)
+tGlyphEntry(0x27, Char_Apostrophe)
+tGlyphEntry(0x28, Char_LeftBracket)
+tGlyphEntry(0x29, Char_RightBracket)
+tGlyphEntry(0x2B, Char_Plus)
+tGlyphEntry(0x2C, Char_Comma)
+tGlyphEntry(0x2D, Char_Hyphen)
+tGlyphEntry(0x2E, Char_FullStop)
+tGlyphEntry(0x2F, Char_Slash)
+tGlyphEntry(0x30, Char_0)
+tGlyphEntry(0x31, Char_1)
+tGlyphEntry(0x32, Char_2)
+tGlyphEntry(0x33, Char_3)
+tGlyphEntry(0x34, Char_4)
+tGlyphEntry(0x35, Char_5)
+tGlyphEntry(0x36, Char_6)
+tGlyphEntry(0x37, Char_7)
+tGlyphEntry(0x38, Char_8)
+tGlyphEntry(0x39, Char_9)
+tGlyphEntry(0x3A, Char_Colon)
+tGlyphEntry(0x3D, Char_Equals)
+tGlyphEntry(0x3F, Char_Question)
+
+tGlyphEntry(0x41, Char_A)
+tGlyphEntry(0x42, Char_B)
+tGlyphEntry(0x43, Char_C)
+tGlyphEntry(0x44, Char_D)
+tGlyphEntry(0x45, Char_E)
+tGlyphEntry(0x46, Char_F)
+tGlyphEntry(0x47, Char_G)
+tGlyphEntry(0x48, Char_H)
+tGlyphEntry(0x49, Char_I)
+tGlyphEntry(0x4A, Char_J)
+tGlyphEntry(0x4B, Char_K)
+tGlyphEntry(0x4C, Char_L)
+tGlyphEntry(0x4D, Char_M)
+tGlyphEntry(0x4E, Char_N)
+tGlyphEntry(0x4F, Char_O)
+tGlyphEntry(0x50, Char_P)
+tGlyphEntry(0x51, Char_Q)
+tGlyphEntry(0x52, Char_R)
+tGlyphEntry(0x53, Char_S)
+tGlyphEntry(0x54, Char_T)
+tGlyphEntry(0x55, Char_U)
+tGlyphEntry(0x56, Char_V)
+tGlyphEntry(0x57, Char_W)
+tGlyphEntry(0x58, Char_X)
+tGlyphEntry(0x59, Char_Y)
+tGlyphEntry(0x5A, Char_Z)
+
+
+tGlyphEntry(0x61, Char_a)
+tGlyphEntry(0x62, Char_b)
+tGlyphEntry(0x63, Char_c)
+tGlyphEntry(0x64, Char_d)
+tGlyphEntry(0x65, Char_e)
+tGlyphEntry(0x66, Char_f)
+tGlyphEntry(0x67, Char_g)
+tGlyphEntry(0x68, Char_h)
+tGlyphEntry(0x69, Char_i)
+tGlyphEntry(0x6A, Char_j)
+tGlyphEntry(0x6B, Char_k)
+tGlyphEntry(0x6C, Char_l)
+tGlyphEntry(0x6D, Char_m)
+tGlyphEntry(0x6E, Char_n)
+tGlyphEntry(0x6F, Char_o)
+tGlyphEntry(0x70, Char_p)
+tGlyphEntry(0x71, Char_q)
+tGlyphEntry(0x72, Char_r)
+tGlyphEntry(0x73, Char_s)
+tGlyphEntry(0x74, Char_t)
+tGlyphEntry(0x75, Char_u)
+tGlyphEntry(0x76, Char_v)
+tGlyphEntry(0x77, Char_w)
+tGlyphEntry(0x78, Char_x)
+tGlyphEntry(0x79, Char_y)
+tGlyphEntry(0x7A, Char_z)
