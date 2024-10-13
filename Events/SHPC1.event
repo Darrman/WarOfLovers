@@ -100,11 +100,20 @@ Traps2:
 ENDTRAP
 ALIGN 4
 
+PUSH
+  ORG $44800
+  BYTE 4 //max name length. Default is 5. Old RPGs make it 4. It's now 4.
+  ORG $482bA
+  BYTE 4 //max cursor position
+POP
+
 BeginningScene:
 //Troll idea: Force the 1,000 line cutscene to be unskippable.
 //But on a second attempt, it's skippable. Don't forget to save on preps!
 MUSC M_Prelude
-//Name entry
+ASMC 0x48281 //name selection
+CLEAN
+STAL 10
 Text(SHPCPostNameEntry)
 //"Chapter 1" - Final Fantasy
 TUTORIALTEXTBOXSTART
