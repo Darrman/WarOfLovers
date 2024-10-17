@@ -286,3 +286,6 @@ POP
   //Disable autosave (Laqieer)
   #include "GachaJam/AutosaveKiller/AutosaveKiller.event"
   
+  //Remove an item from everywhere (7743)
+  #include "GachaJam/ItemManagement/Installer.event"
+  

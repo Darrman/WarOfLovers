@@ -267,6 +267,7 @@ MOVE 10 Sheeda [13,11]
 ENUN
 //SOUN 0x4E //wind noises
 SOUN 0x2D9 //thud sound, probably something better to represent dropping the Divine Stone
+RemoveItemFromEverywhere(DivineStone)
 STAL 20
 EARTHQUAKE 1 1
 TEXTSTART
@@ -299,6 +300,7 @@ FAWU 20
 MOVE 12 Marth [13,6]
 MOVE 6 Sheeda [13,9]
 ENUN
+RemoveItemFromEverywhere(Falchion)
 REMU Marth
 SOUN 0xBD //tile sinking into the water, ideally a splash sound
 TEXTCONT
