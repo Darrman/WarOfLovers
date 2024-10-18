@@ -10,7 +10,8 @@
 
 #ifndef DebuffTable
   #define DebuffTable     0x0203F100
-  #define DebuffTableSize 0x00000440
+  #define DebuffTableSize 0x000003E0
+  //player units cut from 62 to 50, irrelevant since it's zeroed out of EMS
 #endif
 
 #ifndef ChapterDataTable
