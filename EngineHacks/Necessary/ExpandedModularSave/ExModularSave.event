@@ -163,8 +163,8 @@ gSuspendSaveChunks:
 	DeclSaveChunk($009C, $0200, $0A6370+1,            $0A638C+1)            // Trap data
 	DeclSaveChunk($029C, $0970, $0A4264+1,            $0A421C+1)            // BWL Entries
 	DeclSaveChunk($0C0C, $00C0, $0A4288+1,            $0A4248+1)            // Previous chapters turn count & time & stuff
-	DeclSaveChunk($0CEC, $0010, MSu_SaveMenuRelated,  MSu_LoadMenuRelated)  // "menu related list" related
-	DeclSaveChunk($0CFC, $0019, $0A3150+1, $0A3198+1)                       // Permanent eids
+	DeclSaveChunk($0CCC, $0010, MSu_SaveMenuRelated,  MSu_LoadMenuRelated)  // "menu related list" related
+	DeclSaveChunk($0CDC, $0019, $0A3150+1, $0A3198+1)                       // Permanent eids
 	DeclSaveChunk($0CF5, $0005, $0A3130+1,            $0A3170+1)            // Temporary eids
 	DeclSaveChunk($0CFA, $0024, MSa_SaveWMStuff,      MSa_LoadWMStuff,      EMS_CHUNK_WMDATA)
 	DeclSaveChunk($0D1E, $000C, MSu_SaveDungeonState, MSu_LoadDungeonState) // Valni/Lagdou active run data
@@ -201,7 +201,7 @@ gSuspendSaveChunks:
 	DeclSaveChunk($26AA, $0100, MSa_WriteSupplyItems, MSa_ReadSupplyItems)  // Convoy Items
 	
 	// ends at $27AA
-	// free up to $2D7C ($354 free bytes)
+	// free up to $2AAC ($302 free bytes)
 
 	DeclSaveChunk(0, 0, 0, MSu_LoadClaimFlagsFromParentSave) // Load Bonus Claim flags from parent save
 

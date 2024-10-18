@@ -113,9 +113,9 @@ DragonVeinWav:
     ALIGN 4
 
 SavePointRoutine:
-ASMC 0xB5D5D //write to suspend
+ASMC 0xB5D5D //write to suspend: was using vanilla routine (0xB5D5D) which loads vanilla BWL
 SOUN 0x60 //Game saved
-STAL 10
+STAL 20
 TUTORIALTEXTBOXSTART
 SVAL 0xB 0xFFFFFFFF
 TEXTSHOW GameSavedMessage

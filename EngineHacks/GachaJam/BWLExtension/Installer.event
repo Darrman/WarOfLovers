@@ -65,6 +65,12 @@ WORD newBWLDataArray
 ORG $A4D1C
 WORD newBWLDataArray
 //a bunch of BWL data storage pointers
+ORG $A4184
+WORD newBWLDataStorage
+ORG $A4208
+WORD newBWLDataStorage
+ORG $A4240
+WORD newBWLDataStorage
 ORG $A4280
 WORD newBWLDataStorage
 ORG $A4924
