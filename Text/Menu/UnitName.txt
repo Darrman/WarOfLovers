@@ -134,6 +134,192 @@ King of Lycia and Lilina's husband.[N]
 Intelligent and capable of outsmarting[N]
 his enemies; his combat is mediocre.[X]
 
+## GeorgeName
+George[X]
+
+## GeorgeDesc
+Placeholder description.[X]
+
+## MalliesiaName
+Malliesia[X]
+
+## MalliesiaDesc
+Placeholder description.[X]
+
+## RicardoName
+Ricardo[X]
+
+## RicardoDesc
+Placeholder description.[X]
+
+## TomthName
+Tomth[X]
+
+## TomthDesc
+Placeholder description.[X]
+
+## SajiName
+Saji[X]
+
+## SajiDesc
+Placeholder description.[X]
+
+## KashimName
+Kashim[X]
+
+## KashimDesc
+Placeholder description.[X]
+
+## RiffName
+Riff[X]
+
+## RiffDesc
+Placeholder description.[X]
+
+## LindaName
+Linda[X]
+
+## LindaDesc
+Placeholder description.[X]
+
+## OgumaName
+Oguma[X]
+
+## OgumaDesc
+Placeholder description.[X]
+
+## BartsName
+Barts[X]
+
+## BartsDesc
+Placeholder description.[X]
+
+## MiledyName
+Miledy[X]
+
+## MiledyDesc
+Placeholder description.[X]
+
+## WoltName
+Wolt[X]
+
+## WoltDesc
+Placeholder description.[X]
+
+## SophiaName
+Sophia[X]
+
+## SophiaDesc
+Placeholder description.[X]
+
+## AstoreName
+Astore[X]
+
+## AstoreDesc
+Placeholder description.[X]
+
+## FirName
+Fir[X]
+
+## FirDesc
+Placeholder description.[X]
+
+## BartreName
+Bartre[X]
+
+## BartreDesc
+Placeholder description.[X]
+
+## CamusName
+Camus[X]
+
+## CamusDesc
+Placeholder description.[X]
+
+## DyuteName
+Dyute[X]
+
+## DyuteDesc
+Placeholder description.[X]
+
+## CelineName
+Celine[X]
+
+## CelineDesc
+Placeholder description.[X]
+
+## BaldoFriendName
+B. Friend[X]
+
+## BaldoFriendDesc
+Placeholder description.[X]
+
+## ThracianRecruitName
+Ch18 Recruit[X]
+
+## ThracianRecruitDesc
+Placeholder description.[X]
+
+## RyutoName
+Ryuto[X]
+
+## RyutoDesc
+Placeholder description.[X]
+
+## EddaDescendantName
+Edda D.[X]
+
+## EddaDescendantDesc
+Placeholder description.[X]
+
+## DozelDescendantName
+Dozel D.[X]
+
+## DozelDescendantDesc
+Placeholder description.[X]
+
+## FeenaName
+Feena[X]
+
+## FeenaDesc
+Placeholder description.[X]
+
+## NavarreName
+Navarre[X]
+
+## NavarreDesc
+Placeholder description.[X]
+
+## GordonName
+Gordon[X]
+
+## GordonDesc
+Placeholder description.[X]
+
+## BanutuName
+Banutu[X]
+
+## BanutuDesc
+Placeholder description.[X]
+
+## CecilName
+Cecil[X]
+
+## CecilDesc
+Placeholder description.[X]
+
+## ElyosianRecruitName
+Elyosian R.[X]
+
+## ElyosianRecruitDesc
+Placeholder description.[X]
+
+## GatoName
+Gato[X]
+
+## GatoDesc
+Placeholder description.[X]
+
 ## MarioName
 Mario[X]
 
@@ -374,10 +560,10 @@ Sometimes known as Porky, this fat[N]
 and rude boy is a constant thorn in[N]
 Ness's side. Willing to spank things.[X]
 
-## CecilName
+## CecilFF4Name
 Cecil[X]
 
-## CecilDesc
+## CecilFF4Desc
 Ex-commander of the Red Wings of[N]
 Baron. Orphaned a girl, betrayed[N]
 by his friend, got shipwrecked...[X]
@@ -469,6 +655,219 @@ Slippy[X]
 An over-eager pilot who gets himself[N]
 into trouble on several occasions. His[N]
 skills instead lie with mechanics.[X]
+
+## SalesmanName
+Salesman[X]
+
+## SalesmanDesc
+Placeholder description.[X]
+
+## GanonName
+Ganon[X]
+
+## GanonDesc
+Placeholder description.[X]
+
+## WolfName
+Wolf[X]
+
+## WolfDesc
+Placeholder description.[X]
+
+## MewtwoName
+Mewtwo[X]
+
+## MewtwoDesc
+Placeholder description.[X]
+
+## MrGameAndWatchName
+//& in text label names breaks
+Mr. G & W[X]
+
+## MrGameAndWatchDesc
+Placeholder description.[X]
+
+## PopoName
+Popo[X]
+
+## PopoDesc
+Placeholder description.[X]
+
+## KainFF4Name
+Kain[X]
+
+## KainFF4Desc
+Placeholder description.[X]
+
+## RosaName
+Rosa[X]
+
+## RosaDesc
+Placeholder description.[X]
+
+## RydiaName
+Rydia[X]
+
+## RydiaDesc
+Placeholder description.[X]
+
+## LennaName
+Lenna[X]
+
+## LennaDesc
+Placeholder description.[X]
+
+## GalufName
+Galuf[X]
+
+## GalufDesc
+Placeholder description.[X]
+
+## CelesName
+Celes[X]
+
+## CelesDesc
+Placeholder description.[X]
+
+## LockeName
+Locke[X]
+
+## LockeDesc
+Placeholder description.[X]
+
+## YugiName
+Yugi[X]
+
+## YugiDesc
+Placeholder description.[X]
+
+## JoeyName
+Joey[X]
+
+## JoeyDesc
+Placeholder description.[X]
+
+## TeaName
+Tea[X]
+
+## TeaDesc
+Placeholder description.[X]
+
+## KaibaName
+Kaiba[X]
+
+## KaibaDesc
+Placeholder description.[X]
+
+## JadenName
+Jaden[X]
+
+## JadenDesc
+Placeholder description.[X]
+
+## AlexisName
+Alexis[X]
+
+## AlexisDesc
+Placeholder description.[X]
+
+## ChazzName
+Chazz[X]
+
+## ChazzDesc
+Placeholder description.[X]
+
+## OlimarName
+Olimar[X]
+
+## OlimarDesc
+Placeholder description.[X]
+
+## LouieName
+Louie[X]
+
+## LouieDesc
+Placeholder description.[X]
+
+## PresidentName
+President[X]
+
+## PresidentDesc
+Placeholder description.[X]
+
+## CronoName
+Crono[X]
+
+## CronoDesc
+Placeholder description.[X]
+
+## MarleName
+Marle[X]
+
+## MarleDesc
+Placeholder description.[X]
+
+## LuccaName
+Lucca[X]
+
+## LuccaDesc
+Placeholder description.[X]
+
+## SonicName
+Sonic[X]
+
+## SonicDesc
+Placeholder description.[X]
+
+## TailsName
+Tails[X]
+
+## TailsDesc
+Placeholder description.[X]
+
+## KnucklesName
+Knuckles[X]
+
+## KnucklesDesc
+Placeholder description.[X]
+
+## AmyName
+Amy[X]
+
+## AmyDesc
+Placeholder description.[X]
+
+## RobotnikName
+Robotnik[X]
+
+## RobotnikDesc
+Placeholder description.[X]
+
+## FlynnName
+Flynn[X]
+
+## FlynnDesc
+Placeholder description.[X]
+
+## IsabeauName
+Isabeau[X]
+
+## IsabeauDesc
+Placeholder description.[X]
+
+## JonathanName
+Jonathan[X]
+
+## JonathanDesc
+Placeholder description.[X]
+
+## WalterName
+Walter[X]
+
+## WalterDesc
+Placeholder description.[X]
+
+
 
 ## RodyName
 Rody[X]

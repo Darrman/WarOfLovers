@@ -542,7 +542,7 @@ ENDA
 
 LoadCecil:
 LABEL 129
-CHECK_EXISTS Cecil
+CHECK_EXISTS CecilFF4
 BNE 10 s0 sC //If unit exists, pick someone else
 LOAD1 0x1 CecilUnitJam
 ENUN
@@ -552,7 +552,7 @@ TEXTSHOW RecruitCecil
 TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo
-SVAL s2 Cecil
+SVAL s2 CecilFF4
 ENDA
 
 LoadButz:
@@ -875,7 +875,7 @@ UNIT Pokey General 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [Armourslaye
 UNIT
 
 CecilUnitJam:
-UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [LightBrand, SilverSword, Vulnerary] NoAI
+UNIT CecilFF4 Paladin 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [LightBrand, SilverSword, Vulnerary] NoAI
 UNIT
 
 ButzUnitJam:

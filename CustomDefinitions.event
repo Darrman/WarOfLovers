@@ -43,99 +43,302 @@
 #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 //Characters
+//Fire Emblem: full roster defined for no-gacha modes.
+//Some are set in stone and will always be present.
+//Akaneia
 #define Marth 0x01
 #define Sheeda 0x02
 #define Chiki 0x03
 #define Marich 0x04
-#define Mario 0x05
-#define Luigi 0x06
-#define Peach 0x07
-#define Bowser 0x08
-#define DK 0x09
-#define Toad 0x0a
-#define Wario 0x0b
-#define Daisy 0x0c
-#define Yoshi 0x0d
-#define Waluigi 0x0e
-//Ephraim slot, avoid
-#define Ash 0x10
-#define Misty 0x11
-#define Brock 0x12
-#define Jessie 0x13
-#define James 0x14
-#define May 0x15
-#define Dawn 0x16
-#define Serena 0x17
-#define Link 0x18
-#define Samus 0x19
-#define Kirby 0x1a
-#define Fox 0x1b
-#define Pikachu 0x1c
-#define Falcon 0x1d
-#define Jigglypuff 0x1e
-#define Ness 0x1f
-#define Paula 0x20
-#define Jeff 0x21
-#define Poo 0x22
-#define Pokey 0x23
-#define Cecil 0x24
-#define Butz 0x25
-#define Terra 0x26
-#define Rody 0x27
-#define Eliwood 0x28
-#define Lilina 0x29
-#define Barth 0x2A
-#define Valbo 0x2B
-#define Valencia2 0x2C
-#define Alm 0x2D
-#define BaldoDescendant 0x2E
-#define NobaDescendant 0x2F
-#define Jugdral3 0x30
-#define Kain 0x31
-#define Ellis 0x32
-#define Celica 0x33
-#define Roy 0x34
-#define Zelda 0x35
-#define Sahasrahla 0x36
-#define Marin 0x37
-#define Saria 0x38
-#define Dedede 0x39
-#define MetaKnight 0x3A
-#define Falco 0x3B
-#define Peppy 0x3C
-#define Slippy 0x3D
+#define George 0x05
+#define Malliesia 0x06
+#define Ricardo 0x07
+#define Caesar 0x08
+#define Tomth 0x09
+#define Ryan 0x0a
+#define Saji 0x0b
+#define Luke 0x0c
+#define Rody 0x0d
+#define Kashim 0x0e
+#define Riff 0x0f //I'm using the Ephraim slot, I need it!
+#define Linda 0x10
+#define Oguma 0x11
+#define Barts 0x12
+
+//Elibe
+#define Eliwood 0x13
+#define Lilina 0x14
+#define Miledy 0x15
+#define Wolt 0x16
+#define Sophia 0x17
+#define Astore 0x18
+#define Fir 0x19
+#define Bartre 0x1a
+
+//Valencia
+#define Valbo 0x1b
+#define Camus 0x1c
+#define Dyute 0x1d
+#define Valencia2 0x1e
+#define Alm 0x1f
+#define Celine 0x20
+
+//Jugdral
+#define BaldoDescendant 0x21
+#define BaldoFriend 0x22
+#define Jugdral3 BaldoFriend
+#define NobaDescendant 0x23
+#define GuyYouGetInThracia 0x24
+#define Ryuto 0x25
+#define BlagiDescendant 0x26
+#define NeirDescendant 0x27
+#define Feena 0x28
+#define Navarre 0x29
+
+//Akaneia 2
+#define Kain 0x2a
+#define Gordon 0x2b
+#define Banutu 0x2c
+#define Cecil 0x2d
+#define Ellis 0x2e
+
+//Elyos and Askr
+#define ElyosianPlaceholder 0x2f
+#define TheGato 0x30
+#define Celica 0x31
+#define Roy 0x32
+
+//Random summonable units
+//Sorted by series.
+//Super Mario
+#define Mario 0x33
+#define Luigi 0x34
+#define Peach 0x35
+#define Bowser 0x36
+#define DK 0x37
+#define Toad 0x38
+#define Wario 0x39
+#define Daisy 0x3a
+#define Yoshi 0x3b
+#define Waluigi 0x3c
+
+//Legend of Zelda
+#define Link 0x3d
+#define Zelda 0x3e
+#define Sahasrahla 0x3f
+#define Marin 0x40
+#define Saria 0x41
+#define Salesman 0x42
+#define Ganon 0x43
+
+//Kirby
+#define Kirby 0x44
+#define Dedede 0x45
+#define MetaKnight 0x46
+
+//Star Fox
+#define Fox 0x47
+#define Falco 0x48
+#define Peppy 0x49
+#define Slippy 0x4a
+#define Wolf 0x4b
+
+//Earthbound
+#define Ness 0x4c
+#define Paula 0x4d
+#define Jeff 0x4e
+#define Poo 0x4f
+#define Pokey 0x50
+
+//Other Smash Characters
+#define Samus 0x51
+#define Pikachu 0x52
+#define Jigglypuff 0x53
+#define Mewtwo 0x54
+#define Falcon 0x55
+#define MrGAndW 0x56
+#define MrGameAndWatch MrGAndW
+#define Popo 0x57
+
+//Final Fantasy
+#define CecilFF4 0x58
+#define CecilHarvey CecilFF4
+#define Rosa 0x59
+#define KainFF4 0x5a
+#define KainHighwind KainFF4
+#define Rydia 0x5b
+#define Butz 0x5c
+#define Lenna 0x5d
+#define Galuf 0x5e
+#define Terra 0x5f
+#define Celes 0x60
+#define Locke 0x61
+
+//Pokemon
+#define Ash 0x62
+#define Misty 0x63
+#define Brock 0x64
+#define Jessie 0x65
+#define James 0x66
+#define May 0x67
+#define Dawn 0x68
+#define Serena 0x69
+
+//Yugioh - all empty entries currently from here
+#define Yugi 0x6a
+#define Joey 0x6b
+#define Tea 0x6c
+#define Kaiba 0x6d
+#define Jaden 0x6e
+#define Alexis 0x6f
+#define Chazz 0x70
+
+//Pikmin
+#define Olimar 0x71
+#define Louie 0x72
+#define President 0x73
+
+//Chrono Trigger
+#define Crono 0x74
+#define Marle 0x75
+#define Lucca 0x76
+
+//Sonic the Hedgehog
+#define Sonic 0x77
+#define Tails 0x78
+#define Knuckles 0x79
+#define Amy 0x7a
+#define Robotnik 0x7b
+
+//Megami Tensei
+#define Flynn 0x7c
+#define Isabeau 0x7d
+#define Jonathan 0x7e
+#define Walter 0x7f
+
+//Remaining playable characters undetermined
+
 
 //Enemies
-#define Lucina 0x50
-#define Lyn 0x51
-#define Leaf 0x52
-#define Byleth 0x53
-#define Alear 0x54
-#define Alear2 0x55
-#define Kris 0x56
-#define Caesar 0x57
-#define Ryan 0x58
-#define Luke 0x59
-#define Boucheron 0x5A
-#define Clanne 0x5B
-#define Louis 0x5C
-#define Ch7Brigand 0x5D
-#define Amber 0x5E
-#define RogueBernBoss 0x5F
-#define Ch10Boss 0x60
-#define Diamant 0x61
-#define Alcryst 0x62
+#define Kris 0x97
+#define Alear 0x98
+#define Alear2 Alear //come up with a better solution at some point
+#define Boucheron 0x99
+#define Clanne 0x9a
+#define Ch5xBoss 0x9b
+#define Louis 0x9c
+//Act 2
+#define Ch7Brigand 0x9D
+#define Amber 0x9E
+#define RogueBernBoss 0x9F
+#define Ch10Boss 0xa0
+#define Citrinne Ch10Boss
+#define Executioner 0xa1
+#define Ch10xBoss 0xa2
+#define Diamant 0xa3
+#define Alcryst 0xa4
+#define Ch12SubBoss 0xa5
+//Act 3
+#define Ch13xBoss 0xa6
+#define Ch14Boss 0xa7
+#define Claire 0xa8
+#define Cleive 0xa9
+#define GreyOrRobin 0xaa //extreme placeholder to be determined later
+#define Mycen 0xab
+#define DomaFaithfulBoss 0xac
+//Act 4
+#define MiletosBoss 0xad
+#define RadosBoss 0xae
+#define RobberBaron 0xaf
+#define AlsterBoss 0xb0
+#define MelgenBoss 0xb1
+#define HaroldClone 0xb2
+#define DozelBoss 0xb3
+#define Reptor 0xb4
+#define VelthomerBoss 0xb5
+#define PhinoraBoss 0xb6
+#define DarnaBoss 0xb7
+#define Hortensia 0xb8
+#define YiedBoss 0xb9
+#define Ivy 0xba
+#define Aida 0xbb
+#define Ch21xBoss1 0xbc
+#define Ch21xBoss2 0xbd
+//Act 5
+#define Ch22Boss 0xbe
+#define Ch22xBoss 0xbf
+#define Ch23Boss 0xc0
+#define Katarina 0xc1
+#define Ch25SubBoss1 0xc2
+#define Ch25SubBoss2 0xc3
+//Act 6
+#define Veyle 0xc4
+#define Framme 0xc5
+#define Vander 0xc6
+#define Ch27xBoss 0xc7
+#define Ch27xSubBoss 0xc8
+#define Plumeria 0xc9
+#define Fjorm 0xca
+#define Idoun 0xcb
+#define Doma 0xcc
+#define Trabant 0xcd
+#define Loputousu 0xce
+#define Mediuth 0xcf
+#define Sombron 0xd0
+#undef Fomortiis //I wonder how much hardcoding can move to his new slot?
+#define Fomortiis 0xd1
+#define Ashnard 0xd2
+#define Surtr 0xd3
+#define HeroesAnna 0xd4
+#define Sharena 0xd5
+#define FinalSeasonal1 0xd6
+#define FinalSeasonal2 0xd7
+#define FinalSeasonal3 0xd8
+#define Veronica 0xd9
+#define Alfonse 0xda
+#define FinalSubBoss1 0xdb
+#define FinalSubBoss2 0xdc
+#define FinalSubBoss3 0xdd
+#define FinalSubBoss4 0xde
 
+//Generic enemies
 #define KrisFaction 0x80
 #define Lythos 0x81
 #define Samsian 0x82
-#define Garda 0x83
+#define Garda 0x83 //designated generic NPC slot
+#define Ostia Garda
+#define Lenster Garda
 #define Akaneia 0x84
-#define PirateGeneric 0x85
-#define BrigandGeneric 0x86
+#define PirateGeneric Samsian
+#define BrigandGeneric Samsian
 #define Colonial 0x87
 #define RogueBern 0x88
 #define Bern 0x89
+#define Valencia 0xe7
+#define DomaFaithful 0xe8
+#define Miletos 0xe9
+#define Thracia 0xea
+#define Verdane 0xeb
+#define Freege 0xec
+#define Yied 0xed
+#define LoptSect 0xee
+#define DegeneratedDragon 0xef
+#define Firene 0xf0
+#define Brodia 0xf1
+#define Askr 0xf2
+
+//Friendly NPCs
+#define Merlinus 0xf3
+#define Garret 0xf4
+#define Wallace 0xf5
+#define Marcus 0xf6
+#define Barth 0xf7
+#define Wendy 0xf8
+//Jam Mode - original concept
+#define Lucina 0xf9
+#define Lyn 0xfa
+#define Leaf 0xfb
+#define Byleth 0xfc
 
 //Classes
 #define Lord EphraimLord
