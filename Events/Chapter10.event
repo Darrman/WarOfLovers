@@ -139,6 +139,8 @@ UNIT Lyn Druid_F 0x0 Level(1,NPC,0) [19,26] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeA
 UNIT
 
 Traps1:
+SavePoint(15,23)
+SavePoint(6,8)
 ENDTRAP
 ALIGN 4
 

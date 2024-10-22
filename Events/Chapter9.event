@@ -109,6 +109,8 @@ UNIT Bern Mercenary 0x0 Level(10,NPC,1) [10,5] 0x0 0x0 0x0 [SteelBlade] AttackIn
 UNIT
 
 Traps1:
+SavePoint(9,16)
+SavePoint(10,8)
 ENDTRAP
 ALIGN 4
 

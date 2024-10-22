@@ -163,6 +163,7 @@ UNIT
 
 
 Traps1:
+SavePoint(19,6)
 ENDTRAP
 ALIGN 4
 
@@ -235,6 +236,8 @@ GOTO 405
 LABEL 404
 Text(Ch4AfterPrepJam)
 LABEL 405
+STAL 10
+FlashCursor(Rody,60)
 TurnAlly(Rody)
 NoFade
 ENDA

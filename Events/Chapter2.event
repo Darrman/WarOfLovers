@@ -136,6 +136,7 @@ UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [Javelin] Ch
 UNIT
 
 Traps1:
+SavePoint(5,4)
 ENDTRAP
 ALIGN 4
 

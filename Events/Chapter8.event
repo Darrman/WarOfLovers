@@ -106,6 +106,7 @@ UNIT
 
 
 Traps1:
+SavePoint(0,9)
 ENDTRAP
 ALIGN 4
 

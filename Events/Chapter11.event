@@ -84,6 +84,8 @@ UNIT
 
 
 Traps1:
+SavePoint(11,5)
+SavePoint(9,17)
 ENDTRAP
 ALIGN 4
 
@@ -133,8 +135,6 @@ WM_LOADLOCATION2 0 10 0 //Required to fix chapter name
 WM_SETDESTINATION 0 10 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 10 //Needed for world map narration.
 MNCH 0xC
-ENDA
-
 ENDA
 
 AfterBattlePrep:

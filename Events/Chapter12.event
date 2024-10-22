@@ -84,6 +84,8 @@ UNIT
 
 
 Traps1:
+SavePoint(19,7)
+SavePoint(3,13)
 ENDTRAP
 ALIGN 4
 

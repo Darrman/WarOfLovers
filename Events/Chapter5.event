@@ -143,6 +143,7 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [25,6] 0x0 0x0 0x0 0x0 [DivineStone] N
 UNIT
 
 Traps1:
+SavePoint(20,4)
 ENDTRAP
 ALIGN 4
 

@@ -164,6 +164,7 @@ UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [17,2] 0x0 0x0 0 0 [Wretched
 UNIT
 
 Traps1:
+SavePoint(15,14)
 ENDTRAP
 ALIGN 4
 
