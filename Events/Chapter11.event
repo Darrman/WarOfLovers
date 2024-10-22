@@ -15,6 +15,11 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
+TurnEventEnemy(0x0,InfiniteRangeBlazingLion,1)
+TurnEventPlayer(0x0,WorthlessArsonist,2)
+TurnEventNPC(0x0,DownGoTheSideGates,6)
+TurnEventEnemy(0x0,DiamantsCharge,9)
+TurnEventNPC(0x3,EndingScene,12)
 END_MAIN
 
 CharacterBasedEvents:
@@ -75,17 +80,86 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,4] 0x0 0x0 0x0 0x0 [SilverLanc
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,7] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT
 
+BarthAndCompany:
+UNIT Barth General 0x00 Level(5,NPC,0) [4,9] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
+UNIT Ostia LanceArmour Barth Level(10,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelLance] GuardTileAI
+UNIT Ostia LanceArmour Barth Level(10,NPC,1) [16,8] 0x0 0x0 0x0 0x0 [SteelLance] GuardTileAI
+UNIT
+
 Bad:
-UNIT Diamant Hero 0x00 Level(1,Enemy,0) [8,25] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Diamant Hero 0x00 Level(3,Enemy,0) [8,25] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
+UNIT Brodia Mercenary Diamant Level(10,Enemy,1) [6,23] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Brodia Soldier Diamant Level(10,Enemy,1) [7,24] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Brodia Myrmidon Diamant Level(12,Enemy,1) [8,22] 0x0 0x0 0x0 0x0 [KillingEdge] AttackInRangeAI
+UNIT Brodia Fighter Diamant Level(10,Enemy,1) [9,24] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Brodia Mercenary Diamant Level(10,Enemy,1) [10,23] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Brodia SwordArmour Diamant Level(10,Enemy,1) [13,25] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
+UNIT Brodia LanceArmour Diamant Level(12,Enemy,1) [17,22] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Brodia BowArmour Diamant Level(10,Enemy,1) [15,19] DropItem 0x0 0x0 0x0 [Longbow, SteelBow] NeverMoveAI
+UNIT Brodia Mage Diamant Level(10,Enemy,1) [7,14] 0x0 0x0 0x0 0x0 [Elfire] PursueWithoutHeedAI
+UNIT Brodia Shaman Diamant Level(10,Enemy,1) [12,16] 0x0 0x0 0x0 0x0 [Flux] PursueWithoutHeedAI
+UNIT Brodia Monk Diamant Level(10,Enemy,1) [3,14] 0x0 0x0 0x0 0x0 [Shine] PursueWithoutHeedAI
+UNIT Brodia Archer Diamant Level(10,Enemy,1) [4,12] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT Brodia Mage Diamant Level(10,Enemy,1) [20,22] 0x0 0x0 0x0 0x0 [Meteor] NeverMoveAI
+UNIT Brodia Archer Diamant Level(10,Enemy,1) [1,25] 0x0 0x0 0x0 0x0 [Ballista] PursueWithoutHeedAI
+UNIT Brodia Mage Diamant Level(10,Enemy,1) [10,11] 0x0 0x0 0x0 0x0 [Elwind] PursueWithoutHeedAI
 UNIT
 
 Bad2:
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [10,20] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Colonial AxeKnight 0x0 Level(10,Enemy,1) [9,21] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Colonial FreeKnight 0x0 Level(10,Enemy,1) [11,21] 0x0 0x0 0x0 0x0 [Armourslayer] ChaseOnceApproachedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [10,20] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Colonial LanceKnight 0x0 Level(12,Enemy,1) [16,12] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [15,12] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT Colonial FreeKnight 0x0 Level(10,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [18,12] 0x0 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT Colonial Troubadour 0x0 Level(10,Enemy,1) [16,13] 0x0 0x0 0x0 0x0 [Mend, RedGem] HealUnits
+UNIT Colonial AxeKnight 0x0 Level(10,Enemy,1) [2,19] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT Colonial ArchKnight 0x0 Level(10,Enemy,1) [4,21] 0x0 0x0 0x0 0x0 [ShortBow] PursueWithoutHeedAI
+UNIT Colonial Troubadour 0x0 Level(10,Enemy,1) [3,24] 0x0 0x0 0x0 0x0 [Physic] HealUnits
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [ShortSpear] AttackInRangeAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [20,12] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT RogueBern General 0x0 Level(1,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [19,6] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT
 
+SouthernReinforcements:
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [8,27] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT
+
+SouthernReinforcements2:
+UNIT Colonial FreeKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x0 0x0 [ThunderSword] PursueWithoutHeedAI
+UNIT Colonial AxeKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT Colonial ArchKnight 0x0 Level(10,Enemy,1) [8,27] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT
 
 Traps1:
 SavePoint(11,5)
 SavePoint(9,17)
+//So there's FIRE and FIRE2, and this isn't Final Fantasy.
+//FIRE activates every x turns (can be set).
+//FIRE2 is a case of "step on it, get burnt"?
+FIRE2 [15,7]
+FIRE2 [17,7]
+FIRE2 [16,8]
+FIRE2 [9,12]
+FIRE2 [14,12]
+FIRE2 [6,13]
+FIRE2 [12,16]
+FIRE2 [4,17]
+FIRE2 [15,7]
+FIRE2 [7,19]
+FIRE2 [15,7]
+FIRE2 [14,19]
+FIRE2 [6,21]
+FIRE2 [2,22]
+FIRE2 [8,22]
+FIRE2 [11,22]
+FIRE2 [17,24]
 ENDTRAP
 ALIGN 4
 
@@ -102,6 +176,8 @@ FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+LOAD1 0x1 BarthAndCompany
+TILECHANGE 8 //the front door
 CAM1 [0,0]
 FADU 10
 STAL 20
@@ -138,7 +214,45 @@ MNCH 0xC
 ENDA
 
 AfterBattlePrep:
+//Wendy quickly says hi
 Text(Ch11AfterPrepSideGates)
+TurnAlly(Barth)
+NoFade
+ENDA
+
+InfiniteRangeBlazingLion:
+CAM1 Diamant
+STAL 10
+FlashCursor(Diamant,60)
+Text(Ch11DiamantBurnItAllDown)
+STAL 10
+WEATHER 5 //fire
+EARTHQUAKE 0 1 //horizontal, sound on
+STAL 10
+CAM1 [16,7]
+STAL 10
+TILECHANGE 20 //switch on the "fire tiles"
+STAL 10
+EARTHQUAKE_END
+NoFade
+ENDA
+
+WorthlessArsonist:
+Text(Ch11WhatTheHellDiamant)
+NoFade
+ENDA
+
+DownGoTheSideGates:
+//Load reinforcements
+Text(Ch11TheSideGatesFall)
+NoFade
+ENDA
+
+DiamantsCharge:
+//Alear runs in
+Text(Ch11AlearArrives)
+//Alear runs off
+//Change AI: All Elyos units charge
 NoFade
 ENDA
 
