@@ -26,7 +26,7 @@ ALIGN 4
 SetAnimationPointers(StarLord, MarthAnims)
 MarthAnims:
 weaponTypeAnim(animSword, 0x5)
-//no special Falchion animation
+//no special Falchion animation - but there should be!
 weaponTypeAnim(animNone, 0x7)
 weaponAnimEnd
 
