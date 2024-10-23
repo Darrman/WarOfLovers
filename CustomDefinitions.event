@@ -237,7 +237,7 @@
 #define Ch10xBoss 0xa2
 #define Diamant 0xa3
 #define Alcryst 0xa4
-#define Ch12SubBoss 0xa5
+#define Lapis 0xa5
 //Act 3
 #define Ch13xBoss 0xa6
 #define Ch14Boss 0xa7

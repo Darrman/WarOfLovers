@@ -131,7 +131,7 @@
 
 // If uncommented, Escape-Arrive will be implemented.
 // /this adds entries to the Unit Menu and normally conflicts with Lunge and Stairs. Install here to avoid the conflicts.
-// #define ESCAPE_ARRIVE
+#define ESCAPE_ARRIVE
 
 // If uncommented, Leadership Stars will be implemented.
 // Go to LeadershipStars/LeadershipStars.event to edit settings.
@@ -157,7 +157,7 @@
 
 //If uncommented, Status-Inflicting Weapons will be implemented.
 //Setting weapon effect 0xD will apply the effect ID at item data +0x22.
-// #define STATUS_WEAPONS
+#define STATUS_WEAPONS
 
 //If uncommented, Narrow Font will be implemented.
 //This allows for setting narrower text in addition to standard text.

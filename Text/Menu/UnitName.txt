@@ -989,7 +989,9 @@ Make him "ratface"?[X]
 Amber[X]
 
 ## AmberDesc
-Placeholder.[X]
+Retainer of King Diamant of Brodia.[N]
+His dream is to become a legend, and[N]
+has an obsession with the alpaca.[X]
 
 ## RogueBernBossName
 Rogue Boss[X]
@@ -1001,19 +1003,38 @@ Name required.[X]
 Citrinne[X]
 
 ## CitrinneDesc
-Placeholder.[X]
+Diamant's cousin and by extension,[N]
+princess of Brodia. More than willing[N]
+to give expensive gifts for favour.[A][X]
 
 ## DiamantName
 Diamant[X]
 
 ## DiamantDesc
-Placeholder.[X]
+The King of Brodia. A serious man[N]
+who commands favour amongst his[N]
+people. Obeys Alear's demands.[X]
 
 ## AlcrystName
 Alcryst[X]
 
 ## AlcrystDesc
-Placeholder.[X]
+The new King of Brodia. Extremely[N]
+timid and has no self-esteem.[N]
+Sees others in a better light.[X]
+
+## AlcrystDescDiamantAlive
+Diamant's brother. Extremely[N]
+timid and has no self-esteem.[N]
+Sees others in a better light.[X]
+
+## LapisName
+Lapis[X]
+
+## LapisDesc
+Alcryst's retainer and a soldier[N]
+of Brodia. Despite her appearance,[N]
+she is deceptively strong.[X]
 
 ## KrisFactionName
 Kris's[X]

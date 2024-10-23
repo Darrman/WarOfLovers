@@ -15,12 +15,15 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
+TurnEventEnemy(0x0,LapisRaisesTheAlarm,1)
+TurnEventPlayer(0x0,BartreBarBrawl,6)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Escape(2,8)
 Village(0x7,TopLeftVillage,3,1)
 Village(0x8,VillageByDock,8,5)
 Village(0x9,VillageInsideWalls,12,4)
@@ -31,6 +34,8 @@ Village(0xd,SouthOfEntrance,31,11)
 House(0x0,NextToArena,8,12)
 House(0x0,TheInn,21,6)
 House(0x0,ByVendor,25,11)
+House(0x0,HouseSouthOfCanas,17,9)
+House(0x0,HouseNorthOfInn,21,2)
 Armory(Ch12DocksArmoury,4,4)
 Armory(Ch12EntranceArmoury,25,1)
 Vendor(Ch12CentralVendor,21,12)
@@ -43,6 +48,7 @@ END_MAIN
 MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatBoss(EndingScene)
+//temp
 END_MAIN
 
 Dunno1:
@@ -76,12 +82,18 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,11] 0x0 0x0 0x0 0x0 [SilverLa
 UNIT
 
 Bad:
-UNIT Alcryst Sniper 0x00 Level(1,Enemy,0) [2,8] 0x0 0x0 0x0 0x0 [SilverBow] NeverMoveAI
+UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, Elephant/*, LynRing*/] NeverMoveAI
+UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [26,8] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [32,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT
 
 Bad2:
 UNIT
 
+PubBrawlers:
+UNIT Bartre Warrior 0x00 Level(1,NPC,0) [21,7] 0x0 0x0 0x0 0x0 [BraveAxe, SteelBow] PursueWithoutHeedAI
+UNIT RogueBern Soldier 0x00 Level(15,Enemy,1) [21,8] 0x0 0x0 0x0 0x0 [Axereaver, ShortSpear] PursueWithoutHeedAI
+UNIT
 
 Traps1:
 SavePoint(19,7)
@@ -94,6 +106,13 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+Text(Volcano,Ch12OpeningExplainingTheEscape)
+Text(Harbor,Ch12OpeningTheMopeyKing)
+//different dialogue if Diamant lives, not written yet
+BROWNBOX Ch12OpeningTimeframe [0,0]
+STAL 10
+Text(Village,Ch12OpeningCrackdown)
+Text(Town_Gate,Ch12OpeningHowDoWeEscape)
 FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
@@ -113,7 +132,15 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
+Text(Ch12EndingLastCall)
+Text(Harbor,Ch12EndingTheyreGettingAway)
+Text(Ship,Ch12EndingKeepSailing)
+Text(Ship,Ch12EndingElibeFadesAway)
+//skip next scene if Roy missed
+Text(Ship,Ch12EndingOpenOceanRoySaysFlee)
+Text(Ship,Ch12EndingAkaneianElibianFriendship)
+Text(Ship,Ch12EndingOpenOceanPlotDump)
+Text(Ship,Ch12EndingChikiLearnsTheTruth)
 WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
 WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
@@ -123,61 +150,82 @@ ENDA
 ENDA
 
 AfterBattlePrep:
-Text(PlaceholderText)
+Text(Ch12AfterPrepEscapeRules)
 NoFade
 ENDA
 
+LapisRaisesTheAlarm:
+CAM1 Lapis
+STAL 10
+FlashCursor(Lapis,60)
+MOVE 10 Lapis [33,6]
+ENUN
+Text(Ch12WhoAreThesePeople)
+EVBIT_T 9 //follow
+MOVE 20 Lapis [3,8]
+ENUN
+Text(Ch12YourMajestyLilinaHasArrived)
+NoFade
+ENDA
+
+BartreBarBrawl:
+CAM1 [21,6]
+Text(Inn,Ch12BarFight)
+LOAD1 0x1 PubBrawlers
+STAL 10
+ENDA
+
 TopLeftVillage:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,PlaceholderText)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 VillageByDock:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,Ch12HouseText6)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 VillageInsideWalls:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,Ch12HouseText5)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 CanasOldVillage:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,Ch12HouseText10)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthOfCanas:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,Ch12HouseText4)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 NorthOfEntrance:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,Ch12HouseText1)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthOfEntrance:
-Text(Outside_Village_Day,PlaceholderText)
+Text(Town_Day,Ch12HouseText3)
 SVAL s3 RedGem
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 NextToArena:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch12HouseText2)
 NoFade
 ENDA
 
@@ -187,9 +235,20 @@ NoFade
 ENDA
 
 ByVendor:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch12HouseText8)
 NoFade
 ENDA
+
+HouseSouthOfCanas:
+Text(HouseBG,Ch12HouseText9)
+NoFade
+ENDA
+
+HouseNorthOfInn:
+Text(HouseBG,Ch12HouseText11)
+NoFade
+ENDA
+
 
 Ch12DocksArmoury:
 SHLI IronSword

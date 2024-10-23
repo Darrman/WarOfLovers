@@ -248,7 +248,7 @@ Shh! We haven't been seen yet.[N]
 I know you're tired, Chiki...[A]
 [ML]
 Turning wild? She'll have[N]
-to worry about me first![A]
+to worry about me first![AN]
 And is that Lilina? Oh, you[N]
 have been spotted.[A][X]
 
@@ -298,7 +298,7 @@ I'll cover you from close range.[N]
 Together, nothing can stop us![A][X]
 
 ## Ch12HouseText1
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 What's that ruckus outside?![N]
 Can't a man get some sleep?[AN]
@@ -308,7 +308,7 @@ worse and worse here in Badon![N]
 Take this and scram![A][X]
 
 ## Ch12HouseText2
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 We give our all to defeat Bern,[N]
 and now half of Lycia's occupied[AN]
@@ -320,7 +320,7 @@ us a lot of bloodshed compared to[N]
 falling to his loyalist officers.[A][X]
 
 ## Ch12HouseText3
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 I haven't been outside of Badon[N]
 for a while - the reasons should[AN]
@@ -336,7 +336,7 @@ has raised a finger against[N]
 Arcard Jr. after Ostia fell![A][X]
 
 ## Ch12HouseText4
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 My friend just got arrested for[N]
 speaking his mind about the[AN]
@@ -350,7 +350,7 @@ and her father-in-law get out[N]
 of Lycia to fight another day.[A][X]
 
 ## Ch12HouseText5
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 Word going around is that Ostia's[N]
 been taken over by an Etrurian[AN]
@@ -364,7 +364,7 @@ Will we too be enslaved? Here, take[N]
 this: you deserve it far more.[A][X]
 
 ## Ch12HouseText6
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 There's so many strange goings-on[N]
 lately. Marquess Pherae finds[AN]
 dragons. The queen allies with[N]
@@ -377,7 +377,7 @@ One". We don't even know her[N]
 name! By Elimine...[A][X]
 
 ## Ch12HouseText7
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 Are you with Marth's army?[N]
 I have no idea who Marth is,[AN]
@@ -390,7 +390,7 @@ Excellent. Alright, away you go[N]
 now. Don't cause any trouble.[A][X]
 
 ## Ch12HouseText8
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 Lycia has collapsed and a[N]
 partition is very possible.[AN]
@@ -408,7 +408,7 @@ Maybe I should try my luck[N]
 with the Dragons' Gate...[A][X]
 
 ## Ch12HouseText9
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 Praise the Divine One! Long live[N]
 the Divine One! She will show[AN]
@@ -420,7 +420,7 @@ happen! With another Twelve,[N]
 yet more miracles will happen![A][X]
 
 ## Ch12HouseText10
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 They never say it like this to an[N]
 Elibian, but I've overheard the[AN]
@@ -436,7 +436,7 @@ Here, take this. Give that[N]
 commander what for![A][X]
 
 ## Ch12HouseText11
-[ML][LoadFace][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
 [ML]
 The occupation commander never[N]
 shows his face when he can[AN]
