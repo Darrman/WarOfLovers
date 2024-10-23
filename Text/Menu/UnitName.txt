@@ -1079,3 +1079,10 @@ Bern[X]
 
 ## BernDesc
 Placeholder.[X]
+
+## LyciaName
+Lycia[X]
+
+## LyciaDesc
+Soldiers of the Kingdom of Lycia,[N]
+fighting for Queen Lilina.[X]

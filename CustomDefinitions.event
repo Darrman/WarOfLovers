@@ -302,18 +302,18 @@
 #define FinalSubBoss4 0xde
 
 //Generic enemies
-#define KrisFaction 0x80
-#define Lythos 0x81
-#define Samsian 0x82
-#define Garda 0x83 //designated generic NPC slot
+#define KrisFaction 0xdf
+#define Lythos 0xe0
+#define Samsian 0xe1
+#define Garda 0xe2 //designated generic NPC slot
 #define Ostia Garda
 #define Lenster Garda
-#define Akaneia 0x84
+#define Akaneia 0xe3
 #define PirateGeneric Samsian
 #define BrigandGeneric Samsian
-#define Colonial 0x87
-#define RogueBern 0x88
-#define Bern 0x89
+#define Colonial 0xe4
+#define RogueBern 0xe5
+#define Bern 0xe6
 #define Valencia 0xe7
 #define DomaFaithful 0xe8
 #define Miletos 0xe9
