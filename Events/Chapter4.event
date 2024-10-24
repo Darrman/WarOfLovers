@@ -206,7 +206,13 @@ ENDA
 
 EndingScene:
 MUSC M_TogetherWeRide
+CHECK_EVENTID JamModeOn
+BNE 410 sC s0 //branch if jam mode
+CALL UnitGachaAct1
+GOTO 411
+LABEL 410
 CALL UnitGachaJam
+LABEL 411
 WARPIN [25,2]
 MOVE 0xFFFF 0xFFFD [25,2]
 ENUN

@@ -143,6 +143,12 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [10,3]
+MOVE 0xFFFF 0xFFFD [10,3]
+ENUN
+ENDWARP
 Text(Castle_Hall,Ch9EndingBernKeep)
 Text(Castle_Hall,Ch9EndingBernKeep2)
 Text(Castle_Room,Ch9EndingAlfredDies)

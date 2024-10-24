@@ -172,6 +172,13 @@ BNE 701 s0 sC
 LOAD1 0x1 MarquessPherae //load him in
 LABEL 701
 TurnAlly(Eliwood) //so you still get him if you forget to talk, story makes no sense otherwise
+//going to put in a gacha check after every chapter: equate this with FE recruits later on
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [9,20]
+MOVE 0xFFFF 0xFFFD [9,20]
+ENUN
+ENDWARP
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
 Text(Ch7EndingMarthEliwood)

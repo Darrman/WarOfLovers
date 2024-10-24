@@ -177,15 +177,16 @@ NoFade
 ENDA
 
 EndingScene:
-MUSC M_Victory
-CALL UnitGachaJam
+MUSC M_TogetherWeRide
+CHECK_EVENTID JamModeOn
+BNE 205 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
 WARPIN [12,10]
 MOVE 0xFFFF 0xFFFD [12,10]
 ENUN
 ENDWARP
 STAL 20
-CHECK_EVENTID JamModeOn
-BNE 205 sC s0 //branch if jam mode 
+MUSC M_Victory
 Text(Village,Ch2EndingRyan)
 LOAD1 0x1 ChikiGroup
 ENUN
@@ -193,6 +194,12 @@ Text(Prison_Cell, Ch2EndingFindingChiki)
 Text(Castle_Outside, Ch2EndingChikiStory)
 GOTO 206
 LABEL 205
+CALL UnitGachaJam
+WARPIN [12,10]
+MOVE 0xFFFF 0xFFFD [12,10]
+ENUN
+ENDWARP
+STAL 20
 Text(Village,Ch2EndingLyn)
 LOAD1 0x1 ChikiGroup
 ENUN

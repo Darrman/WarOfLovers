@@ -102,41 +102,41 @@ UNIT
 
 RoyalIntroGroup:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [7,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
-UNIT 0x80 KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
+UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
 UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [2,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
-UNIT 0x82 Sage_F 0x00 Level(1,NPC,0) [3,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
-UNIT 0x83 Hero 0x00 Level(1,NPC,0) [1,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
-UNIT 0x84 Sniper 0x00 Level(1,NPC,0) [2,1] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
-UNIT 0x85 Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,1] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
-UNIT 0x86 Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
+UNIT Celine Sage_F 0x00 Level(1,NPC,0) [3,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
+UNIT Diamant Hero 0x00 Level(1,NPC,0) [1,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
+UNIT Alcryst Sniper 0x00 Level(1,NPC,0) [2,1] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
+UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,1] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
+UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
 UNIT 0x87 General 0x00 Level(1,NPC,0) [12,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
 UNIT 0x88 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [11,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
-UNIT 0x89 Druid_F 0x00 Level(1,NPC,0) [7,8] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
+UNIT Veyle Druid_F 0x00 Level(1,NPC,0) [7,8] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
 UNIT
 
 WeddingGroup:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
-UNIT 0x80 KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
-UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
-UNIT 0x82 Sage_F 0x00 Level(1,NPC,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
-UNIT 0x83 Hero 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
-UNIT 0x84 Sniper 0x00 Level(1,NPC,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
-UNIT 0x85 Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
-UNIT 0x86 Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
-UNIT 0x87 General 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
+UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
+UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred, dies and unfought
+UNIT Celine Sage_F 0x00 Level(1,NPC,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
+UNIT Diamant Hero 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
+UNIT Alcryst Sniper 0x00 Level(1,NPC,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
+UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
+UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
+UNIT 0x87 General 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra, unfought
 UNIT 0x88 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [10,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
-UNIT 0x8A Warrior 0x00 Level(1,NPC,0) [5,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
-UNIT 0x8B KnightFalcon 0x00 Level(1,NPC,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
-UNIT 0x8C General 0x00 Level(1,NPC,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
-UNIT 0x8D Swordmaster_F 0x00 Level(1,NPC,0) [1,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
-UNIT 0x8E Rogue 0x00 Level(1,NPC,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
-UNIT 0x8F KnightDragon 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
-UNIT 0x90 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
-UNIT 0x91 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
-UNIT 0x89 Druid_F 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
+UNIT Boucheron Fighter 0x00 Level(1,NPC,0) [5,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Boucheron
+UNIT 0x8B KnightFalcon 0x00 Level(1,NPC,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Chloe
+UNIT 0x8C General 0x00 Level(1,NPC,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Jade
+UNIT Lapis Swordmaster_F 0x00 Level(1,NPC,0) [1,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Lapis
+UNIT 0x8E Rogue 0x00 Level(1,NPC,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Zelkov
+UNIT 0x8F KnightDragon 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Rosado
+UNIT 0x90 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Merrin
+UNIT 0x91 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Pandreo
+UNIT Veyle Druid_F 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
 UNIT Clanne Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
-UNIT 0x92 Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
+UNIT Framme Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
 UNIT
 
 MarthBoat:
@@ -186,35 +186,35 @@ LOAD2 0x1 RoyalIntroGroup
 MUSC M_Ricardo
 FADU 10
 BROWNBOX LocationNextMorning [0,0]
-FlashCursor(0x80,60)
+FlashCursor(Vander,60)
 Text(Castle_Room,Ch1RoyalIntroductions)
-MOVE 8 0x80 [13,1]
+MOVE 8 Vander [13,1]
 STAL 10
 MOVE 8 0x81 [7,6]
-MOVE 8 0x82 [6,6]
+MOVE 8 Celine [6,6]
 ENUN
 Text(Castle_Room,Ch1RoyalIntroductionsFirene)
 MOVE 8 0x81 [0,5]
-MOVE 8 0x82 [0,6]
+MOVE 8 Celine [0,6]
 STAL 10
-MOVE 8 0x83 [7,6]
-MOVE 8 0x84 [6,6]
+MOVE 8 Diamant [7,6]
+MOVE 8 Alcryst [6,6]
 ENUN
 Text(Castle_Room,Ch1RoyalIntroductionsBrodia)
-MOVE 8 0x83 [1,0]
-MOVE 8 0x84 [2,0]
+MOVE 8 Diamant [1,0]
+MOVE 8 Alcryst [2,0]
 STAL 10
 MOVE 8 0x81 [4,6]
-MOVE 8 0x82 [5,6]
-MOVE 8 0x85 [7,6]
-MOVE 8 0x86 [8,6]
+MOVE 8 Celine [5,6]
+MOVE 8 Ivy [7,6]
+MOVE 8 Hortensia [8,6]
 ENUN
 Text(Castle_Room,Ch1RoyalIntroductionsElusia)
-MOVE 8 0x85 [14,5]
-MOVE 8 0x86 [14,6]
+MOVE 8 Ivy [14,5]
+MOVE 8 Hortensia [14,6]
 STAL 10
-MOVE 8 0x83 [1,5]
-MOVE 8 0x84 [2,5]
+MOVE 8 Diamant [1,5]
+MOVE 8 Alcryst [2,5]
 MOVE 8 0x87 [7,6]
 MOVE 8 0x88 [8,6]
 ENUN
@@ -222,13 +222,13 @@ Text(Castle_Room,Ch1RoyalIntroductionsSolm)
 MOVE 8 0x87 [11,4]
 MOVE 8 0x88 [11,5]
 STAL 10
-MOVE 8 0x85 [12,4]
-MOVE 8 0x86 [12,5]
-MOVE 8 0x89 [7,6]
+MOVE 8 Ivy [12,4]
+MOVE 8 Hortensia [12,5]
+MOVE 8 Veyle [7,6]
 ENUN
 Text(Castle_Room,Ch1RoyalIntroductionsVeyle)
 MOVE 8 Marth [1,0]
-MOVE 8 0x89 [1,1]
+MOVE 8 Veyle [1,1]
 ENUN
 STAL 10
 FADI 10
@@ -240,32 +240,32 @@ LOAD2 0x1 WeddingGroup
 STAL 10
 FADU 10
 STAL 10
-FlashCursor(0x80,60)
+FlashCursor(Vander,60)
 STAL 10
 Text(Shrine_lighter,Ch1AtTheAltar)
 MUSC M_OffToWar
 Text(Shrine_lighter,Ch1IObject)
 TurnEnemy(Alear)
 TurnEnemy(Clanne)
-TurnEnemy(0x80)
-TurnEnemy(0x81)
-TurnEnemy(0x82)
-TurnEnemy(0x83)
-TurnEnemy(0x84)
-TurnEnemy(0x85)
-TurnEnemy(0x86)
-TurnEnemy(0x87)
-TurnEnemy(0x88)
-TurnEnemy(0x89)
-TurnEnemy(0x8A)
-TurnEnemy(0x8B)
-TurnEnemy(0x8C)
-TurnEnemy(0x8D)
-TurnEnemy(0x8E)
-TurnEnemy(0x8F)
-TurnEnemy(0x90)
-TurnEnemy(0x91)
-TurnEnemy(0x92)
+TurnEnemy(Vander)
+TurnEnemy(0x81) //Alfred
+TurnEnemy(Celine)
+TurnEnemy(Diamant)
+TurnEnemy(Alcryst)
+TurnEnemy(Ivy)
+TurnEnemy(Hortensia)
+TurnEnemy(0x87) //Timerra
+TurnEnemy(0x88) //Fogado
+TurnEnemy(Veyle) 
+TurnEnemy(Boucheron)
+TurnEnemy(0x8B) //Chloe
+TurnEnemy(0x8C) //Jade
+TurnEnemy(Lapis)
+TurnEnemy(0x8E) //Zelkov
+TurnEnemy(0x8F) //Rosado
+TurnEnemy(0x90) //Merrin
+TurnEnemy(0x91) //Pandreo
+TurnEnemy(Framme)
 MOVE 8 Marth [7,10]
 ENUN
 Text(Ch1AlearLeftAtAltar)
@@ -340,6 +340,19 @@ REMA
 LOAD2 0x1 CutsceneMarth
 FADU 10
 MUSC M_TogetherWeRide
+CHECK_EVENTID JamModeOn
+BNE 2 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
+WARPIN [1,0]
+MOVE 0xFFFF 0xFFFD [1,0]
+ENUN
+ENDWARP
+STAL 20
+MUSC M_Victory
+Text(Plain,Ch1EndingNew)
+GOTO 3
+LABEL 2
+//Jam Mode
 CALL UnitGachaJam
 WARPIN [1,0]
 MOVE 0xFFFF 0xFFFD [1,0]
@@ -347,11 +360,6 @@ ENUN
 ENDWARP
 STAL 20
 MUSC M_Victory
-CHECK_EVENTID JamModeOn
-BNE 2 sC s0 //branch if jam mode 
-Text(Plain,Ch1EndingNew)
-GOTO 3
-LABEL 2
 Text(Plain,Ch1Ending)
 LABEL 3
 WM_LOADLOCATION2 0 1 0
@@ -362,36 +370,83 @@ ENDA
 
 Turn2ActivateGacha:
 Text(HouseBG,Ch1AnnaSummonsAnArmy)
-//SVAL sB 0x00110007
-CALL UnitGachaJam
-//CURSOR_FLASHING [-1,-1]
 CAM1 [17,7]
-STAL 30
-//REMOVE_CURSORS
-//MOVE_1STEP 10 0xFFFE 0 //speed/unit/dir
-
-CALL UnitGachaJam
 STAL 10
-//CURSOR_FLASHING [-1,-1]
+CHECK_EVENTID JamModeOn
+BNE 8 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
+WARPIN [16,7]
+MOVE 0xFFFF 0xFFFD [16,7]
+ENUN
+ENDWARP
 STAL 30
-//REMOVE_CURSORS
-//MOVE_1STEP 10 0xFFFE 1
+
+CALL UnitGachaAct1
+WARPIN [16,6]
+MOVE 0xFFFF 0xFFFD [16,6]
+ENUN
+ENDWARP
+STAL 30
+
+CALL UnitGachaAct1
+WARPIN [16,8]
+MOVE 0xFFFF 0xFFFD [16,8]
+ENUN
+ENDWARP
+STAL 30
+
+CALL UnitGachaAct1
+WARPIN [15,7]
+MOVE 0xFFFF 0xFFFD [15,7]
+ENUN
+ENDWARP
+STAL 30
+
+CALL UnitGachaAct1
+WARPIN [17,7]
+MOVE 0xFFFF 0xFFFD [17,7]
+ENUN
+ENDWARP
+STAL 30
+
+GOTO 9
+LABEL 8
+CALL UnitGachaJam
+WARPIN [16,7]
+MOVE 0xFFFF 0xFFFD [16,7]
+ENUN
+ENDWARP
+STAL 30
 
 CALL UnitGachaJam
-STAL 10
-//CURSOR_FLASHING [-1,-1]
+WARPIN [16,6]
+MOVE 0xFFFF 0xFFFD [16,6]
+ENUN
+ENDWARP
 STAL 30
-//REMOVE_CURSORS
-//MOVE_1STEP 10 0xFFFE 2
 
 CALL UnitGachaJam
-STAL 10
-//CURSOR_FLASHING [-1,-1]
+WARPIN [16,8]
+MOVE 0xFFFF 0xFFFD [16,8]
+ENUN
+ENDWARP
 STAL 30
-//REMOVE_CURSORS
-//MOVE_1STEP 10 0xFFFE 3
 
 CALL UnitGachaJam
+WARPIN [15,7]
+MOVE 0xFFFF 0xFFFD [15,7]
+ENUN
+ENDWARP
+STAL 30
+
+CALL UnitGachaJam
+WARPIN [17,7]
+MOVE 0xFFFF 0xFFFD [17,7]
+ENUN
+ENDWARP
+STAL 30
+
+LABEL 9
 Text(HouseBG,Ch1AfterSummoning)
 NoFade
 ENDA

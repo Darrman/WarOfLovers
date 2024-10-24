@@ -217,15 +217,15 @@ CLEA 0
 CLEE 0
 LOAD2 0x1 CutsceneMarth
 MUSC M_TogetherWeRide
-CALL UnitGachaJam
+CHECK_EVENTID JamModeOn
+BNE 305 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
 WARPIN [28,14]
 MOVE 0xFFFF 0xFFFD [28,14]
 ENUN
 ENDWARP
 STAL 20
 FlashCursor(Marth,60)
-CHECK_EVENTID JamModeOn
-BNE 305 sC s0 //branch if jam mode 
 MUSC M_Victory
 Text(Woodland,Ch3EndingLuke)
 STAL 10
@@ -271,6 +271,13 @@ TEXTEND
 Text(Town_Gate,Ch3SpeechEnd)
 GOTO 306
 LABEL 305
+CALL UnitGachaJam
+WARPIN [28,14]
+MOVE 0xFFFF 0xFFFD [28,14]
+ENUN
+ENDWARP
+STAL 20
+FlashCursor(Marth,60)
 Text(Woodland,Ch3EndingLeaf)
 MUSC M_Crisis
 Text(Castle_Hall,Ch3EndingPalesFallsOld)

@@ -172,6 +172,13 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC M_JoinUs
+//Check if moving a mount indoors will crash or not; if so stick in a plain tile somewhere
+CALL UnitGachaAct2
+WARPIN [8,3]
+MOVE 0xFFFF 0xFFFD [8,3]
+ENUN
+ENDWARP
 Text(Castle_Hall_3,Ch10EndingPheraeFinallyFell)
 Text(Castle_Hall_3,Ch10EndingWhenWillWeGetHome)
 Text(Castle_Hall_3,Ch10EndingForNinian)

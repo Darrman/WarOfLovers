@@ -219,6 +219,13 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [5,6]
+MOVE 0xFFFF 0xFFFD [5,6]
+ENUN
+ENDWARP
+
 //Conditional for dead Diamant - mandatory for true ending
 //Do this later
 Text(Ch11EndingAlearIfDiamantDies)

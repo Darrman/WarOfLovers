@@ -141,6 +141,12 @@ ENDA
 
 EndingScene:
 Text(Ch8EndingBossDies)
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [5,1]
+MOVE 0xFFFF 0xFFFD [5,1]
+ENUN
+ENDWARP
 Text(Fort,Ch8EndingInFort)
 Text(Castle_Room,Ch8EndingSomniel)
 WM_LOADLOCATION2 0 7 0 //Required to fix chapter name

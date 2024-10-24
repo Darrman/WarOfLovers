@@ -134,6 +134,13 @@ ENDA
 EndingScene:
 Text(Ch12EndingLastCall)
 Text(Harbor,Ch12EndingTheyreGettingAway)
+//the recruit would spawn on the ship, ideally a cutscene map will be used in the future
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [5,1]
+MOVE 0xFFFF 0xFFFD [5,1]
+ENUN
+ENDWARP
 Text(Ship,Ch12EndingKeepSailing)
 Text(Ship,Ch12EndingElibeFadesAway)
 //skip next scene if Roy missed
