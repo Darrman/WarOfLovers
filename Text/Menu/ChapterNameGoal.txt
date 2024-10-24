@@ -1,3 +1,24 @@
+# 0x160 SeizeGateGoal
+Seize gate[X]
+
+## SeizeThroneGoal
+Seize throne[X]
+
+## SeizeFortGoal
+Seize fort[X]
+
+## KillBossGoal
+Defeat boss[X]
+
+## RoutEnemyGoal
+Rout enemy[X]
+
+## DefendGoal
+Defend[X]
+
+## EscapeGoal
+Escape[X]
+
 ## Ch1Name
 Ch. 1: Return to Akaneia[X]
 
@@ -32,6 +53,12 @@ Ch. 5: Sanctuary No More[X]
 ## Ch5Goal
 Kill the boss sitting[N]
 on the eastern fort[X]
+
+## Ch5xName
+Chapter 5x[X]
+
+## Ch5xGoal
+Placeholder[X]
 
 ## Ch6Name
 Ch. 6: The Icy Seas[X]
@@ -68,12 +95,18 @@ Ch. 10: Pherae Falls[X]
 Seize the throne of[N]
 Pherae Castle[X]
 
+## Ch10xName
+Chapter 10x[X]
+
+## Ch10xGoal
+Placeholder[X]
+
 ## Ch11Name
 Ch. 11: Diamant's Charge[X]
 
 ## Ch11Goal
-Defend Ostia for X turns[N]
-from Diamant's forces[X]
+Defend Ostia for 12[N]
+turns from Diamant[X]
 
 ## Ch12Name
 Ch. 12: Evacuation[X]
@@ -81,3 +114,172 @@ Ch. 12: Evacuation[X]
 ## Ch12Goal
 All units escape onto[N]
 a boat to flee Elibe[X]
+
+## Ch13Name
+Chapter 13[X]
+
+## Ch13Goal
+Placeholder[X]
+
+## Ch13xName
+Chapter 13x[X]
+
+## Ch13xGoal
+Placeholder[X]
+
+## Ch14Name
+Chapter 14[X]
+
+## Ch14Goal
+Placeholder[X]
+
+## Ch15Name
+Chapter 15[X]
+
+## Ch15Goal
+Placeholder[X]
+
+## Ch16Name
+Chapter 16[X]
+
+## Ch16Goal
+Placeholder[X]
+
+## Ch17Name
+Chapter 17[X]
+
+## Ch17Goal
+Placeholder[X]
+
+## Ch18Name
+Chapter 18[X]
+
+## Ch18Goal
+Placeholder[X]
+
+## Ch19Name
+Chapter 19[X]
+
+## Ch19Goal
+Placeholder[X]
+
+## Ch20Name
+Chapter 20[X]
+
+## Ch20Goal
+Placeholder[X]
+
+## Ch21Name
+Chapter 21[X]
+
+## Ch21Goal
+Placeholder[X]
+
+## Ch21xName
+Chapter 21x[X]
+
+## Ch21xGoal
+Placeholder[X]
+
+## Ch22Name
+Chapter 22[X]
+
+## Ch22Goal
+Placeholder[X]
+
+## Ch22xName
+Chapter 22x[X]
+
+## Ch22xGoal
+Placeholder[X]
+
+## Ch23Name
+Chapter 23[X]
+
+## Ch23Goal
+Placeholder[X]
+
+## Ch24Name
+Chapter 24[X]
+
+## Ch24Goal
+Placeholder[X]
+
+## Ch25Name
+Chapter 25[X]
+
+## Ch25Goal
+Placeholder[X]
+
+## Ch26Name
+Chapter 26[X]
+
+## Ch26Goal
+Placeholder[X]
+
+## Ch27Name
+Chapter 27[X]
+
+## Ch27Goal
+Placeholder[X]
+
+## Ch27xName
+Chapter 27x[X]
+
+## Ch27xGoal
+Placeholder[X]
+
+## Ch28Name
+Chapter 28[X]
+
+## Ch28Goal
+Placeholder[X]
+
+## Ch29Name
+Chapter 29[X]
+
+## Ch29Goal
+Placeholder[X]
+
+## Final1Name
+Final Chapter 1[X]
+
+## Final1Goal
+Placeholder[X]
+
+## Final2Name
+Final Chapter 2[X]
+
+## Final2Goal
+Placeholder[X]
+
+## Final3Name
+Final Chapter 3[X]
+
+## Final3Goal
+Placeholder[X]
+
+## Final4Name
+Final Chapter 4[X]
+
+## Final4Goal
+Placeholder[X]
+
+## Final5Name
+Final Chapter 5[X]
+
+## Final5Goal
+Placeholder[X]
+
+## FinalBadName
+Final Chapter: Bad Ending[X]
+
+## FinalBadGoal
+Placeholder[X]
+
+## DebugRoomName
+Ch. 99: Debug Room[X]
+
+## DebugRoomGoal
+Good luck debugging![N]
+- Darrman[X]

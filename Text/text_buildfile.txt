@@ -17,6 +17,7 @@ Learned  [X]
 #include "unitmenu_text.txt"
 
 #include "Menu/LocationName.txt"
+#include Menu/ChapterNameGoal.txt
 
 #0x903 HouseText
 //Main story text
@@ -32,7 +33,6 @@ This text is a placeholder.[A][X]
 #include Menu/UnitName.txt
 #include Menu/ClassName.txt
 #include Menu/ItemName.txt
-#include Menu/ChapterNameGoal.txt
 #include Menu/SongName.txt
 
 #include Quotes/BossQuotes.txt
