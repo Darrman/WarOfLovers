@@ -301,11 +301,11 @@ NoFade
 ENDA
 
 Ch4Armoury:
-SHLI SilverSword SilverLance SilverAxe SilverBow
+SHLI SteelSword IronLance Javelin IronAxe HandAxe SteelBow
 ALIGN 4
 
 Ch4Vendor:
-SHLI Bolganone Thoron Luna Sleep Vulnerary Elixir
+SHLI Fire Thunder Wind Heal TorchStaff Vulnerary
 ALIGN 4
 
 SheedaREDA:

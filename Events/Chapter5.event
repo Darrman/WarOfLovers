@@ -384,7 +384,7 @@ NoFade
 ENDA
 
 Ch5Armoury:
-SHLI IronSword IronLance IronAxe IronBow
+SHLI IronSword IronBow KillerBow IronAxe IronLance Javelin
 ALIGN 4
 
 ReturnToTitle:

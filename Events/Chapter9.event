@@ -162,7 +162,7 @@ ENDA
 
 AfterBattlePrep:
 //Written after prep would flow better as a T2 or so
-Text(PlaceholderText)
+//Text(PlaceholderText)
 NoFade
 ENDA
 
@@ -176,17 +176,17 @@ ENDA
 
 StartingVillage:
 Text(Outside_Village_Day,Ch9Village)
-SVAL s3 RedGem
+SVAL s3 Longbow
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Ch9Armoury:
-SHLI IronSword
+SHLI IronSword IronBlade IronLance IronAxe IronBow Javelin HandAxe
 ALIGN 4
 
 Ch9Vendor:
-SHLI Fire
+SHLI Fire Thunder Wind Elwind Heal Mend Barrier Vulnerary
 ALIGN 4
 
 FE7StartHouse1:

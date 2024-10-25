@@ -515,7 +515,5 @@ SHLI IronSword SteelSword IronLance SteelLance IronAxe SteelAxe IronBow SteelBow
 ALIGN 4
 
 Ch1Vendor:
-SHLI Fire Thunder Lightning /*Shine*/ Flux Heal Mend Vulnerary PureWater
+SHLI Fire Thunder Wind Lightning Flux Heal Mend Vulnerary PureWater
 ALIGN 4
-
-//Shine is currently Meteor, too powerful, commenting out

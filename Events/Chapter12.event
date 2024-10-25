@@ -184,49 +184,49 @@ ENDA
 
 TopLeftVillage:
 Text(Town_Day,PlaceholderText)
-SVAL s3 RedGem
+SVAL s3 SilverSword
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 VillageByDock:
 Text(Town_Day,Ch12HouseText6)
-SVAL s3 RedGem
+SVAL s3 KillerLance
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 VillageInsideWalls:
 Text(Town_Day,Ch12HouseText5)
-SVAL s3 RedGem
+SVAL s3 GoddessIcon
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 CanasOldVillage:
 Text(Town_Day,Ch12HouseText10)
-SVAL s3 RedGem
+SVAL s3 GuidingRing
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthOfCanas:
 Text(Town_Day,Ch12HouseText4)
-SVAL s3 RedGem
+SVAL s3 Thoron
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 NorthOfEntrance:
 Text(Town_Day,Ch12HouseText1)
-SVAL s3 RedGem
+SVAL s3 Luna
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthOfEntrance:
 Text(Town_Day,Ch12HouseText3)
-SVAL s3 RedGem
+SVAL s3 Divine
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
@@ -258,17 +258,17 @@ ENDA
 
 
 Ch12DocksArmoury:
-SHLI IronSword
+SHLI IronSword SlimSword IronLance SlimLance IronAxe IronBow ShortBow
 ALIGN 4
 
 Ch12EntranceArmoury:
-SHLI IronLance
+SHLI SteelSword SteelLance SteelAxe SteelBow
 ALIGN 4
 
 Ch12CentralVendor:
-SHLI Fire
+SHLI Fire Thunder Wind Lightning Flux Heal Vulnerary
 ALIGN 4
 
 Ch12EntranceVendor:
-SHLI Heal
+SHLI Elfire Elthunder Elwind Shine Flux Mend PureWater
 ALIGN 4

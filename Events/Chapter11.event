@@ -17,7 +17,10 @@ TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
 TurnEventEnemy(0x0,InfiniteRangeBlazingLion,1)
 TurnEventPlayer(0x0,WorthlessArsonist,2)
+TurnEventEnemy(0x0,LoadSouthernReinforcements,4)
+TurnEventEnemy(0x0,LoadSouthernReinforcements2,5)
 TurnEventNPC(0x0,DownGoTheSideGates,6)
+TurnEventEnemy(0x0,LoadDragonKnights,8)
 TurnEventEnemy(0x0,DiamantsCharge,9)
 TurnEventNPC(0x3,EndingScene,12)
 END_MAIN
@@ -270,6 +273,26 @@ EARTHQUAKE_END
 NoFade
 ENDA
 
+LoadSouthernReinforcements:
+CAM1 [7,25]
+LOAD1 0x1 SouthernReinforcements
+NoFade
+ENDA
+
+LoadSouthernReinforcements2:
+CAM1 [7,25]
+LOAD1 0x1 SouthernReinforcements2
+NoFade
+ENDA
+
+LoadDragonKnights:
+CAM1 [20,16]
+LOAD1 0x1 RogueFlyersEast
+CAM1 [7,25]
+LOAD1 0x1 RogueFlyersSouth
+NoFade
+ENDA
+
 WorthlessArsonist:
 Text(Ch11WhatTheHellDiamant)
 NoFade
@@ -301,68 +324,68 @@ ENDA
 
 Village1515:
 Text(Outside_Village_Day,Ch11VillageText1)
-SVAL s3 RedGem
+SVAL s3 Hammer
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1915:
 Text(Outside_Village_Day,Ch11VillageText2)
-SVAL s3 RedGem
+SVAL s3 AngelicRobe
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village118:
 Text(Outside_Village_Day,Ch11VillageText3)
-SVAL s3 RedGem
+SVAL s3 Elfire
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1318:
 Text(Outside_Village_Day,Ch11VillageText4)
-SVAL s3 RedGem
+SVAL s3 ShortSpear
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1521:
 Text(Outside_Village_Day,Ch11VillageText5)
-SVAL s3 RedGem
+SVAL s3 BrightLance
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1921:
 Text(Outside_Village_Day,Ch11VillageText6)
-SVAL s3 RedGem
+SVAL s3 Physic
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village124:
 Text(Outside_Village_Day,Ch11VillageText7)
-SVAL s3 RedGem
+SVAL s3 EnergyRing
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1324:
 Text(Outside_Village_Day,Ch11VillageText8)
-SVAL s3 RedGem
+SVAL s3 Swordslayer
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Ch11Vendor:
-SHLI Fire
+SHLI Fire Thunder Wind Elwind Heal Vulnerary
 ALIGN 4
 
 Ch11WestArmoury:
-SHLI IronSword
+SHLI IronSword SteelSword Armourslayer IronLance SteelLance Javelin
 ALIGN 4
 
 Ch11EastArmoury:
-SHLI IronLance
+SHLI IronAxe SteelAxe Swordreaver IronBow SteelBow ShortBow
 ALIGN 4

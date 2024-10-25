@@ -312,11 +312,11 @@ NoFade
 ENDA
 
 Ch3Armoury:
-SHLI SteelSword SteelLance SteelAxe SteelBow Javelin HandAxe Longbow
+SHLI IronSword SlimSword IronLance IronAxe IronBow 
 ALIGN 4
 
 Ch3Vendor:
-SHLI Thunder Elfire Blizzard Lightning Divine Mend Recover
+SHLI Thunder Elfire Wind Lightning Heal Mend Vulnerary
 ALIGN 4
 
 Ch3Village:
