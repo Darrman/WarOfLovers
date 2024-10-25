@@ -197,6 +197,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_OffToWar
 Text(Castle_Outside,Ch11OpeningEntry)
 Text(Castle_Room,Ch11OpeningPolitics)
 Text(Castle_Hall_3,Ch11OpeningDiamantIsOutside)
@@ -231,6 +232,8 @@ ENDWARP
 
 //Conditional for dead Diamant - mandatory for true ending
 //Do this later
+MUSC M_Victory
+//Okay it's horribly unfitting it's a placeholder
 Text(Ch11EndingAlearIfDiamantDies)
 Text(Ch11EndingWeGotTheEarthOrb)
 Text(Outside_Village_Day,Ch11EndingTheDivineReunion)

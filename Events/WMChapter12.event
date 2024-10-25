@@ -12,12 +12,12 @@ MUSC M_ANewJourney
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
-WorldMapTextBegin(PlaceholderText)
+WorldMapTextBegin(Ch12WorldMap)
 TEXTEND
 WorldMapLoadMapSprite(0, StarLord, 0, 10) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
-WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
-WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+WorldMapLoadMapSprite(1, Sniper, 1, 11)
+WorldMapDisplayMapSprite(0, 0, 386, 220, 11)
+WorldMapDisplayMapSprite(1, 0, 420, 250, 12)
 TEXTCONT
 TEXTEND
 WorldMapShowPortraitLeft(0,0x2) //Marth

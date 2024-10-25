@@ -76,7 +76,7 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,28] 0x0 0x0 0x0 0x0 [SilverLan
 UNIT
 
 Bad:
-UNIT Citrinne Sage_F 0x00 Level(1,Enemy,0) [8,1] 0x0 0x0 0x0 0x0 [Fire] NeverMoveAI
+UNIT Citrinne Sage_F 0x00 Level(1,Enemy,0) [8,1] 0x0 0x0 0x0 0x0 [Bolganone] NeverMoveAI
 UNIT RogueBern Sniper 0x00 Level(1,Enemy,0) [8,7] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI //timer soldier
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,19] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,15] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
@@ -149,6 +149,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_OffToWar
 Text(Castle_Hall_3,Ch10OpeningFatalNegotiations) //todo: make them less fatal
 Text(Castle_Outside,Ch10OpeningPheraeIsRuined)
 Text(Castle_Hall_3,Ch10OpeningMarthLives)
@@ -179,11 +180,13 @@ WARPIN [8,3]
 MOVE 0xFFFF 0xFFFD [8,3]
 ENUN
 ENDWARP
+MUSC M_Victory
 Text(Castle_Hall_3,Ch10EndingPheraeFinallyFell)
 Text(Castle_Hall_3,Ch10EndingWhenWillWeGetHome)
 Text(Castle_Hall_3,Ch10EndingForNinian)
 SVAL s3 IceStone
 GIVEITEMTO Chiki
+MUSC M_Conspiracy
 Text(Castle_Room,Ch10EndingSomniel)
 WM_LOADLOCATION2 0 9 0 //Required to fix chapter name
 WM_SETDESTINATION 0 9 0 //World map node. Keep these equal.

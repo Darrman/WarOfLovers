@@ -115,6 +115,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_OffToWar
 Text(Harbor,Ch8OpeningLanding)
 Text(Castle_Outside,Ch8OpeningMeetingEntrance)
 Text(Castle_Room,Ch8OpeningMeetingEliwoodLilina)
@@ -147,7 +148,9 @@ WARPIN [5,1]
 MOVE 0xFFFF 0xFFFD [5,1]
 ENUN
 ENDWARP
+MUSC M_Victory
 Text(Fort,Ch8EndingInFort)
+MUSC M_Conspiracy
 Text(Castle_Room,Ch8EndingSomniel)
 WM_LOADLOCATION2 0 7 0 //Required to fix chapter name
 WM_SETDESTINATION 0 7 0 //World map node. Keep these equal.

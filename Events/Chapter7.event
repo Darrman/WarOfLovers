@@ -135,6 +135,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_OffToWar
 BROWNBOX Ch7OpeningTheNextDay [0,0]
 SHOWUNIT Marth
 Text(Forest,Ch7OpeningWhereIsEveryone)
@@ -181,7 +182,9 @@ ENUN
 ENDWARP
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
+MUSC M_Victory
 Text(Ch7EndingMarthEliwood)
+MUSC M_Conspiracy
 Text(Castle_Room,Ch7EndingSomniel)
 WM_LOADLOCATION2 0 6 0 //Required to fix chapter name
 WM_SETDESTINATION 0 6 0 //World map node. Keep these equal.

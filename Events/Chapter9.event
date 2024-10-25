@@ -119,6 +119,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_OffToWar
 Text(Castle_Room,Ch9OpeningLilinaBarth)
 Text(Castle_Room,Ch9OpeningLilinaMeeting)
 Text(Castle_Hall,Ch9OpeningPherae)
@@ -149,8 +150,10 @@ WARPIN [10,3]
 MOVE 0xFFFF 0xFFFD [10,3]
 ENUN
 ENDWARP
+MUSC M_Victory
 Text(Castle_Hall,Ch9EndingBernKeep)
 Text(Castle_Hall,Ch9EndingBernKeep2)
+MUSC M_Conspiracy
 Text(Castle_Room,Ch9EndingAlfredDies)
 WM_LOADLOCATION2 0 8 0 //Required to fix chapter name
 WM_SETDESTINATION 0 8 0 //World map node. Keep these equal.
@@ -158,7 +161,6 @@ WM_SETNEXTLOCATION 0 0 8 //Needed for world map narration.
 MNCH 0xA
 ENDA
 
-ENDA
 
 AfterBattlePrep:
 //Written after prep would flow better as a T2 or so
