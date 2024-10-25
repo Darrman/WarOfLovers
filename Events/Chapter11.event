@@ -238,6 +238,8 @@ Text(Outside_Village_Day,Ch11EndingAlearChargeDiamantDead)
 Text(Outside_Village_Day,Ch11EndingEveryoneFallBack)
 Text(Fort_2_Burning,Ch11EndingTheSacrifice)
 //Battles
+DISA Barth
+//rest in peace, general
 Text(Fort_2_Burning,Ch11EndingAfterScriptedBattles)
 Text(Fort_Ruins_Outside,Ch11EndingMarthAtTheCave)
 Text(Volcano,Ch11EndingWeGotRoysRing)

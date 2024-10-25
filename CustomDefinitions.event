@@ -229,6 +229,7 @@
 #define Louis 0x9c
 //Act 2
 #define Ch7Brigand 0x9D
+#define Ch7Boss Ch7Brigand
 #define Amber 0x9E
 #define RogueBernBoss 0x9F
 #define Ch10Boss 0xa0
@@ -448,6 +449,7 @@
 #define WingSpear Reginleif
 #define FireGun 0x98
 #define Elephant 0x99
+#define IceStone 0xA9 //some demon king attack
 #define DivineStone HolyDragonStone
 #define ThunderSword LightBrand
 #define MasterSword Shamshir
