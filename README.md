@@ -22,10 +22,10 @@ But engagement wasn't sufficient: marraige was on the table.
 Marth and Alear's wedding day will prove to be fateful...
 
 ## Features
-- Six playable chapters
+- 12 playable chapters
 - Voice clips
 - Unit randomisation
-- Akaneian maps reimagined
+- Akaneian and Elibian maps reimagined
 - Dismount
 - Unit variety
 - A close-to-FE1 Falchion
@@ -37,15 +37,23 @@ Marth and Alear's wedding day will prove to be fateful...
 Please read the attached CREDITS.md file.
 
 ## Known Issues
-- Mage knights, valkyries, and horsemen cannot dismount currently.
-  The one map with mount restictions temporarily restricts instead of blocking cavalry.
-  Other dismount issues include lacking animations and retaining mounted ranks.
-- Jigglypuff's name is too long for certain menus.
+- This release is rushed to meet the FEE3 deadline. Occasional placeholder
+  text and many unpolished events will occur.
+- Balance is poor.
+- The Link Arena crashes the game currently.
+- Some character names are too long for certain menus. All should fit in menus
+  that allow seven tiles for character names.
 
 ## Patching Instructions
 Apply War of Lovers.ups file to a clean American FE8 rom.
 
 ## Changelog
+
+*v0.3: - Elibe: 26/10/2024*
+- Implemented the second story arc, set on Elibe.
+- Chapters 7 to 12 added.
+- Fixed another Marth animation crash.
+- Added nine new characters to the recruit pool.
 
 *v0.21: 16/11/2023*
 - Fixed the Marth animation crash (thanks to Wan and Abzel)
