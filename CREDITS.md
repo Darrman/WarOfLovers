@@ -100,7 +100,7 @@
 
 # Animations:
 
-- Marth: Blaze/Abzel
+- Marth: Blaze/Abzel, helped in debugging by 2WB
 - Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
 - Axe Knight: Primefusion
 - Sword Armour: TheBlindArcher
@@ -247,3 +247,6 @@
 - BWL expansion: LegendOfLoog
 - Convoy expansion: Tequila
 - Autosave killer: Laqieer
+- Remove item from anywhere: 7743
+- Dynamic text entries: Knabepicer
+- Dynamic character portraits: Scraiza

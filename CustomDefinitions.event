@@ -40,7 +40,7 @@
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
-#define __DEBUG__ // Uncomment to get the Debug startup menu :p
+//#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 //Characters
 //Fire Emblem: full roster defined for no-gacha modes.
@@ -578,6 +578,7 @@
 #define CGFalco 0x60
 #define CGPeppy 0x61
 #define CGSlippy 0x62
+#define CGBlackScreen 0x63 //find a way to uncorrupt the original one!
 
 //Event IDs
 #define JamModeOn 0x71

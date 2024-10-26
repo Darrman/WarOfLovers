@@ -71,6 +71,11 @@ KnightFMovingSprite:
 #incext Png2Dmp "KnightFMoving.png" --lz77
 ALIGN 4
 
+SavePointSprite:
+#incext Png2Dmp "SavePoint.png" --lz77
+ALIGN 4
+
 StandingMapSprite(0x00, 2, _16x32, MarthStandingSprite) //ephraim lord
+StandingMapSprite(0x67, 0, _16x16, SavePointSprite) //temp overwrite dead nils
 MovingMapSprite(StarLord, MarthMovingSprite, 0x1C3D7C)
 

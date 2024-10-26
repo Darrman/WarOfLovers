@@ -155,7 +155,7 @@ ALIGN 4
 
 BeginningScene:
 //Intro Setup
-SetBackground(Black)
+SetBackground(CGBlackScreen)
 EVBIT_MODIFY 1 //No skipping
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
