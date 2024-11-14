@@ -37,9 +37,10 @@ Village(0xb,Village1521,15,21)
 Village(0xc,Village1921,19,21)
 Village(0xd,Village124,1,24)
 Village(0xe,Village1324,13,24)
-Chest(RedGem,18,1)
-Chest(RedGem,20,1)
-Door(4,8)
+Chest(PureWater,18,1)
+Chest(Vulnerary,20,1)
+Door(4,8) //main gate
+Door(17,3) //treasure room
 Vendor(Ch11Vendor,2,12)
 Armory(Ch11WestArmoury,14,10)
 Armory(Ch11EastArmoury,19,11)
