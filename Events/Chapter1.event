@@ -52,7 +52,7 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth Lord 0x00 Level(1,Ally,0) [16,10] 0x0 0x0 0x1 MarthREDA [Falchion, BlueGem, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [16,10] 0x0 0x0 0x1 MarthREDA [Falchion, MemberCard, Vulnerary] NoAI
 UNIT
 
 GoodJam:
@@ -145,7 +145,7 @@ UNIT
 
 
 Traps1:
-SavePoint(15,7)
+SavePoint(15,5)
 ENDTRAP
 ALIGN 4
 
@@ -170,13 +170,16 @@ CenterTutorialTextBox
 EVBIT_MODIFY 0 //skip away
 TEXTSHOW JamModeNo
 TEXTEND
+FADI 60
+STAL 1
 
 //Opening
 
 MUSC M_ThemeOfLove
 LOMA 26
 LOAD2 0x1 MarthAlearGroup
-FADU 10
+CALL $9EE2C4 //EndConvo, get rid of black screen
+//FADU 10
 BROWNBOX LocationSomniel [0,0]
 FlashCursor(Marth,60)
 Text(Castle_Hall_Night,Ch1TheNightBefore)
@@ -294,7 +297,8 @@ LOAD1 0x1 Bad
 ENUN
 CriticalHit(0,30)
 EndAttack
-FIGHT_MAP KrisFaction Akaneia Ballista 1
+FIGHT_MAP KrisFaction Akaneia Ballista 0
+//the zero's apparently the ballista flag? febuilder just takes it as part of the item
 //KILL Akaneia
 //AWAIT_KILL Akaneia
 MOVE 8 KrisFaction [12,1]
@@ -302,6 +306,8 @@ Text(Ch1OpeningMarthFights)
 MOVE 10 Marth [13,8]
 ENUN
 CLEN 0
+SVAL s3 5000
+GIVEMONEY Marth //I'd prefer this to be silent but it's better than selling a blue gem turn 1
 NoFade
 ENDA
 
@@ -312,16 +318,23 @@ EVBIT_MODIFY 0
 ENUT JamModeOn
 TEXTSHOW JamModeYes
 TEXTEND
+FADI 60
+STAL 1
 
 //Jam Mode Opening
 
 MUSC M_ThemeOfLove
+LOMA 26 //just use the somniel here, it was always implied
+CALL $9EE2C4 //EndConvo
 Text(Castle_Hall,Ch1OpeningBeforeAltar)
 Text(Castle_Hall,Ch1OpeningAnnaVisits)
 Text(Shrine_lighter,Ch1OpeningAltar)
 MUSC M_OffToWar
 Text(Shrine_lighter,Ch1OpeningIObject)
+FADI 10
+LOMA 0 //back to warren
 LOAD1 0x1 GoodJam
+FADU 10
 Text(Inn,Ch1OpeningBackInWarren)
 Text(HouseBG,Ch1OpeningSecretShop)
 LOAD1 0x1 BadJam
