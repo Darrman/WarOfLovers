@@ -271,11 +271,11 @@ inaccurate attack offers little defense.[X]
 The mightiest of fighters. Few can hope[N]
 to survive a blow from their axe.[X]
 
-## BrigandDesc
+## BrigandClassDesc
 Mighty mountaineers who threaten[N]
 villages and prefer axes in combat.[X]
 
-## PirateDesc
+## PirateClassDesc
 Bold pirates who use axes in[N]
 battle. Quite adept at sea.[X]
 
