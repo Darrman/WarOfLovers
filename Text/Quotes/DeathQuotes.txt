@@ -73,6 +73,74 @@ I have failed the Divine One.[AN]
 Marth... is getting away.[N]
 Princess Celine, take... care...[A][X]
 
+## Ch7BossDeath
+[Left][LoadFace][0x01][0x01]
+The dragons... aren't as helpless...[N]
+as I had thought...[A][X]
+
+## AmberDeath
+[Left][LoadAmber]
+No... my legend... Dying... in a...[N]
+foreign land... King Diamant...[A][X]
+
+## RogueBernBossDeath
+[Left][LoadRogueBernBoss]
+You may have shot me down,[N]
+but I am but one of many.[AN]
+As we speak, my comrades are[N]
+making... their move...[A][X]
+
+## CitrinneDeath
+[Left][LoadCitrinne]
+I had all the money I could have.[N]
+But it won't save me now.[AN]
+Prince Alcryst, stay safe.[N]
+Please, forgive me...[A][X]
+
+## Ch10SubBossDeath
+[Left][LoadFace][0x01][0x01]
+Who are you? The Knights of[N]
+Pherae had surrendered.[AN]
+Did... Eliwood... make it[N]
+back... from Bern?[A][X]
+
+## DiamantDeath
+[Left][LoadDiamant]
+...Defeated? So much blood...[N]
+Listen up. You may have this[AN]
+orb, and I have lost the Ring[N]
+of the Young Lion to you...[AN]
+But the Divine One still has[N]
+Emblem Roy himself.[AN]
+She is on this battlefield...[N]
+And none will stand in her way.[AN]
+Even if you summon Roy... His[N]
+memory... has been... altered...[A][X]
+
+## AlcrystDeath
+[Left][LoadAlcryst]
+Evidence... of my failure.[N]
+I have condemned Brodia...[AN]
+to anarchy. This is what I[N]
+deserve. Diamant, Citrinne...[AN]
+...Lapis... I'm sorry you had[N]
+to put up with me for so long.[A][X]
+
+## LapisDeath
+#[Left][LoadLapis]
+[Left][LoadFace][0x01][0x01]
+I've misjudged you badly... You're[N]
+so strong. I'm sorry... Alcryst...[A][X]
+
+## VeyleDeathCh12
+[Left][LoadVeyle]
+This is impossible! Just... how?![N]
+I can't die here! Where did you[AN]
+gain such power?! If you could[N]
+kill me... Alear's vulnerable...[A]
+I thought you were on the run.[N]
+Was Ostia's fall a ruse?[A][X]
+
 ## KrisCh1Death
 [Left][LoadKris]
 What?! No... No! This is...[N]
@@ -263,3 +331,48 @@ I feel... so... lonely...[A][X]
 ## RodyDeath
 [Right][LoadRody]
 Emperor Marth... forgive me...[A][X]
+
+## ZeldaDeath
+[Right][LoadZelda]
+The light... it's fading away.[N]
+My wisdom... was not enough.[A][X]
+
+## SahasrahlaDeath
+[Right][LoadSahasrahla]
+I can help you no longer. To[N]
+meet my end on the battlefield...[A][X]
+
+## MarinDeath
+[Right][LoadMarin]
+The world... my head... it's[N]
+spinning... fading... away...[A][X]
+
+## SariaDeath
+[Right][LoadSaria]
+If a Kokiri leaves the forest,[N]
+they die... It's caught up...[A][X]
+
+## DededeDeath
+[Right][LoadDedede]
+Impossible! The mighty king of[N]
+Dream Land, falling in battle?[A][X]
+
+## MetaKnightDeath
+[Right][LoadMetaKnight]
+So... you are the superior[N]
+warrior. Well... done.[A][X]
+
+## FalcoDeath
+[Right][LoadFalco]
+I guess I'll have to back off...[N]
+Back off into oblivion...[A][X]
+
+## PeppyDeath
+[Right][LoadPeppy]
+It looks like... I'll be sitting[N]
+this one out... for... ever.[A][X]
+
+## SlippyDeath
+[Right][LoadSlippy]
+Somebody! Anybody! Help me![N]
+Aaaaah![A][X]
