@@ -179,3 +179,12 @@ Elwind[X]
 ## TornadoName
 Tornado[X]
 
+## SpiritDustName
+Spirit Dust[X]
+
+## SpiritDustDesc
+Increases magic by 4 points.[N]
+Vanishes after use.[X]
+
+## SpiritDustUseDesc
+Increases magic.[X]

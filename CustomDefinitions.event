@@ -462,6 +462,7 @@
 #define Wind 0xbe
 #define Elwind 0xbf
 #define Tornado 0xc0
+//#define SpiritDust 0xa3 //defined elsewhere
 
 //Music
 //Akaneia

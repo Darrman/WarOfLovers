@@ -565,7 +565,7 @@ CALL $9EE2C4 //EndConvo
 ENDA
 
 DebugArmoury:
-SHLI AngelicRobe EnergyRing SecretBook Speedwings GoddessIcon Dragonshield Talisman BodyRing Boots
+SHLI AngelicRobe EnergyRing SecretBook Speedwings GoddessIcon Dragonshield Talisman BodyRing Boots SpiritDust
 ALIGN 4
 
 LoadFireEmblemUnits:
