@@ -4,6 +4,47 @@
 - Chiki: FE3 Book 2 (Darrman)
 - Marich: Alusq
 - Rody: FE3 Book 2 (Darrman)
+- George: FE3 Book 2 (Darrman)
+- Malliesia: Alusq
+- Ricardo: FE3 Book 2 (Darrman)
+- Tomth: FE3 Book 1 (Darrman)
+- Saji: FE3 Book 1 (Darrman)
+- Kashim: FE3 Book 2 (Darrman)
+- Riff: FE1 (Darrman)
+- Linda: FE3 Book 2 (Darrman)
+- Oguma: FE3 Book 2 (Darrman)
+- Barts: FE3 Book 1 (Darrman)
+
+- Lilina: FE6 (Obsidian Daddy, Lenh)
+- Eliwood: FE6 (Obsidian Daddy, Lenh)
+- Roy: FE6 (Obsidian Daddy, Lenh)
+- Miledy: FE6 (Obsidian Daddy, Lenh)
+- Wolt: FE6 (Obsidian Daddy, Lenh)
+- Sophia: FE6 (Obsidian Daddy, Lenh)
+- Astore: FE6 (Obsidian Daddy, Lenh)
+- Fir: FE6 (Obsidian Daddy, Lenh)
+- Bartre: FE6 (Obsidian Daddy, Lenh)
+- Barth: FE6 (Obsidian Daddy, Lenh)
+
+- Alm: Atey
+- Celica: Atey
+- Valbo: FE2 (Darrman)
+- Camus: FE3 Book 1 (Darrman)
+- Dyute: FE2 (Darrman)
+- (Placeholder for undetermined FE2 character)
+
+
+- (All Jugdral characters blank or FE4 (Darrman) as placeholders)
+- Feena: FE3 Book 2 (Darrman)
+- Navarre: FE3 Book 2 (Darrman)
+
+- Kain: Alusq
+- Gordon: Alusq
+- Banutu: FE3 Book 2 (Darrman)
+- Cecil: FE3 Book 2 (Darrman)
+- Ellis: FE3 Book 2 (Darrman)
+- Gato: FE3 Book 2 (Darrman)
+
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
@@ -26,7 +67,6 @@
 - Serena: Pokemon Anime (Darrman)
 - Pikachu: Pokemon Red/Blue (Darrman)
 - Jigglypuff: Pokemon Red/Blue (Darrman)
-
 
 - Link: BatimaTheBat
 - Zelda: Sirknite31
@@ -57,10 +97,6 @@
 - Butz: Final Fantasy 5 mobile (Darrman)
 - Terra: Final Fantasy 6 (Darrman)
 
-- Lucina: Garytop
-- Lyn: FE7
-- Leaf: FE4 (Darrman)
-- Byleth: FE16 (Darrman)
 - Alear: Jey the Count
 - Kris: FE12 (Darrman)
 
@@ -82,21 +118,21 @@
 - Louis: FE17 (Darrman)
 - Alfonse: FEH (Darrman)
 
-- Alm: Atey
-- Celica: Atey
-- Chalphy descendant/Celice: FE4 (Darrman)
-- Eliwood: FE6 (Obsidian Daddy, Lenh)
-- Lilina: FE6 (Obsidian Daddy, Lenh)
-- Barth: FE6 (Obsidian Daddy, Lenh)
-- Roy: FE6 (Obsidian Daddy, Lenh)
-- Kain: Alusq
-- Ellis: FE3 (Darrman)
+- "Ratface": FE7
 - "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
 - Amber: FE17 (Darrman)
 - "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
 - Merlinus: FE6 (Obsidian Daddy, Lenh)
 - Guinevere: FE6 (Obsidian Daddy, Lenh)
 - Citrinne: FE17 (Darrman)
+- Framme: FE17 (Darrman)
+- "Executioner": FE6 (Obsidian Daddy, Lenh)
+- Lapis: FE17 (Darrman)
+
+- Lucina: Garytop
+- Lyn: FE7
+- Leaf: FE4 (Darrman)
+- Byleth: FE16 (Darrman)
 
 # Animations:
 
