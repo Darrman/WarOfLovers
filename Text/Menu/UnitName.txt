@@ -1107,3 +1107,554 @@ Lycia[X]
 ## LyciaDesc
 Soldiers of the Kingdom of Lycia,[N]
 fighting for Queen Lilina.[X]
+
+## EmptyName
+Empty Slot[X]
+
+## EmptyDesc
+No character is assigned[N]
+to this slot.[X]
+
+## Ch5xBossName
+Ch. 5x Boss[X]
+
+## Ch5xBossDesc
+Placeholder description.[X]
+
+## ExecutionerName
+Executioner[X]
+
+## ExecutionerDesc
+Placeholder name and[N]
+description.[X]
+
+## Ch10xBossName
+Ch. 10x Boss[X]
+
+## Ch10xBossDesc
+Placeholder description.[X]
+
+## Ch13xBossName
+Ch. 13x Boss[X]
+
+## Ch13xBossDesc
+Placeholder description.[X]
+
+## Ch14BossName
+Ch. 14 Boss[X]
+
+## Ch14BossDesc
+Placeholder description.[X]
+
+## ClaireName
+Claire[X]
+
+## ClaireDesc
+Knight of Valencia and Cleive's sister.[N]
+Somewhat haughty, but generally[N]
+means well.[X]
+
+## CleiveName
+Cleive[X]
+
+## CleiveDesc
+Captain of the Knights of Valencia[N]
+and former liberation army leader.[N]
+Belives the best should serve.[X]
+
+## MycenName
+Mycen[X]
+
+## MycenDesc
+Advisor to Alm, who regards him as[N]
+his "gramps". Serious and loyal,[N]
+faithfully following his liege.[X]
+
+## DomaFaithfulBossName
+Doma F. Boss[X]
+
+## DomaFaithfulBossDesc
+Placeholder description.[X]
+
+## MiletosBossName
+Miletos Boss[X]
+
+## MiletosBossDesc
+Placeholder description.[X]
+
+## RadosBossName
+Rados Boss[X]
+
+## RadosBossDesc
+Placeholder description.[X]
+
+## RobberBaronName
+Robber Baron[X]
+
+## RobberBaronDesc
+Boss of Chapter 17.[N]
+On Chronos Castle.[N]
+Placeholder description.[X]
+
+## AlsterBossName
+Alster Boss[X]
+
+## AlsterBossDesc
+Placeholder description.[X]
+
+## MelgenBossName
+Melgen Boss[X]
+
+## MelgenBossDesc
+Placeholder description.[X]
+
+## HaroldCloneName
+Harold Clone[X]
+
+## HaroldCloneDesc
+Boss of Chapter 18.[N]
+Attacking Lenster Castle.[N]
+Placeholder description.[X]
+
+## DozelBossName
+Dozel Boss[X]
+
+## DozelBossDesc
+Placeholder description.[X]
+
+## ReptorName
+Reptor[X]
+
+## ReptorDesc
+He's not actually Reptor, but he[N]
+serves the role. Placeholder![X]
+
+## VelthomerBossName
+Velthomer Boss[X]
+
+## VelthomerBossDesc
+Placeholder description.[X]
+
+## PhinoraBossName
+Phinora Boss[X]
+
+## PhinoraBossDesc
+Placeholder description.[X]
+
+## DarnaBossName
+Darna Boss[X]
+
+## DarnaBossDesc
+Placeholder description.[X]
+
+## HortensiaName
+Hortensia[X]
+
+## HortensiaDesc
+Princess of Elusia. Comes off as a[N]
+spoilt brat, but update this when[N]
+she's fought to be more accurate.[X]
+
+## YiedBossName
+Yied Boss[X]
+
+## YiedBossDesc
+Placeholder description.[X]
+
+## IvyName
+Ivy[X]
+
+## IvyDesc
+Queen of Elusia. Typically serious,[N]
+but is extremely devoted to Alear.[N]
+Subject to revision, placeholder.[X]
+
+## AidaName
+Aida[X]
+
+## AidaDesc
+The arc villain of Jugdral, a member[N]
+of the Lopt Sect and descendant of[N]
+Cyas. Wants to revive Loputousu![X]
+
+## Ch21xBoss1Name
+Ch. 21x Boss 1[X]
+
+## Ch21xBoss1Desc
+Placeholder description.[X]
+
+## Ch21xBoss2Name
+Ch. 21x Boss 2[X]
+
+## Ch21xBoss2Desc
+Placeholder description.[X]
+
+## Ch22BossName
+Ch. 22 Boss[X]
+
+## Ch22BossDesc
+Placeholder description.[X]
+
+## Ch22xBossName
+Ch. 22x Boss[X]
+
+## Ch22xBossDesc
+Placeholder description.[X]
+
+## Ch23BossName
+Ch. 23 Boss[X]
+
+## Ch23BossDesc
+Placeholder description.[X]
+
+## KatarinaName
+Katarina[X]
+
+## KatarinaDesc
+Kris's wife and a tactician.[N]
+Allegedly raised by assassins,[N]
+her loyalty is to Kris alone.[X]
+
+## Ch25SubBoss1Name
+Ch. 25 Sub 1[X]
+
+## Ch25SubBoss1Desc
+Placeholder description.[X]
+
+## Ch25SubBoss2Name
+Ch. 25 Sub 2[X]
+
+## Ch25SubBoss2Desc
+Placeholder description.[X]
+
+## VeyleName
+Veyle[X]
+
+## VeyleDesc
+Alear's sister. Long a servant of[N]
+her father, Dark Dragon Sombron,[N]
+she changed sides. Placeholder.[X]
+
+## FrammeName
+Framme[X]
+
+## FrammeDesc
+Steward of the Divine Dragon. Has[N]
+utterly fanatical loyalty to Alear[N]
+and does not tolerate dissent.[X]
+
+## VanderName
+Vander[X]
+
+## VanderDesc
+Steward of the Divine Dragon. An[N]
+experienced veteran, serving Alear[N]
+as he watched over her for decades.[X]
+
+## Ch27xBossName
+Ch. 27x Boss[X]
+
+## Ch27xBossDesc
+Placeholder description.[X]
+
+## Ch27xSubBossName
+Ch. 27x Sub[X]
+
+## Ch27xSubBossDesc
+Placeholder description.[X]
+
+## PlumeriaName
+Plumeria[X]
+
+## PlumeriaDesc
+The dark elf of lewd dreams. Has[N]
+no love for her job. Once paired[N]
+up with "Sheeda" in swimsuit.[X]
+
+## FjormName
+Fjorm[X]
+
+## FjormDesc
+Princess of Nifl. Made a miraculous[N]
+recovery from her persistent cough.[N]
+Often found introducing new recruits.[X]
+
+## IdounName
+Idoun[X]
+
+## IdounDesc
+The Demon Dragon. After Roy restored[N]
+her soul, she happily lived with Fa[N]
+in Arcadia. Recovering her emotions.[X]
+
+## DomaName
+Doma[X]
+
+## DomaDesc
+God of strength, Mila's brother,[N]
+worshipped by Rigel. Believes a[N]
+militant people is best for humanity.[X]
+
+## TrabantName
+Trabant[X]
+
+## TrabantDesc
+An ancient King of Thracia. Swore to[N]
+unite Thracia at any cost, no matter[N]
+the reputational damage he suffered.[X]
+
+## LoputousuName
+Loputousu[X]
+
+## LoputousuDesc
+The Dark Lord, terror of Jugdral in[N]
+millenia past. A hateful Earth Dragon[N]
+who wants nothing but misery.[X]
+
+## MediuthName
+Mediuth[X]
+
+## MediuthDesc
+Ruler of the Durhuan Empire. Humanity's[N]
+treatment of the Mamkutes twisted him[N]
+into waging continental war.[X]
+
+## SombronName
+Sombron[X]
+
+## SombronDesc
+Alear and Veyle's father, a Dark Dragon[N]
+that devestated all Elyos. Ultimately[N]
+searching for the Zero Emblem.[X]
+
+## FomortiisName
+Fomortiis[X]
+
+## FomortiisDesc
+The Demon King of Magvel. Defeated by[N]
+the hero Eirika and her companions.[N]
+A manipulative and cunning figure.[X]
+
+## AshnardName
+Ashnard[X]
+
+## AshnardDesc
+The "Mad King" of Daein, in an age[N]
+long past. Believed that might made[N]
+right, and cared for nothing else.[X]
+
+## SurtrName
+Surtr[X]
+
+## SurtrDesc
+King of Muspell, the Kingdom of Flame.[N]
+Attacked many different kingdoms before[N]
+getting shot into submission by Kiran.[X]
+
+## HeroesAnnaName
+Anna[X]
+
+## HeroesAnnaDesc
+Commander of the Order of Heroes.[N]
+Greedy to a fault, and when not[N]
+managing the army, is making money.[X]
+
+## SharenaName
+Sharena[X]
+
+## SharenaDesc
+Princess of Askr, Alfonse's sister.[N]
+Overly attached to making friends[N]
+with every "Hero" in the Order.[X]
+
+## SeasonalAlt1Name
+Seasonal 1[X]
+
+## SeasonalAlt1Desc
+Heroes has a lot of stinker alts.[N]
+So this is the time to fight them.[N]
+Which ones, exactly? Placeholder![X]
+
+## SeasonalAlt2Name
+Seasonal 2[X]
+
+## SeasonalAlt2Desc
+Placeholder description.[X]
+
+## SeasonalAlt3Name
+Seasonal 3[X]
+
+## SeasonalAlt3Desc
+Placeholder description.[X]
+
+## VeronicaName
+Veronica[X]
+
+## VeronicaDesc
+Empress of Embla. Involved with[N]
+Alfonse in some capacity. Enslaves[N]
+many people with her contracts.[X]
+
+## AlfonseName
+Alfonse[X]
+
+## AlfonseDesc
+King of Askr. Seeks nothing less than[N]
+control over the entire world using[N]
+the power of summoning.[X]
+
+## FinalSubBoss1Name
+Final Sub 1[X]
+
+## FinalSubBoss1Desc
+Two plans: either Alfonse controls the[N]
+gods, or he summons units from the[N]
+random gacha just like you![X]
+
+## FinalSubBoss2Name
+Final Sub 2[X]
+
+## FinalSubBoss2Desc
+Or have some form of toggle: gacha on,[N]
+you fight Bowser and Ganon.[X]
+
+## FinalSubBoss3Name
+Final Sub 3[X]
+
+## FinalSubBoss3Desc
+Gacha off, you fight Narga and Holsety.[N]
+Either way, it should result in an[N]
+extremely dangerous opponent.[X]
+
+## FinalSubBoss4Name
+Final Sub 4[X]
+
+## FinalSubBoss4Desc
+//I am not holding myself to this deadline, source readers!
+Coming 2030, maybe. If you're reading[N]
+this, you're poking around with cheats,[N]
+Builder, or are reading the source![X]
+
+## ValenciaName
+Valencia[X]
+
+## ValenciaDesc
+A soldier of the United[N]
+Valencia under Emperor Alm.[X]
+
+## DomaFaithfulName
+Doma F.[X]
+
+## DomaFaithfulDesc
+A remnant of Judah's Doma Faithful[N]
+branch, now branded heretical.[X]
+
+## MiletosName
+Miletos[X]
+
+## MiletosDesc
+A soldier of the Republic of Miletos,[N]
+serving under President "Robber Baron".[X]
+
+## ThraciaName
+Thracia[X]
+
+## ThraciaDesc
+A soldier of the Kingdom of Thracia,[N]
+ruled by King "Harold Clone".[X]
+
+## VerdaneName
+Verdane[X]
+
+## VerdaneDesc
+A soldier of the Kingdom of Verdane,[N]
+under the control of (NAME).[X]
+
+## FreegeName
+Freege[X]
+
+## FreegeDesc
+A soldier of the Duchy of Freege,[N]
+in revolt against Grandbell.[X]
+
+## YiedName
+Yied[X]
+
+## YiedDesc
+A secular soldier of the Kingdom of[N]
+Yied, carved out of the titular desert.[X]
+
+## LoptSectName
+Lopt Sect[X]
+
+## LoptSectDesc
+A member of the Lopt Sect, openly[N]
+practicing throughout Jugdral.[X]
+
+## DegeneratedDragonName
+Dragon[X]
+
+## DegeneratedDragonDesc
+A dragon who has succumbed to the[N]
+ravages of degeneration.[X]
+
+## FireneName
+Firene[X]
+
+## FireneDesc
+A soldier of the Kingdom of Firene,[N]
+taking orders from Queen Celine.[X]
+
+## BrodiaName
+Brodia[X]
+
+## BrodiaDesc
+A soldier of the Kingdom of Brodia,[N]
+located on the continent of Elyos.[X]
+
+## AskrName
+Askr[X]
+
+## AskrDesc
+A soldier of the Kingdom of Askr,[N]
+intent on taking over the world.[X]
+
+## MerlinusName
+Merlinus[X]
+
+## MerlinusDesc
+An advisor to the March of Pherae.[N]
+Comes from a mercantile background,[N]
+and makes his opinions known.[X]
+
+## GarretName
+Garret[X]
+
+## GarretDesc
+A reformed bandit living by the Etruria-[N]
+Nabata border. Regrets the crimes he has[N]
+committed before Lilina changed his ways.[X]
+
+## WallaceName
+Wallace[X]
+
+## WallaceDesc
+A former knight of Caelin. Has wandered[N]
+across all of Elibe throughout his life.[N]
+Utterly confident in his skills.[X]
+
+## MarcusName
+Marcus[X]
+
+## MarcusDesc
+A retired paladin of Pherae. Served[N]
+three generations of its marquesses.[N]
+A stern tutor, but will help if needed.[X]
+
+## WendyName
+Wendy[X]
+
+## WendyDesc
+Knight of Ostia. A serious figure, who[N]
+follows the ideals of knighthood above[N]
+everything else. Has a brother, Bors.[X]
