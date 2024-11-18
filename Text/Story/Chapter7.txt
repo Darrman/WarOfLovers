@@ -205,8 +205,8 @@ No! I'm alright. I've no idea what's[N]
 going on, but I'll be okay.[A][X]
 
 ## Ch7OpeningBanditsLaugh
-[ML][LoadFace][0x6d][0x01]
-//O'Neill; bandit placeholder (as if I won't just use "ratface" or someone...)
+[ML][LoadCh7Boss]
+//I just used FE7 ratface
 Did you see that, boys?[N]
 I knew staking out the[AN]
 Dragons' Gate was a good[N]

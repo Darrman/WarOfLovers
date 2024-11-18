@@ -59,7 +59,7 @@ very far away and we need to get[N]
 out of here as fast as we can.[A][X]
 
 ## Ch12OpeningTheMopeyKing
-[ML][LoadAlcryst][MR][LoadFace][0x01][0x01]
+[ML][LoadAlcryst][MR][LoadLapis]
 //generic soldier, probably, but not opposed to using, say, Lapis as a sub-boss
 Prince Alcryst, Sir Vander is at[N]
 the town gates. He has a message.[AN]
@@ -147,7 +147,7 @@ loyal to the old regime![AN]
 [MR]
 What did I tell you?! There's a[N]
 guard coming this way![A]
-[FL][LoadFace][0x01][0x01]
+[FL][LoadLapis]
 //if I make Alcryst's goon a character the same guy
 What's this about the old regime?[N]
 I'll have you know that any[AN]
@@ -221,7 +221,7 @@ and that is the last thing I[N]
 want to happen to anybody.[A][X]
 
 ## Ch12WhoAreThesePeople
-[ML][LoadFace][0x01][0x01]
+[ML][LoadLapis]
 Tonight seems like a good[N]
 night for a nice walk.[AN]
 [MR][LoadChiki]
@@ -243,6 +243,7 @@ Worse... what if I turn wild?[N]
 I don't think Marth is[AN]
 telling me everything.[N]
 I'll have to ask him...[A]
+[MoveRight]
 [FR][LoadLilina]
 Shh! We haven't been seen yet.[N]
 I know you're tired, Chiki...[A]
@@ -253,7 +254,7 @@ And is that Lilina? Oh, you[N]
 have been spotted.[A][X]
 
 ## Ch12YourMajestyLilinaHasArrived
-[ML][LoadAlcryst][MR][LoadFace][0x01][0x01]
+[ML][LoadAlcryst][MR][LoadLapis]
 Your majesty, we are under attack.[N]
 Lilina's trying to escape.[AN]
 I saw her at the edge of town talking[N]
@@ -298,7 +299,7 @@ I'll cover you from close range.[N]
 Together, nothing can stop us![A][X]
 
 ## Ch12HouseText1
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x59][0x01][MR][LoadCurrent]
 [ML]
 What's that ruckus outside?![N]
 Can't a man get some sleep?[AN]
@@ -308,7 +309,7 @@ worse and worse here in Badon![N]
 Take this and scram![A][X]
 
 ## Ch12HouseText2
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5D][0x01][MR][LoadCurrent]
 [ML]
 We give our all to defeat Bern,[N]
 and now half of Lycia's occupied[AN]
@@ -320,7 +321,7 @@ us a lot of bloodshed compared to[N]
 falling to his loyalist officers.[A][X]
 
 ## Ch12HouseText3
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x62][0x01][MR][LoadCurrent]
 [ML]
 I haven't been outside of Badon[N]
 for a while - the reasons should[AN]
@@ -336,10 +337,10 @@ has raised a finger against[N]
 Arcard Jr. after Ostia fell![A][X]
 
 ## Ch12HouseText4
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x61][0x01][MR][LoadCurrent]
 [ML]
 My friend just got arrested for[N]
-speaking his mind about the[AN]
+speaking her mind about the[AN]
 occupiers. Speak ill of that[N]
 Lythian god at your own risk.[AN]
 Speak positively of the old[N]
@@ -350,7 +351,7 @@ and her father-in-law get out[N]
 of Lycia to fight another day.[A][X]
 
 ## Ch12HouseText5
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
 [ML]
 Word going around is that Ostia's[N]
 been taken over by an Etrurian[AN]
@@ -364,7 +365,7 @@ Will we too be enslaved? Here, take[N]
 this: you deserve it far more.[A][X]
 
 ## Ch12HouseText6
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5E][0x01][MR][LoadCurrent]
 There's so many strange goings-on[N]
 lately. Marquess Pherae finds[AN]
 dragons. The queen allies with[N]
@@ -390,7 +391,7 @@ Excellent. Alright, away you go[N]
 now. Don't cause any trouble.[A][X]
 
 ## Ch12HouseText8
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x58][0x01][MR][LoadCurrent]
 [ML]
 Lycia has collapsed and a[N]
 partition is very possible.[AN]
@@ -408,7 +409,7 @@ Maybe I should try my luck[N]
 with the Dragons' Gate...[A][X]
 
 ## Ch12HouseText9
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x63][0x01][MR][LoadCurrent]
 [ML]
 Praise the Divine One! Long live[N]
 the Divine One! She will show[AN]
@@ -420,7 +421,7 @@ happen! With another Twelve,[N]
 yet more miracles will happen![A][X]
 
 ## Ch12HouseText10
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x59][0x01][MR][LoadCurrent]
 [ML]
 They never say it like this to an[N]
 Elibian, but I've overheard the[AN]
@@ -436,7 +437,7 @@ Here, take this. Give that[N]
 commander what for![A][X]
 
 ## Ch12HouseText11
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadFace][0x5F][0x01][MR][LoadCurrent]
 [ML]
 The occupation commander never[N]
 shows his face when he can[AN]
@@ -456,7 +457,7 @@ that Alcryst is more than[N]
 capable of spewing evil![A][X]
 
 ## Ch12ReinforcementsArrive
-[MR][LoadFace][0x01][0x01]
+[MR][LoadFace][0x6B][0x01]
 //generic red
 King Alcryst's raised the alarm.[N]
 We've got a job to do:[AN]
@@ -477,7 +478,7 @@ busy, but I'm very powerful too.[N]
 You shall not leave Badon alive![A][X]
 
 ## Ch12BarFight
-[ML][LoadFace][0x01][0x01][Right][LoadFace][0x01][0x01][FR][LoadFace][0x01][0x01]
+[ML][LoadFace][0x5C][0x01][Right][LoadFace][0x6B][0x01][FR][LoadBartre]
 //civilian (barman), red soldier, Bartre
 [Right]
 Another drink![A]

@@ -223,8 +223,9 @@ Stubborn to the end, I see. All troops,[N]
 drive the Lycians out of the castle![A][X]
 
 ## Ch10AfterPrep
-[ML][LoadFace][0x01][0x01] //red generic
-[MR][LoadFace][0x01][0x01] //prisoner: Wolt will do
+[ML][LoadExecutioner]
+//random red generic ended up evolving into a sub-boss
+[MR][LoadWolt]
 I can't believe we were defeated[N]
 so easily. The enemy commander[AN]
 brought a whole army with her.[N]
@@ -247,7 +248,7 @@ Oh, Lilina... Lord Eliwood...[N]
 What are you doing in Bern?[AN][X]
 
 ## Ch10RedTape
-[FL][LoadCitrinne][FR][LoadFace][0x01][0x01]
+[FL][LoadCitrinne][FR][LoadExecutioner]
 Commander, regarding the prisoners,[N]
 I request authorisation to execute[AN]
 them as soon as possible. They will[N]
@@ -419,7 +420,7 @@ with my friends...[AN]
 [X]
 
 ## Ch10EndingSomniel
-[FR][LoadFace][0x01][0x01][FL][LoadRoy][Left][LoadAlear][Right][LoadDiamant]
+[FR][LoadFramme][FL][LoadRoy][Left][LoadAlear][Right][LoadDiamant]
 //Vander's handling Celine's coronation off-screen so Framme the extreme
 //bootlicker fangirl is going to be here instead
 [Left]
