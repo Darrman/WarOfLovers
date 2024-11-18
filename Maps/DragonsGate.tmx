@@ -8,11 +8,11 @@
    <property name="Anims1" value="5"/>
    <property name="ChapterID" value="7"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x22"/>
-   <property name="MapID" value="0x23"/>
-   <property name="ObjectType1" value="0x6c"/>
-   <property name="PaletteID" value="0x6d"/>
-   <property name="TileConfig" value="0x6e"/>
+   <property name="MapChangesID" value="Ch7MapChanges"/>
+   <property name="MapID" value="Ch7Map"/>
+   <property name="ObjectType1" value="MountainsObjType"/>
+   <property name="PaletteID" value="MountainsPaletteFE7"/>
+   <property name="TileConfig" value="MountainsTileConfig"/>
   </properties>
   <data>
    <tile gid="775"/>
@@ -5451,7 +5451,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="12" name="SE Secret Wall" width="22" height="22">
+ <layer id="12" name="SE Secret Wall" width="22" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="10"/>

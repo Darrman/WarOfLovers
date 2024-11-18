@@ -9,11 +9,11 @@
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="9"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x29"/>
-   <property name="MapID" value="0x28"/>
-   <property name="ObjectType" value="1"/>
-   <property name="PaletteID" value="2"/>
-   <property name="TileConfig" value="3"/>
+   <property name="MapChangesID" value="Ch9MapChanges"/>
+   <property name="MapID" value="Ch9Map"/>
+   <property name="ObjectType" value="FieldsObjType"/>
+   <property name="PaletteID" value="FieldsPaletteFE7"/>
+   <property name="TileConfig" value="FieldsTileConfig"/>
   </properties>
   <data>
    <tile gid="101"/>
@@ -585,7 +585,7 @@
    <tile gid="587"/>
   </data>
  </layer>
- <layer id="2" name="VillageDestroyed" width="21" height="27">
+ <layer id="2" name="VillageDestroyed" width="21" height="27" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="0"/>
@@ -1163,7 +1163,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="3" name="VillageSaved" width="21" height="27">
+ <layer id="3" name="VillageSaved" width="21" height="27" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
