@@ -104,6 +104,37 @@ UNIT Colonial PegasusKnight Amber Level(6,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SlimLa
 UNIT Colonial Myrmidon Amber Level(8,Enemy,1) [9,4] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT
 
+CutsceneRandomBadonUnits:
+//just replace with party members
+UNIT Marth Lord 0x00 Level(1,Ally,0) [5,8] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,9] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [4,5] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Luigi Pirate 0x00 Level(1,Ally,0) [3,8] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT
+
+CutsceneBarthGuard:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [5,26] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,26] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,26] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [6,25] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Barth General 0x00 Level(5,NPC,0) [4,9] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT
+
+CutsceneLilinaMeeting:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [11,23] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,23] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [12,23] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [5,17] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Lilina Mage_F 0x00 Level(10,NPC,0) [6,17] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT
+
+CutsceneOnTheMap:
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [24,14] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Amber DukeKnight 0x00 Level(1,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Horseslayer] NoAI
+UNIT Ch7Boss Cavalier 0x00 Level(1,Enemy,0) [4,1] 0x0 0x0 0x0 0x0 [IronSword] NoAI //Arcard Jr is unfought, so no ID
+UNIT
 
 Traps1:
 SavePoint(0,9)
@@ -115,14 +146,83 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+LOMA 12 //Badon - sure it's night time but whatever, it was a morning arrival
+LOAD3 0x1 CutsceneRandomBadonUnits
 MUSC M_OffToWar
+FADU 10
+STAL 30
+//maybe flash a "BADON" text box
+FlashCursor(Marth,60)
 Text(Harbor,Ch8OpeningLanding)
-Text(Castle_Outside,Ch8OpeningMeetingEntrance)
-Text(Castle_Room,Ch8OpeningMeetingEliwoodLilina)
-Text(Castle_Room,Ch8OpeningMeetingProper)
-Text(Fort_Outside,Ch8OpeningAtTheBorder)
-Text(Village,Ch8OpeningEngageTaunt)
 FADI 10
+CLEA 0
+LOMA 11 //Ostia
+LOAD2 0x1 CutsceneBarthGuard
+CAM1 Barth
+FADU 10
+MOVE 10 Eliwood [5,9]
+MOVE 10 Marth [4,10]
+MOVE 10 Sheeda [5,10]
+MOVE 10 Chiki [4,11]
+ENUN
+STAL 10
+FlashCursor(Marth,60)
+Text(Castle_Outside,Ch8OpeningMeetingEntrance)
+SOUN 0xB1 //Door opening
+TILECHANGE 9 //the front door
+STAL 10
+MOVE 10 Marth [10,0]
+MOVE 10 Chiki [10,0]
+MOVE 10 Sheeda [4,5] //stop short: gotta dismount!
+MOVE 10 Eliwood [5,5]
+ENUN
+RECLASS Sheeda KnightPegasus
+RECLASS Eliwood KnightPaladin
+STAL 15
+MOVE 10 Sheeda [10,0]
+MOVE 10 Eliwood [10,0]
+ENUN
+FADI 10
+CLEA 0
+CLEN 0
+LOMA 0x43 //Ostia Castle
+LOAD2 0x1 CutsceneLilinaMeeting
+CAM1 Lilina
+FADU 10
+STAL 30
+FlashCursor(Lilina,60)
+Text(Castle_Room,Ch8OpeningMeetingEliwoodLilina)
+MOVE 10 Marth [6,19]
+MOVE 10 Sheeda [7,19]
+MOVE 10 Chiki [5,19]
+ENUN
+Text(Castle_Room,Ch8OpeningMeetingProper)
+FADI 10
+CLEA 10
+CLEN 10
+LOMA 8 //chapter map
+LOAD2 0x1 CutsceneOnTheMap
+CAM1 [22,11]
+RECLASS Eliwood Paladin
+RECLASS Sheeda PegasusKnight //she only dismounted for the cutscene, mount her again
+//Aside: boy, these will be "fun" once I give an elysian whip!
+//Realisation: Just call a "DismountSheeda" event for cutscenes every time?
+//I need a universal dismount anyway for indoor maps.
+FADU 10
+MOVE 10 Eliwood [17,10]
+ENUN
+STAL 10
+FlashCursor(Eliwood,60)
+Text(Fort_Outside,Ch8OpeningAtTheBorder)
+CAM1 Amber
+FlashCursor(Ch7Boss,60) //Arcard Jr.
+Text(Village,Ch8OpeningEngageTaunt)
+MOVE 10 Ch7Boss [0,0]
+FADI 10
+ENUN
+CLEA 0
+CLEN 0
+CLEE 0
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
