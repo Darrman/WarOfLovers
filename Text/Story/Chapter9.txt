@@ -251,11 +251,13 @@ in this war together.[A]
 That makes me happy. Very well,[N]
 we must be off.[A][X]
 
-## Ch9OpeningPherae
+## Ch9OpeningPheraeIntro
 [Right][LoadLilina][FR][LoadEliwood]
 Home. I can only hope Roy will come[N]
-home soon, and Elibe stays safe.[A]
-[ML][LoadMerlinus]
+home soon, and Elibe stays safe.[A][X]
+
+## Ch9OpeningPherae
+[Right][LoadLilina][FR][LoadEliwood][ML][LoadMerlinus]
 Lord Eliwood! Your majesty![N]
 It is good to see you again.[AN]
 What brings you here to Pherae[N]
@@ -415,8 +417,8 @@ But now is the time for action. All[N]
 men, attack the southern convoy![A][X]
 
 ## Ch9GuinevereReaction
-[ML][LoadFace][0x6F][0x01][MR][LoadGuinevere]
-//green generic, Guinevere
+[ML][LoadMiledy][0x01][MR][LoadGuinevere]
+//the generic is actually Miledy now, Guinevere
 [ML]
 Your majesty, (name)'s unit has[N]
 attacked a convoy approaching[AN]
@@ -660,8 +662,10 @@ strength, but you... have more mental[AN]
 fortitude than I... Firene is in good[N]
 hands... See you on the other side,[AN]
 and... cough, cough, cough... know[N]
-that... cough... I love you, Celine.[A][Clear]
-[FR]
+that... cough... I love you, Celine.[A][Clear][X]
+
+## Ch9EndingCelineMourns
+[Left][LoadAlear][FR][LoadCeline]
 ...Alfred... Alfred... ALFRED![N]
 I knew this day would come...[AN]
 But I can't believe... he's[N]

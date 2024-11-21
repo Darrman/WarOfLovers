@@ -35,7 +35,6 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -52,7 +51,6 @@ END_MAIN
 
 Good:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [11,25] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [13,24] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [13,26] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [15,24] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [16,23] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
@@ -102,10 +100,50 @@ UNIT RogueBern Shaman RogueBernBoss Level(7,Enemy,1) [16,10] 0x0 0x0 0x0 [Luna] 
 UNIT
 
 MiledySquad:
-UNIT Bern DragonKnight_F 0x0 Level(15,NPC,0) [10,3] 0x0 0x0 0x0 [SilverLance, Elixir] NeverMoveAI //pretend she's Miledy
-UNIT Bern DragonKnight 0x0 Level(10,NPC,1) [9,4] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
-UNIT Bern DragonKnight 0x0 Level(10,NPC,1) [11,4] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
-UNIT Bern Mercenary 0x0 Level(10,NPC,1) [10,5] 0x0 0x0 0x0 [SteelBlade] AttackInRangeAI
+UNIT Miledy DragonKnight_F 0x0 Level(15,NPC,0) [10,2] 0x0 0x1 MiledyREDA [SilverLance, Elixir] NeverMoveAI //no more pretending
+UNIT Bern DragonKnight 0x0 Level(10,NPC,1) [10,2] 0x0 0x1 BernGeneric1REDA [SteelLance] AttackInRangeAI
+UNIT Bern DragonKnight 0x0 Level(10,NPC,1) [10,2] 0x0 0x1 BernGeneric2REDA [SteelLance] AttackInRangeAI
+UNIT Bern Mercenary 0x0 Level(10,NPC,1) [10,2] 0x0 0x1 BernGeneric3REDA [SteelBlade] AttackInRangeAI
+UNIT
+
+CutsceneOstiaCastle:
+UNIT Lilina Mage_F 0x00 Level(10,NPC,0) [6,17] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Barth General 0x00 Level(5,NPC,0) [5,17] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [11,23] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [12,23] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT
+
+CutscenePheraeCastle:
+UNIT Lilina Mage_F 0x00 Level(10,NPC,0) [9,7] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [8,7] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Merlinus Civilian 0x00 Level(1,NPC,0) [8,1] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Wolt Archer 0x00 Level(1,NPC,0) [4,8] 0x0 0x0 0x0 0x0 [IronBow] NoAI //cameos!
+UNIT Marcus KnightPaladin 0x00 Level(1,NPC,0) [14,6] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Ostia KnightPaladin 0x00 Level(1,NPC,0) [7,7] 0x0 0x0 0x0 0x0 [IronSword] NoAI //Alan
+UNIT Ostia KnightPaladin 0x00 Level(1,NPC,0) [10,7] 0x0 0x0 0x0 0x0 [IronLance] NoAI //Lance
+UNIT
+
+CutsceneOpeningBern:
+UNIT Lilina Mage_F 0x00 Level(10,NPC,0) [13,24] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [13,25] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [11,25] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,25] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [11,26] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT RogueBernBoss DragonMaster 0x00 Level(1,Enemy,0) [1,1] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
+UNIT Diamant Hero 0x00 Level(3,Enemy,0) [0,1] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
+UNIT RogueBern DragonKnight 0x00 Level(1,Enemy,1) [10,22] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT
+
+LilinaGroup:
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [13,24] 0x0 0x0 0x0 0x0 [Elfire, Thunder, Vulnerary] NoAI
+UNIT
+
+CutsceneSomniel:
+UNIT Alear Swordmaster_F 0x00 Level(1,Enemy,0) [7,4] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Amber KnightPaladin 0x00 Level(1,Enemy,0) [6,6] 0x0  0x0 0x0 0x0 [SilverLance] NoAI //really Alfred, who dies here
+UNIT Celine Sage_F 0x00 Level(1,Enemy,0) [8,6] 0x0 0x0 0x0 0x0 [Bolganone] NoAI
+UNIT Vander KnightPaladin 0x00 Level(1,Enemy,0) [2,3] 0x0  0x0 0x0 0x0 [SilverLance] NoAI 
+UNIT Diamant Hero 0x00 Level(1,Enemy,0) [0,6] 0x0  0x0 0x0 0x0 [MiracleSword] NoAI 
 UNIT
 
 Traps1:
@@ -119,14 +157,83 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+LOMA 0x43 //Ostia Castle
+LOAD2 0x1 CutsceneOstiaCastle
 MUSC M_OffToWar
+CAM1 Lilina
+FADU 10
+//Text box: Ostia Castle
+FlashCursor(Lilina,60)
 Text(Castle_Room,Ch9OpeningLilinaBarth)
+RECLASS Eliwood KnightPaladin //indoor cutscene!
+STAL 5
+MOVE 10 Barth [11,21]
+ENUN
+MOVE 10 Marth [7,19]
+MOVE 10 Eliwood [6,19]
+ENUN
+STAL 10
+FlashCursor(Lilina,60)
 Text(Castle_Room,Ch9OpeningLilinaMeeting)
+//this text is too long; clip out a bit of the emblem plot dump?
+MOVE 10 Lilina [10,21]
+ENUN
+MOVE 10 Barth [6,17]
+ENUN
+MOVE 10 Lilina [18,19]
+MOVE 10 Eliwood [18,22]
+MOVE 10 Marth [18,23]
+ENUN
+FADI 10
+CLEA 0
+CLEN 0
+LOMA 10 //Pherae
+LOAD2 0x1 CutscenePheraeCastle
+FADU 10
+//Text box: Pherae Castle
+FlashCursor(Eliwood,60)
+Text(Ch9OpeningPheraeIntro)
+STAL 10
+MOVE 10 Merlinus [8,5]
+ENUN
+SOUN 0xB1 //Door opening
+TILECHANGE 5 //throne room door
+STAL 60
+MOVE 10 Merlinus [8,1]
+MOVE 10 Eliwood [8,3]
+MOVE 10 Lilina [9,3]
+ENUN
+STAL 10
+FlashCursor(Merlinus,60)
 Text(Castle_Hall,Ch9OpeningPherae)
-LOAD1 0x1 Good
+MOVE 10 Eliwood [4,13]
+MOVE 10 Lilina [5,13]
+ENUN
+FADI 10
+CLEA 0
+CLEN 0
+LOMA 9 //actual chapter
+STAL 5
+LOAD2 0x1 CutsceneOpeningBern
+RECLASS Eliwood Paladin
+CAM1 Marth
+FADU 10
+//location box
+FlashCursor(Eliwood,60)
 Text(Woodland,Ch9OpeningApproachingBernKeep)
+EVBIT_T 9 //follow
+MOVE 10 Sheeda [7,20]
+ENUN
+MOVE 12 RogueBern [1,2]
+ENUN
+STAL 10
+FlashCursor(RogueBernBoss,60)
 Text(Woodland,Ch9OpeningRebellion)
 FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]
@@ -146,15 +253,32 @@ ENDA
 EndingScene:
 MUSC M_JoinUs
 CALL UnitGachaAct2
-WARPIN [10,3]
-MOVE 0xFFFF 0xFFFD [10,3]
+WARPIN [8,3]
+MOVE 0xFFFF 0xFFFD [8,3]
 ENUN
 ENDWARP
 MUSC M_Victory
 Text(Castle_Hall,Ch9EndingBernKeep)
 Text(Castle_Hall,Ch9EndingBernKeep2)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+LOMA 26 //Somniel
+LOAD2 0x1 CutsceneSomniel
 MUSC M_Conspiracy
+FADU 10
+BROWNBOX LocationSomniel [0,0]
+FlashCursor(Amber,60)
 Text(Castle_Room,Ch9EndingAlfredDies)
+KILL Amber
+AWAIT_KILL Amber //Alfred
+STAL 120
+MOVE 10 Vander [5,6]
+MOVE 10 Diamant [4,6]
+ENUN
+FlashCursor(Celine,60)
+Text(Castle_Room,Ch9EndingCelineMourns)
 WM_LOADLOCATION2 0 8 0 //Required to fix chapter name
 WM_SETDESTINATION 0 8 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 8 //Needed for world map narration.
@@ -164,16 +288,22 @@ ENDA
 
 AfterBattlePrep:
 //Written after prep would flow better as a T2 or so
+//Just a quick line along the lines of "don't worry, I can defend myself"
+LOAD1 0x1 LilinaGroup
+CAM1 Lilina
+FlashCursor(Lilina,60)
 //Text(PlaceholderText)
 NoFade
 ENDA
 
 GuinevereSendsReinforcements:
+//TODO: Figure out how to stop Miledy and friends getting immediately attacked
 CAM1 [10,2]
 STAL 10
 FlashCursor(10,2,60)
 Text(Castle_Hall,Ch9GuinevereReaction)
 LOAD1 0x1 MiledySquad
+NoFade
 ENDA
 
 StartingVillage:
@@ -200,3 +330,15 @@ FE7StartHouse2:
 Text(HouseBG,Ch9House2)
 NoFade
 ENDA
+
+MiledyREDA:
+REDA [10,3]
+
+BernGeneric1REDA:
+REDA [9,4]
+
+BernGeneric2REDA:
+REDA [11,4]
+
+BernGeneric3REDA:
+REDA [10,5]
