@@ -140,6 +140,7 @@ LOCA 0x0 MapViewer [1,1] 0x10
 LOCA 0x0 PortraitViewer [3,1] 0x10
 LOCA 0x0 BackgroundViewer [5,1] 0x10
 Armory(DebugArmoury,7,1)
+Vendor(DebugVendor,9,1)
 House(0x0,GachaEffectTest,2,0)
 House(0x0,LoadSuperMarioUnits,4,0)
 House(0x0,LoadPocketMonstersUnits,6,0)
@@ -566,6 +567,10 @@ ENDA
 
 DebugArmoury:
 SHLI AngelicRobe EnergyRing SecretBook Speedwings GoddessIcon Dragonshield Talisman BodyRing Boots SpiritDust
+ALIGN 4
+
+DebugVendor:
+SHLI KnightCrest HeroCrest OrionsBolt ElysianWhip GuidingRing
 ALIGN 4
 
 LoadFireEmblemUnits:

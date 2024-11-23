@@ -468,7 +468,7 @@
 //Akaneia
 #define M_AkaneiaAnthem 0x43 //FE Theme, no intro
 #define M_HolyWar Land_of_Promise
-#define M_Ricardo 0x24 //Advance FE8
+#define M_Ricardo Laughter
 #define M_Advance Distant_Roads
 #define M_Insurrection Shadow_of_the_Enemy	
 #define M_EvilOnes Solve_the_Riddle
@@ -506,6 +506,18 @@
 #define M_JoinUs 0x54 //recruitment music duplicate
 #define M_WinningRoad 0x58 //blank
 #define M_BattleForWhoseSake Powerful_Foe
+#define M_Charge Treasured_Memories
+#define M_WhenTheRushComes 0x24 //Advance FE8
+#define M_AnUnexpectedCaller Lights_in_the_Dark
+#define M_Companions Follow_Me
+#define M_TheMessenger From_the_Darkness
+#define M_Stratagem 0x57 //Reserved for dragon vein SFX, which is unused
+#define M_ToTheHeights To_a_Higher_Place
+#define M_EnemiesAppear 0x59 //blank
+#define M_Triumph Reunion
+#define M_IntoTheShadowOfTriumph Indignation
+#define M_ScarsOfTheScouring Confront_the_Past
+//one of the sad FE7 songs Sorrow
 
 //VA
 //26D to 2BB all empty

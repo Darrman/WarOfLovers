@@ -84,3 +84,54 @@ Mystery of the Emblem[X]
 
 ## SREndingMedleyBook1
 Ending Medley (Book 1)[X]
+
+## SRFE6Attack
+Attack (FE6)[X]
+
+## SRForTheCommanders
+For the Commanders[X]
+
+## SRFrontier
+Frontier[X]
+
+## SRJoinUs
+Join Us[X]
+
+## SRWinningRoad
+Winning Road[X]
+
+## SRBattleForWhoseSake
+Battle for Whose Sake[X]
+
+## SRCharge
+Charge[X]
+
+## SRWhenTheRushComes
+When the Rush Comes[X]
+
+## SRAnUnexpectedCaller
+An Unexpected Caller[X]
+
+## SRCompanions
+Companions[X]
+
+## SRTheMessenger
+The Messenger[X]
+
+## SRStratagem
+Stratagem[X]
+
+## SRToTheHeights
+To the Heights[X]
+
+## SREnemiesAppear
+Enemies Appear[X]
+
+## SRTriumph
+Triumph[X]
+
+## SRIntoTheShadowOfTriumph
+Into the Shadow of Triumph[X]
+
+## SRScarsOfTheScouring
+Scars of the Scouring[X]

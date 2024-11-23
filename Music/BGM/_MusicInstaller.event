@@ -13,6 +13,7 @@ NativeInstrumentMap2:
 
 ALIGN 4
 
+//Akaneia (FE1, 3, 11, 12)
 {
 #include "AkaneiaAnthem.event"
 SongTable(M_AkaneiaAnthem,AkaneiaAnthem,0)
@@ -164,6 +165,7 @@ SongTable(M_MysteryOfTheEmblem,MysteryOfTheEmblem,0)
 SongTable(M_EndingMedleyBook1,B1EndingMedley,0)
 }
 
+//Elibe (FE6, 7)
 
 {
 #include "FE6Attack.event"
@@ -194,3 +196,59 @@ SongTable(M_WinningRoad,WinningRoad,1)
 #include "BattleForWhoseSake.event"
 SongTable(M_BattleForWhoseSake,BattleForWhoseSake,0)
 }
+
+{
+#include "Charge.event"
+SongTable(M_Charge,FE6Charge,0)
+}
+
+{
+#include "WhenTheRushComes.event"
+SongTable(M_WhenTheRushComes,WhenTheRushComes,0)
+}
+
+{
+#include "AnUnexpectedCaller.event"
+SongTable(M_AnUnexpectedCaller,AnUnexpectedCaller,0)
+}
+
+{
+#include "Companions.event"
+SongTable(M_Companions,Companions,1)
+}
+
+{
+#include "TheMessenger.event"
+SongTable(M_TheMessenger,TheMessenger,1)
+}
+
+{
+#include "Stratagem.event"
+SongTable(M_Stratagem,Stratagem,0)
+}
+
+{
+#include "ToTheHeights.event"
+SongTable(M_ToTheHeights,ToTheHeights,0)
+}
+
+{
+#include "EnemiesAppear.event"
+SongTable(M_EnemiesAppear,EnemiesAppear,1)
+}
+
+{
+#include "Triumph.event"
+SongTable(M_Triumph,Triumph,0)
+}
+
+{
+#include "IntoTheShadowOfTriumph.event"
+SongTable(M_IntoTheShadowOfTriumph,IntoTheShadowOfTriumph,0)
+}
+
+{
+#include "ScarsOfTheScouring.event"
+SongTable(M_ScarsOfTheScouring,ScarsOfTheScouring,1)
+}
+

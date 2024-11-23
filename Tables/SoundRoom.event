@@ -32,6 +32,25 @@ SoundRoom(M_Vendor,5400,0,SRVendorFE3)
 SoundRoom(M_Arena,5400,0,SRArenaFE3)
 SoundRoom(M_PreperationsFE11,5400,0,SRPreperationsFE11)
 SoundRoom(M_EndingMedleyBook1,5400,0,SREndingMedleyBook1)
+SoundRoom(M_FE6Attack,5400,0,SRFE6Attack)
+SoundRoom(M_ForTheCommanders,5400,0,SRForTheCommanders)
+SoundRoom(M_Frontier,5400,0,SRFrontier)
+SoundRoom(M_JoinUs,5400,0,SRJoinUs)
+SoundRoom(M_WinningRoad,5400,0,SRWinningRoad)
+SoundRoom(M_BattleForWhoseSake,5400,0,SRBattleForWhoseSake)
+SoundRoom(M_Charge,5400,0,SRCharge)
+SoundRoom(M_WhenTheRushComes,5400,0,SRWhenTheRushComes)
+SoundRoom(M_AnUnexpectedCaller,5400,0,SRAnUnexpectedCaller)
+SoundRoom(M_Companions,5400,0,SRCompanions)
+SoundRoom(M_TheMessenger,5400,0,SRTheMessenger)
+SoundRoom(M_Stratagem,5400,0,SRStratagem)
+SoundRoom(M_ToTheHeights,5400,0,SRToTheHeights)
+SoundRoom(M_EnemiesAppear,5400,0,SREnemiesAppear)
+SoundRoom(M_Triumph,5400,0,SRTriumph)
+SoundRoom(M_IntoTheShadowOfTriumph,5400,0,SRIntoTheShadowOfTriumph)
+SoundRoom(M_ScarsOfTheScouring,5400,0,SRScarsOfTheScouring)
+
+
 WORD 0xFFFFFFFF
 
 POP

@@ -232,12 +232,24 @@
 
 - All FE3 music converted by Sme.
 - FE11 Battle Preps: RSFlame
+
 - FE6 Attack: Tristan Hollow
 - For the Commanders: RandomWizard
 - Frontier: 7743
 - Join Us: Tristan Hollow
 - Winning Road: Tristan Hollow
 - Battle for Whose Sake: 7743
+- Charge: Alice
+- When the Rush Comes: 7743
+- An Unexpected Caller: Alice
+- Companions: Alice
+- The Messenger: Alice
+- Stratagem: Cres
+- To the Heights: Cres
+- Enemies Appear: Alice
+- Triumph: Alice
+- Into the Shadow of Triumph: Alice
+- Scars of the Scouring: 7743
 
 - Voice lines from:
 - Marth: Fire Emblem Heroes
