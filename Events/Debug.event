@@ -36,8 +36,8 @@ ENDA
 
 //ORG $8D118C
 DebugUnitsGood:
-UNIT Marth StarLord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
-UNIT Sheeda FalcoKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
+UNIT Marth Lord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, Warp] NoAI
 UNIT 0x7F Mercenary 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword] NoAI //Units beyond 0x80 disappear when switching chapters!
 //Here they consistently vanish beyond 0x80. Some IDs go in Arch of Coups but some don't? Appears to be vanilla behaviour.
@@ -47,7 +47,7 @@ DebugUnitsFE:
 UNIT Marich Sage 0x00 Level(1, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [Blizzard, Wind, Elwind, Tornado] NoAI
 UNIT Rody DukeKnight 0x00 Level(1, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
 UNIT Eliwood Paladin 0x00 Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [Audhulma] NoAI
-UNIT Lilina Mage_F 0x00 Level(1, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [Bolganone, Meteor, Elthunder, Thoron] NoAI
+UNIT Lilina Mage_F 0x00 Level(10, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [Bolganone, Meteor, Elthunder, Thoron] NoAI
 UNIT Barth General 0x00 Level(1, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
 UNIT Valbo General 0x00 Level(1, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
 UNIT Valencia2 Civilian 0x00 Level(1, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [BlackGem, BlackGem, BlackGem] NoAI
@@ -140,8 +140,8 @@ LOCA 0x0 MapViewer [1,1] 0x10
 LOCA 0x0 PortraitViewer [3,1] 0x10
 LOCA 0x0 BackgroundViewer [5,1] 0x10
 Armory(DebugArmoury,7,1)
-Vendor(DebugVendor,9,1)
-House(0x0,GachaEffectTest,2,0)
+Vendor(DebugVendor,11,1)
+House(0x0,DismountTest,2,0)
 House(0x0,LoadSuperMarioUnits,4,0)
 House(0x0,LoadPocketMonstersUnits,6,0)
 House(0x0,LoadLegendOfZeldaUnits,8,0)
@@ -610,6 +610,10 @@ LOAD1 0x1 DebugUnitsSmash
 LOAD1 0x1 DebugUnitsKirby
 LOAD1 0x1 DebugUnitsStarFox
 ENUN
+ENDA
+
+DismountTest:
+CALL DismountAll
 ENDA
 
 FEE3TrailerRecording:

@@ -1,0 +1,211 @@
+//In FE3 and FE5, units automatically dismount for indoor chapters.
+//They do not automatically mount when these chapters are complete.
+//In addition, mounted units will have to dismount for cutscenes.
+
+DismountAll:
+//The proper way would loop through every unit and look up the dismount table.
+//I do not have the technical knowhow for this.
+//Event spaghetti it is!
+
+LABEL 6000 //Just in case I need to call this by label for some reason
+CHECK_ALIVE Sheeda //safety check
+BEQ 6002 s0 sC //equal means dead/not in party, skip
+CHECK_CLASS Sheeda
+SVAL s1 FalconKnight
+BNE 6001 s1 sC //if she's not a falcon she's a pegasus, go there
+RECLASS Sheeda KnightFalcon
+GOTO 6002
+LABEL 6001
+RECLASS Sheeda KnightPegasus
+LABEL 6002
+
+CHECK_ALIVE Eliwood
+BEQ 6004 s0 sC
+CHECK_CLASS Eliwood
+SVAL s1 KnightLord
+BNE 6003 s1 sC //Paladin
+RECLASS Eliwood KnightEliwood
+GOTO 6004
+LABEL 6003
+RECLASS Eliwood KnightPaladin
+LABEL 6004
+
+CHECK_ALIVE Bowser
+BEQ 6006 s0 sC
+CHECK_CLASS Bowser
+SVAL s1 DragonMaster
+BNE 6005 s1 sC //Dragon Knight
+RECLASS Bowser KnightDragonM
+GOTO 6006
+LABEL 6005
+RECLASS Bowser KnightDragon
+LABEL 6006
+
+CHECK_ALIVE Wario
+BEQ 6008 s0 sC
+CHECK_CLASS Wario
+SVAL s1 GreatKnight
+BNE 6007 s1 sC //Axe Knight
+RECLASS Wario KnightGreat
+GOTO 6008
+LABEL 6007
+RECLASS Wario KnightAxe
+LABEL 6008
+
+CHECK_ALIVE Yoshi
+BEQ 6010 s0 sC
+CHECK_CLASS Yoshi
+SVAL s1 DukeKnight
+BNE 6009 s1 sC //Lance Knight
+RECLASS Yoshi KnightDuke
+GOTO 6010
+LABEL 6009
+RECLASS Yoshi KnightLance
+LABEL 6010
+
+CHECK_ALIVE Waluigi
+BEQ 6012 s0 sC
+CHECK_CLASS Waluigi
+SVAL s1 Ranger
+BNE 6011 s1 sC //Free Knight
+RECLASS Waluigi KnightRanger
+GOTO 6012
+LABEL 6011
+RECLASS Waluigi KnightFree
+LABEL 6012
+
+CHECK_ALIVE Falco
+BEQ 6014 s0 sC
+CHECK_CLASS Falco
+SVAL s1 DragonMaster
+BNE 6013 s1 sC //Dragon Knight
+RECLASS Falco KnightDragonM
+GOTO 6014
+LABEL 6013
+RECLASS Falco KnightDragon
+LABEL 6014
+
+CHECK_ALIVE Falcon
+BEQ 6016 s0 sC
+CHECK_CLASS Falcon
+SVAL s1 DukeKnight
+BNE 6015 s1 sC //Dragon Knight
+RECLASS Falcon KnightDuke
+GOTO 6016
+LABEL 6015
+RECLASS Falcon KnightLance
+LABEL 6016
+
+CHECK_ALIVE CecilFF4
+BEQ 6018 s0 sC
+CHECK_CLASS CecilFF4
+SVAL s1 Paladin
+BNE 6017 s1 sC //Free Knight
+RECLASS CecilFF4 KnightPaladin
+GOTO 6018
+LABEL 6017
+RECLASS CecilFF4 KnightFree
+LABEL 6018
+
+CHECK_ALIVE Jessie
+BEQ 6020 s0 sC
+CHECK_CLASS Jessie
+SVAL s1 FalconKnight
+BNE 6019 s1 sC //Pegasus Knight
+RECLASS Jessie KnightFalcon
+GOTO 6020
+LABEL 6019
+RECLASS Jessie KnightPegasus
+LABEL 6020
+
+CHECK_ALIVE James
+BEQ 6022 s0 sC
+CHECK_CLASS James
+SVAL s1 DragonMaster
+BNE 6021 s1 sC //Dragon Knight
+RECLASS James KnightDragonM
+GOTO 6022
+LABEL 6021
+RECLASS James KnightDragon
+LABEL 6022
+
+CHECK_ALIVE Dawn
+BEQ 6024 s0 sC
+CHECK_CLASS Dawn
+SVAL s1 Valkyrie
+BNE 6023 s1 sC //Troubadour
+RECLASS Dawn KnightValkyrie
+GOTO 6024
+LABEL 6023
+RECLASS Dawn KnightTroubadour
+LABEL 6024
+
+CHECK_ALIVE Serena
+BEQ 6026 s0 sC
+CHECK_CLASS Serena
+SVAL s1 Ranger
+BNE 6025 s1 sC //Free Knight
+RECLASS Serena KnightRanger
+GOTO 6026
+LABEL 6025
+RECLASS Serena KnightFree
+LABEL 6026
+
+ENDA
+
+DismountSheeda:
+LABEL 6900 //Just in case I need to call this by label for some reason
+CHECK_ALIVE Sheeda //safety check
+BEQ 6901 s0 sC //equal means dead/not in party, skip
+CHECK_CLASS Sheeda
+SVAL s1 FalconKnight
+BNE 6901 s1 sC //if she's not a falcon she's a pegasus, go there
+RECLASS Sheeda KnightFalcon
+GOTO 6902
+LABEL 6901
+RECLASS Sheeda KnightPegasus
+LABEL 6902
+ENDA
+
+MountSheeda:
+LABEL 6902 //Just in case I need to call this by label for some reason
+CHECK_ALIVE Sheeda //safety check
+BEQ 6904 s0 sC //equal means dead/not in party, skip
+CHECK_CLASS Sheeda
+SVAL s1 KnightFalcon
+BNE 6903 s1 sC //if she's not a falcon she's a pegasus, go there
+RECLASS Sheeda FalconKnight
+GOTO 6904
+LABEL 6903
+RECLASS Sheeda PegasusKnight
+LABEL 6904
+ENDA
+
+DismountEliwood:
+//he can die in gameplay but still move in a few cutscenes
+//TODO: Check consequences of killing him off for plot cutscenes
+CHECK_EXISTS Eliwood
+BEQ 6906 s0 sC
+CHECK_CLASS Eliwood
+SVAL s1 KnightLord
+BNE 6905 s1 sC //Paladin
+RECLASS Eliwood KnightEliwood
+GOTO 6906
+LABEL 6905
+RECLASS Eliwood KnightPaladin
+LABEL 6906
+ENDA
+
+MountEliwood:
+CHECK_EXISTS Eliwood
+BEQ 6908 s0 sC
+CHECK_CLASS Eliwood
+SVAL s1 KnightEliwood
+BNE 6907 s1 sC //Paladin
+RECLASS Eliwood KnightLord
+GOTO 6908
+LABEL 6907
+RECLASS Eliwood Paladin
+LABEL 6908
+ENDA
+
