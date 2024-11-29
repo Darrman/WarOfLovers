@@ -7,20 +7,19 @@ _0xC220
 STAL 2
 WM_SETCAM 240 160
 WM_FADEOUT 0x0 0x0 0x0
-MUSC M_ANewJourney
-//play Elibian track in its place
+MUSC M_Charge
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch10WorldMap)
 TEXTEND
-WorldMapLoadMapSprite(0, StarLord, 0, 8) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
-WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
-WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
-TEXTCONT
-TEXTEND
-WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapLoadMapSprite(1, Sage_F, 1, 8) //Citrinne
+WorldMapLoadMapSprite(0, Paladin, 0, 8) //Eliwood
+WorldMapDisplayMapSprite(0, 0, 452, 206, 10)
+WorldMapDisplayMapSprite(1, 0, 386, 220, 10)
+STAL 10
+WorldMapShowPortraitRight(0,0x31) //Eliwood
+STAL 20
 TEXTCONT
 TEXTEND
 

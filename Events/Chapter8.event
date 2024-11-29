@@ -148,7 +148,7 @@ ALIGN 4
 BeginningScene:
 LOMA 12 //Badon - sure it's night time but whatever, it was a morning arrival
 LOAD3 0x1 CutsceneRandomBadonUnits
-MUSC M_OffToWar
+MUSC M_WhenTheRushComes
 FADU 10
 STAL 30
 //maybe flash a "BADON" text box
@@ -215,6 +215,7 @@ STAL 10
 FlashCursor(Eliwood,60)
 Text(Fort_Outside,Ch8OpeningAtTheBorder)
 CAM1 Amber
+MUSC M_Stratagem
 FlashCursor(Ch7Boss,60) //Arcard Jr.
 Text(Village,Ch8OpeningEngageTaunt)
 MOVE 10 Ch7Boss [0,0]
@@ -226,6 +227,7 @@ CLEE 0
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+MUSC M_EnemiesAppear
 CAM1 [0,0]
 FADU 10
 STAL 20
@@ -248,9 +250,9 @@ WARPIN [5,1]
 MOVE 0xFFFF 0xFFFD [5,1]
 ENUN
 ENDWARP
-MUSC M_Victory
+MUSC M_Triumph
 Text(Fort,Ch8EndingInFort)
-MUSC M_Conspiracy
+MUSC M_Stratagem
 Text(Castle_Room,Ch8EndingSomniel)
 WM_LOADLOCATION2 0 7 0 //Required to fix chapter name
 WM_SETDESTINATION 0 7 0 //World map node. Keep these equal.

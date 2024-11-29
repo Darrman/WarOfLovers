@@ -159,7 +159,7 @@ ALIGN 4
 BeginningScene:
 LOMA 0x43 //Ostia Castle
 LOAD2 0x1 CutsceneOstiaCastle
-MUSC M_OffToWar
+MUSC M_WhenTheRushComes
 CAM1 Lilina
 FADU 10
 //Text box: Ostia Castle
@@ -226,6 +226,7 @@ MOVE 10 Sheeda [7,20]
 ENUN
 MOVE 12 RogueBern [1,2]
 ENUN
+MUSC M_Stratagem
 STAL 10
 FlashCursor(RogueBernBoss,60)
 Text(Woodland,Ch9OpeningRebellion)
@@ -257,7 +258,7 @@ WARPIN [8,3]
 MOVE 0xFFFF 0xFFFD [8,3]
 ENUN
 ENDWARP
-MUSC M_Victory
+MUSC M_Triumph
 Text(Castle_Hall,Ch9EndingBernKeep)
 Text(Castle_Hall,Ch9EndingBernKeep2)
 FADI 10
@@ -266,7 +267,7 @@ CLEE 0
 CLEN 0
 LOMA 26 //Somniel
 LOAD2 0x1 CutsceneSomniel
-MUSC M_Conspiracy
+MUSC M_Stratagem
 FADU 10
 BROWNBOX LocationSomniel [0,0]
 FlashCursor(Amber,60)

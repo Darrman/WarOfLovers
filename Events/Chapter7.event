@@ -169,7 +169,7 @@ ALIGN 4
 
 BeginningScene:
 LOMA 6 //as placeholder for an actual shore cutscene map
-MUSC M_OffToWar
+MUSC M_Insurrection
 BROWNBOX Ch7OpeningTheNextDay [0,0]
 SHOWUNIT Marth
 //Cutscene map: The shore everyone washes up onto
@@ -178,6 +178,7 @@ Text(Forest,Ch7OpeningFindingMarth)
 //Cutscene map: Akaneian side of the Dragons' Gate
 RECLASS Sheeda KnightPegasus //dismount here 
 Text(Shrine_3,Ch7OpeningInsideRuins)
+MUSC M_LegendOfTheDivineDragonMusicBox
 Text(Shrine_3,Ch7OpeningFindingChiki)
 Text(Shrine_3,Ch7OpeningSomethingTerrible)
 Text(Shrine_3,Ch7OpeningThroughTheGate)
@@ -186,6 +187,7 @@ LOMA 0x44 //The Dragons' Gate
 TILECHANGE 1 //open the gate
 LOAD2 0x0 CutsceneDragonsGateEliwood
 CAM1 [12,6]
+MUSC M_AnUnexpectedCaller
 FADU 10
 STAL 20
 MOVE 15 Eliwood [12,11]
@@ -198,6 +200,8 @@ LOAD2 0x0 CutsceneDragonsGateChiki
 STAL 60
 LOAD2 0x0 CutsceneDragonsGateMarthSheeda
 ENUN
+TILEREVERT 1 //close the gate
+MUSC M_Charge
 FlashCursor(Marth,60)
 Text(Ch7OpeningWelcomeToElibe)
 MOVE 10 Marth [12,21]
@@ -217,6 +221,7 @@ ENUN
 FlashCursor(Sheeda,60)
 Text(Ch7OpeningSteppingOutdoors)
 CAM1 [8,19]
+MUSC M_AnUnexpectedCaller
 LOAD2 0x0 CutsceneBanditBoss
 ENUN
 FlashCursor(Ch7Boss,60)
@@ -232,6 +237,7 @@ LOAD1 0x1 Bad2
 CAM1 [0,0]
 TILECHANGE 12 //door to throne area, open instantly to improve flow
 FADU 10
+MUSC M_EnemiesAppear
 STAL 20
 CAM1 [21,0]
 STAL 20
@@ -269,13 +275,13 @@ ENUN
 ENDWARP
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
-MUSC M_Victory
+MUSC M_Triumph
 Text(Ch7EndingMarthEliwood)
 FADI 8
 CLEA 0
 LOMA 26 //Somniel
 LOAD2 0x0 CutsceneSomniel
-MUSC M_Conspiracy
+MUSC M_Stratagem
 FADU 10
 STAL 5
 BROWNBOX LocationSomniel [0,0]
