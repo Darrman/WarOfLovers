@@ -5,7 +5,7 @@
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
 
 #ifndef ItemTable
-  #define ItemTable 0x809B10
+//  #define ItemTable 0x809B10
 #endif
 
 #ifndef DebuffTable
@@ -463,6 +463,16 @@
 #define Elwind 0xbf
 #define Tornado 0xc0
 //#define SpiritDust 0xa3 //defined elsewhere
+#define FireEmblem 0xc2
+#define ShieldOfSeals 0xc3
+#define LightOrb 0xc4
+#define StarOrb 0xc5
+#define EarthOrb 0xc6
+#define LifeOrb 0xc7
+#define DarkOrb 0xc8
+#define RoyRing 0xc9
+#define Durandal 0xca
+#define Forblaze 0xcb
 
 //Music
 //Akaneia
@@ -595,3 +605,4 @@
 
 //Event IDs
 #define JamModeOn 0x71
+#define DiamantDead 0x72

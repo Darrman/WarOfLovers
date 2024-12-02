@@ -188,3 +188,104 @@ Vanishes after use.[X]
 
 ## SpiritDustUseDesc
 Increases magic.[X]
+
+## FireEmblemName
+Fire Emblem[X]
+
+## FireEmblemDesc
+The broken Shield of Seals.[N]
+Its bearer can open chests.[X]
+
+## FireEmblemUseDesc
+Opens chests.[X]
+
+## ShieldOfSealsName
+Sh. of Seals[X]
+
+## ShieldOfSealsDesc
+The seal on the Earth Dragons and[N]
+degeneration. Has many effects.[X]
+
+## ShieldOfSealsUseDesc
+?????[X]
+
+## StarOrbName
+Star Orb[X]
+
+## StarOrbDesc
+One of the Five Orbs. Its bearer's[N]
+growth rates are dramatically improved.[X]
+
+## StarOrbUseDesc
+All growth rates[N]
++30%.[X]
+
+## LightOrbName
+Light Orb[X]
+
+## LightOrbDesc
+One of the Five Orbs. Its bearer[N]
+ignores enemy terrain effects.[X]
+
+## LightOrbUseDesc
+Negates enemy[N]
+terrain bonuses.[X]
+
+## EarthOrbName
+Earth Orb[X]
+
+## EarthOrbDesc
+One of the Five Orbs. Though it[N]
+is damaged, it still boosts allies.[X]
+
+## EarthOrbUseDesc
+Nearby allies[N]
+gain +10%[N]
+Hit/Avo/Crit.[X]
+
+## LifeOrbName
+Life Orb[X]
+
+## LifeOrbDesc
+One of the Five Orbs. It fully[N]
+revitalises its bearer each turn.[X]
+
+## LifeOrbUseDesc
+Automatically heals[N]
+the user to full at[N]
+the start of turn.[X]
+
+## DarkOrbName
+Dark Orb[X]
+
+## DarkOrbDesc
+One of the Five Orbs. It grants[N]
+invulnerability, at a dreadful cost.[X]
+
+## DarkOrbUseDesc
+Immune to all[N]
+damage, except[N]
+from the Light Orb.[X]
+
+## RoyRingName
+Roy's Ring[X]
+
+## RoyRingDesc
+The Ring of the Young Lion, Roy.[N]
+Grants Prayer when equipped.[X]
+
+## RoyRingUseDesc
+Grants Prayer when[N]
+held.[X]
+
+## DurandalName
+Durandal[X]
+
+## DurandalDesc
+Roland's Blazing Sword. Strength +5.[X]
+
+## ForblazeName
+Forblaze[X]
+
+## ForblazeDesc
+Athos's Infernal Truth. Luck +5.[X]

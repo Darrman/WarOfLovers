@@ -91,7 +91,7 @@ UNIT Ostia LanceArmour Barth Level(10,NPC,1) [16,8] 0x0 0x0 0x0 0x0 [SteelLance]
 UNIT
 
 Bad:
-UNIT Diamant Hero 0x00 Level(3,Enemy,0) [8,25] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
+UNIT Diamant Hero 0x00 Level(3,Enemy,0) [8,25] DropItem 0x0 0x0 0x0 [SilverSword, EarthOrb, RoyRing] AttackInRangeAI
 UNIT Brodia Mercenary Diamant Level(10,Enemy,1) [6,23] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT Brodia Soldier Diamant Level(10,Enemy,1) [7,24] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
 UNIT Brodia Myrmidon Diamant Level(12,Enemy,1) [8,22] 0x0 0x0 0x0 0x0 [KillingEdge] AttackInRangeAI
@@ -130,41 +130,112 @@ UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [SteelL
 UNIT
 
 SouthernReinforcements:
-UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
-UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [8,27] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x1 SouthREDA1 [Javelin] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x1 SouthREDA2 [SteelLance] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [8,27] 0x0 0x0 0x1 SouthREDA3 [IronLance] PursueWithoutHeedAI
 UNIT
 
 SouthernReinforcements2:
-UNIT Colonial FreeKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x0 0x0 [ThunderSword] PursueWithoutHeedAI
-UNIT Colonial AxeKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
-UNIT Colonial ArchKnight 0x0 Level(10,Enemy,1) [8,27] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Colonial FreeKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x1 SouthREDA1 [ThunderSword] PursueWithoutHeedAI
+UNIT Colonial AxeKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x1 SouthREDA2 [IronAxe] PursueWithoutHeedAI
+UNIT Colonial ArchKnight 0x0 Level(10,Enemy,1) [8,27] 0x0 0x0 0x1 SouthREDA3 [IronBow] PursueWithoutHeedAI
 UNIT
 
-WendyFriendsAndFoes:
-UNIT Wendy LanceArmour 0x0 Level(10,NPC,0) [17,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] GuardTileAI
-UNIT Ostia LanceArmour 0x0 Level(10,NPC,1) [15,6] 0x0 0x0 0x0 0x0 [IronLance, Javelin] GuardTileAI
-UNIT Brodia Fighter 0x0 Level(10,Enemy,1) [19,6] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
-UNIT Brodia Mage 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x0 0x0 [Wind] PursueWithoutHeedAI
-UNIT Brodia Mercenary 0x0 Level(10,Enemy,1) [2,6] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
-UNIT Brodia Monk 0x0 Level(10,Enemy,1) [1,4] 0x0 0x0 0x0 0x0 [Shine] PursueWithoutHeedAI
-UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [3,5] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] GuardTileAI
-UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [3,6] 0x0 0x0 0x0 0x0 [IronAxe, HandAxe] GuardTileAI
+WendyFriendsAndFoesEast:
+UNIT Wendy LanceArmour 0x0 Level(10,NPC,0) [20,6] 0x0 0x0 0x1 WendyREDA [SteelLance, Javelin] GuardTileAI
+UNIT Ostia LanceArmour 0x0 Level(10,NPC,1) [20,6] 0x0 0x0 0x1 WendyEastAllyREDA [IronLance, Javelin] GuardTileAI
+UNIT Brodia Fighter 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x1 WendyWestAllyREDA1 [Hammer] PursueWithoutHeedAI
+UNIT Brodia Mage 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x1 WendyWestAllyREDA2 [Wind] PursueWithoutHeedAI
+UNIT
+
+WendyFriendsAndFoesWest:
+UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [0,5] 0x0 0x0 0x1 WendyEastEnemyREDA1 [SteelAxe, HandAxe] GuardTileAI
+UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [0,6] 0x0 0x0 0x1 WendyEastEnemyREDA2 [IronAxe, HandAxe] GuardTileAI
+UNIT Brodia Mercenary 0x0 Level(10,Enemy,1) [0,6] 0x0 0x1 WendyWestEnemyREDA1 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT Brodia Monk 0x0 Level(10,Enemy,1) [0,5] 0x0 0x0 0x1 WendyEastEnemyREDA2 [Shine] PursueWithoutHeedAI
 UNIT
 
 RogueFlyersEast:
-UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [17,25] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
-UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [20,25] 0x0 0x0 0x1 DragonREDA1 [IronLance] PursueWithoutHeedAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [20,16] 0x0 0x0 0x1 DragonREDA2 [IronLance] PursueWithoutHeedAI
 UNIT
 
 RogueFlyersSouth:
-UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [5,26] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
-UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [9,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [5,27] 0x0 0x0 0x1 DragonREDA3 [SteelLance] PursueWithoutHeedAI
+UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [9,27] 0x0 0x0 0x1 DragonREDA4 [Javelin] PursueWithoutHeedAI
 UNIT
 
 CutsceneAlear:
-UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [7,25] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [7,27] 0x0 0x0 0x1 AlearT9REDA [SilverSword] PursueWithoutHeedAI
 //Ideally her actual Falchion equivalent - not for v0.3!
+UNIT
+
+CutsceneBarthGate:
+UNIT Barth General 0x00 Level(5,NPC,0) [4,9] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
+UNIT Wendy LanceArmour 0x0 Level(10,NPC,0) [5,9] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] GuardTileAI
+UNIT Alfonse Hero 0x00 Level(20,Enemy,0) [4,10] 0x00 0x0 0x0 0x0 [Falchion] NoAI
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [4,21] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [4,22] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT
+
+CutsceneSiegePlanning:
+UNIT Barth General 0x00 Level(5,NPC,0) [7,18] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [6,17] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [5,18] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT
+
+CutsceneSleepingUnits:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [11,10] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,9] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [8,9] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [14,14] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT
+
+CutsceneDiamantDemands:
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [3,7] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Diamant Hero 0x00 Level(3,Enemy,0) [9,16] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
+UNIT Ch7Boss Cavalier 0x00 Level(1,Enemy,0) [9,17] 0x0 0x0 0x0 0x0 [IronSword] NoAI //Arcard Jr is unfought, so no ID
+UNIT Barth General 0x00 Level(5,NPC,0) [4,9] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
+UNIT
+
+CutsceneWendyT1:
+UNIT Wendy LanceArmour 0x0 Level(10,NPC,0) [17,6] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] GuardTileAI
+UNIT
+
+CutsceneEndingOutside:
+UNIT Barth General 0x00 Level(5,Ally,0) [4,12] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [5,10] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [5,11] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [6,10] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,8] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,9] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [7,13] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT
+
+CutsceneEndingInside:
+UNIT Barth General 0x00 Level(5,Ally,0) [10,2] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [9,2] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [9,3] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [8,4] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,5] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,4] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [22,4] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT
+
+CutsceneEndingDurandal:
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [23,25] 0x0 0x0 0x1 LilinaREDA [Fire] NoAI
+UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [24,25] 0x0 0x0 0x1 EliwoodREDA [SilverSword] NoAI
+//UNIT Marth Lord 0x00 Level(1,Ally,0) [24,25] 0x0 0x0 0x1 MarthREDA [Rapier] NoAI
+//UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [25,25] 0x0 0x0 0x1 SheedaREDA [WingSpear] NoAI
+//UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [23,25] 0x0 0x0 0x1 ChikiREDA [Vulnerary] NoAI
+UNIT
+
+CutsceneEndingBad:
+UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [6,21] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Framme Bishop_F 0x0 Level(1,Enemy,0) [7,22] 0x0 0x0 0x0 0x0 [Recover] NoAI
+UNIT Alfonse Hero 0x00 Level(20,Enemy,0) [5,23] 0x00 0x0 0x0 0x0 [Falchion] NoAI
+UNIT Veronica Druid_F 0x00 Level(20,Enemy,0) [4,22] 0x0 0x0 0x0 0x0 [Maph] NoAI
 UNIT
 
 Traps1:
@@ -198,12 +269,88 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-MUSC M_OffToWar
+MUSC M_AnUnexpectedCaller
+LOAD2 0x1 CutsceneBarthGate
+CAM1 [5,8] //the gate
+CALL MountEliwood //he should ride in here
+FADU 10
+FlashCursor(Barth,60)
 Text(Castle_Outside,Ch11OpeningEntry)
+MOVE 10 Alfonse [0,14]
+ENUN
+DISA Alfonse
+MOVE 10 Eliwood [5,10]
+MOVE 10 Lilina [4,10]
+ENUN
+FlashCursor(Barth,60)
+Text(Castle_Outside,Ch11OpeningEntry2)
+SOUN 0xB1 //Door opening
+TILECHANGE 9 //the front door
+STAL 10
+MOVE 10 Barth [4,7]
+MOVE 10 Eliwood [5,5]
+MOVE 10 Lilina [4,5]
+ENUN
+CALL DismountEliwood
+TILEREVERT 9
+STAL 10
+MOVE 10 Barth [0,0]
+MOVE 10 Eliwood [0,0]
+MOVE 10 Lilina [0,0]
+ENUN
+FADI 10
+CLEA 0
+CLEN 0
+CLEE 0
+LOMA 0x43 //Ostia Castle
+LOAD2 0x0 CutsceneSiegePlanning
+CAM1 [6,17] //the throne - Lilina's sitting on it
+FADU 10
+FlashCursor(Eliwood,60)
 Text(Castle_Room,Ch11OpeningPolitics)
+STAL 10
+FADI 10
+MUSC 0x7FFF //silence
+CLEA 0
+CLEN 0
+LOAD2 0x0 CutsceneSleepingUnits
+CAM1 Marth //he's sleeping in the treasure room: it was there or the cell
+STAL 30
+FADU 10
+//"The next morning" text box
+MOVE 10 Lilina [14,10]
+ENUN
 Text(Castle_Hall_3,Ch11OpeningDiamantIsOutside)
+MOVE 10 Sheeda [9,9] //wake Chiki up
+MOVE 10 Marth [12,10] //the door
+ENUN
+SOUN 0xB1 //Door opening
+TILECHANGE 0xB //the relevant door
+STAL 10
+MOVE 10 Marth [14,11] 
+ENUN
+MOVE 10 Marth [17,23]
+MOVE 10 Lilina [17,24]
+ENUN
+FADI 10
+CLEA 0
+LOMA 11 //back outside
+LOAD2 0x1 CutsceneDiamantDemands
+CAM1 [5,8] //the gate
+TILECHANGE 9 //the front door. Should handwave this: open it to see Diamant, then malfunctions?
+FADU 10
+MUSC M_AnUnexpectedCaller
+STAL 10
+MOVE 8 Diamant [4,10]
+MOVE 8 Ch7Boss [5,10]
+ENUN
+FlashCursor(Diamant,60)
 Text(Town_Gate,Ch11OpeningDiamantDemands)
 FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+STAL 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
@@ -224,31 +371,180 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+//Conditional for dead Diamant - mandatory for true ending
+CHECK_EVENTID 0x2 //did you get the boss kill?
+BEQ 1101 s0 sC //branch if alive
+ENUT DiamantDead
+MUSC M_Triumph
+Text(Ch11EndingAlearIfDiamantDies)
+CAM1 Marth
+MUSC M_IntoTheShadowOfTriumph
+STAL 10
+FlashCursor(Marth,60)
+Text(Ch11EndingWeGotTheEarthOrb)
+//Can't have multiple items drop like in FE3, so...
+SVAL s3 EarthOrb
+GIVEITEMTO Marth
+GOTO 1102
+LABEL 1101
+
+//Diamant lives
+MUSC M_IntoTheShadowOfTriumph
+Text(Ch11EndingAlearIfTimerWaitedOut)
+Text(Ch11EndingHowMuchLonger)
+LABEL 1102
+
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+LOAD2 0x0 CutsceneEndingOutside
+CALL MountSheeda //she's sitting on a wall, needs to be mounted
+CALL MountEliwood
+CAM1 [6,10] //near the gate
+FADU 10
+
 MUSC M_JoinUs
 CALL UnitGachaAct2
 WARPIN [5,6]
 MOVE 0xFFFF 0xFFFD [5,6]
 ENUN
 ENDWARP
-
-//Conditional for dead Diamant - mandatory for true ending
-//Do this later
-MUSC M_Victory
-//Okay it's horribly unfitting it's a placeholder
-Text(Ch11EndingAlearIfDiamantDies)
-Text(Ch11EndingWeGotTheEarthOrb)
+MUSC M_IntoTheShadowOfTriumph
+MOVE 10 Alear [6,13]
+ENUN
+FlashCursor(Alear,60)
 Text(Outside_Village_Day,Ch11EndingTheDivineReunion)
+CHECK_EVENTID DiamantDead
+BEQ 1103 s0 sC
 Text(Outside_Village_Day,Ch11EndingAlearChargeDiamantDead)
+GOTO 1104
+LABEL 1103
+Text(Outside_Village_Day,Ch11EndingAlearChargeDiamantAlive)
+LABEL 1104
+FlashCursor(Barth,60)
 Text(Outside_Village_Day,Ch11EndingEveryoneFallBack)
+MOVE 10 Marth [4,5]
+MOVE 10 Sheeda [5,5]
+MOVE 10 Chiki [6,5]
+MOVE 10 Eliwood [4,6]
+MOVE 10 Lilina [5,6]
+MOVE 10 Barth [6,6]
+ENUN
+CALL DismountEliwood
+CALL DismountSheeda
+MOVE 10 Marth [9,0]
+MOVE 10 Sheeda [10,0]
+MOVE 10 Chiki [10,1]
+MOVE 10 Eliwood [9,0]
+MOVE 10 Lilina [10,0]
+MOVE 10 Barth [10,1]
+MOVE 10 Alear [5,1]
+ENUN
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+
+LOMA 0x43 //Ostia Castle
+LOAD2 0x0 CutsceneEndingInside
+CAM1 [11,2] //far enough to push X=0 off-screen
+MUSC M_AnUnexpectedCaller
+FADU 10
+FlashCursor(Barth,60)
+Text(Fort_2_Burning,Ch11EndingMarthGoAheadOfMe)
+STAL 30
+MOVE 8 Marth [6,4]
+ENUN
+STAL 15
+MOVE 10 Marth [0,4]
+MOVE 10 Sheeda [0,5]
+MOVE 10 Chiki [1,4]
+//they should all be off-screen so no need to clear
+ENUN
+MOVE 10 Alear [12,2]
+ENUN
+FlashCursor(Eliwood,60)
 Text(Fort_2_Burning,Ch11EndingTheSacrifice)
+MOVE 10 Alear [9,1]
+ENUN
 //Battles
-DISA Barth
-//rest in peace, general
+StartBattle
+NormalDamage(0,19) //20 is an exact kill at base level, Lilina's meant to live
+MissedAttack(1,0)
+EndAttack
+FIGHT Alear Lilina SilverSword 0
+STAL 30
+//quick line
+MOVE 10 Eliwood [10,1]
+ENUN
+StartBattle
+NormalDamage(0,3)
+NormalDamage(1,15)
+EndAttack
+FIGHT Eliwood Alear SilverSword 0
+STAL 30
 Text(Fort_2_Burning,Ch11EndingAfterScriptedBattles)
+MOVE 6 Lilina [0,4]
+MOVE 8 Eliwood [1,4]
+STAL 20
+MOVE 10 Alear [9,2]
+ENUN
+StartBattle
+NormalDamage(0,12)
+NormalDamage(1,5)
+CriticalHit(0,36)
+EndAttack
+FIGHT Alear Barth SilverSword 0
+STAL 30
+KILL Barth
+AWAIT_KILL Barth
+//DISA Barth
+//rest in peace, general
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+
+LOMA 0x45 //Durandal cave
 Text(Fort_Ruins_Outside,Ch11EndingMarthAtTheCave)
-Text(Volcano,Ch11EndingWeGotRoysRing)
+CAM1 [23,22]
+LOAD2 0x2 CutsceneEndingDurandal
+STAL 30
+FlashCursor(Lilina,60)
+Text(Ch11EndingToTheDurandal)
+EVBIT_T 9 //follow
+MOVE 10 Lilina [3,4]
+MOVE 10 Eliwood [2,5]
+//MOVE 10 Marth [3,5]
+//MOVE 10 Sheeda [4,5]
+//MOVE 10 Chiki [3,6]
+//Can only move four units at once, commenting out Akaneians as they're not in next cutscene
+ENUN
+EVBIT_F 9 //stop following
+LOAD2 0x2 CutsceneEndingBad
+CAM1 Alear
+MUSC M_Stratagem
+FlashCursor(Framme,60)
 Text(Volcano,Ch11EndingTwistyLittlePassages)
+CHECK_EVENTID DiamantDead
+BEQ 1105 s0 sC //if alive, branch
+MUSC M_ThemeOfLove
+Text(Volcano,Ch11EndingWeGotRoysRing)
 Text(Volcano,Ch11EndingDestinationBadon)
+GOTO 1106
+LABEL 1105
+Text(Volcano,Ch11EndingOurBoyIsInAnotherCastle)
+LABEL 1106
+//If Eliwood's dead no Durandal for you!
+//Factor in his death later in-story: Alear has him dead by now at latest
+//Actually accounting for this: *way* later, get the everyone lives script done first!
+CHECK_ALIVE Eliwood
+BEQ 1107 s0 sC
+SVAL s3 Durandal
+GIVEITEMTO Eliwood
+LABEL 1107
+
 WM_LOADLOCATION2 0 10 0 //Required to fix chapter name
 WM_SETDESTINATION 0 10 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 10 //Needed for world map narration.
@@ -257,7 +553,13 @@ ENDA
 
 AfterBattlePrep:
 //Wendy quickly says hi
+LOAD2 0x0 CutsceneWendyT1
+MOVE 10 Wendy [5,2]
+ENUN
 Text(Ch11AfterPrepSideGates)
+MOVE 10 Wendy [20,6]
+ENUN
+DISA Wendy
 TurnAlly(Barth)
 NoFade
 ENDA
@@ -300,12 +602,18 @@ NoFade
 ENDA
 
 WorthlessArsonist:
+CAM1 Marth
+FlashCursor(Marth,60)
 Text(Ch11WhatTheHellDiamant)
 NoFade
 ENDA
 
 DownGoTheSideGates:
-LOAD1 0x1 WendyFriendsAndFoes
+LOAD1 0x1 WendyFriendsAndFoesWest
+STAL 20
+LOAD1 0x1 WendyFriendsAndFoesEast
+STAL 10
+FlashCursor(Wendy,60)
 Text(Ch11TheSideGatesFall)
 NoFade
 ENDA
@@ -395,3 +703,66 @@ ALIGN 4
 Ch11EastArmoury:
 SHLI IronAxe SteelAxe Swordreaver IronBow SteelBow ShortBow
 ALIGN 4
+
+AlearT9REDA:
+REDA [7,25]
+
+SouthREDA1:
+REDA [5,27]
+
+SouthREDA2:
+REDA [6,27]
+
+SouthREDA3:
+REDA [7,27]
+
+WendyREDA:
+REDA [17,6]
+
+WendyEastAllyREDA:
+REDA [15,6]
+
+WendyEastEnemyREDA1:
+REDA [19,6]
+
+WendyEastEnemyREDA2:
+REDA [20,5]
+
+WendyWestAllyREDA1:
+REDA [3,5]
+
+WendyWestAllyREDA2:
+REDA [3,6]
+
+WendyWestEnemyREDA1:
+REDA [2,6]
+
+WendyWestEnemyREDA2:
+REDA [1,4]
+
+DragonREDA1:
+REDA [17,25]
+
+DragonREDA2:
+REDA [20,16]
+
+DragonREDA3:
+REDA [5,26]
+
+DragonREDA4:
+REDA [9,26]
+
+MarthREDA:
+REDA [24,22]
+
+SheedaREDA:
+REDA [25,21]
+
+ChikiREDA:
+REDA [25,23]
+
+EliwoodREDA:
+REDA [22,21]
+
+LilinaREDA:
+REDA [24,20]

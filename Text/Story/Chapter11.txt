@@ -49,8 +49,10 @@ a password. It's... (Wrong answer)?[A]
 Incorrect. You are not who you say[N]
 you are. Leave Ostia immediately.[AN]
 [Right]
-Argh...[A][Clear]
-[ML]
+Argh...[A][Clear][X]
+
+## Ch11OpeningEntry2
+[ML][LoadBarth][ML]
 The amount of enemy spies trying[N]
 to enter continues to grow.[AN]
 Halt! Who goes there?[A]
@@ -520,7 +522,7 @@ stop coming. How much longer[AN]
 do we have to fight?[A]
 [Right]
 As long as we have to, Sheeda.[N]
-The enemy coalation won't stop...[A][X]
+The enemy coalition won't stop...[A][X]
 
 ## Ch11EndingWeGotTheEarthOrb
 [Right][LoadMarth][FR][LoadSheeda]
@@ -605,7 +607,7 @@ any longer. We must retreat.[AN]
 Grr... We'll make our last stand[N]
 inside the castle. Retreat![A][X]
 
-## Ch11EndingTheSacrifice
+## Ch11EndingMarthGoAheadOfMe
 //I'll sacrifice Barth as the canon option,
 //but I'm not opposed to an FE11-style decoy choice
 [FL][LoadLilina][Left][LoadEliwood][Right][LoadMarth][FR][LoadBarth]
@@ -628,9 +630,11 @@ Keep going past the throne room[N]
 and you'll make it out.[AN]
 [Right]
 ...Okay. Don't throw your[N]
-life away.[A][Clear]
-[Clear]
-[FR][MoveRight][Left]
+life away.[A][Clear][X]
+
+## Ch11EndingTheSacrifice
+[FL][LoadLilina][Left][LoadEliwood][Right][LoadBarth]
+[Left]
 We should make our way to the[N]
 throne room, at least.[AN]
 [FFR][LoadAlear][MoveFarRight]
@@ -772,11 +776,13 @@ Alear wounded us, and Barth...[AN]
 I don't think he made it. We need[N]
 to hide in this cave![A][X]
 
-## Ch11EndingTwistyLittlePassages
+## Ch11EndingToTheDurandal
 [Right][LoadEliwood][FR][LoadLilina]
 The Durandal should be this[N]
 way. We'll hide there.[A]
-[Right][MoveFarFarLeft][Clear][.....][FR][MoveFarFarLeft][Clear]
+[Right][MoveFarFarLeft][Clear][.....][FR][MoveFarFarLeft][Clear][X]
+
+## Ch11EndingTwistyLittlePassages
 [Left][LoadAlear][FL][LoadFramme]
 //Framme
 Divine One, this maze is too[N]
