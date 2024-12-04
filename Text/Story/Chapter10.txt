@@ -295,7 +295,7 @@ I've served Pherae for all of my life.[N]
 Do you know where the Marquess is?[AN]
 [ML]
 I accompanied him on the queen's[N]
-trip to Bern. He is safe.[X]
+trip to Bern. He is safe.
 [FR]
 Excellent. Here. Take this as a[N]
 token of our appreciation.[X]
@@ -521,10 +521,6 @@ bring peace to Elibe.[A]
 [Right]
 Eliwood... thank you.[N]
 I'll do my best![A][X]
-
-//Cutscene unfinished
-//(Finish the scene later)[A]
-[X]
 
 ## Ch10EndingSomniel
 [FR][LoadFramme][FL][LoadRoy][Left][LoadAlear][Right][LoadDiamant]

@@ -497,6 +497,14 @@ Garret_Mug:
 #incext PortraitFormatter "Garret.png"
 setMugEntry(0xCB, Garret_Mug, 2,4,3,2)
 
+Wendy_Mug:
+#incext PortraitFormatter "Wendy.png"
+setMugEntry(0xCC, Wendy_Mug, 2,6,3,4)
+
+Veronica_Mug:
+#incext PortraitFormatter "Veronica.png"
+setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"
