@@ -184,5 +184,7 @@
 [LoadMarcus] = [LoadFace][0xC9][0x1]
 [LoadWallace] = [LoadFace][0xCA][0x1]
 [LoadGarret] = [LoadFace][0xCB][0x1]
+[LoadWendy] = [LoadFace][0xCC][0x1]
+[LoadVeronica] = [LoadFace][0xCD][0x1]
 
 [LoadAnna] = [LoadFace][0x64][0x1]

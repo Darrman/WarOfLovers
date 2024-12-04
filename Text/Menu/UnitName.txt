@@ -2,9 +2,9 @@
 Marth[X]
 
 ## MarthDesc
-Emperor of Akaneia, husband of[N]
-Sheeda, Alear's ex-fiance.[N]
-He must now stablise Akaneia.[X]
+Emperor of Akaneia, Sheeda's husband,[N]
+and Alear's ex-fiance. Kind and under-[N]
+standing, but will fight for peace.[X]
 
 ## SheedaName
 Sheeda[X]
@@ -979,11 +979,12 @@ Celine. Spends most of his time[N]
 observing people in gardens.[X]
 
 ## Ch7BossName
-Ch. 7 Boss[X]
+Rodent[X]
 
 ## Ch7BossDesc
-Complete placeholder.[N]
-Make him "ratface"?[X]
+A bandit leader roaming around the[N]
+Dragons' Gate. Thinks he can get[N]
+rich by attacking the dragons.[X]
 
 ## AmberName
 Amber[X]
@@ -994,10 +995,13 @@ His dream is to become a legend, and[N]
 has an obsession with the alpaca.[X]
 
 ## RogueBernBossName
-Rogue Boss[X]
+//the name of the real Bern's founder
+Berthold[X]
 
 ## RogueBernBossDesc
-Name required.[X]
+A Bernese army officer angry with[N]
+Guinevere's reign. Detests what he[N]
+perceives as Lycian influence.[X]
 
 ## CitrinneName
 Citrinne[X]
@@ -1047,7 +1051,8 @@ the Akaneian civil war.[X]
 Lythos[X]
 
 ## LythosDesc
-A soldier of Lythos, Alear's homeland.[X]
+A soldier of Lythos, home of Alear,[N]
+Elyos's "Divine One".[X]
 
 ## SamsianName
 Samsian[X]
@@ -1067,8 +1072,8 @@ loyal to Marth's rule.[X]
 Akaneia[X]
 
 ## AkaneiaDesc
-A soldier of Akaneia.[N]
-This flavour is a placeholder.[X]
+A soldier of Emperor Kris's Akaneia.[N]
+Has no tolerance for dissent.[X]
 
 ## PirateName
 Pirate[X]
@@ -1081,31 +1086,35 @@ seas for plunder.[X]
 Brigand[X]
 
 ## BrigandDesc
-Placeholder.[X]
+A brigand roaming the wilderness,[N]
+attacking any and all passersby.[X]
 
 ## ColonialName
 Colonial[X]
 
 ## ColonialDesc
-Placeholder.[X]
+A soldier of Etruria's colonial faction,[N]
+seeking to take over its neighbours.[X]
 
 ## RogueBernName
 Rogue Bern[X]
 
 ## RogueBernDesc
-Placeholder.[X]
+A soldier that has risen up in revolt[N]
+in anger against Queen Guinevere.[X]
 
 ## BernName
 Bern[X]
 
 ## BernDesc
-Placeholder.[X]
+A soldier of Bern, loyal to the[N]
+post-war Queen Guinevere.[X]
 
 ## LyciaName
 Lycia[X]
 
 ## LyciaDesc
-Soldiers of the Kingdom of Lycia,[N]
+A soldier of the Kingdom of Lycia,[N]
 fighting for Queen Lilina.[X]
 
 ## EmptyName
@@ -1122,11 +1131,13 @@ Ch. 5x Boss[X]
 Placeholder description.[X]
 
 ## ExecutionerName
-Executioner[X]
+//another member of IRL Bern's founding dynasty
+Gebhard[X]
 
 ## ExecutionerDesc
-Placeholder name and[N]
-description.[X]
+A rebellious Bernese officer.[N]
+Resents bureaucracy and executes[N]
+prisoners without authorisation.[X]
 
 ## Ch10xBossName
 Ch. 10x Boss[X]
@@ -1631,9 +1642,9 @@ and makes his opinions known.[X]
 Garret[X]
 
 ## GarretDesc
-A reformed bandit living by the Etruria-[N]
-Nabata border. Regrets the crimes he has[N]
-committed before Lilina changed his ways.[X]
+An ex-bandit living by the Etruria-[N]
+Nabata border. Regrets the crimes he[N]
+committed before Lilina reformed him.[X]
 
 ## WallaceName
 Wallace[X]
