@@ -298,3 +298,4 @@
 - Remove item from anywhere: 7743
 - Dynamic text entries: Knabepicer
 - Dynamic character portraits: Scraiza
+- State 0x33 fix: 7743

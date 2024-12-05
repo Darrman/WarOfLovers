@@ -1,0 +1,6 @@
+//Fixes crash when trying to check for a conditional of a non-existant unit
+//Most relevantly for me: CHECK_DEPLOYED on unrecruited unit
+PUSH
+ORG 0x1027C
+BYTE 0x00 0x20 0x02 0xE0
+POP

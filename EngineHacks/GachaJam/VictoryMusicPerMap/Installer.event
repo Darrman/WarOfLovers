@@ -5,6 +5,19 @@ PUSH
 ORG 0x160C4
 BYTE 0x00 0x49 0x8f 0x46
 POIN VictoryMusic
+
+//Victory music plays by default at chapter start unless overwritten
+//I should probably actually include that fix.
+ORG 0x20FAC
+#incbin kill_chapter_prologue_bgm.bin
+ORG 0x20CF0
+#incbin kill_chapter_prologue_bgm2.bin
+ORG 0x20D84
+#incbin kill_chapter_prologue_bgm2.bin
+ORG 0x20D94
+#incbin kill_chapter_prologue_bgm3.bin
+ORG 0x20D00
+#incbin kill_chapter_prologue_bgm3.bin
 POP
 
 //There's a bunch of "kill chapter prologue bgm" here too.
