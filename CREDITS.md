@@ -155,9 +155,12 @@
 - Tornado: Mikey Seregon
 
 # Map Sprites:
-- Marth: Dominus_Vobiscum, Snewping
+- Lord: ThyAnarchists
+- Star Lord: Dominus_Vobiscum, Snewping
+- Mamkute: Jey the Count
 - Free Knight: Agro
 - Axe Knight: Siuloir
+- Arch Knight: FungusCaesar
 - Sword Armour: Agro
 - Axe Armour: Agro
 - Bow Armour: Agro, Blademaster

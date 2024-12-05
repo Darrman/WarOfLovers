@@ -1,7 +1,7 @@
 INLINE MovingMapSpriteTable,Graphics Pointer,Animation Pointer
 Lord,MarthMovingSprite|IsPointer,0x81c3d7c
 Eirika Lord,0x81c3ed4,0x81c46cc
-Star Lord,MarthMovingSprite|IsPointer,0x81c3d7c
+Star Lord,PromotedMarthMovingSprite|IsPointer,0x81c3d7c
 Eirika Master Lord,0x81c5414,0x81c5e84
 Cavalier,0x81c5fe4,0x81c692c
 Cavalier (F),0x81c5fe4,0x81c692c
@@ -58,7 +58,7 @@ Knight (Pegasus),KnightFMovingSprite|IsPointer,0x81caa20
 Knight (Paladin),KnightMovingSprite|IsPointer,0x81caa20
 Knight (Dragon),KnightMovingSprite|IsPointer,0x81caa20
 Manakete,0x81e21e0,0x81e2f34
-Manakete (F),0x81e308c,0x81e39ec
+Manakete (F),ChikiMovingSprite|IsPointer,0x81e39ec
 Knight (Falcon),KnightFMovingSprite|IsPointer,0x81caa20
 Knight (PaladinF),KnightFMovingSprite|IsPointer,0x81caa20
 Fighter,0x81e3b44,0x81e4340
@@ -129,7 +129,7 @@ Pupil (2),0x81e189c,0x81e2088
 Free Knight,FreeKnightMovingSprite|IsPointer,0x81c692c
 Lance Knight,0x81c5fe4,0x81c692c
 Axe Knight,AxeKnightMovingSprite|IsPointer,0x81c692c
-Arch Knight,0x81d286c,0x81d3194
+Arch Knight,ArchKnightMovingSprite|IsPointer,0x81c692c
 Knight (Free),KnightMovingSprite|IsPointer,0x81caa20
 Knight (Lance),KnightMovingSprite|IsPointer,0x81caa20
 Knight (Axe),KnightMovingSprite|IsPointer,0x81caa20

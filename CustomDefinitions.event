@@ -425,6 +425,8 @@
 
 //Map sprites
 #define MarthSprite 0x0
+#define PromotedMarthSprite 0x2
+#define ChikiSprite 0x30
 #define FreeKnightSprite 0x6B
 #define AxeKnightSprite 0x6C
 #define SwordArmourSprite 0x6D
@@ -432,6 +434,7 @@
 #define BowArmourSprite 0x6F
 #define KnightSprite 0x70
 #define KnightFSprite 0x71
+#define ArchKnightSprite 0x72
 
 //Items
 #define MiracleSword Audhulma
