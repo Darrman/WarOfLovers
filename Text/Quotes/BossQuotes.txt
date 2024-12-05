@@ -267,7 +267,7 @@ stop you right here. You[N]
 will not reach this ship![A][X]
 
 ## LapisBattle
-[Left][LoadFace][0x01][0x01]
+[Left][LoadLapis]
 I am Lapis, retainer of his[N]
 highness. I must protect[AN]
 him at all costs. Think you[N]

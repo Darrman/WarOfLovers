@@ -56,6 +56,13 @@
 [FR] = [FarRight]
 [FFR] = [FarFarRight]
 
+[MoveFFL] = [MoveFarFarLeft]
+[MoveFL] = [MoveFarLeft]
+[MoveML] = [MoveMidLeft]
+[MoveMR] = [MoveMidRight]
+[MoveFR] = [MoveFarRight]
+[MoveFFR] = [MoveFarFarRight]
+
 [CurrentPortrait] = [0xFF][0xFF]
 [LoadCurrent] = [LoadFace][CurrentPortrait]
 

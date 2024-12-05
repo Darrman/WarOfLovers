@@ -127,8 +127,7 @@ deserve. Diamant, Citrinne...[AN]
 to put up with me for so long.[A][X]
 
 ## LapisDeath
-#[Left][LoadLapis]
-[Left][LoadFace][0x01][0x01]
+[Left][LoadLapis]
 I've misjudged you badly... You're[N]
 so strong. I'm sorry... Alcryst...[A][X]
 
@@ -137,7 +136,7 @@ so strong. I'm sorry... Alcryst...[A][X]
 This is impossible! Just... how?![N]
 I can't die here! Where did you[AN]
 gain such power?! If you could[N]
-kill me... Alear's vulnerable...[A]
+kill me... Alear's vulnerable...[AN]
 I thought you were on the run.[N]
 Was Ostia's fall a ruse?[A][X]
 
