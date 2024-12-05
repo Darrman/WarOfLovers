@@ -461,7 +461,7 @@
  <layer id="12" name="EastCellDoor4" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
-   <property name="ID" value="10"/>
+   <property name="ID" value="11"/>
    <property name="Width" value="1"/>
    <property name="X" value="17"/>
    <property name="Y" value="22"/>
@@ -502,7 +502,7 @@
  <layer id="13" name="EastCellDoor5" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
-   <property name="ID" value="10"/>
+   <property name="ID" value="12"/>
    <property name="Width" value="1"/>
    <property name="X" value="17"/>
    <property name="Y" value="26"/>

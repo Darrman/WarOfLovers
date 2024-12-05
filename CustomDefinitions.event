@@ -472,6 +472,7 @@
 #define DarkOrb 0xc8
 #define RoyRing 0xc9
 #define Durandal 0xca
+#undef Forblaze //the dummy Forblaze has been overwritten
 #define Forblaze 0xcb
 
 //Music

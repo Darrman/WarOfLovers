@@ -144,7 +144,7 @@ If you are who I think you are,[N]
 then I will not stand aside.[A][X]
 
 ## Ch7BossBattle
-[Left][LoadFace][0x01][0x01]
+[Left][LoadCh7Boss]
 I didn't think you could put[N]
 up a fight![AN]
 But I'm still stronger than you![N]
@@ -176,7 +176,7 @@ then I have no choice but to[N]
 silence you. For Brodia![A][X]
 
 ## Ch10SubBossBattle
-[Left][LoadFace][0x01][0x01]
+[Left][LoadExecutioner]
 If you've any last words, you'd[N]
 better say them now.[A][X]
 

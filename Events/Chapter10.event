@@ -22,11 +22,21 @@ TurnEventEnemy(0x0,TheThief,6)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEvent(0x7,SavingWolt,0,Wolt)
-CharacterEvent(0x8,NeededAShamanSoSophia,0,Sophia)
+CharacterEvent(0x7,SavingWoltEliwood,Eliwood,Wolt)
+CharacterEvent(0x7,SavingWoltLilina,Lilina,Wolt)
+//CharacterEvent(0x7,SavingWolt,0,Wolt)
+CharacterEvent(0x8,NeededAShamanSoSophiaEliwood,Eliwood,Sophia)
+CharacterEvent(0x8,NeededAShamanSoSophiaLilina,Lilina,Sophia)
+//CharacterEvent(0x8,NeededAShamanSoSophia,0,Sophia)
+CharacterEvent(0x9,YouCantKillMerlinusEliwood,Eliwood,Merlinus)
+CharacterEvent(0x9,YouCantKillMerlinusLilina,Lilina,Merlinus)
 CharacterEvent(0x9,YouCantKillMerlinus,0,Merlinus)
+CharacterEvent(0xA,EverLoyalMarcusEliwood,Eliwood,Marcus)
+CharacterEvent(0xA,EverLoyalMarcusLilina,Lilina,Marcus)
 CharacterEvent(0xA,EverLoyalMarcus,0,Marcus)
+CharacterEvent(0xB,GarretIsHereLilina,Lilina,Garret)
 CharacterEvent(0xB,GarretIsHere,0,Garret)
+CharacterEvent(0xC,WanderingWallaceEliwood,Eliwood,Wallace)
 CharacterEvent(0xC,WanderingWallace,0,Wallace)
 END_MAIN
 
@@ -52,7 +62,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
+//DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -250,8 +260,9 @@ CHECK_EVENTID 0xD //set if a green unit dies here
 BNE 1001 s0 sC
 MUSC M_Triumph
 Text(Ch10EndingPrisonersSaved)
-SVAL s3 Vulnerary
-GIVEITEMTO Eliwood
+SVAL s3 Rapier
+GIVEITEMTO Marth
+//had pencilled in Eliwood, but I wrote it with Marth
 //placeholder: should be some reward in addition to the gaiden
 LABEL 1001
 //Then check if you got Wolt/Sophia, if you left them green get a random
@@ -326,34 +337,93 @@ NoFade
 ENDA
 
 YouCantKillMerlinus:
-Text(PlaceholderText)
+Text(BailingOutMerlinus)
 NoFade
 ENDA
 
+YouCantKillMerlinusEliwood:
+Text(BailingOutMerlinusEliwood)
+NoFade
+ENDA
+
+YouCantKillMerlinusLilina:
+Text(BailingOutMerlinusLilina)
+NoFade
+ENDA
+
+
 SavingWolt:
-Text(PlaceholderText)
+Text(WoltWalksFree)
 //Recruitment conditional
 NoFade
 ENDA
 
+SavingWoltEliwood:
+MUSC M_JoinUs
+Text(WoltWalksFreeEliwood)
+TurnAlly(Wolt)
+NoFade
+ENDA
+
+SavingWoltLilina:
+MUSC M_JoinUs
+Text(WoltWalksFreeLilina)
+TurnAlly(Wolt)
+NoFade
+ENDA
+
 WanderingWallace:
-Text(PlaceholderText)
+Text(WallaceWalks)
+NoFade
+ENDA
+
+WanderingWallaceEliwood:
+Text(WallaceWalksEliwood)
 NoFade
 ENDA
 
 GarretIsHere:
-Text(PlaceholderText)
+Text(GettingGarretOut)
+NoFade
+ENDA
+
+GarretIsHereLilina:
+Text(GettingGarretOutLilina)
 NoFade
 ENDA
 
 NeededAShamanSoSophia:
-Text(PlaceholderText)
+Text(SavingSophia)
 //recruitment conditional
 NoFade
 ENDA
 
+NeededAShamanSoSophiaEliwood:
+MUSC M_JoinUs
+Text(SavingSophiaEliwood)
+TurnAlly(Sophia)
+NoFade
+ENDA
+
+NeededAShamanSoSophiaLilina:
+MUSC M_JoinUs
+Text(SavingSophiaLilina)
+TurnAlly(Sophia)
+NoFade
+ENDA
+
 EverLoyalMarcus:
-Text(PlaceholderText)
+Text(MarcusRescue)
+NoFade
+ENDA
+
+EverLoyalMarcusEliwood:
+Text(MarcusRescueEliwood)
+NoFade
+ENDA
+
+EverLoyalMarcusLilina:
+Text(MarcusRescueLilina)
 NoFade
 ENDA
 

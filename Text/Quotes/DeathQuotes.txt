@@ -74,7 +74,7 @@ Marth... is getting away.[N]
 Princess Celine, take... care...[A][X]
 
 ## Ch7BossDeath
-[Left][LoadFace][0x01][0x01]
+[Left][LoadCh7Boss]
 The dragons... aren't as helpless...[N]
 as I had thought...[A][X]
 
@@ -92,13 +92,13 @@ making... their move...[A][X]
 
 ## CitrinneDeath
 [Left][LoadCitrinne]
-I had all the money I could have.[N]
+I had all the money I wanted.[N]
 But it won't save me now.[AN]
 Prince Alcryst, stay safe.[N]
 Please, forgive me...[A][X]
 
 ## Ch10SubBossDeath
-[Left][LoadFace][0x01][0x01]
+[Left][LoadExecutioner]
 Who are you? The Knights of[N]
 Pherae had surrendered.[AN]
 Did... Eliwood... make it[N]
