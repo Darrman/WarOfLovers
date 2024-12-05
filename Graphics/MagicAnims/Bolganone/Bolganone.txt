@@ -90,7 +90,7 @@ O Spell_o_000.png
 B Spell_b_001.png
 40
 
-C02CB48
+C02C348
 O Spell_o_000.png
 B Spell_b_020.png
 3

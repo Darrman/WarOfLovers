@@ -20,7 +20,7 @@ O Spell_o_000.png
 B Spell_b_001.png
 3
 
-C011E48
+C011D48
 O Spell_o_000.png
 B Spell_b_002.png
 3

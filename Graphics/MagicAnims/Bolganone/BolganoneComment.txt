@@ -94,7 +94,7 @@ O Spell_o_000.png
 B Spell_b_001.png
 40
 
-C02CB48                               #Sound 715 SE:Forblaze rising [Empty Track]
+C02CB48                               #Sound 715 (0x2CB) SE:Forblaze rising [Empty Track]
 O Spell_o_000.png
 B Spell_b_020.png
 3
