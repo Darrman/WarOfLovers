@@ -145,6 +145,7 @@
 - Infantry: Advance Wars (Amyd, Dark)
 - Anti-Air: Advance Wars (Amyd, Dark)
 - Tank: Advance Wars (Amyd, Dark)
+- Ice Dragon: SqRtOfPi, shadowofchaos, Marlon0024
 
 # Magic Animations:
 - Bolganone: Mikey Seregon
