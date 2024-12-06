@@ -319,7 +319,7 @@ SHLI IronSword IronBlade IronLance IronAxe IronBow Javelin HandAxe
 ALIGN 4
 
 Ch9Vendor:
-SHLI Fire Thunder Wind Elwind Heal Mend Barrier Vulnerary
+SHLI Fire Thunder Wind Elwind Heal Mend Barrier Vulnerary DoorKey
 ALIGN 4
 
 FE7StartHouse1:

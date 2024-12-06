@@ -477,6 +477,7 @@
 #define Durandal 0xca
 #undef Forblaze //the dummy Forblaze has been overwritten
 #define Forblaze 0xcb
+#define LynRing 0xcc
 
 //Music
 //Akaneia

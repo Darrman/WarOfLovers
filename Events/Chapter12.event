@@ -89,7 +89,7 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,11] 0x0 0x0 0x0 0x0 [SilverLa
 UNIT
 
 Bad:
-UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, Elephant/*, LynRing*/] NeverMoveAI
+UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, FireGun, LynRing] NeverMoveAI
 UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [26,8] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
 UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [32,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [33,3] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI

@@ -123,7 +123,7 @@ UNIT RogueBern Fighter 0x00 Level(10,Enemy,1) [5,8] 0x0 0x0 0x0 0x0 [Hammer] Cha
 UNIT RogueBern SwordArmour 0x00 Level(10,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
 UNIT RogueBern LanceArmour 0x00 Level(10,Enemy,1) [15,11] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 UNIT RogueBern AxeArmour 0x00 Level(10,Enemy,1) [16,11] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
-UNIT RogueBern Shaman 0x00 Level(10,Enemy,1) [9,8] DropItem 0x0 0x0 0x0 [Flux, DoorKey] AttackInRangeAI
+UNIT RogueBern Shaman 0x00 Level(10,Enemy,1) [9,8] DropItem 0x0 0x0 0x0 [Flux, DoorKey] GuardTileAI //runs up to open door otherwise
 UNIT Brodia Archer 0x00 Level(10,Enemy,1) [7,3] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
 UNIT Brodia Archer 0x00 Level(10,Enemy,1) [9,3] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
 UNIT RogueBern Monk 0x00 Level(10,Enemy,1) [4,8] 0x0 0x0 0x0 0x0 [Lightning] PursueWithoutHeedAI

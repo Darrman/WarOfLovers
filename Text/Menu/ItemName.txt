@@ -289,3 +289,25 @@ Forblaze[X]
 
 ## ForblazeDesc
 Athos's Infernal Truth. Luck +5.[X]
+
+## IceStoneName
+Ice Stone[X]
+
+## IceStoneDesc
+Transforms its wielder into an[N]
+Ice Dragon.[X]
+
+## IceStoneUseDesc
+Transform into[N]
+an Ice Dragon.[X]
+
+## LynRingName
+Lyn's Ring[X]
+
+## LynRingDesc
+The Ring of the Lady of the Plains,[N]
+Lyn. Grants Astra when equipped.[X]
+
+## LynRingUseDesc
+Grants Astra when[N]
+held.[X]
