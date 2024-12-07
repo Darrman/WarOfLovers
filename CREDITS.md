@@ -259,6 +259,12 @@
 - Marth: Fire Emblem Heroes
 - Sheeda: Fire Emblem Heroes
 - Chiki: Fire Emblem Heroes
+- Lilina: Fire Emblem Heroes
+- Eliwood: Fire Emblem Heroes
+- Rody: Fire Emblem Heroes
+- Kashim: Fire Emblem Heroes
+- Sophia: Fire Emblem Heroes
+- Bartre: Fire Emblem Heroes
 - Mario: Super Mario 64
 - DK: Donkey Kong 64
 - Link: Super Smash Bros Melee
@@ -277,6 +283,13 @@
 - Wario: Mario Party 1
 - Daisy: Mario Kart Wii
 - Waluigi: Mario Kart Wii
+- Zelda: Super Smash Bros Melee
+- Marin: Hyrule Warriors
+- Dedede: Super Smash Bros Brawl
+- Meta Knight: Super Smash Bros Brawl
+- Falco: Star Fox 64
+- Peppy: Star Fox 64
+- Slippy: Star Fox 64
 
 - Converted by Darrman
 

@@ -31,6 +31,8 @@
 #define VoicePeppySelect 0x152
 #define VoiceSlippySelect 0x153
 #define VoiceKashimSelect 0x15C
+#define VoiceSophiaSelect 0x15D
+#define VoiceBartreSelect 0x166
 
 ALIGN 2
 MarthVoiceEffect:
@@ -735,6 +737,47 @@ KashimVoice_wav:
 #incbin "bin/Kashim_ThinkWhatYouLike.bin"
 SongTable(VoiceKashimSelect,KashimVoice,7)
 
+SophiaVoiceEffect:
+BYTE Sophia
+BYTE 0x00
+SHORT VoiceSophiaSelect
+
+SophiaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SophiaVoice:
+WORD $01
+POIN SophiaVoice_map
+POIN SophiaVoice_data
+
+SophiaVoice_map:
+WORD $3c00
+POIN SophiaVoice_wav
+WORD $FF00FF
+
+SophiaVoice_wav:
+#incbin "bin/Sophia_HereIGo.bin"
+SongTable(VoiceSophiaSelect,SophiaVoice,7)
+
+BartreVoiceEffect:
+BYTE Bartre
+BYTE 0x00
+SHORT VoiceBartreSelect
+
+BartreVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+BartreVoice:
+WORD $01
+POIN BartreVoice_map
+POIN BartreVoice_data
+
+BartreVoice_map:
+WORD $3c00
+POIN BartreVoice_wav
+WORD $FF00FF
+
+BartreVoice_wav:
+#incbin "bin/Bartre_BreakYourBones.bin"
+SongTable(VoiceBartreSelect,BartreVoice,7)
 
 /*ALIGN 2
 EirikaSoundEffect:
