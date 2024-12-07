@@ -19,6 +19,7 @@ TurnEventPlayer(0x0, SheedaArrives, 4)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,KashimCashesIn,Sheeda,Kashim)
 END_MAIN
 
 LocationBasedEvents:
@@ -147,6 +148,15 @@ UNIT
 
 GardaGarrison:
 UNIT Rody Paladin 0x00 Level(3,NPC,0) [6,8] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Vulnerary] NoAI
+UNIT Kashim Hunter 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Garda Fighter 0x00 Level(1,NPC,1) [6,2] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Garda Fighter 0x00 Level(1,NPC,1) [6,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Garda LanceArmour 0x00 Level(1,NPC,1) [9,12] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT
+
+
+GardaGarrisonJam:
+UNIT Rody Paladin 0x00 Level(3,NPC,0) [6,8] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Vulnerary] NoAI
 UNIT Garda Warrior 0x00 Level(1,NPC,1) [6,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT Garda Warrior 0x00 Level(1,NPC,1) [6,5] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT Garda General 0x00 Level(1,NPC,1) [9,12] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
@@ -154,7 +164,7 @@ UNIT Garda Horseman 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackI
 UNIT
 
 SheedaGroup:
-UNIT Sheeda PegasusKnight 0x00 Level(4, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SilverLance, Elixir] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(4, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SlimLance, Elixir] NoAI
 UNIT
 
 SheedaGroupJam:
@@ -178,17 +188,18 @@ Text(Fort_Outside,Ch4Marth)
 Text(Castle_Room,Ch4News)
 FADI 10
 LOAD3 0x0 Good
-LOAD1 0x1 GardaGarrison
 CHECK_EVENTID JamModeOn
 BNE 401 sC s0 //branch if jam mode 
 LOAD1 0x1 BoucheronGroup
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+LOAD1 0x1 GardaGarrison
 GOTO 402
 LABEL 401
 LOAD1 0x1 BylethGroup
 LOAD1 0x1 BadJam
 LOAD1 0x1 Bad2Jam
+LOAD1 0x1 GardaGarrisonJam
 LABEL 402
 MUSC M_PreperationsFE11
 CAM1 [0,0]
@@ -205,6 +216,8 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+CHECK_EVENTID 0x8 //Kashim recruited?
+BNE 412 s0 sC //skip recruit
 MUSC M_TogetherWeRide
 CHECK_EVENTID JamModeOn
 BNE 410 sC s0 //branch if jam mode
@@ -219,6 +232,7 @@ ENUN
 ENDWARP
 STAL 20
 
+LABEL 412
 MUSC M_Victory
 Text(Ch4EndingVictory)
 MUSC M_ThemeOfLove
@@ -275,6 +289,13 @@ MOVE 8 Sheeda [4,4]
 ENUN
 MUSC M_TogetherWeRide
 Text(Ch4SheedaMarth)
+NoFade
+ENDA
+
+KashimCashesIn:
+MUSC M_TogetherWeRide
+Text(Ch4KashimComesClean)
+TurnAlly(Kashim)
 NoFade
 ENDA
 

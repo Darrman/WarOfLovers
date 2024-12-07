@@ -87,7 +87,7 @@ UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [14,0] 0x0 0x0 0x0 0x0 [Javelin] 
 UNIT
 
 GazackCloneSixGroup:
-UNIT PirateGeneric Pirate 0x00 Level(10,Enemy,1) [4,12] DropItem 0x0 0x0 0x0 [HandAxe, EnergyRing] NeverMoveAI //make this guy an actual boss in the future
+UNIT Barts Pirate 0x00 Level(10,Enemy,1) [4,12] DropItem 0x0 0x0 0x0 [HandAxe, EnergyRing] NeverMoveAI //currently unrecruitable: come back when gaidens programmed
 UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [7,11] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
 UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [7,12] 0x0 0x0 0x0 0x0 [Halberd] PursueWithoutHeedAI
 UNIT PirateGeneric Pirate 0x00 Level(2,Enemy,1) [6,10] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
@@ -130,7 +130,7 @@ UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Javelin]
 UNIT
 
 T5Group:
-//UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT DegeneratedDragon DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [IceStone] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
 UNIT Lythos Mercenary 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
 UNIT Lythos Mage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Fire] AttackInRangeAI
 UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI

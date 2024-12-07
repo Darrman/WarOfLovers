@@ -19,6 +19,7 @@ TurnEventPlayer(0,KrisArrives,10)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,TheHighestBidder,Marth,Caesar)
 END_MAIN
 
 LocationBasedEvents:
@@ -461,6 +462,47 @@ STAL 30
 
 LABEL 9
 Text(HouseBG,Ch1AfterSummoning)
+NoFade
+ENDA
+
+TheHighestBidder:
+//Hiring Caesar - idea for later patch: secret event where Citrinne buys him off
+MUSC M_Conspiracy
+TEXTSTART
+TEXTSHOW Ch1BuyingCaesarOff
+TEXTEND
+SVAL s1 5000
+CHECK_MONEY
+BGT 110 s1 sC //can't afford him, no good
+TEXTSTART
+TEXTSHOW Ch1HireCaesarYesNo
+TEXTEND
+REMA
+SVAL s7 1 //it's how VBA Ch24 does it, I'm stealing the conditional from there
+BNE 111 s7 sC
+SVAL s3 5000
+TAKEMONEY
+TurnAlly(Caesar)
+MUSC M_TogetherWeRide
+ENUT 0x3 //chapter completed
+Text(Ch1CaesarGet)
+STAL 10
+SET_ACTIVE 0 //should stop Marth from running in place
+MOVE 10 Marth [1,0]
+MOVE 10 Caesar [1,0]
+ENUN
+WM_LOADLOCATION2 0 1 0
+WM_SETDESTINATION 0 1 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 1 //Needed for world map narration.
+MNCH 0x1
+GOTO 112
+LABEL 111
+Text(Ch1EtTuMarth)
+GOTO 112
+LABEL 110
+REMA
+Text(Ch1TimeWasting)
+LABEL 112
 NoFade
 ENDA
 
