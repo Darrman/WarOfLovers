@@ -86,7 +86,10 @@ Shaver[X]
 Resire[X]
 
 ## DulamName
-Dulam[X]
+Doulam[X]
+
+## DoulamDesc
+Reduces enemy HP to 1 on contact.[X]
 
 ## MaphName
 Maph[X]

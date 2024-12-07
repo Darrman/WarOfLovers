@@ -302,6 +302,7 @@ MOVE 12 Marth [13,6]
 MOVE 6 Sheeda [13,9]
 ENUN
 RemoveItemFromEverywhere(Falchion)
+RemoveItemFromEverywhere(ShieldOfSeals)
 REMU Marth
 SOUN 0xBD //tile sinking into the water, ideally a splash sound
 TEXTCONT

@@ -7,7 +7,7 @@ STAL 120
 WorldMapShowTextBox
 STAL 10
 WM_MOVECAM2 0 0 0 0 16 20 0
-WorldMapLoadMapSprite(2, StarLord, 0, 0) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(2, Lord, 0, 0) //Marth's node seems to control chapter?
 WorldMapLoadMapSprite(3, General, 1, 0)
 WorldMapLoadMapSprite(4, DracoZombie, 1, 0)
 WorldMapDisplayMapSprite(2, 0, 88, 70, 10)
@@ -35,7 +35,7 @@ WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
 STAL 10
 TEXTCONT
 TEXTEND
-WorldMapLoadMapSprite(1, FalcoKnight, 0, 0) 
+WorldMapLoadMapSprite(1, PegasusKnight, 0, 0) 
 WorldMapLoadMapSprite(0, Horseman, 2, 0)
 WorldMapLoadMapSprite(3, Bishop_F, 0, 0)
 WorldMapLoadMapSprite(4, General, 0, 0)

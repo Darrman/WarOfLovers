@@ -13,7 +13,7 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch11WorldMap)
 TEXTEND
-//WorldMapLoadMapSprite(0, StarLord, 0, 9) //Marth's node seems to control chapter?
+//WorldMapLoadMapSprite(0, Lord, 0, 9) //Marth's node seems to control chapter?
 WorldMapShowPortraitLeft(0,0x30) //Lilina
 TEXTCONT
 TEXTEND

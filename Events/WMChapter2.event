@@ -17,8 +17,8 @@ WorldMapClearLeftPortrait(0)
 STAL 30
 WorldMapClearRightPortrait(1)
 STAL 30
-WorldMapLoadMapSprite(0, StarLord, 0, 1) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, Sniper, 1, 1)
+WorldMapLoadMapSprite(0, Lord, 0, 1) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, Archer, 1, 1)
 WorldMapDisplayMapSprite(0, 0, 170, 96, 10)
 WorldMapDisplayMapSprite(1, 0, 130, 90, 10)
 STAL 30

@@ -447,6 +447,7 @@
 #define Starlight 0x44
 #define Resire Nosferatu
 #define Dulam Eclipse
+#define Doulam Dulam
 #define Maph Gleipnir
 #define IotesShield FiliShield
 #define WingSpear Reginleif

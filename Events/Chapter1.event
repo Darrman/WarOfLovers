@@ -29,6 +29,7 @@ House(0,Ch1House1,13,5)
 House(0,Ch1House2,12,6)
 House(0,Ch1House3,13,6)
 House(0,Ch1House4,14,7)
+SecretShop(Ch1Secret,15,4)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,13,8)
 Seize(0x3,DebugWarp,13,7)
@@ -62,7 +63,7 @@ UNIT
 
 
 CutsceneMarth:
-UNIT Marth StarLord 0x00 Level(1,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT
 
 Bad:
@@ -97,12 +98,12 @@ UNIT Kris Hero 0x00 Level(20,Enemy,0) [1,0] 0x00 0x00 0x1 KrisREDA [MiracleSword
 UNIT
 
 MarthAlearGroup:
-UNIT Marth StarLord 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
 UNIT
 
 RoyalIntroGroup:
-UNIT Marth StarLord 0x00 Level(1,Ally,0) [7,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [7,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
 UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [2,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
 UNIT Celine Sage_F 0x00 Level(1,NPC,0) [3,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
@@ -116,7 +117,7 @@ UNIT Veyle Druid_F 0x00 Level(1,NPC,0) [7,8] 0x0  0x0 0x0 0x0 [Falchion, WhiteGe
 UNIT
 
 WeddingGroup:
-UNIT Marth StarLord 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
 UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
 UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred, dies and unfought
@@ -571,4 +572,9 @@ ALIGN 4
 
 Ch1Vendor:
 SHLI Fire Thunder Wind Lightning Flux Heal Mend Vulnerary PureWater
+ALIGN 4
+
+Ch1Secret:
+//your reward for paying attention in the cutscene: stuff you can't buy!
+SHLI Talisman ElysianWhip Doulam WhiteGem Meteor Fortify Warp Boots
 ALIGN 4

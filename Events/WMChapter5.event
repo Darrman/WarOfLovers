@@ -7,7 +7,7 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch5WorldMap)
 TEXTEND
-WorldMapLoadMapSprite(0, FalcoKnight, 0, 4) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(0, PegasusKnight, 0, 4) //Marth's node seems to control chapter?
 WorldMapLoadMapSprite(1, Swordmaster_F, 1, 4)
 WorldMapLoadMapSprite(2, Fleet, 1, 4)
 WorldMapLoadMapSprite(3, Fleet, 1, 4)

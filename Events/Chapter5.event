@@ -172,7 +172,7 @@ MOVE 8 Sheeda [5,4]
 ENUN
 CLEA 0
 FADI 10
-RECLASS Sheeda KnightFalcon //dismount her
+CALL DismountSheeda
 LOMA 0x42
 LOAD1 0x1 CutsceneAlear
 LOAD2 0x1 CutsceneMarthInside
@@ -196,7 +196,7 @@ FIGHT Marth Alear Falchion 0
 MUSC M_ThemeOfLove
 Text(Castle_Hall,Ch5AfterScriptedBattle)
 FADI 10
-RECLASS Sheeda FalcoKnight //and back up she goes
+CALL MountSheeda
 CLEA 0
 CLEE 0
 LOMA 0x4
@@ -307,6 +307,8 @@ MUSC M_OffToWar
 Text(Castle_Hall_Night,Ch5RodyEscapes)
 Text(Castle_Hall_Night,Ch5MarthSailsNorth)
 REMU Rody
+SVAL s3 ShieldOfSeals
+GIVEITEMTO Marth
 WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
