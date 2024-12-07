@@ -606,7 +606,7 @@
    <tile gid="802"/>
   </data>
  </layer>
- <layer id="22" name="PlaceholderFire" width="21" height="28" visible="0">
+ <layer id="22" name="FireTiles" width="21" height="28">
   <properties>
    <property name="Height" value="18"/>
    <property name="ID" value="0"/>
@@ -777,9 +777,9 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -799,7 +799,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -876,12 +876,12 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="338"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="338"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -894,7 +894,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -963,7 +963,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -976,7 +976,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="338"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -1021,14 +1021,14 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="338"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -1062,7 +1062,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="338"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -1079,16 +1079,16 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="338"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -1136,7 +1136,7 @@
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
-   <tile gid="389"/>
+   <tile gid="339"/>
    <tile gid="1"/>
    <tile gid="1"/>
    <tile gid="1"/>
@@ -5997,7 +5997,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="10" name="Map Change 8" width="21" height="28">
+ <layer id="10" name="Map Change 8" width="21" height="28" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="9"/>
