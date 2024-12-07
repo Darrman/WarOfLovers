@@ -19,7 +19,7 @@ TurnEventPlayer(0,KrisArrives,10)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEventBothWays(0x8,TheHighestBidder,Marth,Caesar)
+CharacterEventBothWays(0x9,TheHighestBidder,Marth,Caesar)
 END_MAIN
 
 LocationBasedEvents:
