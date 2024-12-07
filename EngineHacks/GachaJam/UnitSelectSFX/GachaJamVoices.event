@@ -30,6 +30,7 @@
 #define VoiceFalcoSelect 0x149
 #define VoicePeppySelect 0x152
 #define VoiceSlippySelect 0x153
+#define VoiceKashimSelect 0x15C
 
 ALIGN 2
 MarthVoiceEffect:
@@ -712,6 +713,27 @@ WORD $FF00FF
 SlippyVoice_wav:
 #incbin "bin/Slippy_Carcass.bin"
 SongTable(VoiceSlippySelect,SlippyVoice,7)
+
+KashimVoiceEffect:
+BYTE Kashim
+BYTE 0x00
+SHORT VoiceKashimSelect
+
+KashimVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+KashimVoice:
+WORD $01
+POIN KashimVoice_map
+POIN KashimVoice_data
+
+KashimVoice_map:
+WORD $3c00
+POIN KashimVoice_wav
+WORD $FF00FF
+
+KashimVoice_wav:
+#incbin "bin/Kashim_ThinkWhatYouLike.bin"
+SongTable(VoiceKashimSelect,KashimVoice,7)
 
 
 /*ALIGN 2
