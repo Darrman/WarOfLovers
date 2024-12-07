@@ -93,7 +93,7 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,28] 0x0 0x0 0x0 0x0 [SilverLan
 UNIT
 
 Bad:
-UNIT Citrinne Sage_F 0x00 Level(1,Enemy,0) [8,1] 0x0 0x0 0x0 0x0 [Bolganone] NeverMoveAI
+UNIT Citrinne Sage_F 0x00 Level(1,Enemy,0) [8,1] 0x0 0x0 0x0 0x0 [Shaver, Bolganone] NeverMoveAI
 UNIT Executioner Sniper 0x00 Level(1,Enemy,0) [18,5] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI //timer soldier
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,19] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,15] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI

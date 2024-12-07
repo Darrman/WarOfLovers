@@ -5,7 +5,7 @@ Sheeda,0,3
 Chiki,1,10
 Marich,12,20
 George,0,3
-Malliesia,0,3
+Malliesia,0,30
 Ricardo,0,3
 Caesar,0,3
 Tomth,0,3
@@ -15,28 +15,28 @@ Luke,0,3
 Rody,0,3
 Kashim,0,3
 Riff,0,3
-Linda,0,3
+Linda,0,20
 Oguma,0,3
 Barts,0,3
 Eliwood,0,3
 Lilina,12,75
 Miledy,0,3
 Wolt,0,3
-Sophia,0,3
+Sophia,5,55
 Astore,0,3
 Fir,0,3
 Bartre,0,3
 Valbo,0,3
 Camus,0,3
-Dyute,0,3
+Dyute,0,50
 Valencian,0,3
 Alm,0,3
-Celine,0,3
+Celine,0,40
 Chalphy,0,3
 """Oifaye""",0,3
 Noba,0,3
 Thracian,0,3
-Ryuto,0,3
+Ryuto,0,20
 Edda,0,3
 Dozel,0,3
 Feena,0,3
@@ -47,7 +47,7 @@ Banutu,0,3
 Cecil,0,3
 Ellis,5,10
 Elyosian,0,3
-Gato???,0,3
+Gato???,0,30
 Celica,18,25
 Roy,0,3
 Mario,0,10
@@ -153,13 +153,13 @@ Walter,0,3
 Kris,0,3
 Alear,0,3
 Boucheron,0,3
-Clanne,0,3
+Clanne,4,3
 Ch5x Boss,0,3
 Louis,0,3
 """Ratface""",0,3
 Amber,0,3
 """Rogue Bern Boss""",0,3
-Citrinne,4,3
+Citrinne,6,3
 """Executioner""",0,3
 Ch10x Boss,0,3
 Diamant,0,3

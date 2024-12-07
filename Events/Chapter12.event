@@ -134,7 +134,7 @@ UNIT Colonial FreeKnight 0x0 Level(12,Enemy,1) [39,7] 0x0 0x0 0x1  EastCavalierR
 UNIT
 
 DarkDragon:
-UNIT Veyle Druid_F 0x0 Level(20,Enemy,0) [39,6] 0x0 0x0 0x1 VeyleREDA [Fenrir, Elixir] PursueWithoutHeedAI
+UNIT Veyle Druid_F 0x0 Level(20,Enemy,0) [39,6] 0x0 0x0 0x1 VeyleREDA [Flux, Fenrir, Elixir] PursueWithoutHeedAI
 UNIT
 
 CutsceneCaveLilinaChiki:
