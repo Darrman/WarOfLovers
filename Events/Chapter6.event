@@ -136,7 +136,7 @@ UNIT Lythos Mage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Fire] Attac
 UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
 UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [0,13] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
-UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+//UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [0,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
 UNIT
 
 T6Group:
@@ -184,7 +184,7 @@ TILECHANGE 4
 STAL 30
 Text(Ship,Ch6OpeningPiratesSpotted)
 FADI 10
-LOAD1 0x1 Good
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 GazackCloneSixGroup
 CAM1 [0,0]

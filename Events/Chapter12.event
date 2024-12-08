@@ -255,7 +255,7 @@ CLEE 0
 CLEN 0
 MUSC M_EnemiesAppear
 VCWF 3 //put the fog back up
-LOAD1 0x1 Good
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]

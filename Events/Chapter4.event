@@ -84,7 +84,7 @@ UNIT Lythos Priest Boucheron Level(4,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Heal] Hea
 UNIT
 
 Bad2:
-UNIT Lythos Mage Boucheron Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
+UNIT Lythos Mage Boucheron Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting, Vulnerary] NeverMoveAI
 UNIT Lythos DragonKnight Boucheron Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AttackInRangeAI
 UNIT Lythos AxeArmour Boucheron Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SteelAxe, RedGem] ChaseOnceApproachedAI
 UNIT Lythos ArmourKnight Boucheron Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [IronLance, BlueGem] NeverMoveAI
@@ -237,6 +237,8 @@ MUSC M_Victory
 Text(Ch4EndingVictory)
 MUSC M_ThemeOfLove
 Text(Castle_Room,Ch4EndingStory)
+MUSC M_Victory
+Text(Castle_Room,Ch4EndingBoatFound)
 CHECK_EXISTS Sheeda //if you somehow manage to skip her, recruit Sheeda anyway
 BNE 403 s0 sC
 LOAD1 0x1 SheedaGroup

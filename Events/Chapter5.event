@@ -133,7 +133,7 @@ UNIT Sheeda KnightFalcon 0x00 Level(1,Ally,0) [8,10] 0x0 0x0 0x0 0x0 [WingSpear]
 UNIT
 
 VillageWrecker:
-UNIT Lythos Thief 0x00 Level(20,Enemy,1) [16,4] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
+UNIT Lythos Thief 0x00 Level(10,Enemy,1) [16,4] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
 UNIT
 
 EndingGood:
@@ -344,15 +344,29 @@ NoFade
 ENDA
 
 Ch5WestVillage:
+SVAL s1 Marth
+CHECK_ACTIVE
+BNE 506 s0 sC
 Text(Village,Ch5RiffVillage)
+GOTO 507
+LABEL 506
+Text(Village,Ch5MarthFinallyVisits)
+LABEL 507
 SVAL s3 Dragonshield
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Ch5EastVillage:
+MUSC M_TogetherWeRide
 Text(Village,Ch5MoneyVillage)
+CHECK_EVENTID JamModeOn
+BNE 508 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
+GOTO 509
+LABEL 508
 CALL UnitGachaJam
+LABEL 509
 WARPIN [28,5]
 MOVE 0xFFFF 0xFFFD [28,5]
 ENUN

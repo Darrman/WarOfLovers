@@ -27,10 +27,10 @@ END_MAIN
 
 LocationBasedEvents:
 Chest(RedGem,0,9)
-Chest(RedGem,1,8)
-Chest(RedGem,21,7)
-Chest(RedGem,21,9)
-Chest(RedGem,2,17)
+Chest(ShortSpear,1,8)
+Chest(SteelBow,21,7)
+Chest(Mend,21,9)
+Chest(SteelBlade,2,17)
 Door(12,6)
 Door(6,8)
 Door(9,16)
@@ -61,19 +61,19 @@ Good:
 UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [12,4] 0x0  0x0 0x0 0x0 [Falchion, Vulnerary] NoAI
 UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [11,3] 0x0  0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [13,3] 0x0  0x0 0x0 0x0 [DivineStone, Vulnerary] NoAI
-UNIT Yoshi Paladin 0x00 Level(1,Ally,0) [14,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [10,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [15,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [7,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [15,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [16,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [8,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [9,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Paladin 0x00 Level(1,Ally,0) [14,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [10,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [15,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [7,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [15,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [16,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [8,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [9,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
 UNIT
 
 Bad:
-UNIT Ch7Boss /*Dread Isle bandit, needs name*/ Brigand 0x00 Level(10,Enemy,0) [7,20] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] PursueWithoutHeedAI
+UNIT Ch7Boss /*Dread Isle bandit, Rodent "ratface"*/ Brigand 0x00 Level(10,Enemy,0) [7,20] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] PursueWithoutHeedAI
 UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
 UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
 UNIT BrigandGeneric ArmourKnight 0x00 Level(3,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
@@ -169,6 +169,7 @@ ALIGN 4
 
 BeginningScene:
 LOMA 6 //as placeholder for an actual shore cutscene map
+CAM1 [0,0]
 MUSC M_Insurrection
 BROWNBOX Ch7OpeningTheNextDay [0,0]
 SHOWUNIT Marth
@@ -231,7 +232,8 @@ CLEA 0
 CLEN 0
 CLEE 0
 ENUN
-LOAD1 0x1 Good
+CALL DismountAll
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]
@@ -304,24 +306,29 @@ CAM1 Eliwood
 STAL 10
 FlashCursor(Eliwood,60)
 Text(Ch7EventEliwoodArrives)
+NoFade
 ENDA
 
 EliwoodRecruitment:
 MUSC M_JoinUs //switch to FE6 (aka FE4)'s theme here
 Text(Ch7EventEliwoodRecruited)
 TurnAlly(Eliwood)
+NoFade
 ENDA
 
 StairsSpawns:
 LOAD1 0x1 StairsBlock
+NoFade
 ENDA
 
 BehindEliwoodSpawns:
 LOAD1 0x1 NWBlock
+NoFade
 ENDA
 
 SWThiefSpawn:
 LOAD1 0x1 SWThiefBlock
+NoFade
 ENDA
 
 ChikiREDA:

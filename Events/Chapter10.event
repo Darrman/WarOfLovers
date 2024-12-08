@@ -234,7 +234,7 @@ FADI 10
 CLEA 0
 CLEN 0
 CLEE 0
-LOAD1 0x1 Good
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 PheraenPrisoners
