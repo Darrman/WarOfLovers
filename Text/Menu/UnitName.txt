@@ -170,7 +170,7 @@ Kashim[X]
 ## KashimDesc
 A Talisian hunter. Has gained an[N]
 unsavoury reputation as a beggar,[N]
-which has made his family wealthy.[X][X]
+which has made his family wealthy.[X]
 
 ## RiffName
 Riff[X]
@@ -196,7 +196,7 @@ Barts[X]
 ## BartsDesc
 Formerly a woodcutter from Talis,[N]
 latterly having turned to piracy.[N]
-A powerful and dangerous warrior.[X][X]
+A powerful and dangerous warrior.[X]
 
 ## MiledyName
 Miledy[X]
@@ -204,7 +204,7 @@ Miledy[X]
 ## MiledyDesc
 The head of Guinevere's guard[N]
 and fiercely loyal to her above[N]
-all else. Highly serious.[X][X]
+all else. Highly serious.[X]
 
 ## WoltName
 Wolt[X]
@@ -212,7 +212,7 @@ Wolt[X]
 ## WoltDesc
 Roy's milk brother and a Pheraen[N]
 official. Believes in order and[N]
-respects his superiors.[X][X]
+respects his superiors.[X]
 
 ## SophiaName
 Sophia[X]
@@ -220,7 +220,7 @@ Sophia[X]
 ## SophiaDesc
 A resident of Arcadia with the[N]
 ability to see visions of the[N]
-future. Quiet and polite.[X][X]
+future. Quiet and polite.[X]
 
 ## AstoreName
 Astore[X]
@@ -240,7 +240,7 @@ Bartre[X]
 ## BartreDesc
 A vigourous man hailing from the[N]
 Western Isles. Constantly frets[N]
-over his daughter Fir's welfare.[X][X]
+over his daughter Fir's welfare.[X]
 
 ## CamusName
 Camus[X]
