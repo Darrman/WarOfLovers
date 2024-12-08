@@ -312,7 +312,7 @@ Greetings, son! I'm Peppy[N]
 Hare. I've been a member[AN]
 of Team Star Fox for years.[N]
 As I always say, never give[AN]
-up, and trust your instints.[N]
+up, and trust your instincts.[N]
 Then we shall prevail.[A][X]
 
 ## RecruitSlippy

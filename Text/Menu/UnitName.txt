@@ -168,7 +168,9 @@ Placeholder description.[X]
 Kashim[X]
 
 ## KashimDesc
-Placeholder description.[X]
+A Talisian hunter. Has gained an[N]
+unsavoury reputation as a beggar,[N]
+which has made his family wealthy.[X][X]
 
 ## RiffName
 Riff[X]
@@ -192,25 +194,33 @@ Placeholder description.[X]
 Barts[X]
 
 ## BartsDesc
-Placeholder description.[X]
+Formerly a woodcutter from Talis,[N]
+latterly having turned to piracy.[N]
+A powerful and dangerous warrior.[X][X]
 
 ## MiledyName
 Miledy[X]
 
 ## MiledyDesc
-Placeholder description.[X]
+The head of Guinevere's guard[N]
+and fiercely loyal to her above[N]
+all else. Highly serious.[X][X]
 
 ## WoltName
 Wolt[X]
 
 ## WoltDesc
-Placeholder description.[X]
+Roy's milk brother and a Pheraen[N]
+official. Believes in order and[N]
+respects his superiors.[X][X]
 
 ## SophiaName
 Sophia[X]
 
 ## SophiaDesc
-Placeholder description.[X]
+A resident of Arcadia with the[N]
+ability to see visions of the[N]
+future. Quiet and polite.[X][X]
 
 ## AstoreName
 Astore[X]
@@ -228,7 +238,9 @@ Placeholder description.[X]
 Bartre[X]
 
 ## BartreDesc
-Placeholder description.[X]
+A vigourous man hailing from the[N]
+Western Isles. Constantly frets[N]
+over his daughter Fir's welfare.[X][X]
 
 ## CamusName
 Camus[X]

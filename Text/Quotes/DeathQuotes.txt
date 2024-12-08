@@ -75,8 +75,8 @@ Princess Celine, take... care...[A][CloseEyes][X]
 
 ## Ch7BossDeath
 [Left][LoadCh7Boss]
-The dragons... aren't as helpless...[N]
-as I had thought...[A][CloseEyes][X]
+The dragons... aren't as[N]
+helpless... as I thought...[A][CloseEyes][X]
 
 ## AmberDeath
 [Left][LoadAmber]

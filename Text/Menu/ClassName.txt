@@ -77,10 +77,12 @@ Duke Knight[X]
 Bow Knight[X]
 
 ## SwordArmourName
-Sword Armour[X]
+//I choose spelling "armour" correctly with CamelCase over the American
+//version with a space.
+SwordArmour[X]
 
 ## LanceArmourName
-Lance Armour[X]
+LanceArmour[X]
 
 ## AxeArmourName
 Axe Armour[X]

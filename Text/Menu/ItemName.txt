@@ -79,6 +79,9 @@ Bolganone[X]
 ## MeteorName
 Meteor[X]
 
+## MeteorDesc
+Calls a meteor shower forth.[X]
+
 ## ShaverName
 Shaver[X]
 
@@ -181,6 +184,9 @@ Elwind[X]
 
 ## TornadoName
 Tornado[X]
+
+## WindDesc
+Effective against flyers.[X]
 
 ## SpiritDustName
 Spirit Dust[X]
