@@ -346,7 +346,7 @@ ENDA
 Ch5WestVillage:
 SVAL s1 Marth
 CHECK_ACTIVE
-BNE 506 s0 sC
+BEQ 506 s1 sC
 Text(Village,Ch5RiffVillage)
 GOTO 507
 LABEL 506

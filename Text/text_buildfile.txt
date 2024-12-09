@@ -40,6 +40,11 @@ This text is a placeholder.[A][X]
 #include Quotes/RecruitQuotes.txt
 #include Quotes/CharacterEndings.txt
 
+## GenericEscape
+//until I write unique ones
+[MR][LoadCurrent]
+I have escaped![A][X]
+
 #include Story/Chapter1.txt
 #include Story/Chapter2.txt
 #include Story/Chapter3.txt

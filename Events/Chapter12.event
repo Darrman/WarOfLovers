@@ -259,6 +259,7 @@ LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]
+MUSC M_EnemiesAppear
 FADU 10
 STAL 20
 CAM1 [39,0]

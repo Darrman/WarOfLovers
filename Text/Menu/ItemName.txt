@@ -149,6 +149,9 @@ Boots[X]
 Increases strength by 4 points.[N]
 Vanishes after use.[X]
 
+## PowerRingUseDesc
+Increases strength.[X]
+
 ## SecretBookDesc
 Increases skill by 5 points.[N]
 Vanishes after use.[X]

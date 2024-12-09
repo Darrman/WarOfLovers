@@ -100,7 +100,7 @@ Please, forgive me...[A][CloseEyes][X]
 ## Ch10SubBossDeath
 [Left][LoadExecutioner]
 Who are you? The Knights of[N]
-Pherae had surrendered.[AN]
+Pherae have surrendered.[AN]
 Did... Eliwood... make it[N]
 back... from Bern?[A][CloseEyes][X]
 

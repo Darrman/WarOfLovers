@@ -50,6 +50,7 @@ Seize(0x3,EndingScene,5,6)
 END_MAIN
 
 MiscBasedEvents:
+//Later version: Make the throne room falling a lose condition
 CauseGameOverIfLordDies
 DefeatBoss(EndingScene)
 END_MAIN
@@ -144,15 +145,15 @@ UNIT
 WendyFriendsAndFoesEast:
 UNIT Wendy LanceArmour 0x0 Level(10,NPC,0) [20,6] 0x0 0x0 0x1 WendyREDA [SteelLance, Javelin] GuardTileAI
 UNIT Ostia LanceArmour 0x0 Level(10,NPC,1) [20,6] 0x0 0x0 0x1 WendyEastAllyREDA [IronLance, Javelin] GuardTileAI
-UNIT Brodia Fighter 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x1 WendyWestAllyREDA1 [Hammer] PursueWithoutHeedAI
-UNIT Brodia Mage 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x1 WendyWestAllyREDA2 [Wind] PursueWithoutHeedAI
+UNIT Brodia Fighter 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x1 WendyEastEnemyREDA1 [Hammer] PursueWithoutHeedAI
+UNIT Brodia Mage 0x0 Level(10,Enemy,1) [20,5] 0x0 0x0 0x1 WendyEastEnemyREDA2 [Wind] PursueWithoutHeedAI
 UNIT
 
 WendyFriendsAndFoesWest:
-UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [0,5] 0x0 0x0 0x1 WendyEastEnemyREDA1 [SteelAxe, HandAxe] GuardTileAI
-UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [0,6] 0x0 0x0 0x1 WendyEastEnemyREDA2 [IronAxe, HandAxe] GuardTileAI
-UNIT Brodia Mercenary 0x0 Level(10,Enemy,1) [0,6] 0x0 0x1 WendyWestEnemyREDA1 0x0 [Armourslayer] PursueWithoutHeedAI
-UNIT Brodia Monk 0x0 Level(10,Enemy,1) [0,5] 0x0 0x0 0x1 WendyEastEnemyREDA2 [Shine] PursueWithoutHeedAI
+UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [0,5] 0x0 0x0 0x1 WendyWestAllyREDA1 [SteelAxe, HandAxe] GuardTileAI
+UNIT Ostia AxeArmour 0x0 Level(10,NPC,1) [0,6] 0x0 0x0 0x1 WendyWestAllyREDA2 [IronAxe, HandAxe] GuardTileAI
+UNIT Brodia Mercenary 0x0 Level(10,Enemy,1) [0,6] 0x0 0x0 0x1 WendyWestEnemyREDA1 [Armourslayer] PursueWithoutHeedAI
+UNIT Brodia Monk 0x0 Level(10,Enemy,1) [0,5] 0x0 0x0 0x1 WendyWestEnemyREDA2 [Shine] PursueWithoutHeedAI
 UNIT
 
 RogueFlyersEast:
@@ -356,6 +357,7 @@ LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 BarthAndCompany
 TILECHANGE 9 //the front door
+MUSC M_EnemiesAppear
 CAM1 [0,0]
 FADU 10
 STAL 20
@@ -448,9 +450,19 @@ CLEN 0
 
 LOMA 0x43 //Ostia Castle
 LOAD2 0x0 CutsceneEndingInside
+SVAL s1 20 //cutscenes break if units die who shouldn't: get Lilina to 20
+SET_HP Lilina 
+SVAL s1 37 //Eliwood's base HP
+SET_HP Eliwood
+//As Barth is meant to die, he can keep his current HP
 CAM1 [11,2] //far enough to push X=0 off-screen
 MUSC M_AnUnexpectedCaller
 FADU 10
+STAL 10
+SVAL s3 Fire
+GIVEITEMTO Lilina //emergency bugfix: game freezes if she counters unarmed
+SVAL s3 IronLance
+GIVEITEMTO Barth //same with him - if you toss the item, nothing I can do...
 FlashCursor(Barth,60)
 Text(Fort_2_Burning,Ch11EndingMarthGoAheadOfMe)
 STAL 30
@@ -513,6 +525,8 @@ LOAD2 0x2 CutsceneEndingDurandal
 STAL 30
 FlashCursor(Lilina,60)
 Text(Ch11EndingToTheDurandal)
+CLEAN //text persists otherwise
+STAL 10
 EVBIT_T 9 //follow
 MOVE 10 Lilina [3,4]
 MOVE 10 Eliwood [2,5]
@@ -527,6 +541,8 @@ CAM1 Alear
 MUSC M_Stratagem
 FlashCursor(Framme,60)
 Text(Volcano,Ch11EndingTwistyLittlePassages)
+CAM1 Lilina
+FlashCursor(Lilina,60)
 CHECK_EVENTID DiamantDead
 BEQ 1105 s0 sC //if alive, branch
 MUSC M_ThemeOfLove
