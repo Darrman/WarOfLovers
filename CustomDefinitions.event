@@ -433,3 +433,5 @@
 
 //Event IDs
 #define JamModeOn 0x71
+#define Gen1GuideFlag 0x72
+#define Gen1GuideReadFlag 0x73

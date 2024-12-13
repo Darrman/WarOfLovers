@@ -685,23 +685,23 @@ Placeholder.[X]
 Fighter[X]
 
 ## FighterFF1Desc
-The leader of the Light Warriors.[N]
-He will stop at nothing to restore[N]
-the power of the ORBs and kill Chaos.[X]
+Leader of the Light Warriors.[N]
+Will stop at nothing to kill[N]
+Chaos and fix the ORBs.[X]
 
 ## WhiteMageName
 White Mage[X]
 
 ## WhiteMageDesc
-The healer of the Light Warriors.[N]
-She's kind and gentle, but has her[N]
+Healer of the Light Warriors.[N]
+Kind and gentle, but has her[N]
 limits and is not to be annoyed.[X]
 
 ## BlackMageName
 Black Mage[X]
 
 ## BlackMageDesc
-The caster of the Light Warriors.[N]
+Caster of the Light Warriors.[N]
 Highly skilled with black magic,[N]
 and is not afraid to show off.[X]
 
@@ -709,7 +709,7 @@ and is not afraid to show off.[X]
 Firion[X]
 
 ## FirionDesc
-A young man from Phin forced out[N]
+A man from Phin forced out[N]
 when the Empire attacked. He[N]
 then joined the resistance.[X]
 
@@ -727,95 +727,95 @@ Guy[X]
 ## GuyDesc
 One of Firion's comrades. He is[N]
 loyal to the rebellion no matter[N]
-what challenges the Emperor poses.[X]
+what the Emperor does.[X]
 
 ## HeroDW1Name
 Hero[X]
 
 ## HeroDW1Desc
-A descendant of Erdrick who appeared[N]
-in Alefgard's darkest hour. Courage[N]
-and wit serves him well.[X]
+A descendant of Erdrick who[N]
+appeared to save Alefgard.[N]
+Courage and wit serves him.[X]
 
 ## ErdrickName
 Erdrick[X]
 
 ## ErdrickDesc
-The hero of legend. Word of his deeds[N]
-spread far and wide, further than he[N]
+The hero of legend. Word of his[N]
+deeds spread further than he[N]
 could have ever imagined.[X]
 
 ## SoldierDW3Name
 Soldier[X]
 
 ## SoldierDW3Desc
-A companion of Erdrick's hired for[N]
-adventure. Her focus is on doing[N]
+A companion of Erdrick's.[N]
+Her focus is on doing[N]
 her job slaying monsters.[X]
 
 ## AlenaName
 Alena[X]
 
 ## AlenaDesc
-Princess of Santeem. Has no interest[N]
-in sitting down doing nothing: she[N]
-will kick down walls to get stronger.[X]
+Princess of Santeem. Much[N]
+prefers kicking holes in[N]
+walls to an idle life.[X]
 
 ## CristoName
 Cristo[X]
 
 ## CristoDesc
-A priest from Santeem. Loyal to Alena[N]
-above all else, so he followed her.[N]
+A priest. Loyal to Alena above[N]
+all else, so he followed her.[N]
 He eventually fell ill on the road.[X]
 
 ## TaloonName
 Taloon[X]
 
 ## TaloonDesc
-A merchant with a keen eye for profit[N]
-and a tendency to cause mischief.[N]
-Has a family in his shop at Endor.[X]
+A merchant with an eye for[N]
+profit and often causes[N]
+mischief. Has a family at home.[X]
 
 ## NintenName
 Ninten[X]
 
 ## NintenDesc
-A boy from Podunk, America. Great-[N]
-grandfather's diary in hand, he soon[N]
+A boy from Podunk, America.[N]
+GGF's diary in hand, he soon[N]
 found out a family secret.[X]
 
 ## AnaName
 Ana[X]
 
 ## AnaDesc
-A girl from Snowman. She has a gift[N]
-for psychic powers and joins Ninten[N]
-to help look for her missing parents.[X]
+A girl from Snowman. Can use[N]
+psychic powers and joins Ninten[N]
+to help look for her parents.[X]
 
 ## LloydName
 Lloyd[X]
 
 ## LloydDesc
-A timid boy with a tendency to hide[N]
+A timid boy who often hides[N]
 in bins, like his father. Ninten[N]
-earned his friendship with a rocket.[X]
+gave him a rocket.[X]
 
 ## AlisName
 Alis[X]
 
 ## AlisDesc
-After witnessing her brother falling[N]
-victim to an extra-judicial killing,[N]
+After seeing her brother fall[N]
+victim to an extra-judicial killing[N]
 she took to the stars in revenge.[X]
 
 ## OdinName
 Odin[X]
 
 ## OdinDesc
-A man with an axe to grind against[N]
-King Lassic. However, he looked into[N]
-Medusa's eyes and turned to stone.[X]
+A man with an axe to grind[N]
+against Lassic. However, Medusa[N]
+turned him to stone.[X]
 
 ## MarthDescSHPC
 Prince of Aritia. He's best known[N]
@@ -823,7 +823,7 @@ for trying to keep his allies alive[N]
 no matter the situation.[X]
 
 ## SheedaDescSHPC
-Princess of Talis. More than capable[N]
+Princess of Talis. Capable[N]
 of using her cunning in various[N]
 ways to convince potential allies.[X]
 
@@ -831,23 +831,23 @@ ways to convince potential allies.[X]
 Banutu[X]
 
 ## BanutuDesc
-An elderly Mamkute. Opposed to the[N]
-Dark Dragon's ways, he simply wants[N]
+An elderly Mamkute. Opposed to[N]
+Mediuth's ways, he simply wants[N]
 man and dragon to live in peace.[X]
 
 ## NakajimaName
 Nakajima[X]
 
 ## NakajimaDesc
-A student who wrote a program to[N]
-summon demons from hell. He can[N]
-negotiate and ally with them.[X]
+A student who wrote a program[N]
+to summon, talk to, and ally[N]
+with demons from hell.[X]
 
 ## YumikoName
 Yumiko[X]
 
 ## YumikoDesc
-A girl who recently changed schools.[N]
+A girl who changed schools.[N]
 She soon found herself involved[N]
 with Nakajima's schemes.[X]
 
@@ -855,16 +855,16 @@ with Nakajima's schemes.[X]
 Arle[X]
 
 ## ArleDesc
-A student of magic. No matter where[N]
-she goes, something silly is bound[N]
-to happen, leaving her to fix it.[X]
+A student of magic. No matter[N]
+where she goes, something silly[N]
+is bound to happen.[X]
 
 ## BritishName
 British[X]
 
 ## BritishDesc
-King of Britannia. Typically summons[N]
-help to Britannia; the situation is[N]
-dire if he is the one being summoned.[X]
+King of Sosaria. Typically calls[N]
+for help; the situation is dire if[N]
+he is the one being summoned.[X]
 
 

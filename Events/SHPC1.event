@@ -110,6 +110,7 @@ POP
 BeginningScene:
 //Troll idea: Force the 1,000 line cutscene to be unskippable.
 //But on a second attempt, it's skippable. Don't forget to save on preps!
+ENUT Gen1GuideFlag
 MUSC M_Prelude
 ASMC 0x48281 //name selection
 CLEAN

@@ -8,6 +8,16 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
+# 0x5C9 GuideCategory1
+//I'll just do this here
+Characters (<'91)[X]
+
+## GuideCategory2
+Characters (>'91)[X]
+
+## GuideCategory3
+Mechanics[X]
+
 #0x3A LearnedSkillText
 //first text ID in the free block
 Learned  [X]
@@ -35,6 +45,7 @@ This text is a placeholder.[A][X]
 #include Menu/ItemName.txt
 #include Menu/ChapterNameGoal.txt
 #include Menu/SongName.txt
+#include Menu/GuideEntries.txt
 
 #include Quotes/BossQuotes.txt
 #include Quotes/DeathQuotes.txt
