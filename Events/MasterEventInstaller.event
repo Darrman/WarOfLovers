@@ -2,6 +2,9 @@
 #include Dismount.event
 #include "WorldMapEvents.event"
 {
+#include "SHPC1.event"
+}
+{
 #include "Debug.event"
 }
 {

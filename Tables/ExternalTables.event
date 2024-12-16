@@ -87,6 +87,40 @@ ORG 0x58B12
 BYTE Starlight
 POP
 
+// Guide
+PUSH
+ORG 0xCEF74
+SHORT 0x2200 // Prevent Sorting
+#define MainGuideEntry(sectionID, chapterID, entryName, entryContent, flagID, readFlagID) "BYTE sectionID chapterID; SHORT entryName entryContent flagID readFlagID 0"
+ORG 0xB19E0C
+MainGuideEntry(1, 0, GuideFighterTitle, GuideFighterEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideWhiteMageTitle, GuideWhiteMageEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideBlackMageTitle, GuideBlackMageEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideFirionTitle, GuideFirionEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideMariaTitle, GuideMariaEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideGuyTitle, GuideGuyEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideErdrickTitle, GuideErdrickEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideSoldierTitle, GuideSoldierEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideAlenaTitle, GuideAlenaEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideCristoTitle, GuideCristoEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideTaloonTitle, GuideTaloonEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideNintenTitle, GuideNintenEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideAnaTitle, GuideAnaEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideLloydTitle, GuideLloydEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideMarthTitle, GuideMarthEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideSheedaTitle, GuideSheedaEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideBanutuTitle, GuideBanutuEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideNakajimaTitle, GuideNakajimaEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideYumikoTitle, GuideYumikoEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideAlisTitle, GuideAlisEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideOdinTitle, GuideOdinEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideHeroTitle, GuideHeroEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideArleTitle, GuideArleEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(1, 0, GuideBritishTitle, GuideBritishEntry, Gen1GuideFlag, Gen1GuideReadFlag)
+MainGuideEntry(0xC, 0, 0, 0, 0, 0)
+WORD 0 0 0
+POP
+
 #include SupportsEndings.event
 #include StatBoostPointers.event
 #include AnimTable.event

@@ -9,3 +9,4 @@
 #include ItemIcons/ItemIconInstaller.event
 #include FileSelect/FileSelectInstaller.event
 #include MagicAnims/MagicAnimInstaller.event
+#include Font/FontInstaller.event

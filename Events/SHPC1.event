@@ -1,0 +1,323 @@
+EventPointerTable(0x7, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,AfterBattlePrep,1)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+//Eureka
+Chest(RedGem,16,7)
+Chest(RedGem,20,7)
+Chest(RedGem,16,15)
+Chest(RedGem,22,24)
+Chest(RedGem,21,34)
+//Sylx
+Chest(RedGem,2,42)
+Chest(RedGem,1,34)
+Chest(RedGem,8,11)
+Chest(RedGem,8,8)
+Chest(RedGem,1,5)
+//the door to Zande's room is going to have an event, but this will do for now
+Door(5,5)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,39,9)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT FighterFF1 Hero 0x00 Level(15,Ally,0) [18,2] 0x0  0x0 0x0 0x0 [BraveSword, SilverAxe, SteelSword] NoAI
+UNIT WhiteMage Bishop_F FighterFF1 Level(15,Ally,0) [17,1] 0x0 0x0 0x0 0x0 [SetsLitany, Fortify, Mend] NoAI
+UNIT BlackMage Druid FighterFF1 Level(15,Ally,0) [19,1] 0x0 0x0 0x0 0x0 [Bolganone/*Flare*/, Thoron, Blizzard] NoAI
+UNIT Firion Rogue 0x00 Level(15,Ally,0) [15,1] 0x0 0x0 0x0 0x0 [KillingEdge, Recover, Talisman] NoAI
+UNIT Maria Sniper Firion Level(15,Ally,0) [14,0] 0x0 0x0 0x0 0x0 [Excalibur/*Ultima*/, BeaconBow, SilverBow] NoAI
+UNIT Guy Berserker Firion Level(15,Ally,0) [16,1] 0x0 0x0 0x0 0x0 [BraveAxe, Tomahawk, EnergyRing] NoAI
+UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [20,3] 0x0 0x0 0x0 0x0 [Audhulma/*Sword of Erdrick*/, Elixir, AngelicRobe] NoAI
+UNIT Erdrick MageFighter 0x00 Level(15,Ally,0) [20,1] 0x0 0x0 0x0 0x0 [SilverBlade, Thoron, Wyrmslayer] NoAI
+UNIT SoldierDW3 Halberdier_F Erdrick Level(15,Ally,0) [19,0] 0x0 0x0 0x0 0x0 [BraveLance/*pretend it's a Falcon Sword*/, Spear, Dragonshield] NoAI
+UNIT Alena Entombed 0x00 Level(15,Ally,0) [22,3] 0x0 0x0 0x0 0x0 [SharpClaw/*Stiletto Earrings*/, SharpClaw, Speedwings] NoAI
+UNIT Cristo Bishop Alena Level(15,Ally,0) [21,2] 0x0 0x0 0x0 0x0 [Eclipse, NinissGrace, Physic] NoAI
+UNIT Taloon Paladin 0x00 Level(15,Ally,0) [23,2] 0x0 0x0 0x0 0x0 [BrightLance, Runesword, HoplonShield] NoAI
+UNIT Ninten MageKnight 0x00 Level(15,Ally,0) [12,2] 0x0 0x0 0x0 0x0 [SilverSword/*Hank's Bat*/, Recover, Sleep] NoAI
+UNIT Ana MageKnight_F Ninten Level(15,Ally,0) [13,1] 0x0 0x0 0x0 0x0 [Tornado, Aura, Meteor] NoAI
+UNIT Lloyd Ranger Ninten Level(15,Ally,0) [13,3] 0x0 0x0 0x0 0x0 [BraveBow, KillerBow, SecretBook] NoAI
+UNIT Alis General 0x00 Level(15,Ally,0) [16,0] 0x0 0x0 0x0 0x0 [SilverSword/*Laconian Sword*/, Javelin, SteelSword] NoAI
+UNIT Odin Warrior Alis Level(15,Ally,0) [15,0] 0x0 0x0 0x0 0x0 [Garm/*Laconian Axe*/, SilverBow, SteelAxe] NoAI
+UNIT Marth Swordmaster 0x00 Level(15,Ally,0) [15,3] 0x0 0x0 0x0 [Wyrmslayer, Rapier, Lockpick] NoAI
+UNIT Sheeda FalcoKnight Marth Level(15,Ally,0) [14,2] 0x0 0x0 0x0 0x0 [Horseslayer, IotesShield, SilverLance] NoAI
+UNIT Banutu Mamkute Marth Level(15,Ally,0) [16,2] 0x0 0x0 0x0 0x0 [DivineStone/*PLACEHOLDER for Fire Stone*/, Boots, ThorsIre] NoAI
+UNIT Nakajima Rogue 0x00 Level(15,Ally,0) [21,1] 0x0 0x0 0x0 0x0 [Armourslayer, WindSword, ShadowKiller] NoAI
+UNIT Yumiko Bishop_F 0x00 Level(15,Ally,0) [23,1] 0x0 0x0 0x0 0x0 [Restore, Recover, FillasMight] NoAI
+UNIT Arle Sage_F 0x00 Level(15,Ally,0) [22,0] 0x0 0x0 0x0 0x0 [Blizzard, Thoron, SpiritDust] NoAI
+UNIT British Warrior 0x00 Level(15,Ally,0) [18,0] 0x0 0x0 0x0 [KillerBow, Hammer, PureWater] NoAI
+UNIT
+
+Bad:
+UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone] NeverMoveAI
+UNIT
+
+Bad2:
+UNIT
+
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+PUSH
+  ORG $44800
+  BYTE 4 //max name length. Default is 5. Old RPGs make it 4. It's now 4.
+  ORG $482bA
+  BYTE 4 //max cursor position
+POP
+
+BeginningScene:
+//Troll idea: Force the 1,000 line cutscene to be unskippable.
+//But on a second attempt, it's skippable. Don't forget to save on preps!
+ENUT Gen1GuideFlag
+MUSC M_Prelude
+ASMC 0x48281 //name selection
+CLEAN
+STAL 10
+Text(SHPCPostNameEntry)
+//"Chapter 1" - Final Fantasy
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW SHPCFF1Opening
+TEXTEND
+MUSC M_Coneria
+//BG: Coneria
+Text(SHPCInConeria)
+MUSC M_TempleOfFiends
+//BG: Temple of Fiends
+Text(SHPCGarlandFight)
+//Scripted battle vs. Garland
+Text(SHPCAfterGarland)
+//Earthquake! Everyone falls into a hole. FF2 units briefly appear as green.
+//Background: Just outside Tantegel
+MUSC M_OverworldFF1 //ideally Alefgard overworld
+Text(SHPCInAlefgard)
+//More earthquakes!
+Text(SHPCFastForwardToCh5)
+//"Chapter 2" - Dragon Quest
+//There's no DQ music so just steal relevant FF tracks
+//BG: By the volcano Ortega fell into
+MUSC M_EternalWind
+Text(SHPCTimeTravelToDQ3)
+Text(SHPCMeetingYourDescendants)
+//BG: Necrogond entrance
+MUSC M_RebelArmy
+Text(SHPCFF2CatchesUp)
+Text(SHPCWhirlwinds)
+//BG: Outside Baramos's Castle
+MUSC M_CovertTownFargabaad
+Text(SHPCButThouMustHelp)
+//Erdrick and Alena smack each other?
+Text(SHPCFightingBaramos)
+//Hey, this isn't Alefgard!
+Text(SHPCEndOfCh2)
+//"Chapter 3" - Earthbound
+//BG: Duncan's Factory
+MUSC M_Pollyanna //ideally Duncan's Factory
+Text(SHPCLostInDuncansFactory)
+MUSC M_TryOut
+Text(SHPCSegaInterlude)
+//BG: The top of Duncan's Factory
+Text(SHPCFireTheRocket)
+//Scripted battle: Ana vs. Odin
+//Oh shoot, we botched the escape.
+Text(SHPCEndOfCh3)
+//"Chapter 4" - Fire Emblem
+//BG: FE1 Chapter 20
+MUSC M_WarOfDarkness //cheating a bit here, this is SNES music!
+Text(SHPCRevisitingAkaneia)
+MUSC M_CombatMission
+Text(SHPCTheNatureOfTheCamus)
+//M: Great Sage Gato is missing. Legend of the Divine Dragon?
+//That's even worse cheating: that's unambigiously 90s!
+//TODO: At least use the less sombre version.
+MUSC M_LegendOfTheDivineDragonMusicBox
+Text(SHPCBanutuStoryTime)
+//Did Marth get Grunia to stand down? That's been abridged out.
+Text(SHPCEndOfCh4)
+//"Chapter 5" - Megami Tensei
+//BG: Rotting Sea of Flames
+MUSC M_RottingSeaOfFlames
+Text(SHPCLostInAMaze)
+//You think we have time to show Seth?
+Text(SHPCNoMoreAbridging)
+//"Chapter 6" - The One You Get to Play
+//BG: Sylx Tower overworld
+//Then switch to an interior shot
+MUSC M_ImperialArmy
+Text(SHPCOpeningTowerPlotting)
+//Use the overworld shot, then cut to map
+MUSC M_EternalWind
+Text(SHPCOpeningCrystalBrawl)
+//Do the thing with the loose text bubbles in FE8 Ch16
+MUSC M_Battle1FF3
+Text(SHPCUnattributedAttacks)
+//Many, many scripted battles. With anims on for full annoyance.
+Text(SHPCTaloonsDirections)
+Text(SHPCTheBrawlContinues)
+//A few tiles away on the map...
+MUSC M_EternalWind
+Text(SHPCOpeningBackToSquareOne)
+//Does this deserve Requiem or do I save that for after the Dark Cloud?
+//Eh FF3 uses it fairly frequently when a bad thing happens.
+MUSC M_Requiem
+Text(SHPCOpeningFEResurrectionIsHard)
+//Clear and reload everyone for this
+MUSC M_AirshipInvincible
+Text(SHPCOpeningBritishLecture)
+Text(SHPCOpeningEvenOhmIsDubious)
+//Stop skipping here.
+FADI 10
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+CAM1 [0,0]
+FADU 10
+STAL 20
+CAM1 [39,0]
+STAL 20
+CAM1 [39,14]
+STAL 20
+CAM1 [0,14]
+STAL 20
+CAM1 [0,0]
+STAL 10
+GotoPrepScreen
+ENDA
+
+EndingScene:
+Text(PlaceholderText)
+WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
+WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+MNCH 0xD
+ENDA
+
+ENDA
+
+AfterBattlePrep:
+Text(PlaceholderText)
+NoFade
+ENDA
+
+TopLeftVillage:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+VillageByDock:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+VillageInsideWalls:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+CanasOldVillage:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+SouthOfCanas:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+NorthOfEntrance:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+SouthOfEntrance:
+Text(Outside_Village_Day,PlaceholderText)
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+NextToArena:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+TheInn:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+ByVendor:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+Ch12DocksArmoury:
+SHLI IronSword
+ALIGN 4
+
+Ch12EntranceArmoury:
+SHLI IronLance
+ALIGN 4
+
+Ch12CentralVendor:
+SHLI Fire
+ALIGN 4
+
+Ch12EntranceVendor:
+SHLI Heal
+ALIGN 4
+

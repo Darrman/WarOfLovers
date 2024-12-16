@@ -1681,3 +1681,189 @@ Wendy[X]
 Knight of Ostia. A serious figure, who[N]
 follows the ideals of knighthood above[N]
 everything else. Has a brother, Bors.[X]
+
+## FighterFF1Name
+Fighter[X]
+
+## FighterFF1Desc
+Leader of the Light Warriors.[N]
+Will stop at nothing to kill[N]
+Chaos and fix the ORBs.[X]
+
+## WhiteMageName
+White Mage[X]
+
+## WhiteMageDesc
+Healer of the Light Warriors.[N]
+Kind and gentle, but has her[N]
+limits and is not to be annoyed.[X]
+
+## BlackMageName
+Black Mage[X]
+
+## BlackMageDesc
+Caster of the Light Warriors.[N]
+Highly skilled with black magic,[N]
+and is not afraid to show off.[X]
+
+## FirionName
+Firion[X]
+
+## FirionDesc
+A man from Phin forced out[N]
+when the Empire attacked. He[N]
+then joined the resistance.[X]
+
+## MariaName
+Maria[X]
+
+## MariaDesc
+A woman from Phin. She fled[N]
+with her brother Leon, but they[N]
+got seperated in an ambush.[X]
+
+## GuyName
+Guy[X]
+
+## GuyDesc
+One of Firion's comrades. He is[N]
+loyal to the rebellion no matter[N]
+what the Emperor does.[X]
+
+## HeroDW1Name
+Hero[X]
+
+## HeroDW1Desc
+A descendant of Erdrick who[N]
+appeared to save Alefgard.[N]
+Courage and wit serves him.[X]
+
+## ErdrickName
+Erdrick[X]
+
+## ErdrickDesc
+The hero of legend. Word of his[N]
+deeds spread further than he[N]
+could have ever imagined.[X]
+
+## SoldierDW3Name
+Soldier[X]
+
+## SoldierDW3Desc
+A companion of Erdrick's.[N]
+Her focus is on doing[N]
+her job slaying monsters.[X]
+
+## AlenaName
+Alena[X]
+
+## AlenaDesc
+Princess of Santeem. Much[N]
+prefers kicking holes in[N]
+walls to an idle life.[X]
+
+## CristoName
+Cristo[X]
+
+## CristoDesc
+A priest. Loyal to Alena above[N]
+all else, so he followed her.[N]
+He eventually fell ill on the road.[X]
+
+## TaloonName
+Taloon[X]
+
+## TaloonDesc
+A merchant with an eye for[N]
+profit and often causes[N]
+mischief. Has a family at home.[X]
+
+## NintenName
+Ninten[X]
+
+## NintenDesc
+A boy from Podunk, America.[N]
+GGF's diary in hand, he soon[N]
+found out a family secret.[X]
+
+## AnaName
+Ana[X]
+
+## AnaDesc
+A girl from Snowman. Can use[N]
+psychic powers and joins Ninten[N]
+to help look for her parents.[X]
+
+## LloydName
+Lloyd[X]
+
+## LloydDesc
+A timid boy who often hides[N]
+in bins, like his father. Ninten[N]
+gave him a rocket.[X]
+
+## AlisName
+Alis[X]
+
+## AlisDesc
+After seeing her brother fall[N]
+victim to an extra-judicial killing[N]
+she took to the stars in revenge.[X]
+
+## OdinName
+Odin[X]
+
+## OdinDesc
+A man with an axe to grind[N]
+against Lassic. However, Medusa[N]
+turned him to stone.[X]
+
+## MarthDescSHPC
+Prince of Aritia. He's best known[N]
+for trying to keep his allies alive[N]
+no matter the situation.[X]
+
+## SheedaDescSHPC
+Princess of Talis. Capable[N]
+of using her cunning in various[N]
+ways to convince potential allies.[X]
+
+## BanutuName
+Banutu[X]
+
+## BanutuDesc
+An elderly Mamkute. Opposed to[N]
+Mediuth's ways, he simply wants[N]
+man and dragon to live in peace.[X]
+
+## NakajimaName
+Nakajima[X]
+
+## NakajimaDesc
+A student who wrote a program[N]
+to summon, talk to, and ally[N]
+with demons from hell.[X]
+
+## YumikoName
+Yumiko[X]
+
+## YumikoDesc
+A girl who changed schools.[N]
+She soon found herself involved[N]
+with Nakajima's schemes.[X]
+
+## ArleName
+Arle[X]
+
+## ArleDesc
+A student of magic. No matter[N]
+where she goes, something silly[N]
+is bound to happen.[X]
+
+## BritishName
+British[X]
+
+## BritishDesc
+King of Sosaria. Typically calls[N]
+for help; the situation is dire if[N]
+he is the one being summoned.[X]

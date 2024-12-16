@@ -8,6 +8,16 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
+# 0x5C9 GuideCategory1
+//I'll just do this here
+Characters (<'91)[X]
+
+## GuideCategory2
+Characters (>'91)[X]
+
+## GuideCategory3
+Mechanics[X]
+
 #0x3A LearnedSkillText
 //first text ID in the free block
 Learned  [X]
@@ -18,6 +28,7 @@ Learned  [X]
 
 #include "Menu/LocationName.txt"
 #include Menu/ChapterNameGoal.txt
+#include Menu/UIChanges.txt
 
 #0x903 HouseText
 //Main story text
@@ -34,6 +45,7 @@ This text is a placeholder.[A][X]
 #include Menu/ClassName.txt
 #include Menu/ItemName.txt
 #include Menu/SongName.txt
+#include Menu/GuideEntries.txt
 
 #include Quotes/BossQuotes.txt
 #include Quotes/DeathQuotes.txt
@@ -58,6 +70,7 @@ I have escaped![A][X]
 #include Story/Chapter11.txt
 #include Story/Chapter12.txt
 #include Story/MiscPromo.txt
+#include Story/SHPCGen1.txt
 
 ## SavePointLabel
 Save Point[X]

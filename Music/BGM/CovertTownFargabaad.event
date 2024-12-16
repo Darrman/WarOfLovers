@@ -1,0 +1,2088 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	CovertTownFargabaad_grp  voicegroup000
+	#define	CovertTownFargabaad_pri  0
+	#define	CovertTownFargabaad_rev  0
+	#define	CovertTownFargabaad_mvl  127
+	#define	CovertTownFargabaad_key  0
+	#define	CovertTownFargabaad_tbs  1
+	#define	CovertTownFargabaad_exg  0
+	#define	CovertTownFargabaad_cmp  1
+
+	// .rodata
+	//	CovertTownFargabaad
+	ALIGN 4
+
+
+//**************** Track 1 (Midi-Chn.0) ****************//
+
+CovertTownFargabaad_001:
+// 000   ----------------------------------------
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   TEMPO   122*CovertTownFargabaad_tbs/2
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   VOICE   75
+ BYTE   PAN   c_v-14
+Label_0_01B7F45A:
+ BYTE   N48  Dn4  v088
+ BYTE   W48
+ BYTE   N24  As3
+ BYTE   W24
+ BYTE   N12  Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+// 001   ----------------------------------------
+ BYTE   N48  Cn4
+ BYTE   W48
+ BYTE   N24  An3
+ BYTE   W24
+ BYTE   Cn4
+ BYTE   W24
+// 002   ----------------------------------------
+ BYTE   As3
+ BYTE   W24
+ BYTE   An3
+ BYTE   W24
+ BYTE   Gn3
+ BYTE   W24
+ BYTE   As3
+ BYTE   W24
+// 003   ----------------------------------------
+ BYTE   N84  An3
+ BYTE   W60
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   59*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   53*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   46*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   38*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   30*CovertTownFargabaad_mvl/mxv
+ BYTE   W12
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+// 004   ----------------------------------------
+ BYTE   N48  Fn4
+ BYTE   W48
+ BYTE   N24  Cs4
+ BYTE   W24
+ BYTE   N12  Ds4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+// 005   ----------------------------------------
+ BYTE   N48  Ds4
+ BYTE   W48
+ BYTE   N24  Cn4
+ BYTE   W24
+ BYTE   Ds4
+ BYTE   W24
+// 006   ----------------------------------------
+ BYTE   Cs4
+ BYTE   W24
+ BYTE   Cn4
+ BYTE   W24
+ BYTE   As3
+ BYTE   W24
+ BYTE   Cs4
+ BYTE   W24
+// 007   ----------------------------------------
+ BYTE   TEMPO   122*CovertTownFargabaad_tbs/2
+ BYTE   N84  Cn4
+ BYTE   W24
+ BYTE   TEMPO   120*CovertTownFargabaad_tbs/2
+ BYTE   W24
+ BYTE   TEMPO   116*CovertTownFargabaad_tbs/2
+ BYTE   W13
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   64*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   58*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   TEMPO   112*CovertTownFargabaad_tbs/2
+ BYTE   W01
+ BYTE   VOL   51*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   43*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   33*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   VOL   23*CovertTownFargabaad_mvl/mxv
+ BYTE   W10
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+// 008   ----------------------------------------
+ BYTE   TEMPO   122*CovertTownFargabaad_tbs/2
+ BYTE   N48  An4
+ BYTE   W48
+ BYTE   N24  Fn4  v084
+ BYTE   W24
+ BYTE   N12  Gn4  v088
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+// 009   ----------------------------------------
+Label_0_01B7F4E7:
+ BYTE   N24  Gn4  v088
+ BYTE   W24
+ BYTE   N12  En4  v072
+ BYTE   W24
+ BYTE   N48  En4  v088
+ BYTE   W48
+ BYTE   PEND 
+// 010   ----------------------------------------
+Label_0_01B7F4F4:
+ BYTE   N12  Fn4  v088
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W24
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   PEND 
+// 011   ----------------------------------------
+ BYTE   N24  En4
+ BYTE   W24
+ BYTE   N12  An3  v076
+ BYTE   W72
+// 012   ----------------------------------------
+ BYTE   N48  An4  v088
+ BYTE   W48
+ BYTE   N24  Fn4  v080
+ BYTE   W24
+ BYTE   N12  Gn4  v088
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+// 013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0_01B7F4E7
+// 014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0_01B7F4F4
+// 015   ----------------------------------------
+ BYTE   N24  En4  v088
+ BYTE   W24
+ BYTE   N12  An3  v072
+ BYTE   W72
+// 016   ----------------------------------------
+Label_0_01B7F52C:
+ BYTE   N12  As3  v088
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   PEND 
+// 017   ----------------------------------------
+Label_0_01B7F53F:
+ BYTE   N24  Cs4  v084
+ BYTE   W24
+ BYTE   N12  An4  v088
+ BYTE   W24
+ BYTE   N48  An3
+ BYTE   W48
+ BYTE   PEND 
+// 018   ----------------------------------------
+ BYTE   N12  Dn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+// 019   ----------------------------------------
+ BYTE   N48  An3
+ BYTE   W96
+// 020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0_01B7F52C
+// 021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_0_01B7F53F
+// 022   ----------------------------------------
+ BYTE   N12  Dn4  v088
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   An4
+ BYTE   W12
+ BYTE   Gn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+// 023   ----------------------------------------
+ BYTE   N24  En4
+ BYTE   W24
+ BYTE   N12  Bn3  v080
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   N48  Cs4  v088
+ BYTE   W48
+// 024   ----------------------------------------
+ BYTE   W96
+// 025   ----------------------------------------
+ BYTE   W96
+// 026   ----------------------------------------
+ BYTE   W96
+// 027   ----------------------------------------
+ BYTE   W96
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_0_01B7F45A
+ BYTE   FINE
+
+//**************** Track 2 (Midi-Chn.1) ****************//
+
+CovertTownFargabaad_002:
+// 000   ----------------------------------------
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v+14
+ BYTE   VOICE   75
+Label_1_01B7F180:
+ BYTE   N12  As3  v088
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+// 001   ----------------------------------------
+ BYTE   An3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+// 002   ----------------------------------------
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   Cn3
+ BYTE   W12
+ BYTE   Dn3
+ BYTE   W12
+ BYTE   En3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+// 003   ----------------------------------------
+ BYTE   N24  Fs3
+ BYTE   W24
+ BYTE   En3
+ BYTE   W24
+ BYTE   Dn3
+ BYTE   W24
+ BYTE   Fs3
+ BYTE   W24
+// 004   ----------------------------------------
+ BYTE   N12  Cs4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Cs4
+ BYTE   W12
+// 005   ----------------------------------------
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Fs3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+// 006   ----------------------------------------
+ BYTE   As3
+ BYTE   W12
+ BYTE   Gs3
+ BYTE   W12
+ BYTE   Fs3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Ds3
+ BYTE   W12
+ BYTE   Fn3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+// 007   ----------------------------------------
+ BYTE   N24  An3
+ BYTE   W24
+ BYTE   Gn3
+ BYTE   W24
+ BYTE   Fn3
+ BYTE   W24
+ BYTE   An3
+ BYTE   W24
+// 008   ----------------------------------------
+ BYTE   N48  Fn4
+ BYTE   W48
+ BYTE   N24  Dn4  v084
+ BYTE   W24
+ BYTE   N12  En4  v088
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+// 009   ----------------------------------------
+Label_1_01B7F202:
+ BYTE   N24  En4  v088
+ BYTE   W24
+ BYTE   N12  Cn4  v072
+ BYTE   W24
+ BYTE   N48  Cn4  v088
+ BYTE   W48
+ BYTE   PEND 
+// 010   ----------------------------------------
+Label_1_01B7F20F:
+ BYTE   N12  Dn4  v088
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W24
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   PEND 
+// 011   ----------------------------------------
+ BYTE   N24  Cs4
+ BYTE   W24
+ BYTE   N12  En3  v076
+ BYTE   W72
+// 012   ----------------------------------------
+ BYTE   N48  Fn4  v088
+ BYTE   W48
+ BYTE   N24  Dn4  v080
+ BYTE   W24
+ BYTE   N12  En4  v088
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+// 013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1_01B7F202
+// 014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1_01B7F20F
+// 015   ----------------------------------------
+ BYTE   N24  Cs4  v088
+ BYTE   W24
+ BYTE   N12  En3  v072
+ BYTE   W72
+// 016   ----------------------------------------
+Label_1_01B7F247:
+ BYTE   N12  Gn3  v088
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   PEND 
+// 017   ----------------------------------------
+Label_1_01B7F25A:
+ BYTE   N24  An3  v084
+ BYTE   W24
+ BYTE   N12  Gn3  v088
+ BYTE   W24
+ BYTE   N48  En3
+ BYTE   W48
+ BYTE   PEND 
+// 018   ----------------------------------------
+ BYTE   N12  As3
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+ BYTE   Gn3
+ BYTE   W12
+ BYTE   An3
+ BYTE   W12
+// 019   ----------------------------------------
+ BYTE   N48  En3
+ BYTE   W96
+// 020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1_01B7F247
+// 021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_1_01B7F25A
+// 022   ----------------------------------------
+ BYTE   N12  As3  v088
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Fn4
+ BYTE   W12
+ BYTE   En4
+ BYTE   W12
+ BYTE   Dn4
+ BYTE   W12
+ BYTE   Cn4
+ BYTE   W12
+ BYTE   As3
+ BYTE   W12
+// 023   ----------------------------------------
+ BYTE   N24  Bn3
+ BYTE   W24
+ BYTE   Gs3  v080
+ BYTE   W24
+ BYTE   N48  An3  v088
+ BYTE   W48
+// 024   ----------------------------------------
+ BYTE   W96
+// 025   ----------------------------------------
+ BYTE   W96
+// 026   ----------------------------------------
+ BYTE   W96
+// 027   ----------------------------------------
+ BYTE   W96
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_1_01B7F180
+ BYTE   FINE
+
+//**************** Track 3 (Midi-Chn.2) ****************//
+
+CovertTownFargabaad_003:
+// 000   ----------------------------------------
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v-5
+ BYTE   VOL   38*CovertTownFargabaad_mvl/mxv
+ BYTE   VOICE   48
+Label_2_01C3913C:
+ BYTE   N96  Gn1  v088
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   Fn1
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   N48  Ds1
+ BYTE   W48
+ BYTE   En1
+ BYTE   W48
+// 003   ----------------------------------------
+ BYTE   N96  Dn1
+ BYTE   W96
+// 004   ----------------------------------------
+ BYTE   As1
+ BYTE   W96
+// 005   ----------------------------------------
+ BYTE   Gs1
+ BYTE   W96
+// 006   ----------------------------------------
+ BYTE   N48  Fs1
+ BYTE   W48
+ BYTE   Gn1
+ BYTE   W48
+// 007   ----------------------------------------
+ BYTE   N96  Fn1
+ BYTE   W96
+// 008   ----------------------------------------
+Label_2_01C39156:
+ BYTE   N07  Dn1  v072
+ BYTE   N07  Dn2  v048
+ BYTE   W12
+ BYTE   Dn1  v072
+ BYTE   N07  Dn2  v048
+ BYTE   W12
+ BYTE   An1  v072
+ BYTE   N07  An2  v048
+ BYTE   W12
+ BYTE   An1  v072
+ BYTE   N07  An2  v048
+ BYTE   W60
+ BYTE   PEND 
+// 009   ----------------------------------------
+Label_2_01C39170:
+ BYTE   N07  Cn1  v072
+ BYTE   N07  Cn2  v048
+ BYTE   W12
+ BYTE   Cn1  v072
+ BYTE   N07  Cn2  v048
+ BYTE   W12
+ BYTE   Gn1  v072
+ BYTE   N07  Gn2  v048
+ BYTE   W12
+ BYTE   Gn1  v072
+ BYTE   N07  Gn2  v048
+ BYTE   W60
+ BYTE   PEND 
+// 010   ----------------------------------------
+Label_2_01C3918A:
+ BYTE   N07  As0  v072
+ BYTE   N07  As1  v048
+ BYTE   W12
+ BYTE   As0  v072
+ BYTE   N07  As1  v048
+ BYTE   W12
+ BYTE   Fn1  v072
+ BYTE   N07  Fn2  v048
+ BYTE   W12
+ BYTE   Fn1  v072
+ BYTE   N07  Fn2  v048
+ BYTE   W60
+ BYTE   PEND 
+// 011   ----------------------------------------
+Label_2_01C391A4:
+ BYTE   W12
+ BYTE   N07  An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W12
+ BYTE   An1  v072
+ BYTE   N07  An2  v048
+ BYTE   W12
+ BYTE   An1  v072
+ BYTE   N07  An2  v048
+ BYTE   W12
+ BYTE   An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   PEND 
+// 012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C39156
+// 013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C39170
+// 014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C3918A
+// 015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C391A4
+// 016   ----------------------------------------
+Label_2_01C391E5:
+ BYTE   N07  Gn0  v072
+ BYTE   N07  Gn1  v048
+ BYTE   W12
+ BYTE   Gn0  v072
+ BYTE   N07  Gn1  v048
+ BYTE   W12
+ BYTE   Dn1  v072
+ BYTE   N07  Dn2  v048
+ BYTE   W12
+ BYTE   Dn1  v072
+ BYTE   N07  Dn2  v048
+ BYTE   W60
+ BYTE   PEND 
+// 017   ----------------------------------------
+Label_2_01C391FF:
+ BYTE   N07  An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W60
+ BYTE   PEND 
+// 018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C3918A
+// 019   ----------------------------------------
+ BYTE   N07  An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W24
+ BYTE   An1  v072
+ BYTE   N07  An2  v048
+ BYTE   W12
+ BYTE   An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+ BYTE   An0  v072
+ BYTE   N07  An1  v048
+ BYTE   W12
+// 020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C391E5
+// 021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C391FF
+// 022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C3918A
+// 023   ----------------------------------------
+ BYTE   N07  En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W12
+ BYTE   En1  v072
+ BYTE   N07  En2  v048
+ BYTE   W12
+ BYTE   Gs1  v072
+ BYTE   N07  Gs2  v048
+ BYTE   W12
+ BYTE   Gs1  v072
+ BYTE   N07  Gs2  v048
+ BYTE   W12
+ BYTE   An1  v072
+ BYTE   N07  An2  v048
+ BYTE   W24
+ BYTE   N24  An0  v072
+ BYTE   N24  An1  v048
+ BYTE   W24
+// 024   ----------------------------------------
+ BYTE   N12  Dn1  v088
+ BYTE   W24
+ BYTE   An1  v080
+ BYTE   W24
+ BYTE   N72  Dn2  v072
+ BYTE   W48
+// 025   ----------------------------------------
+Label_2_01C39289:
+ BYTE   W24
+ BYTE   N07  Dn1  v088
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 026   ----------------------------------------
+ BYTE   N12
+ BYTE   W24
+ BYTE   An1  v080
+ BYTE   W24
+ BYTE   N72  Cn2  v072
+ BYTE   W48
+// 027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_2_01C39289
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_2_01C3913C
+ BYTE   FINE
+
+//**************** Track 4 (Midi-Chn.3) ****************//
+
+CovertTownFargabaad_004:
+// 000   ----------------------------------------
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v+0
+ BYTE   VOICE   46
+Label_3_01C39376:
+ BYTE   PAN   c_v+0
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   W96
+// 003   ----------------------------------------
+ BYTE   W96
+// 004   ----------------------------------------
+ BYTE   W96
+// 005   ----------------------------------------
+ BYTE   W96
+// 006   ----------------------------------------
+ BYTE   W96
+// 007   ----------------------------------------
+ BYTE   W96
+// 008   ----------------------------------------
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   W96
+// 010   ----------------------------------------
+ BYTE   W96
+// 011   ----------------------------------------
+ BYTE   W96
+// 012   ----------------------------------------
+ BYTE   W96
+// 013   ----------------------------------------
+ BYTE   W96
+// 014   ----------------------------------------
+ BYTE   W96
+// 015   ----------------------------------------
+ BYTE   W96
+// 016   ----------------------------------------
+ BYTE   W96
+// 017   ----------------------------------------
+ BYTE   W96
+// 018   ----------------------------------------
+ BYTE   W96
+// 019   ----------------------------------------
+ BYTE   W96
+// 020   ----------------------------------------
+ BYTE   W96
+// 021   ----------------------------------------
+ BYTE   W96
+// 022   ----------------------------------------
+ BYTE   W80
+ BYTE   PAN   c_v-63
+ BYTE   W16
+// 023   ----------------------------------------
+ BYTE   W72
+ BYTE   W14
+ BYTE   VOL   21*CovertTownFargabaad_mvl/mxv
+ BYTE   W10
+// 024   ----------------------------------------
+ BYTE   PAN   c_v-63
+ BYTE   N05  Dn4  v060
+ BYTE   W02
+ BYTE   VOL   21*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-62
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   23*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-60
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   24*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-58
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-56
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-54
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   27*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-52
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   29*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-50
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   30*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-48
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-46
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-44
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   34*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-42
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   35*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-40
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   37*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-38
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   38*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-36
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   39*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-34
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   41*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+// 025   ----------------------------------------
+ BYTE   PAN   c_v-32
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   43*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-30
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   44*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-28
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   45*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-26
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   48*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-24
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   49*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-22
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   51*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-20
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   52*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-18
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   54*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-16
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   57*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-14
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   58*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-12
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   59*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-10
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   61*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-8
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   63*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-6
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   64*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-4
+ BYTE   N05  Dn4
+ BYTE   W02
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-2
+ BYTE   N05  En4
+ BYTE   W02
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W03
+ BYTE   W01
+// 026   ----------------------------------------
+ BYTE   PAN   c_v+0
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+2
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+4
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   64*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+6
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   63*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+8
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   61*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+10
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   59*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+12
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   58*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+14
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   57*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+16
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   54*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+18
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   52*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+20
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   51*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+22
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   49*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+24
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   48*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+26
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   46*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+28
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   45*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+30
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   43*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+// 027   ----------------------------------------
+ BYTE   PAN   c_v+32
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   41*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+34
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   39*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+36
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   38*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+38
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   37*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+40
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   35*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+42
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   34*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+44
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+46
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+48
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   30*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+50
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   29*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+52
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   27*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+54
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+56
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+58
+ BYTE   N05  En4
+ BYTE   W04
+ BYTE   VOL   23*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+60
+ BYTE   N05  Cn4
+ BYTE   W04
+ BYTE   VOL   22*CovertTownFargabaad_mvl/mxv
+ BYTE   W02
+ BYTE   PAN   c_v+62
+ BYTE   N05  En4
+ BYTE   W03
+ BYTE   PAN   c_v+63
+ BYTE   W01
+ BYTE   W02
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_3_01C39376
+ BYTE   FINE
+
+//**************** Track 5 (Midi-Chn.4) ****************//
+
+CovertTownFargabaad_005:
+// 000   ----------------------------------------
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v+0
+ BYTE   VOICE   46
+Label_4_01C395D2:
+ BYTE   PAN   c_v+0
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   W96
+// 003   ----------------------------------------
+ BYTE   W96
+// 004   ----------------------------------------
+ BYTE   W96
+// 005   ----------------------------------------
+ BYTE   W96
+// 006   ----------------------------------------
+ BYTE   W96
+// 007   ----------------------------------------
+ BYTE   W96
+// 008   ----------------------------------------
+ BYTE   W96
+// 009   ----------------------------------------
+ BYTE   W96
+// 010   ----------------------------------------
+ BYTE   W96
+// 011   ----------------------------------------
+ BYTE   W96
+// 012   ----------------------------------------
+ BYTE   W96
+// 013   ----------------------------------------
+ BYTE   W96
+// 014   ----------------------------------------
+ BYTE   W96
+// 015   ----------------------------------------
+ BYTE   W96
+// 016   ----------------------------------------
+ BYTE   W96
+// 017   ----------------------------------------
+ BYTE   W96
+// 018   ----------------------------------------
+ BYTE   W96
+// 019   ----------------------------------------
+ BYTE   W96
+// 020   ----------------------------------------
+ BYTE   W96
+// 021   ----------------------------------------
+ BYTE   W96
+// 022   ----------------------------------------
+ BYTE   W96
+// 023   ----------------------------------------
+ BYTE   W44
+ BYTE   W03
+ BYTE   PAN   c_v+63
+ BYTE   W28
+ BYTE   W03
+ BYTE   VOL   21*CovertTownFargabaad_mvl/mxv
+ BYTE   W18
+// 024   ----------------------------------------
+ BYTE   PAN   c_v+63
+ BYTE   N05  Fn3  v060
+ BYTE   W02
+ BYTE   VOL   21*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+62
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   23*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+60
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   24*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+58
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+56
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+54
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   27*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+52
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   29*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+50
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   30*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+48
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+46
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+44
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   34*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+42
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   35*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+40
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   37*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+38
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   38*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+36
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   39*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+34
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   41*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+// 025   ----------------------------------------
+ BYTE   PAN   c_v+32
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   43*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+30
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   44*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+28
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   45*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+26
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   48*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+24
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   49*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+22
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   51*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+20
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   52*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+18
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   54*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+16
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   57*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+14
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   58*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+12
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   59*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+10
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   61*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+8
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   63*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+6
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   64*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+4
+ BYTE   N05  Fn3
+ BYTE   W02
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v+2
+ BYTE   N05  An3
+ BYTE   W02
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+// 026   ----------------------------------------
+ BYTE   PAN   c_v+0
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-2
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   67*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-4
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   64*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-6
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   63*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-8
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   61*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-10
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   59*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-12
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   58*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-14
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   57*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-16
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   54*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-18
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   52*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-20
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   51*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-22
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   49*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-24
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   48*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-26
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   46*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-28
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   45*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-30
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   44*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+// 027   ----------------------------------------
+ BYTE   PAN   c_v-32
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   42*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-34
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   40*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-36
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   38*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-38
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   37*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-40
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   35*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-42
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   34*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-44
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-46
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-48
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   30*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-50
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   29*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-52
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   27*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-54
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-55
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   25*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-57
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   24*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-59
+ BYTE   N05  Fs3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   23*CovertTownFargabaad_mvl/mxv
+ BYTE   W04
+ BYTE   PAN   c_v-61
+ BYTE   N05  An3
+ BYTE   W01
+ BYTE   W01
+ BYTE   VOL   21*CovertTownFargabaad_mvl/mxv
+ BYTE   W01
+ BYTE   PAN   c_v-63
+ BYTE   W01
+ BYTE   W02
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_4_01C395D2
+ BYTE   FINE
+
+//**************** Track 6 (Midi-Chn.5) ****************//
+
+CovertTownFargabaad_006:
+// 000   ----------------------------------------
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v+0
+ BYTE   VOICE   49
+Label_5_01C3904A:
+ BYTE   VOL   69*CovertTownFargabaad_mvl/mxv
+ BYTE   N96  As2  v036
+ BYTE   N96  Dn3
+ BYTE   N96  Gn3
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   An2
+ BYTE   N96  Cn3
+ BYTE   N96  Fn3
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   N48  Gn2
+ BYTE   N48  As2
+ BYTE   N48  Ds3
+ BYTE   W48
+ BYTE   Gn2
+ BYTE   N48  Cn3
+ BYTE   N48  En3
+ BYTE   W48
+// 003   ----------------------------------------
+ BYTE   N96  An2
+ BYTE   N96  Dn3
+ BYTE   N96  Fs3
+ BYTE   W96
+// 004   ----------------------------------------
+ BYTE   Cs3
+ BYTE   N96  Fn3
+ BYTE   N96  As3
+ BYTE   W96
+// 005   ----------------------------------------
+ BYTE   Cn3
+ BYTE   N96  Ds3
+ BYTE   N96  Gs3
+ BYTE   W96
+// 006   ----------------------------------------
+ BYTE   N48  As2
+ BYTE   N48  Cs3
+ BYTE   N48  Fs3
+ BYTE   W48
+ BYTE   As2
+ BYTE   N48  Ds3
+ BYTE   N48  Gn3
+ BYTE   W48
+// 007   ----------------------------------------
+ BYTE   N96  Cn3
+ BYTE   N96  Fn3
+ BYTE   N96  An3
+ BYTE   W96
+// 008   ----------------------------------------
+Label_5_01C3908E:
+ BYTE   N96  Dn3  v036
+ BYTE   N96  Fn3
+ BYTE   N96  An3
+ BYTE   W96
+ BYTE   PEND 
+// 009   ----------------------------------------
+Label_5_01C39097:
+ BYTE   N96  Cn3  v036
+ BYTE   N96  En3
+ BYTE   N96  Gn3
+ BYTE   W96
+ BYTE   PEND 
+// 010   ----------------------------------------
+Label_5_01C390A0:
+ BYTE   N96  As2  v036
+ BYTE   N96  Dn3
+ BYTE   N96  Fn3
+ BYTE   W96
+ BYTE   PEND 
+// 011   ----------------------------------------
+Label_5_01C390A9:
+ BYTE   N96  An2  v036
+ BYTE   N96  Cs3
+ BYTE   N96  En3
+ BYTE   W96
+ BYTE   PEND 
+// 012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C3908E
+// 013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C39097
+// 014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A0
+// 015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A9
+// 016   ----------------------------------------
+Label_5_01C390C6:
+ BYTE   N96  Gn2  v036
+ BYTE   N96  As2
+ BYTE   N96  Dn3
+ BYTE   W96
+ BYTE   PEND 
+// 017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A9
+// 018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A0
+// 019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A9
+// 020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390C6
+// 021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A9
+// 022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_5_01C390A0
+// 023   ----------------------------------------
+ BYTE   VOL   28*CovertTownFargabaad_mvl/mxv
+ BYTE   N48  Gs2  v036
+ BYTE   N48  Bn2
+ BYTE   N48  En3
+ BYTE   W48
+ BYTE   An2
+ BYTE   N48  Cs3
+ BYTE   N48  En3
+ BYTE   N48  Gn3
+ BYTE   W48
+// 024   ----------------------------------------
+ BYTE   TIE  An2  v028
+ BYTE   TIE  Dn3
+ BYTE   TIE  Fn3
+ BYTE   W96
+// 025   ----------------------------------------
+ BYTE   W96
+// 026   ----------------------------------------
+ BYTE   EOT
+ BYTE   An2  v062
+ BYTE   Fn3
+ BYTE   TIE  An2
+ BYTE   TIE  Cn3
+ BYTE   TIE  En3
+ BYTE   TIE  Fs3
+ BYTE   W96
+// 027   ----------------------------------------
+ BYTE   W96
+// 028   ----------------------------------------
+ BYTE   EOT
+ BYTE   An2  v060
+ BYTE   En3  v066
+ BYTE   GoTo
+  POIN2 Label_5_01C3904A
+ BYTE   FINE
+
+//**************** Track 7 (Midi-Chn.6) ****************//
+
+CovertTownFargabaad_007:
+// 000   ----------------------------------------
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v+5
+ BYTE   VOL   28*CovertTownFargabaad_mvl/mxv
+ BYTE   VOICE   32
+Label_6_01B7F2F0:
+ BYTE   N96  Gn1  v060
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   Fn1
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   N48  Ds1
+ BYTE   W48
+ BYTE   En1
+ BYTE   W48
+// 003   ----------------------------------------
+ BYTE   N96  Dn1
+ BYTE   W96
+// 004   ----------------------------------------
+ BYTE   As1
+ BYTE   W96
+// 005   ----------------------------------------
+ BYTE   Gs1
+ BYTE   W96
+// 006   ----------------------------------------
+ BYTE   N48  Fs1
+ BYTE   W48
+ BYTE   Gn1
+ BYTE   W48
+// 007   ----------------------------------------
+ BYTE   N96  Fn1
+ BYTE   W96
+// 008   ----------------------------------------
+Label_6_01B7F30A:
+ BYTE   N07  Dn1  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   An1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 009   ----------------------------------------
+Label_6_01B7F315:
+ BYTE   N07  Cn1  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   Gn1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 010   ----------------------------------------
+Label_6_01B7F320:
+ BYTE   N07  As0  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   Fn1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 011   ----------------------------------------
+Label_6_01B7F32B:
+ BYTE   W12
+ BYTE   N07  An0  v048
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   An1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   An0
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   PEND 
+// 012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F30A
+// 013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F315
+// 014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F320
+// 015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F32B
+// 016   ----------------------------------------
+Label_6_01B7F351:
+ BYTE   N07  Gn0  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   Dn1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 017   ----------------------------------------
+Label_6_01B7F35C:
+ BYTE   N07  An0  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F320
+// 019   ----------------------------------------
+ BYTE   N07  An0  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   En1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W24
+ BYTE   An1
+ BYTE   W12
+ BYTE   An0
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+// 020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F351
+// 021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F35C
+// 022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F320
+// 023   ----------------------------------------
+ BYTE   N07  En1  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   Gs1
+ BYTE   W12
+ BYTE   N07
+ BYTE   W12
+ BYTE   An1
+ BYTE   W24
+ BYTE   N24  An0  v060
+ BYTE   W24
+// 024   ----------------------------------------
+ BYTE   N12  Dn1
+ BYTE   W24
+ BYTE   An1
+ BYTE   W24
+ BYTE   N72  Dn2
+ BYTE   W48
+// 025   ----------------------------------------
+Label_6_01B7F3A3:
+ BYTE   W24
+ BYTE   N07  Dn1  v048
+ BYTE   W12
+ BYTE   N07
+ BYTE   W60
+ BYTE   PEND 
+// 026   ----------------------------------------
+ BYTE   N12  Dn1  v060
+ BYTE   W24
+ BYTE   An1
+ BYTE   W24
+ BYTE   N72  Cn2
+ BYTE   W48
+// 027   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_6_01B7F3A3
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_6_01B7F2F0
+ BYTE   FINE
+
+//**************** Track 8 (Midi-Chn.7) ****************//
+
+CovertTownFargabaad_008:
+// 000   ----------------------------------------
+ BYTE   KEYSH   CovertTownFargabaad_key+0
+ BYTE   MODT 0
+ BYTE   LFOS 44
+ BYTE   PAN   c_v+0
+ BYTE   VOL   32*CovertTownFargabaad_mvl/mxv
+ BYTE   VOICE   124
+Label_7_01B7F65C:
+ BYTE   W96
+// 001   ----------------------------------------
+ BYTE   W96
+// 002   ----------------------------------------
+ BYTE   W96
+// 003   ----------------------------------------
+ BYTE   W96
+// 004   ----------------------------------------
+ BYTE   W96
+// 005   ----------------------------------------
+ BYTE   W96
+// 006   ----------------------------------------
+ BYTE   W96
+// 007   ----------------------------------------
+ BYTE   W96
+// 008   ----------------------------------------
+Label_7_01B7F664:
+ BYTE   N12  Dn4  v012
+ BYTE   W24
+ BYTE   N01  As4  v028
+ BYTE   W12
+ BYTE   N01
+ BYTE   W12
+ BYTE   Bn4
+ BYTE   W48
+ BYTE   PEND 
+// 009   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 010   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 011   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 012   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 013   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 014   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 015   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 016   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 017   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 018   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 019   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 020   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 021   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 022   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 023   ----------------------------------------
+ BYTE   PATT
+  POIN2 Label_7_01B7F664
+// 024   ----------------------------------------
+ BYTE   W96
+// 025   ----------------------------------------
+ BYTE   W96
+// 026   ----------------------------------------
+ BYTE   W96
+// 027   ----------------------------------------
+ BYTE   W96
+// 028   ----------------------------------------
+ BYTE   GoTo
+  POIN2 Label_7_01B7F65C
+ BYTE   FINE
+
+//******************************************************//
+	ALIGN 4
+
+CovertTownFargabaad:
+	BYTE	8	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	CovertTownFargabaad_pri	// Priority
+	BYTE	CovertTownFargabaad_rev	// Reverb.
+    
+	POIN2	CovertTownFargabaad_grp
+    
+	POIN2	CovertTownFargabaad_001
+	POIN2	CovertTownFargabaad_002
+	POIN2	CovertTownFargabaad_003
+	POIN2	CovertTownFargabaad_004
+	POIN2	CovertTownFargabaad_005
+	POIN2	CovertTownFargabaad_006
+	POIN2	CovertTownFargabaad_007
+	POIN2	CovertTownFargabaad_008
+
+	

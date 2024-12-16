@@ -42,6 +42,39 @@
 
 #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
+//Leaving War of Lovers definitions alone.
+//Will reuse several of them anyway.
+
+//SHPC Characters:
+//Generation 1: NES and Contemporaries
+#define FighterFF1 0x06
+#define WhiteMage 0x07
+#define BlackMage 0x08
+#define Firion 0x09
+#define Maria 0x0a
+#define Guy 0x0b
+#define HeroDW1 0x0c
+#define HeroDQ1 HeroDW1
+#define Erdrick 0x0d
+#define SoldierDW3 0x0e
+#define SoldierDQ3 SoldierDW3
+//No Ephraim, I'm not touching your slot until I'm desperate
+#define Alena 0x10
+#define Cristo 0x11
+#define Taloon 0x12
+#define Ninten 0x13
+#define Ana 0x14
+#define Lloyd 0x15
+#define Alis 0x16
+#define Odin 0x17
+#define Banutu 0x18
+#define Nakajima 0x19
+#define Yumiko 0x1a
+#define Arle 0x1b
+#define British 0x1c
+
+#define Zande 0x50
+
 //Characters
 //Fire Emblem: full roster defined for no-gacha modes.
 //Some are set in stone and will always be present.
@@ -422,6 +455,7 @@
 #define Helicopter 0xB6
 #define Battleship 0xB7
 #define Submarine 0xB8
+#define Halberdier_F 0xB9
 
 //Map sprites
 #define MarthSprite 0x0
@@ -449,7 +483,7 @@
 #define Dulam Eclipse
 #define Doulam Dulam
 #define Maph Gleipnir
-#define IotesShield FiliShield
+#define IotesShield DelphiShield
 #define WingSpear Reginleif
 #define FireGun 0x98
 #define Elephant 0x99
@@ -535,8 +569,32 @@
 #define M_ScarsOfTheScouring Confront_the_Past
 //one of the sad FE7 songs Sorrow
 
+//SHPC tracks
+#define M_Prelude 0x05
+#define M_Coneria 0x06
+#define M_TempleOfFiends 0x07
+#define M_BattleFF1 0x08
+#define M_OverworldFF1 0xB
+#define M_ImperialArmy 0xC
+#define M_RebelArmy 0xD
+#define M_AirshipInvincible 0xF
+#define M_Battle1FF3 0x11
+#define M_BossFF3 0x12
+#define M_DarkCloud 0x15
+#define M_SylxTower 0x16
+#define M_EternalWind 0x17
+#define M_Requiem Game_Over
+#define M_CovertTownFargabaad 0x27
+
+#define M_Pollyanna 0x18
+#define M_TryOut 0x1D
+#define M_CombatMission 0x1E
+#define M_WarOfDarkness 0x28
+#define M_RottingSeaOfFlames 0x1F
+
 //VA
 //26D to 2BB all empty
+//Unnecessary here, feel free to reuse
 
 #define VoiceMarioSummon 0x26D
 #define VoiceLuigiSummon 0x26E
@@ -611,4 +669,44 @@
 
 //Event IDs
 #define JamModeOn 0x71
-#define DiamantDead 0x72
+#define Gen1GuideFlag 0x72
+#define Gen1GuideReadFlag 0x73
+#define HideBossIcons 0x84
+//FE4 LOVE CONVO RULES:
+//Gen 1: A girl has three suitors. A boy can talk to one or two girls.
+//Claude x Aideen is outside of this, and Fin/Levin Gen 2 stuff is too.
+//You've no Ethlin, so don't fuss a third.
+#define MariaFirionPaired 0x74 //vaguely implied
+#define MariaGuyPaired 0x75 //or the other guy
+#define MariaBritishPaired 0x76 //the progenitor and the pillar
+#define SoldierErdrickPaired 0x77 //like with like
+#define SoldierHeroPaired 0x78 //your own ancestor?
+#define SoldierFirionPaired 0x79 //FF and DW unite!
+#define AlenaCristoPaired 0x7A //aw, it goes both ways!
+#define AlenaTaloonPaired 0x7B //you caused a divorce
+#define AlenaHeroPaired 0x7C //crossing continunities
+#define AlenaMarthPaired 0x90 //Marth's type is now "strong"
+#define AnaNintenPaired 0x7D //they confess in-game!
+#define AnaLloydPaired 0x7E //or you could ignore that
+#define AnaBlackMagePaired 0x7F //magic power!
+#define SheedaMarthPaired 0x80 //canon!
+#define SheedaBanutuPaired 0x81 //what have I done?
+#define SheedaGuyPaired 0x82 //I'm imagining Lilina and Gonzales
+#define SheedaTaloonPaired 0x8F //double divorce - how awful!
+#define YumikoNakajimaPaired 0x83 //dungeon crawler couple
+#define YumikoBritishPaired 0x85 //MT takes a lot from the oldest
+#define YumikoOdinPaired 0x86 //swap things around
+#define YumikoBanutuPaired 0x8D //some demon logic
+#define AlisOdinPaired 0x87 //now in space!
+#define AlisNintenPaired 0x88 //burgers!
+#define AlisNakajimaPaired 0x89 //technology!
+#define AlisMarthPaired 0x8E //my poor canon
+#define ArleBlackMagePaired 0x8A //both mages
+#define ArleLloydPaired 0x8B //smart guys like puzzles
+#define ArleCristoPaired 0x8C //pair the spares
+
+//Gen 2: A girl usually has three suitors: Celice, the pseudo-canon pairing,
+//and the incestuous (or bigger age gap/canon-breaking) pairing.
+//They ran out of budget, so Leen has no lover's conversations whatsoever.
+//Substitutes also complicate things.
+//The boys usually get one convo. Shanan and Leaf get two and Celice is a hog.

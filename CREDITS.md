@@ -1,6 +1,8 @@
+Most of these go unused and are leftover from War of Lovers.
+
 # Portraits:
-- Marth: Alusq
-- Sheeda: FE3 Book 2 (Darrman)
+- Marth: Alusq (FE3-style), FE1 (Darrman)
+- Sheeda: FE3 Book 2, FE1 (Darrman)
 - Chiki: FE3 Book 2 (Darrman)
 - Marich: Alusq
 - Rody: FE3 Book 2 (Darrman)
@@ -40,11 +42,10 @@
 
 - Kain: Alusq
 - Gordon: Alusq
-- Banutu: FE3 Book 2 (Darrman)
+- Banutu: FE1, FE3 Book 2 (Darrman)
 - Cecil: FE3 Book 2 (Darrman)
 - Ellis: FE3 Book 2 (Darrman)
 - Gato: FE3 Book 2 (Darrman)
-
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
@@ -133,6 +134,31 @@
 - Lyn: FE7
 - Leaf: FE4 (Darrman)
 - Byleth: FE16 (Darrman)
+
+- Fighter: Final Fantasy 1 (Darrman)
+- White Mage: Final Fantasy 1 (Darrman)
+- Black Mage: Final Fantasy 1 (Darrman)
+- Thief: Final Fantasy 1 (Darrman)
+- Garland: Final Fantasy 1 (Darrman)
+- Firion: Final Fantasy 2 (Darrman)
+- Maria: Final Fantasy 2 (Darrman)
+- Guy: Final Fantasy 2 (Darrman)
+- Hero: Dragon Quest 1 (Darrman)
+- Erdrick: Dragon Quest 3 (Darrman)
+- Soldier: Dragon Quest 3 (Darrman)
+- Priest: Dragon Quest 3 (Darrman)
+- Alena: Dragon Quest 4 (Darrman)
+- Cristo: Dragon Quest 4 (Darrman)
+- Taloon: Dragon Quest 4 (Darrman)
+- Ninten: Mother 1 (Darrman)
+- Ana: Mother 1 (Darrman)
+- Lloyd: Mother 1 (Darrman)
+- Alis: Phantasy Star 1 (Darrman)
+- Odin: Phantasy Star 1 (Darrman)
+- Arle: Madou Monogatari 2 (Darrman)
+- Nakajima: Megami Tensei 1 (Darrman)
+- Yumiko: Megami Tensei 1 (Darrman)
+- British: Akalabeth (Darrman)
 
 # Animations:
 
@@ -254,6 +280,25 @@
 - Triumph: Alice
 - Into the Shadow of Triumph: Alice
 - Scars of the Scouring: 7743
+
+- Prelude: 7743
+- Coneria: 7743
+- Temple of Fiends: 7743
+- Battle (FF1): 7743
+- Overworld (FF1): 7743
+- Imperial Army: 7743
+- Rebel Army: 7743
+- Airship Invincible: 7743
+- Battle (FF3): 7743
+- Boss (FF3): 7743
+- Dark Cloud: 7743
+- Sylx Tower: 7743
+- Eternal Wind: 7743
+- Requiem: 7743
+- Covert Town Fargabaad: 7743
+- Pollyanna: 7743
+- Try Out: Sme
+- Rotting Sea of Flames: 7743
 
 - Voice lines from:
 - Marth: Fire Emblem Heroes

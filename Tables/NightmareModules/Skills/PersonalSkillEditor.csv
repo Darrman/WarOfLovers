@@ -1,33 +1,33 @@
 INLINE PersonalSkillTable,Skill
 None,0x0
-Eirika,0x0
-Seth,0x0
-Gilliam,0x0
-Franz,0x0
-Moulder,0x0
-Vanessa,0x0
-Ross,0x0
-Neimi,0x0
-Colm,0x0
-Garcia,0x0
-Innes,0x0
-Lute,0x0
-Natasha,0x0
-Cormag,0x0
-Ephraim,0x0
-Forde,0x0
-Kyle,0x0
-Amelia,0x0
-Artur,0x0
-Gerik,0x0
-Tethys,0x0
-Marisa,0x0
-Saleh,0x0
-Ewan,0x0
-L'Arachel,0x0
-Dozla,0x0
-0,0x0
-Rennac,0x0
+Marth,ProvokeID
+Sheeda,CharismaID
+Chiki,0x0
+Marich,0x0
+Mario,0x0
+Fighter,0x0
+White Mage,0x0
+Black Mage,0x0
+Firion,InsightID
+Maria,DesperationID
+Guy,VigilanceID
+Dragon Warrior 1 Hero,LunaID
+Erdrick (some take on Ironise?),BracingStanceID
+Soldier,0x0
+Blank - Ephraim,0x0
+Alena (FE4 Critical?),CritUpID
+Cristo,LethalityID
+Taloon,SupplyID
+Ninten,RepositionID
+Ana,SwapID
+Lloyd,DeadeyeID
+Alis,AstraID
+Odin,SavageBlowID
+Banutu,0x0
+Nakajima,SummonID
+Yumiko,MiracleID
+Arle,AdeptID
+British,GreatShieldID
 Duessel,0x0
 Myrrh,0x0
 Knoll,0x0
