@@ -435,3 +435,42 @@
 #define JamModeOn 0x71
 #define Gen1GuideFlag 0x72
 #define Gen1GuideReadFlag 0x73
+#define HideBossIcons 0x84
+//FE4 LOVE CONVO RULES:
+//Gen 1: A girl has three suitors. A boy can talk to one or two girls.
+//Claude x Aideen is outside of this, and Fin/Levin Gen 2 stuff is too.
+//You've no Ethlin, so don't fuss a third.
+#define MariaFirionPaired 0x74 //vaguely implied
+#define MariaGuyPaired 0x75 //or the other guy
+#define MariaBritishPaired 0x76 //the progenitor and the pillar
+#define SoldierErdrickPaired 0x77 //like with like
+#define SoldierHeroPaired 0x78 //your own ancestor?
+#define SoldierFirionPaired 0x79 //FF and DW unite!
+#define AlenaCristoPaired 0x7A //aw, it goes both ways!
+#define AlenaTaloonPaired 0x7B //you caused a divorce
+#define AlenaHeroPaired 0x7C //crossing continunities
+#define AlenaMarthPaired 0x90 //Marth's type is now "strong"
+#define AnaNintenPaired 0x7D //they confess in-game!
+#define AnaLloydPaired 0x7E //or you could ignore that
+#define AnaBlackMagePaired 0x7F //magic power!
+#define SheedaMarthPaired 0x80 //canon!
+#define SheedaBanutuPaired 0x81 //what have I done?
+#define SheedaGuyPaired 0x82 //I'm imagining Lilina and Gonzales
+#define SheedaTaloonPaired 0x8F //double divorce - how awful!
+#define YumikoNakajimaPaired 0x83 //dungeon crawler couple
+#define YumikoBritishPaired 0x85 //MT takes a lot from the oldest
+#define YumikoOdinPaired 0x86 //swap things around
+#define YumikoBanutuPaired 0x8D //some demon logic
+#define AlisOdinPaired 0x87 //now in space!
+#define AlisNintenPaired 0x88 //burgers!
+#define AlisNakajimaPaired 0x89 //technology!
+#define AlisMarthPaired 0x8E //my poor canon
+#define ArleBlackMagePaired 0x8A //both mages
+#define ArleLloydPaired 0x8B //smart guys like puzzles
+#define ArleCristoPaired 0x8C //pair the spares
+
+//Gen 2: A girl usually has three suitors: Celice, the pseudo-canon pairing,
+//and the incestuous (or bigger age gap/canon-breaking) pairing.
+//They ran out of budget, so Leen has no lover's conversations whatsoever.
+//Substitutes also complicate things.
+//The boys usually get one convo. Shanan and Leaf get two and Celice is a hog.
