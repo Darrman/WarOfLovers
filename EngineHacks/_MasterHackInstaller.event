@@ -298,4 +298,8 @@ POP
 
   //CHECK_DEPLOYED, etc. fix (7743)
   #include "GachaJam/CheckConditionalFix/State33Fix.event"
+
+  //Set and clear support ranks (7743)
+  #include "GachaJam/SetSupportRank/SetSupportRank.event"
+
   

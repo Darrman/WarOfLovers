@@ -361,3 +361,4 @@ Most of these go unused and are leftover from War of Lovers.
 - Dynamic text entries: Knabepicer
 - Dynamic character portraits: Scraiza
 - State 0x33 fix: 7743
+- Set support ranks: 7743

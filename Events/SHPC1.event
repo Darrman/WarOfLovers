@@ -18,6 +18,18 @@ TurnEventPlayer(0x0,AfterBattlePrep,1)
 END_MAIN
 
 CharacterBasedEvents:
+
+//Defines for the chapter:
+#define MariaPaired 0x7
+#define SoldierPaired 0x8
+#define AlenaPaired 0x9
+#define AnaPaired 0xA
+#define SheedaPaired 0xB
+#define YumikoPaired 0xC
+#define AlisPaired 0xD
+#define ArlePaired 0xE
+//to have a pre-condition, add relevant flag after character 2
+CharacterEvent(MariaPaired,MariaFirionLoversConvo,Firion,Maria)
 END_MAIN
 
 LocationBasedEvents:
@@ -241,83 +253,10 @@ Text(PlaceholderText)
 NoFade
 ENDA
 
-TopLeftVillage:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
+MariaFirionLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT MariaFirionPaired
+Text(PlaceholderText)
+SetSupport(Marth,Sheeda,ASupport) //test before you properly set things up
+POPUP 0xC 0x5A //show "support rank up"; might leave that out and let player infer
 ENDA
-
-VillageByDock:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-VillageInsideWalls:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-CanasOldVillage:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-SouthOfCanas:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-NorthOfEntrance:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-SouthOfEntrance:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
-GIVEITEMTO 0xFFFF
-NoFade
-ENDA
-
-NextToArena:
-Text(HouseBG,PlaceholderText)
-NoFade
-ENDA
-
-TheInn:
-Text(HouseBG,PlaceholderText)
-NoFade
-ENDA
-
-ByVendor:
-Text(HouseBG,PlaceholderText)
-NoFade
-ENDA
-
-Ch12DocksArmoury:
-SHLI IronSword
-ALIGN 4
-
-Ch12EntranceArmoury:
-SHLI IronLance
-ALIGN 4
-
-Ch12CentralVendor:
-SHLI Fire
-ALIGN 4
-
-Ch12EntranceVendor:
-SHLI Heal
-ALIGN 4
-

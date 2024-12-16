@@ -672,6 +672,7 @@
 #define Gen1GuideFlag 0x72
 #define Gen1GuideReadFlag 0x73
 #define HideBossIcons 0x84
+#define DiamantDead 0xFF //get rid of errors
 //FE4 LOVE CONVO RULES:
 //Gen 1: A girl has three suitors. A boy can talk to one or two girls.
 //Claude x Aideen is outside of this, and Fin/Levin Gen 2 stuff is too.

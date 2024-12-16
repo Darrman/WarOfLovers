@@ -1,0 +1,23 @@
+//There's a lot of things here, but I only need the ability to set supports.
+//Even then I don't *need* to but it's much cleaner this way.
+
+SetSupport:
+ALIGN 4
+#incbin ASMC_SetSupport.dmp
+
+ClearSupport:
+ALIGN 4
+#incbin ASMC_ClearSupport.dmp
+
+GetSupport:
+ALIGN 4
+#incbin ASMC_GetSupport.dmp
+
+#define NoSupport 0x0
+#define CSupport 0x1
+#define BSupport 0x2
+#define ASupport 0x3
+
+//0x40 0x0D = ASMC, raws don't allow Builder's two bytes of paramaters
+#define SetSupport(Unit1,Unit2,Rank) "SVAL s2 Rank; BYTE 0x40 0x0D Unit1 Unit2; POIN SetSupport+1"
+#define ClearSupport(Unit) "BYTE 0x40 0x0D Unit 0x00; POIN ClearSupport+1"
