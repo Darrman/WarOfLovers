@@ -90,6 +90,9 @@ TileConfigPointerTable(TempleTileConfig, 0x1A0514) //8A
 #define OstiaTileConfig 0x12
 TileConfigPointerTable(OstiaTileConfig, OstiaTiles) //12 in FE6
 
+#define DragonsGateTileConfig 0xc1
+TileConfigPointerTable(DragonsGateTileConfig, DragonsGateTiles) //C1 in FE7
+
 // -------------------------------OBJ TYPE-------------------------------
 
 #define FieldsObjType 1
@@ -110,8 +113,8 @@ ObjTypePalettePointerTable(FortObjType, 0x1816B8) //3C
 #define DesertObjType 0x42
 ObjTypePalettePointerTable(DesertObjType, 0x17A9F4) //42
 
-#define LavaCastleObjType 0x50
-ObjTypePalettePointerTable(LavaCastleObjType, 0x1756B4) //50
+#define LavaCaveObjType 0x50
+ObjTypePalettePointerTable(LavaCaveObjType, 0x1756B4) //50
 
 #define RuinsObjType 0x5f
 ObjTypePalettePointerTable(RuinsObjType, 0x170DA8) //5F
@@ -127,6 +130,9 @@ ObjTypePalettePointerTable(TempleObjType, 0x1609BC) //88
 
 #define OstiaObjType 0x13
 ObjTypePalettePointerTable(OstiaObjType, OstiaObjects) //13 in FE6
+
+#define DragonsGateObjType 0xc3
+ObjTypePalettePointerTable(DragonsGateObjType, DragonsGateObjects) //0xc3 in FE7
 
 // -------------------------------Palette-------------------------------
 
@@ -199,6 +205,25 @@ ObjTypePalettePointerTable(TemplePalette1, 0x1AD570) //89
 #define OstiaPalette1 0x14
 ObjTypePalettePointerTable(OstiaPalette1, OstiaPalette) //14 in FE6
 
+#define MountainsPaletteFE7 0x6b
+ObjTypePalettePointerTable(MountainsPaletteFE7, FE7MountainousPalette) //6b in FE7
+
+#define FieldsPaletteFE7 0x1e
+ObjTypePalettePointerTable(FieldsPaletteFE7, FE7FieldsPalette) //1e in FE7
+
+#define VillagePaletteFE7Night 0x73
+ObjTypePalettePointerTable(VillagePaletteFE7Night, FE7VillageNightPalette) //73 in FE7
+
+#define DragonsGatePalette1 0xc2
+ObjTypePalettePointerTable(DragonsGatePalette1, DragonsGatePalette) //c2 in FE7
+
+#define CastlePaletteFE6Ostia 0x2d
+ObjTypePalettePointerTable(CastlePaletteFE6Ostia, FE6CastleOstiaPalette) //2d in FE6
+
+#define CastlePaletteFE6Pherae 0x2e
+ObjTypePalettePointerTable(CastlePaletteFE6Pherae, FE6CastlePheraePalette) //edit of ostia
+
+
 // -------------------------------Tile Anims-------------------------------
 
 #define MapAnimsTiles(duration, tileSize, imgPointer) "SHORT duration tileSize; POIN imgPointer"
@@ -225,6 +250,38 @@ OstiaTiles:
 ALIGN 4
 OstiaPalette:
 #incbin "../../../Maps/Tilesets/OstiaPalette.dmp"
+
+ALIGN 4
+DragonsGateObjects:
+#incext Png2Dmp "../../../Maps/Tilesets/DragonsGate.png" --lz77
+
+ALIGN 4
+DragonsGateTiles:
+#incext compress "../../../Maps/Tilesets/DragonsGate.mapchip_config"
+
+ALIGN 4
+DragonsGatePalette:
+#incbin "../../../Maps/Tilesets/DragonsGatePalette.dmp"
+
+ALIGN 4
+FE7FieldsPalette:
+#incbin "../../../Maps/Tilesets/FE7FieldsPalette.dmp"
+
+ALIGN 4
+FE7VillageNightPalette:
+#incbin "../../../Maps/Tilesets/FE7VillageNightPalette.dmp"
+
+ALIGN 4
+FE7MountainousPalette:
+#incbin "../../../Maps/Tilesets/FE7MountainousPalette.dmp"
+
+ALIGN 4
+FE6CastleOstiaPalette:
+#incbin "../../../Maps/Tilesets/FE6CastleOstiaPalette.dmp"
+
+ALIGN 4
+FE6CastlePheraePalette:
+#incbin "../../../Maps/Tilesets/FE6CastlePheraePalette.dmp"
 
 // ------------------------------- MAP ------------------------------------
 

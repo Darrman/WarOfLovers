@@ -6,7 +6,46 @@ Most of these go unused and are leftover from War of Lovers.
 - Chiki: FE3 Book 2 (Darrman)
 - Marich: Alusq
 - Rody: FE3 Book 2 (Darrman)
-- Banutu: FE1 (Darrman)
+- George: FE3 Book 2 (Darrman)
+- Malliesia: Alusq
+- Ricardo: FE3 Book 2 (Darrman)
+- Tomth: FE3 Book 1 (Darrman)
+- Saji: FE3 Book 1 (Darrman)
+- Kashim: FE3 Book 2 (Darrman)
+- Riff: FE1 (Darrman)
+- Linda: FE3 Book 2 (Darrman)
+- Oguma: FE3 Book 2 (Darrman)
+- Barts: FE3 Book 1 (Darrman)
+
+- Lilina: FE6 (Obsidian Daddy, Lenh)
+- Eliwood: FE6 (Obsidian Daddy, Lenh)
+- Roy: FE6 (Obsidian Daddy, Lenh)
+- Miledy: FE6 (Obsidian Daddy, Lenh)
+- Wolt: FE6 (Obsidian Daddy, Lenh)
+- Sophia: FE6 (Obsidian Daddy, Lenh)
+- Astore: FE6 (Obsidian Daddy, Lenh)
+- Fir: FE6 (Obsidian Daddy, Lenh)
+- Bartre: FE6 (Obsidian Daddy, Lenh)
+- Barth: FE6 (Obsidian Daddy, Lenh)
+
+- Alm: Atey
+- Celica: Atey
+- Valbo: FE2 (Darrman)
+- Camus: FE3 Book 1 (Darrman)
+- Dyute: FE2 (Darrman)
+- (Placeholder for undetermined FE2 character)
+
+
+- (All Jugdral characters blank or FE4 (Darrman) as placeholders)
+- Feena: FE3 Book 2 (Darrman)
+- Navarre: FE3 Book 2 (Darrman)
+
+- Kain: Alusq
+- Gordon: Alusq
+- Banutu: FE1, FE3 Book 2 (Darrman)
+- Cecil: FE3 Book 2 (Darrman)
+- Ellis: FE3 Book 2 (Darrman)
+- Gato: FE3 Book 2 (Darrman)
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
@@ -29,7 +68,6 @@ Most of these go unused and are leftover from War of Lovers.
 - Serena: Pokemon Anime (Darrman)
 - Pikachu: Pokemon Red/Blue (Darrman)
 - Jigglypuff: Pokemon Red/Blue (Darrman)
-
 
 - Link: BatimaTheBat
 - Zelda: Sirknite31
@@ -60,10 +98,6 @@ Most of these go unused and are leftover from War of Lovers.
 - Butz: Final Fantasy 5 mobile (Darrman)
 - Terra: Final Fantasy 6 (Darrman)
 
-- Lucina: Garytop
-- Lyn: FE7
-- Leaf: FE4 (Darrman)
-- Byleth: FE16 (Darrman)
 - Alear: Jey the Count
 - Kris: FE12 (Darrman)
 
@@ -85,21 +119,21 @@ Most of these go unused and are leftover from War of Lovers.
 - Louis: FE17 (Darrman)
 - Alfonse: FEH (Darrman)
 
-- Alm: Atey
-- Celica: Atey
-- Chalphy descendant/Celice: FE4 (Darrman)
-- Eliwood: FE6 (Obsidian Daddy, Lenh)
-- Lilina: FE6 (Obsidian Daddy, Lenh)
-- Barth: FE6 (Obsidian Daddy, Lenh)
-- Roy: FE6 (Obsidian Daddy, Lenh)
-- Kain: Alusq
-- Ellis: FE3 (Darrman)
+- "Ratface": FE7
 - "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
 - Amber: FE17 (Darrman)
 - "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
 - Merlinus: FE6 (Obsidian Daddy, Lenh)
 - Guinevere: FE6 (Obsidian Daddy, Lenh)
 - Citrinne: FE17 (Darrman)
+- Framme: FE17 (Darrman)
+- "Executioner": FE6 (Obsidian Daddy, Lenh)
+- Lapis: FE17 (Darrman)
+
+- Lucina: Garytop
+- Lyn: FE7
+- Leaf: FE4 (Darrman)
+- Byleth: FE16 (Darrman)
 
 - Fighter: Final Fantasy 1 (Darrman)
 - White Mage: Final Fantasy 1 (Darrman)
@@ -128,7 +162,7 @@ Most of these go unused and are leftover from War of Lovers.
 
 # Animations:
 
-- Marth: Blaze/Abzel
+- Marth: Blaze/Abzel, helped in debugging by 2WB
 - Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
 - Axe Knight: Primefusion
 - Sword Armour: TheBlindArcher
@@ -137,6 +171,7 @@ Most of these go unused and are leftover from War of Lovers.
 - Infantry: Advance Wars (Amyd, Dark)
 - Anti-Air: Advance Wars (Amyd, Dark)
 - Tank: Advance Wars (Amyd, Dark)
+- Ice Dragon: SqRtOfPi, shadowofchaos, Marlon0024
 
 # Magic Animations:
 - Bolganone: Mikey Seregon
@@ -147,9 +182,12 @@ Most of these go unused and are leftover from War of Lovers.
 - Tornado: Mikey Seregon
 
 # Map Sprites:
-- Marth: Dominus_Vobiscum, Snewping
+- Lord: ThyAnarchists
+- Star Lord: Dominus_Vobiscum, Snewping
+- Mamkute: Jey the Count
 - Free Knight: Agro
 - Axe Knight: Siuloir
+- Arch Knight: FungusCaesar
 - Sword Armour: Agro
 - Axe Armour: Agro
 - Bow Armour: Agro, Blademaster
@@ -224,12 +262,24 @@ Most of these go unused and are leftover from War of Lovers.
 
 - All FE3 music converted by Sme.
 - FE11 Battle Preps: RSFlame
+
 - FE6 Attack: Tristan Hollow
 - For the Commanders: RandomWizard
 - Frontier: 7743
 - Join Us: Tristan Hollow
 - Winning Road: Tristan Hollow
 - Battle for Whose Sake: 7743
+- Charge: Alice
+- When the Rush Comes: 7743
+- An Unexpected Caller: Alice
+- Companions: Alice
+- The Messenger: Alice
+- Stratagem: Cres
+- To the Heights: Cres
+- Enemies Appear: Alice
+- Triumph: Alice
+- Into the Shadow of Triumph: Alice
+- Scars of the Scouring: 7743
 
 - Prelude: 7743
 - Coneria: 7743
@@ -254,6 +304,12 @@ Most of these go unused and are leftover from War of Lovers.
 - Marth: Fire Emblem Heroes
 - Sheeda: Fire Emblem Heroes
 - Chiki: Fire Emblem Heroes
+- Lilina: Fire Emblem Heroes
+- Eliwood: Fire Emblem Heroes
+- Rody: Fire Emblem Heroes
+- Kashim: Fire Emblem Heroes
+- Sophia: Fire Emblem Heroes
+- Bartre: Fire Emblem Heroes
 - Mario: Super Mario 64
 - DK: Donkey Kong 64
 - Link: Super Smash Bros Melee
@@ -272,6 +328,13 @@ Most of these go unused and are leftover from War of Lovers.
 - Wario: Mario Party 1
 - Daisy: Mario Kart Wii
 - Waluigi: Mario Kart Wii
+- Zelda: Super Smash Bros Melee
+- Marin: Hyrule Warriors
+- Dedede: Super Smash Bros Brawl
+- Meta Knight: Super Smash Bros Brawl
+- Falco: Star Fox 64
+- Peppy: Star Fox 64
+- Slippy: Star Fox 64
 
 - Converted by Darrman
 
@@ -294,3 +357,7 @@ Most of these go unused and are leftover from War of Lovers.
 - BWL expansion: LegendOfLoog
 - Convoy expansion: Tequila
 - Autosave killer: Laqieer
+- Remove item from anywhere: 7743
+- Dynamic text entries: Knabepicer
+- Dynamic character portraits: Scraiza
+- State 0x33 fix: 7743

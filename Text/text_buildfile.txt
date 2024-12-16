@@ -27,6 +27,7 @@ Learned  [X]
 #include "unitmenu_text.txt"
 
 #include "Menu/LocationName.txt"
+#include Menu/ChapterNameGoal.txt
 #include Menu/UIChanges.txt
 
 #0x903 HouseText
@@ -43,7 +44,6 @@ This text is a placeholder.[A][X]
 #include Menu/UnitName.txt
 #include Menu/ClassName.txt
 #include Menu/ItemName.txt
-#include Menu/ChapterNameGoal.txt
 #include Menu/SongName.txt
 #include Menu/GuideEntries.txt
 
@@ -51,6 +51,11 @@ This text is a placeholder.[A][X]
 #include Quotes/DeathQuotes.txt
 #include Quotes/RecruitQuotes.txt
 #include Quotes/CharacterEndings.txt
+
+## GenericEscape
+//until I write unique ones
+[MR][LoadCurrent]
+I have escaped![A][X]
 
 #include Story/Chapter1.txt
 #include Story/Chapter2.txt
@@ -63,6 +68,7 @@ This text is a placeholder.[A][X]
 #include Story/Chapter9.txt
 #include Story/Chapter10.txt
 #include Story/Chapter11.txt
+#include Story/Chapter12.txt
 #include Story/MiscPromo.txt
 #include Story/SHPCGen1.txt
 

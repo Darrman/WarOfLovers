@@ -27,10 +27,10 @@ END_MAIN
 
 LocationBasedEvents:
 Chest(RedGem,0,9)
-Chest(RedGem,1,8)
-Chest(RedGem,21,7)
-Chest(RedGem,21,9)
-Chest(RedGem,2,17)
+Chest(ShortSpear,1,8)
+Chest(SteelBow,21,7)
+Chest(Mend,21,9)
+Chest(SteelBlade,2,17)
 Door(12,6)
 Door(6,8)
 Door(9,16)
@@ -42,6 +42,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatAll(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -60,44 +61,44 @@ Good:
 UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [12,4] 0x0  0x0 0x0 0x0 [Falchion, Vulnerary] NoAI
 UNIT Sheeda FalcoKnight 0x00 Level(1,Ally,0) [11,3] 0x0  0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [13,3] 0x0  0x0 0x0 0x0 [DivineStone, Vulnerary] NoAI
-UNIT Yoshi Paladin 0x00 Level(1,Ally,0) [14,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [10,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [15,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [7,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [15,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [16,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [8,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
-UNIT Terra Sage_F 0x00 Level(1,Ally,0) [9,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Paladin 0x00 Level(1,Ally,0) [14,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [10,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [15,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [7,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [15,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [16,2] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [8,1] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
+UNIT Sheeda Sage_F 0x00 Level(1,Ally,0) [9,4] 0x0  0x0 0x0 0x0 [Elfire, Vulnerary] NoAI
 UNIT
 
 Bad:
-UNIT 0x60 /*Dread Isle bandit, needs name*/ Brigand 0x00 Level(10,Enemy,0) [7,20] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] PursueWithoutHeedAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 ArmourKnight 0x00 Level(3,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
-UNIT 0x80 Thief 0x00 Level(3,Enemy,1) [20,21] 0x0 0x0 0x0 0x0 [PoisonSword, Lockpick] LootingThiefAI
-UNIT 0x80 Brigand 0x00 Level(5,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x80 Hunter 0x00 Level(3,Enemy,1) [10,9] DropItem 0x0 0x0 0x0 [PoisonBow, Antitoxin] PursueWithoutHeedAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [17,9] 0x0 0x0 0x0 0x0 [PoisonAxe] PursueWithoutHeedAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [18,6] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 FreeKnight 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
-UNIT 0x80 FreeKnight 0x00 Level(3,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
-UNIT 0x80 FreeKnight 0x00 Level(3,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
-UNIT 0x80 Mercenary 0x00 Level(3,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
-UNIT 0x80 Hunter 0x00 Level(3,Enemy,1) [14,12] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
-UNIT 0x80 Mercenary 0x00 Level(3,Enemy,1) [17,15] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Ch7Boss /*Dread Isle bandit, Rodent "ratface"*/ Brigand 0x00 Level(10,Enemy,0) [7,20] 0x0 0x0 0x0 0x0 [SteelAxe, HandAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric ArmourKnight 0x00 Level(3,Enemy,1) [4,3] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
+UNIT BrigandGeneric Thief 0x00 Level(3,Enemy,1) [20,21] 0x0 0x0 0x0 0x0 [PoisonSword, Lockpick] LootingThiefAI
+UNIT BrigandGeneric Brigand 0x00 Level(5,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric Hunter 0x00 Level(3,Enemy,1) [10,9] DropItem 0x0 0x0 0x0 [PoisonBow, Antitoxin] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [17,9] 0x0 0x0 0x0 0x0 [PoisonAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [18,6] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric FreeKnight 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT BrigandGeneric FreeKnight 0x00 Level(3,Enemy,1) [9,20] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT BrigandGeneric FreeKnight 0x00 Level(3,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT BrigandGeneric Mercenary 0x00 Level(3,Enemy,1) [10,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT BrigandGeneric Hunter 0x00 Level(3,Enemy,1) [14,12] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT BrigandGeneric Mercenary 0x00 Level(3,Enemy,1) [17,15] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
 UNIT
 
 Bad2:
-UNIT 0x80 Mercenary 0x00 Level(3,Enemy,1) [20,4] 0x0 0x0 0x0 0x0 [PoisonSword] AttackInRangeAI
-UNIT 0x80 Mercenary 0x00 Level(3,Enemy,1) [21,3] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
-UNIT 0x80 Hunter 0x00 Level(3,Enemy,1) [20,8] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
-UNIT 0x80 Hunter 0x00 Level(3,Enemy,1) [21,14] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
-UNIT 0x80 ArmourKnight 0x00 Level(3,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [Javelin] GuardTileAI
-UNIT 0x80 Thief 0x00 Level(3,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [PoisonSword, Lockpick] LootingThiefAI
-UNIT 0x80 FreeKnight 0x00 Level(3,Enemy,1) [1,14] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT BrigandGeneric Mercenary 0x00 Level(3,Enemy,1) [20,4] 0x0 0x0 0x0 0x0 [PoisonSword] AttackInRangeAI
+UNIT BrigandGeneric Mercenary 0x00 Level(3,Enemy,1) [21,3] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT BrigandGeneric Hunter 0x00 Level(3,Enemy,1) [20,8] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT BrigandGeneric Hunter 0x00 Level(3,Enemy,1) [21,14] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT BrigandGeneric ArmourKnight 0x00 Level(3,Enemy,1) [6,14] 0x0 0x0 0x0 0x0 [Javelin] GuardTileAI
+UNIT BrigandGeneric Thief 0x00 Level(3,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [PoisonSword, Lockpick] LootingThiefAI
+UNIT BrigandGeneric FreeKnight 0x00 Level(3,Enemy,1) [1,14] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [6,17] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
 UNIT
 
 MarquessPherae:
@@ -105,25 +106,60 @@ UNIT Eliwood KnightPaladin 0x00 Level(1,NPC,0) [1,2] 0x0 0x0 0x0 0x0 [SilverSwor
 UNIT
 
 StairsBlock:
-UNIT 0x80 Hunter 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
-UNIT 0x80 Hunter 0x00 Level(3,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
-UNIT 0x80 Mercenary 0x00 Level(3,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT BrigandGeneric Hunter 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT BrigandGeneric Hunter 0x00 Level(3,Enemy,1) [17,19] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT BrigandGeneric Mercenary 0x00 Level(3,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
 UNIT
 
 NWBlock:
-UNIT 0x80 Mercenary 0x00 Level(3,Enemy,1) [2,2] 0x0 0x0 0x0 0x0 [PoisonSword] PursueWithoutHeedAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
-UNIT 0x80 Brigand 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric Mercenary 0x00 Level(3,Enemy,1) [2,2] 0x0 0x0 0x0 0x0 [PoisonSword] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(3,Enemy,1) [1,3] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
 UNIT
 //give all reinforcements proper REDAs
 
 SWThiefBlock:
-UNIT 0x80 Thief 0x00 Level(3,Enemy,1) [2,21] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] LootingThiefAI
+UNIT BrigandGeneric Thief 0x00 Level(3,Enemy,1) [2,21] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] LootingThiefAI
 UNIT
 
+CutsceneDragonsGateMarthSheeda:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [11,3] 0x1 0x0 0x1 MarthREDA [Rapier, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [13,3] 0x0 0x0 0x1 SheedaREDA [WingSpear, Vulnerary] NoAI
+UNIT
 
+CutsceneDragonsGateChiki:
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [12,3] 0x0 0x0 0x1 ChikiREDA [Vulnerary] NoAI
+UNIT
+
+CutsceneDragonsGateEliwood:
+UNIT Eliwood KnightPaladin 0x00 Level(1,NPC,0) [12,7] 0x0 0x0 0x0 0x0 [SilverSword, Javelin, Vulnerary, ChestKey_5] PursueWithoutHeedAI
+UNIT
+
+CutsceneGood:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [17,0] 0x0 0x0 0x1 MarthREDA2 [Rapier, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [17,0] 0x0 0x0 0x1 SheedaREDA2 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [17,0] 0x0 0x0 0x1 ChikiREDA2 [Vulnerary] NoAI
+UNIT
+
+CutsceneBanditBoss:
+UNIT Ch7Boss /*Dread Isle bandit, needs name*/ Brigand 0x00 Level(10,Enemy,0) [6,21] 0x0 0x0 0x1 BossREDA [SteelAxe, HandAxe] PursueWithoutHeedAI
+UNIT
+
+CutsceneEndingGood:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [7,20] 0x0 0x0 0x0 0x0 [Rapier, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,19] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [6,20] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [10,21] 0x0 0x0 0x0 0x0 [SilverSword, Javelin, Vulnerary, ChestKey_5] PursueWithoutHeedAI
+UNIT
+
+CutsceneSomniel:
+UNIT Alear Swordmaster_F 0x00 Level(1,Enemy,0) [6,6] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Veyle Druid_F 0x00 Level(1,Enemy,0) [8,6] 0x0  0x0 0x0 0x0 [Maph] NoAI //Veyle
+UNIT
 
 Traps1:
+SavePoint(1,15)
+SavePoint(21,13)
 ENDTRAP
 ALIGN 4
 
@@ -132,24 +168,78 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+LOMA 6 //as placeholder for an actual shore cutscene map
+CAM1 [0,0]
+MUSC M_Insurrection
 BROWNBOX Ch7OpeningTheNextDay [0,0]
 SHOWUNIT Marth
+//Cutscene map: The shore everyone washes up onto
 Text(Forest,Ch7OpeningWhereIsEveryone)
 Text(Forest,Ch7OpeningFindingMarth)
-Text(Ch7OpeningInsideRuins)
-Text(Ch7OpeningFindingChiki)
-Text(Ch7OpeningSomethingTerrible)
-Text(Ch7OpeningThroughTheGate)
+//Cutscene map: Akaneian side of the Dragons' Gate
+RECLASS Sheeda KnightPegasus //dismount here 
+Text(Shrine_3,Ch7OpeningInsideRuins)
+MUSC M_LegendOfTheDivineDragonMusicBox
+Text(Shrine_3,Ch7OpeningFindingChiki)
+Text(Shrine_3,Ch7OpeningSomethingTerrible)
+Text(Shrine_3,Ch7OpeningThroughTheGate)
+FADI 10
+LOMA 0x44 //The Dragons' Gate
+TILECHANGE 1 //open the gate
+LOAD2 0x0 CutsceneDragonsGateEliwood
+CAM1 [12,6]
+MUSC M_AnUnexpectedCaller
+FADU 10
+STAL 20
+MOVE 15 Eliwood [12,11]
+ENUN
+STAL 10
+MOVE 20 Eliwood [12,25]
+ENUN
+STAL 10
+LOAD2 0x0 CutsceneDragonsGateChiki
+STAL 60
+LOAD2 0x0 CutsceneDragonsGateMarthSheeda
+ENUN
+TILEREVERT 1 //close the gate
+MUSC M_Charge
+FlashCursor(Marth,60)
 Text(Ch7OpeningWelcomeToElibe)
+MOVE 10 Marth [12,21]
+MOVE 10 Sheeda [13,21]
+MOVE 10 Chiki [11,21]
+STAL 10
+ENUN
+FADI 10
+CLEA 0
+CLEN 0
+LOMA 0x07 //chapter map
+CAM1 [12,4]
+FADU 10
+STAL 10
+LOAD2 0x0 CutsceneGood
+ENUN
+FlashCursor(Sheeda,60)
 Text(Ch7OpeningSteppingOutdoors)
+CAM1 [8,19]
+MUSC M_AnUnexpectedCaller
+LOAD2 0x0 CutsceneBanditBoss
+ENUN
+FlashCursor(Ch7Boss,60)
 Text(Ch7OpeningBanditsLaugh)
 FADI 10
-LOAD1 0x1 Good
+CLEA 0
+CLEN 0
+CLEE 0
+ENUN
+CALL DismountAll
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]
 TILECHANGE 12 //door to throne area, open instantly to improve flow
 FADU 10
+MUSC M_EnemiesAppear
 STAL 20
 CAM1 [21,0]
 STAL 20
@@ -169,9 +259,36 @@ BNE 701 s0 sC
 LOAD1 0x1 MarquessPherae //load him in
 LABEL 701
 TurnAlly(Eliwood) //so you still get him if you forget to talk, story makes no sense otherwise
+//going to put in a gacha check after every chapter: equate this with FE recruits later on
+FADI 10
+CLEA 0
+CLEN 0
+CLEE 0
+STAL 5
+LOAD2 0x0 CutsceneEndingGood
+ENUN
+CAM1 Chiki //she's the furthest left here
+FADU 10
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [9,20]
+MOVE 0xFFFF 0xFFFD [9,20]
+ENUN
+ENDWARP
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
+MUSC M_Triumph
 Text(Ch7EndingMarthEliwood)
+FADI 8
+CLEA 0
+LOMA 26 //Somniel
+LOAD2 0x0 CutsceneSomniel
+MUSC M_Stratagem
+FADU 10
+STAL 5
+BROWNBOX LocationSomniel [0,0]
+STAL 10
+FlashCursor(Veyle,60)
 Text(Castle_Room,Ch7EndingSomniel)
 WM_LOADLOCATION2 0 6 0 //Required to fix chapter name
 WM_SETDESTINATION 0 6 0 //World map node. Keep these equal.
@@ -189,22 +306,48 @@ CAM1 Eliwood
 STAL 10
 FlashCursor(Eliwood,60)
 Text(Ch7EventEliwoodArrives)
+NoFade
 ENDA
 
 EliwoodRecruitment:
-MUSC M_TogetherWeRide //of two minds whether to keep it for Elibe or switch to FE6's (or FE4)'s theme
+MUSC M_JoinUs //switch to FE6 (aka FE4)'s theme here
 Text(Ch7EventEliwoodRecruited)
 TurnAlly(Eliwood)
+NoFade
 ENDA
 
 StairsSpawns:
 LOAD1 0x1 StairsBlock
+NoFade
 ENDA
 
 BehindEliwoodSpawns:
 LOAD1 0x1 NWBlock
+NoFade
 ENDA
 
 SWThiefSpawn:
 LOAD1 0x1 SWThiefBlock
+NoFade
 ENDA
+
+ChikiREDA:
+REDA [12,6]
+
+MarthREDA:
+REDA [11,5]
+
+SheedaREDA:
+REDA [13,5]
+
+ChikiREDA2:
+REDA [13,3]
+
+MarthREDA2:
+REDA [12,4]
+
+SheedaREDA2:
+REDA [11,3]
+
+BossREDA:
+REDA [7,20]

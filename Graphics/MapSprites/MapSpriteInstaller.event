@@ -15,6 +15,22 @@ MarthMovingSprite:
 #incext Png2Dmp "MarthMoving.png" --lz77
 ALIGN 4
 
+PromotedMarthStandingSprite:
+#incext Png2Dmp "Marth2Standing.png" --lz77
+ALIGN 4
+
+PromotedMarthMovingSprite:
+#incext Png2Dmp "Marth2Moving.png" --lz77
+ALIGN 4
+
+ChikiStandingSprite:
+#incext Png2Dmp "ChikiStanding.png" --lz77
+ALIGN 4
+
+ChikiMovingSprite:
+#incext Png2Dmp "ChikiMoving.png" --lz77
+ALIGN 4
+
 FreeKnightStandingSprite:
 #incext Png2Dmp "FreeKnightStanding.png" --lz77
 ALIGN 4
@@ -29,6 +45,14 @@ ALIGN 4
 
 AxeKnightMovingSprite:
 #incext Png2Dmp "AxeKnightMoving.png" --lz77
+ALIGN 4
+
+ArchKnightStandingSprite:
+#incext Png2Dmp "ArchKnightStanding.png" --lz77
+ALIGN 4
+
+ArchKnightMovingSprite:
+#incext Png2Dmp "ArchKnightMoving.png" --lz77
 ALIGN 4
 
 SwordArmourStandingSprite:
@@ -71,6 +95,11 @@ KnightFMovingSprite:
 #incext Png2Dmp "KnightFMoving.png" --lz77
 ALIGN 4
 
-StandingMapSprite(0x00, 2, _16x32, MarthStandingSprite) //ephraim lord
-MovingMapSprite(StarLord, MarthMovingSprite, 0x1C3D7C)
+SavePointSprite:
+#incext Png2Dmp "SavePoint.png" --lz77
+ALIGN 4
+
+//StandingMapSprite(0x00, 2, _16x32, MarthStandingSprite) //ephraim lord
+StandingMapSprite(0x67, 0, _16x16, SavePointSprite) //temp overwrite dead nils
+//MovingMapSprite(StarLord, MarthMovingSprite, 0x1C3D7C)
 

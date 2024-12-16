@@ -19,14 +19,15 @@ SetAnimationPointers(Mamkute_F, ChikiAnims)
 ChikiAnims:
 weaponTypeAnim(animNone, 0xc7)
 weaponAnim(WretchedAir,0xc9)
-weaponAnim(HolyDragonStone,0xc7)
+weaponAnim(DivineStone,0xc7)
+weaponAnim(IceStone,0x97)
 weaponAnimEnd
 
 ALIGN 4
 SetAnimationPointers(StarLord, MarthAnims)
 MarthAnims:
 weaponTypeAnim(animSword, 0x5)
-//no special Falchion animation
+//no special Falchion animation - but there should be!
 weaponTypeAnim(animNone, 0x7)
 weaponAnimEnd
 
@@ -37,12 +38,14 @@ weaponTypeAnim(animAxe, 0x95)
 weaponAnim(HandAxe, 0x96)
 weaponAnim(Tomahawk, 0x96)
 weaponAnim(Hatchet, 0x96)
+weaponTypeAnim(animNone, 0x36) //normal cavalier unarmed
 weaponAnimEnd
 
 ALIGN 4
 SetAnimationPointers(SwordArmour, SwordArmourAnims)
 SwordArmourAnims:
 weaponTypeAnim(animSword, 0x49)
+weaponTypeAnim(animNone, 0x41) //unarmed (lance) armour
 weaponAnimEnd
 
 ALIGN 4
@@ -52,12 +55,14 @@ weaponTypeAnim(animAxe, 0x4A)
 weaponAnim(HandAxe, 0x4B)
 weaponAnim(Tomahawk, 0x4B)
 weaponAnim(Hatchet, 0x4B)
+weaponTypeAnim(animNone, 0x41) //unarmed (lance) armour
 weaponAnimEnd
 
 ALIGN 4
 SetAnimationPointers(BowArmour, BowArmourAnims)
 BowArmourAnims:
 weaponTypeAnim(animBow, 0x4C)
+weaponTypeAnim(animNone, 0x41) //unarmed (lance) armour
 weaponAnimEnd
 
 ALIGN 4

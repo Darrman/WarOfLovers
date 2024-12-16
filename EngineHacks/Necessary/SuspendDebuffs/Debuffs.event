@@ -8,7 +8,7 @@
 
 TeamDebuffTables:
   {
-  #define MaxPlayerUnits 62+1
+  #define MaxPlayerUnits 50+1
   #define MaxEnemyUnits 50+1
   #define MaxGreenUnits 20+1
   

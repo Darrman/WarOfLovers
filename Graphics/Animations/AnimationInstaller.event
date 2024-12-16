@@ -24,6 +24,16 @@
 #include "Chiki/Unarmed/UnarmedInstaller.event"
 }
 
+//Ice Dragon
+{
+#include "IceDragon/Breath/BreathInstaller.event"
+}
+
+//FE6 Mage F - Lilina
+{
+#include "Lilina/Magic/MagicInstaller.event"
+}
+
 //Advance Wars animations - future Jugdral
 {
 #include "Infantry/Gun/GunInstaller.event"

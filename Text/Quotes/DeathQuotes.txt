@@ -1,14 +1,14 @@
 ## LucinaDeath
 [Left][LoadLucina]
 Father... I'm sorry...[N]
-Forgive me... Marth...[A][X]
+Forgive me... Marth...[A][CloseEyes][X]
 
 ## LynDeath
 [Left][LoadLyn]
 Ow... I'm free again.[N]
 Hector, Eliwood, Florina...[AN]
 Good luck. I won't see you[N]
-or the plains of Sacae...[A][X]
+or the plains of Sacae...[A][CloseEyes][X]
 
 ## LeafDeath
 [Left][LoadLeaf]
@@ -19,18 +19,18 @@ as you can...[AN]
 Alear's... plans... are...[N]
 simply horrifying...[AN]
 Nanna, please forgive me.[N]
-I love you...[A][X]
+I love you...[A][CloseEyes][X]
 
 ## BylethDeath
 [Left][LoadByleth]
 Urgh... You're strong...[N]
 if you can beat me...[AN]
 I hope Fodlan is in a good[N]
-state... without me...[A][X]
+state... without me...[A][CloseEyes][X]
 
 ## AlearDeathOld
 [Left][LoadAlear]
-What? No! Impossible![A][X]
+What? No! Impossible![A][CloseEyes][X]
 
 ## AlearDeathJam
 [Left][LoadAlear]
@@ -39,39 +39,106 @@ SO HAPPY... AND YOU...[AN]
 HAVE KILLED ME... REST[N]
 ASSURED... I WILL RETURN.[AN]
 I SWEAR ON MY HEART...[N]
-AND ON THE EMBLEMS...[A][X]
+AND ON THE EMBLEMS...[A][CloseEyes][X]
 
-## CaesarDeath
+## CaesarDeathBoss
 [Left][LoadCaesar]
 Damn, I slipped up... Life[N]
-sure is cheap...[A][X]
+sure is cheap...[A][CloseEyes][X]
 
-## RyanDeath
+## RyanDeathBoss
 [Left][LoadRyan]
 Gordon... I believed... in Kris.[N]
-I'm sorry... and stay safe...[A][X]
+I'm sorry... and stay safe...[A][CloseEyes][X]
 
 ## LukeDeath
 [Left][LoadLuke]
 Agh, it hurts... This is what I[N]
-get for risking my neck again...[A][X]
+get for risking my neck again...[A][CloseEyes][X]
 
 ## BoucheronDeath
 [Left][LoadBoucheron]
 No... I've failed. King Alfred,[N]
-Divine One, please forgive me...[A][X]
+Divine One, please forgive me...[A][CloseEyes][X]
 
 ## ClanneDeath
 [Left][LoadClanne]
 No... I didn't help here at all...[N]
-Divine One... Alear... help...[A][X]
+Divine One... Alear... help...[A][CloseEyes][X]
 
 ## LouisDeath
 [Left][LoadLouis]
 Urgh... I can't believe it.[N]
 I have failed the Divine One.[AN]
 Marth... is getting away.[N]
-Princess Celine, take... care...[A][X]
+Princess Celine, take... care...[A][CloseEyes][X]
+
+## Ch7BossDeath
+[Left][LoadCh7Boss]
+The dragons... aren't as[N]
+helpless... as I thought...[A][CloseEyes][X]
+
+## AmberDeath
+[Left][LoadAmber]
+No... my legend... Dying... in a...[N]
+foreign land... King Diamant...[A][CloseEyes][X]
+
+## RogueBernBossDeath
+[Left][LoadRogueBernBoss]
+You may have shot me down,[N]
+but I am but one of many.[AN]
+As we speak, my comrades are[N]
+making... their move...[A][CloseEyes][X]
+
+## CitrinneDeath
+[Left][LoadCitrinne]
+I had all the money I wanted.[N]
+But it won't save me now.[AN]
+Prince Alcryst, stay safe.[N]
+Please, forgive me...[A][CloseEyes][X]
+
+## Ch10SubBossDeath
+[Left][LoadExecutioner]
+Who are you? The Knights of[N]
+Pherae have surrendered.[AN]
+Did... Eliwood... make it[N]
+back... from Bern?[A][CloseEyes][X]
+
+## DiamantDeath
+[Left][LoadDiamant]
+...Defeated? So much blood...[N]
+Listen up. You may have this[AN]
+orb, and I have lost the Ring[N]
+of the Young Lion to you...[AN]
+But the Divine One still has[N]
+Emblem Roy himself.[AN]
+She is on this battlefield...[N]
+And none will stand in her way.[AN]
+Even if you summon Roy... His[N]
+memory... has been... altered...[A][CloseEyes][X]
+
+## AlcrystDeath
+[Left][LoadAlcryst]
+Evidence... of my failure.[N]
+I have condemned Brodia...[AN]
+to anarchy. This is what I[N]
+deserve. Diamant, Citrinne...[AN]
+...Lapis... I'm sorry you had[N]
+to put up with me for so long.[A][CloseEyes][X]
+
+## LapisDeath
+[Left][LoadLapis]
+I've misjudged you badly... You're[N]
+so strong. I'm sorry... Alcryst...[A][CloseEyes][X]
+
+## VeyleDeathCh12
+[Left][LoadVeyle]
+This is impossible! Just... how?![N]
+I can't die here! Where did you[AN]
+gain such power?! If you could[N]
+kill me... Alear's vulnerable...[AN]
+I thought you were on the run.[N]
+Was Ostia's fall a ruse?[A][CloseEyes][X]
 
 ## KrisCh1Death
 [Left][LoadKris]
@@ -82,184 +149,306 @@ Pales yet! Marich... What are[AN]
 you planning? What... just...[N]
 happened to me? What is Alear[AN]
 doing? What is Alfonse doing?[N]
-Who is Marich with? Katarina...[A][X]
+Who is Marich with? Katarina...[A][CloseEyes][X]
 
 ## MarthDeath
 [Right][LoadMarth]
 Sheeda... I'm sorry...[N]
-for everything...[A][X]
+for everything...[A][CloseEyes][X]
 
 ## SheedaDeath
 [Right][LoadSheeda]
 Marth... Forgive me...[N]
-This is goodbye...[A][X]
+This is goodbye...[A][CloseEyes][X]
 
 ## ChikiDeath
 [Right][LoadChiki]
 Mar... Mar... It's so[N]
-cold... so dark...[A][X]
+cold... so dark...[A][CloseEyes][X]
+
+## LilinaDeath
+[Right][LoadLilina]
+No... Not now... Please, Lycia,[N]
+forgive me... Farewell, Roy...[A][CloseEyes][X]
+
+## EliwoodDeath
+[Right][LoadEliwood]
+This day was long coming...[N]
+Hello, Ninian...[A][CloseEyes][X]
+
+## CaesarDeath
+[Right][LoadCaesar]
+Damn, I slipped up... Life[N]
+sure is cheap...[A][CloseEyes][X]
+
+## RyanDeath
+[Right][LoadRyan]
+Gordon, forgive me...[N]
+I won't live up to you...[A][CloseEyes][X]
+
+## KashimDeath
+[Right][LoadKashim]
+Mother... You... don't need[N]
+me... to send gold...[A][CloseEyes][X]
+
+## WoltDeath
+[Right][LoadWolt]
+I may fall here... but it[N]
+was an honour to serve.[A][CloseEyes][X]
+
+## MiledyDeath
+[Right][LoadMiledy]
+Queen Guinevere... Forgive[N]
+my failure.[A][CloseEyes][X]
+
+## SophiaDeath
+[Right][LoadSophia]
+So... dark... So... heavy...[N]
+I... can't go... on...[A][CloseEyes][X]
+
+## BartreDeath
+[Right][LoadBartre]
+Ga... ha ha... I'm finished.[N]
+Karla, I'm coming for you...[A][CloseEyes][X]
+
+## BarthDeath
+[Right][LoadBarth]
+I accept my fate. If my death[N]
+lets her majesty live...[AN]
+Then that is a price I am[N]
+willing to pay.[A][CloseEyes][X]
+
+## WendyDeath
+[Right][LoadWendy]
+You're joking, right?[N]
+I suppose... not...[A][X]
+
+## MerlinusDeath
+[Right][LoadMerlinus]
+Forget my goods... I can't[N]
+run... away... now...[A][CloseEyes][X]
+
+## MarcusDeath
+[Right][LoadMarcus]
+Lord Elbert... Lord Eliwood...[N]
+Lord Roy... I... did my part.[A][CloseEyes][X]
+
+## GarretDeath
+[Right][LoadGarret]
+Just my luck. Of all the places[N]
+to get killed...[A][CloseEyes][X]
+
+## WallaceDeath
+[Right][LoadWallace]
+Wa ha ha! Looks like I've[N]
+relied too much on my armour![A][X]
 
 ## MarioDeath
 [Right][LoadMario]
-Oh, mamma mia...[A][X]
+Oh, mamma mia...[A][CloseEyes][X]
 
 ## LuigiDeath
 [Right][LoadLuigi]
 Aaah! I'm going to become[N]
-a ghost myself![A][X]
+a ghost myself![A][CloseEyes][X]
 
 ## PeachDeath
 [Right][LoadPeach]
 It hurts... Mario! Somebody[N]
-please help me![A][X]
+please help me![A][CloseEyes][X]
 
 ## BowserDeath
 [Right][LoadBowser]
 I've been taken out by[N]
-these guys? Impossible...[A][X]
+these guys? Impossible...[A][CloseEyes][X]
 
 ## DKDeath
 [Right][LoadDK]
 Diddy, take care of the[N]
-banana hoard...[A][X]
+banana hoard...[A][CloseEyes][X]
 
 ## ToadDeath
 [Right][LoadToad]
 Waaaa! I'm... I'm really[N]
-going to die here! HELP![A][X]
+going to die here! HELP![A][CloseEyes][X]
 
 ## WarioDeath
 [Right][LoadWario]
 So much treasure...[N]
-calls my name...[A][X]
+calls my name...[A][CloseEyes][X]
 
 ## DaisyDeath
 [Right][LoadDaisy]
-Oh noooo![A][X]
+Oh noooo![A][CloseEyes][X]
 
 ## YoshiDeath
 [Right][LoadYoshi]
 Once more into the abyss...[N]
-Dropped to my doom...[A][X]
+Dropped to my doom...[A][CloseEyes][X]
 
 ## WaluigiDeath
 [Right][LoadWaluigi]
 Wa? Ah-wa-wa-wa-wa![N]
-I'm finished![A][X]
+I'm finished![A][CloseEyes][X]
 
 ## AshDeath
 [Right][LoadAsh]
 I... will never be a[N]
-Pokemon Master...[A][X]
+Pokemon Master...[A][CloseEyes][X]
 
 ## MistyDeath
 [Right][LoadMisty]
 No bicycle could ever get[N]
-me out of this situation...[A][X]
+me out of this situation...[A][CloseEyes][X]
 
 ## BrockDeath
 [Right][LoadBrock]
 This world is cruel... And now[N]
-I am paying the ultimate price...[A][X]
+I am paying the ultimate price...[A][CloseEyes][X]
 
 ## JessieDeath
 [Right][LoadJessie]
 Looks like I'm blasting off[N]
-again... to heaven![A][X]
+again... to heaven![A][CloseEyes][X]
 
 ## JamesDeath
 [Right][LoadJames]
 It looks like this is the[N]
-end for me... My Pokemon...[A][X]
+end for me... My Pokemon...[A][CloseEyes][X]
 
 ## MayDeath
 [Right][LoadMay]
 No amount of grace would have[N]
-saved me from such power...[A][X]
+saved me from such power...[A][CloseEyes][X]
 
 ## DawnDeath
 [Right][LoadDawn]
 There... really is a need to[N]
-worry... I'm... dying...[A][X]
+worry... I'm... dying...[A][CloseEyes][X]
 
 ## SerenaDeath
 [Right][LoadSerena]
-Ash... Where are you...[A][X]
+Ash... Where are you...[A][CloseEyes][X]
 
 ## LinkDeath
 [Right][LoadLink]
 My fall... will usher in[N]
-Ganon's rise... in Hyrule...[A][X]
+Ganon's rise... in Hyrule...[A][CloseEyes][X]
 
 ## SamusDeath
 [Right][LoadSamus]
 In the end, it wasn't the[N]
-Metroids that got me...[A][X]
+Metroids that got me...[A][CloseEyes][X]
 
 ## KirbyDeath
 [Right][LoadKirby]
 Poyo? Oh... I feel so dizzy...[N]
-So sleepy... Night night...[A][X]
+So sleepy... Night night...[A][CloseEyes][X]
 
 ## FoxDeath
 [Right][LoadFox]
 I'm... not going to make it...[N]
-back to Lylat... Aaah![A][X]
+back to Lylat... Aaah![A][CloseEyes][X]
 
 ## PikachuDeath
 [Right][LoadPikachu]
 I don't just feel faint...[N]
-This... is true death...[A][X]
+This... is true death...[A][CloseEyes][X]
 
 ## FalconDeath
 [Right][LoadFalcon]
 Looks like my racing days[N]
-are over. Dead in a ditch...[A][X]
+are over. Dead in a ditch...[A][CloseEyes][X]
 
 ## JigglypuffDeath
 [Right][LoadJigglypuff]
 My next concert's... going to[N]
-be on the big stage in the sky...[A][X]
+be on the big stage in the sky...[A][CloseEyes][X]
 
 ## NessDeath
 [Right][LoadNess]
 Looks like I've got my[N]
-head handed to me...[A][X]
+head handed to me...[A][CloseEyes][X]
 
 ## PaulaDeath
 [Right][LoadPaula]
 No amount of prayer can[N]
-bring me back from this...[A][X]
+bring me back from this...[A][CloseEyes][X]
 
 ## JeffDeath
 [Right][LoadJeff]
 Even simple technologies[N]
-possess the power to kill...[A][X]
+possess the power to kill...[A][CloseEyes][X]
 
 ## PooDeath
 [Right][LoadPoo]
 Was dying here fate?[N]
-Or did I do something wrong?[A][X]
+Or did I do something wrong?[A][CloseEyes][X]
 
 ## PokeyDeath
 [Right][LoadPokey]
 Oww... I prefer spanking,[N]
-not getting spanked![A][X]
+not getting spanked![A][CloseEyes][X]
 
 ## CecilDeath
 [Right][LoadCecil]
 What will happen... without[N]
-me? Rosa, take care...[A][X]
+me? Rosa, take care...[A][CloseEyes][X]
 
 ## ButzDeath
 [Right][LoadButz]
 I've spent my life wandering.[N]
-And I will die in a foreign land.[A][X]
+And I will die in a foreign land.[A][CloseEyes][X]
 
 ## TerraDeath
 [Right][LoadTerra]
-I feel... so... lonely...[A][X]
+I feel... so... lonely...[A][CloseEyes][X]
 
 ## RodyDeath
 [Right][LoadRody]
-Emperor Marth... forgive me...[A][X]
+Emperor Marth... forgive me...[A][CloseEyes][X]
+
+## ZeldaDeath
+[Right][LoadZelda]
+The light... it's fading away.[N]
+My wisdom... was not enough.[A][CloseEyes][X]
+
+## SahasrahlaDeath
+[Right][LoadSahasrahla]
+I can help you no longer. To[N]
+meet my end on the battlefield...[A][CloseEyes][X]
+
+## MarinDeath
+[Right][LoadMarin]
+The world... my head... it's[N]
+spinning... fading... away...[A][CloseEyes][X]
+
+## SariaDeath
+[Right][LoadSaria]
+If a Kokiri leaves the forest,[N]
+they die... It's caught up...[A][CloseEyes][X]
+
+## DededeDeath
+[Right][LoadDedede]
+Impossible! The mighty king of[N]
+Dream Land, falling in battle?[A][CloseEyes][X]
+
+## MetaKnightDeath
+[Right][LoadMetaKnight]
+So... you are the superior[N]
+warrior. Well... done.[A][CloseEyes][X]
+
+## FalcoDeath
+[Right][LoadFalco]
+I guess I'll have to back off...[N]
+Back off into oblivion...[A][CloseEyes][X]
+
+## PeppyDeath
+[Right][LoadPeppy]
+It looks like... I'll be sitting[N]
+this one out... for... ever.[A][CloseEyes][X]
+
+## SlippyDeath
+[Right][LoadSlippy]
+Somebody! Anybody! Help me![N]
+Aaaaah![A][CloseEyes][X]

@@ -145,7 +145,7 @@ I should cross the gate?[AN]
 Chiki, what are you doing?[N]
 It might be dangerous![AN]
 [Left]
-Can Marth cross with me?[N]
+Can Marth cross with me?[A]
 [FL]
 I don't think she can hear us[N]
 right now. We shouldn't[AN]
@@ -205,8 +205,8 @@ No! I'm alright. I've no idea what's[N]
 going on, but I'll be okay.[A][X]
 
 ## Ch7OpeningBanditsLaugh
-[ML][LoadFace][0x6d][0x01]
-//O'Neill; bandit placeholder (as if I won't just use "ratface" or someone...)
+[ML][LoadCh7Boss]
+//I just used FE7 ratface
 Did you see that, boys?[N]
 I knew staking out the[AN]
 Dragons' Gate was a good[N]

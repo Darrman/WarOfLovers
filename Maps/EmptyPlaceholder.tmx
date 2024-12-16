@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="01000203" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="01000203.png" width="512" height="512"/>
+ </tileset>
+ <layer id="1" name="Main" width="15" height="10">
+  <properties>
+   <property name="Anims1" value="0"/>
+   <property name="Anims2" value="0"/>
+   <property name="ChapterID" value="13"/>
+   <property name="Main" value=""/>
+   <property name="MapChangesID" value="0x3a"/>
+   <property name="MapID" value="0x39"/>
+   <property name="ObjectType" value="FieldsObjType"/>
+   <property name="PaletteID" value="FieldsPalette2"/>
+   <property name="TileConfig" value="FieldsTileConfig"/>
+  </properties>
+  <data encoding="csv">
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245,
+245,245,245,245,245,245,245,245,245,245,245,245,245,245,245
+</data>
+ </layer>
+</map>

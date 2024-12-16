@@ -19,6 +19,7 @@ TurnEventPlayer(0x0, SheedaArrives, 4)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,KashimCashesIn,Sheeda,Kashim)
 END_MAIN
 
 LocationBasedEvents:
@@ -83,7 +84,7 @@ UNIT Lythos Priest Boucheron Level(4,Enemy,1) [19,13] 0x0 0x0 0x0 0x0 [Heal] Hea
 UNIT
 
 Bad2:
-UNIT Lythos Mage Boucheron Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting] NeverMoveAI
+UNIT Lythos Mage Boucheron Level(4,Enemy,1) [27,13] DropItem 0x0 0x0 0x0 [Bolting, Vulnerary] NeverMoveAI
 UNIT Lythos DragonKnight Boucheron Level(4,Enemy,1) [24,0] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] AttackInRangeAI
 UNIT Lythos AxeArmour Boucheron Level(4,Enemy,1) [24,1] 0x0 0x0 0x0 0x0 [SteelAxe, RedGem] ChaseOnceApproachedAI
 UNIT Lythos ArmourKnight Boucheron Level(4,Enemy,1) [23,3] 0x0 0x0 0x0 0x0 [IronLance, BlueGem] NeverMoveAI
@@ -147,6 +148,15 @@ UNIT
 
 GardaGarrison:
 UNIT Rody Paladin 0x00 Level(3,NPC,0) [6,8] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Vulnerary] NoAI
+UNIT Kashim Hunter 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Garda Fighter 0x00 Level(1,NPC,1) [6,2] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Garda Fighter 0x00 Level(1,NPC,1) [6,5] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Garda LanceArmour 0x00 Level(1,NPC,1) [9,12] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT
+
+
+GardaGarrisonJam:
+UNIT Rody Paladin 0x00 Level(3,NPC,0) [6,8] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Vulnerary] NoAI
 UNIT Garda Warrior 0x00 Level(1,NPC,1) [6,2] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT Garda Warrior 0x00 Level(1,NPC,1) [6,5] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT Garda General 0x00 Level(1,NPC,1) [9,12] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
@@ -154,7 +164,7 @@ UNIT Garda Horseman 0x00 Level(1,NPC,1) [5,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackI
 UNIT
 
 SheedaGroup:
-UNIT Sheeda PegasusKnight 0x00 Level(4, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SilverLance, Elixir] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(4, Ally, 0) [31,7] 0x00 0x00 0x1 SheedaREDA [WingSpear, SlimLance, Elixir] NoAI
 UNIT
 
 SheedaGroupJam:
@@ -163,6 +173,7 @@ UNIT
 
 
 Traps1:
+SavePoint(19,6)
 ENDTRAP
 ALIGN 4
 
@@ -177,17 +188,18 @@ Text(Fort_Outside,Ch4Marth)
 Text(Castle_Room,Ch4News)
 FADI 10
 LOAD3 0x0 Good
-LOAD1 0x1 GardaGarrison
 CHECK_EVENTID JamModeOn
 BNE 401 sC s0 //branch if jam mode 
 LOAD1 0x1 BoucheronGroup
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+LOAD1 0x1 GardaGarrison
 GOTO 402
 LABEL 401
 LOAD1 0x1 BylethGroup
 LOAD1 0x1 BadJam
 LOAD1 0x1 Bad2Jam
+LOAD1 0x1 GardaGarrisonJam
 LABEL 402
 MUSC M_PreperationsFE11
 CAM1 [0,0]
@@ -204,18 +216,29 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+CHECK_EVENTID 0x8 //Kashim recruited?
+BNE 412 s0 sC //skip recruit
 MUSC M_TogetherWeRide
+CHECK_EVENTID JamModeOn
+BNE 410 sC s0 //branch if jam mode
+CALL UnitGachaAct1
+GOTO 411
+LABEL 410
 CALL UnitGachaJam
+LABEL 411
 WARPIN [25,2]
 MOVE 0xFFFF 0xFFFD [25,2]
 ENUN
 ENDWARP
 STAL 20
 
+LABEL 412
 MUSC M_Victory
 Text(Ch4EndingVictory)
 MUSC M_ThemeOfLove
 Text(Castle_Room,Ch4EndingStory)
+MUSC M_Victory
+Text(Castle_Room,Ch4EndingBoatFound)
 CHECK_EXISTS Sheeda //if you somehow manage to skip her, recruit Sheeda anyway
 BNE 403 s0 sC
 LOAD1 0x1 SheedaGroup
@@ -235,6 +258,8 @@ GOTO 405
 LABEL 404
 Text(Ch4AfterPrepJam)
 LABEL 405
+STAL 10
+FlashCursor(Rody,60)
 TurnAlly(Rody)
 NoFade
 ENDA
@@ -269,6 +294,13 @@ Text(Ch4SheedaMarth)
 NoFade
 ENDA
 
+KashimCashesIn:
+MUSC M_TogetherWeRide
+Text(Ch4KashimComesClean)
+TurnAlly(Kashim)
+NoFade
+ENDA
+
 Ch4Village:
 Text(Outside_Village_Day,Ch4VillageText)
 SVAL s3 Wyrmslayer
@@ -292,11 +324,11 @@ NoFade
 ENDA
 
 Ch4Armoury:
-SHLI SilverSword SilverLance SilverAxe SilverBow
+SHLI SteelSword IronLance Javelin IronAxe HandAxe SteelBow
 ALIGN 4
 
 Ch4Vendor:
-SHLI Bolganone Thoron Luna Sleep Vulnerary Elixir
+SHLI Fire Thunder Wind Heal TorchStaff Vulnerary
 ALIGN 4
 
 SheedaREDA:

@@ -15,12 +15,21 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
+TurnEventEnemy(0x0,LapisRaisesTheAlarm,1)
+TurnEventPlayer(0x0,BartreBarBrawl,6)
+TurnEventEnemy(0x0,CavalryIncoming,8)
+TurnEventEnemy(0x0,CavalryIncomingNoText,10,4)
+TurnEventEnemy(0x0,CavalryIncomingNoText,16,3)
+//make more unique patterns later
+TurnEventPlayer(0x0,VeyleDrawsNear,20)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0xe,RecruitingBartre,Eliwood,Bartre)
 END_MAIN
 
 LocationBasedEvents:
+Escape(2,8)
 Village(0x7,TopLeftVillage,3,1)
 Village(0x8,VillageByDock,8,5)
 Village(0x9,VillageInsideWalls,12,4)
@@ -28,9 +37,12 @@ Village(0xa,CanasOldVillage,17,6)
 Village(0xb,SouthOfCanas,15,9)
 Village(0xc,NorthOfEntrance,33,1)
 Village(0xd,SouthOfEntrance,31,11)
+SecretShop(Ch12SecretPub,21,6)
 House(0x0,NextToArena,8,12)
 House(0x0,TheInn,21,6)
 House(0x0,ByVendor,25,11)
+House(0x0,HouseSouthOfCanas,17,9)
+House(0x0,HouseNorthOfInn,21,2)
 Armory(Ch12DocksArmoury,4,4)
 Armory(Ch12EntranceArmoury,25,1)
 Vendor(Ch12CentralVendor,21,12)
@@ -42,7 +54,8 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
+//DefeatBoss(EndingScene)
+//temp
 END_MAIN
 
 Dunno1:
@@ -61,8 +74,8 @@ Good:
 UNIT Marth StarLord 0x00 Level(1,Ally,0) [39,9] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [38,9] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,6] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,2] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Eliwood PegasusKnight 0x00 Level(1,Ally,0) [37,2] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
+UNIT Chiki PegasusKnight 0x00 Level(1,Ally,0) [39,0] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,10] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [36,3] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,5] 0x0 0x0 0x0 0x0 [SilverLance, Vulnerary] NoAI
@@ -76,14 +89,99 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [37,11] 0x0 0x0 0x0 0x0 [SilverLa
 UNIT
 
 Bad:
-UNIT Alcryst Sniper 0x00 Level(1,Enemy,0) [2,8] 0x0 0x0 0x0 0x0 [SilverBow] NeverMoveAI
+UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, FireGun, LynRing] NeverMoveAI
+UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [26,8] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [32,7] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [33,3] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [29,8] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [28,11] 0x0 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [23,13] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Brodia Soldier Alcryst Level(12,Enemy,1) [32,7] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT Brodia Myrmidon Alcryst Level(12,Enemy,1) [27,1] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT Brodia Myrmidon Alcryst Level(12,Enemy,1) [31,12] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT Brodia Myrmidon Alcryst Level(12,Enemy,1) [21,9] 0x0 0x0 0x0 0x0 [IronBlade] ChaseOnceApproachedAI
+UNIT Brodia Myrmidon Alcryst Level(12,Enemy,1) [19,6] 0x0 0x0 0x0 0x0 [IronSword] ChaseOnceApproachedAI
+UNIT Brodia Myrmidon Alcryst Level(12,Enemy,1) [20,10] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Brodia Mage Alcryst Level(12,Enemy,1) [19,2] 0x0 0x0 0x0 0x0 [Fire] ChaseOnceApproachedAI
+UNIT Brodia Mage Alcryst Level(12,Enemy,1) [16,10] 0x0 0x0 0x0 0x0 [Elthunder] ChaseOnceApproachedAI
+UNIT Brodia Mage Alcryst Level(12,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [Wind] ChaseOnceApproachedAI
+UNIT Brodia Mage Alcryst Level(12,Enemy,1) [11,11] 0x0 0x0 0x0 0x0 [Fire] ChaseOnceApproachedAI
 UNIT
 
 Bad2:
+UNIT Brodia AxeArmour Alcryst Level(12,Enemy,1) [5,5] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Brodia LanceArmour Alcryst Level(12,Enemy,1) [6,6] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Brodia LanceArmour Alcryst Level(12,Enemy,1) [6,7] 0x0 0x0 0x0 0x0 [KillerLance] AttackInRangeAI
+UNIT Brodia LanceArmour Alcryst Level(12,Enemy,1) [6,8] 0x0 0x0 0x0 0x0 [SlimLance] AttackInRangeAI
+UNIT Brodia SwordArmour Alcryst Level(12,Enemy,1) [5,9] 0x0 0x0 0x0 0x0 [Armourslayer] AttackInRangeAI
+UNIT Brodia Archer Alcryst Level(12,Enemy,1) [5,11] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
+UNIT Brodia Archer Alcryst Level(12,Enemy,1) [2,3] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
+UNIT Brodia Fighter Alcryst Level(12,Enemy,1) [9,14] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Brodia Fighter Alcryst Level(12,Enemy,1) [12,12] 0x0 0x0 0x0 0x0 [HandAxe] ChaseOnceApproachedAI
+UNIT Brodia Fighter Alcryst Level(12,Enemy,1) [15,1] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Brodia Fighter Alcryst Level(12,Enemy,1) [10,8] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
 UNIT
 
+PubBrawlers:
+UNIT Bartre Warrior 0x00 Level(1,NPC,0) [21,6] 0x0 0x0 0x1 BartreREDA [BraveAxe, SteelBow] PursueWithoutHeedAI
+UNIT RogueBern Soldier 0x00 Level(15,Enemy,1) [21,6] 0x0 0x0 0x1 PubREDA [Axereaver, ShortSpear] PursueWithoutHeedAI
+UNIT
+
+CavalryPressure:
+UNIT Colonial LanceKnight 0x0 Level(12,Enemy,1) [39,5] 0x0 0x0 0x1 EastCavalierREDA1 [IronLance] PursueWithoutHeedAI
+UNIT Colonial LanceKnight 0x0 Level(12,Enemy,1) [39,6] 0x0 0x0 0x1 EastCavalierREDA2 [Javelin] PursueWithoutHeedAI
+UNIT Colonial FreeKnight 0x0 Level(12,Enemy,1) [39,7] 0x0 0x0 0x1  EastCavalierREDA3 [SteelSword] PursueWithoutHeedAI
+UNIT
+
+DarkDragon:
+UNIT Veyle Druid_F 0x0 Level(20,Enemy,0) [39,6] 0x0 0x0 0x1 VeyleREDA [Flux, Fenrir, Elixir] PursueWithoutHeedAI
+UNIT
+
+CutsceneCaveLilinaChiki:
+UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [24,21] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [25,21] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT
+
+CutsceneCaveRandomUnits:
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [24,19] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [23,18] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [25,18] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [24,17] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [23,16] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [25,16] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [24,14] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Mario Brigand 0x00 Level(1,Ally,0) [23,11] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT
+
+CutsceneKingAlcryst:
+UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, Elephant/*, LynRing*/] NeverMoveAI
+UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [3,8] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
+UNIT Vander Paladin 0x00 Level(1,Enemy,0) [18,7] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT
+
+CutscenePrinceAlcryst:
+UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, Elephant/*, LynRing*/] NeverMoveAI
+UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [3,8] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
+UNIT Diamant Hero 0x00 Level(1,Enemy,0) [18,7] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT
+
+CutsceneNoDissentAllowed:
+UNIT Garda Civilian_F_2 0x00 Level(1,NPC,1) [27,2] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Ostia Civilian_F_2 0x00 Level(1,NPC,1) [28,2] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [27,7] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
+UNIT
+
+CutsceneAtTheGate:
+UNIT Marth StarLord 0x00 Level(1,Ally,0) [39,0] 0x0 0x0 0x1 MarthREDA [SilverSword, Vulnerary] NoAI
+UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [38,0] 0x0 0x0 0x1 LilinaREDA [Fire, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [39,0] 0x0 0x0 0x1 SheedaREDA [SilverLance, Vulnerary] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [37,0] 0x0 0x0 0x1 EliwoodREDA [SilverLance, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [39,0] 0x0 0x0 0x1 ChikiREDA [SilverLance, Vulnerary] NoAI
+UNIT
 
 Traps1:
+SavePoint(19,7)
+SavePoint(3,13)
 ENDTRAP
 ALIGN 4
 
@@ -92,11 +190,76 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+VCWF 0 //no fog during the cutscenes
+LOMA 0x45 //FE6 Ch8x
+MUSC M_AnUnexpectedCaller
+LOAD2 0x0 CutsceneCaveLilinaChiki
+LOAD3 0x1 CutsceneCaveRandomUnits
+CAM1 Lilina
+FADU 10
+FlashCursor(Lilina,60)
+Text(Volcano,Ch12OpeningExplainingTheEscape)
+MOVE 10 Lilina [24,25]
+MOVE 10 Chiki [25,25]
+ENUN
 FADI 10
-LOAD1 0x1 Good
+CLEA 0
+LOMA 12 //actual chapter
+MUSC M_WhenTheRushComes
+CHECK_EVENTID DiamantDead
+BEQ 1201 s0 sC
+LOAD2 0x0 CutsceneKingAlcryst
+CAM1 Alcryst
+FADU 10
+MOVE 10 Vander [5,8]
+ENUN
+FlashCursor(Lapis,60)
+Text(Harbor,Ch12OpeningTheMopeyKing)
+GOTO 1202
+LABEL 1201
+LOAD2 0x0 CutscenePrinceAlcryst
+CAM1 Alcryst
+FADU 10
+MOVE 10 Diamant [5,8]
+ENUN
+FlashCursor(Lapis,60)
+Text(Harbor,Ch12OpeningDiamantAlive)
+LABEL 1202
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+LOAD2 0x0 CutsceneNoDissentAllowed
+CAM1 Ostia //generic civilians chatting
+FADU 10
+BROWNBOX Ch12OpeningTimeframe [0,0]
+STAL 10
+FlashCursor(Ostia,60)
+STAL 10
+Text(Village,Ch12OpeningCrackdown)
+MOVE 12 Lapis [27,3]
+ENUN
+MUSC M_Stratagem
+Text(Village,Ch12OpeningLapisArrestsDissident)
+CAM1 [39,6] //edge of the map
+MUSC M_AnUnexpectedCaller
+CALL MountSheeda
+CALL MountEliwood //dismounted for cutscenes last chapter
+LOAD2 0x0 CutsceneAtTheGate
+STAL 30
+FlashCursor(Marth,60)
+Text(Town_Gate,Ch12OpeningHowDoWeEscape)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+MUSC M_EnemiesAppear
+VCWF 3 //put the fog back up
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 [0,0]
+MUSC M_EnemiesAppear
 FADU 10
 STAL 20
 CAM1 [39,0]
@@ -111,96 +274,301 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
-WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
-WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
-WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
-MNCH 0xD
+FlashCursor(Marth,60)
+MUSC M_AnUnexpectedCaller
+Text(Ch12EndingLastCall)
+VCWF 0 //daybreak, fog lifts
+CHECK_EXISTS Veyle //load her in if she isn't already there
+BNE 1206 s0 sC
+LOAD1 0x0 DarkDragon
+LABEL 1206
+MOVE 10 Veyle [4,8]
+ENUN
+FlashCursor(Veyle,60)
+Text(Harbor,Ch12EndingTheyreGettingAway)
+CALL Ch12EscapeList
+STAL 10
+//do this before the recruit, if I understand right
+//the recruit would spawn on the ship, ideally a cutscene map will be used in the future
+CHECK_EVENTID 0xe //did you recruit Bartre?
+BNE 1205 s0 sC //skip this if so
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [5,1]
+MOVE 0xFFFF 0xFFFD [5,1]
+ENUN
+ENDWARP
+LABEL 1205
+MUSC M_AnUnexpectedCaller
+Text(Ship,Ch12EndingKeepSailing)
+MUSC M_IntoTheShadowOfTriumph
+Text(Ship,Ch12EndingElibeFadesAway)
+//skip next scene if Roy missed
+CHECK_EVENTID DiamantDead
+BEQ 1207 s0 sC
+Text(Ship,Ch12EndingOpenOceanRoySaysFlee)
+LABEL 1207
+Text(Ship,Ch12EndingAkaneianElibianFriendship)
+Text(Ship,Ch12EndingOpenOceanPlotDump)
+MUSC M_LegendOfTheDivineDragonMusicBox
+//probably swap this with normal version later?
+Text(Ship,Ch12EndingChikiLearnsTheTruth)
+//WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
+//WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
+//WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+//MNCH 0xD
+MNC2 13 //temp WM skip: put end of demo message in Ch13
 ENDA
 
 ENDA
 
 AfterBattlePrep:
-Text(PlaceholderText)
+Text(Ch12AfterPrepEscapeRules)
+NoFade
+ENDA
+
+LapisRaisesTheAlarm:
+CAM1 Lapis
+STAL 10
+FlashCursor(Lapis,60)
+MOVE 10 Lapis [33,6]
+ENUN
+Text(Ch12WhoAreThesePeople)
+EVBIT_T 9 //follow
+MOVE 20 Lapis [3,8]
+ENUN
+Text(Ch12YourMajestyLilinaHasArrived)
+NoFade
+ENDA
+
+BartreBarBrawl:
+CAM1 [21,6]
+Text(Inn,Ch12BarFight)
+LOAD1 0x1 PubBrawlers
+STAL 10
+ENDA
+
+RecruitingBartre:
+MUSC M_JoinUs
+Text(Ch12BartreGet)
+TurnAlly(Bartre)
+NoFade
+ENDA
+
+CavalryIncoming:
+CAM1 [36,6]
+LOAD1 0x1 CavalryPressure
+Text(Ch12ReinforcementsArrive)
+NoFade
+ENDA
+
+CavalryIncomingNoText:
+LOAD1 0x1 CavalryPressure
+NoFade
+ENDA
+
+VeyleDrawsNear:
+CAM1 [36,6]
+Text(Ch12YouTookForeverNowGetOut)
+LOAD1 0x1 DarkDragon
 NoFade
 ENDA
 
 TopLeftVillage:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText7)
+SVAL s3 SilverSword
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 VillageByDock:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText6)
+SVAL s3 KillerLance
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 VillageInsideWalls:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText5)
+SVAL s3 GoddessIcon
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 CanasOldVillage:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText10)
+SVAL s3 GuidingRing
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthOfCanas:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText4)
+SVAL s3 Thoron
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 NorthOfEntrance:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText1)
+SVAL s3 Luna
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthOfEntrance:
-Text(Outside_Village_Day,PlaceholderText)
-SVAL s3 RedGem
+Text(Town_Day,Ch12HouseText3)
+SVAL s3 Divine
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 NextToArena:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch12HouseText2)
 NoFade
 ENDA
 
 TheInn:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch12BarText)
 NoFade
 ENDA
 
 ByVendor:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch12HouseText8)
+NoFade
+ENDA
+
+HouseSouthOfCanas:
+Text(HouseBG,Ch12HouseText9)
+NoFade
+ENDA
+
+HouseNorthOfInn:
+Text(HouseBG,Ch12HouseText11)
 NoFade
 ENDA
 
 Ch12DocksArmoury:
-SHLI IronSword
+SHLI IronSword SlimSword IronLance SlimLance IronAxe IronBow ShortBow
 ALIGN 4
 
 Ch12EntranceArmoury:
-SHLI IronLance
+SHLI SteelSword SteelLance SteelAxe SteelBow
 ALIGN 4
 
 Ch12CentralVendor:
-SHLI Fire
+SHLI Fire Thunder Wind Lightning Flux Heal Vulnerary
 ALIGN 4
 
 Ch12EntranceVendor:
-SHLI Heal
+SHLI Elfire Elthunder Elwind Shine Flux Mend PureWater
 ALIGN 4
+
+Ch12SecretPub:
+SHLI Vulnerary Elixir Antitoxin PureWater TorchStaff Lockpick Barrier KillerAxe QuickRain
+ALIGN 4
+
+Ch12EscapeList:
+//Is there no efficient way to have it be "Unless otherwise noted, everyone gets captured, no flag set"?
+//Apparently not, so now I have to list *everyone*.
+//Not quite all 150, but still...
+EscapeCapturedCheck(Sheeda,0x65)
+EscapeCapturedCheck(Chiki,0x65)
+//game over conditions, set game over flag if you leave them behind
+//do not set a flag otherwise, you're not seeing a left behind unit again!
+//probably should set one for Eliwood/Lilina being ditched at least, but even
+//if I do make them game over conditions for Elibe that wears off here
+//to do once general event works: if 0x65 set, call game over
+EscapeCapturedCheck(Eliwood,0x0)
+EscapeCapturedCheck(Lilina,0x0)
+EscapeCapturedCheck(Wolt,0x0)
+EscapeCapturedCheck(Sophia,0x0)
+EscapeCapturedCheck(Bartre,0x0)
+EscapeCapturedCheck(Mario,0x0)
+EscapeCapturedCheck(Luigi,0x0)
+EscapeCapturedCheck(Peach,0x0)
+EscapeCapturedCheck(Bowser,0x0)
+EscapeCapturedCheck(DK,0x0)
+EscapeCapturedCheck(Toad,0x0)
+EscapeCapturedCheck(Wario,0x0)
+EscapeCapturedCheck(Daisy,0x0)
+EscapeCapturedCheck(Yoshi,0x0)
+EscapeCapturedCheck(Waluigi,0x0)
+EscapeCapturedCheck(Fox,0x0)
+EscapeCapturedCheck(Falco,0x0)
+EscapeCapturedCheck(Peppy,0x0)
+EscapeCapturedCheck(Slippy,0x0)
+EscapeCapturedCheck(Ash,0x0)
+EscapeCapturedCheck(Misty,0x0)
+EscapeCapturedCheck(Brock,0x0)
+EscapeCapturedCheck(Jessie,0x0)
+EscapeCapturedCheck(James,0x0)
+EscapeCapturedCheck(May,0x0)
+EscapeCapturedCheck(Dawn,0x0)
+EscapeCapturedCheck(Serena,0x0)
+EscapeCapturedCheck(Pikachu,0x0)
+EscapeCapturedCheck(Jigglypuff,0x0)
+EscapeCapturedCheck(Ness,0x0)
+EscapeCapturedCheck(Paula,0x0)
+EscapeCapturedCheck(Jeff,0x0)
+EscapeCapturedCheck(Poo,0x0)
+EscapeCapturedCheck(Pokey,0x0)
+EscapeCapturedCheck(Samus,0x0)
+EscapeCapturedCheck(Link,0x0)
+EscapeCapturedCheck(Zelda,0x0)
+EscapeCapturedCheck(Sahasrahla,0x0)
+EscapeCapturedCheck(Marin,0x0)
+EscapeCapturedCheck(Saria,0x0)
+EscapeCapturedCheck(Kirby,0x0)
+EscapeCapturedCheck(Dedede,0x0)
+EscapeCapturedCheck(MetaKnight,0x0)
+EscapeCapturedCheck(Cecil,0x0)
+EscapeCapturedCheck(Butz,0x0)
+EscapeCapturedCheck(Terra,0x0)
+EscapeCapturedCheck(Falcon,0x0)
+CHECK_EVENTID 0x65 //if game over flag set, branch to death event
+BNE 1299 s0 sC
+ENDA
+
+GameOverConditionLeftBehind:
+LABEL 1299
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW EssentialUnitLeftBehind
+TEXTEND
+STAL 30
+GameOver
+ENDB
+
+MarthREDA:
+REDA [37,2]
+
+SheedaREDA:
+REDA [36,2]
+
+ChikiREDA:
+REDA [37,1]
+
+LilinaREDA:
+REDA [38,1]
+
+EliwoodREDA:
+REDA [39,1]
+
+EastCavalierREDA1:
+REDA [39,5]
+
+EastCavalierREDA2:
+REDA [39,6]
+
+EastCavalierREDA3:
+REDA [39,7]
+
+VeyleREDA:
+REDA [35,6]
+
+BartreREDA:
+REDA [21,7]
+
+PubREDA:
+REDA [21,8]

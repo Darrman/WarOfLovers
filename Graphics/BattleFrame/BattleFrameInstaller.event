@@ -45,3 +45,10 @@ POIN BattleScreenPalettes
 // Hook at 0x8057748
 
 POP
+
+//Handled seperately, but still relevant:
+//Hit/Dmg/Crt labels - blank the vanilla ones
+PUSH
+ORG $8025D8
+#incbin HitDmgCrt.img.bin
+POP

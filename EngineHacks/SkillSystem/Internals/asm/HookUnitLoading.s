@@ -30,7 +30,7 @@ HookUnitLoading:
 	ldrb r4, [r4, #4] @char num in r4
 
 	@ extend this since you've extended the BWL a bunch
-	cmp r4, #0x88
+	cmp r4, #0x97
 	bhi no_skills
 
 	ldr r0, =BWLTable

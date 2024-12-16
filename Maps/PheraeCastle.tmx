@@ -9,11 +9,11 @@
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="10"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x2c"/>
-   <property name="MapID" value="0x2b"/>
-   <property name="ObjectType" value="0x18"/>
-   <property name="PaletteID" value="0x57"/>
-   <property name="TileConfig" value="0x1a"/>
+   <property name="MapChangesID" value="Ch10MapChanges"/>
+   <property name="MapID" value="Ch10Map"/>
+   <property name="ObjectType" value="CastleObjType"/>
+   <property name="PaletteID" value="CastlePaletteFE6Pherae"/>
+   <property name="TileConfig" value="CastleTileConfig"/>
   </properties>
   <data encoding="csv">
 428,428,428,428,428,428,428,913,914,915,428,428,428,428,428,428,428,428,428,428,
@@ -33,9 +33,9 @@
 722,722,460,428,428,428,428,428,722,722,722,722,722,460,859,859,859,450,822,822,
 722,722,460,722,722,722,722,722,722,722,722,722,722,460,859,859,859,482,822,822,
 722,722,460,722,722,722,722,722,722,722,722,722,722,460,859,859,859,460,428,428,
-722,722,460,722,722,722,460,722,245,245,245,245,722,460,859,859,859,460,822,822,
-722,722,460,722,722,722,460,722,245,245,245,245,722,424,859,859,859,450,822,822,
-722,722,460,722,722,722,460,722,245,245,245,245,722,520,859,859,859,482,822,822,
+722,722,460,722,722,722,460,722,187,183,183,186,722,460,859,859,859,460,822,822,
+722,722,460,722,722,722,460,722,219,245,245,218,722,424,859,859,859,450,822,822,
+722,722,460,722,722,722,460,722,251,285,285,250,722,520,859,859,859,482,822,822,
 722,722,460,722,722,722,460,722,722,722,722,722,722,520,859,859,859,460,428,428,
 428,428,428,722,722,722,428,428,428,428,428,428,428,428,859,859,859,460,822,822,
 722,722,722,722,722,722,722,722,722,722,722,460,428,428,859,859,859,450,822,822,
@@ -45,7 +45,7 @@
 722,722,722,722,722,722,722,722,722,722,722,460,859,859,859,859,859,450,822,822,
 428,428,722,722,722,428,428,428,428,428,428,460,859,859,859,859,859,482,822,822,
 428,428,722,722,722,429,428,428,428,428,428,428,428,428,428,428,428,428,428,428,
-277,277,453,455,454,277,277,277,277,277,277,277,277,277,277,277,277,277,277,277
+182,182,453,455,454,215,182,182,182,182,182,182,182,182,182,182,182,182,182,182
 </data>
  </layer>
  <layer id="2" name="TopLeftRoomChest1" width="20" height="30" visible="0">
@@ -461,7 +461,7 @@
  <layer id="12" name="EastCellDoor4" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
-   <property name="ID" value="10"/>
+   <property name="ID" value="11"/>
    <property name="Width" value="1"/>
    <property name="X" value="17"/>
    <property name="Y" value="22"/>
@@ -502,7 +502,7 @@
  <layer id="13" name="EastCellDoor5" width="20" height="30" visible="0">
   <properties>
    <property name="Height" value="2"/>
-   <property name="ID" value="10"/>
+   <property name="ID" value="12"/>
    <property name="Width" value="1"/>
    <property name="X" value="17"/>
    <property name="Y" value="26"/>

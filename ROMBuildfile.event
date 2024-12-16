@@ -13,7 +13,7 @@
     ORG FreeSpace
 
     DebugProjectName:
-    String("War of Lovers v0.3"); BYTE 0
+    String("War of Lovers v0.31"); BYTE 0
 
     #include "repointedTextTable.event"
 

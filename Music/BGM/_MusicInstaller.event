@@ -13,6 +13,7 @@ NativeInstrumentMap2:
 
 ALIGN 4
 
+//Akaneia (FE1, 3, 11, 12)
 {
 #include "AkaneiaAnthem.event"
 SongTable(M_AkaneiaAnthem,AkaneiaAnthem,0)
@@ -164,6 +165,7 @@ SongTable(M_MysteryOfTheEmblem,MysteryOfTheEmblem,0)
 SongTable(M_EndingMedleyBook1,B1EndingMedley,0)
 }
 
+//Elibe (FE6, 7)
 
 {
 #include "FE6Attack.event"
@@ -194,7 +196,6 @@ SongTable(M_WinningRoad,WinningRoad,1)
 #include "BattleForWhoseSake.event"
 SongTable(M_BattleForWhoseSake,BattleForWhoseSake,0)
 }
-
 
 {
 #include "PreludeFF5.event"

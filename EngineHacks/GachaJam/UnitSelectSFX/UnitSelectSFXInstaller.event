@@ -46,6 +46,7 @@ POIN PikachuVoiceEffect; POIN FalconVoiceEffect; POIN NessVoiceEffect; POIN Jigg
 POIN RodyVoiceEffect; POIN LilinaVoiceEffect; POIN EliwoodVoiceEffect
 POIN ZeldaVoiceEffect; POIN MarinVoiceEffect; POIN DededeVoiceEffect; POIN MetaKnightVoiceEffect
 POIN FalcoVoiceEffect; POIN PeppyVoiceEffect; POIN SlippyVoiceEffect
+POIN KashimVoiceEffect; POIN SophiaVoiceEffect; POIN BartreVoiceEffect
 
 WORD 0//End marker
 //Default fire emblem 8 voices definitions and bins

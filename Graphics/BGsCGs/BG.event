@@ -116,6 +116,7 @@ POIN MetaKnightBG; WORD 0x0; POIN MetaKnightBGPal
 POIN FalcoBG; WORD 0x0; POIN FalcoBGPal
 POIN PeppyBG; WORD 0x0; POIN PeppyBGPal
 POIN SlippyBG; WORD 0x0; POIN SlippyBGPal
+POIN BlackScreenBG; WORD 0x0; POIN BlackScreenBGPal
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -377,3 +378,9 @@ SlippyBG:
 ALIGN 4
 SlippyBGPal:
 #incbin bin/256SlippyPal.dmp
+
+BlackScreenBG:
+#incbin bin/256BlackScreen.dmp
+ALIGN 4
+BlackScreenBGPal:
+#incbin bin/256BlackScreenPal.dmp

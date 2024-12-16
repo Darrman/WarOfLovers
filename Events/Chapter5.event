@@ -133,7 +133,7 @@ UNIT Sheeda KnightFalcon 0x00 Level(1,Ally,0) [8,10] 0x0 0x0 0x0 0x0 [WingSpear]
 UNIT
 
 VillageWrecker:
-UNIT Lythos Thief 0x00 Level(20,Enemy,1) [16,4] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
+UNIT Lythos Thief 0x00 Level(10,Enemy,1) [16,4] 0x0 0x0 0x0 0x0 [IronSword] BrigandAI
 UNIT
 
 EndingGood:
@@ -143,6 +143,7 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [25,6] 0x0 0x0 0x0 0x0 [DivineStone] N
 UNIT
 
 Traps1:
+SavePoint(20,4)
 ENDTRAP
 ALIGN 4
 
@@ -171,7 +172,7 @@ MOVE 8 Sheeda [5,4]
 ENUN
 CLEA 0
 FADI 10
-RECLASS Sheeda KnightFalcon //dismount her
+CALL DismountSheeda
 LOMA 0x42
 LOAD1 0x1 CutsceneAlear
 LOAD2 0x1 CutsceneMarthInside
@@ -195,7 +196,7 @@ FIGHT Marth Alear Falchion 0
 MUSC M_ThemeOfLove
 Text(Castle_Hall,Ch5AfterScriptedBattle)
 FADI 10
-RECLASS Sheeda FalcoKnight //and back up she goes
+CALL MountSheeda
 CLEA 0
 CLEE 0
 LOMA 0x4
@@ -289,7 +290,7 @@ LABEL 503
 
 //main game
 MUSC M_TogetherWeRide
-CALL UnitGachaJam
+CALL UnitGachaAct1
 WARPIN [25,8]
 MOVE 0xFFFF 0xFFFD [25,8]
 ENUN
@@ -306,6 +307,8 @@ MUSC M_OffToWar
 Text(Castle_Hall_Night,Ch5RodyEscapes)
 Text(Castle_Hall_Night,Ch5MarthSailsNorth)
 REMU Rody
+SVAL s3 ShieldOfSeals
+GIVEITEMTO Marth
 WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
@@ -341,15 +344,29 @@ NoFade
 ENDA
 
 Ch5WestVillage:
+SVAL s1 Marth
+CHECK_ACTIVE
+BEQ 506 s1 sC
 Text(Village,Ch5RiffVillage)
+GOTO 507
+LABEL 506
+Text(Village,Ch5MarthFinallyVisits)
+LABEL 507
 SVAL s3 Dragonshield
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Ch5EastVillage:
+MUSC M_TogetherWeRide
 Text(Village,Ch5MoneyVillage)
+CHECK_EVENTID JamModeOn
+BNE 508 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
+GOTO 509
+LABEL 508
 CALL UnitGachaJam
+LABEL 509
 WARPIN [28,5]
 MOVE 0xFFFF 0xFFFD [28,5]
 ENUN
@@ -383,7 +400,7 @@ NoFade
 ENDA
 
 Ch5Armoury:
-SHLI IronSword IronLance IronAxe IronBow
+SHLI IronSword IronBow KillerBow IronAxe IronLance Javelin
 ALIGN 4
 
 ReturnToTitle:

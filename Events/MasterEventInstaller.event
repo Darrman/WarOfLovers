@@ -1,4 +1,5 @@
 #include Gacha.event
+#include Dismount.event
 #include "WorldMapEvents.event"
 {
 #include "SHPC1.event"
@@ -41,4 +42,7 @@
 }
 {
 #include "Chapter12.event"
+}
+{
+#include "Chapter13.event"
 }

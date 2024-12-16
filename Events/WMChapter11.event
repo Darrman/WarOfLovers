@@ -7,14 +7,13 @@ _0xC220
 STAL 2
 WM_SETCAM 240 160
 WM_FADEOUT 0x0 0x0 0x0
-MUSC M_ANewJourney
-//play Elibian track in its place
+MUSC M_Charge
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch11WorldMap)
 TEXTEND
-//WorldMapLoadMapSprite(0, StarLord, 0, 9) //Marth's node seems to control chapter?
+//WorldMapLoadMapSprite(0, Lord, 0, 9) //Marth's node seems to control chapter?
 WorldMapShowPortraitLeft(0,0x30) //Lilina
 TEXTCONT
 TEXTEND
@@ -51,5 +50,7 @@ STAL 60
 FADI 16
 REMSPRITE 0
 REMSPRITE 1
+REMSPRITE 2
+REMSPRITE 3
 SKIPWN
 ENDA

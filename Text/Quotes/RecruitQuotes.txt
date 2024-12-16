@@ -254,28 +254,71 @@ is Terra, and I have great and[AN]
 dangerous magic.[A][X]
 
 ## RecruitZelda
-PLACEHOLDER![A][X]
+My name is Zelda, Princess[N]
+of Hyrule. Whatever your[AN]
+objective may be, may my[N]
+wisdom serve you well.[A][X]
 
 ## RecruitSahasrahla
-PLACEHOLDER![A][X]
+Link, you must use the[N]
+power of--[AN]
+What? You're not Link.[N]
+I am Sahasrahla.[AN]
+I shall help you to the[N]
+best of my abilities.[A][X]
 
 ## RecruitMarin
-PLACEHOLDER![A][X]
+I knew it! There really[N]
+is more to the world[AN]
+than Koholint Island.[N]
+Now I can see it![AN]
+My name's Marin. Will I[N]
+sing you a song?[A][X]
 
 ## RecruitSaria
-PLACEHOLDER![A][X]
+Hello. I'm Saria, the Sage[N]
+of Forest. I'm meant to[AN]
+watch over Hyrule from the[N]
+Sacred Realm, but I'm here.[AN]
+I can only hope nothing[N]
+terrible will happen...[A][X]
 
 ## RecruitDedede
-PLACEHOLDER![A][X]
+Hahaha! I am King Dedede![N]
+Ruler of Dream Land![AN]
+Give me some food. What?[N]
+There's a great evil?[AN]
+I suppose we can take care[N]
+of that problem first.[A][X]
 
 ## RecruitMetaKnight
-PLACEHOLDER![A][X]
+You are speaking to Meta[N]
+Knight. Dream Land is[AN]
+a country filled with[N]
+slackers. Let me see if[AN]
+your army is in proper[N]
+shape![A][X]
 
 ## RecruitFalco
-PLACEHOLDER![A][X]
+Did I fly into a warp[N]
+or something?![AN]
+My Arwing's totalled,[N]
+Andross is running loose,[AN]
+and I'm stuck. Great.[N]
+That's just wonderful.[A][X]
 
 ## RecruitPeppy
-PLACEHOLDER![A][X]
+Greetings, son! I'm Peppy[N]
+Hare. I've been a member[AN]
+of Team Star Fox for years.[N]
+As I always say, never give[AN]
+up, and trust your instincts.[N]
+Then we shall prevail.[A][X]
 
 ## RecruitSlippy
-PLACEHOLDER![A][X]
+And the Blue Marine should--[N]
+What the-- Where am I?![AN]
+My name's Slippy Toad, and[N]
+I was repairing the team's[AN]
+submarine when I suddenly[N]
+wound up on this planet![A][X]

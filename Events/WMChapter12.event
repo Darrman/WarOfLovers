@@ -7,20 +7,42 @@ _0xC220
 STAL 2
 WM_SETCAM 240 160
 WM_FADEOUT 0x0 0x0 0x0
-MUSC M_ANewJourney
-//play Elibian track in its place
+MUSC M_Charge
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
-WorldMapTextBegin(PlaceholderText)
+WorldMapTextBegin(Ch12WorldMap)
 TEXTEND
-WorldMapLoadMapSprite(0, StarLord, 0, 10) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, DukeKnight, 1, 6)
-WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
-WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+WorldMapShowPortraitLeft(0,0x30) //Lilina
+STAL 30
+WorldMapShowPortraitRight(1,0x52) //Arcard Junior
+STAL 30
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapClearRightPortrait(1)
+STAL 30
+TEXTCONT
+TEXTEND
+WorldMapClearRightPortrait(0)
+STAL 30
+TEXTCONT
+TEXTEND
+WorldMapShowPortraitLeft(0,0x2B) //Alear
+STAL 30
+WorldMapShowPortraitRight(1,0x04) //Chiki
+STAL 30
+//Degeneration does not discriminate, show Alear to emphasise that
+//Could use someone like Gato or Banutu, but they're not yet on screen
+TEXTCONT
+TEXTEND
+WorldMapClearRightPortrait(1)
+STAL 30
+WorldMapClearLeftPortrait(0)
+STAL 30
+WorldMapLoadMapSprite(0, Lord, 0, 10) //Marth
+WorldMapLoadMapSprite(1, Sniper, 1, 11) //Alcryst
+WorldMapDisplayMapSprite(0, 0, 296, 180, 11)
+WorldMapDisplayMapSprite(1, 0, 348, 212, 12)
 TEXTCONT
 TEXTEND
 

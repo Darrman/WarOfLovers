@@ -77,8 +77,8 @@ no_personal:
 
 no_class:
 	@ learned skills, up to 4
-	@ 0x46 -> 0x88 since BWL up
-	cmp r6, #0x88
+	@ 0x46 -> 0x97 since BWL up
+	cmp r6, #0x97
 	bhi generic_unit
 
 	ldr r0, =BWLTable

@@ -18,6 +18,7 @@ TurnEventPlayer(0x0,Turn8Reinforcements,8)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,RyanSeesSense,Marth,Ryan)
 END_MAIN
 
 LocationBasedEvents:
@@ -120,7 +121,8 @@ UNIT Ryan Archer 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SteelBow] NeverM
 UNIT
 
 ChikiGroup:
-UNIT Chiki Mamkute_F 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
+//cut down from 10: not very many levels for the entire game, is it?
+UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [5,1] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
 UNIT
 
 TopReinforcements:
@@ -136,6 +138,7 @@ UNIT KrisFaction Paladin Lyn Level(2,Enemy,1) [8,0] 0x0 0x0 0x0 0x0 [Javelin] Ch
 UNIT
 
 Traps1:
+SavePoint(5,4)
 ENDTRAP
 ALIGN 4
 
@@ -176,22 +179,36 @@ NoFade
 ENDA
 
 EndingScene:
+CHECK_EVENTID 0x8 //did you talk to Ryan?
+BNE 207 s0 sC //skip past the random recruit
+MUSC M_TogetherWeRide
+CHECK_EVENTID JamModeOn
+BNE 205 sC s0 //branch if jam mode 
+CALL UnitGachaAct1
+WARPIN [12,10]
+MOVE 0xFFFF 0xFFFD [12,10]
+ENUN
+ENDWARP
+STAL 20
 MUSC M_Victory
+Text(Village,Ch2EndingRyan)
+Text(Prison_Cell, Ch2EndingFindingChiki)
+GOTO 208
+LABEL 207
+MUSC M_Victory
+Text(Prison_Cell, Ch2EndingFindingChikiRyan)
+LABEL 208
+LOAD1 0x1 ChikiGroup
+ENUN
+Text(Castle_Outside, Ch2EndingChikiStory)
+GOTO 206
+LABEL 205
 CALL UnitGachaJam
 WARPIN [12,10]
 MOVE 0xFFFF 0xFFFD [12,10]
 ENUN
 ENDWARP
 STAL 20
-CHECK_EVENTID JamModeOn
-BNE 205 sC s0 //branch if jam mode 
-Text(Village,Ch2EndingRyan)
-LOAD1 0x1 ChikiGroup
-ENUN
-Text(Prison_Cell, Ch2EndingFindingChiki)
-Text(Castle_Outside, Ch2EndingChikiStory)
-GOTO 206
-LABEL 205
 Text(Village,Ch2EndingLyn)
 LOAD1 0x1 ChikiGroup
 ENUN
@@ -205,6 +222,32 @@ WM_SETNEXTLOCATION 0 0 2 //Needed for world map narration.
 MNCH 0x2
 ENDA
 
+RyanSeesSense:
+MUSC M_Conspiracy
+//REMOVEPORTRAITS
+SetBackground(Village)
+TEXTSTART
+TEXTSHOW Ch2RecruitingRyan
+TEXTEND
+MUSC M_TogetherWeRide
+TEXTCONT
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo
+TurnAlly(Ryan)
+STAL 20
+SET_ACTIVE 0
+EVBIT_T 9 //follow
+MOVE 10 Ryan [5,3]
+STAL 20
+MOVE 10 Marth [5,2]
+ENUN
+STAL 10
+FlashCursor(Ryan,60)
+ENUT 0x3
+CALL EndingScene
+ENDA
+
 Turn8Reinforcements:
 CAM1 [7,0]
 LOAD1 0x1 TopReinforcements
@@ -213,7 +256,7 @@ NoFade
 ENDA
 
 Ch2Vendor:
-SHLI Fire Thunder Shaver Lightning Flux Heal Mend Barrier
+SHLI Fire Thunder Wind Lightning Flux Heal Vulnerary
 ALIGN 4
 
 Ch2House:

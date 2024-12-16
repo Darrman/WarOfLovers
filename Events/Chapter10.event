@@ -16,18 +16,35 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
 TurnEventEnemy(0x0,ExecutionRedTape,1)
-TurnEventEnemy(0x0,ExecutionersArrive,6)
+TurnEventEnemy(0x0,ExecutionersArrive,4)
 TurnEventEnemy(0x0,AntiTurtleGuys,10)
-TurnEventEnemy(0x0,TheThief,4)
+TurnEventEnemy(0x0,TheThief,6)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEvent(0x7,SavingWoltEliwood,Eliwood,Wolt)
+CharacterEvent(0x7,SavingWoltLilina,Lilina,Wolt)
+//CharacterEvent(0x7,SavingWolt,0,Wolt)
+CharacterEvent(0x8,NeededAShamanSoSophiaEliwood,Eliwood,Sophia)
+CharacterEvent(0x8,NeededAShamanSoSophiaLilina,Lilina,Sophia)
+//CharacterEvent(0x8,NeededAShamanSoSophia,0,Sophia)
+CharacterEvent(0x9,YouCantKillMerlinusEliwood,Eliwood,Merlinus)
+CharacterEvent(0x9,YouCantKillMerlinusLilina,Lilina,Merlinus)
+CharacterEvent(0x9,YouCantKillMerlinus,0,Merlinus)
+CharacterEvent(0xA,EverLoyalMarcusEliwood,Eliwood,Marcus)
+CharacterEvent(0xA,EverLoyalMarcusLilina,Lilina,Marcus)
+CharacterEvent(0xA,EverLoyalMarcus,0,Marcus)
+CharacterEvent(0xB,GarretIsHereLilina,Lilina,Garret)
+CharacterEvent(0xB,GarretIsHere,0,Garret)
+CharacterEvent(0xC,WanderingWallaceEliwood,Eliwood,Wallace)
+CharacterEvent(0xC,WanderingWallace,0,Wallace)
 END_MAIN
 
 LocationBasedEvents:
 Seize(0x3,EndingScene,8,1)
 Door(2,6)
 Door(8,6)
+Door(9,6)
 Door(14,4)
 Door(18,4)
 Door(17,10)
@@ -35,9 +52,9 @@ Door(17,14)
 Door(17,18)
 Door(17,22)
 Door(17,26)
-Chest(RedGem,1,3)
-Chest(RedGem,3,3)
-Chest(RedGem,19,11)
+Chest(KillingEdge,1,3)
+Chest(HeroCrest,3,3)
+Chest(Talisman,19,11)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,3,24)
 #endif
@@ -45,7 +62,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
+//DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -76,8 +93,8 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,28] 0x0 0x0 0x0 0x0 [SilverLan
 UNIT
 
 Bad:
-UNIT Ch10Boss Sage_F 0x00 Level(1,Enemy,0) [8,1] 0x0 0x0 0x0 0x0 [Fire] NeverMoveAI
-UNIT RogueBern Sniper 0x00 Level(1,Enemy,0) [8,7] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI //timer soldier
+UNIT Citrinne Sage_F 0x00 Level(1,Enemy,0) [8,1] 0x0 0x0 0x0 0x0 [Shaver, Bolganone] NeverMoveAI
+UNIT Executioner Sniper 0x00 Level(1,Enemy,0) [18,5] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI //timer soldier
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,19] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,15] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [0,11] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
@@ -106,39 +123,56 @@ UNIT RogueBern Fighter 0x00 Level(10,Enemy,1) [5,8] 0x0 0x0 0x0 0x0 [Hammer] Cha
 UNIT RogueBern SwordArmour 0x00 Level(10,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
 UNIT RogueBern LanceArmour 0x00 Level(10,Enemy,1) [15,11] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
 UNIT RogueBern AxeArmour 0x00 Level(10,Enemy,1) [16,11] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
-UNIT RogueBern Shaman 0x00 Level(10,Enemy,1) [9,8] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
-UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [7,3] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT RogueBern Archer 0x00 Level(10,Enemy,1) [9,3] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT RogueBern Shaman 0x00 Level(10,Enemy,1) [9,8] DropItem 0x0 0x0 0x0 [Flux, DoorKey] GuardTileAI //runs up to open door otherwise
+UNIT Brodia Archer 0x00 Level(10,Enemy,1) [7,3] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT Brodia Archer 0x00 Level(10,Enemy,1) [9,3] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
 UNIT RogueBern Monk 0x00 Level(10,Enemy,1) [4,8] 0x0 0x0 0x0 0x0 [Lightning] PursueWithoutHeedAI
-UNIT RogueBern Priest 0x00 Level(10,Enemy,1) [11,4] DropItem 0x0 0x0 0x0 [Sleep, Physic] HealUnits
+UNIT Brodia Priest 0x00 Level(10,Enemy,1) [11,4] DropItem 0x0 0x0 0x0 [Sleep, Physic] HealUnits
 UNIT
 
 ObligatoryThiefReinforcement:
-UNIT RogueBern Thief 0x00 Level(10,Enemy,1) [19,7] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] LootingThiefAI
+UNIT RogueBern Thief 0x00 Level(10,Enemy,1) [19,7] 0x0 0x0 0x1 ExecutionerREDA [IronSword, Lockpick] LootingThiefAI
 UNIT
 
 ExecutionSquad:
-UNIT RogueBern Sniper 0x00 Level(1,Enemy,0) [19,7] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI //uh oh heads rolling
-UNIT RogueBern Fighter 0x00 Level(10,Enemy,1) [19,6] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
-UNIT RogueBern Fighter 0x00 Level(10,Enemy,1) [19,8] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT Executioner Sniper 0x00 Level(1,Enemy,0) [19,7] 0x0 0x0 0x1 ExecutionerREDA [Longbow] PursueWithoutHeedAI //uh oh heads rolling
+UNIT RogueBern Fighter 0x00 Level(10,Enemy,1) [19,6] 0x0 0x0 0x1 ExecutionerReinforcement1REDA [SteelAxe] PursueWithoutHeedAI
+UNIT RogueBern Fighter 0x00 Level(10,Enemy,1) [19,8] 0x0 0x0 0x1 ExecutionerReinforcement2REDA [SteelAxe] PursueWithoutHeedAI
 UNIT
 
 HurryUpAlready:
-UNIT RogueBern Mercenary 0x00 Level(10,Enemy,1) [3,28] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
-UNIT RogueBern Monk 0x00 Level(10,Enemy,1) [4,8] 0x0 0x0 0x0 0x0 [Lightning] PursueWithoutHeedAI
-UNIT RogueBern Monk 0x00 Level(10,Enemy,1) [4,8] 0x0 0x0 0x0 0x0 [Lightning] PursueWithoutHeedAI
+UNIT RogueBern Mercenary 0x00 Level(10,Enemy,1) [3,29] 0x0 0x0 0x1 SouthSpawn2REDA [SteelSword] PursueWithoutHeedAI
+UNIT RogueBern Monk 0x00 Level(10,Enemy,1) [2,29] 0x0 0x0 0x1 SouthSpawn1REDA [Lightning] PursueWithoutHeedAI
+UNIT RogueBern Monk 0x00 Level(10,Enemy,1) [4,29] 0x0 0x0 0x1 SouthSpawn3REDA [Lightning] PursueWithoutHeedAI
 UNIT
 
 PheraenPrisoners:
-//Merlinus can be moved in cutscene
-UNIT Lyn Sniper 0x0 Level(1,NPC,0) [18,1] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //Wolt
-UNIT Lyn Berserker 0x0 Level(1,NPC,0) [19,14] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I asked for random suggestions so this is Garret now
-UNIT Lyn General 0x0 Level(1,NPC,0) [19,18] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //Wallace has returned!
-UNIT Lyn Paladin 0x0 Level(1,NPC,0) [19,22] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //it would be wrong to not have Marcus
-UNIT Lyn Druid_F 0x0 Level(1,NPC,0) [19,26] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I dunno inexplicable Sophia to hint for Forblaze?
+UNIT Merlinus Civilian_2 0x00 Level(1,NPC,0) [14,1] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Wolt Archer 0x0 Level(7,NPC,0) [18,1] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //Wolt
+UNIT Garret Berserker 0x0 Level(1,NPC,0) [19,14] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I asked for random suggestions so this is Garret now
+UNIT Wallace General 0x0 Level(1,NPC,0) [19,18] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //Wallace has returned!
+UNIT Marcus KnightPaladin 0x0 Level(1,NPC,0) [19,22] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //it would be wrong to not have Marcus
+UNIT Sophia Shaman_F 0x0 Level(5,NPC,0) [19,26] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I dunno inexplicable Sophia to hint for Forblaze?
+UNIT
+
+CutsceneSurrender:
+UNIT Citrinne Sage_F 0x00 Level(1,Enemy,0) [4,13] 0x0 0x0 0x0 0x0 [Bolganone] NeverMoveAI
+UNIT Merlinus Civilian_2 0x00 Level(1,NPC,0) [8,1] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Executioner Sniper 0x00 Level(1,Enemy,0) [5,13] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI 
+UNIT Brodia Priest 0x00 Level(10,Enemy,1) [6,13] DropItem 0x0 0x0 0x0 [Sleep, Physic] HealUnits
+UNIT Marcus KnightPaladin 0x00 Level(1,NPC,0) [9,1] 0x0 0x0 0x0 0x0 [IronSword] NoAI //???
+UNIT RogueBern KnightDragon 0x00 Level(1,Enemy,0) [3,28] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+//New idea: status Marcus instead. No need to figure out a fall guy.
+
+CutsceneGood:
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [3,29] 0x0 0x0 0x0 LilinaREDA [Fire] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [2,29] 0x0 0x0 0x0 EliwoodREDA [SilverSword] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [4,29] 0x0 0x0 0x0 MarthREDA [Rapier] NoAI
 UNIT
 
 Traps1:
+SavePoint(15,23)
+SavePoint(6,8)
 ENDTRAP
 ALIGN 4
 
@@ -147,14 +181,65 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_Stratagem
+LOAD2 0x1 CutsceneSurrender
+TILECHANGE 5 //throne room door
+FADU 10
+MOVE 8 Citrinne [8,3]
+MOVE 8 Brodia [8,4]
+MOVE 8 Executioner [8,6]
+ENUN
+FlashCursor(Merlinus,60)
 Text(Castle_Hall_3,Ch10OpeningFatalNegotiations) //todo: make them less fatal
+NormalDamage(0,0) //figure out how to have scripted status staff
+EndAttack
+FIGHT_MAP Brodia Marcus Sleep 0
+STAL 20
+NormalDamage(0,14) //take Merlinus to 1
+EndAttack
+FIGHT_MAP Citrinne Merlinus Shaver 0
+//map anim since Merlinus has no battle anim
+MOVE 5 Merlinus [10,5]
+MOVE 10 Citrinne [8,1]
+ENUN
+FlashCursor(Citrinne,60)
+TEXTSTART
+TEXTSHOW Ch10OpeningReinforcements
+TEXTEND
+MOVE 12 RogueBern [8,5]
+ENUN
+FlashCursor(RogueBern,60)
+TEXTCONT
+TEXTEND
+STAL 10
+//cutscene map: FE6 Ch1?
+MUSC M_AnUnexpectedCaller //maybe one of the sad themes?
 Text(Castle_Outside,Ch10OpeningPheraeIsRuined)
+CAM1 [3,26] //where Marth will arrive
+STAL 10
+LOAD2 0x1 CutsceneGood
+CALL DismountEliwood
+STAL 5
+MOVE 10 Marth [3,26]
+MOVE 10 Eliwood [4,25]
+MOVE 10 Lilina [5,26]
+ENUN
+STAL 10
+CAM1 [3,22] //shift it up a bit to get Citrinne on-screen
+MOVE 8 Citrinne [4,18]
+ENUN
+FlashCursor(Eliwood,60)
 Text(Castle_Hall_3,Ch10OpeningMarthLives)
 FADI 10
-LOAD1 0x1 Good
+CLEA 0
+CLEN 0
+CLEE 0
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 PheraenPrisoners
+CALL DismountAll //indoor map
+MUSC M_EnemiesAppear
 CAM1 [0,0]
 FADU 10
 STAL 20
@@ -170,10 +255,39 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+//Still a bit rough, but plenty extra writing needed here anyway
+//Check if all green units alive: if so, no gaiden
+CHECK_EVENTID 0xD //set if a green unit dies here
+BNE 1001 s0 sC
+MUSC M_Triumph
+Text(Ch10EndingPrisonersSaved)
+SVAL s3 Rapier
+GIVEITEMTO Marth
+//had pencilled in Eliwood, but I wrote it with Marth
+//placeholder: should be some reward in addition to the gaiden
+LABEL 1001
+//Then check if you got Wolt/Sophia, if you left them green get a random
+//Will likely revise depending on how the recruitments map out
+//Let's tie Wolt to 10 and Sophia to 10x for now
+CHECK_EVENTID 0x7 //Wolt talked to
+BNE 1002 s0 sC
+MUSC M_JoinUs
+//Check if moving a mount indoors will crash or not; if so stick in a plain tile somewhere
+CALL UnitGachaAct2
+WARPIN [8,3]
+MOVE 0xFFFF 0xFFFD [8,3]
+ENUN
+ENDWARP
+LABEL 1002
+MUSC M_IntoTheShadowOfTriumph
 Text(Castle_Hall_3,Ch10EndingPheraeFinallyFell)
 Text(Castle_Hall_3,Ch10EndingWhenWillWeGetHome)
+MUSC M_LegendOfTheDivineDragonMusicBox
+//replace with non-music box version: it's not the bad ending!
 Text(Castle_Hall_3,Ch10EndingForNinian)
-//Get Ice Stone
+SVAL s3 IceStone
+GIVEITEMTO Chiki
+MUSC M_Stratagem
 Text(Castle_Room,Ch10EndingSomniel)
 WM_LOADLOCATION2 0 9 0 //Required to fix chapter name
 WM_SETDESTINATION 0 9 0 //World map node. Keep these equal.
@@ -184,20 +298,32 @@ ENDA
 ENDA
 
 AfterBattlePrep:
-CAM1 [18,2]
+CAM1 Wolt
 STAL 10
+FlashCursor(Wolt,60)
 Text(Ch10AfterPrep)
 NoFade
 ENDA
 
 ExecutionRedTape:
+CAM1 Citrinne
+MOVE 10 Executioner [8,3]
+ENUN
 Text(Ch10RedTape)
+MOVE 10 Executioner [8,7]
+ENUN
+TILEREVERT 5 //lock the door again; maybe do this after the t1 cutscene?
+MOVE 10 Executioner [19,7]
+ENUN
+DISA Executioner
 NoFade
 ENDA
 
 ExecutionersArrive:
 LOAD1 0x1 ExecutionSquad
-//Text
+CAM1 Executioner
+FlashCursor(Executioner,60)
+Text(Ch10FiringSquadAppears)
 NoFade
 ENDA
 
@@ -210,3 +336,121 @@ TheThief:
 LOAD1 0x1 ObligatoryThiefReinforcement
 NoFade
 ENDA
+
+YouCantKillMerlinus:
+Text(BailingOutMerlinus)
+NoFade
+ENDA
+
+YouCantKillMerlinusEliwood:
+Text(BailingOutMerlinusEliwood)
+NoFade
+ENDA
+
+YouCantKillMerlinusLilina:
+Text(BailingOutMerlinusLilina)
+NoFade
+ENDA
+
+
+SavingWolt:
+Text(WoltWalksFree)
+//Recruitment conditional
+NoFade
+ENDA
+
+SavingWoltEliwood:
+MUSC M_JoinUs
+Text(WoltWalksFreeEliwood)
+TurnAlly(Wolt)
+NoFade
+ENDA
+
+SavingWoltLilina:
+MUSC M_JoinUs
+Text(WoltWalksFreeLilina)
+TurnAlly(Wolt)
+NoFade
+ENDA
+
+WanderingWallace:
+Text(WallaceWalks)
+NoFade
+ENDA
+
+WanderingWallaceEliwood:
+Text(WallaceWalksEliwood)
+NoFade
+ENDA
+
+GarretIsHere:
+Text(GettingGarretOut)
+NoFade
+ENDA
+
+GarretIsHereLilina:
+Text(GettingGarretOutLilina)
+NoFade
+ENDA
+
+NeededAShamanSoSophia:
+Text(SavingSophia)
+//recruitment conditional
+NoFade
+ENDA
+
+NeededAShamanSoSophiaEliwood:
+MUSC M_JoinUs
+Text(SavingSophiaEliwood)
+TurnAlly(Sophia)
+NoFade
+ENDA
+
+NeededAShamanSoSophiaLilina:
+MUSC M_JoinUs
+Text(SavingSophiaLilina)
+TurnAlly(Sophia)
+NoFade
+ENDA
+
+EverLoyalMarcus:
+Text(MarcusRescue)
+NoFade
+ENDA
+
+EverLoyalMarcusEliwood:
+Text(MarcusRescueEliwood)
+NoFade
+ENDA
+
+EverLoyalMarcusLilina:
+Text(MarcusRescueLilina)
+NoFade
+ENDA
+
+MarthREDA:
+REDA [3,24]
+
+EliwoodREDA:
+REDA [3,22]
+
+LilinaREDA:
+REDA [3,26]
+
+ExecutionerREDA:
+REDA [19,7]
+
+ExecutionerReinforcement1REDA:
+REDA [19,6]
+
+ExecutionerReinforcement2REDA:
+REDA [19,8]
+
+SouthSpawn1REDA:
+REDA [2,29]
+
+SouthSpawn2REDA:
+REDA [3,28]
+
+SouthSpawn3REDA:
+REDA [4,29]

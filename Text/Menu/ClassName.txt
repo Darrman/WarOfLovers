@@ -77,10 +77,12 @@ Duke Knight[X]
 Bow Knight[X]
 
 ## SwordArmourName
-Sword Armour[X]
+//I choose spelling "armour" correctly with CamelCase over the American
+//version with a space.
+SwordArmour[X]
 
 ## LanceArmourName
-Lance Armour[X]
+LanceArmour[X]
 
 ## AxeArmourName
 Axe Armour[X]
@@ -158,3 +160,303 @@ public release.[X]
 
 ## DummyName
 Dummy[X]
+
+## LordDesc
+Members of noble houses. They possess[N]
+exceptional leadership skills.[X]
+
+## CavalierDesc
+Mounted knights well-balanced in all[N]
+areas and with superior movement.[X]
+
+## PaladinDesc
+Dedicated cavaliers with superior[N]
+ability all around.[X]
+
+## LanceArmourDesc
+Heavily armoured knights with[N]
+stout defense, but low speed.[X]
+
+## GeneralDesc
+Highly durable armour knights able[N]
+to use any physical weapon.[X]
+
+## ThiefDesc
+Jacks of all trades who can[N]
+pick locks and learn secrets.[X]
+
+## MamkuteDesc
+Dragons who have assumed human form.[N]
+As humans, they are helpless, but...[X]
+
+## MercenaryDesc
+Professional soldiers-for-hire.[N]
+They have a balanced set of skills.[X]
+
+## HeroDesc
+Veteran mercenaries with strengths[N]
+in all areas of combat.[X]
+
+## MyrmidonDesc
+Swordfighters with superior[N]
+skill. Accurate, but frail.[X]
+
+## SwordmasterDesc
+The finest of myrmidons. Their sword[N]
+strokes are swift and deadly.[X]
+
+## AssassinDesc
+Trained killers who can deal[N]
+death in a single blow.[X]
+
+## ArcherDesc
+Soldiers who attack from a distance[N]
+with their bows. Defenceless up close.[X]
+
+## SniperDesc
+Archers of unparalleled accuracy.[N]
+No other bow user can compare.[X]
+
+## HorsemanDesc
+Hunters who have tamed a mount. They[N]
+have the greatest attack range.[X]
+
+## DragonKnightDesc
+Powerful high-flying knights vulnerable[N]
+only to bows and magic.[X]
+
+## DragonMasterDesc
+The strongest of dragon knights. None[N]
+can challenge their rule of the skies.[X]
+
+## MageDesc
+Practicioners of magic. They bypass[N]
+physical defences, but are fragile.[X]
+
+## SageDesc
+The most learned mages. Adept at both[N]
+fighting enemies and supporting allies.[X]
+
+## MageKnightDesc
+A mounted magician capable of using[N]
+both magical attacks and swords.[X]
+
+## BishopDesc
+High-ranking clergy who smite their[N]
+foes with light magic and staves.[X]
+
+## ShamanDesc
+Students of dark magic.[N]
+Powerful, but very slow.[X]
+
+## DruidDesc
+The most dangerous of shamans. Their[N]
+raw magical power terrifies all.[X]
+
+## SummonerDesc
+A shaman who has mastered the ability[N]
+of summoning spirits from afar.[X]
+
+## RogueDesc
+The slickest of thieves. Capable of[N]
+picking pockets and locks with ease.[X]
+
+## GreatKnightDesc
+Finely trained axe knights. They boast[N]
+excellent defences and mobility.[X]
+
+## FighterDesc
+Axe-wielding soldiers whose strong and[N]
+inaccurate attack offers little defense.[X]
+
+## WarriorDesc
+The mightiest of fighters. Few can hope[N]
+to survive a blow from their axe.[X]
+
+## BrigandClassDesc
+Mighty mountaineers who threaten[N]
+villages and prefer axes in combat.[X]
+
+## PirateClassDesc
+Bold pirates who use axes in[N]
+battle. Quite adept at sea.[X]
+
+## BerserkerDesc
+A bandit at home in all sorts of[N]
+terrain. They are wild, but lethal.[X]
+
+## MonkDesc
+Members of the clergy who call upon[N]
+the divine to fight. Weak, but accurate.[X]
+
+## PriestDesc
+Healers who assist people with their[N]
+staves. Cannot defend themselves.[X]
+
+## PegasusKnightDesc
+Swift flying knights. Bears excellent[N]
+magical resistance, but little strength.[X]
+
+## FalconKnightDesc
+The most graceful pegasus knights.[N]
+They dance through the skies.[X]
+
+## TroubadourDesc
+Staff-wielding maidens who[N]
+travel by horseback.[X]
+
+## ValkyrieDesc
+The most talented troubadours. Supports[N]
+allies with staves and fights with magic.[X]
+
+## DancerDesc
+Dancers whose dances revitalise their[N]
+allies. Uses swords for self-defence.[X]
+
+## FreeKnightDesc
+Knights ultimately loyal to nobody.[N]
+Skilled with the sword.[X]
+
+## LanceKnightDesc
+Lance-wielding cavalry. Well-balanced[N]
+in all areas of combat.[X]
+
+## AxeKnightDesc
+Mounted axe wielders. They adopt a more[N]
+defensive fighting stance.[X]
+
+## ArchKnightDesc
+Professional mounted archers. Adept at[N]
+hit-and-run tactics.[X]
+
+## RangerDesc
+Dedicated free knights. Their skill[N]
+with a sword is second to none.[X]
+
+## DukeKnightDesc
+Noble lance knights. Their strength[N]
+with the lance is without peer.[X]
+
+## BowKnightDesc
+Veteran arch knights. They rain arrows[N]
+upon their opponents from afar.[X]
+
+## SwordArmourDesc
+Armoured sword users. Much slower, but[N]
+more durable than their counterparts.[X]
+
+## AxeArmourDesc
+Well-armoured knights capable of[N]
+wielding the axe on the front line.[X]
+
+## BowArmourDesc
+Armoured archers who fear little on[N]
+the front lines before shooting back.[X]
+
+## HalberdierDesc
+The most skillful soldiers. Competent[N]
+in all areas of combat.[X]
+
+## FireDragonDesc
+Mighty dragons, capable of breathing[N]
+defence-piercing flame on their enemies.[X]
+
+## IceDragonDesc
+Dragons of the cold. Able to swim[N]
+across water to reach prey.[X]
+
+## MagicDragonDesc
+Dragons in tune with magic. Their breath[N]
+is magical and no magic can harm them.[X]
+
+## FlyingDragonDesc
+Untamed wyverns soaring the skies. They[N]
+have unparalleled attack range.[X]
+
+## DivineDragonDesc
+The strongest of all the dragons. Their[N]
+breath devestates fellow dragons.[X]
+
+## EarthDragonDesc
+Dragons from the darkness underground.[N]
+Their breath weakens any attackers.[X]
+
+## KnightLordDesc
+(Placeholder for promoted Eliwood)[X]
+
+## SageLilinaDesc
+(Placeholder for promoted Lilina)[X]
+
+## HeroAlmDesc
+(Placeholder for Alm's class)[X]
+
+## LordKnightDesc
+(Placeholder for Celice's descendant)[X]
+
+## MageFighterDesc
+Mages who have taken up the sword as[N]
+a sidearm. Balanced all around.[X]
+
+## WarMonkDesc
+Clergy who have taken up the axe,[N]
+in addition to staves.[X]
+
+## TelliusValkyrieDesc
+(Placeholder for Tellius valkyries.[N]
+Renaming is necessary.)[X]
+
+## BasaraDesc
+(Placeholder for hybrid lance/magic[N]
+class. Open to non-Fates name.)[X]
+
+## InfantryDesc
+Gun-toting soldiers that form the[N]
+backbone of any army.[X]
+
+## AntiAirDesc
+Cannons ready and able to shoot any[N]
+flying object out of the sky.[X]
+
+## LightTankDesc
+A mobile tank able to both fight[N]
+and travel across the battlefield.[X]
+
+## MediumTankDesc
+A large and powerful tank. Nothing[N]
+can survive a blast from its cannon.[X]
+
+## MechDesc
+Mechanised infantry, wielding bazookas[N]
+more than able to stop a tank.[X]
+
+## ReconDesc
+Reconnaisance vehicles adept at[N]
+scouting out terrain.[X]
+
+## APCDesc
+Armoured Personnel Carriers. Unarmed,[N]
+but ideal for moving infantry.[X]
+
+## ArtilleryDesc
+Turrets that guard large areas of[N]
+ground. Must take time to aim.[X]
+
+## FighterPlaneDesc
+Flying high in the sky, these planes[N]
+cannot be attacked at ground level.[X]
+
+## BomberDesc
+These machines rain death from above.[N]
+Nothing can survive a direct bomb hit.[X]
+
+## HelicopterDesc
+Versatile air vehicles that can fight[N]
+and also transport units around.[X]
+
+## BattleshipDesc
+Rulers of the high seas. Their cannons[N]
+can blast anything for miles around.[X]
+
+## SubmarineDesc
+Undetectable from the surface, these[N]
+submarines can sink ships with ease.[X]

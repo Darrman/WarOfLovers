@@ -59,8 +59,8 @@ not_extra_learn_skill:
 	ldr  r2, [r0]
 	ldrb r2, [r2, #4]
 
-	@ if CharID > 0x88 (0x46 in vanilla) then return 0
-	cmp r2, #0x46
+	@ if CharID > 0x97 (0x46 in vanilla) then return 0
+	cmp r2, #0x97
 	bhi return_zero
 
 	lsl  r2, #4

@@ -286,3 +286,16 @@ POP
   //Disable autosave (Laqieer)
   #include "GachaJam/AutosaveKiller/AutosaveKiller.event"
   
+  //Remove an item from everywhere (7743)
+  #include "GachaJam/ItemManagement/Installer.event"
+  
+  //Dynamic text entries (Knabepicer)
+  #include "GachaJam/DynamicTextSwap/Installer.event"
+  
+  //Dynamic character portraits (Scraiza)
+  //Installing makes the character portraits vanilla again: debug when needed
+  //#include "GachaJam/DynamicPortraits/DynamicPortraitsInstaller.event"
+
+  //CHECK_DEPLOYED, etc. fix (7743)
+  #include "GachaJam/CheckConditionalFix/State33Fix.event"
+  

@@ -1,0 +1,8 @@
+//This is taken from EVENTSCRIPT_COND_ITEM of FEBuilder.
+//Relevant FEBuilder patches by 7743: currently just using delete item.
+
+DeleteItem:
+ALIGN 4
+#incbin item_collect.bin
+
+#define RemoveItemFromEverywhere(Item) "BYTE 0x40 0x0D; SHORT Item; POIN DeleteItem+1"
