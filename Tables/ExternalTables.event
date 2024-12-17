@@ -58,8 +58,8 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 #define ForcedDeployment(Character,Route,Chapter) "SHORT Character; BYTE Route Chapter"
 PUSH
 ORG 0x9ED64C
-ForcedDeployment(Marth,0x1,0xFF) //Marth forced in "tutorial mode"
-ForcedDeployment(Marth,0x2,0xFF) //Marth forced in Eirika mode
+ForcedDeployment(Fighter,0x1,0xFF) //Fighter for Gen 1
+ForcedDeployment(Cecil,0x2,0xFF) //Cecil for Gen 2
 ForcedDeployment(Sheeda,0x1,0x4) //force Sheeda for Talis
 ForcedDeployment(Lilina,0x1,0xB) //force Lilina for Ostia (wonder how that works if she's dead?)
 ForcedDeployment(0x0,0x0,0x0) //blank the rest

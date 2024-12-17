@@ -257,6 +257,6 @@ MariaFirionLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT MariaFirionPaired
 Text(PlaceholderText)
-SetSupport(Marth,Sheeda,ASupport) //test before you properly set things up
+SetSupport(Firion,Maria,ASupport) //test before you properly set things up
 POPUP 0xC 0x5A //show "support rank up"; might leave that out and let player infer
 ENDA

@@ -367,6 +367,181 @@ SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
+//Gen 1 - you get these two for free!
+FighterSupports:
+CharacterSupport(WhiteMage, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+WhiteMageSupports:
+CharacterSupport(FighterFF1, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+//The rest: 3-4 guys for each girl, 2-3 girls for each guy.
+//"Canon" pairing gets listed first.
+
+BlackMageSupports:
+CharacterSupport(Ana, Arle, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+FirionSupports:
+CharacterSupport(Maria, SoldierDW3, 0, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+MariaSupports:
+CharacterSupport(Firion, Guy, British, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+GuySupports:
+CharacterSupport(Maria, Sheeda, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+ErdrickSupports:
+CharacterSupport(SoldierDW3, Alena, 0, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+SoldierSupports:
+CharacterSupport(Erdrick, HeroDW1, Firion, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+AlenaSupports:
+CharacterSupport(Cristo, Taloon, HeroDW1, Marth, Erdrick, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 1, 1, 0, 0)
+BYTE 5 //support count
+BYTE 0 0
+
+CristoSupports:
+CharacterSupport(Alena, Arle, 0, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+TaloonSupports:
+CharacterSupport(Alena, Sheeda, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+NintenSupports:
+CharacterSupport(Ana, Alis, 0, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+AnaSupports:
+CharacterSupport(Ninten, Lloyd, BlackMage, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+LloydSupports:
+CharacterSupport(Ana, Arle, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+MarthSHPCSupports:
+//troll idea: use unused character slots to have implied canon characters
+//eg: a pegasus knight implying Katua
+//She still won't win though - she's not here!
+CharacterSupport(Sheeda, Alena, Alis, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+SheedaSHPCSupports:
+CharacterSupport(Marth, Banutu, Guy, Taloon, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 1, 0, 0, 0)
+BYTE 4 //support count
+BYTE 0 0
+
+BanutuSupports:
+CharacterSupport(Sheeda, Yumiko, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+NakajimaSupports:
+CharacterSupport(Yumiko, Alis, 0, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+YumikoSupports:
+CharacterSupport(Nakajima, British, Odin, Banutu, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 1, 0, 0, 0)
+BYTE 4 //support count
+BYTE 0 0
+
+AlisSupports:
+CharacterSupport(Odin, Ninten, Nakajima, Marth, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 1, 1, 0, 0, 0)
+BYTE 4 //support count
+BYTE 0 0
+
+OdinSupports:
+CharacterSupport(Alis, Yumiko, 0, 0, 0, 0, 0)
+SupportBases(50, 0, 0, 0, 0, 0, 0)
+SupportGrowths(2, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+DW1HeroSupports:
+CharacterSupport(SoldierDW3, Alena, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+ArleSupports:
+CharacterSupport(BlackMage, Lloyd, Cristo, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 1, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+BritishSupports:
+CharacterSupport(Maria, Yumiko, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 1, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
 #define Ending(Type, Char1, Char2, Text) "BYTE Type Char1 Char2 0; SHORT Text 0"
 #define Paired 0x2
 #define Single 0x1

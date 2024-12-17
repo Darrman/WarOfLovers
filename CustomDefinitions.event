@@ -687,6 +687,7 @@
 #define AlenaTaloonPaired 0x7B //you caused a divorce
 #define AlenaHeroPaired 0x7C //crossing continunities
 #define AlenaMarthPaired 0x90 //Marth's type is now "strong"
+#define AlenaErdrickPaired 0x91 //^^, Alena's Aideen now
 #define AnaNintenPaired 0x7D //they confess in-game!
 #define AnaLloydPaired 0x7E //or you could ignore that
 #define AnaBlackMagePaired 0x7F //magic power!
