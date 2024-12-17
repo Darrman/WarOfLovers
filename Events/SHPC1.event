@@ -29,7 +29,36 @@ CharacterBasedEvents:
 #define AlisPaired 0xD
 #define ArlePaired 0xE
 //to have a pre-condition, add relevant flag after character 2
-CharacterEvent(MariaPaired,MariaFirionLoversConvo,Firion,Maria)
+CharacterEvent(MariaPaired,MariaFirionLoversConvo,Maria,Firion)
+CharacterEvent(MariaPaired,MariaGuyLoversConvo,Maria,Guy)
+CharacterEvent(MariaPaired,MariaBritishLoversConvo,Maria,British)
+CharacterEvent(SoldierPaired,SoldierErdrickLoversConvo,SoldierDW3,Erdrick)
+CharacterEvent(SoldierPaired,SoldierHeroLoversConvo,SoldierDW3,HeroDW1)
+CharacterEvent(SoldierPaired,SoldierFirionLoversConvo,SoldierDW3,Firion)
+CharacterEvent(AlenaPaired,AlenaCristoLoversConvo,Alena,Cristo)
+CharacterEvent(AlenaPaired,AlenaTaloonLoversConvo,Alena,Taloon)
+CharacterEvent(AlenaPaired,AlenaHeroLoversConvo,Alena,Hero)
+CharacterEvent(AlenaPaired,AlenaMarthLoversConvo,Alena,Marth)
+CharacterEvent(AlenaPaired,AlenaErdrickLoversConvo,Alena,Erdrick)
+CharacterEvent(AnaPaired,AnaNintenLoversConvo,Ana,Ninten)
+CharacterEvent(AnaPaired,AnaLloydLoversConvo,Ana,Lloyd)
+CharacterEvent(AnaPaired,AnaBlackMageLoversConvo,Ana,BlackMage)
+CharacterEvent(SheedaPaired,SheedaMarthLoversConvo,Sheeda,Marth)
+CharacterEvent(SheedaPaired,SheedaBanutuLoversConvo,Sheeda,Banutu)
+CharacterEvent(SheedaPaired,SheedaGuyLoversConvo,Sheeda,Guy)
+CharacterEvent(SheedaPaired,SheedaTaloonLoversConvo,Sheeda,Taloon)
+CharacterEvent(YumikoPaired,YumikoNakajimaLoversConvo,Yumiko,Nakajima)
+CharacterEvent(YumikoPaired,YumikoBritishLoversConvo,Yumiko,British)
+CharacterEvent(YumikoPaired,YumikoOdinLoversConvo,Yumiko,Odin)
+CharacterEvent(YumikoPaired,YumikoBanutuLoversConvo,Yumiko,Banutu)
+CharacterEvent(AlisPaired,AlisOdinLoversConvo,Alis,Odin)
+CharacterEvent(AlisPaired,AlisNintenLoversConvo,Alis,Ninten)
+CharacterEvent(AlisPaired,AlisNakajimaLoversConvo,Alis,Nakajima)
+CharacterEvent(AlisPaired,AlisMarthLoversConvo,Alis,Marth)
+CharacterEvent(ArlePaired,ArleBlackMageLoversConvo,Arle,BlackMage)
+CharacterEvent(ArlePaired,ArleLloydLoversConvo,Arle,Lloyd)
+CharacterEvent(ArlePaired,ArleCristoLoversConvo,Arle,Cristo)
+
 END_MAIN
 
 LocationBasedEvents:
@@ -258,5 +287,258 @@ MUSC M_ThemeOfLove //at least for now
 ENUT MariaFirionPaired
 Text(PlaceholderText)
 SetSupport(Firion,Maria,ASupport) //test before you properly set things up
-POPUP 0xC 0x5A //show "support rank up"; might leave that out and let player infer
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+MariaGuyLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT MariaGuyPaired
+Text(PlaceholderText)
+SetSupport(Guy,Maria,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+MariaBritishLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT MariaBritishPaired
+Text(PlaceholderText)
+SetSupport(British,Maria,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SoldierErdrickLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SoldierErdrickPaired
+Text(PlaceholderText)
+SetSupport(Erdrick,SoldierDW3,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SoldierHeroLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SoldierHeroPaired
+Text(PlaceholderText)
+SetSupport(HeroDW1,SoldierDW3,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SoldierFirionLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SoldierFirionPaired
+Text(PlaceholderText)
+SetSupport(Firion,SoldierDW3,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlenaCristoLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlenaCristoPaired
+Text(PlaceholderText)
+SetSupport(Alena,Cristo,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlenaTaloonLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlenaTaloonPaired
+Text(PlaceholderText)
+SetSupport(Alena,Taloon,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlenaHeroLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlenaHeroPaired
+Text(PlaceholderText)
+SetSupport(Alena,HeroDW1,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlenaMarthLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlenaMarthPaired
+Text(PlaceholderText)
+SetSupport(Alena,Marth,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlenaErdrickLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlenaErdrickPaired
+Text(PlaceholderText)
+SetSupport(Alena,Erdrick,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AnaNintenLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AnaNintenPaired
+Text(PlaceholderText)
+SetSupport(Ninten,Ana,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AnaLloydLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AnaLloydPaired
+Text(PlaceholderText)
+SetSupport(Ana,Lloyd,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AnaBlackMageLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AnaBlackMagePaired
+Text(PlaceholderText)
+SetSupport(BlackMage,Ana,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SheedaMarthLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SheedaMarthPaired
+Text(PlaceholderText)
+SetSupport(Marth,Sheeda,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SheedaBanutuLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SheedaBanutuPaired
+Text(PlaceholderText)
+SetSupport(Sheeda,Banutu,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SheedaGuyLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SheedaGuyPaired
+Text(PlaceholderText)
+SetSupport(Sheeda,Guy,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+SheedaTaloonLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT SheedaTaloonPaired
+Text(PlaceholderText)
+SetSupport(Sheeda,Taloon,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+YumikoNakajimaLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT YumikoNakajimaPaired
+Text(PlaceholderText)
+SetSupport(Nakajima,Yumiko,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+YumikoBritishLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT YumikoBritishPaired
+Text(PlaceholderText)
+SetSupport(British,Yumiko,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+YumikoOdinLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT YumikoOdinPaired
+Text(PlaceholderText)
+SetSupport(Yumiko,Odin,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+YumikoBanutuLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT YumikoBanutuPaired
+Text(PlaceholderText)
+SetSupport(Yumiko,Banutu,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlisOdinLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlisOdinPaired
+Text(PlaceholderText)
+SetSupport(Alis,Odin,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlisNintenLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlisNintenPaired
+Text(PlaceholderText)
+SetSupport(Alis,Ninten,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlisNakajimaLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlisNakajimaPaired
+Text(PlaceholderText)
+SetSupport(Alis,Nakajima,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+AlisMarthLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT AlisMarthPaired
+Text(PlaceholderText)
+SetSupport(Alis,Marth,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+ArleBlackMageLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT ArleBlackMagePaired
+Text(PlaceholderText)
+SetSupport(Arle,BlackMage,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+ArleLloydLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT ArleLloydPaired
+Text(PlaceholderText)
+SetSupport(Arle,Lloyd,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+ArleCristoLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT ArleCristoPaired
+Text(PlaceholderText)
+SetSupport(Arle,Cristo,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
 ENDA
