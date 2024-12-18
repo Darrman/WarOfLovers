@@ -38,23 +38,22 @@ PortraitShiftEdit:
 
 BYTE 0 0 1 1 1 1 1 1
 //Portrait ID 0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07
-//Invalid, question mark, Marth, Sheeda, Chiki, Marich, Mario, Luigi
+//Invalid, question mark, Marth, Sheeda, Chiki, Marich, Mario, DW1Hero
 
-BYTE 1 1 1 1 1 1 1 1
+BYTE 1 1 1 1 1 1 0 0
 //Portrait ID 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x0D, 0x0E, 0x0F
-//Peach, Bowser, DK, Toad, Wario, Daisy, Yoshi, Waluigi
+//FF1Fighter, WhiteMage, BlackMage, Firion, Maria, Guy, Erdrick, DW3Soldier
 
 //the first 16, 0x00 through 0x0F, all return 0
 
-
 //0x10 through 0x1F
-BYTE 0 0 0 0 0 0 0 0 
+BYTE 1 0 0 0 1 1 0 0 
 //Portrait ID 0x10, 0x11, 0x12, 0x13, 0x14, 0x15, 0x16, 0x17
-//Ash, Misty, Brock, Jessie, James, May, Dawn, Serena
+//Alena, Cristo, Taloon, Ninten, Ana, Lloyd, Alis, Odin
 
-BYTE 0 1 0 1 1 0 1 1 
+BYTE 0 1 1 1 0 0 1 1 
 //Portrait ID 0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1E, 0x1F
-//Link, Samus, Kirby, Fox, Pikachu, Falcon, Jigglypuff, Ness
+//Banutu, Nakajima, Yumiko, Arle, British, Thief, Garland, Ness
 
 //0x20 through 0x26
 BYTE 1 1 1 1 1 0 1

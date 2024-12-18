@@ -131,7 +131,7 @@
 //Akaneia 2
 #define Kain 0x2a
 #define Gordon 0x2b
-#define Banutu 0x2c
+//#define Banutu 0x2c
 #define Cecil 0x2d
 #define Ellis 0x2e
 
