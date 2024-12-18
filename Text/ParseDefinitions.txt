@@ -230,7 +230,6 @@
 [LoadFeena] = [LoadFace][0xC1][0x1]
 [LoadNavarre] = [LoadFace][0xC2][0x1]
 [LoadGordon] = [LoadFace][0xC3][0x1]
-[LoadBanutu] = [LoadFace][0xC4][0x1]
 [LoadCecilFE3] = [LoadFace][0xC5][0x1]
 [LoadGato] = [LoadFace][0xC6][0x1]
 [LoadFramme] = [LoadFace][0xC7][0x1]

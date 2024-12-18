@@ -308,11 +308,11 @@ Gordon[X]
 ## GordonDesc
 Placeholder description.[X]
 
-## BanutuName
-Banutu[X]
+//## BanutuName
+//Banutu[X]
 
-## BanutuDesc
-Placeholder description.[X]
+//## BanutuDesc
+//Placeholder description.[X]
 
 ## CecilName
 Cecil[X]
@@ -1090,16 +1090,16 @@ Has no tolerance for dissent.[X]
 ## PirateName
 Pirate[X]
 
-## PirateDesc
-A pirate roaming the seven[N]
-seas for plunder.[X]
+//## PirateDesc
+//A pirate roaming the seven[N]
+//seas for plunder.[X]
 
 ## BrigandName
 Brigand[X]
 
-## BrigandDesc
-A brigand roaming the wilderness,[N]
-attacking any and all passersby.[X]
+//## BrigandDesc
+//A brigand roaming the wilderness,[N]
+//attacking any and all passersby.[X]
 
 ## ColonialName
 Colonial[X]

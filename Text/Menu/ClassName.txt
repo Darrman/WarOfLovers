@@ -161,117 +161,17 @@ public release.[X]
 ## DummyName
 Dummy[X]
 
-## LordDesc
-Members of noble houses. They possess[N]
-exceptional leadership skills.[X]
-
-## CavalierDesc
-Mounted knights well-balanced in all[N]
-areas and with superior movement.[X]
-
-## PaladinDesc
-Dedicated cavaliers with superior[N]
-ability all around.[X]
-
 ## LanceArmourDesc
 Heavily armoured knights with[N]
 stout defense, but low speed.[X]
-
-## GeneralDesc
-Highly durable armour knights able[N]
-to use any physical weapon.[X]
-
-## ThiefDesc
-Jacks of all trades who can[N]
-pick locks and learn secrets.[X]
-
-## MamkuteDesc
-Dragons who have assumed human form.[N]
-As humans, they are helpless, but...[X]
-
-## MercenaryDesc
-Professional soldiers-for-hire.[N]
-They have a balanced set of skills.[X]
-
-## HeroDesc
-Veteran mercenaries with strengths[N]
-in all areas of combat.[X]
-
-## MyrmidonDesc
-Swordfighters with superior[N]
-skill. Accurate, but frail.[X]
-
-## SwordmasterDesc
-The finest of myrmidons. Their sword[N]
-strokes are swift and deadly.[X]
-
-## AssassinDesc
-Trained killers who can deal[N]
-death in a single blow.[X]
-
-## ArcherDesc
-Soldiers who attack from a distance[N]
-with their bows. Defenceless up close.[X]
-
-## SniperDesc
-Archers of unparalleled accuracy.[N]
-No other bow user can compare.[X]
 
 ## HorsemanDesc
 Hunters who have tamed a mount. They[N]
 have the greatest attack range.[X]
 
-## DragonKnightDesc
-Powerful high-flying knights vulnerable[N]
-only to bows and magic.[X]
-
-## DragonMasterDesc
-The strongest of dragon knights. None[N]
-can challenge their rule of the skies.[X]
-
-## MageDesc
-Practicioners of magic. They bypass[N]
-physical defences, but are fragile.[X]
-
-## SageDesc
-The most learned mages. Adept at both[N]
-fighting enemies and supporting allies.[X]
-
-## MageKnightDesc
-A mounted magician capable of using[N]
-both magical attacks and swords.[X]
-
-## BishopDesc
-High-ranking clergy who smite their[N]
-foes with light magic and staves.[X]
-
-## ShamanDesc
-Students of dark magic.[N]
-Powerful, but very slow.[X]
-
-## DruidDesc
-The most dangerous of shamans. Their[N]
-raw magical power terrifies all.[X]
-
-## SummonerDesc
-A shaman who has mastered the ability[N]
-of summoning spirits from afar.[X]
-
 ## RogueDesc
-The slickest of thieves. Capable of[N]
-picking pockets and locks with ease.[X]
-
-## GreatKnightDesc
-Finely trained axe knights. They boast[N]
-excellent defences and mobility.[X]
-
-## FighterDesc
-Axe-wielding soldiers whose strong and[N]
-inaccurate attack offers little defense.[X]
-
-## WarriorDesc
-The mightiest of fighters. Few can hope[N]
-to survive a blow from their axe.[X]
+The slickest of thieves.[N]
+Easily picks pockets and locks.[X]
 
 ## BrigandClassDesc
 Mighty mountaineers who threaten[N]
@@ -280,38 +180,6 @@ villages and prefer axes in combat.[X]
 ## PirateClassDesc
 Bold pirates who use axes in[N]
 battle. Quite adept at sea.[X]
-
-## BerserkerDesc
-A bandit at home in all sorts of[N]
-terrain. They are wild, but lethal.[X]
-
-## MonkDesc
-Members of the clergy who call upon[N]
-the divine to fight. Weak, but accurate.[X]
-
-## PriestDesc
-Healers who assist people with their[N]
-staves. Cannot defend themselves.[X]
-
-## PegasusKnightDesc
-Swift flying knights. Bears excellent[N]
-magical resistance, but little strength.[X]
-
-## FalconKnightDesc
-The most graceful pegasus knights.[N]
-They dance through the skies.[X]
-
-## TroubadourDesc
-Staff-wielding maidens who[N]
-travel by horseback.[X]
-
-## ValkyrieDesc
-The most talented troubadours. Supports[N]
-allies with staves and fights with magic.[X]
-
-## DancerDesc
-Dancers whose dances revitalise their[N]
-allies. Uses swords for self-defence.[X]
 
 ## FreeKnightDesc
 Knights ultimately loyal to nobody.[N]
@@ -328,10 +196,6 @@ defensive fighting stance.[X]
 ## ArchKnightDesc
 Professional mounted archers. Adept at[N]
 hit-and-run tactics.[X]
-
-## RangerDesc
-Dedicated free knights. Their skill[N]
-with a sword is second to none.[X]
 
 ## DukeKnightDesc
 Noble lance knights. Their strength[N]

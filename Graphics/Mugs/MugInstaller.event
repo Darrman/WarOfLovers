@@ -573,9 +573,9 @@ Gordon_Mug:
 #incext PortraitFormatter "Gordon.png"
 setMugEntry(0xC3, Gordon_Mug, 2, 6, 2, 4)
 
-Banutu_Mug:
-#incext PortraitFormatter "Banutu.png"
-setMugEntry(0xC4, Banutu_Mug, 4, 6, 4, 4)
+//Banutu_Mug:
+//#incext PortraitFormatter "Banutu.png"
+//setMugEntry(0xC4, Banutu_Mug, 4, 6, 4, 4)
 
 Cecil_Mug:
 #incext PortraitFormatter "Cecil.png"
