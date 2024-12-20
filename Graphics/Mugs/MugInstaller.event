@@ -32,6 +32,11 @@ POP
 //#incext PortraitFormatter "Sheeda.png"
 //setMugEntry(0x3, Sheeda_Mug, 4, 7, 3, 5)
 
+//Chiki_Mug:
+//#incext PortraitFormatter "Chiki.png"
+//setMugEntry(0x4, Chiki_Mug, 4, 7, 4, 5)
+
+
 MarthFE1_Mug:
 #incext PortraitFormatter "MarthFE1.png"
 setMugEntry(0x2, MarthFE1_Mug, 3, 8, 3, 6)
@@ -40,9 +45,9 @@ SheedaFE1_Mug:
 #incext PortraitFormatter "SheedaFE1.png"
 setMugEntry(0x3, SheedaFE1_Mug, 3, 7, 3, 5)
 
-Chiki_Mug:
-#incext PortraitFormatter "Chiki.png"
-setMugEntry(0x4, Chiki_Mug, 4, 7, 4, 5)
+ChikiFE1_Mug:
+#incext PortraitFormatter "ChikiFE1.png"
+setMugEntry(0x4, ChikiFE1_Mug, 4,7,4,5)
 
 Marich_Mug:
 #incext PortraitFormatter "Marich.png"
@@ -148,10 +153,6 @@ Garland_Mug:
 #incext PortraitFormatter "Garland.png"
 setMugEntry(0x1e, Garland_Mug, 3,4,3,2)
 
-Priest_Mug:
-#incext PortraitFormatter "Priest.png"
-setMugEntry(0x27, Priest_Mug, 3,7,3,5)
-
 Ness_Mug:
 #incext PortraitFormatter "Ness.png"
 setMugEntry(0x1F, Ness_Mug, 4,7,4,5)
@@ -183,6 +184,63 @@ setMugEntry(0x25, Butz_Mug, 5,5,5,3)
 Terra_Mug:
 #incext PortraitFormatter "Terra.png"
 setMugEntry(0x26, Terra_Mug, 3,8,3,6)
+
+Priest_Mug:
+#incext PortraitFormatter "Priest.png"
+setMugEntry(0x27, Priest_Mug, 3,7,3,5)
+
+Gwaelin_Mug:
+#incext PortraitFormatter "Gwaelin.png"
+setMugEntry(0x28, Gwaelin_Mug, 4,6,4,4)
+
+Baramos_Mug:
+#incext PortraitFormatter "Baramos.png"
+setMugEntry(0x29, Baramos_Mug, 2,7,2,4)
+
+Teddy_Mug:
+#incext PortraitFormatter "Teddy.png"
+setMugEntry(0x2A, Teddy_Mug, 3,6,3,4)
+
+CamusFE1_Mug:
+#incext PortraitFormatter "CamusFE1.png"
+setMugEntry(0x2B, CamusFE1_Mug, 5,7,5,5)
+
+NinaFE1_Mug:
+#incext PortraitFormatter "NinaFE1.png"
+setMugEntry(0x2C, NinaFE1_Mug, 5,8,5,6)
+
+Zande_Mug:
+#incext PortraitFormatter "Zande.png"
+setMugEntry(0x2D, Zande_Mug, 4,2,4,0)
+
+Zoma_Mug:
+#incext PortraitFormatter "Zoma.png"
+setMugEntry(0x33, Zoma_Mug, 3,7,4,5)
+
+Dragonlord_Mug:
+#incext PortraitFormatter "Dragonlord.png"
+setMugEntry(0x34, Dragonlord_Mug, 4,6,4,4)
+
+Emperor_Mug:
+#incext PortraitFormatter "Emperor.png"
+setMugEntry(0x35, Emperor_Mug, 4,5,4,3)
+
+MediuthFE1_Mug:
+#incext PortraitFormatter "MediuthFE1.png"
+setMugEntry(0x36, MediuthFE1_Mug, 4,7,4,5)
+
+Necrosaro_Mug:
+#incext PortraitFormatter "Necrosaro.png"
+setMugEntry(0x37, Necrosaro_Mug, 3,6,3,4)
+
+Lassic_Mug:
+#incext PortraitFormatter "Lassic.png"
+setMugEntry(0x38, Lassic_Mug, 3,3,3,1)
+
+Giegue_Mug:
+#incext PortraitFormatter "Giegue.png"
+setMugEntry(0x39, Giegue_Mug, 4,5,4,3)
+
 
 //Luigi_Mug:
 //#incext PortraitFormatter "Luigi.png"
@@ -328,53 +386,53 @@ OifayeMug:
 #incext PortraitFormatter "oifaye.png"
 setMugEntry(0x32, OifayeMug, 3, 6, 2, 4)
 
-VanderMug:
-#incext PortraitFormatter "Vander.png"
-setMugEntry(0x33, VanderMug, 4,6,3,4)
-
-BoucheronMug:
-#incext PortraitFormatter "Boucheron.png"
-setMugEntry(0x34, BoucheronMug, 3,5,3,3)
-
-ClanneMug:
-#incext PortraitFormatter "Clanne.png"
-setMugEntry(0x35, ClanneMug, 4,7,4,5)
-
-AlfredMug:
-#incext PortraitFormatter "Alfred.png"
-setMugEntry(0x36, AlfredMug, 4,6,4,4)
-
-CelineMug:
-#incext PortraitFormatter "Celine.png"
-setMugEntry(0x37, CelineMug, 4,6,3,4)
-
-DiamantMug:
-#incext PortraitFormatter "Diamant.png"
-setMugEntry(0x38, DiamantMug, 3,7,3,5)
-
-AlcrystMug:
-#incext PortraitFormatter "Alcryst.png"
-setMugEntry(0x39, AlcrystMug, 4,6,4,4)
-
-IvyMug:
-#incext PortraitFormatter "Ivy.png"
-setMugEntry(0x3A, IvyMug, 4,7,4,5)
-
-HortensiaMug:
-#incext PortraitFormatter "Hortensia.png"
-setMugEntry(0x3B, HortensiaMug, 4,7,3,5)
-
-TimerraMug:
-#incext PortraitFormatter "Timerra.png"
-setMugEntry(0x3C, TimerraMug, 4,7,4,5)
-
-FogadoMug:
-#incext PortraitFormatter "Fogado.png"
-setMugEntry(0x3D, FogadoMug, 4,6,3,4)
-
-VeyleMug:
-#incext PortraitFormatter "Veyle.png"
-setMugEntry(0x3E, VeyleMug, 4,7,4,5)
+//VanderMug:
+//#incext PortraitFormatter "Vander.png"
+//setMugEntry(0x33, VanderMug, 4,6,3,4)
+//
+//BoucheronMug:
+//#incext PortraitFormatter "Boucheron.png"
+//setMugEntry(0x34, BoucheronMug, 3,5,3,3)
+//
+//ClanneMug:
+//#incext PortraitFormatter "Clanne.png"
+//setMugEntry(0x35, ClanneMug, 4,7,4,5)
+//
+//AlfredMug:
+//#incext PortraitFormatter "Alfred.png"
+//setMugEntry(0x36, AlfredMug, 4,6,4,4)
+//
+//CelineMug:
+//#incext PortraitFormatter "Celine.png"
+//setMugEntry(0x37, CelineMug, 4,6,3,4)
+//
+//DiamantMug:
+//#incext PortraitFormatter "Diamant.png"
+//setMugEntry(0x38, DiamantMug, 3,7,3,5)
+//
+//AlcrystMug:
+//#incext PortraitFormatter "Alcryst.png"
+//setMugEntry(0x39, AlcrystMug, 4,6,4,4)
+//
+//IvyMug:
+//#incext PortraitFormatter "Ivy.png"
+//setMugEntry(0x3A, IvyMug, 4,7,4,5)
+//
+//HortensiaMug:
+//#incext PortraitFormatter "Hortensia.png"
+//setMugEntry(0x3B, HortensiaMug, 4,7,3,5)
+//
+//TimerraMug:
+//#incext PortraitFormatter "Timerra.png"
+//setMugEntry(0x3C, TimerraMug, 4,7,4,5)
+//
+//FogadoMug:
+//#incext PortraitFormatter "Fogado.png"
+//setMugEntry(0x3D, FogadoMug, 4,6,3,4)
+//
+//VeyleMug:
+//#incext PortraitFormatter "Veyle.png"
+//setMugEntry(0x3E, VeyleMug, 4,7,4,5)
 
 AlfonseMug:
 #incext PortraitFormatter "Alfonse.png"
