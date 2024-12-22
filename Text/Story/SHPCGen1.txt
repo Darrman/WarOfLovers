@@ -1746,3 +1746,248 @@ I need this power the most![AN]
 Wait! Where are you going?[N]
 Don't leave me behind![A][X]
 
+## SHPCMariaFirion
+[ML][LoadMaria][MR][LoadFirion]
+Maria, we're almost done.[N]
+The Emperor is somewhere[AN]
+in this tower - hopefully,[N]
+this will be the end.[AN]
+[ML]
+This will be the third time[N]
+we've fought the Emperor.[AN]
+We have to stop him now.[N]
+Otherwise, he'll unleash[AN]
+another whirlwind, and[N]
+destroy the whole world![AN]
+[MR]
+We cannot allow that to[N]
+happen. We will stop the[AN]
+Emperor together, and then[N]
+Phin will finally be safe.[AN][X]
+
+## SHPCMariaGuy
+[ML][LoadMaria][MR][LoadGuy]
+[ML]
+Guy, the monsters here are[N]
+very dangerous.[AN]
+We need to try to dodge[N]
+anyone who attacks us.[AN]
+[MR]
+Yes. I talked to the[N]
+beavers outside.[AN]
+They said many evil men[N]
+live in this tower.[AN]
+[ML]
+Well for the sake of the[N]
+beavers, Phin, and[AN]
+everyone else, we must[N]
+win this battle today![A][X]
+
+## SHPCMariaBritish
+[ML][LoadMaria][MR][LoadBritish]
+So, thou art the one who[N]
+summoned me here...[AN]
+The magic of Ultima has[N]
+many effects.[AN]
+[ML]
+They say Ultima gets[N]
+stronger with[AN]
+mastery of magic, but[N]
+it just... doesn't.[AN]
+The legends, the blood[N]
+shed for this spell...[AN]
+[MR]
+Its damage may be[N]
+disappointing,[AN]
+but I can teach[N]
+thee more about[AN]
+Ultima if thou[N]
+art interested.[AN]
+[ML]
+Very well, Lord British.[N]
+Tell me more.[A][X]
+
+## SHPCSoldierErdrick
+[ML][LoadSoldier][MR][LoadErdrick]
+Hey, Soldier. So I've been[N]
+thinking about things...[AN]
+Being swept up in this[N]
+world-spanning quest...[AN]
+Fighting alongside my own[N]
+descendants...[AN]
+[ML]
+Your own descendants...[N]
+Arus, what do you mean?[AN]
+What do I have to do[N]
+with your descendants?[AN]
+[MR]
+What I'm trying to say[N]
+is I love you, Soldier.[A]
+[ML]
+...I love you too.[A][X]
+
+## SHPCSoldierHero
+[ML][LoadSoldier][MR][LoadHero]
+So, thou art a companion[N]
+of Erdrick himself.[AN]
+Thy strength is tremendous.[N]
+I have great respect.[AN]
+[ML]
+Really, now? Do you want[N]
+to test your strength[AN]
+against me? Let's see if[N]
+you really are as strong[AN]
+as the man you claim to[N]
+be your ancestor![AN]
+[MR]
+...Very impressive. Thou[N]
+art stronger than I.[AN]
+Thy magic is nil, but[N]
+dost thou need it?[AN]
+[ML]
+You do take after Arus...[N]
+A bit of Priest too...[AN]
+Let's put Zoma back in[N]
+the ground together![A][X]
+
+## SHPCSoldierFirion
+[ML][LoadSoldier][MR][LoadFirion]
+[ML]
+Hey, Firion. I have a[N]
+question for you.[AN]
+Did you really train[N]
+by getting beaten up?[AN]
+[MR]
+It wasn't my go-to, but[N]
+the answer is yes.[AN]
+It's a bit dishonest, but[N]
+I can prepare to attack,[AN]
+but then do something[N]
+else. Good practice![AN]
+[ML]
+Everyone else I know[N]
+just fights monsters.[AN]
+But you can parry an[N]
+attack, stop parrying,[AN]
+and still take less[N]
+damage from monsters...[A]
+[MR]
+Soldier, we should[N]
+study these techniques[AN]
+in more detail some[N]
+day. Interesting...[A][X]
+
+## SHPCAlenaCristo
+[ML][LoadAlena][MR][LoadCristo]
+(PLACEHOLDER:[N]
+sincere confession)[A][X]
+
+## SHPCAlenaTaloon
+[ML][LoadAlena][MR][LoadTaloon]
+(PLACEHOLDER:[N]
+divorce papers)[A][X]
+
+## SHPCAlenaHero
+[ML][LoadAlena][MR][LoadHero]
+(PLACEHOLDER:[N]
+compare games?)[A][X]
+
+## SHPCAlenaMarth
+[ML][LoadAlena][MR][LoadMarth]
+(PLACEHOLDER:[N]
+cheating time)[A][X]
+
+## SHPCAlenaErdrick
+[ML][LoadAlena][MR][LoadErdrick]
+(PLACEHOLDER:[N]
+Opening callback)[A][X]
+
+## SHPCAnaNinten
+[ML][LoadAna][MR][LoadNinten]
+(PLACEHOLDER:[N]
+Fallin' Love)[A][X]
+
+## SHPCAnaLloyd
+[ML][LoadAna][MR][LoadLloyd]
+(PLACEHOLDER:[N]
+Intelligence)[A][X]
+
+## SHPCAnaBlackMage
+[ML][LoadAna][MR][LoadBlackMage]
+(PLACEHOLDER:[N]
+Magic)[A][X]
+
+## SHPCSheedaMarth
+[ML][LoadSheeda][MR][LoadMarth]
+(PLACEHOLDER:[N]
+Direct FE3 quotation?)[A][X]
+
+## SHPCSheedaBanutu
+[ML][LoadSheeda][MR][LoadBanutu]
+(PLACEHOLDER:[N]
+mind Chiki)[A][X]
+
+## SHPCSheedaGuy
+[ML][LoadSheeda][MR][LoadGuy]
+(PLACEHOLDER:[N]
+Beavers? Roger?[A][X]
+
+## SHPCSheedaTaloon
+[ML][LoadSheeda][MR][LoadTaloon]
+(PLACEHOLDER:[N]
+double divorce)[A][X]
+
+## SHPCYumikoNakajima
+[ML][LoadYumiko][MR][LoadNakajima]
+(PLACEHOLDER:[N]
+serious confession)[A][X]
+
+## SHPCYumikoBritish
+[ML][LoadYumiko][MR][LoadBritish]
+(PLACEHOLDER:[N]
+hunger pains)[A][X]
+
+## SHPCYumikoOdin
+[ML][LoadYumiko][MR][LoadOdin]
+(PLACEHOLDER:[N]
+guns or something)[A][X]
+
+## SHPCYumikoBanutu
+[ML][LoadYumiko][MR][LoadBanutu]
+(PLACEHOLDER:[N]
+demon negotiation)[A][X]
+
+## SHPCAlisOdin
+[ML][LoadAlis][MR][LoadOdin]
+(PLACEHOLDER:[N]
+normal confession)[A][X]
+
+## SHPCAlisNinten
+[ML][LoadAlis][MR][LoadNinten]
+(PLACEHOLDER:[N]
+fast food burgers)[A][X]
+
+## SHPCAlisNakajima
+[ML][LoadAlis][MR][LoadNakajima]
+(PLACEHOLDER:[N]
+Technology)[A][X]
+
+## SHPCAlisMarth
+[ML][LoadAlis][MR][LoadMarth]
+(PLACEHOLDER:[N]
+More cheating)[A][X]
+
+## SHPCArleBlackMage
+[ML][LoadArle][MR][LoadBlackMage]
+(PLACEHOLDER:[N]
+M-m-m-magic!)[A][X]
+
+## SHPCArleLloyd
+[ML][LoadArle][MR][LoadLloyd]
+(PLACEHOLDER:[N]
+Puzzles)[A][X]
+
+## SHPCArleCristo
+[ML][LoadArle][MR][LoadCristo]
+(PLACEHOLDER:[N]
+I was pairing spares)[A][X]
