@@ -112,7 +112,12 @@
 [LoadNecrosaro] = [LoadFace][0x37][0x1]
 [LoadLassic] = [LoadFace][0x38][0x1]
 [LoadGiegue] = [LoadFace][0x39][0x1]
-
+[LoadLucifer] = [LoadFace][0x01][0x01]
+[LoadMinh] = [LoadFace][0x01][0x01]
+[LoadOnionKid] = [LoadFace][0x01][0x01]
+[LoadSolo] = [LoadFace][0x01][0x01]
+[LoadHardin] = [LoadFace][0x01][0x01]
+[LoadDarkCloud] = [LoadFace][0x01][0x01]
 
 [LoadMarth] = [LoadFace][0x2][0x1]
 [LoadSheeda] = [LoadFace][0x3][0x1]

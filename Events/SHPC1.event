@@ -103,7 +103,7 @@ UNIT FighterFF1 Hero 0x00 Level(15,Ally,0) [18,2] 0x0  0x0 0x0 0x0 [BraveSword, 
 UNIT WhiteMage Bishop_F FighterFF1 Level(15,Ally,0) [17,1] 0x0 0x0 0x0 0x0 [SetsLitany, Fortify, Mend] NoAI
 UNIT BlackMage Druid FighterFF1 Level(15,Ally,0) [19,1] 0x0 0x0 0x0 0x0 [Bolganone/*Flare*/, Thoron, Blizzard] NoAI
 UNIT Firion Rogue 0x00 Level(15,Ally,0) [15,1] 0x0 0x0 0x0 0x0 [KillingEdge, Recover, Talisman] NoAI
-UNIT Maria Sniper Firion Level(15,Ally,0) [14,0] 0x0 0x0 0x0 0x0 [Excalibur/*Ultima*/, BeaconBow, SilverBow] NoAI
+UNIT Maria Sniper_F Firion Level(15,Ally,0) [14,0] 0x0 0x0 0x0 0x0 [Excalibur/*Ultima*/, BeaconBow, SilverBow] NoAI
 UNIT Guy Berserker Firion Level(15,Ally,0) [16,1] 0x0 0x0 0x0 0x0 [BraveAxe, Tomahawk, EnergyRing] NoAI
 UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [20,3] 0x0 0x0 0x0 0x0 [Audhulma/*Sword of Erdrick*/, Elixir, AngelicRobe] NoAI
 UNIT Erdrick MageFighter 0x00 Level(15,Ally,0) [20,1] 0x0 0x0 0x0 0x0 [SilverBlade, Thoron, Wyrmslayer] NoAI
@@ -132,7 +132,6 @@ UNIT
 Bad2:
 UNIT
 
-
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -153,6 +152,7 @@ BeginningScene:
 //But on a second attempt, it's skippable. Don't forget to save on preps!
 ENUT Gen1GuideFlag
 MUSC M_Prelude
+LOMA 13 //blank map, fixes map anim bug
 ASMC 0x48281 //name selection
 CLEAN
 STAL 10
@@ -224,6 +224,8 @@ Text(SHPCLostInAMaze)
 //You think we have time to show Seth?
 Text(SHPCNoMoreAbridging)
 //"Chapter 6" - The One You Get to Play
+STAL 10
+LOMA 0 //actual chapter here
 //BG: Sylx Tower overworld
 //Then switch to an interior shot
 MUSC M_ImperialArmy
@@ -285,7 +287,7 @@ ENDA
 MariaFirionLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT MariaFirionPaired
-Text(PlaceholderText)
+Text(SHPCMariaFirion)
 SetSupport(Firion,Maria,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -294,7 +296,7 @@ ENDA
 MariaGuyLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT MariaGuyPaired
-Text(PlaceholderText)
+Text(SHPCMariaGuy)
 SetSupport(Guy,Maria,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -303,7 +305,7 @@ ENDA
 MariaBritishLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT MariaBritishPaired
-Text(PlaceholderText)
+Text(SHPCMariaBritish)
 SetSupport(British,Maria,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -312,7 +314,7 @@ ENDA
 SoldierErdrickLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SoldierErdrickPaired
-Text(PlaceholderText)
+Text(SHPCSoldierErdrick)
 SetSupport(Erdrick,SoldierDW3,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -321,7 +323,7 @@ ENDA
 SoldierHeroLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SoldierHeroPaired
-Text(PlaceholderText)
+Text(SHPCSoldierHero)
 SetSupport(HeroDW1,SoldierDW3,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -330,7 +332,7 @@ ENDA
 SoldierFirionLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SoldierFirionPaired
-Text(PlaceholderText)
+Text(SHPCSoldierFirion)
 SetSupport(Firion,SoldierDW3,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -339,7 +341,7 @@ ENDA
 AlenaCristoLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlenaCristoPaired
-Text(PlaceholderText)
+Text(SHPCAlenaCristo)
 SetSupport(Alena,Cristo,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -348,7 +350,7 @@ ENDA
 AlenaTaloonLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlenaTaloonPaired
-Text(PlaceholderText)
+Text(SHPCAlenaTaloon)
 SetSupport(Alena,Taloon,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -357,7 +359,7 @@ ENDA
 AlenaHeroLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlenaHeroPaired
-Text(PlaceholderText)
+Text(SHPCAlenaHero)
 SetSupport(Alena,HeroDW1,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -366,7 +368,7 @@ ENDA
 AlenaMarthLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlenaMarthPaired
-Text(PlaceholderText)
+Text(SHPCAlenaMarth)
 SetSupport(Alena,Marth,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -375,7 +377,7 @@ ENDA
 AlenaErdrickLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlenaErdrickPaired
-Text(PlaceholderText)
+Text(SHPCAlenaErdrick)
 SetSupport(Alena,Erdrick,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -384,7 +386,7 @@ ENDA
 AnaNintenLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AnaNintenPaired
-Text(PlaceholderText)
+Text(SHPCAnaNinten)
 SetSupport(Ninten,Ana,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -393,7 +395,7 @@ ENDA
 AnaLloydLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AnaLloydPaired
-Text(PlaceholderText)
+Text(SHPCAnaLloyd)
 SetSupport(Ana,Lloyd,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -402,7 +404,7 @@ ENDA
 AnaBlackMageLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AnaBlackMagePaired
-Text(PlaceholderText)
+Text(SHPCAnaBlackMage)
 SetSupport(BlackMage,Ana,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -411,7 +413,7 @@ ENDA
 SheedaMarthLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SheedaMarthPaired
-Text(PlaceholderText)
+Text(SHPCSheedaMarth)
 SetSupport(Marth,Sheeda,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -420,7 +422,7 @@ ENDA
 SheedaBanutuLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SheedaBanutuPaired
-Text(PlaceholderText)
+Text(SHPCSheedaBanutu)
 SetSupport(Sheeda,Banutu,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -429,7 +431,7 @@ ENDA
 SheedaGuyLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SheedaGuyPaired
-Text(PlaceholderText)
+Text(SHPCSheedaGuy)
 SetSupport(Sheeda,Guy,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -438,7 +440,7 @@ ENDA
 SheedaTaloonLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT SheedaTaloonPaired
-Text(PlaceholderText)
+Text(SHPCSheedaTaloon)
 SetSupport(Sheeda,Taloon,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -447,7 +449,7 @@ ENDA
 YumikoNakajimaLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT YumikoNakajimaPaired
-Text(PlaceholderText)
+Text(SHPCYumikoNakajima)
 SetSupport(Nakajima,Yumiko,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -456,7 +458,7 @@ ENDA
 YumikoBritishLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT YumikoBritishPaired
-Text(PlaceholderText)
+Text(SHPCYumikoBritish)
 SetSupport(British,Yumiko,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -465,7 +467,7 @@ ENDA
 YumikoOdinLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT YumikoOdinPaired
-Text(PlaceholderText)
+Text(SHPCYumikoOdin)
 SetSupport(Yumiko,Odin,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -474,7 +476,7 @@ ENDA
 YumikoBanutuLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT YumikoBanutuPaired
-Text(PlaceholderText)
+Text(SHPCYumikoBanutu)
 SetSupport(Yumiko,Banutu,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -483,7 +485,7 @@ ENDA
 AlisOdinLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlisOdinPaired
-Text(PlaceholderText)
+Text(SHPCAlisOdin)
 SetSupport(Alis,Odin,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -492,7 +494,7 @@ ENDA
 AlisNintenLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlisNintenPaired
-Text(PlaceholderText)
+Text(SHPCAlisNinten)
 SetSupport(Alis,Ninten,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -501,7 +503,7 @@ ENDA
 AlisNakajimaLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlisNakajimaPaired
-Text(PlaceholderText)
+Text(SHPCAlisNakajima)
 SetSupport(Alis,Nakajima,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -510,7 +512,7 @@ ENDA
 AlisMarthLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT AlisMarthPaired
-Text(PlaceholderText)
+Text(SHPCAlisMarth)
 SetSupport(Alis,Marth,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -519,7 +521,7 @@ ENDA
 ArleBlackMageLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT ArleBlackMagePaired
-Text(PlaceholderText)
+Text(SHPCArleBlackMage)
 SetSupport(Arle,BlackMage,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -528,7 +530,7 @@ ENDA
 ArleLloydLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT ArleLloydPaired
-Text(PlaceholderText)
+Text(SHPCArleLloyd)
 SetSupport(Arle,Lloyd,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
@@ -537,7 +539,7 @@ ENDA
 ArleCristoLoversConvo:
 MUSC M_ThemeOfLove //at least for now
 ENUT ArleCristoPaired
-Text(PlaceholderText)
+Text(SHPCArleCristo)
 SetSupport(Arle,Cristo,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
