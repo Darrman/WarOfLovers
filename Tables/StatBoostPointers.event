@@ -12,7 +12,7 @@ BYTE 14 10 0 0 14 0 0 0 0 0 0
 
 PowerRingBonus:
 //+4 strength
-BYTE 0 4 0 0 0 0 0 0 0 0 0 0
+BYTE 0 5 0 0 0 0 0 0 0 0 0 0
 
 SpeedRingBonus:
 //+5 speed
@@ -20,15 +20,15 @@ BYTE 0 0 0 5 0 0 0 0 0 0 0 0
 
 DragonShieldBonus:
 //+4 defence
-BYTE 0 0 0 0 4 0 0 0 0 0 0 0
+BYTE 0 0 0 0 5 0 0 0 0 0 0 0
 
 BootsBonus:
 //+4 move
-BYTE 0 0 0 0 0 0 0 4 0 0 0 0
+BYTE 0 0 0 0 0 0 0 3 0 0 0 0
 
 TalismanBonus:
 //+3 resistance
-BYTE 0 0 0 0 0 3 0 0 0 0 0 0
+BYTE 0 0 0 0 0 5 0 0 0 0 0 0
 
 SecretBookBonus:
 //+5 skill
@@ -45,3 +45,7 @@ BYTE 0 5 0 0 0 0 0 0 0 0 0 0
 ForblazeBonus:
 //+5 luck - pretty rubbish, willing to buff
 BYTE 0 0 0 0 0 0 5 0 0 0 0 0
+
+SpiritDustBonus:
+//+5 magic - if it works
+BYTE 0 0 0 0 0 0 0 0 0 5 0 0

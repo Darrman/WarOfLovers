@@ -2594,7 +2594,7 @@ give up now...[AN]
 When setting out on a quest,[N]
 I say "Do not return[AN]
 until thou art done!"[N]
-Chaos, Necrosaro, Mediuth...[AN]
+Chaos, Necrosaro, Mediuth...[AN][X]
 
 ## SHPCThroughTheMirror
 [Left][LoadArle][Right][LoadNakajima][FR][LoadYumiko]
@@ -2772,6 +2772,7 @@ Until then, let's battle.[A][X]
 
 ## SHPCDragonlordDealsWithEveryone
 [ML][LoadDragonlord][MR][LoadFighter]
+[ML]
 When I battled Erdrick's heir,[N]
 we did battle one versus one.[AN]
 I count almost thirty souls[N]
@@ -2815,10 +2816,11 @@ wrong about him. We should[N]
 stay on our guards.[AN]
 [FL]
 Look, he's coming back.[N]
-I see a woman too.[AN]
+I see a woman too.[AN][X]
 
 ## SHPCPullingAnAlvis
 [FL][LoadDragonlord][Left][LoadGwaelin][Right][LoadHero]
+[FL]
 Gwaelin, I did not expect to[N]
 see thy former lover here,[AN]
 but his presence cannot be[N]
@@ -2869,7 +2871,7 @@ have bought us much time.[AN]
 Negotiations have broken down.[N]
 Thy truce is over! This ends[AN]
 now! Thou art all trapped in[N]
-thy past! Behold, thy future![A]
+thy past! Behold, thy future![A][X]
 
 ## SHPCTheCloudArrives
 [Left][LoadDarkCloud][Right][LoadFighter]

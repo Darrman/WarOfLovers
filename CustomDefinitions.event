@@ -514,6 +514,16 @@
 #define Forblaze 0xcb
 #define LynRing 0xcc
 
+#define Masamune 0xce
+#define ErdricksSword 0xcf
+#define LaconianSword 0xd0
+#define HanksBat 0xd1
+#define LaconianAxe 0xd2
+#define MegidoFire 0xd3
+#define Flare 0xd4
+#define Ultima 0xd5
+#define StilettoEarrings 0xd6
+
 //Music
 //Akaneia
 #define M_AkaneiaAnthem 0x43 //FE Theme, no intro

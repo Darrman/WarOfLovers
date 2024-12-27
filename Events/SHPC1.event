@@ -63,21 +63,21 @@ END_MAIN
 
 LocationBasedEvents:
 //Eureka
-Chest(RedGem,16,7)
-Chest(RedGem,20,7)
-Chest(RedGem,16,15)
-Chest(RedGem,22,24)
-Chest(RedGem,21,34)
+Chest(Bolganone,16,7)
+Chest(MemberCard,20,7)
+Chest(BlueGem,16,15)
+Chest(SilverBow,22,24)
+Chest(SecretBook,21,34)
 //Sylx
-Chest(RedGem,2,42)
-Chest(RedGem,1,34)
-Chest(RedGem,8,11)
-Chest(RedGem,8,8)
-Chest(RedGem,1,5)
+Chest(Rescue,2,42)
+Chest(Barrier,1,34)
+Chest(KillerAxe,8,11)
+Chest(HandAxe,8,8)
+Chest(Elixir,1,5)
 //the door to Zande's room is going to have an event, but this will do for now
 Door(5,5)
 #ifdef __DEBUG__
-Seize(0x3,EndingScene,39,9)
+Seize(0x3,EndingScene,11,2)
 #endif
 END_MAIN
 
@@ -101,21 +101,21 @@ END_MAIN
 Good:
 UNIT FighterFF1 Hero 0x00 Level(15,Ally,0) [18,2] 0x0  0x0 0x0 0x0 [BraveSword, SilverAxe, SteelSword] NoAI
 UNIT WhiteMage Bishop_F FighterFF1 Level(15,Ally,0) [17,1] 0x0 0x0 0x0 0x0 [SetsLitany, Fortify, Mend] NoAI
-UNIT BlackMage Druid FighterFF1 Level(15,Ally,0) [19,1] 0x0 0x0 0x0 0x0 [Bolganone/*Flare*/, Thoron, Blizzard] NoAI
-UNIT Firion Rogue 0x00 Level(15,Ally,0) [15,1] 0x0 0x0 0x0 0x0 [KillingEdge, Recover, Talisman] NoAI
-UNIT Maria Sniper_F Firion Level(15,Ally,0) [14,0] 0x0 0x0 0x0 0x0 [Excalibur/*Ultima*/, BeaconBow, SilverBow] NoAI
+UNIT BlackMage Druid FighterFF1 Level(15,Ally,0) [19,1] 0x0 0x0 0x0 0x0 [Flare, Thoron, Blizzard] NoAI
+UNIT Firion Rogue 0x00 Level(15,Ally,0) [15,1] 0x0 0x0 0x0 0x0 [Runesword, Recover, Talisman] NoAI
+UNIT Maria Sniper_F Firion Level(15,Ally,0) [14,0] 0x0 0x0 0x0 0x0 [Ultima, BeaconBow, SilverBow] NoAI
 UNIT Guy Berserker Firion Level(15,Ally,0) [16,1] 0x0 0x0 0x0 0x0 [BraveAxe, Tomahawk, EnergyRing] NoAI
-UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [20,3] 0x0 0x0 0x0 0x0 [Audhulma/*Sword of Erdrick*/, Elixir, AngelicRobe] NoAI
+UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [20,3] 0x0 0x0 0x0 0x0 [ErdricksSword, Elixir, AngelicRobe] NoAI
 UNIT Erdrick MageFighter 0x00 Level(15,Ally,0) [20,1] 0x0 0x0 0x0 0x0 [SilverBlade, Thoron, Wyrmslayer] NoAI
 UNIT SoldierDW3 Halberdier_F Erdrick Level(15,Ally,0) [19,0] 0x0 0x0 0x0 0x0 [BraveLance/*pretend it's a Falcon Sword*/, Spear, Dragonshield] NoAI
-UNIT Alena Entombed 0x00 Level(15,Ally,0) [22,3] 0x0 0x0 0x0 0x0 [SharpClaw/*Stiletto Earrings*/, SharpClaw, Speedwings] NoAI
+UNIT Alena Entombed 0x00 Level(15,Ally,0) [22,3] 0x0 0x0 0x0 0x0 [StilettoEarrings, SharpClaw, Speedwings] NoAI
 UNIT Cristo Bishop Alena Level(15,Ally,0) [21,2] 0x0 0x0 0x0 0x0 [Eclipse, NinissGrace, Physic] NoAI
-UNIT Taloon Paladin 0x00 Level(15,Ally,0) [23,2] 0x0 0x0 0x0 0x0 [BrightLance, Runesword, HoplonShield] NoAI
-UNIT Ninten MageKnight 0x00 Level(15,Ally,0) [12,2] 0x0 0x0 0x0 0x0 [SilverSword/*Hank's Bat*/, Recover, Sleep] NoAI
+UNIT Taloon Paladin 0x00 Level(15,Ally,0) [23,2] 0x0 0x0 0x0 0x0 [BrightLance, KillingEdge, HoplonShield] NoAI
+UNIT Ninten MageKnight 0x00 Level(15,Ally,0) [12,2] 0x0 0x0 0x0 0x0 [HanksBat, Recover, Sleep] NoAI
 UNIT Ana MageKnight_F Ninten Level(15,Ally,0) [13,1] 0x0 0x0 0x0 0x0 [Tornado, Aura, Meteor] NoAI
 UNIT Lloyd Ranger Ninten Level(15,Ally,0) [13,3] 0x0 0x0 0x0 0x0 [BraveBow, KillerBow, SecretBook] NoAI
-UNIT Alis General 0x00 Level(15,Ally,0) [16,0] 0x0 0x0 0x0 0x0 [SilverSword/*Laconian Sword*/, Javelin, SteelSword] NoAI
-UNIT Odin Warrior Alis Level(15,Ally,0) [15,0] 0x0 0x0 0x0 0x0 [Garm/*Laconian Axe*/, SilverBow, SteelAxe] NoAI
+UNIT Alis General 0x00 Level(15,Ally,0) [16,0] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword] NoAI
+UNIT Odin Warrior Alis Level(15,Ally,0) [15,0] 0x0 0x0 0x0 0x0 [LaconianAxe, SilverBow, SteelAxe] NoAI
 UNIT Marth Swordmaster 0x00 Level(15,Ally,0) [15,3] 0x0 0x0 0x0 [Wyrmslayer, Rapier, Lockpick] NoAI
 UNIT Sheeda FalcoKnight Marth Level(15,Ally,0) [14,2] 0x0 0x0 0x0 0x0 [Horseslayer, IotesShield, SilverLance] NoAI
 UNIT Banutu Mamkute Marth Level(15,Ally,0) [16,2] 0x0 0x0 0x0 0x0 [DivineStone/*PLACEHOLDER for Fire Stone*/, Boots, ThorsIre] NoAI
@@ -127,6 +127,7 @@ UNIT
 
 Bad:
 UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone] NeverMoveAI
+UNIT 0x80 Wight 0x00 Level(5,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT
 
 Bad2:
@@ -270,10 +271,36 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
-WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
-WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
-WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+MUSC M_Coneria
+Text(SHPCSylxSeized)
+MUSC M_EternalWind
+Text(SHPCCatchingUpWithTheDragonSlayers)
+MUSC M_Pollyanna
+Text(SHPCTheFirstChosenFour)
+MUSC M_Victory
+Text(SHPCCanMarthStopBook2)
+MUSC M_EternalWind
+Text(SHPCSoloSaysHello)
+MUSC M_Coneria
+Text(SHPCWhatNext)
+MUSC M_CovertTownFargabaad
+Text(SHPCThroughTheMirror)
+MUSC M_AirshipInvincible
+Text(SHPCNextStopDarkWorld)
+MUSC M_ImperialArmy
+Text(SHPCTheFirstDeal)
+Text(SHPCReinforcementsArrive)
+Text(SHPCDragonlordDealsWithEveryone)
+Text(SHPCWeSmellARat)
+Text(SHPCPullingAnAlvis)
+//more to write here!
+Text(SHPCFinalBreakdown)
+MUSC M_DarkCloud
+Text(SHPCTheCloudArrives)
+//And then she kills them all! End of Chapter!
+//WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
+//WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
+//WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
 MNCH 0xD
 ENDA
 

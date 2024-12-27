@@ -145,36 +145,32 @@ Speed Ring[X]
 ## BootsName
 Boots[X]
 
+## AngelicRobeDesc
+Increases max HP by 7 points.[X]
+
 ## PowerRingDesc
-Increases strength by 4 points.[N]
-Vanishes after use.[X]
+Increases strength by 5 points.[X]
 
 ## PowerRingUseDesc
 Increases strength.[X]
 
 ## SecretBookDesc
-Increases skill by 5 points.[N]
-Vanishes after use.[X]
+Increases skill by 5 points.[X]
 
 ## SpeedRingDesc
-Increases speed by 5 points.[N]
-Vanishes after use.[X]
+Increases speed by 5 points.[X]
 
 ## GoddessIconDesc
-Increases luck by 5 points.[N]
-Vanishes after use.[X]
+Increases luck by 5 points.[X]
 
 ## DragonShieldDesc
-Increases defence by 4 points.[N]
-Vanishes after use.[X]
+Increases defence by 5 points.[X]
 
 ## TalismanDesc
-Increases resistance by 3 points.[N]
-Vanishes after use.[X]
+Increases resistance by 5 points.[X]
 
 ## BootsDesc
-Increases movement by 4 points.[N]
-Vanishes after use.[X]
+Increases move by 3 points.[X]
 
 ## ElthunderName
 Elthunder[X]
@@ -323,3 +319,192 @@ Lyn. Grants Astra when equipped.[X]
 ## LynRingUseDesc
 Grants Astra when[N]
 held.[X]
+
+## FireRename
+Blaze[X]
+
+## ElfireRename
+Blazemore[X]
+
+## BolganoneRename
+Blazemost[X]
+
+## ThunderRename
+Bolt[X]
+
+## ElthunderRename
+Bolt 2[X]
+
+## ThoronRename
+Bolt 3[X]
+
+## BoltingRename
+Zap[X]
+
+## WindRename
+Zan[X]
+
+## ElwindRename
+Zanma[X]
+
+## TornadoRename
+Zandyne[X]
+
+## BlizzardRename
+Ice[X]
+
+## ShaverRename
+Aero[X]
+
+## HealRename
+Lifeup Alpha[X]
+
+## MendRename
+Lifeup Beta[X]
+
+## RecoverRename
+Lifeup Gamma[X]
+
+## PhysicRename
+Lifeup Pi[X]
+
+## FortifyRename
+Lifeup Omega[X]
+
+## RestoreRename
+Heal[X]
+
+## SilenceRename
+Stopspell[X]
+
+## SleepRename
+Hypnosis[X]
+
+## BerserkRename
+Marin Karin[X]
+
+## WarpRename
+Warp[X]
+
+## RescueRename
+Rescue[X]
+
+## TorchRename
+Radiant[X]
+
+## UnlockRename
+Open[X]
+
+## BarrierRename
+Shell[X]
+
+## RuneswordRename
+Blood Sword[X]
+
+## BraveLanceRename
+//sure it's really a sword, but I have too many swords
+Falcon Lance[X]
+
+## PowerRingRename
+//I'd like FE4-style. But if not, incense, capsules, and seeds for everyone.
+Power Ring[X]
+
+## SecretBookRename
+Secret Book[X]
+
+## SpeedRingRename
+Meteor Band[X]
+
+## GoddessIconRename
+Rabbit's Foot[X]
+
+## DragonShieldRename
+Dragon Shield[X]
+
+## TalismanRename
+Talisman[X]
+
+## BootsRename
+Hermes' Shoe[X]
+
+## NinisGraceRename
+Rakukaja[X]
+
+## NinisGraceDesc
+Boosts an ally's defence[N]
+for one turn.[X]
+
+## FillasMightRename
+Tarukaja[X]
+
+## FillasMightDesc
+Boosts an ally's strength[N]
+for one turn.[X]
+
+## ThorsIreRename
+Wrath[X]
+
+## ThorsIreDesc
+Boosts an ally's critical[N]
+for one turn.[X]
+
+## SetsLitanyRename
+Sukukaja[X]
+
+## SetsLitanyDesc
+Boosts an ally's evasion[N]
+for one turn.[X]
+
+## MasamuneName
+Masamune[X]
+
+## MasamuneDesc
+Usable by all. Very powerful.[X]
+
+## ErdrickSwordName
+Erdrick's Sw.[X]
+
+## ErdrickSwordDesc
+Eff. vs. monsters. For heroes.[X]
+
+## LaconianSwordName
+Laconian Sw.[X]
+
+## LaconianSwordDesc
+A tremendously strong sword.[X]
+
+## HanksBatName
+Hank's Bat[X]
+
+## HanksBatDesc
+Signed by a baseball player.[X]
+
+## LaconianAxeName
+Laconian Axe[X]
+
+## LaconianAxeDesc
+A terribly powerful axe.[X]
+
+## MegidoFireName
+Megido Fire[X]
+
+## MegidoFireDesc
+A gun of divine providence.[X]
+
+## FlareName
+Flare[X]
+
+## FlareDesc
+The ultimate fire magic.[X]
+
+## UltimaName
+Ultima[X]
+
+## UltimaDesc
+Gets stronger with the user?[X]
+
+## StilettoEarringsName
+Stiletto 'Ring[X]
+
+## StilettoEarringsDesc
+Can attack consecutively.[X]
