@@ -302,4 +302,6 @@ POP
   //Set and clear support ranks (7743)
   #include "GachaJam/SetSupportRank/SetSupportRank.event"
 
+  //Infinite S-rank weapons (Tequila)
+  PUSH; ORG 0x2C150; BYTE 0x11 0xE0; POP
   

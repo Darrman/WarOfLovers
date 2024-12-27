@@ -362,3 +362,4 @@ Most of these go unused and are leftover from War of Lovers.
 - Dynamic character portraits: Scraiza
 - State 0x33 fix: 7743
 - Set support ranks: 7743
+- Unlimited S ranks: Tequila
