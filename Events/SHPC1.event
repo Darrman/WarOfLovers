@@ -298,9 +298,36 @@ Text(SHPCFinalBreakdown)
 MUSC M_DarkCloud
 Text(SHPCTheCloudArrives)
 //And then she kills them all! End of Chapter!
-//WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
-//WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
-//WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+MUSC M_Requiem
+SetBackground(CGBlackScreen)
+SVAL 0xB 0x00FF0080
+//Ideal is float high enough that portraits can show
+SOLOTEXTBOXSTART
+TEXTSHOW SHPCPostBarhara
+TEXTEND
+//FACE_SHOW 2 0x8
+STAL 10
+//Fighter in Left
+SOLOTEXTBOXSTART
+TEXTSHOW SHPCRollCall
+TEXTEND
+//FACE_SHOW 2 0xFFFD //clear
+//STAL 10
+//SOUN 0x101 //random test sound effect
+//STAL 10
+//FACE_SHOW 3 0x9
+//STAL 10
+//TEXTCONT
+//TEXTEND
+REMA
+STAL 10
+SOLOTEXTBOXSTART
+TEXTSHOW SHPCFinalWords
+TEXTEND
+REMA
+WM_LOADLOCATION2 0 2 0 //Required to fix chapter name
+WM_SETDESTINATION 0 2 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 2 //Needed for world map narration.
 MNCH 0xD
 ENDA
 
