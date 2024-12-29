@@ -76,6 +76,11 @@ Chest(HandAxe,8,8)
 Chest(Elixir,1,5)
 //the door to Zande's room is going to have an event, but this will do for now
 Door(5,5)
+//Stairs
+Stairs(1,5,36,5,28)
+Stairs(2,5,34,5,26)
+Stairs(3,8,26,2,25)
+Stairs(4,18,1,5,39) //Eureka-Sylx teleporter
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,11,2)
 #endif
@@ -127,8 +132,27 @@ UNIT
 
 Bad:
 UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone] NeverMoveAI
-UNIT 0x80 Wight 0x00 Level(5,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT Ch1Generic Wight_Bow 0x00 Level(5,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Ch1Generic Druid 0x00 Level(7,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT Ch1Generic Druid 0x00 Level(7,Enemy,1) [21,16] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT Ch1Generic Druid 0x00 Level(7,Enemy,1) [14,16] 0x0 0x0 0x0 0x0 [Fenrir] AttackInRangeAI
+UNIT Fish Gwyllgi 0x00 Level(15,Enemy,1) [15,23] DropItem 0x0 0x0 0x0 [HellFang, Aura] GuardTileAI //don't ask questions EB0 has no bosses to steal
+UNIT Ch1Generic Deathgoyle 0x00 Level(9,Enemy,1) [20,24] 0x0 0x0 0x0 0x0 [KillerLance] AttackInRangeAI
+UNIT Ch1Generic Deathgoyle 0x00 Level(9,Enemy,1) [18,27] 0x0 0x0 0x0 0x0 [Spear] AttackInRangeAI
+UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [21,31] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [15,33] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [18,36] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
 UNIT
+
+EurekaBottom:
+UNIT Lich Wight 0x00 Level(20,Enemy,0) [18,40] DropItem 0x0 0x0 0x0 [Flare, Thoron, Masamune] NeverMoveAI //Lich
+UNIT Ch1Generic General 0x00 Level(15,Enemy,1) [17,40] 0x0 0x0 0x0 0x0 [Spear, Elixir] GuardTileAI
+UNIT Ch1Generic General 0x00 Level(15,Enemy,1) [19,40] 0x0 0x0 0x0 0x0 [Tomahawk, Elixir] GuardTileAI
+UNIT Zemsel DracoZombie 0x00 Level(20,Enemy,0) [16,38] DropItem 0x0 0x0 0x0 [WretchedAir, Falchion] NeverMoveAI //any late FE1 boss
+UNIT Mondain Druid 0x00 Level(20,Enemy,0) [20,38] DropItem 0x0 0x0 0x0 [Fenrir, Fortify, Elixir] NeverMoveAI //Mondain?
+UNIT 
 
 Bad2:
 UNIT

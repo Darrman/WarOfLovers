@@ -73,7 +73,23 @@
 #define Arle 0x1b
 #define British 0x1c
 
-#define Zande 0x50
+#define Zande 0x80
+#define Chaos 0x81
+#define Zoma 0x82
+#define Dragonlord 0x83
+#define Emperor 0x84
+#define Mediuth 0x85
+#define Necrosaro 0x86
+#define Lassic 0x87
+#define Giegue 0x88
+#define Lucifer 0x89
+#define Ch1Generic 0x8a
+#define Fish 0x8B
+#define Lich 0x8C
+#define Zemsel 0x8D
+#define Mondain 0x8E
+#define Minh 0x8F
+#define OnionKid 0x90
 
 //Characters
 //Fire Emblem: full roster defined for no-gacha modes.
