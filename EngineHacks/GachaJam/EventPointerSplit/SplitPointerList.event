@@ -93,6 +93,9 @@ TileConfigPointerTable(OstiaTileConfig, OstiaTiles) //12 in FE6
 #define DragonsGateTileConfig 0xc1
 TileConfigPointerTable(DragonsGateTileConfig, DragonsGateTiles) //C1 in FE7
 
+#define SnowTileConfig 0x68
+TileConfigPointerTable(SnowTileConfig, SnowTiles) //68 in FE6
+
 // -------------------------------OBJ TYPE-------------------------------
 
 #define FieldsObjType 1
@@ -133,6 +136,9 @@ ObjTypePalettePointerTable(OstiaObjType, OstiaObjects) //13 in FE6
 
 #define DragonsGateObjType 0xc3
 ObjTypePalettePointerTable(DragonsGateObjType, DragonsGateObjects) //0xc3 in FE7
+
+#define SnowObjType 0x66
+ObjTypePalettePointerTable(SnowObjType, SnowObjects) //0x66 in FE6
 
 // -------------------------------Palette-------------------------------
 
@@ -223,6 +229,9 @@ ObjTypePalettePointerTable(CastlePaletteFE6Ostia, FE6CastleOstiaPalette) //2d in
 #define CastlePaletteFE6Pherae 0x2e
 ObjTypePalettePointerTable(CastlePaletteFE6Pherae, FE6CastlePheraePalette) //edit of ostia
 
+#define SnowPalette1 0x67
+ObjTypePalettePointerTable(SnowPalette1, SnowPalette) //67 in FE6
+
 
 // -------------------------------Tile Anims-------------------------------
 
@@ -262,6 +271,18 @@ DragonsGateTiles:
 ALIGN 4
 DragonsGatePalette:
 #incbin "../../../Maps/Tilesets/DragonsGatePalette.dmp"
+
+ALIGN 4
+SnowObjects:
+#incext Png2Dmp "../../../Maps/Tilesets/FE6Snow.png" --lz77
+
+ALIGN 4
+SnowTiles:
+#incext compress "../../../Maps/Tilesets/Snow.mapchip_config"
+
+ALIGN 4
+SnowPalette:
+#incbin "../../../Maps/Tilesets/FE6SnowPalette.dmp"
 
 ALIGN 4
 FE7FieldsPalette:
