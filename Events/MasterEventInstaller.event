@@ -5,6 +5,9 @@
 #include "SHPC1.event"
 }
 {
+#include "SHPC2.event"
+}
+{
 #include "Debug.event"
 }
 {

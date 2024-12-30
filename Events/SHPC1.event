@@ -349,9 +349,9 @@ SOLOTEXTBOXSTART
 TEXTSHOW SHPCFinalWords
 TEXTEND
 REMA
-WM_LOADLOCATION2 0 2 0 //Required to fix chapter name
-WM_SETDESTINATION 0 2 0 //World map node. Keep these equal.
-WM_SETNEXTLOCATION 0 0 2 //Needed for world map narration.
+WM_LOADLOCATION2 0 1 0 //Required to fix chapter name
+WM_SETDESTINATION 0 1 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 1 //Needed for world map narration.
 MNCH 0xD
 ENDA
 

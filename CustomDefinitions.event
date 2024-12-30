@@ -73,6 +73,46 @@
 #define Arle 0x1b
 #define British 0x1c
 
+//Generation 2: SNES and Contemporaries
+#define Cecil 0x1D
+#define Rosa 0x1E
+#define Butz 0x1f
+#define Lenna 0x20
+#define Midenhall 0x21
+#define Moonbrooke 0x22
+#define Madason 0x23
+#define Bianca 0x24
+#define Ness 0x25
+#define Paula 0x26
+#define Camus 0x27
+#define Aleph 0x28
+#define Hiroko 0x29
+#define Chaz 0x2A
+#define Alys 0x2B
+#define ARLE_SON 0x2C
+#define ARLE_DAUGHTER 0x2D
+#define FIXED_1 0x2E
+#define FIXED_2 0x2F
+#define FIXED_3 0x30
+#define FIXED_4 0x31
+#define FIXED_5 0x32
+#define Benjamin 0x33
+#define Phoebe 0x34
+#define Crono 0x35
+#define Marle 0x36
+#define ALENA_SUB_MALE 0x37
+#define ALENA_SUB_FEMALE 0x38
+#define Red 0x39
+#define Misty 0x3A
+#define Sigurd 0x3B
+#define Deirdre 0x3C
+#define SMT1Hero 0x3D
+#define SMT1Heroine 0x3E
+#define ALIS_SUB_MALE 0x3F
+#define ALIS_SUB_FEMALE 0x40
+#define Rooks 0x41
+#define Salah 0x42
+
 #define Zande 0x80
 #define Chaos 0x81
 #define Zoma 0x82
@@ -126,7 +166,7 @@
 
 //Valencia
 #define Valbo 0x1b
-#define Camus 0x1c
+//#define Camus 0x1c
 #define Dyute 0x1d
 #define Valencia2 0x1e
 #define Alm 0x1f
@@ -148,7 +188,7 @@
 #define Kain 0x2a
 #define Gordon 0x2b
 //#define Banutu 0x2c
-#define Cecil 0x2d
+//#define Cecil 0x2d
 #define Ellis 0x2e
 
 //Elyos and Askr
@@ -193,8 +233,8 @@
 #define Wolf 0x4b
 
 //Earthbound
-#define Ness 0x4c
-#define Paula 0x4d
+//#define Ness 0x4c
+//#define Paula 0x4d
 #define Jeff 0x4e
 #define Poo 0x4f
 #define Pokey 0x50
@@ -211,21 +251,21 @@
 
 //Final Fantasy
 #define CecilFF4 0x58
-#define CecilHarvey CecilFF4
-#define Rosa 0x59
-#define KainFF4 0x5a
-#define KainHighwind KainFF4
-#define Rydia 0x5b
-#define Butz 0x5c
-#define Lenna 0x5d
-#define Galuf 0x5e
+//#define CecilHarvey CecilFF4
+//#define Rosa 0x59
+//#define KainFF4 0x5a
+//#define KainHighwind KainFF4
+//#define Rydia 0x5b
+//#define Butz 0x5c
+//#define Lenna 0x5d
+//#define Galuf 0x5e
 #define Terra 0x5f
-#define Celes 0x60
-#define Locke 0x61
+//#define Celes 0x60
+//#define Locke 0x61
 
 //Pokemon
 #define Ash 0x62
-#define Misty 0x63
+//#define Misty 0x63
 #define Brock 0x64
 #define Jessie 0x65
 #define James 0x66
@@ -248,9 +288,9 @@
 #define President 0x73
 
 //Chrono Trigger
-#define Crono 0x74
-#define Marle 0x75
-#define Lucca 0x76
+//#define Crono 0x74
+//#define Marle 0x75
+//#define Lucca 0x76
 
 //Sonic the Hedgehog
 #define Sonic 0x77
@@ -333,7 +373,7 @@
 #define Doma 0xcc
 #define Trabant 0xcd
 #define Loputousu 0xce
-#define Mediuth 0xcf
+//#define Mediuth 0xcf
 #define Sombron 0xd0
 #undef Fomortiis //I wonder how much hardcoding can move to his new slot?
 #define Fomortiis 0xd1

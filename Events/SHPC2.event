@@ -1,0 +1,117 @@
+EventPointerTable(0xA, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT
+
+FixedUnits:
+UNIT Cecil Paladin 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Masamune, BraveSword, Spear, Dragonshield] NoAI
+UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [1,1] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
+UNIT
+
+HeroFin:
+UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [ErdricksSword, AngelicRobe] NoAI
+UNIT
+
+ButzFirion:
+UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Runesword, SilverSword, HandAxe, Talisman] NoAI
+UNIT
+
+ButzGuy:
+UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [BraveAxe, SilverSword, Tomahawk, EnergyRing] NoAI
+UNIT
+
+ButzBritish:
+UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Hammer, SilverSword, HandAxe, PureWater] NoAI
+UNIT
+
+ButzSub:
+UNIT Benjamin Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [SilverSword, HandAxe, SharpClaw] NoAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 FixedUnits
+LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't
+//Pairing check: Maria
+CHECK_EVENTID MariaFirionPaired
+BEQ 2001 s0 sC
+LOAD1 0x1 ButzFirion
+GOTO 2004
+LABEL 2001
+CHECK_EVENTID MariaGuyPaired
+BEQ 2002 s0 sC
+LOAD1 0x1 ButzGuy
+GOTO 2004
+LABEL 2002
+CHECK_EVENTID MariaBritishPaired
+BEQ 2003 s0 sC
+LOAD1 0x1 ButzBritish
+GOTO 2004
+LABEL 2003
+//if you end up here Maria died alone, so load sub
+LOAD1 0x1 ButzSub
+LABEL 2004
+STAL 10
+CLEA 0
+CLEN 0
+CLEE 0
+STAL 10
+LOAD3 0x1 Good
+LOAD1 0x1 Bad
+FADI 10
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC3 0x6
+ENDA
+
