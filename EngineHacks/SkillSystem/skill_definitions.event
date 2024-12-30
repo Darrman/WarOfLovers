@@ -445,7 +445,7 @@
 
 //Insight: Hit +20.
 //By Sme
-#define InsightID 255
+#define InsightID 254
 
 //Knight Aspirant: When above 75% health, +2 damage, +15% avoid.
 //By Datagne
@@ -523,8 +523,8 @@
 #define ReadyStanceID 250
 #define SteadyStanceID 251
 #define SturdyStanceID 252
-#define SwiftStanceID 253
-#define WardingStanceID 254
+#define SwiftStanceID 255
+#define WardingStanceID 255
 #define SpectrumStanceID 255
 //By Sme
 #define AlertStanceID 245
@@ -552,7 +552,7 @@
 
 //Vigilance: Avoid +20.
 //By Sme
-#define VigilanceID 255
+#define VigilanceID 253
 
 //Wind Disciple: +10 Hit and Avoid when HP is not at max.
 //Author Unknown (Initial Commit)

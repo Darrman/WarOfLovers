@@ -4,8 +4,8 @@ Savior: Can rescue[N]
 without penalties.[X]
 
 ## SD_Adept
-Adept: Gain a consecutive attack.[N]
-(Speed % activation)[X]
+Continue: Gain a consecutive[N]
+attack. (Speed % activation)[X]
 
 ## SD_Acrobat
 Acrobat: All traversable[N]
@@ -140,7 +140,7 @@ strike first when attacked.[X]
 
 ## SD_Desperation
 Desperation: If HP < 50%,[N]
-double attacks occur immediately.[X]
+double attacks occur instantly.[X]
 
 ## SD_Wrath
 Wrath: If HP < 50%,[N]
@@ -186,8 +186,8 @@ Slayer: Deal effective damage[N]
 to monster units.[X]
 
 ## SD_Summon
-Summon: Can conjure a phantom[N]
-soldier to fight alongside you.[X]
+Summon: Call forth a demon's[N]
+aid for battle.[X]
 
 ## SD_Dance
 Dance: Refresh an ally unit[N]
@@ -364,8 +364,8 @@ Foreign Princess: Foreign army units[N]
 take -2/+2 damage dealt/taken.[X]
 
 ## SD_SavageBlow
-Savage Blow: After attacking, enemies[N]
-within 2 tiles take 20% damage.[X]
+Savage Blow: After attacking,[N]
+injure nearby enemies.[X]
 
 ## SD_Relief
 Relief: Recover 20% HP each turn if[N]
@@ -559,11 +559,11 @@ Pivot: Allows unit to move to the[N]
 opposite side of an adjacent ally.[X]
 
 ## SD_Reposition
-Reposition: Allows unit to pull an[N]
-adjacent ally to its opposite side.[X]
+Reposition: Pull an ally[N]
+to its opposite side.[X]
 
 ## SD_Swap
-Swap: Allows unit to swap positions[N]
+Swap: Swap positions[N]
 with an adjacent ally.[X]
 
 ## SD_BreathOfLife

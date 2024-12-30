@@ -85,16 +85,25 @@ LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't
 CHECK_EVENTID MariaFirionPaired
 BEQ 2001 s0 sC
 LOAD1 0x1 ButzFirion
+SVAL s1 InsightID
+SVAL s2 Butz
+ASMC ASMC_LearnNewSkill|1
 GOTO 2004
 LABEL 2001
 CHECK_EVENTID MariaGuyPaired
 BEQ 2002 s0 sC
 LOAD1 0x1 ButzGuy
+SVAL s1 VigilanceID
+SVAL s2 Butz
+ASMC ASMC_LearnNewSkill|1
 GOTO 2004
 LABEL 2002
 CHECK_EVENTID MariaBritishPaired
 BEQ 2003 s0 sC
 LOAD1 0x1 ButzBritish
+SVAL s1 GreatShieldID
+SVAL s2 Butz
+ASMC ASMC_LearnNewSkill|1
 GOTO 2004
 LABEL 2003
 //if you end up here Maria died alone, so load sub
