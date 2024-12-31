@@ -89,8 +89,8 @@
 #define Hiroko 0x29
 #define Chaz 0x2A
 #define Alys 0x2B
-#define ARLE_SON 0x2C
-#define ARLE_DAUGHTER 0x2D
+#define Rooks 0x2C
+#define Salah 0x2D
 #define FIXED_1 0x2E
 #define FIXED_2 0x2F
 #define FIXED_3 0x30
@@ -100,18 +100,18 @@
 #define Phoebe 0x34
 #define Crono 0x35
 #define Marle 0x36
-#define ALENA_SUB_MALE 0x37
-#define ALENA_SUB_FEMALE 0x38
+#define Carver 0x37
+#define Milly 0x38
 #define Red 0x39
-#define Misty 0x3A
+#define Erika 0x3A
 #define Sigurd 0x3B
-#define Deirdre 0x3C
+#define Mana 0x3C
 #define SMT1Hero 0x3D
 #define SMT1Heroine 0x3E
 #define ALIS_SUB_MALE 0x3F
 #define ALIS_SUB_FEMALE 0x40
-#define Rooks 0x41
-#define Salah 0x42
+#define Celes 0x41
+#define Locke 0x42
 
 #define Zande 0x80
 #define Chaos 0x81
@@ -265,7 +265,7 @@
 
 //Pokemon
 #define Ash 0x62
-//#define Misty 0x63
+#define Misty 0x63
 #define Brock 0x64
 #define Jessie 0x65
 #define James 0x66
@@ -772,6 +772,7 @@
 #define ArleBlackMagePaired 0x8A //both mages
 #define ArleLloydPaired 0x8B //smart guys like puzzles
 #define ArleCristoPaired 0x8C //pair the spares
+#define ArleNakajimaPaired 0x92 //one extra for a nice round 30
 
 //Gen 2: A girl usually has three suitors: Celice, the pseudo-canon pairing,
 //and the incestuous (or bigger age gap/canon-breaking) pairing.

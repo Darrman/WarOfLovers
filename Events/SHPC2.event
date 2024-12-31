@@ -54,20 +54,194 @@ HeroFin:
 UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [ErdricksSword, AngelicRobe] NoAI
 UNIT
 
-ButzFirion:
+ButzLennaFirion:
 UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Runesword, SilverSword, HandAxe, Talisman] NoAI
+UNIT Lenna Sage_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Ultima, Thoron, Recover, SpiritDust] NoAI
 UNIT
 
-ButzGuy:
+ButzLennaGuy:
 UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [BraveAxe, SilverSword, Tomahawk, EnergyRing] NoAI
+UNIT Lenna Sage_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Ultima, Thoron, Recover, SpiritDust] NoAI
 UNIT
 
-ButzBritish:
+ButzLennaBritish:
 UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Hammer, SilverSword, HandAxe, PureWater] NoAI
+UNIT Lenna Sage_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Ultima, Thoron, Recover, SpiritDust] NoAI
 UNIT
 
-ButzSub:
+ButzLennaSub:
 UNIT Benjamin Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [SilverSword, HandAxe, SharpClaw] NoAI
+UNIT Phoebe Sniper_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [BeaconBow, SilverBow, Divine] NoAI
+UNIT
+
+MidenhallMoonbrookeErdrick:
+UNIT Midenhall Hero 0x00 Level(15,Ally,0) [0,2] 0x0 0x0 0x0 0x0 [SilverBlade, Wyrmslayer, HandAxe, GoddessIcon] NoAI
+UNIT Moonbrooke Bishop_F 0x00 Level(15,Ally,0) [0,3] 0x0 0x0 0x0 0x0 [Recover, Divine, Silence, Dragonshield] NoAI
+UNIT
+
+MidenhallMoonbrookeHero:
+UNIT Midenhall Hero 0x00 Level(15,Ally,0) [0,2] 0x0 0x0 0x0 0x0 [ErdricksSword, SilverSword, Elixir, AngelicRobe] NoAI
+UNIT Moonbrooke Bishop_F 0x00 Level(15,Ally,0) [0,3] 0x0 0x0 0x0 0x0 [Recover, Divine, Silence, Dragonshield] NoAI
+UNIT
+
+MidenhallMoonbrookeFirion:
+UNIT Midenhall Hero 0x00 Level(15,Ally,0) [0,2] 0x0 0x0 0x0 0x0 [Runesword, SilverSword, HandAxe, Talisman] NoAI
+UNIT Moonbrooke Bishop_F 0x00 Level(15,Ally,0) [0,3] 0x0 0x0 0x0 0x0 [Recover, Divine, Silence, Dragonshield] NoAI
+UNIT
+
+MidenhallMoonbrookeSub:
+UNIT Crono Swordmaster 0x00 Level(15,Ally,0) [0,2] 0x0 0x0 0x0 0x0 [Shamshir, SilverSword, Speedwings] NoAI
+UNIT Marle Sniper_F 0x00 Level(15,Ally,0) [0,3] 0x0 0x0 0x0 0x0 [SilverBow, KillerBow, Recover] NoAI
+UNIT
+
+MadasonBiancaCristo:
+UNIT Madason Bishop 0x00 Level(15,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [Divine, NinissGrace, Physic, Heal] NoAI
+UNIT Bianca Halberdier_F 0x00 Level(15,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [StilettoEarrings, SilverLance, Javelin, Speedwings] NoAI
+UNIT
+
+MadasonBiancaTaloon:
+UNIT Madason Bishop 0x00 Level(15,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [Divine, Physic, KillingEdge, HoplonShield] NoAI
+UNIT Bianca Halberdier_F 0x00 Level(15,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [StilettoEarrings, SilverLance, Javelin, Speedwings] NoAI
+UNIT
+
+MadasonBiancaHero:
+UNIT Madason Bishop 0x00 Level(15,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [Divine, Physic, ErdricksSword, AngelicRobe] NoAI
+UNIT Bianca Halberdier_F 0x00 Level(15,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [StilettoEarrings, SilverLance, Javelin, Speedwings] NoAI
+UNIT
+
+MadasonBiancaMarth:
+UNIT Madason Bishop 0x00 Level(15,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [Divine, Physic, Falchion, Lockpick] NoAI
+UNIT Bianca Halberdier_F 0x00 Level(15,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [StilettoEarrings, SilverLance, Javelin, Speedwings] NoAI
+UNIT
+
+MadasonBiancaErdrick:
+UNIT Madason Bishop 0x00 Level(15,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [Aura, Physic, SilverBlade, Wyrmslayer] NoAI
+UNIT Bianca Halberdier_F 0x00 Level(15,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [StilettoEarrings, SilverLance, Javelin, Speedwings] NoAI
+UNIT
+
+MadasonBiancaSub:
+UNIT Carver Berserker 0x00 Level(15,Ally,0) [0,4] 0x0 0x0 0x0 0x0 [KillerAxe, Tomahawk, Vulnerary] NoAI
+UNIT Milly Druid_F 0x00 Level(15,Ally,0) [0,5] 0x0 0x0 0x0 0x0 [Flux, Fenrir, Heal] NoAI
+UNIT 
+
+NessPaulaNinten:
+UNIT Ness MageKnight 0x00 Level(15,Ally,0) [0,6] 0x0 0x0 0x0 0x0 [HanksBat, Recover, Sleep, Elthunder] NoAI
+UNIT Paula MageKnight_F 0x00 Level(15,Ally,0) [0,7] 0x0 0x0 0x0 0x0 [Tornado, Aura, Meteor, Blizzard] NoAI
+UNIT
+
+NessPaulaLloyd:
+UNIT Ness MageKnight 0x00 Level(15,Ally,0) [0,6] 0x0 0x0 0x0 0x0 [Recover, Sleep, Elthunder, SecretBook] NoAI
+UNIT Paula MageKnight_F 0x00 Level(15,Ally,0) [0,7] 0x0 0x0 0x0 0x0 [Tornado, Aura, Meteor, Blizzard] NoAI
+UNIT
+
+NessPaulaBlackMage:
+UNIT Ness MageKnight 0x00 Level(15,Ally,0) [0,6] 0x0 0x0 0x0 0x0 [Flare, Recover, Blizzard, Thoron] NoAI
+UNIT Paula MageKnight_F 0x00 Level(15,Ally,0) [0,7] 0x0 0x0 0x0 0x0 [Tornado, Aura, Meteor, Blizzard] NoAI
+UNIT
+
+NessPaulaSub:
+UNIT Red Paladin 0x00 Level(15,Ally,0) [0,6] 0x0 0x0 0x0 0x0 [SilverSword, ShortSpear, Elixir] NoAI
+UNIT Erika Dancer 0x00 Level(15,Ally,0) [0,7] 0x0 0x0 0x0 0x0 [Recover, NinissGrace, Elixir] NoAI
+
+CamusChikiMarth:
+UNIT Camus Paladin 0x00 Level(15,Ally,0) [0,8] 0x0 0x0 0x0 0x0 [Horseslayer, SilverLance, IotesShield, Spear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(15,Ally,0) [0,9] 0x0 0x0 0x0 0x0 [Falchion, DivineStone, Rapier, Lockpick] NoAI
+UNIT
+
+CamusChikiBanutu:
+UNIT Camus Paladin 0x00 Level(15,Ally,0) [0,8] 0x0 0x0 0x0 0x0 [Horseslayer, SilverLance, IotesShield, Spear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(15,Ally,0) [0,9] 0x0 0x0 0x0 0x0 [WretchedAir, DivineStone, Boots, ThorsIre] NoAI
+UNIT
+
+CamusChikiGuy:
+UNIT Camus Paladin 0x00 Level(15,Ally,0) [0,8] 0x0 0x0 0x0 0x0 [Horseslayer, SilverLance, IotesShield, Spear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(15,Ally,0) [0,9] 0x0 0x0 0x0 0x0 [DivineStone, EnergyRing] NoAI
+UNIT
+
+CamusChikiTaloon:
+UNIT Camus Paladin 0x00 Level(15,Ally,0) [0,8] 0x0 0x0 0x0 0x0 [Horseslayer, SilverLance, IotesShield, Spear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(15,Ally,0) [0,9] 0x0 0x0 0x0 0x0 [DivineStone, KillingEdge, HoplonShield, WhiteGem] NoAI
+UNIT
+
+CamusChikiSub:
+UNIT Sigurd Paladin 0x00 Level(15,Ally,0) [0,8] 0x0 0x0 0x0 0x0 [BraveSword, SilverSword, Javelin] NoAI
+UNIT Mana Bishop_F 0x00 Level(15,Ally,0) [0,9] 0x0 0x0 0x0 0x0 [Wind, Recover, Berserk] NoAI
+UNIT
+
+AlephHirokoNakajima:
+UNIT Aleph Rogue 0x00 Level(15,Ally,0) [0,10] 0x0 0x0 0x0 0x0 [Armourslayer, ShadowKiller, WindSword, Elixir] NoAI
+UNIT Hiroko Bishop_F 0x00 Level(15,Ally,0) [0,11] 0x0 0x0 0x0 0x0 [Restore, Recover, FillasMight, Divine] NoAI
+UNIT
+
+AlephHirokoBritish:
+UNIT Aleph Rogue 0x00 Level(15,Ally,0) [0,10] 0x0 0x0 0x0 0x0 [SilverSword, LightRune, Dragonshield, Talisman] NoAI
+UNIT Hiroko Bishop_F 0x00 Level(15,Ally,0) [0,11] 0x0 0x0 0x0 0x0 [Restore, Recover, FillasMight, Divine] NoAI
+UNIT
+
+AlephHirokoOdin:
+UNIT Aleph Rogue 0x00 Level(15,Ally,0) [0,10] 0x0 0x0 0x0 0x0 [SilverSword, ThunderSword, Vulnerary, Mine] NoAI
+UNIT Hiroko Bishop_F 0x00 Level(15,Ally,0) [0,11] 0x0 0x0 0x0 0x0 [Restore, Recover, FillasMight, Divine] NoAI
+UNIT
+
+AlephHirokoBanutu:
+UNIT Aleph Rogue 0x00 Level(15,Ally,0) [0,10] 0x0 0x0 0x0 0x0 [WretchedAir, SilverSword, Boots, ThorsIre] NoAI
+UNIT Hiroko Bishop_F 0x00 Level(15,Ally,0) [0,11] 0x0 0x0 0x0 0x0 [Restore, Recover, FillasMight, Divine] NoAI
+UNIT
+
+AlephHirokoSub:
+UNIT SMT1Hero Rogue 0x00 Level(15,Ally,0) [0,10] 0x0 0x0 0x0 0x0 [SilverSword, SteelBow, Vulnerary] NoAI
+UNIT SMT1Heroine Bishop_F 0x00 Level(15,Ally,0) [0,11] 0x0 0x0 0x0 0x0 [Aura, Recover, Barrier] NoAI
+UNIT
+
+ChazAlysOdin:
+UNIT Chaz Hero 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [LaconianAxe, SilverSword, HandAxe, SecretBook] NoAI
+UNIT Alys General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword, SilverAxe] NoAI
+UNIT
+
+ChazAlysNinten:
+UNIT Chaz Hero 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [HanksBat, SilverSword, HandAxe, SecretBook] NoAI
+UNIT Alys General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword, SilverAxe] NoAI
+UNIT
+
+ChazAlysNakajima:
+UNIT Chaz Hero 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [Armourslayer, WindSword, HandAxe, ShadowKiller] NoAI
+UNIT Alys General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword, SilverAxe] NoAI
+UNIT
+
+ChazAlysMarth:
+UNIT Chaz Hero 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [Falchion, Rapier, HandAxe, Lockpick] NoAI
+UNIT Alys General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword, SilverAxe] NoAI
+UNIT
+
+ChazAlysSub:
+UNIT ALIS_SUB_MALE Hero 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [LaconianAxe, SilverSword, HandAxe, SecretBook] NoAI
+UNIT ALIS_SUB_FEMALE General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword, SilverAxe] NoAI
+//PLACEHOLDER: Shining Force reps go here
+UNIT
+
+RooksSalahBlackMage:
+UNIT Rooks MageFighter 0x00 Level(15,Ally,0) [0,14] 0x0 0x0 0x0 0x0 [Flare, Thoron, Blizzard, SilverSword] NoAI
+UNIT Salah Sage_F 0x00 Level(15,Ally,0) [0,15] 0x0 0x0 0x0 0x0 [Thoron, Blizzard, Recover, SpiritDust] NoAI
+UNIT
+
+RooksSalahLloyd:
+UNIT Rooks MageFighter 0x00 Level(15,Ally,0) [0,14] 0x0 0x0 0x0 0x0 [Tornado, Elthunder, SilverSword, SecretBook] NoAI
+UNIT Salah Sage_F 0x00 Level(15,Ally,0) [0,15] 0x0 0x0 0x0 0x0 [Thoron, Blizzard, Recover, SpiritDust] NoAI
+UNIT
+
+RooksSalahCristo:
+UNIT Rooks MageFighter 0x00 Level(15,Ally,0) [0,14] 0x0 0x0 0x0 0x0 [Tornado, Eclipse, SilverSword, NinissGrace] NoAI
+UNIT Salah Sage_F 0x00 Level(15,Ally,0) [0,15] 0x0 0x0 0x0 0x0 [Thoron, Blizzard, Recover, SpiritDust] NoAI
+UNIT
+
+RooksSalahNakajima:
+UNIT Rooks MageFighter 0x00 Level(15,Ally,0) [0,14] 0x0 0x0 0x0 0x0 [WindSword, Elthunder, ShadowKiller, Armourslayer] NoAI
+UNIT Salah Sage_F 0x00 Level(15,Ally,0) [0,15] 0x0 0x0 0x0 0x0 [Thoron, Blizzard, Recover, SpiritDust] NoAI
+UNIT
+
+RooksSalahSub:
+UNIT Locke Rogue 0x00 Level(15,Ally,0) [0,14] 0x0 0x0 0x0 0x0 [WindSword, BraveSword, Elixir] NoAI
+UNIT Celes Sage_F 0x00 Level(15,Ally,0) [0,15] 0x0 0x0 0x0 0x0 [Ultima, Bolganone, Thoron] NoAI
 UNIT
 
 Traps1:
@@ -84,31 +258,350 @@ LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't
 //Pairing check: Maria
 CHECK_EVENTID MariaFirionPaired
 BEQ 2001 s0 sC
-LOAD1 0x1 ButzFirion
+LOAD1 0x1 ButzLennaFirion
 SVAL s1 InsightID
 SVAL s2 Butz
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Lenna
 ASMC ASMC_LearnNewSkill|1
 GOTO 2004
 LABEL 2001
 CHECK_EVENTID MariaGuyPaired
 BEQ 2002 s0 sC
-LOAD1 0x1 ButzGuy
+LOAD1 0x1 ButzLennaGuy
 SVAL s1 VigilanceID
 SVAL s2 Butz
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Lenna
 ASMC ASMC_LearnNewSkill|1
 GOTO 2004
 LABEL 2002
 CHECK_EVENTID MariaBritishPaired
 BEQ 2003 s0 sC
-LOAD1 0x1 ButzBritish
+LOAD1 0x1 ButzLennaBritish
 SVAL s1 GreatShieldID
 SVAL s2 Butz
 ASMC ASMC_LearnNewSkill|1
+SVAL s2 Lenna
+ASMC ASMC_LearnNewSkill|1
 GOTO 2004
 LABEL 2003
-//if you end up here Maria died alone, so load sub
-LOAD1 0x1 ButzSub
+//Maria has joined the FF2 death toll: sub time!
+LOAD1 0x1 ButzLennaSub
 LABEL 2004
+
+//Soldier
+CHECK_EVENTID SoldierErdrickPaired
+BEQ 2005 s0 sC
+LOAD1 0x1 MidenhallMoonbrookeErdrick
+SVAL s1 BracingStanceID
+SVAL s2 Midenhall
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Moonbrooke
+ASMC ASMC_LearnNewSkill|1
+GOTO 2008
+LABEL 2005
+CHECK_EVENTID SoldierHeroPaired
+BEQ 2006 s0 sC
+LOAD1 0x1 MidenhallMoonbrookeHero
+SVAL s1 LunaID
+SVAL s2 Midenhall
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Moonbrooke
+ASMC ASMC_LearnNewSkill|1
+GOTO 2008
+LABEL 2006
+CHECK_EVENTID SoldierFirionPaired
+BEQ 2007 s0 sC
+LOAD1 0x1 MidenhallMoonbrookeFirion
+SVAL s1 InsightID
+SVAL s2 Midenhall
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Moonbrooke
+ASMC ASMC_LearnNewSkill|1
+GOTO 2008
+LABEL 2007
+//cold as a cod: thou art truly dead, soldier
+LOAD1 0x1 MidenhallMoonbrookeSub
+LABEL 2008
+
+//Alena
+CHECK_EVENTID AlenaCristoPaired
+BEQ 2009 s0 sC
+LOAD1 0x1 MadasonBiancaCristo
+SVAL s1 LethalityID
+SVAL s2 Madason
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Bianca
+ASMC ASMC_LearnNewSkill|1
+GOTO 2014
+LABEL 2009
+CHECK_EVENTID AlenaTaloonPaired
+BEQ 2010 s0 sC
+LOAD1 0x1 MadasonBiancaTaloon
+SVAL s1 SupplyID
+SVAL s2 Madason
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Bianca
+ASMC ASMC_LearnNewSkill|1
+GOTO 2014
+LABEL 2010
+CHECK_EVENTID AlenaHeroPaired
+BEQ 2011 s0 sC
+LOAD1 0x1 MadasonBiancaHero
+SVAL s1 LunaID
+SVAL s2 Madason
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Bianca
+ASMC ASMC_LearnNewSkill|1
+GOTO 2014
+LABEL 2011
+CHECK_EVENTID AlenaMarthPaired
+BEQ 2012 s0 sC
+LOAD1 0x1 MadasonBiancaMarth
+SVAL s1 ProvokeID
+SVAL s2 Madason
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Bianca
+ASMC ASMC_LearnNewSkill|1
+GOTO 2014
+LABEL 2012
+CHECK_EVENTID AlenaErdrickPaired
+BEQ 2013 s0 sC
+LOAD1 0x1 MadasonBiancaErdrick
+SVAL s1 BracingStanceID
+SVAL s2 Madason
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Bianca
+ASMC ASMC_LearnNewSkill|1
+GOTO 2014
+LABEL 2013
+//And Alena disappeared with the rest of her countrymen
+LOAD1 0x1 MadasonBiancaSub
+LABEL 2014
+
+//Ana
+CHECK_EVENTID AnaNintenPaired
+BEQ 2015 s0 sC
+LOAD1 0x1 NessPaulaNinten
+SVAL s1 RepositionID
+SVAL s2 Ness
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Paula
+ASMC ASMC_LearnNewSkill|1
+GOTO 2018
+LABEL 2015
+CHECK_EVENTID AnaLloydPaired
+BEQ 2016 s0 sC
+LOAD1 0x1 NessPaulaLloyd
+SVAL s1 DeadeyeID
+SVAL s2 Ness
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Paula
+ASMC ASMC_LearnNewSkill|1
+GOTO 2018
+LABEL 2016
+CHECK_EVENTID AnaNintenPaired
+BEQ 2017 s0 sC
+LOAD1 0x1 NessPaulaNinten
+SVAL s1 RepositionID
+SVAL s2 Ness
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Paula
+ASMC ASMC_LearnNewSkill|1
+GOTO 2018
+LABEL 2017
+//Ana did not "Fall'n Love"
+LOAD1 0x1 NessPaulaSub
+LABEL 2018
+
+//Sheeda
+CHECK_EVENTID SheedaMarthPaired
+BEQ 2019 s0 sC
+LOAD1 0x1 CamusChikiMarth
+SVAL s1 ProvokeID
+SVAL s2 Camus
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Chiki
+ASMC ASMC_LearnNewSkill|1
+GOTO 2023
+LABEL 2019
+CHECK_EVENTID SheedaBanutuPaired
+BEQ 2020 s0 sC
+LOAD1 0x1 CamusChikiBanutu
+//no personal to inherit
+//SVAL s1 ProvokeID
+//SVAL s2 Camus
+//ASMC ASMC_LearnNewSkill|1
+//SVAL s2 Chiki
+//ASMC ASMC_LearnNewSkill|1
+GOTO 2023
+LABEL 2020
+CHECK_EVENTID SheedaGuyPaired
+BEQ 2021 s0 sC
+LOAD1 0x1 CamusChikiGuy
+SVAL s1 VigilanceID
+SVAL s2 Camus
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Chiki
+ASMC ASMC_LearnNewSkill|1
+GOTO 2023
+LABEL 2021
+CHECK_EVENTID SheedaTaloonPaired
+BEQ 2022 s0 sC
+LOAD1 0x1 CamusChikiTaloon
+SVAL s1 SupplyID
+SVAL s2 Camus
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Chiki
+ASMC ASMC_LearnNewSkill|1
+GOTO 2023
+LABEL 2021
+//Sheeda dying means bad ending! Or subs, anyway
+LOAD1 0x1 CamusChikiSub
+LABEL 2023
+
+//Yumiko
+CHECK_EVENTID YumikoNakajimaPaired
+BEQ 2024 s0 sC
+LOAD1 0x1 AlephHirokoNakajima
+SVAL s1 SummonID
+SVAL s2 Aleph
+ASMC ASMC_LearnNewSkill|1
+//only one comp to pass down
+//SVAL s2 Hiroko
+//ASMC ASMC_LearnNewSkill|1
+GOTO 2028
+LABEL 2024
+CHECK_EVENTID YumikoBritishPaired
+BEQ 2025 s0 sC
+LOAD1 0x1 AlephHirokoBritish
+SVAL s1 GreatShieldID
+SVAL s2 Aleph
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Hiroko
+ASMC ASMC_LearnNewSkill|1
+GOTO 2028
+LABEL 2025
+CHECK_EVENTID YumikoNakajimaPaired
+BEQ 2026 s0 sC
+LOAD1 0x1 AlephHirokoOdin
+SVAL s1 SavageBlowID
+SVAL s2 Aleph
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Hiroko
+ASMC ASMC_LearnNewSkill|1
+GOTO 2028
+LABEL 2026
+CHECK_EVENTID YumikoBanutuPaired
+BEQ 2024 s0 sC
+LOAD1 0x1 AlephHirokoNakajima
+//no skill to pass down
+//SVAL s1 SummonID
+//SVAL s2 Aleph
+//ASMC ASMC_LearnNewSkill|1
+//SVAL s2 Hiroko
+//ASMC ASMC_LearnNewSkill|1
+GOTO 2028
+LABEL 2027
+//Looks like Yumiko wandered into a Mudo
+LOAD1 0x1 AlephHirokoSub
+LABEL 2028
+
+//Alis
+CHECK_EVENTID AlisOdinPaired
+BEQ 2029 s0 sC
+LOAD1 0x1 ChazAlysOdin
+SVAL s1 SavageBlowID
+SVAL s2 Chaz
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Alys
+ASMC ASMC_LearnNewSkill|1
+GOTO 2033
+LABEL 2029
+CHECK_EVENTID AlisNintenPaired
+BEQ 2030 s0 sC
+LOAD1 0x1 ChazAlysNinten
+SVAL s1 RepositionID
+SVAL s2 Chaz
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Alys
+ASMC ASMC_LearnNewSkill|1
+GOTO 2033
+LABEL 2030
+CHECK_EVENTID AlisNakajimaPaired
+BEQ 2031 s0 sC
+LOAD1 0x1 ChazAlysNakajima
+SVAL s1 SummonID
+SVAL s2 Chaz
+ASMC ASMC_LearnNewSkill|1
+//only one comp!
+//SVAL s2 Alys
+//ASMC ASMC_LearnNewSkill|1
+GOTO 2033
+LABEL 2031
+CHECK_EVENTID AlisMarthPaired
+BEQ 2032 s0 sC
+LOAD1 0x1 ChazAlysMarth
+SVAL s1 ProvokeID
+SVAL s2 Chaz
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Alys
+ASMC ASMC_LearnNewSkill|1
+GOTO 2033
+LABEL 2032
+//Alis could not stand up to the might of Lassic!
+LOAD1 0x1 ChazAlysSub
+LABEL 2033
+
+//Arle
+CHECK_EVENTID ArleBlackMagePaired
+BEQ 2034 s0 sC
+LOAD1 0x1 RooksSalahBlackMage
+//No skill inheritance
+//SVAL s1 SavageBlowID
+//SVAL s2 Rooks
+//ASMC ASMC_LearnNewSkill|1
+//SVAL s2 Salah
+//ASMC ASMC_LearnNewSkill|1
+GOTO 2038
+LABEL 2034
+CHECK_EVENTID ArleLloydPaired
+BEQ 2035 s0 sC
+LOAD1 0x1 RooksSalahLloyd
+SVAL s1 DeadeyeID
+SVAL s2 Rooks
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Salah
+ASMC ASMC_LearnNewSkill|1
+GOTO 2038
+LABEL 2035
+CHECK_EVENTID ArleCristoPaired
+BEQ 2036 s0 sC
+LOAD1 0x1 RooksSalahCristo
+SVAL s1 LethalityID
+SVAL s2 Rooks
+ASMC ASMC_LearnNewSkill|1
+SVAL s2 Salah
+ASMC ASMC_LearnNewSkill|1
+GOTO 2038
+LABEL 2036
+CHECK_EVENTID ArleNakajimaPaired
+BEQ 2037 s0 sC
+LOAD1 0x1 RooksSalahNakajima
+//you're only allowed three summoners
+//SVAL s1 SummonID
+//SVAL s2 Rooks
+//ASMC ASMC_LearnNewSkill|1
+//SVAL s2 Salah
+//ASMC ASMC_LearnNewSkill|1
+GOTO 2038
+LABEL 2037
+//The board is full of Puyos. You lose, Arle!
+LOAD1 0x1 RooksSalahSub
+LABEL 2038
+//End of unit loading
+
 STAL 10
 CLEA 0
 CLEN 0
