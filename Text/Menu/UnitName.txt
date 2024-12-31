@@ -246,7 +246,9 @@ over his daughter Fir's welfare.[X]
 Camus[X]
 
 ## CamusDesc
-Placeholder description.[X]
+A man with many aliases and[N]
+conflicting loyalties.[N]
+Prides himself on honour.[X]
 
 ## DyuteName
 Dyute[X]
@@ -536,17 +538,17 @@ your face to be covered in marker.[X]
 Ness[X]
 
 ## NessDesc
-A kid from Onett, Eagleland. His[N]
-hobbies include beating people up[N]
-with a bat and saying "Okay".[X]
+A kid from Onett, Eagleland.[N]
+Best known for his baseball[N]
+bats and saying "Okay".[X]
 
 ## PaulaName
 Paula[X]
 
 ## PaulaDesc
-From Twoson, she believes prayer[N]
-can solve any problem. If it fails,[N]
-PK Freeze will do just as well.[X]
+From Twoson, she will either[N]
+pray for salvation or use[N]
+deadly psychic power as needed.[X]
 
 ## JeffName
 Jeff[X]
@@ -576,17 +578,17 @@ Ness's side. Willing to spank things.[X]
 Cecil[X]
 
 ## CecilFF4Desc
-Ex-commander of the Red Wings of[N]
-Baron. Orphaned a girl, betrayed[N]
-by his friend, got shipwrecked...[X]
+Former head of the Red Wings,[N]
+now a paladin. With newfound[N]
+light, he protects his allies.[X]
 
 ## ButzName
 Butz[X]
 
 ## ButzDesc
-A wanderer from one place to the next.[N]
-His wandering reaches the point of[N]
-inter-dimensional travel.[X]
+Wanders the world on his steed.[N]
+A chance encounter with a meteor[N]
+crash changed things.[X]
 
 ## TerraName
 Terra[X]
@@ -709,13 +711,17 @@ Placeholder description.[X]
 Kain[X]
 
 ## KainFF4Desc
-Placeholder description.[X]
+Either Cecil's friend or Golbez's[N]
+minion, depending on the time[N]
+of day. Also likes Rosa.[X]
 
 ## RosaName
 Rosa[X]
 
 ## RosaDesc
-Placeholder description.[X]
+A white mage of Baron. She[N]
+follows Cecil through heat-[N]
+stroke and a kidnapping.[X]
 
 ## RydiaName
 Rydia[X]
@@ -727,7 +733,9 @@ Placeholder description.[X]
 Lenna[X]
 
 ## LennaDesc
-Placeholder description.[X]
+Princess of Tycoon. Caring of[N]
+others to the extreme: she[N]
+poisons herself frequently.[X]
 
 ## GalufName
 Galuf[X]
@@ -739,13 +747,17 @@ Placeholder description.[X]
 Celes[X]
 
 ## CelesDesc
-Placeholder description.[X]
+Once a general before the end.[N]
+Now searching for survivors[N]
+in the World of Ruin.[X]
 
 ## LockeName
 Locke[X]
 
 ## LockeDesc
-Placeholder description.[X]
+A "treasure hunter" looking[N]
+for a method to revive his[N]
+deceased girlfriend.[X]
 
 ## YugiName
 Yugi[X]
@@ -1867,3 +1879,320 @@ British[X]
 King of Sosaria. Typically calls[N]
 for help; the situation is dire if[N]
 he is the one being summoned.[X]
+
+## MidenhallName
+Midenhall[X]
+
+## MidenhallDesc
+Descended from Erdrick, he[N]
+inherited his strength.[N]
+He lacks any magic skill.[X]
+
+## MoonbrookeName
+Moonbrooke[X]
+
+## MoonbrookeDesc
+Descended from Erdrick, she[N]
+inherited great magic power.[N]
+Her strength is lacking.[X]
+
+## MadasonName
+Madason[X]
+
+## MadasonDesc
+Dragon Quest 5's hero.[N]
+PLACEHOLDER TEXT[X]
+
+## BiancaName
+Bianca[X]
+
+## BiancaDesc
+One of the potential love[N]
+interests in DQ5.[N]
+PLACEHOLDER TEXT[X]
+
+## ChikiDescSHPC
+Princess of the Divine Dragons.[N]
+Naturally friendly, but with[N]
+the demise of her closest friends...[X]
+
+## AlephName
+Aleph[X]
+
+## AlephDesc
+A powerful man, considered the[N]
+Messiah by some in Tokyo[N]
+Millenium. Has amnesia.[X]
+
+## HirokoName
+Hiroko[X]
+
+## HirokoDesc
+A member of Millenium's[N]
+security forces looking for[N]
+a missing child.[X]
+
+## ChazName
+Chaz[X]
+
+## ChazDesc
+Phantasy Star 4's main[N]
+character. PLACEHOLDER TEXT[X]
+
+## AlysName
+Alys[X]
+
+## AlysDesc
+From Phantasy Star 4.[N]
+PLACEHOLDER TEXT[X]
+
+## RooksName
+Rooks[X]
+
+## RooksDesc
+A so-called "Card Master".[N]
+He crawls through dungeons[N]
+to save Elemen.[X]
+
+## SalahName
+Salah[X]
+
+## SalahDesc
+One of Rooks's companions[N]
+on his crawl through the[N]
+five dungeons of Elemen.[X]
+
+## BenjaminName
+Benjamin[X]
+
+## BenjaminDesc
+After his home vanished, he[N]
+hopped, skipped, and shrugged[AN]
+his way to the crystals.[X]
+
+## PhoebeName
+Phoebe[X]
+
+## PhoebeDesc
+A woman from Aquaria, which[N]
+had frozen over. She joined[N]
+Benjamin to thaw it out.[X]
+
+## CronoName
+Crono[X]
+
+## CronoDesc
+A young man ready to celebrate[N]
+Guardia's Millenium Fair.[N]
+Energetic and confident.[X]
+
+## MarleName
+Marle[X]
+
+## MarleDesc
+Princess of Guardia. She got[N]
+involved in an experiment with[N]
+major consequences for time.[X]
+
+## CarverName
+Carver[X]
+
+## CarverDesc
+From Dragon Quest 6.[N]
+PLACEHOLDER TEXT[X]
+
+## MillyName
+Milly[X]
+
+## MillyDesc
+From Dragon Quest 6.[N]
+PLACEHOLDER TEXT[X]
+
+## RedName
+Red[X]
+
+## RedDesc
+A Pokemon Trainer from Pallet.[N]
+Quiet, but exceptionally[N]
+skilled at battling.[X]
+
+## ErikaName
+Erika[X]
+
+## ErikaDesc
+Celadon Gym Leader. A calm[N]
+woman who uses grass Pokemon[N]
+and likes flower arranging.[X]
+
+## SigurdName
+Sigurd[X]
+
+## SigurdDesc
+Lord of Chalphy. Protective[N]
+yet reckless, and always does[N]
+what he thinks is right.[X]
+
+## ManaName
+Mana[X]
+
+## ManaDesc
+A young priestess from Isaac who[N]
+grew up with Celice. Kind and[N]
+polite. (Lana's substitute)[X]
+
+## SMT1HeroName
+//I've used "Kazuya" in earlier games, but I'll use the old dev names here
+Futsuo[X]
+
+## SMT1HeroDesc
+A man from Kichijoji, Tokyo.[N]
+He soon finds himself involved[N]
+with supernatural events.[X]
+
+## SMT1HeroineName
+Futsuko[X]
+
+## SMT1HeroineDesc
+The head of a group standing[N]
+against American Ambassador[N]
+Thorman and Colonel Gotou.[X]
+
+## DeannaName
+Deanna[X]
+
+## DeannaDesc
+The leader of the Shining[N]
+Force assembled to rescue[N]
+Prince Nick of Cypress.[X]
+
+## NatashaName
+Natasha[X]
+
+## NatashaDesc
+A member of the Shining[N]
+Force. A magician with[N]
+a crush on Deanna.[X]
+
+## ZandeName
+Zande[X]
+
+## ZandeDesc
+Once a follower of Noah, he[N]
+was given the gift of humanity.[N]
+He greatly resents this.[X]
+
+## ChaosName
+Chaos[X]
+
+## ChaosDesc
+The source of the time loop.[N]
+2,000 years repeat endlessly[N]
+because of his will.[X]
+
+## ZomaName
+Zoma[X]
+
+## ZomaDesc
+A monster dwelling in the depths[N]
+of Charlock Castle, wanting to[N]
+shroud the world in darkness.[X]
+
+## DragonlordName
+Dragonlord[X]
+
+## DragonlordDesc
+A thief who stole the Ball/[N]
+Sphere of Light and brought[N]
+monsters back to Alefgard.[X]
+
+## EmperorName
+Emperor[X]
+
+## EmperorDesc
+Mateus of Paramekia. His goal[N]
+is to conquer any land he[N]
+lays his eyes on in any life.[X]
+
+## MediuthDescSHPC
+The Dark Earth Dragon. He[N]
+restored control of Akaneia[N]
+to the Mamkutes.[X]
+
+## NecrosaroName
+Necrosaro[X]
+
+## NecrosaroDesc
+A monster driven to wipe out[N]
+humanity over his girlfriend's[N]
+death. Cares for monsters.[X]
+
+## LassicName
+Lassic[X]
+
+## LassicDesc
+The king of Algol, who rules[N]
+with an iron fist. Shows no[N]
+mercy towards any enemies.[X]
+
+## GiegueName
+Giegue[X]
+
+## GiegueDesc
+An alien who was raised by[N]
+humans for a time. Driven[N]
+away by his mother's lullaby.[X]
+
+## LuciferName
+Lucifer[X]
+
+## LuciferDesc
+A fallen angel, cast out of[N]
+heaven for rebelling against[N]
+God. Represents chaos.[X]
+
+## Ch1GenericName
+Monster[X]
+
+## Ch1GenericDesc
+An encounter lurking within[N]
+a dungeon's depths.[X]
+
+## LichName
+Lich[X]
+
+## LichDesc
+The Fiend of Earth. He rotted[N]
+Melmond's soil away, and this[N]
+rot is spreading.[A][X]
+
+## ZemselName
+Zemsel[X]
+
+## ZemselDesc
+A Demon Dragon who was ordered[N]
+to guard the gate to Durhua[N]
+Castle. Asks no questions.[X]
+
+## MondainName
+Mondain[X]
+
+## MondainDesc
+An evil wizard who made himself[N]
+immortal with a gem. So long as[N]
+the gem is intact, he's eternal.[X]
+
+## MinhName
+Minh[X]
+
+## MinhDesc
+A former member of the rebellion[N]
+who gave his life for Ultima.[N]
+Once a powerful magician.[X]
+
+## OnionKidName
+Onion Kid[X]
+
+## OnionKidDesc
+One of four Light Warriors who[N]
+saved the world from Zande[N]
+originally. No longer fighting.[X]

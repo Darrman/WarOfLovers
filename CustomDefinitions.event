@@ -108,8 +108,9 @@
 #define Mana 0x3C
 #define SMT1Hero 0x3D
 #define SMT1Heroine 0x3E
-#define ALIS_SUB_MALE 0x3F
-#define ALIS_SUB_FEMALE 0x40
+#define Deanna 0x3F
+#undef Natasha //vanilla Natasha is not needed
+#define Natasha 0x40
 #define Celes 0x41
 #define Locke 0x42
 

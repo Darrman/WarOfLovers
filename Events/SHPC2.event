@@ -55,17 +55,17 @@ UNIT HeroDW1 Swordmaster 0x00 Level(15,Ally,0) [2,1] 0x0 0x0 0x0 0x0 [ErdricksSw
 UNIT
 
 ButzLennaFirion:
-UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Runesword, SilverSword, HandAxe, Talisman] NoAI
+UNIT Butz DragonMaster 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Runesword, SilverSword, HandAxe, Talisman] NoAI
 UNIT Lenna Sage_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Ultima, Thoron, Recover, SpiritDust] NoAI
 UNIT
 
 ButzLennaGuy:
-UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [BraveAxe, SilverSword, Tomahawk, EnergyRing] NoAI
+UNIT Butz DragonMaster 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [BraveAxe, SilverSword, Tomahawk, EnergyRing] NoAI
 UNIT Lenna Sage_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Ultima, Thoron, Recover, SpiritDust] NoAI
 UNIT
 
 ButzLennaBritish:
-UNIT Butz Hero 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Hammer, SilverSword, HandAxe, PureWater] NoAI
+UNIT Butz DragonMaster 0x00 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Hammer, SilverSword, HandAxe, PureWater] NoAI
 UNIT Lenna Sage_F 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Ultima, Thoron, Recover, SpiritDust] NoAI
 UNIT
 
@@ -214,9 +214,8 @@ UNIT Alys General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, J
 UNIT
 
 ChazAlysSub:
-UNIT ALIS_SUB_MALE Hero 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [LaconianAxe, SilverSword, HandAxe, SecretBook] NoAI
-UNIT ALIS_SUB_FEMALE General 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [LaconianSword, Javelin, SteelSword, SilverAxe] NoAI
-//PLACEHOLDER: Shining Force reps go here
+UNIT Deanna Swordmaster 0x00 Level(15,Ally,0) [0,12] 0x0 0x0 0x0 0x0 [SilverSword, Lancereaver, Elixir] NoAI
+UNIT Natasha Sage_F 0x00 Level(15,Ally,0) [0,13] 0x0 0x0 0x0 0x0 [Bolganone, Blizzard, Rescue] NoAI
 UNIT
 
 RooksSalahBlackMage:
