@@ -160,6 +160,12 @@ Most of these go unused and are leftover from War of Lovers.
 - Yumiko: Megami Tensei 1 (Darrman)
 - British: Akalabeth (Darrman)
 
+- Necrosaro uses old concept artwork for Dragon Quest 4.
+- Everyone else uses official artwork, a sprite from their game, or ?.
+- Requantisation done by Darrman.
+
+- SigmaRaven SI mug: The Blind Archer
+
 # Animations:
 
 - Marth: Blaze/Abzel, helped in debugging by 2WB

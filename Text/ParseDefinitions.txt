@@ -91,8 +91,8 @@
 [LoadArle] = [LoadFace][0x1B][0x1]
 [LoadBritish] = [LoadFace][0x1C][0x1]
 
-[LoadNarrator] = [LoadFace][0x1][0x1]
-[LoadListener] = [LoadFace][0x1][0x1]
+[LoadNarrator] = [LoadFace][0xFE][0x1]
+[LoadListener] = [LoadFace][0xFD][0x1]
 [LoadPlayer] = [LoadListener]
 [LoadThief] = [LoadFace][0x1D][0x1]
 [LoadGarland] = [LoadFace][0x1E][0x1]
@@ -118,6 +118,7 @@
 [LoadSolo] = [LoadFace][0x01][0x01]
 [LoadHardin] = [LoadFace][0x01][0x01]
 [LoadDarkCloud] = [LoadFace][0x01][0x01]
+[LoadReimu] = [LoadFace][0xFC][0x01]
 
 [LoadMarth] = [LoadFace][0x2][0x1]
 [LoadSheeda] = [LoadFace][0x3][0x1]

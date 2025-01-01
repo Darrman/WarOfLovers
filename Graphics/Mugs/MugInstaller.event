@@ -741,7 +741,7 @@ setMugEntry(0xCE, Red_Mug, 3,5,3,3)
 //
 Kazuya_Mug:
 #incext PortraitFormatter "Kazuya.png"
-setMugEntry(0xCF, Kazuya_Mug, 4,6,4,4)
+setMugEntry(0xD1, Kazuya_Mug, 4,6,4,4)
 //
 //Ryu_Mug:
 //#incext PortraitFormatter "Ryu.png"
@@ -826,6 +826,14 @@ setMugEntry(0xD0, Lenna_Mug, 3,5,3,3)
 Self_Mug:
 #incext PortraitFormatter "SI.png"
 setMugEntry(0xFE, Self_Mug, 4,6,4,4)
+
+Host_Mug:
+#incext PortraitFormatter "SigmaRaven.png"
+setMugEntry(0xFD, Host_Mug, 4,5,4,3)
+
+Reimu_Mug:
+#incext PortraitFormatter "Reimu.png"
+setMugEntry(0xFC, Reimu_Mug, 3,6,3,4)
 //
 //Elise_Mug:
 //#incext PortraitFormatter "Elise.png"

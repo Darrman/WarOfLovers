@@ -39,7 +39,12 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Cecil EirikaMasterLord 0x00 Level(1,Ally,0) [14,28] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [13,29] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
+UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [15,29] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
+UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [17,28] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
+UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [16,27] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
+UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [17,29] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
 UNIT
 
 Bad:
@@ -255,6 +260,7 @@ ALIGN 4
 
 BeginningScene:
 FADU 10
+Text(SHPCNoRealEnding)
 STAL 10
 LOAD1 0x1 FixedUnits
 LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't

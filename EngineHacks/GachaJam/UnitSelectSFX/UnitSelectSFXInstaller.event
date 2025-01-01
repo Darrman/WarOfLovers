@@ -37,16 +37,16 @@ POIN SelectSfxList
 SelectSfxList:
 //Default fire emblem 8 voices, feel free to comment them out if you don't want them
 //POIN EphraimSoundEffect; POIN EirikaSoundEffect
-POIN MarthVoiceEffect; POIN SheedaVoiceEffect; POIN ChikiVoiceEffect
-POIN MarioVoiceEffect; POIN LuigiVoiceEffect; POIN PeachVoiceEffect; POIN BowserVoiceEffect
-POIN DKVoiceEffect; POIN YoshiVoiceEffect; POIN ToadVoiceEffect; POIN WarioVoiceEffect
-POIN DaisyVoiceEffect; POIN WaluigiVoiceEffect
-POIN LinkVoiceEffect; POIN SamusVoiceEffect; POIN KirbyVoiceEffect; POIN FoxVoiceEffect
-POIN PikachuVoiceEffect; POIN FalconVoiceEffect; POIN NessVoiceEffect; POIN JigglypuffVoiceEffect
-POIN RodyVoiceEffect; POIN LilinaVoiceEffect; POIN EliwoodVoiceEffect
-POIN ZeldaVoiceEffect; POIN MarinVoiceEffect; POIN DededeVoiceEffect; POIN MetaKnightVoiceEffect
-POIN FalcoVoiceEffect; POIN PeppyVoiceEffect; POIN SlippyVoiceEffect
-POIN KashimVoiceEffect; POIN SophiaVoiceEffect; POIN BartreVoiceEffect
+//POIN MarthVoiceEffect; POIN SheedaVoiceEffect; POIN ChikiVoiceEffect
+//POIN MarioVoiceEffect; POIN LuigiVoiceEffect; POIN PeachVoiceEffect; POIN BowserVoiceEffect
+//POIN DKVoiceEffect; POIN YoshiVoiceEffect; POIN ToadVoiceEffect; POIN WarioVoiceEffect
+//POIN DaisyVoiceEffect; POIN WaluigiVoiceEffect
+//POIN LinkVoiceEffect; POIN SamusVoiceEffect; POIN KirbyVoiceEffect; POIN FoxVoiceEffect
+//POIN PikachuVoiceEffect; POIN FalconVoiceEffect; POIN NessVoiceEffect; POIN JigglypuffVoiceEffect
+//POIN RodyVoiceEffect; POIN LilinaVoiceEffect; POIN EliwoodVoiceEffect
+//POIN ZeldaVoiceEffect; POIN MarinVoiceEffect; POIN DededeVoiceEffect; POIN MetaKnightVoiceEffect
+//POIN FalcoVoiceEffect; POIN PeppyVoiceEffect; POIN SlippyVoiceEffect
+//POIN KashimVoiceEffect; POIN SophiaVoiceEffect; POIN BartreVoiceEffect
 
 WORD 0//End marker
 //Default fire emblem 8 voices definitions and bins
