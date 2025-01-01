@@ -494,10 +494,10 @@ BYTE 2 //support count
 BYTE 0 0
 
 NakajimaSupports:
-CharacterSupport(Yumiko, Alis, 0, 0, 0, 0, 0)
+CharacterSupport(Yumiko, Alis, Arle, 0, 0, 0, 0)
 SupportBases(50, 0, 0, 0, 0, 0, 0)
-SupportGrowths(2, 1, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+SupportGrowths(2, 1, 1, 0, 0, 0, 0)
+BYTE 3 //support count
 BYTE 0 0
 
 YumikoSupports:
@@ -529,10 +529,10 @@ BYTE 2 //support count
 BYTE 0 0
 
 ArleSupports:
-CharacterSupport(BlackMage, Lloyd, Cristo, 0, 0, 0, 0)
+CharacterSupport(BlackMage, Lloyd, Cristo, Nakajima, 0, 0, 0)
 SupportBases(0, 0, 0, 0, 0, 0, 0)
-SupportGrowths(1, 1, 1, 0, 0, 0, 0)
-BYTE 3 //support count
+SupportGrowths(1, 1, 1, 1, 0, 0, 0)
+BYTE 4 //support count
 BYTE 0 0
 
 BritishSupports:

@@ -28,36 +28,41 @@ CharacterBasedEvents:
 #define YumikoPaired 0xC
 #define AlisPaired 0xD
 #define ArlePaired 0xE
+#define EurekaCleared 0xF
+#define ZandeDoorOpenFlag 0x10
+#define OnionKidFlag 0x11
 //to have a pre-condition, add relevant flag after character 2
 CharacterEvent(MariaPaired,MariaFirionLoversConvo,Maria,Firion)
-CharacterEvent(MariaPaired,MariaGuyLoversConvo,Maria,Guy)
-CharacterEvent(MariaPaired,MariaBritishLoversConvo,Maria,British)
-CharacterEvent(SoldierPaired,SoldierErdrickLoversConvo,SoldierDW3,Erdrick)
+CharacterEvent(MariaPaired,MariaGuyLoversConvo,Maria,Guy,ZandeDoorOpenFlag)
+CharacterEvent(MariaPaired,MariaBritishLoversConvo,Maria,British,EurekaCleared)
+CharacterEvent(SoldierPaired,SoldierErdrickLoversConvo,SoldierDW3,Erdrick,EurekaCleared)
 CharacterEvent(SoldierPaired,SoldierHeroLoversConvo,SoldierDW3,HeroDW1)
-CharacterEvent(SoldierPaired,SoldierFirionLoversConvo,SoldierDW3,Firion)
+CharacterEvent(SoldierPaired,SoldierFirionLoversConvo,SoldierDW3,Firion,ZandeDoorOpenFlag)
 CharacterEvent(AlenaPaired,AlenaCristoLoversConvo,Alena,Cristo)
-CharacterEvent(AlenaPaired,AlenaTaloonLoversConvo,Alena,Taloon)
-CharacterEvent(AlenaPaired,AlenaHeroLoversConvo,Alena,Hero)
+CharacterEvent(AlenaPaired,AlenaTaloonLoversConvo,Alena,Taloon,EurekaBottom)
+CharacterEvent(AlenaPaired,AlenaHeroLoversConvo,Alena,Hero,EurekaBottom)
 CharacterEvent(AlenaPaired,AlenaMarthLoversConvo,Alena,Marth)
-CharacterEvent(AlenaPaired,AlenaErdrickLoversConvo,Alena,Erdrick)
-CharacterEvent(AnaPaired,AnaNintenLoversConvo,Ana,Ninten)
-CharacterEvent(AnaPaired,AnaLloydLoversConvo,Ana,Lloyd)
+CharacterEvent(AlenaPaired,AlenaErdrickLoversConvo,Alena,Erdrick,ZandeDoorOpenFlag)
+CharacterEvent(AnaPaired,AnaNintenLoversConvo,Ana,Ninten,EurekaCleared)
+CharacterEvent(AnaPaired,AnaLloydLoversConvo,Ana,Lloyd,ZandeDoorOpenFlag)
 CharacterEvent(AnaPaired,AnaBlackMageLoversConvo,Ana,BlackMage)
 CharacterEvent(SheedaPaired,SheedaMarthLoversConvo,Sheeda,Marth)
-CharacterEvent(SheedaPaired,SheedaBanutuLoversConvo,Sheeda,Banutu)
-CharacterEvent(SheedaPaired,SheedaGuyLoversConvo,Sheeda,Guy)
+CharacterEvent(SheedaPaired,SheedaBanutuLoversConvo,Sheeda,Banutu,ZandeDoorOpenFlag)
+CharacterEvent(SheedaPaired,SheedaGuyLoversConvo,Sheeda,Guy,EurekaCleared)
 CharacterEvent(SheedaPaired,SheedaTaloonLoversConvo,Sheeda,Taloon)
-CharacterEvent(YumikoPaired,YumikoNakajimaLoversConvo,Yumiko,Nakajima)
+CharacterEvent(YumikoPaired,YumikoNakajimaLoversConvo,Yumiko,Nakajima,EurekaBottom)
 CharacterEvent(YumikoPaired,YumikoBritishLoversConvo,Yumiko,British)
-CharacterEvent(YumikoPaired,YumikoOdinLoversConvo,Yumiko,Odin)
-CharacterEvent(YumikoPaired,YumikoBanutuLoversConvo,Yumiko,Banutu)
-CharacterEvent(AlisPaired,AlisOdinLoversConvo,Alis,Odin)
+CharacterEvent(YumikoPaired,YumikoOdinLoversConvo,Yumiko,Odin,ZandeDoorOpenFlag)
+CharacterEvent(YumikoPaired,YumikoBanutuLoversConvo,Yumiko,Banutu,ZandeDoorOpenFlag)
+CharacterEvent(AlisPaired,AlisOdinLoversConvo,Alis,Odin,EurekaCleared)
 CharacterEvent(AlisPaired,AlisNintenLoversConvo,Alis,Ninten)
-CharacterEvent(AlisPaired,AlisNakajimaLoversConvo,Alis,Nakajima)
-CharacterEvent(AlisPaired,AlisMarthLoversConvo,Alis,Marth)
+CharacterEvent(AlisPaired,AlisNakajimaLoversConvo,Alis,Nakajima,ZandeDoorOpenFlag)
+CharacterEvent(AlisPaired,AlisMarthLoversConvo,Alis,Marth,EurekaCleared)
 CharacterEvent(ArlePaired,ArleBlackMageLoversConvo,Arle,BlackMage)
-CharacterEvent(ArlePaired,ArleLloydLoversConvo,Arle,Lloyd)
-CharacterEvent(ArlePaired,ArleCristoLoversConvo,Arle,Cristo)
+CharacterEvent(ArlePaired,ArleLloydLoversConvo,Arle,Lloyd,EurekaCleared)
+CharacterEvent(ArlePaired,ArleCristoLoversConvo,Arle,Cristo,ZandeDoorOpenFlag)
+CharacterEvent(ArlePaired,ArleNakajimaLoversConvo,Arle,Nakajima,EurekaCleared)
+CharacterEvent(OnionKidFlag,PayingOnionKidOff,0,OnionKid)
 
 END_MAIN
 
@@ -74,8 +79,8 @@ Chest(Barrier,1,34)
 Chest(KillerAxe,8,11)
 Chest(HandAxe,8,8)
 Chest(Elixir,1,5)
-//the door to Zande's room is going to have an event, but this will do for now
-Door(5,5)
+//Door to Zande
+LOCA ZandeDoorOpenFlag ZandeDoorOpen [5,5] 0x12
 //Stairs
 Stairs(1,5,36,5,28)
 Stairs(2,5,34,5,26)
@@ -131,7 +136,7 @@ UNIT British Warrior 0x00 Level(15,Ally,0) [18,0] 0x0 0x0 0x0 [KillerBow, Hammer
 UNIT
 
 Bad:
-UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone] NeverMoveAI
+UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone, Dragonshield] NeverMoveAI
 UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
 UNIT Ch1Generic Wight_Bow 0x00 Level(5,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
@@ -144,6 +149,7 @@ UNIT Ch1Generic Deathgoyle 0x00 Level(9,Enemy,1) [18,27] 0x0 0x0 0x0 0x0 [Spear]
 UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [21,31] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
 UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [15,33] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
 UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [18,36] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT Lucifer DemonKing 0x00 Level(20,Enemy,0) [5,36] 0x0 0x0 0x0 0x0 [DemonLight] NeverMoveAI
 UNIT
 
 EurekaBottom:
@@ -155,6 +161,21 @@ UNIT Mondain Druid 0x00 Level(20,Enemy,0) [20,38] DropItem 0x0 0x0 0x0 [Fenrir, 
 UNIT 
 
 Bad2:
+UNIT Emperor General 0x00 Level(20,Enemy,0) [5,12] DropItem 0x0 0x0 0x0 [Gradius] NeverMoveAI
+UNIT Lassic Sniper 0x00 Level(20,Enemy,0) [5,18] DropItem 0x0 0x0 0x0 [MegidoFire] PursueWithoutHeedAI
+UNIT Ch1Generic Warrior 0x00 Level(15,Enemy,1) [5,6] 0x0 0x0 0x0 0x0 [SilverAxe, DoorKey] AttackInRangeAI
+UNIT Ch1Generic DukeKnight 0x00 Level(15,Enemy,1) [9,47] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Ch1Generic DukeKnight 0x00 Level(15,Enemy,1) [10,46] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Ch1Generic DukeKnight 0x00 Level(15,Enemy,1) [9,45] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [2,38] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
+UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [8,38] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
+UNIT Ch1Generic Druid 0x00 Level(7,Enemy,1) [3,31] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT Ch1Generic Assassin 0x00 Level(11,Enemy,1) [8,21] 0x0 0x0 0x0 0x0 [Lancereaver] AttackInRangeAI
+UNIT Ch1Generic Gorgon 0x00 Level(11,Enemy,1) [5,38] 0x0 0x0 0x0 0x0 [DemonSurge] AttackInRangeAI
+UNIT Ch1Generic Sage 0x00 Level(11,Enemy,1) [5,34] 0x0 0x0 0x0 0x0 [Blizzard] AttackInRangeAI
+UNIT Ch1Generic Gorgon 0x00 Level(11,Enemy,1) [1,17] 0x0 0x0 0x0 0x0 [DemonSurge] AttackInRangeAI
+UNIT Ch1Generic Gorgon 0x00 Level(11,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [DemonSurge] AttackInRangeAI
+UNIT Ch1Generic DracoZombie 0x00 Level(11,Enemy,1) [5,38] 0x0 0x0 0x0 0x0 [WretchedAir] AttackInRangeAI
 UNIT
 
 Traps1:
@@ -280,6 +301,7 @@ FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+LOAD1 0x1 EurekaBottom
 CAM1 [0,0]
 FADU 10
 STAL 20
@@ -355,10 +377,65 @@ WM_SETNEXTLOCATION 0 0 1 //Needed for world map narration.
 MNCH 0xD
 ENDA
 
+AfterBattlePrep:
+Text(SHPCAfterPrepGen1)
+NoFade
 ENDA
 
-AfterBattlePrep:
-Text(PlaceholderText)
+T1Enemy:
+Text(SHPCMediuthBlocksResurrection)
+NoFade
+ENDA
+
+ReachingMinh:
+MUSC M_Coneria
+Text(SHPCAtEurekaBottom)
+CAM1 Zande
+MUSC M_ImperialArmy
+Text(SHPCEPAfterEurekaSeized)
+LOAD1 0x1 Bad2
+NoFade
+ENDA
+
+PayingOnionKidOff:
+//Hiring Caesar - idea for later patch: secret event where Citrinne buys him off
+//MUSC M_Conspiracy
+TEXTSTART
+TEXTSHOW SHPCOnionKidQuestion
+TEXTEND
+SVAL s1 65500
+CHECK_MONEY
+BGT 20110 s1 sC //no shortcut
+TEXTSTART
+TEXTSHOW SHPCOnionKidYesNo
+TEXTEND
+REMA
+SVAL s7 1 //it's how VBA Ch24 does it, I'm stealing the conditional from there
+BNE 20111 s7 sC
+SVAL s3 65500
+TAKEMONEY
+TILECHANGE 8 //the wall splitting the dungeons
+//MUSC M_TogetherWeRide
+GOTO 20112
+LABEL 20111
+Text(SHPCOnionKidNo)
+ENUF OnionKidFlag
+GOTO 20112
+LABEL 20110
+REMA
+Text(SHPCOnionKidNo)
+ENUF OnionKidFlag
+LABEL 20112
+NoFade
+ENDA
+
+ZandeDoorOpen:
+TILECHANGE 15
+MUSC M_ImperialArmy
+Text(SHPCDemonDragons)
+MUSC M_AirshipInvincible
+Text(SHPCSweatingAssets)
+Text(SHPCZandeBattleBegins)
 NoFade
 ENDA
 
@@ -619,6 +696,15 @@ MUSC M_ThemeOfLove //at least for now
 ENUT ArleCristoPaired
 Text(SHPCArleCristo)
 SetSupport(Arle,Cristo,ASupport) //test before you properly set things up
+//POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
+NoFade
+ENDA
+
+ArleNakajimaLoversConvo:
+MUSC M_ThemeOfLove //at least for now
+ENUT ArleNakajimaPaired
+Text(SHPCArleNakajima)
+SetSupport(Arle,Nakajima,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
 ENDA
