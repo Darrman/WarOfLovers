@@ -43,10 +43,11 @@ UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [Silver
 UNIT
 
 Bad:
+UNIT Chaos DemonKing 0x00 Level(20,Enemy,0) [40,6] 0x0 0x0 0x0 0x0 [DemonLight, Ravager] NeverMoveAI
 UNIT
 
 FixedUnits:
-UNIT Cecil Paladin 0x00 Level(15,Ally,0) [0,1] 0x0 0x0 0x0 0x0 [Masamune, BraveSword, Spear, Dragonshield] NoAI
+UNIT Cecil Paladin 0x00 Level(15,Ally,0) [14,28] 0x0 0x0 0x0 0x0 [Masamune, BraveSword, Spear, Dragonshield] NoAI
 UNIT Rosa Bishop_F 0x00 Level(15,Ally,0) [1,1] 0x0 0x0 0x0 0x0 [Aura, SetsLitany, Fortify, SilverBow] NoAI
 UNIT
 
@@ -142,6 +143,7 @@ UNIT
 NessPaulaSub:
 UNIT Red Paladin 0x00 Level(15,Ally,0) [0,6] 0x0 0x0 0x0 0x0 [SilverSword, ShortSpear, Elixir] NoAI
 UNIT Erika Dancer 0x00 Level(15,Ally,0) [0,7] 0x0 0x0 0x0 0x0 [Recover, NinissGrace, Elixir] NoAI
+UNIT
 
 CamusChikiMarth:
 UNIT Camus Paladin 0x00 Level(15,Ally,0) [0,8] 0x0 0x0 0x0 0x0 [Horseslayer, SilverLance, IotesShield, Spear] NoAI
@@ -252,6 +254,8 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+FADU 10
+STAL 10
 LOAD1 0x1 FixedUnits
 LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't
 //Pairing check: Maria
@@ -455,7 +459,7 @@ ASMC ASMC_LearnNewSkill|1
 SVAL s2 Chiki
 ASMC ASMC_LearnNewSkill|1
 GOTO 2023
-LABEL 2021
+LABEL 2022
 //Sheeda dying means bad ending! Or subs, anyway
 LOAD1 0x1 CamusChikiSub
 LABEL 2023
@@ -493,7 +497,7 @@ ASMC ASMC_LearnNewSkill|1
 GOTO 2028
 LABEL 2026
 CHECK_EVENTID YumikoBanutuPaired
-BEQ 2024 s0 sC
+BEQ 2027 s0 sC
 LOAD1 0x1 AlephHirokoNakajima
 //no skill to pass down
 //SVAL s1 SummonID

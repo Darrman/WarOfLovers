@@ -20,18 +20,17 @@ Defend[X]
 Escape[X]
 
 ## Ch1Name
-Ch. 1: Return to Akaneia[X]
+Gen. 1: Chaotic Evolution[X]
 
 ## Ch1Goal
-Escape Warren by[N]
-killing the boss[X]
+Defeat Zande at[N]
+Sylx's summit[X]
 
 ## Ch2Name
-Ch. 2: Through Lefcandy[X]
+Gen. 2: Return to Sender[X]
 
 ## Ch2Goal
-Seize the village[N]
-in the mountains[X]
+(Unfinished)[X]
 
 ## Ch3Name
 Ch. 3: Persistent Bandits[X]

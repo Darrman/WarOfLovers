@@ -452,3 +452,12 @@ this one out... for... ever.[A][CloseEyes][X]
 [Right][LoadSlippy]
 Somebody! Anybody! Help me![N]
 Aaaaah![A][CloseEyes][X]
+
+## ZandeDeath
+[Right][LoadZande]
+So, you have defeated me.[N]
+But a power stronger[AN]
+than any darkness will[N]
+soon be unleashed...[AN]
+The Secret of Evolution[N]
+cannot be stopped...[A][X]

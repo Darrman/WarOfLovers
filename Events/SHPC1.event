@@ -94,6 +94,7 @@ END_MAIN
 MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatBoss(EndingScene)
+AREA EurekaCleared ReachingMinh [14,41] [22,46]
 END_MAIN
 
 Dunno1:
@@ -300,7 +301,7 @@ Text(SHPCOpeningEvenOhmIsDubious)
 FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
-LOAD1 0x1 Bad2
+//LOAD1 0x1 Bad2
 LOAD1 0x1 EurekaBottom
 CAM1 [0,0]
 FADU 10
@@ -317,6 +318,7 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+SET_ACTIVE 0 //should stop boss killer from running in place
 MUSC M_Coneria
 Text(SHPCSylxSeized)
 MUSC M_EternalWind
@@ -344,9 +346,79 @@ Text(SHPCFinalBreakdown)
 MUSC M_DarkCloud
 Text(SHPCTheCloudArrives)
 //And then she kills them all! End of Chapter!
+KILL FighterFF1
+AWAIT_KILL FighterFF1
+STAL 10
+KILL WhiteMage
+AWAIT_KILL WhiteMage
+STAL 10
+KILL BlackMage
+AWAIT_KILL BlackMage
+STAL 10
+KILL Erdrick
+AWAIT_KILL Erdrick
+STAL 10
+KILL SoldierDW3
+AWAIT_KILL SoldierDW3
+STAL 10
+KILL Alena
+AWAIT_KILL Alena
+STAL 10
+KILL Cristo
+AWAIT_KILL Cristo
+STAL 10
+KILL Taloon
+AWAIT_KILL Taloon
+STAL 10
+KILL Ninten
+AWAIT_KILL Ninten
+STAL 10
+KILL Ana
+AWAIT_KILL Ana
+STAL 10
+KILL Lloyd
+AWAIT_KILL Lloyd
+STAL 10
+KILL Marth
+AWAIT_KILL Marth
+STAL 10
+KILL Sheeda
+AWAIT_KILL Sheeda
+STAL 10
+KILL Banutu
+AWAIT_KILL Banutu
+STAL 10
+KILL Alis
+AWAIT_KILL Alis
+STAL 10
+KILL Odin
+AWAIT_KILL Odin
+STAL 10
+KILL Firion
+AWAIT_KILL Firion
+STAL 10
+KILL Maria
+AWAIT_KILL Maria
+STAL 10
+KILL Guy
+AWAIT_KILL Guy
+STAL 10
+KILL Nakajima
+AWAIT_KILL Nakajima
+STAL 10
+KILL Yumiko
+AWAIT_KILL Yumiko
+STAL 10
+KILL Arle
+AWAIT_KILL Arle
+STAL 10
+KILL British
+AWAIT_KILL British
+STAL 10
+
 MUSC M_Requiem
 SetBackground(CGBlackScreen)
-SVAL 0xB 0x00FF0080
+SVAL 0xB 0xFFFFFFFF
 //Ideal is float high enough that portraits can show
 SOLOTEXTBOXSTART
 TEXTSHOW SHPCPostBarhara
@@ -379,6 +451,8 @@ ENDA
 
 AfterBattlePrep:
 Text(SHPCAfterPrepGen1)
+DISABLEOPTIONS 000001000000000b
+//no trading: it's FE4!
 NoFade
 ENDA
 
@@ -394,6 +468,7 @@ CAM1 Zande
 MUSC M_ImperialArmy
 Text(SHPCEPAfterEurekaSeized)
 LOAD1 0x1 Bad2
+CALL SavePointRoutine
 NoFade
 ENDA
 
@@ -436,6 +511,7 @@ Text(SHPCDemonDragons)
 MUSC M_AirshipInvincible
 Text(SHPCSweatingAssets)
 Text(SHPCZandeBattleBegins)
+CALL SavePointRoutine
 NoFade
 ENDA
 

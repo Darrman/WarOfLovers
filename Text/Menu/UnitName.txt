@@ -2196,3 +2196,11 @@ Onion Kid[X]
 One of four Light Warriors who[N]
 saved the world from Zande[N]
 originally. No longer fighting.[X]
+
+## FishName
+The Fish[X]
+
+## FishDesc
+A fish living in Magicant.[N]
+Guards the Onyx Hook, which[N]
+allows its user to return.[X]

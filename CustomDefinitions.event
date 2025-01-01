@@ -40,7 +40,7 @@
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
-#define __DEBUG__ // Uncomment to get the Debug startup menu :p
+//#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 //Leaving War of Lovers definitions alone.
 //Will reuse several of them anyway.

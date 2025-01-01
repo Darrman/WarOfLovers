@@ -2546,19 +2546,23 @@ the Abyss: that's my realm![AN]
 Do you care for the rule of chaos[N]
 at all? Or do you support law?[AN]
 //EMPEROR:
+[Right]
 Yes, the law! The only law is my[N]
 law! Everything must bend the[AN]
 knee to me! I ruled earth. I[N]
 ruled hell. Why not... heaven?[AN]
 //LUCIFER:
+[Left]
 I have no evidence... but I think[N]
-you've your lot with the angels![A]
+you've your lot with the angels![AN]
 //ZANDE:
+[FL]
 Enough! When we crush those threats,[N]
 we can ask Chaos about his thoughts[AN]
 later. You two will guard the tower[N]
 along with me. Necrosaro, report?[AN]
 //NECROSARO:
+[FR]
 We're testing some evolution in[N]
 the Dark World right now.[AN]
 Early indications appear to be[N]
@@ -2566,16 +2570,20 @@ going excellently.[AN]
 Everyone chosen for the first[N]
 wave is in the Dark World.[AN]
 //ZANDE:
+[FL]
 Excellent. Now, shall we show[N]
 these humans our might?[A][X]
 
 ## SHPCDemonDragons
+[FL][LoadMinh][Left][LoadFighter][MR][LoadZande]
+[Left]
 //FIGHTER:
 This is it: the final room.[N]
 Chaos must be hiding here...[AN]
 //Looks like there's five dragons.
 //Zande is hiding behind them.
 //ZANDE:
+[MR]
 You've defeated many of us,[N]
 Fighter. But Chaos isn't here.[AN]
 You won't be able to kill him.[N]
@@ -2585,6 +2593,7 @@ their next meal is extra-large.[AN]
 Five people per dragon... [N]
 You're all frozen solid...[AN]
 //MINH:
+[FL]
 Fighter! I must find more allies[N]
 in order to hold off the dragons.[AN]
 Everyone, think of a friend,[N]
@@ -2593,6 +2602,7 @@ and I will try to summon them![A][X]
 ## SHPCSweatingAssets
 //Let's mention every chapter, but some turn up blank
 //MINH:
+[ML][LoadMinh]
 Thief, Thief, Thief...[N]
 Where is he hiding?[AN]
 He must have vanished[N]
@@ -2604,16 +2614,20 @@ trust him.[AN]
 //Scene transition: chapter 2
 To Alefgard, then.[N]
 Priest or Wizard...[AN]
+[MR][LoadPriest]
 //PRIEST:
 Huh? Who are you?[N]
 Do you need my help?[AN]
+[ML]
 //MINH:
 No time to explain,[N]
 Erdrick needs you![AN]
+[MR]
 //PRIEST:
 Really? Please, take[N]
 me to him![A]
 //Clear faces, chapter 3
+[Clear][ML]
 //MINH:
 So this is America?[N]
 I planned a visit,[AN]
@@ -2622,16 +2636,20 @@ got cancelled.[AN]
 Now, which state does[N]
 Teddy call home...[AN]
 //TEDDY:
+[MR][LoadTeddy]
 That's me. Welcome to[N]
 Ellay. What do ya want?[AN]
 //MINH:
+[ML]
 Excellent. Ninten said[N]
 you were strong.[AN]
 //TEDDY:
+[MR]
 Well if he needs my help,[N]
-then he's got my help.[AN]
+then he's got my help.[AN][Clear]
 //Scene transition: chapter 4
 //MINH:
+[ML]
 Akaneia. If Hardin is[N]
 wearing his turban,[AN]
 he's safe, but if not,[N]
@@ -2639,20 +2657,25 @@ I should get Oguma...[AN]
 Ah, just like me, a man[N]
 wearing a turban.[AN]
 //HARDIN:
+[MR][LoadHardin]
 I am Prince Hardin of[N]
 Orleans. State your name.[AN]
 //MINH:
+[ML]
 I'm Minh. Marth was seeking[N]
 your strength in a battle.[AN]
 //HARDIN:
+[MR]
 Without him, the war effort[N]
 was faltering. Yes, I'll help.[AN]
+[Clear]
 //Chapter 5: grab a demon
 //Either the best demon or Cerberus
 //Could fail so you have to kill one dragon
 //Write later
 //excuse to get all Nintendo-era Dragon Warrior heroes in
 //MINH:
+[ML]
 This feels unbalanced, but[N]
 perhaps a second may be[AN]
 necessary... Where is[N]
@@ -2660,29 +2683,36 @@ the hero Solo? Such a[AN]
 name doesn't suggest[N]
 good leadership skills...[AN]
 //SOLO:
+[MR][LoadSolo]
 What are you saying about[N]
 my leadership skills?![AN]
 //MINH:
+[ML]
 Oh, Alena and Taloon rate[N]
 them excellently, and[AN]
 they currently need your[N]
 help urgently.[AN]
 //SOLO:
+[MR]
 We were all scattered, so[N]
 please, reunite us.[A][X]
 
 ## SHPCZandeBattleBegins
+[FL][LoadMinh][Left][LoadFighter][MR][LoadZande]
+[FL]
 //MINH:
 I did my best. I cannot[N]
 aid you in combat, but[AN]
 the Demon Dragons are[N]
 now distracted.[AN]
 //FIGHTER:
+[Left]
 Zande! You are an obstacle to[N]
 peace in the world.[AN]
 This is the end for you,[N]
 and everyone else with Chaos![AN]
 //ZANDE:
+[MR]
 Don't be so sure! First, I[N]
 will use Scan on you all...[A][X]
 
@@ -3399,3 +3429,10 @@ remains to stand against them?[A][2NL]
 And so, the guard changes...[N]
 Time flows onwards, unabated...[N]
 Perhaps hope lies in darkness...[A][X]
+
+## SHPCWM2
+The Dark Cloud killed almost[N]
+everyone. Evil secured its[AN]
+hold on the world. Our next[N]
+stop is at the Kingdom of Baron...[A][X]
+
