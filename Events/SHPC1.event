@@ -129,7 +129,7 @@ UNIT Alis General 0x00 Level(15,Ally,0) [16,0] 0x0 0x0 0x0 0x0 [LaconianSword, J
 UNIT Odin Warrior Alis Level(15,Ally,0) [15,0] 0x0 0x0 0x0 0x0 [LaconianAxe, SilverBow, SteelAxe] NoAI
 UNIT Marth Swordmaster 0x00 Level(15,Ally,0) [15,3] 0x0 0x0 0x0 [Wyrmslayer, Rapier, Lockpick] NoAI
 UNIT Sheeda FalcoKnight Marth Level(15,Ally,0) [14,2] 0x0 0x0 0x0 0x0 [Horseslayer, IotesShield, SilverLance] NoAI
-UNIT Banutu Mamkute Marth Level(15,Ally,0) [16,2] 0x0 0x0 0x0 0x0 [DivineStone/*PLACEHOLDER for Fire Stone*/, Boots, ThorsIre] NoAI
+UNIT Banutu Manakete_2 Marth Level(15,Ally,0) [16,2] 0x0 0x0 0x0 0x0 [DivineStone/*PLACEHOLDER for Fire Stone*/, Boots, ThorsIre] NoAI
 UNIT Nakajima Rogue 0x00 Level(15,Ally,0) [21,1] 0x0 0x0 0x0 0x0 [Armourslayer, WindSword, ShadowKiller] NoAI
 UNIT Yumiko Bishop_F 0x00 Level(15,Ally,0) [23,1] 0x0 0x0 0x0 0x0 [Restore, Recover, FillasMight] NoAI
 UNIT Arle Sage_F 0x00 Level(15,Ally,0) [22,0] 0x0 0x0 0x0 0x0 [Blizzard, Thoron, SpiritDust] NoAI
