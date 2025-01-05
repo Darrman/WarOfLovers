@@ -61,7 +61,7 @@ TileConfigPointerTable(FieldsTileConfig, 0x1AB69C) //03
 TileConfigPointerTable(VillageTileConfig, 0x1AA140) //10
 
 #define CastleTileConfig 0x1a
-TileConfigPointerTable(CastleTileConfig, 0x1A8CCC) //1A
+TileConfigPointerTable(CastleTileConfig, CastleTiles) //1A
 
 #define PlainsTileConfig 0x30
 TileConfigPointerTable(PlainsTileConfig, 0x1A7674) //30
@@ -303,6 +303,10 @@ FE6CastleOstiaPalette:
 ALIGN 4
 FE6CastlePheraePalette:
 #incbin "../../../Maps/Tilesets/FE6CastlePheraePalette.dmp"
+
+ALIGN 4
+CastleTiles:
+#incext compress "../../../Maps/Tilesets/CastleRoofTile.mapchip_config"
 
 // ------------------------------- MAP ------------------------------------
 

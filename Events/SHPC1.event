@@ -137,7 +137,6 @@ UNIT British Warrior 0x00 Level(15,Ally,0) [18,0] 0x0 0x0 0x0 [KillerBow, Hammer
 UNIT
 
 Bad:
-UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone, Dragonshield] NeverMoveAI
 UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [18,8] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT Ch1Generic Wight 0x00 Level(5,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
 UNIT Ch1Generic Wight_Bow 0x00 Level(5,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
@@ -160,6 +159,11 @@ UNIT Ch1Generic General 0x00 Level(15,Enemy,1) [19,40] 0x0 0x0 0x0 0x0 [Tomahawk
 UNIT Zemsel DracoZombie 0x00 Level(20,Enemy,0) [16,38] DropItem 0x0 0x0 0x0 [WretchedAir, Falchion] NeverMoveAI //any late FE1 boss
 UNIT Mondain Druid 0x00 Level(20,Enemy,0) [20,38] DropItem 0x0 0x0 0x0 [Fenrir, Fortify, Elixir] NeverMoveAI //Mondain?
 UNIT 
+
+ZandeThroneRoom:
+UNIT Zande Druid 0x00 Level(20,Enemy,0) [5,1] 0x0 0x0 0x0 0x0 [Meteor, Bolganone, Dragonshield] NeverMoveAI
+UNIT Ch1Generic DracoZombie 0x00 Level(20,Enemy,1) [5,3] 0x0 0x0 0x0 0x0 [WretchedAir] PursueWithoutHeedAI
+UNIT
 
 Bad2:
 UNIT Emperor General 0x00 Level(20,Enemy,0) [5,12] DropItem 0x0 0x0 0x0 [Gradius] NeverMoveAI
@@ -302,6 +306,7 @@ FADI 10
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 //LOAD1 0x1 Bad2
+LOAD1 0x1 ZandeThroneRoom
 LOAD1 0x1 EurekaBottom
 CAM1 [0,0]
 FADU 10
