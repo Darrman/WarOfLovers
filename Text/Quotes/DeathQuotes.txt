@@ -454,10 +454,221 @@ Somebody! Anybody! Help me![N]
 Aaaaah![A][CloseEyes][X]
 
 ## ZandeDeath
-[Right][LoadZande]
+[Left][LoadZande]
 So, you have defeated me.[N]
 But a power stronger[AN]
 than any darkness will[N]
 soon be unleashed...[AN]
 The Secret of Evolution[N]
 cannot be stopped...[A][X]
+
+## ChaosDeath
+[Left][LoadChaos]
+Not again! If you kill me[N]
+now, the time loops will[AN]
+break... You'll all be[N]
+stranded right here![A][X]
+
+## ZomaDeath
+[Left][LoadZoma]
+Accursed heroes! You may[N]
+have brought light now...[AN]
+but my descendants shall[N]
+continue my legacy![AN][X]
+
+## DragonlordDeath
+[Left][LoadDragonlord]
+Thou... art strong. The[N]
+world is thine to do...[AN]
+as thou sees fit. Hast[N]
+thou... evolved further?[AN][X]
+
+## EmperorDeath
+[Left][LoadEmperor]
+Ha ha ha... Death is but a[N]
+trifle for me. The after-[AN]
+life is ripe for conquest.[N]
+Maybe I'll see you there![A][X]
+
+## MediuthDeath
+[Left][LoadMediuth]
+STUPID HUMANS...[N]
+DARKNESS IN THE HEARTS[N]
+OF MAN IS ETERNAL...[AN]
+YOU MAY HAVE DESTROYED[N]
+THE DURHUAN EMPIRE...[AN]
+BUT TRUE PEACE IS AN[N]
+IMPOSSIBLE DREAM...[A][X]
+
+## NecrosaroDeath
+[Left][LoadNecrosaro]
+GRARGH! Rosa... I'm...[N]
+coming...[A][X]
+
+## LassicDeath
+[Left][LoadLassic]
+My reign... My empire...[N]
+It's all... crumbling...[AN]
+Why did I join this big[N]
+scheme? It killed me![A][X]
+
+## GiegueDeath
+[Left][LoadGiegue]
+Despite everything I've[N]
+done to change things,[AN]
+the humans have me undone.[N]
+Why do I hear... music?[AN]
+M-Maria? Why am I seeing[N]
+you now? Leave me...[A][X]
+
+## LuciferDeath
+[Left][LoadLucifer]
+So, you've made your[N]
+choice. Whether or[AN]
+not you serve law or[N]
+neutrality...[AN]
+Beware of God... and[N]
+of his plans...[A][X]
+
+## FishDeath
+[Left][LoadFish]
+The treasure I'm guarding[N]
+is yours. Well done.[A][X]
+
+## LichDeath
+[Left][LoadLich]
+I am one of the Four[N]
+Fiends! How?[AN]
+How did you survive[N]
+my magic?[AN][X]
+
+## ZemselDeath
+[Left][LoadZemsel]
+Lord Mediuth...[N]
+Please forgive me...[A][X]
+
+## MondainDeath
+[Left][LoadMondain]
+Wait... Where's my[N]
+Gem of Immortality?![AN]
+I... must have lost[N]
+it... Nooooo![A][X]
+
+## FighterDeath
+[Right][LoadFighter]
+I have so much to do...[N]
+Unfinished business...[A][X]
+
+## WhiteMageDeath
+[Right][LoadWhiteMage]
+There's no curing this[N]
+wound. Goodbye...[A][X]
+
+## BlackMageDeath
+[Right][LoadBlackMage]
+I'm burning away! It's[N]
+all over for me![A][X]
+
+## FirionDeath
+[Right][LoadFirion]
+Ouch... I got hit...[N]
+I feel faint...[A][X]
+
+## MariaDeath
+[Right][LoadMaria]
+Failure... I've been[N]
+defeated... No...[A][X]
+
+## GuyDeath
+[Right][LoadGuy]
+Not strong enough...[N]
+I'm... bleeding out...[A][X]
+
+## HeroDeath
+[Right][LoadHero]
+My final breath... Thou[N]
+must... prevail...[A][X]
+
+## ErdrickDeath
+[Right][LoadErdrick]
+I've done all I could do,[N]
+and it just wasn't enough.[A][X]
+
+## SoldierDeath
+[Right][LoadSoldier]
+I was too weak. I could[N]
+not do my job.[A][X]
+
+## AlenaDeath
+[Right][LoadAlena]
+But if I die here, then...[N]
+Everyone, I'm sorry...[A][X]
+
+## CristoDeath
+[Right][LoadCristo]
+So, death has caught up[N]
+to me. It was an honour.[A][X]
+
+## TaloonDeath
+[Right][LoadTaloon]
+Oh, I never did get to[N]
+writing my will...[A][X]
+
+## NintenDeath
+[Right][LoadNinten]
+I can't go on... What...[N]
+What's that light?[A][X]
+
+## AnaDeath
+[Right][LoadAna]
+So strong... I can't cope[N]
+for any longer...[A][X]
+
+## LloydDeath
+[Right][LoadLloyd]
+I can't think my way out[N]
+of this problem...[A][X]
+
+## AlisDeath
+[Right][LoadAlis]
+Nero, I can't avenge you...[N]
+I couldn't do it...[A][X]
+
+## OdinDeath
+[Right][LoadOdin]
+Grr... I can't die here...[N]
+No! Gah![A][X]
+
+## NakajimaDeath
+[Right][LoadNakajima]
+Without me, the demons[N]
+are going to run wild...[A][X]
+
+## YumikoDeath
+[Right][LoadYumiko]
+Help! I'm going to die[N]
+here without help...[A][X]
+
+## ArleDeath
+[Right][LoadArle]
+Just my luck: I've lost![N]
+What a way to go out...[A][X]
+
+## BritishDeath
+[Right][LoadBritish]
+But... I am invincible.[N]
+How could I be... dying?[A][X]
+
+## BanutuDeath
+[Right][LoadBanutu]
+Chiki... Forgive me.[A][X]
+
+## MarthDeathJam
+[Right][LoadMarth]
+No... How could I die?[N]
+Forgive me, my friends...[A][X]
+
+## SheedaDeathJam
+[Right][LoadSheeda]
+What? I didn't think[N]
+of this... Goodbye...[A][X]

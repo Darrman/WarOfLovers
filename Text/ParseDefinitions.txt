@@ -118,6 +118,10 @@
 [LoadSolo] = [LoadFace][0x01][0x01]
 [LoadHardin] = [LoadFace][0x01][0x01]
 [LoadDarkCloud] = [LoadFace][0x01][0x01]
+[LoadFish] = [LoadFace][0x01][0x01]
+[LoadLich] = [LoadFace][0x01][0x01]
+[LoadZemsel] = [LoadFace][0x01][0x01]
+[LoadMondain] = [LoadFace][0x01][0x01]
 [LoadReimu] = [LoadFace][0xFC][0x01]
 
 [LoadMarth] = [LoadFace][0x2][0x1]
