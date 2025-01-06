@@ -775,7 +775,7 @@
 #define YumikoBanutuPaired 0x8D //some demon logic
 #define AlisOdinPaired 0x87 //now in space!
 #define AlisNintenPaired 0x88 //burgers!
-#define AlisNakajimaPaired 0x89 //technology!
+#define AlisNakajimaPaired 0x93 //technology! formerly 0x89, which sets itself
 #define AlisMarthPaired 0x8E //my poor canon
 #define ArleBlackMagePaired 0x8A //both mages
 #define ArleLloydPaired 0x8B //smart guys like puzzles

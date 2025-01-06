@@ -2,7 +2,7 @@ WorldMapPointerTable(1,WM_Events)
 
 WM_Events:
 BeginWorldMap
-MUSC M_ANewJourney
+MUSC M_Prelude
 STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(SHPCWM2)

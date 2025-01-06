@@ -238,13 +238,13 @@ MUSC M_OverworldFF1 //ideally Alefgard overworld
 Text(Riverside,SHPCInAlefgard)
 //More earthquakes!
 Text(SHPCFastForwardToCh5)
+MUSC M_EternalWind
 SetBackground(CGCh2)
 STAL 180
 CALL $9EE2C4
 //"Chapter 2" - Dragon Quest
 //There's no DQ music so just steal relevant FF tracks
 //BG: By the volcano Ortega fell into
-MUSC M_EternalWind
 Text(Volcano,SHPCTimeTravelToDQ3)
 Text(Volcano,SHPCMeetingYourDescendants)
 //BG: Necrogond entrance
@@ -258,12 +258,12 @@ Text(Fort_Ruins_Outside,SHPCButThouMustHelp)
 Text(Fort_Ruins_Outside,SHPCFightingBaramos)
 //Hey, this isn't Alefgard!
 Text(SHPCEndOfCh2)
+MUSC M_Pollyanna //ideally Duncan's Factory
 SetBackground(CGCh3)
 STAL 180
 CALL $9EE2C4
 //"Chapter 3" - Earthbound
 //BG: Duncan's Factory
-MUSC M_Pollyanna //ideally Duncan's Factory
 Text(Castle_Hall_3_Night,SHPCLostInDuncansFactory)
 MUSC M_TryOut
 Text(Castle_Hall_3_Night,SHPCSegaInterlude)
@@ -272,13 +272,13 @@ Text(Castle_Hall_3_Night,SHPCFireTheRocket)
 //Scripted battle: Ana vs. Odin
 //Oh shoot, we botched the escape.
 Text(SHPCEndOfCh3)
+MUSC M_WarOfDarkness //cheating a bit here, this is SNES music!
 SetBackground(CGCh4)
 STAL 180
 CALL $9EE2C4
 
 //"Chapter 4" - Fire Emblem
 //BG: FE1 Chapter 20
-MUSC M_WarOfDarkness //cheating a bit here, this is SNES music!
 Text(Plain_Evening,SHPCRevisitingAkaneia)
 MUSC M_CombatMission
 Text(Plain_Evening,SHPCTheNatureOfTheCamus)
@@ -289,16 +289,17 @@ MUSC M_LegendOfTheDivineDragonMusicBox
 Text(Plain_Evening,SHPCBanutuStoryTime)
 //Did Marth get Grunia to stand down? That's been abridged out.
 Text(SHPCEndOfCh4)
+MUSC M_RottingSeaOfFlames
 SetBackground(CGCh5)
 STAL 180
 CALL $9EE2C4
 
 //"Chapter 5" - Megami Tensei
 //BG: Rotting Sea of Flames
-MUSC M_RottingSeaOfFlames
 Text(Volcano,SHPCLostInAMaze)
 //You think we have time to show Seth?
 Text(SHPCNoMoreAbridging)
+MUSC M_ImperialArmy
 SetBackground(CGCh6)
 STAL 180
 CALL $9EE2C4
@@ -308,7 +309,6 @@ STAL 10
 LOMA 0 //actual chapter here
 //BG: Sylx Tower overworld
 //Then switch to an interior shot
-MUSC M_ImperialArmy
 Text(Castle_Room,SHPCOpeningTowerPlotting)
 //Use the overworld shot, then cut to map
 MUSC M_EternalWind
