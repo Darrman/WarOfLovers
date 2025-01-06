@@ -2543,7 +2543,7 @@ Go do something about it![A]
 [Left]
 //LUCIFER:
 I'm not one inclined to heed orders.[N]
-And last I checked, your Pandemonium[AN]
+Emperor, your Pandemonium[AN]
 stunt took quite a fair bit out of[N]
 the Abyss: that's my realm![AN]
 Do you care for the rule of chaos[N]

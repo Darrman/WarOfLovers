@@ -2,7 +2,7 @@
 Falchion[X]
 
 ## FalchionDesc
-Sword of Light. Marth, eff. dragons.[X]
+Sword of Light. Kills dragons.[X]
 
 ## MiracleSwordName
 Miracle Sword[X]

@@ -96,6 +96,7 @@ MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatBoss(EndingScene)
 AREA EurekaCleared ReachingMinh [14,41] [22,46]
+AFEV 0x13 EarlyLuciferFailsafe 0x12
 END_MAIN
 
 Dunno1:
@@ -169,7 +170,8 @@ UNIT
 Bad2:
 UNIT Emperor General 0x00 Level(20,Enemy,0) [5,12] DropItem 0x0 0x0 0x0 [Gradius] NeverMoveAI
 UNIT Lassic Sniper 0x00 Level(20,Enemy,0) [5,18] DropItem 0x0 0x0 0x0 [MegidoFire] PursueWithoutHeedAI
-UNIT Ch1Generic Warrior 0x00 Level(15,Enemy,1) [5,6] 0x0 0x0 0x0 0x0 [SilverAxe, DoorKey] AttackInRangeAI
+UNIT Ch1Generic Warrior 0x00 Level(15,Enemy,1) [5,7] DropItem 0x0 0x0 0x0 [SilverAxe, DoorKey] NeverMoveAI
+UNIT Ch1Generic Warrior 0x00 Level(15,Enemy,1) [2,6] 0x0 0x0 0x0 0x0 [Tomahawk] ChaseOnceApproachedAI
 UNIT Ch1Generic DukeKnight 0x00 Level(15,Enemy,1) [9,47] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
 UNIT Ch1Generic DukeKnight 0x00 Level(15,Enemy,1) [10,46] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
 UNIT Ch1Generic DukeKnight 0x00 Level(15,Enemy,1) [9,45] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
@@ -182,6 +184,11 @@ UNIT Ch1Generic Sage 0x00 Level(11,Enemy,1) [5,34] 0x0 0x0 0x0 0x0 [Blizzard] At
 UNIT Ch1Generic Gorgon 0x00 Level(11,Enemy,1) [1,17] 0x0 0x0 0x0 0x0 [DemonSurge] AttackInRangeAI
 UNIT Ch1Generic Gorgon 0x00 Level(11,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [DemonSurge] AttackInRangeAI
 UNIT Ch1Generic DracoZombie 0x00 Level(11,Enemy,1) [5,38] 0x0 0x0 0x0 0x0 [WretchedAir] AttackInRangeAI
+UNIT
+
+MinhGroup:
+UNIT Minh Sage 0x00 Level(20,NPC,0) [16,44] 0x0 0x0 0x0 0x0 [Physic, Recover, Barrier] HealUnits
+UNIT OnionKid Myrmidon 0x00 Level(20,NPC,0) [18,47] 0x0 0x0 0x0 0x0 [IronSword] NeverMoveAI
 UNIT
 
 Traps1:
@@ -458,7 +465,7 @@ ENDA
 AfterBattlePrep:
 Text(SHPCAfterPrepGen1)
 SVAL s3 40000
-GIVEMONEY Fighter //going to have to sell a lot, but not quite everything
+GIVEMONEY FighterFF1 //going to have to sell a lot, but not quite everything
 DISABLEOPTIONS 000001000000000b
 //no trading: it's FE4!
 NoFade
@@ -476,7 +483,14 @@ CAM1 Zande
 MUSC M_ImperialArmy
 Text(SHPCEPAfterEurekaSeized)
 LOAD1 0x1 Bad2
+LOAD1 0x1 MinhGroup
+ENUT 0x13 //don't duplicate everyone
 CALL SavePointRoutine
+NoFade
+ENDA
+
+EarlyLuciferFailsafe:
+LOAD1 0x1 Bad2
 NoFade
 ENDA
 
