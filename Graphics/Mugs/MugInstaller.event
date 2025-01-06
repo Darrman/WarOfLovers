@@ -301,6 +301,22 @@ Phoebe_Mug:
 #incext PortraitFormatter "Phoebe.png"
 setMugEntry(0x48, Phoebe_Mug, 4,7,4,5)
 
+DarkCloud_Mug:
+#incext PortraitFormatter "DarkCloud.png"
+setMugEntry(0x49, DarkCloud_Mug, 4,7,4,5)
+
+Hardin_Mug:
+#incext PortraitFormatter "HardinFE1.png"
+setMugEntry(0x4A, Hardin_Mug, 3,8,3,6)
+
+Lich_Mug:
+#incext PortraitFormatter "Lich.png"
+setMugEntry(0x4B, Lich_Mug, 3,4,3,2)
+
+Lucifer_Mug:
+#incext PortraitFormatter "Lucifer.png"
+setMugEntry(0x4C, Lucifer_Mug, 4,5,4,3)
+
 //Luigi_Mug:
 //#incext PortraitFormatter "Luigi.png"
 //setMugEntry(0x7, Luigi_Mug, 4,5,4,3)
@@ -730,6 +746,30 @@ Veronica_Mug:
 #incext PortraitFormatter "Veronica.png"
 setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 
+Minh_Mug:
+#incext PortraitFormatter "Minh.png"
+setMugEntry(0xD3, Minh_Mug, 4,8,4,5)
+
+Mondain_Mug:
+#incext PortraitFormatter "Mondain.png"
+setMugEntry(0xD4, Mondain_Mug, 4,4,4,2)
+
+OnionKid_Mug:
+#incext PortraitFormatter "OnionKid.png"
+setMugEntry(0xD5, OnionKid_Mug, 3,6,3,4)
+
+Solo_Mug:
+#incext PortraitFormatter "Solo.png"
+setMugEntry(0xD6, Solo_Mug, 4,6,4,4)
+
+Zemsel_Mug:
+#incext PortraitFormatter "Zemsel.png"
+setMugEntry(0xD7, Zemsel_Mug, 5,6,4,4)
+
+Fish_Mug:
+#incext PortraitFormatter "Fish.png"
+setMugEntry(0xD8, Fish_Mug, 3,5,3,3)
+
 //Leftovers from Evening Train Crash 2, may need in future
 //Purim_Mug:
 //#incext PortraitFormatter "Purim.png"
@@ -801,7 +841,7 @@ setMugEntry(0xCD, Sigurd_Mug, 4,6,4,4)
 //
 Locke_Mug:
 #incext PortraitFormatter "Locke.png"
-setMugEntry(0xCE, Locke_Mug, 3,8,3,6)
+setMugEntry(0xD2, Locke_Mug, 3,8,3,6)
 //
 //Lucca_Mug:
 //#incext PortraitFormatter "Lucca.png"
