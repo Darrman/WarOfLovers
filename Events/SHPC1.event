@@ -86,6 +86,7 @@ Stairs(1,5,36,5,28)
 Stairs(2,5,34,5,26)
 Stairs(3,8,26,2,25)
 Stairs(4,18,1,5,39) //Eureka-Sylx teleporter
+SecretShop(EurekaSecretShop,22,43)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,11,2)
 #endif
@@ -311,11 +312,11 @@ LOAD1 0x1 EurekaBottom
 CAM1 [0,0]
 FADU 10
 STAL 20
-CAM1 [39,0]
+CAM1 [23,0]
 STAL 20
-CAM1 [39,14]
+CAM1 [23,47]
 STAL 20
-CAM1 [0,14]
+CAM1 [23,0]
 STAL 20
 CAM1 [0,0]
 STAL 10
@@ -456,6 +457,8 @@ ENDA
 
 AfterBattlePrep:
 Text(SHPCAfterPrepGen1)
+SVAL s3 40000
+GIVEMONEY Fighter //going to have to sell a lot, but not quite everything
 DISABLEOPTIONS 000001000000000b
 //no trading: it's FE4!
 NoFade
@@ -789,3 +792,8 @@ SetSupport(Arle,Nakajima,ASupport) //test before you properly set things up
 //POPUP 0xC 0x5A //show "support rank up" with item get SFX; might leave that out and let player infer
 NoFade
 ENDA
+
+EurekaSecretShop:
+SHLI Bolganone Thoron Tornado Aura Fenrir Fortify Shuriken
+
+ALIGN 4

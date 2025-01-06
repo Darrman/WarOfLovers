@@ -580,6 +580,7 @@
 #define Flare 0xd4
 #define Ultima 0xd5
 #define StilettoEarrings 0xd6
+#define Shuriken 0xd7
 
 //Music
 //Akaneia

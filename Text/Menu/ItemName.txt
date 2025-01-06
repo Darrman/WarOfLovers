@@ -508,3 +508,9 @@ Stiletto 'Ring[X]
 
 ## StilettoEarringsDesc
 Can attack consecutively.[X]
+
+## ShurikenName
+Shuriken[X]
+
+## ShurikenDesc
+Good for one use only.[X]
