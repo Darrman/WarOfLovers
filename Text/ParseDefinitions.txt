@@ -123,6 +123,8 @@
 [LoadZemsel] = [LoadFace][0xD7][0x01]
 [LoadMondain] = [LoadFace][0xD4][0x01]
 [LoadReimu] = [LoadFace][0xFC][0x01]
+[LoadKain] = [LoadFace][0xD9][0x01]
+[LoadRydia] = [LoadFace][0xCC][0x01]
 
 [LoadMarth] = [LoadFace][0x2][0x1]
 [LoadSheeda] = [LoadFace][0x3][0x1]

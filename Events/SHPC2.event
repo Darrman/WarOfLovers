@@ -260,7 +260,12 @@ ALIGN 4
 
 BeginningScene:
 FADU 10
-Text(SHPCNoRealEnding)
+MUSC M_TempleOfFiends
+Text(SHPCTheFF4Timeloop)
+MUSC M_CovertTownFargabaad
+Text(SHPCMistBurnsAgain)
+MUSC M_EternalWind
+Text(SHPCDeadlines)
 STAL 10
 LOAD1 0x1 FixedUnits
 LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't

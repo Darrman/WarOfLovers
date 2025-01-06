@@ -32,9 +32,9 @@ POP
 //#incext PortraitFormatter "Sheeda.png"
 //setMugEntry(0x3, Sheeda_Mug, 4, 7, 3, 5)
 
-//Chiki_Mug:
-//#incext PortraitFormatter "Chiki.png"
-//setMugEntry(0x4, Chiki_Mug, 4, 7, 4, 5)
+Chiki_Mug:
+#incext PortraitFormatter "Chiki.png"
+setMugEntry(0xF4, Chiki_Mug, 4, 7, 4, 5)
 
 
 MarthFE1_Mug:
@@ -578,8 +578,8 @@ Barth_Mug:
 setMugEntry(0x4F, Barth_Mug, 2,4,2,2)
 
 Kain_Mug:
-#incext PortraitFormatter "Kain.png"
-setMugEntry(0x50, Kain_Mug, 3,6,4,4)
+#incext PortraitFormatter "KainFF4.png"
+setMugEntry(0x50, Kain_Mug, 4,8,4,6)
 
 Ellis_Mug:
 #incext PortraitFormatter "Ellis.png"
