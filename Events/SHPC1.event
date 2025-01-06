@@ -216,6 +216,9 @@ ASMC 0x48281 //name selection
 CLEAN
 STAL 10
 Text(SHPCPostNameEntry)
+SetBackground(CGCh1)
+STAL 180
+CALL $9EE2C4
 //"Chapter 1" - Final Fantasy
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
@@ -223,92 +226,110 @@ TEXTSHOW SHPCFF1Opening
 TEXTEND
 MUSC M_Coneria
 //BG: Coneria
-Text(SHPCInConeria)
+Text(Town_Day,SHPCInConeria)
 MUSC M_TempleOfFiends
 //BG: Temple of Fiends
-Text(SHPCGarlandFight)
+Text(Temple_Ruins_Inside,SHPCGarlandFight)
 //Scripted battle vs. Garland
-Text(SHPCAfterGarland)
+Text(Temple_Ruins_Inside,SHPCAfterGarland)
 //Earthquake! Everyone falls into a hole. FF2 units briefly appear as green.
 //Background: Just outside Tantegel
 MUSC M_OverworldFF1 //ideally Alefgard overworld
-Text(SHPCInAlefgard)
+Text(Riverside,SHPCInAlefgard)
 //More earthquakes!
 Text(SHPCFastForwardToCh5)
+SetBackground(CGCh2)
+STAL 180
+CALL $9EE2C4
 //"Chapter 2" - Dragon Quest
 //There's no DQ music so just steal relevant FF tracks
 //BG: By the volcano Ortega fell into
 MUSC M_EternalWind
-Text(SHPCTimeTravelToDQ3)
-Text(SHPCMeetingYourDescendants)
+Text(Volcano,SHPCTimeTravelToDQ3)
+Text(Volcano,SHPCMeetingYourDescendants)
 //BG: Necrogond entrance
 MUSC M_RebelArmy
-Text(SHPCFF2CatchesUp)
-Text(SHPCWhirlwinds)
+Text(Woodland,SHPCFF2CatchesUp)
+Text(Woodland,SHPCWhirlwinds)
 //BG: Outside Baramos's Castle
 MUSC M_CovertTownFargabaad
-Text(SHPCButThouMustHelp)
+Text(Fort_Ruins_Outside,SHPCButThouMustHelp)
 //Erdrick and Alena smack each other?
-Text(SHPCFightingBaramos)
+Text(Fort_Ruins_Outside,SHPCFightingBaramos)
 //Hey, this isn't Alefgard!
 Text(SHPCEndOfCh2)
+SetBackground(CGCh3)
+STAL 180
+CALL $9EE2C4
 //"Chapter 3" - Earthbound
 //BG: Duncan's Factory
 MUSC M_Pollyanna //ideally Duncan's Factory
-Text(SHPCLostInDuncansFactory)
+Text(Castle_Hall_3_Night,SHPCLostInDuncansFactory)
 MUSC M_TryOut
-Text(SHPCSegaInterlude)
+Text(Castle_Hall_3_Night,SHPCSegaInterlude)
 //BG: The top of Duncan's Factory
-Text(SHPCFireTheRocket)
+Text(Castle_Hall_3_Night,SHPCFireTheRocket)
 //Scripted battle: Ana vs. Odin
 //Oh shoot, we botched the escape.
 Text(SHPCEndOfCh3)
+SetBackground(CGCh4)
+STAL 180
+CALL $9EE2C4
+
 //"Chapter 4" - Fire Emblem
 //BG: FE1 Chapter 20
 MUSC M_WarOfDarkness //cheating a bit here, this is SNES music!
-Text(SHPCRevisitingAkaneia)
+Text(Plain_Evening,SHPCRevisitingAkaneia)
 MUSC M_CombatMission
-Text(SHPCTheNatureOfTheCamus)
+Text(Plain_Evening,SHPCTheNatureOfTheCamus)
 //M: Great Sage Gato is missing. Legend of the Divine Dragon?
 //That's even worse cheating: that's unambigiously 90s!
 //TODO: At least use the less sombre version.
 MUSC M_LegendOfTheDivineDragonMusicBox
-Text(SHPCBanutuStoryTime)
+Text(Plain_Evening,SHPCBanutuStoryTime)
 //Did Marth get Grunia to stand down? That's been abridged out.
 Text(SHPCEndOfCh4)
+SetBackground(CGCh5)
+STAL 180
+CALL $9EE2C4
+
 //"Chapter 5" - Megami Tensei
 //BG: Rotting Sea of Flames
 MUSC M_RottingSeaOfFlames
-Text(SHPCLostInAMaze)
+Text(Volcano,SHPCLostInAMaze)
 //You think we have time to show Seth?
 Text(SHPCNoMoreAbridging)
+SetBackground(CGCh6)
+STAL 180
+CALL $9EE2C4
+
 //"Chapter 6" - The One You Get to Play
 STAL 10
 LOMA 0 //actual chapter here
 //BG: Sylx Tower overworld
 //Then switch to an interior shot
 MUSC M_ImperialArmy
-Text(SHPCOpeningTowerPlotting)
+Text(Castle_Room,SHPCOpeningTowerPlotting)
 //Use the overworld shot, then cut to map
 MUSC M_EternalWind
-Text(SHPCOpeningCrystalBrawl)
+Text(Castle_Outside,SHPCOpeningCrystalBrawl)
 //Do the thing with the loose text bubbles in FE8 Ch16
 MUSC M_Battle1FF3
 Text(SHPCUnattributedAttacks)
 //Many, many scripted battles. With anims on for full annoyance.
-Text(SHPCTaloonsDirections)
-Text(SHPCTheBrawlContinues)
+Text(Castle_Outside,SHPCTaloonsDirections)
+Text(Castle_Outside,SHPCTheBrawlContinues)
 //A few tiles away on the map...
 MUSC M_EternalWind
-Text(SHPCOpeningBackToSquareOne)
+Text(Castle_Outside,SHPCOpeningBackToSquareOne)
 //Does this deserve Requiem or do I save that for after the Dark Cloud?
 //Eh FF3 uses it fairly frequently when a bad thing happens.
 MUSC M_Requiem
-Text(SHPCOpeningFEResurrectionIsHard)
+Text(Castle_Outside,SHPCOpeningFEResurrectionIsHard)
 //Clear and reload everyone for this
 MUSC M_AirshipInvincible
-Text(SHPCOpeningBritishLecture)
-Text(SHPCOpeningEvenOhmIsDubious)
+Text(Castle_Outside,SHPCOpeningBritishLecture)
+Text(Castle_Outside,SHPCOpeningEvenOhmIsDubious)
 //Stop skipping here.
 FADI 10
 LOAD1 0x1 Good
@@ -333,31 +354,31 @@ ENDA
 EndingScene:
 SET_ACTIVE 0 //should stop boss killer from running in place
 MUSC M_Coneria
-Text(SHPCSylxSeized)
+Text(Castle_Room,SHPCSylxSeized)
 MUSC M_EternalWind
-Text(SHPCCatchingUpWithTheDragonSlayers)
+Text(Castle_Room,SHPCCatchingUpWithTheDragonSlayers)
 MUSC M_Pollyanna
-Text(SHPCTheFirstChosenFour)
+Text(Castle_Room,SHPCTheFirstChosenFour)
 MUSC M_Victory
-Text(SHPCCanMarthStopBook2)
+Text(Castle_Room,SHPCCanMarthStopBook2)
 MUSC M_EternalWind
-Text(SHPCSoloSaysHello)
+Text(Castle_Room,SHPCSoloSaysHello)
 MUSC M_Coneria
-Text(SHPCWhatNext)
+Text(Castle_Room,SHPCWhatNext)
 MUSC M_CovertTownFargabaad
-Text(SHPCThroughTheMirror)
+Text(Castle_Room,SHPCThroughTheMirror)
 MUSC M_AirshipInvincible
-Text(SHPCNextStopDarkWorld)
+Text(Castle_Room,SHPCNextStopDarkWorld)
 MUSC M_ImperialArmy
-Text(SHPCTheFirstDeal)
-Text(SHPCReinforcementsArrive)
-Text(SHPCDragonlordDealsWithEveryone)
-Text(SHPCWeSmellARat)
-Text(SHPCPullingAnAlvis)
+Text(Temple_Ruins_Inside,SHPCTheFirstDeal)
+Text(Temple_Ruins_Inside,SHPCReinforcementsArrive)
+Text(Temple_Ruins_Inside,SHPCDragonlordDealsWithEveryone)
+Text(Temple_Ruins_Inside,SHPCWeSmellARat)
+Text(Temple_Ruins_Inside,SHPCPullingAnAlvis)
 //more to write here!
-Text(SHPCFinalBreakdown)
+Text(Temple_Ruins_Inside,SHPCFinalBreakdown)
 MUSC M_DarkCloud
-Text(SHPCTheCloudArrives)
+Text(Temple_Ruins_Inside,SHPCTheCloudArrives)
 //And then she kills them all! End of Chapter!
 KILL FighterFF1
 AWAIT_KILL FighterFF1

@@ -734,6 +734,12 @@
 #define CGPeppy 0x61
 #define CGSlippy 0x62
 #define CGBlackScreen 0x63 //find a way to uncorrupt the original one!
+#define CGCh1 0x64
+#define CGCh2 0x65
+#define CGCh3 0x66
+#define CGCh4 0x67
+#define CGCh5 0x68
+#define CGCh6 0x69
 
 //Event IDs
 #define JamModeOn 0x71

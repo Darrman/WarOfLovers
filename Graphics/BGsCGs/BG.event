@@ -117,6 +117,13 @@ POIN FalcoBG; WORD 0x0; POIN FalcoBGPal
 POIN PeppyBG; WORD 0x0; POIN PeppyBGPal
 POIN SlippyBG; WORD 0x0; POIN SlippyBGPal
 POIN BlackScreenBG; WORD 0x0; POIN BlackScreenBGPal
+POIN Ch1TitleBG; WORD 0x0; POIN Ch1TitleBGPal
+POIN Ch2TitleBG; WORD 0x0; POIN Ch2TitleBGPal
+POIN Ch3TitleBG; WORD 0x0; POIN Ch3TitleBGPal
+POIN Ch4TitleBG; WORD 0x0; POIN Ch4TitleBGPal
+POIN Ch5TitleBG; WORD 0x0; POIN Ch5TitleBGPal
+POIN Ch6TitleBG; WORD 0x0; POIN Ch6TitleBGPal
+
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -384,3 +391,39 @@ BlackScreenBG:
 ALIGN 4
 BlackScreenBGPal:
 #incbin bin/256BlackScreenPal.dmp
+
+Ch1TitleBG:
+#incbin bin/256Ch1Title.dmp
+ALIGN 4
+Ch1TitleBGPal:
+#incbin bin/256Ch1TitlePal.dmp
+
+Ch2TitleBG:
+#incbin bin/256Ch2Title.dmp
+ALIGN 4
+Ch2TitleBGPal:
+#incbin bin/256Ch2TitlePal.dmp
+
+Ch3TitleBG:
+#incbin bin/256Ch3Title.dmp
+ALIGN 4
+Ch3TitleBGPal:
+#incbin bin/256Ch3TitlePal.dmp
+
+Ch4TitleBG:
+#incbin bin/256Ch4Title.dmp
+ALIGN 4
+Ch4TitleBGPal:
+#incbin bin/256Ch4TitlePal.dmp
+
+Ch5TitleBG:
+#incbin bin/256Ch5Title.dmp
+ALIGN 4
+Ch5TitleBGPal:
+#incbin bin/256Ch5TitlePal.dmp
+
+Ch6TitleBG:
+#incbin bin/256Ch6Title.dmp
+ALIGN 4
+Ch6TitleBGPal:
+#incbin bin/256Ch6TitlePal.dmp

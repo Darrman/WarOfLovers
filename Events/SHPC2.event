@@ -261,11 +261,11 @@ ALIGN 4
 BeginningScene:
 FADU 10
 MUSC M_TempleOfFiends
-Text(SHPCTheFF4Timeloop)
+Text(Woodland_Fog,SHPCTheFF4Timeloop)
 MUSC M_CovertTownFargabaad
-Text(SHPCMistBurnsAgain)
+Text(Village,SHPCMistBurnsAgain)
 MUSC M_EternalWind
-Text(SHPCDeadlines)
+Text(HouseBG,SHPCDeadlines)
 STAL 10
 LOAD1 0x1 FixedUnits
 LOAD2 0x1 HeroFin //don't sweat a CHECK_ALIVE, FE4 didn't
@@ -628,6 +628,8 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC3 0x6
+MUSC M_Victory
+Text(SHPCChaosKilled)
+MNTS 0x0
 ENDA
 
