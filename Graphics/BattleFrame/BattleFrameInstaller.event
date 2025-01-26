@@ -21,6 +21,9 @@ BattleScreenGraphic5:
 #incext Png2Dmp "FramePlayerWeapon.png" --lz77
 //#incbin "BattleScreenGraphic5.dmp"
 
+SingleBattleScreenGraphic:
+#incbin "SingleFrameTSA.bin"
+
 BattleScreenPalettes:
 #incext Png2Dmp "FrameMain.png" --palette-only
 
@@ -35,6 +38,8 @@ ORG $52088
 POIN BattleScreenGraphic4
 ORG $52164
 POIN BattleScreenGraphic5
+ORG $5141C
+POIN SingleBattleScreenGraphic
 ORG $80210C
 #incbin "FrameTSA.bin"
 /*ORG $802558
