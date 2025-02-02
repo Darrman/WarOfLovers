@@ -178,13 +178,20 @@
 - Garda: FE1 Ch2 (Kirb, Nickt for GFE1R)
 - Talis Castle: Darrman
 - Talis: FE1 Ch1 (Kirb, Nickt for GFE1R)
+- Peraty: FE1 Ch9 (A Reliable Chair for GFE1R)
 - Garda Ocean: Darrman
 - Dragons' Gate: FE7 Ch19
 - Etrurian Border: Darrman
 - Outside Bern Keep: FE7 Ch24
 - Pherae Castle: Darrman
+- Graveyard: PLACEHOLDER MAP
 - Ostia: FE6 Ch7
 - Badon: FE7 Ch16x, Ch20
+- Floodgate: FE2 Alm Ch3 Final Map (Darrman)
+- Nuibaba's Manor: FE2 Alm Ch4 Map 5 (Darrman)
+- Grove Village: FE2 Alm Ch3 Map 3, Grove Village (Darrman)
+- Outside Sofia Castle: FE2 Alm Ch1 Final Map, Sofia Castle North Gate (Darrman)
+- Sofia Castle: FE2 Sofia Castle (Darrman)
 
 # CGs:
 - Mario: Super Mario 64
