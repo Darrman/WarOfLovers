@@ -220,7 +220,7 @@ ObjTypePalettePointerTable(DragonsGatePalette1, DragonsGatePalette) //c2 in FE7
 #define CastlePaletteFE6Ostia 0x2d
 ObjTypePalettePointerTable(CastlePaletteFE6Ostia, FE6CastleOstiaPalette) //2d in FE6
 
-#define CastlePaletteFE6Pherae 0x2e
+#define CastlePaletteFE6Pherae 0x2c
 ObjTypePalettePointerTable(CastlePaletteFE6Pherae, FE6CastlePheraePalette) //edit of ostia
 
 
