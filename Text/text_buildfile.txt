@@ -57,6 +57,7 @@ I have escaped![A][X]
 #include Story/Chapter10.txt
 #include Story/Chapter11.txt
 #include Story/Chapter12.txt
+#include Story/Chapter13.txt
 #include Story/MiscPromo.txt
 
 ## SavePointLabel

@@ -54,19 +54,17 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-SetBackground(CGBlackScreen)
-EVBIT_MODIFY 1 //No skipping
-TUTORIALTEXTBOXSTART
-CenterTutorialTextBox
-TEXTSHOW Ch12EndOfDemoMessage
-TEXTEND
-STAL 10
-MNTS 0x0
-//LOAD1 0x1 Good
-//LOAD1 0x1 Bad
+//just some placeholders for screenshot purposes
+Text(Fort_Outside,Ch13OpeningUnknownVessel)
+Text(Ship,Ch13OpeningLandHo)
+Text(Harbor,Ch13OpeningInterrogation)
+Text(Castle_Room,Ch13EndingAlmMonologue)
+Text(Castle_Room,Ch13EndingCelicaReturns)
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
 ENDA
 
 EndingScene:
-MNC3 0x6
+MNCH 14
 ENDA
 
