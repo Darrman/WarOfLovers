@@ -1,0 +1,13 @@
+//Second set variable:
+//0x0 = trainee, 0x1 = T1, 0x2 = second T1 (dismounted), 0x3 = T2
+//0x4 = second T2 (dismounted), 0x5 = third T2, 0x6 = fourth T2 (room for secret promos?)
+//Marth just uses generic class palette
+# char{0x01} "Sheeda Pegasus" set{Sheeda, 0x1, PegasusKnight}
+	5553FF7F7021BF2EFF6BFF0FE7608B7DC8101B197508F377896F086F4A39A514
+# char{0x02} "Sheeda Falcon" set{Sheeda, 0x3, FalconKnight}
+	5553FF7F70219E36FF6BFF0FE760CB7DC810DA15D808F67F6E7FAE7E2E356310
+# char{0x03} "Sheeda Dismounted" set{Sheeda, 0x2, KnightPegasus}
+	5553FF7FFF6B3F4B2E19CE714A65A554567B6F5ECA499A313625F41C851CA514
+# char{0x04} "Sheeda Dismounted T2" set{Sheeda, 0x4, KnightFalcon}
+	5553FF7FFF6B3F4B2E19CE714A65A554567B6F5ECA499A313625F41C851CA514
+//Chiki just uses generic class palette

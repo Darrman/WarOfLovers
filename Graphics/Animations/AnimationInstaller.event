@@ -66,3 +66,6 @@
 {
 #include "ArmourKnight/Bow/BowInstaller.event"
 }
+
+//Battle Palettes
+#include "Palettes/PaletteSetup.event"
