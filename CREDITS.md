@@ -312,6 +312,7 @@
 - FE3 weapon weight: Contro
 - 256 colour CGs: Huichelaar
 - Dismount: Crazycolorz, Contro
+- Class-locked weapon ranks: GigaExcalibur
 - 32-colour animations: Huichelaar
 - Event pointer table split: Kirb
 - Unique battle/preperation music per chapter: Aera

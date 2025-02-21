@@ -90,3 +90,8 @@
   #incbin "ASM/TerrainCheck.dmp"
   ORG CurrentOffset - 4
   POIN ClassTable
+
+//Class Locked Weapon Ranks - enforce swords on dismount, in other words
+//By GigaExcalibur
+ClassLockedWeapon:
+#include "ClassLockedWeaponRanks/ClasslockedWeaponRanks.lyn.event"
