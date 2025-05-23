@@ -222,7 +222,7 @@ setMugEntry(0x32, OifayeMug, 3, 6, 2, 4)
 
 VanderMug:
 #incext PortraitFormatter "Vander.png"
-setMugEntry(0x33, VanderMug, 4,6,3,4)
+setMugEntry(0x33, VanderMug, 3,5,3,3)
 
 BoucheronMug:
 #incext PortraitFormatter "Boucheron.png"
@@ -230,11 +230,11 @@ setMugEntry(0x34, BoucheronMug, 3,5,3,3)
 
 ClanneMug:
 #incext PortraitFormatter "Clanne.png"
-setMugEntry(0x35, ClanneMug, 4,7,4,5)
+setMugEntry(0x35, ClanneMug, 4,6,4,4)
 
 AlfredMug:
 #incext PortraitFormatter "Alfred.png"
-setMugEntry(0x36, AlfredMug, 4,6,4,4)
+setMugEntry(0x36, AlfredMug, 3,5,3,3)
 
 CelineMug:
 #incext PortraitFormatter "Celine.png"
@@ -242,7 +242,7 @@ setMugEntry(0x37, CelineMug, 4,6,3,4)
 
 DiamantMug:
 #incext PortraitFormatter "Diamant.png"
-setMugEntry(0x38, DiamantMug, 3,7,3,5)
+setMugEntry(0x38, DiamantMug, 2,5,2,3)
 
 AlcrystMug:
 #incext PortraitFormatter "Alcryst.png"
@@ -254,19 +254,19 @@ setMugEntry(0x3A, IvyMug, 4,7,4,5)
 
 HortensiaMug:
 #incext PortraitFormatter "Hortensia.png"
-setMugEntry(0x3B, HortensiaMug, 4,7,3,5)
+setMugEntry(0x3B, HortensiaMug, 3,6,3,4)
 
 TimerraMug:
 #incext PortraitFormatter "Timerra.png"
-setMugEntry(0x3C, TimerraMug, 4,7,4,5)
+setMugEntry(0x3C, TimerraMug, 4,6,4,4)
 
 FogadoMug:
 #incext PortraitFormatter "Fogado.png"
-setMugEntry(0x3D, FogadoMug, 4,6,3,4)
+setMugEntry(0x3D, FogadoMug, 2,5,2,3)
 
 VeyleMug:
 #incext PortraitFormatter "Veyle.png"
-setMugEntry(0x3E, VeyleMug, 4,7,4,5)
+setMugEntry(0x3E, VeyleMug, 4,6,4,4)
 
 AlfonseMug:
 #incext PortraitFormatter "Alfonse.png"
@@ -286,7 +286,7 @@ setMugEntry(0x42, LukeMug, 4, 6, 4, 4)
 
 LouisMug:
 #incext PortraitFormatter "Louis.png"
-setMugEntry(0x43, LouisMug, 3,7,3,5)
+setMugEntry(0x43, LouisMug, 2,5,2,3)
 
 Zelda_Mug:
 #incext PortraitFormatter "Zelda.png"
@@ -350,7 +350,7 @@ setMugEntry(0x52, ArcardJunior_Mug, 2,5,3,3)
 
 Amber_Mug:
 #incext PortraitFormatter "Amber.png"
-setMugEntry(0x53, Amber_Mug, 4,7,4,4)
+setMugEntry(0x53, Amber_Mug, 3,5,3,3)
 
 RogueBernBoss_Mug:
 #incext PortraitFormatter "RogueBernBoss.png"
@@ -366,7 +366,7 @@ setMugEntry(0x56, Guinevere_Mug, 3,6,3,4)
 
 Citrinne_Mug:
 #incext PortraitFormatter "Citrinne.png"
-setMugEntry(0x57, Citrinne_Mug, 4,6,4,4)
+setMugEntry(0x57, Citrinne_Mug, 3,5,3,3)
 
 //skip past civilians/class cards
 Ratface_Mug:

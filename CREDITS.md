@@ -103,29 +103,29 @@
 - Caesar: FE3 (Darrman)
 - Ryan: FE3 (Darrman)
 - Luke: FE3 (Darrman)
-- Boucheron: FE17 (Darrman)
-- Clanne: FE17 (Darrman)
-- Vander: FE17 (Darrman)
-- Alfred: FE17 (Darrman)
+- Boucheron: Sterling_Glovner
+- Clanne: Maximus03
+- Vander: Sterling_Glovner
+- Alfred: Sterling_Glovner
 - Celine: FE17 (Darrman)
-- Diamant: FE17 (Darrman)
+- Diamant: Sterling_Glovner
 - Alcryst: FE17 (Darrman)
 - Ivy: FE17 (Darrman)
-- Hortensia: FE17 (Darrman)
-- Timerra: FE17 (Darrman)
-- Fogado: FE17 (Darrman)
-- Veyle: FE17 (Darrman)
-- Louis: FE17 (Darrman)
+- Hortensia: Sterling_Glovner
+- Timerra: Sterling_Glovner
+- Fogado: Sterling_Glovner
+- Veyle: Sterling_Glovner
+- Louis: Sterling_Glovner
 - Alfonse: FEH (Darrman)
 
 - "Ratface": FE7
 - "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
-- Amber: FE17 (Darrman)
+- Amber: Sterling_Glovner
 - "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
 - Merlinus: FE6 (Obsidian Daddy, Lenh)
 - Guinevere: FE6 (Obsidian Daddy, Lenh)
-- Citrinne: FE17 (Darrman)
-- Framme: FE17 (Darrman)
+- Citrinne: CavalryUnits
+- Framme: Maximus03, Norikins (minimug)
 - "Executioner": FE6 (Obsidian Daddy, Lenh)
 - Lapis: FE17 (Darrman)
 
