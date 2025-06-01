@@ -541,7 +541,7 @@
 #define M_TheAirOfBrutality Twisted_ShadowsB
 #define M_WithMilasDivineProtection Truth_Despair_and_Hope
 #define M_DisquietingSteps Envoy_from_the_Dark
-#define M_DauntlessBlade In_the_Colousseum
+#define M_TheDauntlessBlade In_the_Colosseum
 #define M_TheFiendsRapture 0x5D //blank
 #define M_WarringPowers The_Princes_Despair
 #define M_ToSofia Into_the_Shadow_of_Victory

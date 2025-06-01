@@ -49,7 +49,16 @@ SoundRoom(M_EnemiesAppear,5400,0,SREnemiesAppear)
 SoundRoom(M_Triumph,5400,0,SRTriumph)
 SoundRoom(M_IntoTheShadowOfTriumph,5400,0,SRIntoTheShadowOfTriumph)
 SoundRoom(M_ScarsOfTheScouring,5400,0,SRScarsOfTheScouring)
-
+SoundRoom(M_MarchToLiberation,5400,0,SRMarchToLiberation)
+SoundRoom(M_TheAirOfBrutality,5400,0,SRTheAirOfBrutality)
+SoundRoom(M_WithMilasDivineProtection,5400,0,SRWithMilasDivineProtection)
+SoundRoom(M_DisquietingSteps,5400,0,SRDisquietingSteps)
+SoundRoom(M_TheDauntlessBlade,5400,0,SRTheDauntlessBlade)
+SoundRoom(M_TheFiendsRapture,5400,0,SRTheFiendsRapture)
+SoundRoom(M_WarringPowers,5400,0,SRWarringPowers)
+SoundRoom(M_ToSofia,5400,0,SRToSofia)
+SoundRoom(M_DismalNation,5400,0,SRDismalNation)
+SoundRoom(M_TwilightOfTheGods,5400,0,SRTwilightOfTheGods)
 
 WORD 0xFFFFFFFF
 

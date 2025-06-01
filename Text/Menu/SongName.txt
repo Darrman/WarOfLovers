@@ -135,3 +135,33 @@ Into the Shadow of Triumph[X]
 
 ## SRScarsOfTheScouring
 Scars of the Scouring[X]
+
+## SRMarchToLiberation
+March to Liberation[X]
+
+## SRTheAirOfBrutality
+The Air of Brutality[X]
+
+## SRWithMilasDivineProtection
+With Mila's Divine Protection[X]
+
+## SRDisquietingSteps
+Disquieting Steps[X]
+
+## SRTheDauntlessBlade
+The Dauntless Blade[X]
+
+## SRTheFiendsRapture
+The Fiends' Rapture[X]
+
+## SRWarringPowers
+Warring Powers[X]
+
+## SRToSofia
+To Sofia![X]
+
+## SRDismalNation
+Dismal Nation[X]
+
+## SRTwilightOfTheGods
+Twilight of the Gods[X]
