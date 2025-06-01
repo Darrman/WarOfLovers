@@ -299,3 +299,5 @@ POP
   //CHECK_DEPLOYED, etc. fix (7743)
   #include "GachaJam/CheckConditionalFix/State33Fix.event"
   
+  //SNES trading (Aera)
+  #include "GachaJam/SNESTrade/SNESTrade.event"
