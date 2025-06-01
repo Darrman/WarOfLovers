@@ -262,6 +262,17 @@
 - Into the Shadow of Triumph: Alice
 - Scars of the Scouring: 7743
 
+- March to Liberation: HyperGammaSpaces
+- The Air of Brutality: HyperGammaSpaces
+- With Mila's Divine Protection: Sme
+- Disquieting Steps: HyperGammaSpaces
+- The Dauntless Blade: FE8 In the Colosseum
+- The Fiends' Rapture: HyperGammaSpaces
+- Warring Powers: HyperGammaSpaces
+- To Sofia: HyperGammaSpaces
+- Dismal Nation: HyperGammaSpaces
+- Twilight of the Gods: DrGreen3339
+
 - Voice lines from:
 - Marth: Fire Emblem Heroes
 - Sheeda: Fire Emblem Heroes

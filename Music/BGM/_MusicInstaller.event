@@ -252,3 +252,48 @@ SongTable(M_IntoTheShadowOfTriumph,IntoTheShadowOfTriumph,0)
 SongTable(M_ScarsOfTheScouring,ScarsOfTheScouring,1)
 }
 
+{
+#include "MarchToLiberation.event"
+SongTable(M_MarchToLiberation,AlmPlayerPhase1,1)
+}
+
+{
+#include "AirOfBrutality.event"
+SongTable(M_TheAirOfBrutality,AlmEnemyPhase,1)
+}
+
+{
+#include "WithMilasDivineProtection.event"
+SongTable(M_WithMilasDivineProtection,BoatMaps,1)
+}
+
+{
+#include "DisquietingSteps.event"
+SongTable(M_DisquietingSteps,CelicaEnemyPhase,1)
+}
+
+{
+#include "TheFiendsRapture.event"
+SongTable(M_TheFiendsRapture,Defend1,0)
+}
+
+{
+#include "WarringPowers.event"
+SongTable(M_WarringPowers,BossBattle,0)
+}
+
+{
+#include "ToSofia.event"
+SongTable(M_ToSofia,WhereTheWindRustles,1)
+}
+
+{
+#include "DismalNation.event"
+SongTable(M_DismalNation,LandOfSorrow,1)
+}
+
+{
+#include "TwilightOfTheGods.event"
+SongTable(M_TwilightOfTheGods,TwilightOfTheGods,1)
+}
+

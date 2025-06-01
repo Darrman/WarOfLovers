@@ -535,6 +535,19 @@
 #define M_ScarsOfTheScouring Confront_the_Past
 //one of the sad FE7 songs Sorrow
 
+//Valencia
+#define M_MarchToLiberation Determination
+#define M_MarchToDeliverance M_MarchToLiberation
+#define M_TheAirOfBrutality Twisted_ShadowsB
+#define M_WithMilasDivineProtection Truth_Despair_and_Hope
+#define M_DisquietingSteps Envoy_from_the_Dark
+#define M_DauntlessBlade In_the_Colousseum
+#define M_TheFiendsRapture 0x5D //blank
+#define M_WarringPowers The_Princes_Despair
+#define M_ToSofia Into_the_Shadow_of_Victory
+#define M_DismalNation Grim_Journey
+#define M_TwilightOfTheGods 0x5E //blank
+
 //VA
 //26D to 2BB all empty
 
