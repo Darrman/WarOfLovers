@@ -47,7 +47,7 @@ Master Sword[X]
 Very high critical hit rate.[X]
 
 ## ThunderSwordName
-Thunder Sw.[X]
+Thunder Sword[X]
 
 ## ThunderSwordDesc
 Shoots lightning at foes.[X]
@@ -116,7 +116,7 @@ Lady Sword[X]
 Effective against outlaws. Women only.[X]
 
 ## AgainName
-Again[X]
+Again Staff[X]
 
 ## AgainDesc
 Allows all allies to move again.[X]
@@ -141,6 +141,9 @@ Power Ring[X]
 
 ## SpeedRingName
 Speed Ring[X]
+
+## DragonShieldName
+Dragon Shield[X]
 
 ## BootsName
 Boots[X]
@@ -212,7 +215,7 @@ Its bearer can open chests.[X]
 Opens chests.[X]
 
 ## ShieldOfSealsName
-Sh. of Seals[X]
+Shield of Seals[X]
 
 ## ShieldOfSealsDesc
 The seal on the Earth Dragons and[N]
@@ -323,3 +326,51 @@ Lyn. Grants Astra when equipped.[X]
 ## LynRingUseDesc
 Grants Astra when[N]
 held.[X]
+
+## HealName
+Heal Staff[X]
+
+## MendName
+Mend Staff[X]
+
+## RecoverName
+Recover Staff[X]
+
+## PhysicName
+Physic Staff[X]
+
+## FortifyName
+Fortify Staff[X]
+
+## RestoreName
+Restore Staff[X]
+
+## SilenceName
+Silence Staff[X]
+
+## SleepName
+Sleep Staff[X]
+
+## BerserkName
+Berserk Staff[X]
+
+## WarpName
+Warp Staff[X]
+
+## RescueName
+Rescue Staff[X]
+
+## TorchStaffName
+Torch Staff[X]
+
+## HammerneName
+Hammerne St.[X]
+
+## UnlockName
+Unlock Staff[X]
+
+## ArmourslayerName
+Armourslayer[X]
+
+## BarrierName
+Barrier Staff[X]
