@@ -301,3 +301,7 @@ POP
   
   //SNES trading (Aera)
   #include "GachaJam/SNESTrade/SNESTrade.event"
+
+  //Extensions to various character limits
+  //Items to eight tiles: GigaExcalibur
+  #include "GachaJam/CharacterLimitExtensions/StatusScreenInline.event"

@@ -15,6 +15,12 @@ NewStatScreenPal:
 
 RemoveGlowy:
 #incext Png2Dmp "RemoveGlowy.png" --lz77
+ReallyRemoveGlowy:
+//no credits in builder, assuming 7743 - disables glowy code
+PUSH
+ORG 0x88590
+WORD 0
+POP
 
 //not part of the stat screen but I haven't changed battle prep yet so here
 //only reason I'm changing this now is because it's same palette as play time
