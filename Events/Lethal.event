@@ -1,0 +1,182 @@
+EventPointerTable(0x7, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AREA 0x7 TestScrapSpot [10,5] [10,5]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [10,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda EirikaMasterLord 0x00 Level(1,Ally,0) [19,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki EirikaMasterLord 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Eliwood EirikaMasterLord 0x00 Level(1,Ally,0) [18,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Lilina EirikaMasterLord 0x00 Level(1,Ally,0) [5,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+//Boss: Wuxia Chicken. Dead guy spawns as a mask (zombie) fairly quickly. Old Birds flip between red and green every so often.
+//Stretch goal: normal mode is a reasonable chapter and you can fight some of the enemies.
+//Hard mode is truly Lethal Company: insta-kills everywhere and all enemies are ambush spawns.
+UNIT Alear Entombed 0x00 Level(1,Enemy,0) [9,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [15,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [15,19] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Akaneia Gwyllgi 0x00 Level(1,Enemy,0) [11,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Akaneia Cyclops 0x00 Level(1,Enemy,0) [9,22] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [7,16] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Akaneia Thief 0x00 Level(1,Enemy,0) [22,20] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+ENDA
+
+EndingScene:
+Text(PlaceholderText)
+MNTS 0x0
+ENDA
+
+TestScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 100 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+LABEL 100
+ENUF 0x7 //reset event ID
+LABEL 101
+ENDA
+
+GenerateScrap:
+RANDOMNUMBER 9
+SVAL s1 0
+BEQ 6800 s1 sC //item 1
+SVAL s1 1
+BEQ 6801 s1 sC //item 2
+SVAL s1 2
+BEQ 6802 s1 sC //item 3
+SVAL s1 3
+BEQ 6803 s1 sC //item 4
+SVAL s1 4
+BEQ 6804 s1 sC //item 5
+SVAL s1 5
+BEQ 6805 s1 sC //item 6
+SVAL s1 6
+BEQ 6806 s1 sC //item 7
+SVAL s1 7
+BEQ 6807 s1 sC //item 8
+SVAL s1 8
+BEQ 6808 s1 sC //item 9
+SVAL s1 9
+BEQ 6809 s1 sC //item 10
+ENDA
+
+Scrap1:
+LABEL 6800
+SVAL s3 SilverLance
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap2:
+LABEL 6801
+SVAL s3 Sieglinde
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap3:
+LABEL 6802
+SVAL s3 Boots
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap4:
+LABEL 6803
+SVAL s3 SlimSword
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap5:
+LABEL 6804
+SVAL s3 Aura
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap6:
+LABEL 6805
+SVAL s3 Fire
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap7:
+LABEL 6806
+SVAL s3 SteelBlade
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap8:
+LABEL 6801
+SVAL s3 HandAxe
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap9:
+LABEL 6801
+SVAL s3 RedGem
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap10:
+LABEL 6801
+SVAL s3 MasterSeal
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA

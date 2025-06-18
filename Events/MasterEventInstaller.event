@@ -5,7 +5,8 @@
 #include "Debug.event"
 }
 {
-#include "Chapter1.event"
+//#include "Chapter1.event"
+#include "Lethal.event"
 }
 {
 #include "Chapter2.event"
