@@ -1,3 +1,38 @@
+95% of those listed below are unused but are still left over from War of
+Lovers and in the rom. Unused stuff does not need to be ported.
+# Actually Used Stuff 
+- Mario: Super Mario RPG (Darrman)
+- Sigurd: FE4 (Darrman)
+- Mima: Tezuka_Yamigami
+- Enteh: TRS (Darrman)
+- Hornet: Hollow Knight (Darrman)
+- Old Bird: Lethal Company (Darrman)
+- Bracken: Lethal Company (Darrman)
+
+# Probably Used Stuff
+- Reimu: Redbean
+- Marisa: Redbean
+- Sakuya: Redbean
+- Youmu: Redbean
+- Yukari: Redbean
+- Alice: Redbean
+- Remilia: Redbean
+- Yuyuko: Redbean
+- Sonic: GoudaGrabber
+- Tails: GoudaGrabber
+- Knuckles: Sonic Adventure? (Sme)
+- Robotnik: AlemOwl
+- Mr. Game and Watch: Super Smash Bros. 4 (Darrman)
+- Popo: Super Smash Bros. Melee (Darrman)
+- Flynn: Shin Megami Tensei 4 (Darrman)
+- Isabeau: Shin Megami Tensei 4 (Darrman)
+- Walter: Shin Megami Tensei 4 (Darrman)
+- Jonathan: Shin Megami Tensei 4 (Darrman)
+- Shirou: Fate/Stay Night (Darrman)
+
+
+# War of Lovers Remnants
+
 # Portraits:
 - Marth: Alusq
 - Sheeda: FE3 Book 2 (Darrman)
