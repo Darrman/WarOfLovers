@@ -374,3 +374,112 @@ Armourslayer[X]
 
 ## BarrierName
 Barrier Staff[X]
+
+## GeoRockName
+Geo Rock[X]
+
+## GeoRockDesc
+A single unit of Hallownest's[N]
+currency. An infuriating sight[N]
+elsewhere in the universe.[X]
+
+## CanoeName
+Canoe[X]
+
+## CanoeDesc
+A canoe that fits a party of[N]
+four. This one has sprung a[N]
+leak and can't be used.[X]
+
+## PokeBallName
+Poke Ball[X]
+
+## PokeBallDesc
+An item used to capture a[N]
+Pokemon. This one is empty.[N]
+Where's a wild Pokemon?[X]
+
+## HooBeanName
+Hoo Bean[X]
+
+## HooBeanDesc
+A bean endemic in the Bean-[N]
+bean Kingdom. Most often[N]
+used in brewing coffee.[X]
+
+## RingName
+Ten Rings[X]
+
+## RingDesc
+A set of rings inside a monitor[N]
+from what was once named Mobius.[N]
+Allegedly defends from one hit.[X]
+
+## PowerStarName
+Power Star[X]
+
+## PowerStarDesc
+A star stolen from Peach's Castle.[N]
+Its only power is to open doors[N]
+there. No invincibility provided.[X]
+
+## LightwallName
+Lightwall[X]
+
+## LightwallDesc
+Grants infinite height.[X]
+
+## HoverBootsName
+Hover Boots[X]
+
+## HoverBootsDesc
+Magical boots made in Hyrule.[N]
+Lets the wearer float over gaps[N]
+for about one second.[X]
+
+## MissileName
+Missile[X]
+
+## MissileDesc
+A missile designed for use in a[N]
+Power Suit. Stronger than a beam[N]
+shot, but quite weak overall.[X]
+
+## RingOfBindingName
+Ring of Binding[X]
+
+## RingOfBindingDesc
+Reduces HP loss upon revival.[N]
+However, with all deaths final,[N]
+what use could this be?[X]
+
+## FlashbangName
+Flashbang[X]
+
+## FlashbangDesc
+Briefly stuns enemies.[X]
+
+## StopSignName
+Stop Sign[X]
+
+## StopSignDesc
+Put a halt to a speeding foe.[X]
+
+## GoldBarName
+Gold Bar[X]
+
+## GoldBarDesc
+An extremely heavy, yet also[N]
+extremely valuable bar of gold.[X]
+
+## TyrfingName
+Tyrfing[X]
+
+## TyrfingDesc
++10 Skl/Spd, +20 Res, Prayer, M. Baldo[X]
+
+## MalletName
+Mallet[X]
+
+## MalletDesc
+Mario's horse/armour crusher.[X]

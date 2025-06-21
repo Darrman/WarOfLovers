@@ -218,6 +218,21 @@
 
 //Remaining playable characters undetermined
 
+//L'Arrangement (Lethal Emblem) charaters
+//Playable: Mario
+#define Sigurd BaldoDescendant
+#define Mima 0x80
+#define Hornet 0x81
+#define Enteh 0x82
+//Enemy
+#define Chicken 0x83
+#define MaskVictim 0x84
+#define Giant 0x85
+#define Dog 0x86
+#define BaboonHawk 0x87
+#define OldBird1 0x88
+#define OldBird2 0x89
+#define OldBird3 0x8a
 
 //Enemies
 #define Kris 0x97
@@ -479,6 +494,21 @@
 #undef Forblaze //the dummy Forblaze has been overwritten
 #define Forblaze 0xcb
 #define LynRing 0xcc
+#define GeoRock 0xce
+#define Canoe 0xcf
+#define PokeBall 0xd0
+#define HooBean 0xd1
+#define TenRings 0xd2
+#define PowerStar 0xd3
+#define Lightwall 0xd4
+#define HoverBoots 0xd5
+#define Missile 0xd6
+#define RingOfBinding 0xd7
+#define Flashbang 0xd8
+#define StopSign 0xd9
+#define GoldBar 0xda
+#define Tyrfing 0xdb
+#define Mallet 0xdc
 
 //Music
 //Akaneia

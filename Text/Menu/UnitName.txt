@@ -1681,3 +1681,71 @@ Wendy[X]
 Knight of Ostia. A serious figure, who[N]
 follows the ideals of knighthood above[N]
 everything else. Has a brother, Bors.[X]
+
+## MimaName
+Mima[X]
+
+## MimaDesc
+An "evil spirit" released from hell.[N]
+She forgot her crime and now wants[N]
+to return to Gensokyo once again.[X]
+
+## EntehName
+Enteh[X]
+
+## EntehDesc
+The Shaman of Water. (Placeholder for[N]
+proper personality description beyond[N]
+"kind and calm" - finish TRS!)[X]
+
+## HornetName
+Hornet[X]
+
+## HornetDesc
+A remnant of the Kingdom of Hallow-[N]
+nest. Seeks a new adventure, yet[N]
+that adventure is slow going...[X]
+
+## GiantName
+F. Giant[X]
+
+## GiantDesc
+A Forest Giant or Keeper, stomping[N]
+around and eating anything it sees.[X]
+
+## DogName
+B. Dog[X]
+
+## DogDesc
+A Blind or Eyeless Dog. It cannot[N]
+see, but it can hear everything.[X]
+
+## OldBirdName
+Old Bird[X]
+
+## OldBirdDesc
+A giant robot located on Artifice.[N]
+It shoots missiles at everything.[X]
+
+## BaboonHawkName
+B. Hawk[X]
+
+## BaboonHawkDesc
+Baboon Hawks, known for gathering in[N]
+groups and stealing items.[X]
+
+## ChickenName
+Chicken[X]
+
+## ChickenDesc
+A mighty chicken, who has long[N]
+terrorised the hills of China.[N]
+Known for defeating many.[X]
+
+## SigurdName
+Sigurd[X]
+
+## SigurdDesc
+Heir to Chalphy and a fugitive of[N]
+the Grandbell Empire. Wants to find[N]
+his wife and son above all else.[X]

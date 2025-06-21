@@ -45,3 +45,14 @@ BYTE 0 5 0 0 0 0 0 0 0 0 0 0
 ForblazeBonus:
 //+5 luck - pretty rubbish, willing to buff
 BYTE 0 0 0 0 0 0 5 0 0 0 0 0
+
+TyrfingBonus:
+//+10 skill/speed, +20 resistance
+BYTE 0 0 10 10 0 20 0 0 0 0 0 0
+
+GoldBarPenalty:
+//Do these work in this skillsys version? I hope they do.
+//-10 speed, -3 move
+BYTE 0 0 0 (-10) 0 0 0 (-3) 0 0 0
+
+

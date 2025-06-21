@@ -40,11 +40,10 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [10,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Sheeda EirikaMasterLord 0x00 Level(1,Ally,0) [19,2] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Chiki EirikaMasterLord 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Eliwood EirikaMasterLord 0x00 Level(1,Ally,0) [18,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Lilina EirikaMasterLord 0x00 Level(1,Ally,0) [5,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sigurd FreeKnight 0x00 Level(1,Ally,0) [10,4] 0x0  0x0 0x0 0x0 [IronSword, SlimSword] NoAI
+UNIT Mario Lord 0x00 Level(1,Ally,0) [19,2] 0x0  0x0 0x0 0x0 [Mallet, DevilAxe, Vulnerary] NoAI
+UNIT Mima Sage_F 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [Elfire, Lightning, StopSign] NoAI
+UNIT Hornet Soldier 0x00 Level(1,Ally,0) [18,1] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
 UNIT
 
 Bad:
@@ -59,6 +58,11 @@ UNIT Akaneia Cyclops 0x00 Level(1,Enemy,0) [9,22] 0x0  0x0 0x0 0x0 [SilverSword,
 UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [7,16] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Akaneia Thief 0x00 Level(1,Enemy,0) [22,20] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT
+
+EntehGroup:
+UNIT Enteh Cleric 0x00 Level(1,Ally,0) [5,4] 0x0 0x0 0x0 0x0 [Heal, TorchStaff] NoAI
+UNIT
+
 
 Traps1:
 ENDTRAP
@@ -180,3 +184,4 @@ SVAL s3 MasterSeal
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
+
