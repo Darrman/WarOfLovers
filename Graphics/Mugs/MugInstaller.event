@@ -627,6 +627,14 @@ Shirou_Mug:
 #incext PortraitFormatter "Shirou.png"
 setMugEntry(0xEB, Shirou_Mug, 3,6,3,4)
 
+Kaiba_Mug:
+#incext PortraitFormatter "Kaiba.png"
+setMugEntry(0xEC, Kaiba_Mug, 4,6,4,4)
+
+KainFF4_Mug:
+#incext PortraitFormatter "KainFF4.png"
+setMugEntry(0xED, KainFF4_Mug, 4,8,4,6)
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"

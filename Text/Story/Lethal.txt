@@ -1,0 +1,652 @@
+//Alright, so the long and short of it is that since I get Chapter 1, I set the
+//tone. And this is a BigMood/SigmaRaven contest. Stupidity is mandatory.
+## LethalWorldMap
+The universe is an unfathomably large[N]
+place. Galaxies, stars, planets...[AN]
+This tale will span a multitude of them.[N]
+But all must start somewhere, and that[AN]
+somewhere is Ireland, a small island nation[N]
+located off the continent of Europe,[AN]
+in turn located on Planet Earth, the Milky Way.[N]
+Following in a long series of events involving[AN]
+evening train crashes and encounters with many[N]
+powerful figures the native Earthlings had long[AN]
+considered to be fictional, a certain group of[N]
+battle-hardened veterans had victory in sight.[AN]
+Mario Mario and his army had reconstructed the[N]
+fabled "Derry Road", destroyed sixty years prior,[AN]
+undoing the damage of the Benson Report. Yet he[N]
+stands revived, along with his southern[AN]
+counterpart Andrews, on the orders of Ridley,[N]
+leader of the Space Pirates.[AN]
+With a miracluous recovery of long-vanished[N]
+rolling stock, Mario set course for Derry.[AN]
+It was a fateful July evening, as the two sides[N]
+finally came to a head...[A][X]
+
+## LethalObligatoryETCBanterMario
+[FL][LoadToad][Left][LoadPeach][Right][LoadMario][FR][LoadLuigi]
+//MARIO:
+[Right]
+So, it's a finally happening![N]
+All we need to do is climb[AN]
+onto the walls of Derry and[N]
+we can finally go home again![AN]
+//PEACH:
+[Left]
+I'm sure Fawful and his friends[N]
+won't let us near the Arch.[AN]
+Once we arrive, we are going to[N]
+have to fight our way across.[AN]
+//LUIGI:
+[FR]
+There's hundreds of people on[N]
+this train, and they're all[AN]
+with us! Quite a long way from[N]
+when we first started, eh?[AN]
+//TOAD:
+[FL]
+Wow, we put a whole lot of time[N]
+into this, but it really did pay[AN]
+off. It's a good thing we ran[N]
+into (BUILDERS) when we did![AN]
+//Probably credit the time-stopping and space-warping Touhous
+//MARIO:
+[Right]
+I haven't thanked them enough.[N]
+Otherwise, we'd be a walking[AN]
+for days, and we'd be worn out[N]
+before ever arriving at Derry![A][X]
+
+## LethalObligatoryETCBanterFE
+//Eight coaches, eight scenes?
+[FL][LoadLana][Left][LoadCelice][MR][LoadSigurd]
+//SIGURD:
+So we've been across this whole[N]
+country, fighting foes from Jugdral[AN]
+and beyond, evading the authorities[N]
+from both sides of the border...[AN]
+It brings back unpleasant memories.[N]
+But it will all come to an end.[AN]
+//CELICE:
+[Left]
+... ... ...[A]
+//SIGURD:
+[MR]
+This Arch of Coups clearly has some[N]
+power over time and space.[AN]
+My son is grown, married even.[N]
+I have defeated Alvis once[AN]
+and for all. Who is left to[N]
+threaten Jugdral's peace?[AN]
+//LANA:
+[FL]
+Julia told me about Archbishop[N]
+Manfloy pulling the strings[AN]
+in the background in your time.[N]
+I think he's still out there.[AN]
+The Lopt Sect have to be in with[N]
+the Space Pirates.[AN]
+//SIGURD:
+[MR]
+You're right, Lana. If we kill[N]
+him, maybe the rearrangement[AN]
+will bring me and Deirdre back[N]
+together again...[A][X]
+
+## LethalObligatoryETCBanterYGO
+[FL][LoadTea][Left][LoadYugi][Right][LoadJoey]
+[Left]
+//YUGI:
+Alright, I'll start.[N]
+Draw![A]
+//TEA:
+[FL]
+Yugi, didn't they change that[N]
+rule a few years ago?[AN]
+//YUGI:
+[Left]
+We're playing Time Wizard rules,[N]
+Tea. We can play whatever format[AN]
+we want. And that means playing[N]
+Battle City rules![AN]
+//JOEY:
+[Right]
+Exactly! The Duel Monsters of[N]
+today is completely different.[AN]
+I'm not sure if you could say[N]
+it's even the same game.[A]
+//TEA:
+[FL]
+Well, I'm not going to stop you.[N]
+Have fun, you two![AN]
+//YUGI:
+[Left]
+Now, I summon Giant Soldier of Stone[N]
+in defence mode, set two cards face-[AN]
+down, and I end my turn.[N]
+//JOEY:
+[Right]
+My turn! Draw! Now the first thing[N]
+I'll do is activate Pot of Greed![AN]
+That lets me draw two more cards![N]
+Now I summon Baby Dragon![AN]
+//KAIBA:
+[FR][LoadKaiba]
+This duel should have ended by now![N]
+Can either of you at least try to[AN]
+synchro summon a monster? All you[N]
+need to do is learn how to add.[A]
+//TEA:
+[FL]
+Do you have to interrupt this duel?[N]
+Synchro monsters didn't exist back[AN]
+in Battle City. Now that I think of[N]
+it, Yugi did say some time traveller[AN]
+fought with him against another one[N]
+using synchros...[AN]
+//KAIBA:
+[FR]
+Time travelling? Preposterous! There[N]
+has to be a scientific explanation.[A]
+//YUGI:
+[Left]
+There are many mages on this train,[N]
+Kaiba. Magic very clearly exists...[A][X]
+
+## LethalObligatoryETCBanterFF
+[Left][LoadCecil][Right][LoadKainFF4]
+[Left]
+//CECIL:
+Are you saying this actually happens?[N]
+That sounds so repetitive![AN]
+//KAIN:
+[Right]
+Well, he wouldn't shut up about how[N]
+these "After Years" went down.[AN]
+Most of it was our quest except a[N]
+bit different and with your son,[AN]
+but at the end things got crazy.[N]
+Where do I even begin...[AN]
+//RYDIA:
+[FL][LoadRydia]
+Oh, you're talking about that again?[N]
+Why did the aliens look like me?[AN]
+//KAIN:
+[Right]
+I don't think they ever explain...[N]
+Anyway, some bigger alien called[AN]
+"the creator" had destroyed every[N]
+other early Final Fantasy world.[AN]
+//CECIL:
+[Left]
+Why? What do Butz and Terra have to[N]
+do with us? They had their own[AN]
+adventures. And this sequel just[N]
+indirectly lets Kefka win?[AN]
+//RYDIA:
+[FL]
+Is this game at least fun? That[N]
+doesn't stop that story from[AN]
+being awful! Do things get better?[N]
+And not just for us![AN]
+//KAIN:
+[Right]
+I don't think they do. If a second[N]
+moon ever appears, let's make sure[AN]
+none of these After Years events[N]
+ever end up happening![AN]
+//CECIL:
+[Left]
+Agreed. I'm giving the others a tip-[N]
+off, too. Just to be safe.[A][X]
+
+//Four more, but I'll leave those for later.
+//ETC/AOC appearances not needed: use for WOL asset creation!
+
+## LethalReturnToFoyleRoad
+//LOCAL:
+Wait a minute, I thought that track[N]
+was old and disused and three foot.[AN]
+Why exactly is a (LOCO TYPE HERE)[N]
+running into an intact Foyle Road?[AN]
+//MARIO:
+Wahoo! We've made it! I've reached[N]
+my destination at last![AN]
+//LOCAL:
+But this building wasn't here[N]
+yesterday. Or this track.[AN]
+And there's hundreds of people[N]
+just getting off.[AN]
+//SIGURD:
+We met some extremely powerful[N]
+people. Now where is the Arch[AN]
+of Coups? Mario claims that it's[N]
+in this city somehow...[AN]
+//LOCAL:
+There's no gate by that name.[N]
+I wouldn't go on the walls[AN]
+today, there's a parade on...[N]
+How about you wait a bit?[AN]
+//MARIO:
+But if we wait, we won't get home[N]
+and Fawful will win![AN]
+Look, I see a big wall over there.[N]
+Maybe the Arch is this a way![A][X]
+
+## LethalSpacePirateMarch
+PLACEHOLDER[X]
+
+//Once I kill everyone off (actually they're all okay, just elsewhere in the
+//galaxy), switch to brown boxes for a bit in imitation of Lethal Company logs
+## LethalLogQuota1
+12/08/765 (Jugdral calendar)[N]
+Whatever went wrong in Derry[N]
+went very, very wrong.[AN]
+Not quite sure what happened.[N]
+I've been out cold for a month,[N]
+give or take a few days.[AN]
+I'm working for this company now,[N]
+and I'm not sure for how long.[N]
+I need to find 100 gold of scrap.[AN]
+There's three others with me, and[N]
+I don't know any of them.[N]
+I have no choice but to work...[A][X]
+
+## LethalLogQuota2
+16/08/765[N]
+We explored a moon named[N]
+Experimentation.[AN]
+It clearly hasn't been inhabited[N]
+by humans in a long time: all[N]
+that's to be found are spiders.[AN]
+There's a disused railway line[N]
+in front of the facility too.[N]
+I do want to know something:[AN]
+what exactly was the experiment[N]
+taking place here? The rest of[N]
+the crew didn't really care.[A][X]
+
+## LethalLogQuota3
+21/08/765[N]
+The company doesn't give any rest.[N]
+A doubled quota and away we go.[AN]
+Vow's main features include the[N]
+dangerous bridge, the twisting caves,[N]
+and the dangerous monsters.[AN]
+This company doesn't supply us with[N]
+any means of defence beyond shovels.[N]
+I do wonder how magic would work...[AN]
+Regardless, I will make a vow here:[N]
+I will return to Jugdral. I will[N]
+find Deirdre and Celice once again.[A][X]
+
+## LethalLogQuota4
+22/08/765[N]
+A tragedy has occurred today. The[N]
+weather is severe and the way to[AN]
+the fire exit had flooded. One of[N]
+the crew had found a lot of scrap,[N]
+only for the bridge to collapse.[AN]
+There was no chance of survival[N]
+and we couldn't retrieve the body.[N]
+I didn't even know his name.[AN]
+I'm fixing that with the rest of[N]
+the crew tonight. I can't make it[N]
+back home without some help.[A][X]
+
+## LethalLogQuota5
+28/08/765[N]
+We're marching ever further into[N]
+danger, but also into profit.[AN]
+March is a foggy place, and I nearly[N]
+fell into the lake near our ship.[N]
+Of course, Mima just laughed at me.[AN]
+Inside, Shirou got hit by a thumper,[N]
+but he managed to limp his way out.[N]
+The company sent a new crewmate too.[AN]
+Her name's Hornet: she certainly has[N]
+no fear of the insects of this system.[N]
+But we're reaching the limits of four.[A][X]
+
+## LethalLogQuota6
+01/09/765[N]
+I'm completely frozen. Take Silesia,[N]
+make it twice as cold, and you get Rend.[AN]
+Regulations say only four are allowed[N]
+at once on a ship. But they clearly have[N]
+more employees than that. Hm.[AN]
+Speaking of, I thought another group[N]
+arrived with us on the same day.[N]
+Then I saw that ghastly mask...[AN]
+What's going on here? I will get home,[N]
+even if I have to rend the heads from[N]
+the company's shoulders![A][X]
+
+## LethalLogQuota7
+07/09/765[N]
+Everyone else is off to Titan.[N]
+But not me. I'm staying on Gordion.[AN]
+That tentacle monster is sinister.[N]
+I need more allies. I've not seen[N]
+a truly living company employee...[AN]
+If all goes well, I'll find some[N]
+allies to fly back to Jugdral.[N]
+Even help on these quotas will[AN]
+go a long, long way. Shirou thinks[N]
+this is a terrible idea, but I will[N]
+always do what I think is right.[A][X]
+
+## LethalLogQuota8
+11/09/140 (Gensokyo calendar)[N]
+Sigurd said he'd be waiting,[N]
+but was he? No.[AN]
+I can only assume some youkai or[N]
+another made him her dinner while[N]
+we were climbing that skyscraper.[AN]
+The company replaced him with this[N]
+Mario character. He volunteered his[N]
+name immediately.[AN]
+Something about peaches or browsers...[N]
+I wasn't really listening. Anyway,[N]
+Titan is a titan of profit![A][X]
+
+## LethalLogQuota9
+15/09/2025[N]
+This quota is dizzyingly high.[N]
+Three thousand geo? A bar of[AN]
+solid gold is only worth 200.[N]
+Then again, Hallownest and the[N]
+Company are completely different.[AN]
+I think we can survive this week,[N]
+but next... We all got lost in[N]
+Titan's tunnels. Mario jumped[AN]
+his way out, Mima floated off,[N]
+and Shirou just hid in the ship.[N]
+You don't have a sabre...[A][X]
+
+## LethalLogQuota10
+23/09/765[N]
+I have a lot of very important[N]
+things to tell you.[AN]
+I found a safe place to hide - I[N]
+can't write it down for obvious[N]
+reasons.[AN]
+But I sat myself down and saw[N]
+behind the curtain. I saw several[N]
+other employees of the Company.[AN]
+All of them were fulfilling quotas,[N]
+just like us. No sign of management.[N]
+All of them mourning missing crew.[AN]
+And then, I saw a door open. Actual[N]
+management! And a new hire. She was[N]
+really quite confused about things.[AN]
+I asked about what was going on, but[N]
+he assumed I was a new employee and[N]
+ignored me. Sigurd Chalphy was[AN]
+missing, along with (DEAD GUY) - so[N]
+that was his name. One mystery[N]
+finally solved, at least. Zigludo[AN]
+the new recruit, however, flew off[N]
+to Adamance. And on Adamance is the[N]
+route to Artifice.[AN]
+I've gotten some help from the[N]
+other crews. (POKEMON) can win a[N]
+fight with any monster.[AN]
+The Emerald Herald will serve as[N]
+mission control. (PLACEHOLDER FOR[N]
+DEAD MAN WALKING DESCRIPTION)[AN]
+And Enteh - the new hire - is a[N]
+shaman, so she can heal our wounds[N]
+if we can find a staff.[AN]
+I see Mario Mario's made his way[N]
+onto this crew somehow as well.[N]
+So, there are more Derry survivors.[AN]
+That makes nine of us aboard.[N]
+Tomorrow, we set off for Artifice.[N]
+This will all come to a conclusion.[A][X]
+
+## LethalPlanetIntroduction
+24/09/2025[N]
+Moon 68-Artifice[N]
+Danger: S++[A][X]
+
+## LethalPreArtificeBriefing
+[FL][LoadFace][0x01][0x01][Left][LoadSigurd][Right][LoadMario][FR][LoadShirou]
+[Left]
+//SIGURD:
+So, we need to get five thousand[N]
+gold to avoid disciplinary[AN]
+procedures. If we don't get that,[N]
+desperate measures will be needed.[AN]
+//MARIO:
+[Right]
+So we run in, find as much rubbish[N]
+as we can, and sell it off![AN]
+//EMERALD HERALD:
+[FL]
+Please, give me the scrap once[N]
+you return to the ship.[AN]
+I cannot make you stronger, but[N]
+to preserve what hope we have...[A]
+//SHIROU:
+[FR]
+I will get off of this moon.[N]
+I will return to (FATE TOWN)![A]
+[Clear][LoadFace][0x01][0x01]
+//POKEMON:
+(PLACEHOLDER CRY)[A]
+//HORNET:
+[Clear][LoadHornet]
+For hopefully the final time, let[N]
+us set forth and hunt for scrap.[A]
+//ENTEH:
+[Clear][LoadEnteh]
+I'm sure there's a good reason for[N]
+all of this. There has to be.[A]
+//MIMA:
+[Clear][LoadMima]
+Hm hm hm... Believe me, this[N]
+has trouble written all over it.[A]
+//DEAD GUY:
+[Clear][LoadFace][0x01][0x01]
+Sure would be nice if you could[N]
+decide my identity already![A]
+[Left]
+//SIGURD:
+Everybody, move out![A][X]
+
+## LethalProperPlatforming
+[ML][LoadHornet][MR][LoadMario]
+//MARIO:
+Is that.. a hammer? What's that[N]
+doing across that pit?[AN]
+//HORNET:
+[ML]
+I do not know, but platforming[N]
+is the only way across.[A]
+//MARIO:
+[MR]
+If there's one thing I'm a good[N]
+at, it's a jumping! Wahoo![A]
+//HORNET:
+[ML]
+I believe I am competent at this[N]
+too. Sha![A][X]
+
+## LethalMineMishap
+[ML][LoadSigurd][MR][LoadFace][0x01][0x01]
+[ML]
+//SIGURD:
+(POKEMON), be careful. There[N]
+are mines everywhere and[AN]
+trying to swim through the[N]
+caves is certain death.[AN]
+[MR]
+//POKEMON:
+(POKEMON SPEAK)[A]
+[ML]
+//SIGURD:
+Rosa is not going to be happy.[N]
+Not happy at all...[A][X]
+
+## LethalSnareSurvival
+[ML][LoadEnteh][MR][LoadShirou][ML]
+//ENTEH:
+What's that thing on the[N]
+ceiling? Oh... No![AN]
+Help! I can't see a thing![N]
+How do I shake it off?[AN]
+//SHIROU:
+[MR]
+I'm at the fire exit. Follow[N]
+the sound of my voice.[AN]
+//ENTEH:
+[ML]
+I... Runan... I'll not see[N]
+Lieberia's... wait.[AN]
+The sunlight killed it![N]
+I'm alive! Thank goodness.[A][X]
+
+## LethalBrackenBreak
+[ML][LoadMario][Right][LoadShirou]
+//SHIROU:
+Mario, I can't protect anyone[N]
+inside this cave. Saber, Rin,[AN]
+Sakura... They might be in danger![N]
+I need to find them![AN]
+[FR][LoadBracken][ML]
+//MARIO:
+Behind you! There's a bracken![N]
+Watch out![A]
+[Right]
+//SHIROU:
+Huh? People die when they[N]
+are kill--[A][X]
+
+## LethalDodgingDanmaku
+[ML][LoadFace][0x01][0x01][MR][LoadMima]
+[ML]
+//DEAD GUY:
+Hey, watch out for all of[N]
+the turrets. They hurt![AN]
+//MIMA:
+Hm hm hm... I've dodged far[N]
+more dangerous things.[AN]
+Turrets? Nutcrackers? So what?[N]
+I've been to hell and back![AN]
+I've faced down a goddess![N]
+These machines can't compare![A][X]
+
+## LethalMaskMauling
+[ML][LoadFace][0x01][0x01][MR][LoadHornet][ML]
+//DEAD GUY:
+Alright, I've dropped everything[N]
+off at the lift now.[AN]
+[MR]
+//HORNET:
+I shall bring these back.[N]
+Be careful in the mines.[A]
+[ML]
+//DEAD GUY:
+Thanks. So I know (POKEMON)[N]
+got blown up, but everyone[AN]
+else is still alive. Time to[N]
+head into the caves.[AN]
+[FFL]
+//OFF-SCREEN MASK:
+Ha ha ha ha ha...[A]
+[ML]
+//DEAD GUY:
+Oh, I think Sigurd went this[N]
+way. Hey, Sigurd![AN]
+[MoveFarFarLeft]
+Wait a minute...[N]
+Bleeeugh![A][X]
+
+## LethalTheJesterAttacks
+//SIGURD:
+[ML][LoadSigurd]
+I swear I just heard (DEAD GUY).[N]
+Wait, no, a mask got him![AN]
+//change music here to symbolise jester windup
+Worse: a jester! Oh no... We're[N]
+not even close to the quota.[AN]
+We may get hauled in to our doom[N]
+via disciplinary procedures,[AN]
+but the jester will kill us all,[N]
+without a shadow of a doubt![A]
+//MIMA:
+[Right][LoadMima]
+What are you shouting about?[N]
+...Oh, I hear it now.[AN]
+In better times, these wouldn't[N]
+be any threat to me...[AN]
+//SIGURD:
+[ML]
+Everyone, run for your life![N]
+Jester in the caves![A]
+//ENTEH:
+[FR][LoadEnteh]
+Where's the exit again? I've[N]
+no idea where I'm going![AN]
+[ML][Clear][Right][Clear][FR]
+...And he's gone. I hope I[N]
+make it out of here...[A][X]
+
+## LethalMainEntrance
+[MR][LoadSigurd][ML][LoadMima][MR]
+//SIGURD:
+Where did the time go? It's[N]
+almost sunset.[AN]
+[ML]
+//MIMA:
+Well, I like the dark. And[N]
+so does all the wildlife.[AN]
+[MR]
+//SIGURD:
+And I don't want to be eaten[N]
+by a giant or a dog.[AN]
+We should really stick together[N]
+and get back to the ship.[AN]
+If we stay out for too long,[N]
+we'll get left behind.[AN]
+[ML]
+//MIMA:
+How bad could it be? But fine.[N]
+Can't tease Reimu on Artifice.[A][X]
+
+## LethalFireExit
+[ML][LoadHornet][MR][LoadMario]
+//MARIO:
+Yippee! With this treasure,[N]
+we can pay off the quota![A]
+//HORNET:
+[ML]
+Mario, that is a rubber duck.[N]
+The quota... looks shaky.[AN]
+Did you get everything in[N]
+the fire exit yet?[AN]
+//MARIO:
+[MR]
+I did. Where's everyone else?[N]
+Should we get moving?[AN]
+//HORNET:
+[ML]
+The flood is getting worse.[N]
+We must return to the ship.[AN]
+Everyone else is still in the[N]
+caves. I doubt they are alive.[AN]
+//MARIO:
+[MR]
+Oh no... Mamma mia...[A][X]
+
+## LethalTutorial
+Some tiles will have [Red]scrap[Red].[N]
+This scrap ranges in value.[N]
+Some of it is made up of weak[N]
+weaponry.[AN]
+But there's also a slim chance[N]
+of finding something very[N]
+valuable too. The quota is 5,000[N]
+gold: miss it and it's game over![A][X]

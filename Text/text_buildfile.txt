@@ -60,6 +60,8 @@ I have escaped![A][X]
 #include Story/Chapter13.txt
 #include Story/MiscPromo.txt
 
+#include Story/Lethal.txt
+
 ## SavePointLabel
 Save Point[X]
 

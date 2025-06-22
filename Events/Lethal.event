@@ -73,8 +73,83 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+Text(LethalObligatoryETCBanterMario)
+Text(LethalObligatoryETCBanterFE)
+Text(LethalObligatoryETCBanterYGO)
+Text(LethalObligatoryETCBanterFF)
+//Banter 5-8
+//Kaboom
+SetBackground(CGBlackScreen)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota1
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota2
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota3
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota4
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota5
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota6
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota7
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota8
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota9
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLogQuota10
+TEXTEND
+STAL 30
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalPlanetIntroduction
+TEXTEND
+STAL 30
+CALL $9EE2C4 //EndConvo, get rid of black screen
+Text(LethalPreArtificeBriefing)
+Text(LethalProperPlatforming)
+Text(LethalMineMishap)
+Text(LethalSnareSurvival)
+Text(LethalBrackenBreak)
+Text(LethalDodgingDanmaku)
+Text(LethalMaskMauling)
+Text(LethalTheJesterAttacks)
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
+CAM1 Sigurd
+Text(LethalMainEntrance)
+CAM1 Mario
+Text(LethalFireExit)
 ENDA
 
 EndingScene:
