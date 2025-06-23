@@ -82,3 +82,9 @@ SetAnimationPointers(Tank, TankAnims)
 TankAnims:
 weaponTypeAnim(animBow, 0x94)
 weaponAnimEnd
+
+//Emergency hotfix: give snipers real ballista anims
+PUSH
+ORG 0x8AF188
+BYTE 0x2A //normal anim
+POP

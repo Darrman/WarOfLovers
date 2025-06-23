@@ -5,12 +5,12 @@
 	ALIGN 4
 
 	titlebackgroundimage:
-	#incext compress "titlebackgroundimage2.img.bin"
+	#incext compress "titlebackgroundimage3.img.bin"
 	
 	ALIGN 4
 	
 	titlebackgroundpalette:
-	#incext png2dmp "titlebackgroundimage2.png" --palette-only
+	#incext png2dmp "titlebackgroundimage3.png" --palette-only
 	
 	ALIGN 4
 	
@@ -50,7 +50,8 @@ NewTitleScroll:
 NewDragonGraphics:
 #incext Png2Dmp "Dragon.png" --lz77
 
-
+NewFireEmblemGraphics:
+#incext Png2Dmp "Title.png" --lz77  
 
 PUSH
 ORG $c5830
@@ -58,8 +59,8 @@ POIN NewTitleScroll
 ORG 0x0C57E4
 POIN NewDragonGraphics
 ORG 0xAADBA8
-NewFEPalette:
-#incext Png2Dmp "Title.png" --palette-only
+ORG $c5808
+POIN NewFireEmblemGraphics
 POP
 #else
 	ERROR The 256 colors titlebackground installer is only for FE8!
