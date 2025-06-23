@@ -20,11 +20,11 @@ Defend[X]
 Escape[X]
 
 ## Ch1Name
-Ch. 1: Return to Akaneia[X]
+Ch. 1: The Derry Disaster[X]
 
 ## Ch1Goal
-Escape Warren by[N]
-killing the boss[X]
+Get 5k to reach the[N]
+quota, escape[X]
 
 ## Ch2Name
 Ch. 2: Through Lefcandy[X]

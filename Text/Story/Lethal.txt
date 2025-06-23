@@ -755,6 +755,7 @@ are kill--[A][X]
 //DEAD GUY:
 Hey, watch out for all of[N]
 the turrets. They hurt![AN]
+[MR]
 //MIMA:
 Hm hm hm... I've dodged far[N]
 more dangerous things.[AN]
@@ -925,6 +926,7 @@ Anyone who's not on board the[N]
 ship is going to be left behind.[AN]
 Is everyone on board?[A]
 //SIGURD:
+[ML]
 ...Yes. Let's go.[A][X]
 
 ## LethalEndingInSpaceQuota

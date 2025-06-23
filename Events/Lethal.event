@@ -34,7 +34,7 @@ AREA 0x7 TestScrapSpot [10,5] [10,5]
 AREA 0x8 HangarExitScrapSpot [2,3] [2,3]
 AREA 0x9 FoggyHangarScrapSpot [6,8] [6,8]
 AREA 0xa MainRoadScrapSpot [18,16] [18,16]
-AREA 0xb SWHangarScrapSpot [10,5] [10,5]
+AREA 0xb SWHangarScrapSpot [3,20] [3,20]
 AREA 0xc FenceHoleScrapSpot [22,5] [22,5]
 AREA 0xd SECornerScrapSpot [21,22] [21,22]
 AREA 0xe SEHangarScrapSpot [17,17] [17,17]
@@ -110,17 +110,21 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-Text(LethalObligatoryETCBanterMario)
-Text(LethalObligatoryETCBanterFE)
-Text(LethalObligatoryETCBanterYGO)
-Text(LethalObligatoryETCBanterFF)
-Text(LethalObligatoryETCBanterSmash)
-Text(LethalObligatoryETCBanterSonic)
-Text(LethalObligatoryETCBanterSMT)
-Text(LethalObligatoryETCBanterTouhou)
-Text(LethalReturnToFoyleRoad)
-Text(LethalSpacePirateMarch)
-Text(LethalFawfulWins)
+MUSC M_Ricardo
+Text(Riverside,LethalObligatoryETCBanterMario)
+Text(Riverside,LethalObligatoryETCBanterFE)
+Text(Riverside,LethalObligatoryETCBanterYGO)
+Text(Riverside,LethalObligatoryETCBanterFF)
+MUSC M_WhenTheRushComes
+Text(Riverside,LethalObligatoryETCBanterSmash)
+Text(Riverside,LethalObligatoryETCBanterSonic)
+Text(Riverside,LethalObligatoryETCBanterSMT)
+Text(Riverside,LethalObligatoryETCBanterTouhou)
+Text(Town_Gate,LethalReturnToFoyleRoad)
+MUSC M_BattleForWhoseSake
+Text(Fort_Outside,LethalSpacePirateMarch)
+Text(Fort_Outside,LethalFawfulWins)
+MUSC M_ScarsOfTheScouring
 SetBackground(CGBlackScreen)
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
@@ -178,14 +182,17 @@ TEXTSHOW LethalPlanetIntroduction
 TEXTEND
 STAL 30
 CALL $9EE2C4 //EndConvo, get rid of black screen
-Text(LethalPreArtificeBriefing)
-Text(LethalProperPlatforming)
-Text(LethalMineMishap)
-Text(LethalSnareSurvival)
-Text(LethalBrackenBreak)
-Text(LethalDodgingDanmaku)
-Text(LethalMaskMauling)
-Text(LethalTheJesterAttacks)
+MUSC M_OffToWar
+Text(Shrine_lighter,LethalPreArtificeBriefing)
+MUSC M_Companions
+Text(Castle_Hall_4,LethalProperPlatforming)
+Text(Castle_Hall_4,LethalMineMishap)
+Text(Castle_Hall_4,LethalSnareSurvival)
+Text(Castle_Hall_4,LethalBrackenBreak)
+Text(Castle_Hall_4,LethalDodgingDanmaku)
+Text(Castle_Hall_4,LethalMaskMauling)
+MUSC M_WarringPowers
+Text(Castle_Hall_4,LethalTheJesterAttacks)
 TILECHANGE 0x1
 TILECHANGE 0x2 //close top two hangars
 LOAD1 0x1 Good
@@ -204,14 +211,17 @@ ENDA
 
 EndingScene:
 Text(LethalPrepareToTakeOff)
+//got 5k? great, continue. Otherwise, die.
 SVAL s1 5000
 CHECK_MONEY
-BLT 6899 s1 sC
-Text(LethalEndingInSpaceQuota)
+BGT 6899 s1 sC
+MUSC M_IntoTheShadowOfTriumph
+Text(Shrine_lighter,LethalEndingInSpaceQuota)
 MNTS 0x0
 GOTO 6898
 LABEL 6899
-Text(LethalEndingDisciplinaryProcedures)
+MUSC M_EvilOnes
+Text(Shrine_lighter,LethalEndingDisciplinaryProcedures)
 GameOver
 LABEL 6898
 ENDA
