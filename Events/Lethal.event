@@ -15,17 +15,32 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,EntehMakesItOut,2)
+TurnEventPlayer(0x0,GoblinSlayerSlain,3)
+TurnEventPlayer(0x0,DogSpawn,5)
+TurnEventEnemy(0x0,LeftBehind,18)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Armory(PlaceholderArmoury,16,27)
+Escape(9,29) //the "take off lever"
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
 AREA 0x7 TestScrapSpot [10,5] [10,5]
+AREA 0x8 HangarExitScrapSpot [2,3] [2,3]
+AREA 0x9 FoggyHangarScrapSpot [6,8] [6,8]
+AREA 0xa MainRoadScrapSpot [18,16] [18,16]
+AREA 0xb SWHangarScrapSpot [10,5] [10,5]
+AREA 0xc FenceHoleScrapSpot [22,5] [22,5]
+AREA 0xd SECornerScrapSpot [21,22] [21,22]
+AREA 0xe SEHangarScrapSpot [17,17] [17,17]
+AREA 0xf HillScrapSpot [11,25] [11,25]
+AREA 0x10 ShipScrapSpot [16,29] [16,29]
+
 END_MAIN
 
 Dunno1:
@@ -51,21 +66,40 @@ Bad:
 //Boss: Wuxia Chicken. Dead guy spawns as a mask (zombie) fairly quickly. Old Birds flip between red and green every so often.
 //Stretch goal: normal mode is a reasonable chapter and you can fight some of the enemies.
 //Hard mode is truly Lethal Company: insta-kills everywhere and all enemies are ambush spawns.
-UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [15,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [15,19] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Akaneia Gwyllgi 0x00 Level(1,Enemy,0) [11,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Akaneia Cyclops 0x00 Level(1,Enemy,0) [9,22] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [7,16] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Akaneia Thief 0x00 Level(1,Enemy,0) [22,20] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chicken Swordmaster 0x0 Level(1,Enemy,0) [11,27] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT OldBird1 Sniper 0x00 Level(1,Enemy,0) [19,19] 0x0  0x0 0x0 0x0 [Ballista] AttackInRangeAI
+UNIT OldBird2 Sniper 0x00 Level(1,Enemy,0) [6,20] 0x0  0x0 0x0 0x0 [BraveBow] ChaseOnceApproachedAI
+UNIT OldBird3 Sniper 0x00 Level(1,Enemy,0) [15,17] 0x0  0x0 0x0 0x0 [Ballista] ChaseOnceApproachedAI
+UNIT Giant Cyclops 0x00 Level(1,Enemy,0) [9,22] 0x0  0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Giant Cyclops 0x00 Level(1,Enemy,0) [2,15] 0x0  0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Dog Gwyllgi 0x00 Level(1,Enemy,0) [22,7] 0x0  0x0 0x0 0x0 [FireFang] AttackInRangeAI
+UNIT Dog Gwyllgi 0x00 Level(1,Enemy,0) [12,4] 0x0  0x0 0x0 0x0 [FireFang] PursueWithoutHeedAI
+UNIT BaboonHawk Brigand 0x00 Level(1,Enemy,0) [7,16] 0x0  0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT BaboonHawk Brigand 0x00 Level(1,Enemy,0) [15,14] 0x0  0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT BaboonHawk Brigand 0x00 Level(1,Enemy,0) [4,17] 0x0  0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT BaboonHawk Brigand 0x00 Level(1,Enemy,0) [16,22] 0x0  0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
 UNIT
 
 EntehGroup:
-UNIT Enteh Cleric 0x00 Level(1,Ally,0) [5,4] 0x0 0x0 0x0 0x0 [Heal, TorchStaff] NoAI
+UNIT Enteh Cleric 0x00 Level(1,Ally,0) [9,4] 0x0 0x0 0x0 0x0 [Heal, TorchStaff] NoAI
 UNIT
 
 MaskedGoblin:
-UNIT Alear Entombed 0x00 Level(1,Enemy,0) [9,3] 0x0  0x0 0x0 0x0 [SharpClaw] NoAI
+UNIT GoblinSlayer Entombed 0x00 Level(1,Enemy,0) [9,3] 0x0 0x0 0x1 GoblinREDA [SharpClaw] PursueWithoutHeedAI
 UNIT
+
+GoblinREDA:
+REDA [9,5]
+
+T5Spawn:
+UNIT Dog Gwyllgi 0x00 Level(1,Enemy,0) [11,11] 0x0  0x0 0x0 0x0 [FireFang] AttackInRangeAI
+UNIT
+
+T10Spawn:
+UNIT Giant Cyclops 0x00 Level(1,Enemy,0) [9,8] 0x0  0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+
 
 Traps1:
 ENDTRAP
@@ -152,12 +186,20 @@ Text(LethalBrackenBreak)
 Text(LethalDodgingDanmaku)
 Text(LethalMaskMauling)
 Text(LethalTheJesterAttacks)
+TILECHANGE 0x1
+TILECHANGE 0x2 //close top two hangars
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 CAM1 Sigurd
 Text(LethalMainEntrance)
 CAM1 Mario
 Text(LethalFireExit)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalTutorial
+TEXTEND
+STAL 30
+
 ENDA
 
 EndingScene:
@@ -170,6 +212,7 @@ MNTS 0x0
 GOTO 6898
 LABEL 6899
 Text(LethalEndingDisciplinaryProcedures)
+GameOver
 LABEL 6898
 ENDA
 
@@ -178,13 +221,145 @@ Text(LethalT2EntehEscapes)
 LOAD1 0x1 EntehGroup
 ENDA
 
+GoblinSlayerSlain:
+LOAD1 0x1 MaskedGoblin
+CAM1 MaskedGoblin
+STAL 10
+FOGVISION 10
+TurnNPC(OldBird1)
+ENDA
+
+DogSpawn:
+LOAD1 0x1 T5Spawn
+TurnEnemy(OldBird1)
+TurnNPC(OldBird2)
+FOGVISION 8
+ENDA
+
+GiantSpawn:
+LOAD1 0x1 T10Spawn
+TurnEnemy(OldBird2)
+TurnNPC(OldBird3)
+FOGVISION 6
+ENDA
+
+LeftBehind:
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalLeftBehind
+TEXTEND
+STAL 30
+GameOver
+ENDA
+
 TestScrapSpot:
 CHECK_ALLEGIANCE -1
 BNE 100 s0 sC //if active is not blue, branch
 CALL GenerateScrap
+GOTO 101
 LABEL 100
 ENUF 0x7 //reset event ID
 LABEL 101
+NoFade
+ENDA
+
+HangarExitScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 110 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 111
+LABEL 110
+ENUF 0x8 //reset event ID
+LABEL 111
+NoFade
+ENDA
+
+FoggyHangarScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 120 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 121
+LABEL 120
+ENUF 0x9 //reset event ID
+LABEL 121
+NoFade
+ENDA
+
+MainRoadScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 130 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 131
+LABEL 130
+ENUF 0xa //reset event ID
+LABEL 131
+NoFade
+ENDA
+
+SWHangarScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 140 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 141
+LABEL 140
+ENUF 0xb //reset event ID
+LABEL 141
+NoFade
+ENDA
+
+FenceHoleScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 150 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 151
+LABEL 150
+ENUF 0xc //reset event ID
+LABEL 151
+NoFade
+ENDA
+
+SECornerScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 160 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 161
+LABEL 160
+ENUF 0xd //reset event ID
+LABEL 161
+NoFade
+ENDA
+
+SEHangarScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 170 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 171
+LABEL 170
+ENUF 0xe //reset event ID
+LABEL 171
+NoFade
+ENDA
+
+HillScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 180 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 181
+LABEL 180
+ENUF 0xf //reset event ID
+LABEL 181
+NoFade
+ENDA
+
+ShipScrapSpot:
+CHECK_ALLEGIANCE -1
+BNE 190 s0 sC //if active is not blue, branch
+CALL GenerateScrap
+GOTO 191
+LABEL 190
+ENUF 0x10 //reset event ID
+LABEL 191
+NoFade
 ENDA
 
 GenerateScrap:
@@ -380,3 +555,7 @@ SVAL s3 RopeDart
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
+
+PlaceholderArmoury:
+SHLI Tyrfing
+ALIGN 4

@@ -1,5 +1,5 @@
 INLINE MovingMapSpriteTable,Graphics Pointer,Animation Pointer
-Lord,MarthMovingSprite|IsPointer,0x81c3d7c
+Lord,0x81e4ffc,0x81e582c
 Eirika Lord,0x81c3ed4,0x81c46cc
 Star Lord,PromotedMarthMovingSprite|IsPointer,0x81c3d7c
 Eirika Master Lord,0x81c5414,0x81c5e84

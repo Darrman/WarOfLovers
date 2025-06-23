@@ -1,0 +1,17 @@
+WorldMapPointerTable(0,WM_Events)
+
+WM_Events:
+BeginWorldMap
+MUSC M_MysteryOfTheEmblem
+STAL 120
+WorldMapShowTextBox
+STAL 10
+WM_MOVECAM2 0 0 0 0 16 20 0
+WorldMapTextBegin(LethalWorldMap)
+TEXTCONT
+TEXTEND
+
+STAL 60
+FADI 16
+SKIPWN
+ENDA
