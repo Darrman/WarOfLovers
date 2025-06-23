@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,EntehMakesItOut,2)
 END_MAIN
 
 CharacterBasedEvents:
@@ -50,7 +51,6 @@ Bad:
 //Boss: Wuxia Chicken. Dead guy spawns as a mask (zombie) fairly quickly. Old Birds flip between red and green every so often.
 //Stretch goal: normal mode is a reasonable chapter and you can fight some of the enemies.
 //Hard mode is truly Lethal Company: insta-kills everywhere and all enemies are ambush spawns.
-UNIT Alear Entombed 0x00 Level(1,Enemy,0) [9,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [15,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Akaneia ArchMogall 0x00 Level(1,Enemy,0) [15,19] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Akaneia Gwyllgi 0x00 Level(1,Enemy,0) [11,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
@@ -63,6 +63,9 @@ EntehGroup:
 UNIT Enteh Cleric 0x00 Level(1,Ally,0) [5,4] 0x0 0x0 0x0 0x0 [Heal, TorchStaff] NoAI
 UNIT
 
+MaskedGoblin:
+UNIT Alear Entombed 0x00 Level(1,Enemy,0) [9,3] 0x0  0x0 0x0 0x0 [SharpClaw] NoAI
+UNIT
 
 Traps1:
 ENDTRAP
@@ -77,8 +80,13 @@ Text(LethalObligatoryETCBanterMario)
 Text(LethalObligatoryETCBanterFE)
 Text(LethalObligatoryETCBanterYGO)
 Text(LethalObligatoryETCBanterFF)
-//Banter 5-8
-//Kaboom
+Text(LethalObligatoryETCBanterSmash)
+Text(LethalObligatoryETCBanterSonic)
+Text(LethalObligatoryETCBanterSMT)
+Text(LethalObligatoryETCBanterTouhou)
+Text(LethalReturnToFoyleRoad)
+Text(LethalSpacePirateMarch)
+Text(LethalFawfulWins)
 SetBackground(CGBlackScreen)
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
@@ -153,8 +161,21 @@ Text(LethalFireExit)
 ENDA
 
 EndingScene:
-Text(PlaceholderText)
+Text(LethalPrepareToTakeOff)
+SVAL s1 5000
+CHECK_MONEY
+BLT 6899 s1 sC
+Text(LethalEndingInSpaceQuota)
 MNTS 0x0
+GOTO 6898
+LABEL 6899
+Text(LethalEndingDisciplinaryProcedures)
+LABEL 6898
+ENDA
+
+EntehMakesItOut:
+Text(LethalT2EntehEscapes)
+LOAD1 0x1 EntehGroup
 ENDA
 
 TestScrapSpot:
@@ -167,7 +188,7 @@ LABEL 101
 ENDA
 
 GenerateScrap:
-RANDOMNUMBER 9
+RANDOMNUMBER 20
 SVAL s1 0
 BEQ 6800 s1 sC //item 1
 SVAL s1 1
@@ -188,6 +209,29 @@ SVAL s1 8
 BEQ 6808 s1 sC //item 9
 SVAL s1 9
 BEQ 6809 s1 sC //item 10
+SVAL s1 10
+BEQ 6810 s1 sC //item 11
+SVAL s1 11
+BEQ 6811 s1 sC //item 12
+SVAL s1 12
+BEQ 6812 s1 sC //item 13
+SVAL s1 13
+BEQ 6813 s1 sC //item 14
+SVAL s1 14
+BEQ 6814 s1 sC //item 15
+SVAL s1 15
+BEQ 6815 s1 sC //item 16
+SVAL s1 16
+BEQ 6816 s1 sC //item 17
+SVAL s1 17
+BEQ 6817 s1 sC //item 18
+SVAL s1 18
+BEQ 6818 s1 sC //item 19
+SVAL s1 19
+BEQ 6819 s1 sC //item 20
+SVAL s1 20
+BEQ 6820 s1 sC //item 21
+
 ENDA
 
 Scrap1:
@@ -199,14 +243,14 @@ ENDA
 
 Scrap2:
 LABEL 6801
-SVAL s3 Sieglinde
+SVAL s3 Falchion
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Scrap3:
 LABEL 6802
-SVAL s3 Boots
+SVAL s3 HoverBoots
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
@@ -240,23 +284,99 @@ NoFade
 ENDA
 
 Scrap8:
-LABEL 6801
+LABEL 6807
 SVAL s3 HandAxe
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Scrap9:
-LABEL 6801
-SVAL s3 RedGem
+LABEL 6808
+SVAL s3 GoldBar
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Scrap10:
-LABEL 6801
-SVAL s3 MasterSeal
+LABEL 6809
+SVAL s3 RingOfBinding
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
+Scrap11:
+LABEL 6810
+SVAL s3 GeoRock
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap12:
+LABEL 6811
+SVAL s3 Canoe
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap13:
+LABEL 6812
+SVAL s3 PokeBall
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap14:
+LABEL 6813
+SVAL s3 HooBean
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap15:
+LABEL 6814
+SVAL s3 TenRings
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap16:
+LABEL 6815
+SVAL s3 PowerStar
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap17:
+LABEL 6816
+SVAL s3 Lightwall
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap18:
+LABEL 6817
+SVAL s3 Missile
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap19:
+LABEL 6818
+SVAL s3 Flashbang
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap20:
+LABEL 6819
+SVAL s3 StopSign
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+Scrap21:
+LABEL 6820
+SVAL s3 RopeDart
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA

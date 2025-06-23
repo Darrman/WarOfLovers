@@ -227,6 +227,7 @@
 //Enemy
 #define Chicken 0x83
 #define MaskVictim 0x84
+#define GoblinSlayer MaskVictim
 #define Giant 0x85
 #define Dog 0x86
 #define BaboonHawk 0x87
@@ -509,6 +510,7 @@
 #define GoldBar 0xda
 #define Tyrfing 0xdb
 #define Mallet 0xdc
+#define RopeDart 0xdd
 
 //Music
 //Akaneia

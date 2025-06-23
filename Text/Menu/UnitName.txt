@@ -1749,3 +1749,11 @@ Sigurd[X]
 Heir to Chalphy and a fugitive of[N]
 the Grandbell Empire. Wants to find[N]
 his wife and son above all else.[X]
+
+## GoblinSlayerName
+Goblin S.[X]
+
+## GoblinSlayerDesc
+Every time a goblin appears, he[N]
+kicks down the door. The daily[N]
+goblin always beckons.[X]

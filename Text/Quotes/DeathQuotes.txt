@@ -452,3 +452,23 @@ this one out... for... ever.[A][CloseEyes][X]
 [Right][LoadSlippy]
 Somebody! Anybody! Help me![N]
 Aaaaah![A][CloseEyes][X]
+
+## SigurdDeath
+[Right][LoadSigurd]
+Deirdre... Celice...[N]
+I'm sorry.[A][X]
+
+## MimaDeath
+[Right][LoadMima]
+Ha ha ha... So, I'm done. Marisa,[N]
+I'm... proud of you...[A][X]
+
+## EntehDeath
+[Right][LoadEnteh]
+Ouch... So this is the end[N]
+for me... Help...[A][X]
+
+## HornetDeath
+[Right][LoadHornet]
+So, Hallownest...[N]
+All for nothing...[A][X]

@@ -483,3 +483,9 @@ Mallet[X]
 
 ## MalletDesc
 Mario's horse/armour crusher.[X]
+
+## RopeDartName
+Rope Dart[X]
+
+## RopeDartDesc
+Grants Lunge. Used by messengers.[X]
