@@ -233,23 +233,39 @@ ENDA
 
 GoblinSlayerSlain:
 LOAD1 0x1 MaskedGoblin
-CAM1 MaskedGoblin
+CAM1 MaskVictim
+//text
 STAL 10
 FOGVISION 10
+CHECK_ALIVE OldBird1
+BNE 6850 s0 sC
 TurnNPC(OldBird1)
+LABEL 6850
 ENDA
 
 DogSpawn:
 LOAD1 0x1 T5Spawn
+CHECK_ALIVE OldBird1
+BNE 6851 s0 sC
 TurnEnemy(OldBird1)
+LABEL 6851
+CHECK_ALIVE OldBird2
+BNE 6852 s0 sC
 TurnNPC(OldBird2)
+LABEL 6852
 FOGVISION 8
 ENDA
 
 GiantSpawn:
 LOAD1 0x1 T10Spawn
+CHECK_ALIVE OldBird2
+BNE 6853 s0 sC
 TurnEnemy(OldBird2)
+LABEL 6853
+CHECK_ALIVE OldBird3
+BNE 6854 s0 sC
 TurnNPC(OldBird3)
+LABEL 6854
 FOGVISION 6
 ENDA
 
