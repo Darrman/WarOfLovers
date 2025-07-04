@@ -505,6 +505,82 @@ Veronica_Mug:
 #incext PortraitFormatter "Veronica.png"
 setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 
+Yugi_Mug:
+#incext PortraitFormatter "Yugi.png"
+setMugEntry(0xCE, Yugi_Mug, 3,8,3,6)
+
+Tea_Mug:
+#incext PortraitFormatter "Tea.png"
+setMugEntry(0xCF, Tea_Mug, 4,7,4,5)
+
+Joey_Mug:
+#incext PortraitFormatter "Joey.png"
+setMugEntry(0xD0, Joey_Mug, 4,7,5,5)
+
+Kaiba_Mug:
+#incext PortraitFormatter "Kaiba.png"
+setMugEntry(0xD1, Kaiba_Mug, 4,6,4,4)
+
+Rydia_Mug:
+#incext PortraitFormatter "Rydia.png"
+setMugEntry(0xD2, Rydia_Mug, 4,8,5,6)
+
+KainFF4_Mug:
+#incext PortraitFormatter "KainFF4.png"
+setMugEntry(0xD3, KainFF4_Mug, 4,8,4,6)
+
+Lenna_Mug:
+#incext PortraitFormatter "Lenna.png"
+setMugEntry(0xD4, Lenna_Mug, 3,5,3,3)
+
+Celes_Mug:
+#incext PortraitFormatter "Celes.png"
+setMugEntry(0xD5, Celes_Mug, 4,8,3,6)
+
+Locke_Mug:
+#incext PortraitFormatter "Locke.png"
+setMugEntry(0xD6, Locke_Mug, 3,8,3,6)
+
+Sonic_Mug:
+#incext PortraitFormatter "Sonic.png"
+setMugEntry(0xD7, Sonic_Mug, 3,6,3,4)
+
+Tails_Mug:
+#incext PortraitFormatter "Tails.png"
+setMugEntry(0xD8, Tails_Mug, 4,7,4,5)
+
+Knuckles_Mug:
+#incext PortraitFormatter "Knuckles.png"
+setMugEntry(0xD9, Knuckles_Mug, 5,5,3,3)
+
+Robotnik_Mug:
+#incext PortraitFormatter "Robotnik.png"
+setMugEntry(0xDA, Robotnik_Mug, 3,5,3,3)
+
+MrGameAndWatch_Mug:
+#incext PortraitFormatter "MrGameAndWatch.png"
+setMugEntry(0xDB, MrGameAndWatch_Mug, 2,6,3,3)
+
+Popo_Mug:
+#incext PortraitFormatter "Popo.png"
+setMugEntry(0xDC, Popo_Mug, 3,5,3,3)
+
+Flynn_Mug:
+#incext PortraitFormatter "Flynn.png"
+setMugEntry(0xDD, Flynn_Mug, 3,6,3,4)
+
+Isabeau_Mug:
+#incext PortraitFormatter "Isabeau.png"
+setMugEntry(0xDE, Isabeau_Mug, 3,6,3,4)
+
+Walter_Mug:
+#incext PortraitFormatter "Walter.png"
+setMugEntry(0xDF, Walter_Mug, 2,6,2,4)
+
+Jonathan_Mug:
+#incext PortraitFormatter "Jonathan.png"
+setMugEntry(0xE0, Jonathan_Mug, 2,5,2,3)
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"
@@ -534,10 +610,6 @@ setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 //#incext PortraitFormatter "Marle.png"
 //setMugEntry(0xe, Marle_Mug, 4,8,4,6)
 //
-//Rydia_Mug:
-//#incext PortraitFormatter "Rydia.png"
-//setMugEntry(0xf, Rydia_Mug, 4,8,5,6)
-//
 //Lise_Mug:
 //#incext PortraitFormatter "Lise.png"
 //setMugEntry(0x10, Lise_Mug, 4,7,4,5)
@@ -554,18 +626,6 @@ setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 //#incext PortraitFormatter "Lana.png"
 //setMugEntry(0x14, Lana_Mug, 4,7,4,5)
 //
-//Yugi_Mug:
-//#incext PortraitFormatter "Yugi.png"
-//setMugEntry(0x17, Yugi_Mug, 3,8,3,6)
-//
-//Tea_Mug:
-//#incext PortraitFormatter "Tea.png"
-//setMugEntry(0x18, Tea_Mug, 4,7,4,5)
-//
-//Joey_Mug:
-//#incext PortraitFormatter "Joey.png"
-//setMugEntry(0x19, Joey_Mug, 4,7,5,5)
-//
 //Leaf_Mug:
 //#incext PortraitFormatter "Leaf.png"
 //setMugEntry(0x1A, Leaf_Mug, 4,7,3,5)
@@ -578,10 +638,6 @@ setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 //#incext PortraitFormatter "Weevil.png"
 //setMugEntry(0x1C, Weevil_Mug, 4,7,4,5)
 //
-//Locke_Mug:
-//#incext PortraitFormatter "Locke.png"
-//setMugEntry(0x1D, Locke_Mug, 3,8,3,6)
-//
 //Lucca_Mug:
 //#incext PortraitFormatter "Lucca.png"
 //setMugEntry(0x1E, Lucca_Mug, 3,8,4,6)
@@ -589,15 +645,7 @@ setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 //Mint_Mug:
 //#incext PortraitFormatter "Mint.png"
 //setMugEntry(0x20, Mint_Mug, 4,7,4,5)
-//
-//Celes_Mug:
-//#incext PortraitFormatter "Celes.png"
-//setMugEntry(0x21, Celes_Mug, 4,8,3,6)
-//
-//Lenna_Mug:
-//#incext PortraitFormatter "Lenna.png"
-//setMugEntry(0x22, Lenna_Mug, 3,5,3,3)
-//
+
 //Ultros_Mug:
 //#incext PortraitFormatter "Ultros.png"
 //setMugEntry(0x23, Ultros_Mug, 5,6,6,4)
