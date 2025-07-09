@@ -1,0 +1,28 @@
+PUSH
+
+ORG 0x5B65C0
+MenuGraphicsTiles:
+#incext Png2Dmp "Main.png" --lz77
+
+ORG 0xA1B730
+PrepScreenTiles:
+#incext Png2Dmp "Preps.png" --lz77
+
+ORG 0xA167C8
+MiniBoxTiles:
+#incext Png2Dmp "MiniBox.png" --lz77
+
+ORG 0xA16D6C
+MiniBoxNumbers:
+#incext Png2Dmp "NewNumbers.png" --lz77
+
+ORG 0x5B6BB4
+UIPalette:
+//#incext Png2Dmp "Main.png" --palette-only
+//Above corrupts the stat screen, exporting only needed colours
+#incbin "UI.pal.bin"
+
+POP
+
+//I hope I don't have to mess with too much TSA...
+//Following Alice's tutorial here (with Stephano graphics as base)

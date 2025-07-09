@@ -1,0 +1,16 @@
+Image address for UI GFX: 0x5B65C0 OR 5B6470 OR 09463488
+(I think there are multiple choices? Just replace the first one.)
+
+Palettes:
+Blue: (you've replaced it, delete irrelevant template number)
+Red: 
+Green:
+Gray:
+
+Minimug box data
+Palette addresses:
+Blue: A1738C
+Red: A173AC
+Green: A173CC
+Number image address: A16D6C
+Dash and HP bar: A167C8 (Uses Blue palette)

@@ -8,6 +8,9 @@ ORG $88640
 POIN NewStatScreenPal
 POP
 
+PROTECT $88638
+//something's clobbering the stat screen...
+
 NewStatScreen:
 #incext Png2Dmp "statscreen.png" --lz77
 NewStatScreenPal:
