@@ -56,3 +56,18 @@ POP
 //previous
 //Worth noting VRAM only has room for 7 tiles per item on prep screen -
 //that'll need a more invasive hack to fix (screen space is there)
+
+//Class names (stat screen), character names (prep screen)
+//Contro
+//So I fell for some misleading search results and I barked up the wrong tree.
+//The below should work.
+#include TextWidth.event
+
+//Class names (level up screen) (GigaExcalibur)
+PUSH
+ORG 0x73848 // case for battle animations on
+BYTE 0xE8
+
+ORG 0x9A3ED4 // case for battle animations off
+BYTE 0x0A
+POP

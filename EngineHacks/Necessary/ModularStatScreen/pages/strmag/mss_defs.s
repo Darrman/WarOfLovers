@@ -1038,7 +1038,7 @@
   mov     r0, sp
   ldr     r1, =0x6001380
   ldr     r2, =0x1000a68
-  swi     0xC @clear vram
+@  swi     0xC @clear vram
 .endm
 
 
@@ -1354,7 +1354,7 @@
   mov     r0, sp
   ldr     r1, =0x6001380
   ldr     r2, =0x1000a68
-  swi     0xC @clear vram
+@  swi     0xC @clear vram
   ldr     r7, =0x2003BFC
   ldr     r0, =gBg0MapBuffer
   mov     r8, r0

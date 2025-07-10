@@ -1,14 +1,21 @@
 ## DragonKnightName
-Dragon Kn.[X]
+Dragon Knight[X]
 
 ## DragonMasterName
-Dragon Mast.[X]
+Dragon Master[X]
+
+## PegasusKnightName
+//One that'll never fit...
+PegasusKnight[X]
+
+## FalconKnightName
+Falcon Knight[X]
 
 ## HorsemanName
 Horseman[X]
 
 ## ArmourKnightName
-Armour Kn.[X]
+Armour Knight[X]
 
 ## KnightName
 Knight[X]
@@ -79,10 +86,10 @@ Bow Knight[X]
 ## SwordArmourName
 //I choose spelling "armour" correctly with CamelCase over the American
 //version with a space.
-SwordArmour[X]
+Sword Armour[X]
 
 ## LanceArmourName
-LanceArmour[X]
+Lance Armour[X]
 
 ## AxeArmourName
 Axe Armour[X]
