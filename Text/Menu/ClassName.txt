@@ -6,7 +6,7 @@ Dragon Master[X]
 
 ## PegasusKnightName
 //One that'll never fit...
-PegasusKnight[X]
+Pegasus Knight[X]
 
 ## FalconKnightName
 Falcon Knight[X]
