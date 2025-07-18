@@ -86,7 +86,7 @@ that Celica comes back soon...[A][X]
 
 ## Ch14OpeningClaireFrets
 //Claire, Engage boss (Etie)
-[ML][LoadFace][0x1][0x1][MR][LoadFace][0x1][0x1]
+[ML][LoadClaire][MR][LoadEtie]
 Oh, I can't believe it. The[N]
 floodgate's been sabotaged![AN]
 Valbo's gone missing! Are we[N]
@@ -119,7 +119,7 @@ I've got a report to make: know[N]
 your place, soldier![A][X]
 
 ## Ch14OpeningEtieTakesOver
-[MR][LoadFace][0x1][0x1]
+[MR][LoadEtie]
 So, that snob's flown off. Phew.[N]
 I'd hurl if I had to put up with[AN]
 her for one second longer. Her[N]
@@ -230,7 +230,7 @@ I don't like Alm, but I'd take him[N]
 any day of the week.[AN][X]
 
 ## Ch14AdultDoot
-[ML][LoadFace][0x01][0x01][MR][LoadCurrent]
+[ML][LoadDyute][MR][LoadCurrent]
 //Dyute
 [ML]
 What's going on here? I visit[N]
@@ -251,7 +251,7 @@ Variety is the spice of life,[N]
 so how about you watch me go?[A][X]
 
 ## Ch14EndingWhatDidSheDo
-[MR][LoadFace][0x01][0x01]
+[MR][LoadClaire]
 //Claire
 What was I thinking? Not only[N]
 did that fool Etie blatantly[AN]
@@ -305,7 +305,7 @@ And we need to get to Alm.[N]
 We absolutely must avoid a war![A][X]
 
 ## Ch14ClaireReportsIn
-[Left][LoadFace][0x01][0x01][Right][LoadAlm][FR][LoadCeline]
+[Left][LoadClaire][Right][LoadAlm][FR][LoadCeline]
 Your majesty! I don't know what[N]
 happened in Grove Village, but[AN]
 my unit was completely routed![N]

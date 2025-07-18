@@ -22,7 +22,7 @@ Marth had arrived on the shores of the[N]
 continent of Valencia.[A][X]
 
 ## Ch13OpeningUnknownVessel
-[ML][LoadValbo][MR][LoadFace][0x1][0x1]
+[ML][LoadValbo][MR][LoadClaire]
 //Claire
 Sir Valbo, good day. I'm sure[N]
 you have heard of her majesty's[AN]
@@ -507,7 +507,7 @@ ever so dangerous. What if one[N]
 faction or another was behind[AN]
 Celica's abduction? If so, I[N]
 will crush them. Wipe them out.[AN]
-[ML][LoadFace][0x1][0x1]
+[ML][LoadMycen]
 //Mycen
 Apologies, sire, but someone[N]
 has just teleported into the[AN]
@@ -521,7 +521,7 @@ Grey and Robin are handling it.[N]
 As for our teleporting witch...[AN][X]
 
 ## Ch13EndingCelicaReturns
-[FL][LoadFace][0x1][0x1]
+[FL][LoadMycen]
 //Mycen, comment out ? man for presentation purposes
 [Left][LoadAlm]
 Who are you? You stand in Sofia[N]

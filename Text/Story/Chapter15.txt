@@ -66,7 +66,7 @@ I'm going to make a fly by of[N]
 the castle. I'll be back.[A][X]
 
 ## Ch15OpeningAlmDeclaresWar
-[FL][LoadFace][0x01][0x01][Left][LoadAlm]
+[FL][LoadMycen][Left][LoadAlm]
 //Mycen, Alm (no Celine, that'd give the game away!)
 It's a lovely spring morning[N]
 here in Sofia Castle.[AN]
@@ -125,7 +125,7 @@ take that. How are we going to[N]
 avoid this? We can't! I need to[AN]
 tell Marth. This is going to[N]
 end in tears, I just know it...[A]
-[Left][LoadFace][0x01][0x01][FL][LoadFace][0x01][0x01]
+[Left][LoadCleive][FL][LoadClaire]
 //Claire, Cleive
 [Left]
 Wait just a minute... You're Sheeda,[N]
@@ -208,7 +208,7 @@ Everyone, attack Sofia Castle![N]
 Our enemy is the Empire of Valencia![A][X]
 
 ## Ch15AfterPrepCleiveSpeech
-[MR][LoadFace][0x01][0x01]
+[MR][LoadCleive]
 //Cleive
 The Akaneians are already at our[N]
 doorstep! With your help, we can[AN]
@@ -237,7 +237,7 @@ Are we going to charge in?[A]
 Yes. Yes we are.[X]
 
 ## Ch15EndingWarRoomSpat
-[FL][LoadFace][0x01][0x01][Left][LoadAlm][Right][LoadCeline][FR][LoadFace][0x01][0x01]
+[FL][LoadMycen][Left][LoadAlm][Right][LoadCeline][FR][LoadGrey]
 //Mycen, Alm, Celine, Grey
 [Left]
 Was I wrong? Cleive is dead. I[N]

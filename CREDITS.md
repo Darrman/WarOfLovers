@@ -30,7 +30,7 @@
 - Celica: Atey
 - Valbo: FE2 (Darrman)
 - Camus: FE3 Book 1 (Darrman)
-- Dyute: FE2 (Darrman)
+- Dyute: Redbean
 - (Placeholder for undetermined FE2 character)
 
 
@@ -107,10 +107,10 @@
 - Clanne: Maximus03
 - Vander: Sterling_Glovner
 - Alfred: Sterling_Glovner
-- Celine: FE17 (Darrman)
+- Celine: Saihua
 - Diamant: Sterling_Glovner
 - Alcryst: FE17 (Darrman)
-- Ivy: FE17 (Darrman)
+- Ivy: KingCrimson931
 - Hortensia: Sterling_Glovner
 - Timerra: Sterling_Glovner
 - Fogado: Sterling_Glovner
@@ -128,6 +128,18 @@
 - Framme: Maximus03, Norikins (minimug)
 - "Executioner": FE6 (Obsidian Daddy, Lenh)
 - Lapis: FE17 (Darrman)
+- Etie: FE17 (Darrman)
+
+- Sonic: GoudaGrabber
+- Tails: GoudaGrabber
+- Knuckles: Sonic Adventure? (Sme)
+- Robotnik: AlemOwl
+- Mr. Game and Watch: Super Smash Bros. 4 (Darrman)
+- Popo: Super Smash Bros. Melee (Darrman)
+- Flynn: Shin Megami Tensei 4 (Darrman)
+- Isabeau: Shin Megami Tensei 4 (Darrman)
+- Walter: Shin Megami Tensei 4 (Darrman)
+- Jonathan: Shin Megami Tensei 4 (Darrman)
 
 - Lucina: Garytop
 - Lyn: FE7
@@ -313,6 +325,7 @@
 
 # Other Graphics
 - Status Screen: Darrman
+- Menu Tiles: Darrman, edited from template by Stephano
 
 # Assembly
 
