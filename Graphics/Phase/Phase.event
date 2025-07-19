@@ -1,0 +1,32 @@
+PUSH
+
+//frame: it's now an FE3 box
+ORG 0x59F020
+#incbin "PhaseFrame.img.bin"
+//apparently share palette with player phase? every phase's box is blue
+//not ideal but hey, it's closer to FE3?
+
+//player phase
+ORG 0x59F3F8
+PlayerPhaseGraphic:
+#incbin "PlayerPhase.img.bin"
+ORG 0x59FA2C
+PlayerPhasePalette:
+#incbin "PlayerPhase.pal.bin"
+
+//enemy phase
+ORG 0x59FA4C
+EnemyPhaseGraphic:
+#incbin "EnemyPhase.img.bin"
+ORG 0x5A0068
+EnemyPhasePalette:
+#incbin "EnemyPhase.pal.bin"
+
+//npc phase
+ORG 0x5A0088
+NPCPhaseGraphic:
+#incbin "NPCPhase.img.bin"
+ORG 0x5A0698
+NPCPhasePalette:
+#incbin "NPCPhase.pal.bin"
+POP

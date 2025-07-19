@@ -10,3 +10,4 @@
 #include FileSelect/FileSelectInstaller.event
 #include MagicAnims/MagicAnimInstaller.event
 #include UI/UI.event
+#include Phase/Phase.event
