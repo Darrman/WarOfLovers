@@ -14,15 +14,21 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventEnemy(0x0,MarthGetsInterrogated,1)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEvent(0x3,TheValboRecruitment,Sheeda,Valbo)
 END_MAIN
 
 LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(5,1)
+#endif
 END_MAIN
 
 MiscBasedEvents:
+DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -39,10 +45,11 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [5,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT
 
 Bad:
+UNIT Valbo ArmourKnight 0x00 Level(10,Enemy,0) [15,21] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
 UNIT
 
 Traps1:
@@ -58,13 +65,32 @@ BeginningScene:
 Text(Fort_Outside,Ch13OpeningUnknownVessel)
 Text(Ship,Ch13OpeningLandHo)
 Text(Harbor,Ch13OpeningInterrogation)
-Text(Castle_Room,Ch13EndingAlmMonologue)
-Text(Castle_Room,Ch13EndingCelicaReturns)
+Text(Ship,Ch13OpeningWhereIsMarthAnyway)
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
+GotoPrepScreen
 ENDA
 
 EndingScene:
+//conditionals to be written
+Text(Castle_Hall_4,Ch13EndingConvincingValbo)
+Text(Castle_Hall_4,Ch13EndingLetLilinaThrough)
+Text(Castle_Hall_4,Ch13EndingValboIsConvinced)
+Text(Castle_Hall_4,Ch13EndingValboTheEscort)
+Text(Castle_Room,Ch13EndingAlmMonologue)
+Text(Castle_Room,Ch13EndingCelicaReturns)
+
+WM_LOADLOCATION2 0 12 0 //Required to fix chapter name
+WM_SETDESTINATION 0 12 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 12 //Needed for world map narration.
 MNCH 14
 ENDA
 
+MarthGetsInterrogated:
+Text(Castle_Hall_4, Ch13T1AnotherGrilling)
+ENDA
+
+TheValboRecruitment:
+Text(Ch13SheedaTalksToValbo)
+CALL EndingScene
+ENDA

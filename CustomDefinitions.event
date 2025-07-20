@@ -242,6 +242,7 @@
 //Act 3
 #define Ch13xBoss 0xa6
 #define Ch14Boss 0xa7
+#define Etie Ch14Boss
 #define Claire 0xa8
 #define Cleive 0xa9
 #define GreyOrRobin 0xaa //extreme placeholder to be determined later

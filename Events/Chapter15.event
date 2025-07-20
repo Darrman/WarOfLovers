@@ -1,0 +1,86 @@
+EventPointerTable(0x47, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,AfterPrep,1)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(10,24)
+#ifdef __DEBUG__
+Seize(10,1)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [10,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Cleive KnightDuke 0x00 Level(5,Enemy,0) [10,24] 0x0 0x0 0x0 0x0 [SteelSword, SilverLance] AttackInRangeAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+Text(Town_Gate,Ch15OpeningBetterLayLow)
+Text(Castle_Outside,Ch15OpeningAlmDeclaresWar)
+Text(Village,Ch15OpeningSheedasShock)
+Text(Town_Gate,Ch15OpeningMarthLearns)
+Text(Town_Gate,Ch15OpeningPrepareForBattle)
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+AfterPrep:
+Text(Ch15AfterPrepCleiveSpeech)
+ENDA
+
+EndingScene:
+Text(Castle_Outside,Ch15EndingHowUseless)
+Text(Castle_Room,Ch15EndingWarRoomSpat)
+
+WM_LOADLOCATION2 0 14 0 //Required to fix chapter name
+WM_SETDESTINATION 0 14 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 14 //Needed for world map narration.
+MNCH 16
+ENDA
+

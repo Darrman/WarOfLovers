@@ -1,0 +1,74 @@
+EventPointerTable(0x4B, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(11,31)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [11,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Alm Hero 0x00 Level(5,Enemy,0) [9,3] 0x0 0x0 0x0 0x0 [Falchion] AttackInRangeAI
+UNIT Celine MageFighter 0x00 Level(5,Enemy,0) [10,3] 0x0 0x0 0x0 0x0 [Bolganone] PursueWithoutHeedAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+Text(Castle_Room,Ch16OpeningGoodJobCeline)
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+EndingScene:
+WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
+WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
+MNCH 17
+ENDA
+

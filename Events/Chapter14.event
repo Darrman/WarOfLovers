@@ -1,0 +1,86 @@
+EventPointerTable(0x41, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventPlayer(0x00,AfterPrep,1)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(10,23)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+DefeatAll(EndingScene)
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [10,23] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Etie BowKnight 0x00 Level(1,Enemy,0) [5,3] 0x0  0x0 0x0 0x0 [SilverBow] AttackInRangeAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+Text(Woodland,Ch14OpeningOnTheRoad)
+Text(Village,Ch14OpeningClaireFrets)
+Text(Village,Ch14OpeningEtieTakesOver)
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+AfterPrep:
+Text(Ch14AfterPrepRoutEm)
+ENDA
+
+EndingScene:
+Text(Village,Ch14EndingWhatDidSheDo)
+Text(Village,Ch14EndingNotAllValencian)
+Text(Castle_Room,Ch14EndingWeMustSaveCelica)
+Text(Castle_Room,Ch14ClaireReportsIn)
+
+WM_LOADLOCATION2 0 13 0 //Required to fix chapter name
+WM_SETDESTINATION 0 13 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 13 //Needed for world map narration.
+MNCH 15
+ENDA
+

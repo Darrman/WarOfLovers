@@ -87,6 +87,7 @@ that Celica comes back soon...[A][X]
 ## Ch14OpeningClaireFrets
 //Claire, Engage boss (Etie)
 [ML][LoadClaire][MR][LoadEtie]
+[ML]
 Oh, I can't believe it. The[N]
 floodgate's been sabotaged![AN]
 Valbo's gone missing! Are we[N]
@@ -306,6 +307,7 @@ We absolutely must avoid a war![A][X]
 
 ## Ch14ClaireReportsIn
 [Left][LoadClaire][Right][LoadAlm][FR][LoadCeline]
+[Left]
 Your majesty! I don't know what[N]
 happened in Grove Village, but[AN]
 my unit was completely routed![N]

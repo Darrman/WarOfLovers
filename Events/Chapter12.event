@@ -313,11 +313,11 @@ Text(Ship,Ch12EndingOpenOceanPlotDump)
 MUSC M_LegendOfTheDivineDragonMusicBox
 //probably swap this with normal version later?
 Text(Ship,Ch12EndingChikiLearnsTheTruth)
-//WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
-//WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
-//WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
-//MNCH 0xD
-MNC2 13 //temp WM skip: put end of demo message in Ch13
+WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
+WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+MNCH 0xD
+//MNC2 13 //temp WM skip: put end of demo message in Ch13
 ENDA
 
 ENDA
