@@ -11,3 +11,4 @@
 #include MagicAnims/MagicAnimInstaller.event
 #include UI/UI.event
 #include Phase/Phase.event
+#include PrepBackground/PrepBackground.event

@@ -1,0 +1,16 @@
+PUSH
+ORG 0xB12DB4
+PrepScreenBackground:
+//"Guardian God Narga" stabs an Earth Dragon, FE3 tapestry
+#incbin "PrepBackground.img.bin"
+
+ORG 0xB1754C
+PrepScreenPalette:
+//There's a dozen of these in FEBuilder. Most screens use the main one.
+//Chapter title card uses palette 01 (Builder), adjust that manually.
+//They're all next to each other, so you can safely just keep including them.
+//Suspect it's used in Link Arena, options text descriptions
+//Duplicating first palette for now
+#incbin "PrepBackground.pal.bin"
+#incbin "PrepBackground.pal.bin"
+POP
