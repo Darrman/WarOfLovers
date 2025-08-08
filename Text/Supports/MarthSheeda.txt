@@ -1,0 +1,150 @@
+## MarthSheedaCRank
+[ML][LoadMarth][MR][LoadSheeda]
+[ML]
+//Marth:
+Sheeda, how do you fare?[A]
+//Sheeda:
+[MR]
+Quite well Marth, although[N]
+I could do without being[AN]
+dragged into a third war.[A]
+[ML]
+//Marth:
+I know, this entire situation confuses[N]
+me greatly. Who is this Alear anyway?[AN]
+Her followers claim she is a Divine[N]
+Dragon, but aren't Chiki, Gato, and[AN]
+Chainy supposed to be the last of those?[A]
+[MR]
+//Sheeda:
+I don't know about that.[N]
+The lore of the Dragon Tribes was[AN]
+never something I needed to study[N]
+back in Talis.[AN]
+What I do know is she took you[N]
+away from me. I will never[AN]
+forgive her for that![A]
+[ML]
+//Marth:
+Mmm, I sure wouldn't want be Alear[N]
+when the time comes. Few out there[AN]
+can withstand your Wing Spear.[A]
+[MR]
+//Sheeda:
+You're no slouch yourself Marth.[N]
+It can't be easy to break free[AN]
+of mind control only to be thrust[N]
+into another war.[A]
+[ML]
+//Marth:
+It's not, but so long as I have you[N]
+at my side Sheeda, I can handle[AN]
+anything. I love you Sheeda.[A]
+[MR]
+//Sheeda:
+And I love you Marth.[A][X]
+
+## MarthSheedaBRank
+[ML][LoadMarth][MR][LoadSheeda]
+[MR]
+//Sheeda:
+Marth, what's wrong?[A]
+//Marth:
+[ML]
+Oh Sheeda, I was just thinking of the[N]
+time I spent held captive by Alear.[AN]
+I can't help but feel her followers[N]
+aren't all bad people.[AN]
+//(If Celine has been recruited include "akin to Celine", if not leave it out but include the rest of the sentence)
+Surely there are more good people[N]
+akin to Celine in her forces who[AN]
+see this is wrong, so why are they[N]
+forcing the fight? Surely they[AN]
+would not be doing all this without[N]
+some greater intention?[AN]
+//Sheeda:
+[MR]
+Marth... Regardless of their intentions,[N]
+they kidnapped you and tried to force[AN]
+you, a married man, into a marriage with[N]
+someone else. These same forces have[AN]
+been complicit in kidnapping heroes from[N]
+across the planet. No matter their[AN]
+intentions, their actions are evil,[N]
+and they must be stopped.[AN]
+//Marth:
+[ML]
+Yes, I agree. Their ends, whatever they[N]
+may be, do not justify the means,[AN]
+but are we really any better? We are[N]
+also summoning people from who knows[AN]
+where to fight our war. Even if our[N]
+actions are in self defense, can we[AN]
+truly say we are any more justified[N]
+in our actions?[A]
+//Sheeda:
+[MR]
+I don't know the answer to your question[N]
+Marth, but what I do know is if we did[AN]
+not fight on their terms, I would lose[N]
+you, and you are absolutely worth[AN]
+fighting for. If fighting this enemy[N]
+means stooping to their level, then[AN]
+I will do so without hesitation.[A]
+//Marth:
+[ML]
+You're right Sheeda, no matter[N]
+the cost, fighting for our[AN]
+happiness is worth fighting for.[A][X]
+
+## MarthSheedaARank
+[ML][LoadMarth][MR][LoadSheeda]
+[ML]
+//Marth:
+Sheeda, it is good[N]
+to see you well.[AN]
+//Sheeda:
+[MR]
+Marth, it is good to see you as well.[N]
+Do you remember what today is?[AN]
+//Marth:
+[ML]
+Of course I do, it's the anniversary[N]
+of the day we met. I remember it well.[AN]
+In fact, it is why I'm here. The[N]
+battlefield may be no place to[AN]
+celebrate an anniversary, but like we[N]
+always have, we'll make the best[AN]
+of it! Which is why I want you to[N]
+have this Sheeda.[AN]
+//Sheeda:
+[MR]
+Oh Marth, what a beautiful hairpin![N]
+It's such a cute little pegasus![AN]
+//Marth:
+[ML]
+I know it's not much given the[N]
+circumstances, but I hope this[AN]
+shows how much I still love you[N]
+Sheeda. No matter what cruel[AN]
+tricks the world throws at us.[N]
+My love for you is true, and[AN]
+the likes of Alear will never[N]
+change that.[AN]
+//Sheeda:
+[MR]
+Oh thank you Marth. I love you too.[N]
+Meeting you taught me just how[AN]
+important love is, and losing you,[N]
+temporary as it was, nearly broke me.[AN]
+//Marth:
+[ML]
+Sheeda... I vow on this sword, I[N]
+will never again leave your side.[AN]
+//Sheeda:
+[MR]
+And I will never leave yours.[N]
+I love you Marth.[AN]
+//Marth:
+[ML]
+And I love you Sheeda.[A][X]

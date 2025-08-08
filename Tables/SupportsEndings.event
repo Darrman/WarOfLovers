@@ -4,22 +4,22 @@
 
 MarthSupports:
 CharacterSupport(Sheeda, Chiki, 0, 0, 0, 0, 0)
-SupportBases(241, 161, 0, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+SupportBases(70, 40, 0, 0, 0, 0, 0)
+SupportGrowths(10, 7, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
 SheedaSupports:
 CharacterSupport(Marth, Chiki, 0, 0, 0, 0, 0)
-SupportBases(241, 161, 0, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+SupportBases(70, 40, 0, 0, 0, 0, 0)
+SupportGrowths(10, 7, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
 ChikiSupports:
 CharacterSupport(Marth, Sheeda, 0, 0, 0, 0, 0)
-SupportBases(161, 161, 0, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+SupportBases(40, 40, 0, 0, 0, 0, 0)
+SupportGrowths(7, 7, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
@@ -366,6 +366,21 @@ SupportBases(81, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
+
+//Support conversations
+#define SupportConvo(Char1, Char2, CRank, BRank, ARank) "SHORT Char1 Char2 CRank BRank ARank 0 0 0"
+
+ALIGN 4
+SupportConversations:
+SupportConvo(Marth,Sheeda,MarthSheedaCRank,MarthSheedaBRank,MarthSheedaARank)
+SupportConvo(Marth,Chiki,MarthChikiCRank,MarthChikiBRank,MarthChikiARank)
+SupportConvo(Eliwood,Lilina,EliwoodLilinaCRank,EliwoodLilinaBRank,EliwoodLilinaARank)
+WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
+
+PUSH
+ORG 0x84784
+POIN SupportConversations
+POP
 
 #define Ending(Type, Char1, Char2, Text) "BYTE Type Char1 Char2 0; SHORT Text 0"
 #define Paired 0x2

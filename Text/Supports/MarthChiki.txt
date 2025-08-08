@@ -1,0 +1,142 @@
+## MarthChikiCRank
+[ML][LoadMarth][MR][LoadChiki]
+//Chiki:
+Mar-Mar! Mar-Mar![A]
+//Marth:
+[ML]
+What is it, Chiki?[A]
+//Chiki:
+[MR]
+Look at this! I finally[N]
+made them right![AN]
+//Marth:
+[ML]
+Ah yes, this apple has been baked[N]
+to perfection. Has Sheeda been[AN]
+giving you cooking tips?[A]
+//Chiki:
+[MR]
+Mmhmm. I've been working very hard[N]
+on this recipe. Ban-ban used to[AN]
+make these for me all the time,[N]
+so I just had to learn how to[AN]
+make them myself![A]
+//Marth:
+[ML]
+But of course! Why don't you go and make[N]
+some more and we can eat them together.[AN]
+//Chiki:
+[MR]
+Really? Yay! I'm going to go make[N]
+the best baked apples you've ever[AN]
+seen Mar-Mar![A]
+//(Chiki leaves)
+//Marth:
+[ML]
+Such a sweet child...[N]
+It's hard to believe she's possibly[AN]
+the most dangerous being on this[N]
+planet. Even still, I must protect[AN]
+her. Purity like Chiki's must be[N]
+protected.[A][X]
+
+## MarthChikiBRank
+[ML][LoadMarth][MR][LoadChiki]
+//Marth:
+[ML]
+Chiki.
+//Chiki:
+[MR]
+What is it, Mar-mar?[A]
+//Marth:
+[ML]
+Maybe you shouldn't[N]
+fight anymore.[A]
+//Chiki:
+[MR]
+What, are you saying I'm not helping[N]
+anymore? But I want to help![AN]
+//Marth:
+[ML]
+No Chiki, you're a great help,[N]
+it's just...[AN]
+//Chiki:
+[MR]
+It's just what?[A]
+//Marth:
+[ML]
+I promised to keep you safe,[N]
+and with the Shield of Seals[AN]
+broken, I'm afraid.[A]
+//Chiki:
+[MR]
+So you'll fix the Shield.[N]
+You've done it before with[AN]
+my help, we can do it again,[N]
+but I have to help![A]
+//Marth:
+[ML]
+But Chiki, do you not still have the[N]
+nightmares? I'm certain the constant[AN]
+fighting isn't helping. Please Chiki,[N]
+you should stay at camp. Let me and[AN]
+Sheeda handle the fighting. You should[N]
+rest and focus on keeping the[AN]
+degeneration at bay.[A]
+//Chiki:
+[MR]
+NO! I won't fall asleep again.[N]
+Mar-mar, how could you even[AN]
+suggest such a thing?![A]
+//(Chiki storms off)
+//Marth:
+[ML]
+Chiki...[A][X]
+
+## MarthChikiARank
+//Marth:
+[ML][LoadMarth][MR][LoadChiki]
+[ML]
+Chiki, I'm sorry about before.[N]
+It was quite harsh of me to[AN]
+suggest going back to sleep.[N]
+Even still I worry for you.[AN]
+How are you feeling?[A]
+//Chiki:
+[MR]
+Better now, thanks to you apologizing.[N]
+Still I have good days and bad days.[AN]
+Some days I terrified I'll become the[N]
+monster in my nightmares, we must[AN]
+restore the shield as soon as we can![A]
+//Marth:
+[ML]
+I know Chiki, and forgive me for[N]
+suggesting you aren't helping.[AN]
+You are a huge help, without you we[N]
+would have never gotten this far.[AN]
+//Chiki:
+[MR]
+So then... Why did you[N]
+try to push me away?[AN]
+//Marth:
+[ML]
+To be honest with you,[N]
+I was afraid.[AN]
+//Chiki:
+[MR]
+You? Afraid?[N]
+I don't believe it.[A]
+//Marth:
+[ML]
+Yes, greatly afraid. You're like[N]
+a daughter to me Chiki, and if[AN]
+something were to happen to you,[N]
+it would break me inside,[AN]
+so please be careful, and don't[N]
+take unneccesary risks. I know[AN]
+you are powerful, but as Mar-mar,[N]
+please be careful for me?[AN]
+//Chiki:
+[MR]
+I understand, I'll do that![A][X]

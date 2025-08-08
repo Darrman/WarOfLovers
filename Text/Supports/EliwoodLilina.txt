@@ -1,0 +1,147 @@
+## EliwoodLilinaCRank
+[ML][LoadEliwood][MR][LoadLilina]
+//Eliwood:
+[ML]
+Lilina.[A]
+//Lilina:
+[MR]
+Oh Lord Eliwood. I meant to ask how[N]
+you were holding up, especially so[AN]
+soon after recovering from your[N]
+illness.[AN]
+//Eliwood:
+[ML]
+Well, the grave hasn't found me yet.[N]
+Besides, even if illness still was[AN]
+taking me, nothing would keep me out[N]
+of this fight. Roy needs our help.[AN]
+//Lilina:
+[MR]
+Yeah... Say, Lord Eliwood, how do[N]
+you think Roy is faring?[AN]
+//Eliwood:
+[ML]
+You should know as well as I what Roy[N]
+lacks in physical strength, he makes[AN]
+up for in will. He won't give in.[AN]
+//Lilina:
+[MR]
+B-but, according to Lord Marth, Alear[N]
+is somehow able to twist the truth[AN]
+to make her "Emblems" believe objective[N]
+lies like Marth loving Alear. It was[AN]
+only Marth's love for Sheeda that[N]
+allowed him to break free and-[AN]
+//Eliwood:
+[ML]
+Then you have nothing to fear[N]
+do you, or are saying Roy's[AN]
+love for you is not true?[AN]
+//Lilina:
+[MR]
+Lord Eliwood...[A][X]
+
+## EliwoodLilinaBRank
+[ML][LoadEliwood][MR][LoadLilina]
+//Lilina:
+[MR]
+Lord Eliwood, you were childhood[N]
+friends with my father correct?[AN]
+//Eliwood:
+[ML]
+But of course Lilina, me and Hector[N]
+were nearly inseparable during our[AN]
+youth. Why, we never would've met[N]
+our wives if we did not go on that[AN]
+journey to find my father together.[AN]
+//Lilina:
+[MR]
+Huh, I never knew my father met my[N]
+mother along you meeting Roy's mother.[AN]
+//Eliwood:
+[ML]
+Yes, in many ways our fates were[N]
+linked, but why do you ask about[AN]
+him Lilina?[A]
+//Lilina:
+[MR]
+I was wondering, do you know any ways[N]
+I could channel my father's strength.[AN]
+He always seemed so certain, so[N]
+committed to what he thought was right,[AN]
+and I... even in a cause as just as ours,[N]
+I doubt what we're doing is right.[AN]
+//Eliwood:
+[ML]
+True, I question the ethics of where[N]
+some of our soldiers come from,[AN]
+but Lord Marth and his companions seem[N]
+like good comrades, and if we didn't[AN]
+stand up to the Elyosians, who knows[N]
+what would become of Elibe?[AN]
+//Lilina:
+[MR]
+Everything you've said is true[N]
+and yet... Roy was my anchor[AN]
+during the Disturbance of Bern.[N]
+Without him I... I just don't know.[AN]
+//Eliwood:
+[ML]
+...[A][X]
+
+## EliwoodLilinaARank
+[ML][LoadEliwood][MR][LoadLilina]
+//Eliwood:
+[ML]
+Lilina.[A]
+//Lilina:
+[MR]
+Lord Eliwood, what do you need?[A]
+//Eliwood:
+[ML]
+I am so proud of you.[A]
+//Lilina:
+[MR]
+Huh?! Where did that come from?[A]
+//Eliwood:
+[ML]
+You've faced your doubts and found[N]
+your answer to the problem you were[AN]
+facing our last conversation correct?[AN]
+//Lilina:
+[MR]
+Well... Yes. I may lack the confidence[N]
+of my father, but the more I thought[AN]
+about it, the more I realised that[N]
+even without Roy, I'm not without an[AN]
+anchor, I have you, I have all of our[N]
+comrades. Whenever I doubt myself,[AN]
+I can rely on their strength, and while[N]
+none of you individually can reach the[AN]
+connection I have with Roy, you all[N]
+give me the strength to keep fighting.[AN]
+As such, no matter what happens, I[N]
+will keep fighting until Roy is safe[AN]
+from all who would harm him![A]
+//Eliwood:
+[ML]
+That's exactly how Hector maintained[N]
+his strength. You're more like your[AN]
+father than you realise, Lilina.[A]
+//Lilina:
+[MR]
+Huh?! I'm nothing like my father,[N]
+stop teasing me Lord Eliwood.[AN]
+//Eliwood:
+[ML]
+This isn't a jest, Hector fought like[N]
+a monster on the battlefield, 'tis[AN]
+true, but his strength came from his[N]
+companions, and his need to protect[AN]
+them. Hector never fought for himself,[N]
+only to protect those he loved, which[AN]
+is exactly where you are now drawing[N]
+your strength from.[AN]
+//Lilina:
+[MR]
+Lord Eliwood... Thank you.[A][X]
