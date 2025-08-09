@@ -62,8 +62,8 @@ ForcedDeployment(Marth,0x1,0xFF) //Marth forced in "tutorial mode"
 ForcedDeployment(Marth,0x2,0xFF) //Marth forced in Eirika mode
 ForcedDeployment(Sheeda,0x1,0x4) //force Sheeda for Talis
 ForcedDeployment(Lilina,0x1,0xB) //force Lilina for Ostia (wonder how that works if she's dead?)
-ForcedDeployment(0x0,0x0,0x0) //blank the rest
-ForcedDeployment(0x0,0x0,0x0)
+ForcedDeployment(Sheeda,0x1,0xD) //force Sheeda for Ch13 as Marth is unavailable here
+ForcedDeployment(0x0,0x0,0x0)    //blank the rest
 ForcedDeployment(0x0,0x0,0x0)
 ForcedDeployment(0x0,0x0,0x0)
 ForcedDeployment(0x0,0x0,0x0)
