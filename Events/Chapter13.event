@@ -64,8 +64,8 @@ UNIT
 
 Bad:
 //We're in Valencia, so ideally the AI would be the "if <50%, run to a heal tile no matter what" AI of FE2.
-UNIT Valbo ArmourKnight 0x00 Level(10,Enemy,0) [15,22] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
-//move him a tile down so Sheeda doesn't need to dismount to talk to him
+UNIT Valbo ArmourKnight 0x00 Level(10,Enemy,0) [15,21] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+//keep him on the fort: slows Sheeda down via dismounting (she can take a hit from the single enemy nearby)
 UNIT Valencia ArmourKnight Valbo Level(10,Enemy,1) [8,5] 0x0 0x0 0x0 0x0 [SteelLance] GuardTileAI
 UNIT Valencia ArmourKnight Valbo Level(10,Enemy,1) [9,5] 0x0 0x0 0x0 0x0 [SteelLance] GuardTileAI
 UNIT Valencia Mage Valbo Level(10,Enemy,1) [13,14] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
@@ -87,6 +87,7 @@ UNIT Valencia LanceKnight Valbo Level(10,Enemy,1) [19,3] 0x0 0x0 0x0 0x0 [SteelL
 UNIT Valencia LanceKnight Valbo Level(10,Enemy,1) [16,6] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Valencia LanceKnight Valbo Level(10,Enemy,1) [0,27] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Valencia BowKnight Valbo Level(1,Enemy,1) [12,35] DropItem 0x0 0x0 0x0 [SteelBow, OrionsBolt] PursueWithoutHeedAI
+UNIT Valencia Archer Valbo Level(10,Enemy,1) [4,26] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
 UNIT
 
 CutsceneMarth:

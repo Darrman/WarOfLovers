@@ -576,5 +576,7 @@ ALIGN 4
 
 Ch1Secret:
 //your reward for paying attention in the cutscene: stuff you can't buy!
-SHLI Talisman ElysianWhip Doulam WhiteGem Meteor Fortify Warp Boots
+//well, except with a bit of arena grinding and a sold member card, you can get warp before Kris arrives
+//so it has to go
+SHLI Talisman ElysianWhip Doulam WhiteGem Meteor Fortify /*Warp Boots*/ Speedwings
 ALIGN 4

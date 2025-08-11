@@ -1163,10 +1163,10 @@ Ch. 13x Boss[X]
 ## Ch13xBossDesc
 Placeholder description.[X]
 
-## Ch14BossName
-Ch. 14 Boss[X]
+## EtieName
+Etie[X]
 
-## Ch14BossDesc
+## EtieDesc
 Placeholder description.[X]
 
 ## ClaireName

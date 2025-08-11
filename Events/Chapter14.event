@@ -24,6 +24,14 @@ LocationBasedEvents:
 #ifdef __DEBUG__
 Seize(10,23)
 #endif
+Village(0x7,DyuteVillage,18,4)
+Village(0x8,OtherVillage,14,10)
+House(0x00,WestHouse,5,10)
+House(0x00,CentralHouse,9,8)
+House(0x00,NorthHouse,10,3)
+House(0x00,EastHouse,16,5)
+Armory(Ch14Armoury,4,5)
+Vendor(Ch14Vendor,6,5)
 END_MAIN
 
 MiscBasedEvents:
@@ -44,12 +52,63 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [10,23] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [10,23] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,24] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,22] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,23] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,22] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,20] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,22] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,24] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,23] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,25] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,23] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,26] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,25] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,24] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [2,22] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
 UNIT
 
 Bad:
 UNIT Etie BowKnight 0x00 Level(1,Enemy,0) [5,3] 0x0  0x0 0x0 0x0 [SilverBow] AttackInRangeAI
+UNIT DomaFaithful Summoner 0x00 Level(1,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT Valencia ArmourKnight 0x00 Level(14,Enemy,1) [22,6] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+UNIT Valencia ArmourKnight 0x00 Level(14,Enemy,1) [22,7] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+UNIT Valencia General 0x00 Level(14,Enemy,1) [5,6] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Valencia Mercenary 0x00 Level(14,Enemy,1) [6,8] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Valencia Soldier 0x00 Level(14,Enemy,1) [9,7] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT Valencia Soldier 0x00 Level(14,Enemy,1) [10,11] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT Valencia Mercenary 0x00 Level(14,Enemy,1) [16,7] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Valencia LanceKnight 0x00 Level(14,Enemy,1) [13,2] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT Valencia Soldier 0x00 Level(14,Enemy,1) [27,6] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Valencia LanceKnight 0x00 Level(14,Enemy,1) [24,29] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Valencia LanceKnight 0x00 Level(14,Enemy,1) [23,23] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Valencia Mercenary 0x00 Level(14,Enemy,1) [18,23] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
 UNIT
+
+Bad2:
+UNIT Firene FreeKnight Etie Level(14,Enemy,1) [28,22] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Firene AxeKnight Etie Level(14,Enemy,1) [28,23] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT Firene FreeKnight Etie Level(14,Enemy,1) [28,24] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Firene Myrmidon Etie Level(14,Enemy,1) [22,20] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Firene Fighter Etie Level(14,Enemy,1) [20,26] 0x0 0x0 0x0 0x0 [Hammer] PursueWithoutHeedAI
+UNIT Firene Mage Etie Level(14,Enemy,1) [4,18] 0x0 0x0 0x0 0x0 [Elfire] PursueWithoutHeedAI
+UNIT Firene Myrmidon Etie Level(14,Enemy,1) [8,16] DropItem 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
+UNIT Firene Mage Etie Level(14,Enemy,1) [14,18] 0x0 0x0 0x0 0x0 [Elwind] PursueWithoutHeedAI
+UNIT Firene Archer Etie Level(14,Enemy,1) [12,28] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT Firene FreeKnight Etie Level(14,Enemy,1) [26,12] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Firene LanceKnight Etie Level(14,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Firene AxeKnight Etie Level(14,Enemy,1) [28,14] 0x0 0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
+UNIT Firene Archer Etie Level(14,Enemy,1) [29,9] 0x0 0x0 0x0 0x0 [Longbow] ChaseOnceApproachedAI
+UNIT Firene PegasusKnight Etie Level(14,Enemy,1) [1,29] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Firene PegasusKnight Etie Level(14,Enemy,1) [2,30] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT
+
+Doot:
+UNIT Dyute Myrmidon_F 0x0 Level(8,Ally,0) [18,5] 0x0 0x0 0x0 0x0 [Shamshir, SlimSword, Vulnerary] NoAI
+//Now we all know Dyute as a mage. Her FE2 ending says she quits magic. Solution: Infantry sword, get her magic back on promo.
+UNIT
+
 
 Traps1:
 ENDTRAP
@@ -63,8 +122,9 @@ BeginningScene:
 Text(Woodland,Ch14OpeningOnTheRoad)
 Text(Village,Ch14OpeningClaireFrets)
 Text(Village,Ch14OpeningEtieTakesOver)
-LOAD1 0x1 Good
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
 GotoPrepScreen
 ENDA
 
@@ -84,3 +144,42 @@ WM_SETNEXTLOCATION 0 0 13 //Needed for world map narration.
 MNCH 15
 ENDA
 
+DyuteVillage:
+MUSC M_TogetherWeRide
+LOAD1 0x1 Doot
+Text(Ch14AdultDoot)
+NoFade
+ENDA
+
+OtherVillage:
+Text(Ch14Village1)
+NoFade
+ENDA
+
+WestHouse:
+Text(Ch14House1)
+NoFade
+ENDA
+
+NorthHouse:
+Text(Ch14House2)
+NoFade
+ENDA
+
+EastHouse:
+Text(Ch14House3)
+NoFade
+ENDA
+
+CentralHouse:
+Text(PlaceholderText)
+NoFade
+ENDA
+
+Ch14Armoury:
+SHLI IronSword
+ALIGN 4
+
+Ch14Vendor:
+SHLI Fire
+ALIGN 4
