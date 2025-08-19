@@ -213,7 +213,7 @@ Lilina_Mug:
 setMugEntry(0x30, Lilina_Mug, 2,6,3,4)
 
 Eliwood_Mug:
-#incext PortraitFormatter "Eliwood.png"
+#incext PortraitFormatter "Eliwood2.png"
 setMugEntry(0x31, Eliwood_Mug, 2,5,3,3)
 
 OifayeMug:

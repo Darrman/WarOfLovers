@@ -16,7 +16,7 @@
 - Barts: FE3 Book 1 (Darrman)
 
 - Lilina: FE6 (Obsidian Daddy, Lenh)
-- Eliwood: FE6 (Obsidian Daddy, Lenh)
+- Eliwood: FE6 (GreatNothing, Obsidian Daddy, Lenh)
 - Roy: FE6 (Obsidian Daddy, Lenh)
 - Miledy: FE6 (Obsidian Daddy, Lenh)
 - Wolt: FE6 (Obsidian Daddy, Lenh)
@@ -31,8 +31,9 @@
 - Valbo: FE2 (Darrman)
 - Camus: FE3 Book 1 (Darrman)
 - Dyute: Redbean
-- (Placeholder for undetermined FE2 character)
-
+- Mycen: FE2 (Darrman)
+- Claire: FE2 (Darrman)
+- Cleive: FE2 (Darrman)
 
 - (All Jugdral characters blank or FE4 (Darrman) as placeholders)
 - Feena: FE3 Book 2 (Darrman)
@@ -45,6 +46,37 @@
 - Ellis: FE3 Book 2 (Darrman)
 - Gato: FE3 Book 2 (Darrman)
 
+- Alear: Jey the Count
+- Kris: FE12 (Darrman)
+
+- Caesar: FE3 (Darrman)
+- Ryan: FE3 (Darrman)
+- Luke: FE3 (Darrman)
+- Boucheron: Sterling_Glovner
+- Clanne: Maximus03
+- Vander: Sterling_Glovner
+- Alfred: Sterling_Glovner
+- Celine: Saihua
+- Diamant: Sterling_Glovner
+- Alcryst: FE17 (Darrman)
+- Ivy: KingCrimson931
+- Hortensia: Sterling_Glovner
+- Timerra: Sterling_Glovner
+- Fogado: Sterling_Glovner
+- Veyle: Sterling_Glovner
+- Louis: Sterling_Glovner
+- Alfonse: FEH (Darrman)
+- "Ratface": FE7
+- "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
+- Amber: Sterling_Glovner
+- "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
+- Merlinus: FE6 (Obsidian Daddy, Lenh)
+- Guinevere: FE6 (Obsidian Daddy, Lenh)
+- Citrinne: CavalryUnits
+- Framme: Maximus03, Norikins (minimug)
+- "Executioner": FE6 (Obsidian Daddy, Lenh)
+- Lapis: FE17 (Darrman)
+- Etie: FE17 (Darrman)
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
@@ -96,50 +128,43 @@
 - Cecil: Final Fantasy 4 (Darrman)
 - Butz: Final Fantasy 5 mobile (Darrman)
 - Terra: Final Fantasy 6 (Darrman)
-
-- Alear: Jey the Count
-- Kris: FE12 (Darrman)
-
-- Caesar: FE3 (Darrman)
-- Ryan: FE3 (Darrman)
-- Luke: FE3 (Darrman)
-- Boucheron: Sterling_Glovner
-- Clanne: Maximus03
-- Vander: Sterling_Glovner
-- Alfred: Sterling_Glovner
-- Celine: Saihua
-- Diamant: Sterling_Glovner
-- Alcryst: FE17 (Darrman)
-- Ivy: KingCrimson931
-- Hortensia: Sterling_Glovner
-- Timerra: Sterling_Glovner
-- Fogado: Sterling_Glovner
-- Veyle: Sterling_Glovner
-- Louis: Sterling_Glovner
-- Alfonse: FEH (Darrman)
-
-- "Ratface": FE7
-- "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
-- Amber: Sterling_Glovner
-- "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
-- Merlinus: FE6 (Obsidian Daddy, Lenh)
-- Guinevere: FE6 (Obsidian Daddy, Lenh)
-- Citrinne: CavalryUnits
-- Framme: Maximus03, Norikins (minimug)
-- "Executioner": FE6 (Obsidian Daddy, Lenh)
-- Lapis: FE17 (Darrman)
-- Etie: FE17 (Darrman)
+- Rydia: Final Fantasy 4 (Darrman)
+- Kain: Final Fantasy 4 (Darrman)
+- Lenna: Final Fantasy 5 mobile (Darrman)
+- Celes: Final Fantasy 6 (Darrman)
+- Locke: Final Fantasy 6 (Darrman)
 
 - Sonic: GoudaGrabber
 - Tails: GoudaGrabber
 - Knuckles: Sonic Adventure? (Sme)
 - Robotnik: AlemOwl
+
 - Mr. Game and Watch: Super Smash Bros. 4 (Darrman)
 - Popo: Super Smash Bros. Melee (Darrman)
+
 - Flynn: Shin Megami Tensei 4 (Darrman)
 - Isabeau: Shin Megami Tensei 4 (Darrman)
 - Walter: Shin Megami Tensei 4 (Darrman)
 - Jonathan: Shin Megami Tensei 4 (Darrman)
+
+- Armstrong: UltraxBlade
+- Snake: Metal Gear Solid 2 (Darrman)
+- Raiden: Metal Gear Solid 2 (Darrman)
+
+- Yugi: Yu-Gi-Oh World Championship 2004 (Darrman)
+- Tea: Yu-Gi-Oh World Championship 2004 (Darrman)
+- Joey: Yu-Gi-Oh World Championship 2004 (Darrman)
+- Kaiba: Yu-Gi-Oh World Championship 2004 (Darrman)
+- Jaden: Yu-Gi-Oh GX Duel Academy (Darrman)
+- Alexis: Yu-Gi-Oh GX Duel Academy (Darrman)
+- Chazz: Yu-Gi-Oh GX Duel Academy (Darrman)
+
+- Reimu: Redbean
+- Mima: Tezuka_Yamigami
+- Marisa: Redbean
+- Yuuka: Redbean
+- Alice: Redbean
+- Shinki: Redbean
 
 - Lucina: Garytop
 - Lyn: FE7
@@ -248,8 +273,21 @@
 - Falco: Star Fox 64 3D
 - Peppy: Star Fox 64
 - Slippy: Star Fox 64 3D
+- Armstrong: Metal Gear Rising
+- Yugi: Yu-Gi-Oh Duel Links
+- Joey: Yu-Gi-Oh Duel Links
+- Tea: Yu-Gi-Oh Duel Links
+- Kaiba: Yu-Gi-Oh Duel Links
+- Jaden: Yu-Gi-Oh Duel Links
+- Alexis: Yu-Gi-Oh Duel Links
+- Chazz: Yu-Gi-Oh Duel Links
+- Reimu: Touhou 5: Mystic Square
+- Shinki: Touhou 5: Mystic Square
+- Alice: Touhou 5: Mystic Square
+- Marisa: Touhou 5: Mystic Square
+- Yuuka: Touhou 5: Mystic Square
+- Mima: Touhou 5: Mystic Square
 - All converted by Darrman.
-
 
 # Music
 
