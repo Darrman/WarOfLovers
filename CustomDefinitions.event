@@ -57,7 +57,7 @@
 #define Tomth 0x09
 #define Ryan 0x0a
 #define Saji 0x0b
-#define Luke 0x0c
+#define EMPTY 0x0c
 #define Rody 0x0d
 #define Kashim 0x0e
 #define Riff 0x0f //I'm using the Ephraim slot, I need it!
@@ -79,7 +79,8 @@
 #define Valbo 0x1b
 #define Camus 0x1c
 #define Dyute 0x1d
-#define Valencia2 0x1e
+#define Claire 0x1e
+#define Valencia2 Claire
 #define Alm 0x1f
 #define Celine 0x20
 
@@ -198,10 +199,15 @@
 #define Louie 0x72
 #define President 0x73
 
-//Chrono Trigger
+//Chrono Trigger - not to be implemented, defines depreciated
 #define Crono 0x74
 #define Marle 0x75
 #define Lucca 0x76
+
+//Metal Gear
+#define Snake 0x74
+#define Raiden 0x75
+#define Armstrong 0x76
 
 //Sonic the Hedgehog
 #define Sonic 0x77
@@ -216,6 +222,15 @@
 #define Jonathan 0x7e
 #define Walter 0x7f
 
+//Touhou Project
+#define Reimu 0x80
+#undef Marisa //the Crimson Flash is not in this hack
+#define Marisa 0x81 //the Ordinary Magician is, though
+#define Mima 0x82
+#define Yuuka 0x83
+#define Shinki 0x84
+#define Alice 0x85
+
 //Remaining playable characters undetermined
 
 
@@ -223,6 +238,7 @@
 #define Kris 0x97
 #define Alear 0x98
 #define Alear2 Alear //come up with a better solution at some point
+#define Luke 0xa8 //it's official, he's red. Moved into the enemy slot Claire used to have.
 #define Boucheron 0x99
 #define Clanne 0x9a
 #define Ch5xBoss 0x9b
@@ -243,9 +259,8 @@
 #define Ch13xBoss 0xa6
 #define Ch14Boss 0xa7
 #define Etie Ch14Boss
-#define Claire 0xa8
 #define Cleive 0xa9
-#define GreyOrRobin 0xaa //extreme placeholder to be determined later
+#define Grey 0xaa
 #define Mycen 0xab
 #define DomaFaithfulBoss 0xac
 //Act 4

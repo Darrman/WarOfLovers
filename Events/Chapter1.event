@@ -250,6 +250,7 @@ STAL 10
 Text(Shrine_lighter,Ch1AtTheAltar)
 MUSC M_OffToWar
 Text(Shrine_lighter,Ch1IObject)
+//Get these IDs past 0x96: otherwise player units will disappear if debug-skipping
 TurnEnemy(Alear)
 TurnEnemy(Clanne)
 TurnEnemy(Vander)

@@ -250,7 +250,7 @@ setMugEntry(0x39, AlcrystMug, 4,6,4,4)
 
 IvyMug:
 #incext PortraitFormatter "Ivy.png"
-setMugEntry(0x3A, IvyMug, 2,6,3,5)
+setMugEntry(0x3A, IvyMug, 2,6,3,4)
 
 HortensiaMug:
 #incext PortraitFormatter "Hortensia.png"
@@ -600,6 +600,54 @@ setMugEntry(0xE4, Cleive_Mug, 4,6,4,4)
 Grey_Mug:
 #incext PortraitFormatter "Grey.png"
 setMugEntry(0xE5, Grey_Mug, 4,6,4,4)
+
+Jaden_Mug:
+#incext PortraitFormatter "Jaden.png"
+setMugEntry(0xE6, Jaden_Mug, 4,6,4,4)
+
+Alexis_Mug:
+#incext PortraitFormatter "Alexis.png"
+setMugEntry(0xE7, Alexis_Mug, 4,5,4,3)
+
+Chazz_Mug:
+#incext PortraitFormatter "Chazz.png"
+setMugEntry(0xE8, Chazz_Mug, 5,6,5,3)
+
+Reimu_Mug:
+#incext PortraitFormatter "Reimu.png"
+setMugEntry(0xE9, Reimu_Mug, 2,7,3,5)
+
+Marisa_Mug:
+#incext PortraitFormatter "Marisa.png"
+setMugEntry(0xEA, Marisa_Mug, 3,7,4,5)
+
+Mima_Mug:
+#incext PortraitFormatter "Mima.png"
+setMugEntry(0xEB, Mima_Mug, 4,6,4,4)
+
+Yuuka_Mug:
+#incext PortraitFormatter "Yuuka.png"
+setMugEntry(0xEC, Yuuka_Mug, 2,5,3,3)
+
+Shinki_Mug:
+#incext PortraitFormatter "Shinki.png"
+setMugEntry(0xED, Shinki_Mug, 2,6,3,4)
+
+Alice_Mug:
+#incext PortraitFormatter "Alice.png"
+setMugEntry(0xEE, Alice_Mug, 4,7,3,5)
+
+Snake_Mug:
+#incext PortraitFormatter "Snake.png"
+setMugEntry(0xEF, Snake_Mug, 4,6,4,4)
+
+Raiden_Mug:
+#incext PortraitFormatter "Raiden.png"
+setMugEntry(0xF0, Raiden_Mug, 3,7,3,4)
+
+Armstrong_Mug:
+#incext PortraitFormatter "Armstrong.png"
+setMugEntry(0xF1, Armstrong_Mug, 2,4,2,2)
 
 
 //Leftovers from Evening Train Crash 2, may need in future

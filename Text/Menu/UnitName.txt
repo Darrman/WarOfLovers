@@ -807,23 +807,23 @@ President[X]
 ## PresidentDesc
 Placeholder description.[X]
 
-## CronoName
-Crono[X]
-
-## CronoDesc
-Placeholder description.[X]
-
-## MarleName
-Marle[X]
-
-## MarleDesc
-Placeholder description.[X]
-
-## LuccaName
-Lucca[X]
-
-## LuccaDesc
-Placeholder description.[X]
+//## CronoName
+//Crono[X]
+//
+//## CronoDesc
+//Placeholder description.[X]
+//
+//## MarleName
+//Marle[X]
+//
+//## MarleDesc
+//Placeholder description.[X]
+//
+//## LuccaName
+//Lucca[X]
+//
+//## LuccaDesc
+//Placeholder description.[X]
 
 ## SonicName
 Sonic[X]
@@ -879,6 +879,59 @@ Walter[X]
 ## WalterDesc
 Placeholder description.[X]
 
+## SnakeName
+Snake[X]
+
+## SnakeDesc
+Placeholder description.[X]
+
+## RaidenName
+Raiden[X]
+
+## RaidenDesc
+Placeholder description.[X]
+
+## ArmstrongName
+Armstrong[X]
+
+## ArmstrongDesc
+Placeholder description.[X]
+
+## ReimuName
+Reimu[X]
+
+## ReimuDesc
+Placeholder description.[X]
+
+## MarisaName
+Marisa[X]
+
+## MarisaDesc
+Placeholder description.[X]
+
+## MimaName
+Mima[X]
+
+## MimaDesc
+Placeholder description.[X]
+
+## YuukaName
+Yuuka[X]
+
+## YuukaDesc
+Placeholder description.[X]
+
+## ShinkiName
+Shinki[X]
+
+## ShinkiDesc
+Placeholder description.[X]
+
+## AliceName
+Alice[X]
+
+## AliceDesc
+Placeholder description.[X]
 
 
 ## RodyName
