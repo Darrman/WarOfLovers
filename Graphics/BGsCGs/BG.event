@@ -117,6 +117,20 @@ POIN FalcoBG; WORD 0x0; POIN FalcoBGPal
 POIN PeppyBG; WORD 0x0; POIN PeppyBGPal
 POIN SlippyBG; WORD 0x0; POIN SlippyBGPal
 POIN BlackScreenBG; WORD 0x0; POIN BlackScreenBGPal
+POIN ArmstrongBG; WORD 0x0; POIN ArmstrongBGPal
+POIN YugiBG; WORD 0x0; POIN YugiBGPal
+POIN JoeyBG; WORD 0x0; POIN JoeyBGPal
+POIN TeaBG; WORD 0x0; POIN TeaBGPal
+POIN KaibaBG; WORD 0x0; POIN KaibaBGPal
+POIN JadenBG; WORD 0x0; POIN JadenBGPal
+POIN AlexisBG; WORD 0x0; POIN AlexisBGPal
+POIN ChazzBG; WORD 0x0; POIN ChazzBGPal
+POIN ReimuBG; WORD 0x0; POIN ReimuBGPal
+POIN ShinkiBG; WORD 0x0; POIN ShinkiBGPal
+POIN AliceBG; WORD 0x0; POIN AliceBGPal
+POIN MarisaBG; WORD 0x0; POIN MarisaBGPal
+POIN YuukaBG; WORD 0x0; POIN YuukaBGPal
+POIN MimaBG; WORD 0x0; POIN MimaBGPal
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -384,3 +398,87 @@ BlackScreenBG:
 ALIGN 4
 BlackScreenBGPal:
 #incbin bin/256BlackScreenPal.dmp
+
+ArmstrongBG:
+#incbin bin/256Armstrong.dmp
+ALIGN 4
+ArmstrongBGPal:
+#incbin bin/256ArmstrongPal.dmp
+
+YugiBG:
+#incbin bin/256Yugi.dmp
+ALIGN 4
+YugiBGPal:
+#incbin bin/256YugiPal.dmp
+
+JoeyBG:
+#incbin bin/256Joey.dmp
+ALIGN 4
+JoeyBGPal:
+#incbin bin/256JoeyPal.dmp
+
+TeaBG:
+#incbin bin/256Tea.dmp
+ALIGN 4
+TeaBGPal:
+#incbin bin/256TeaPal.dmp
+
+KaibaBG:
+#incbin bin/256Kaiba.dmp
+ALIGN 4
+KaibaBGPal:
+#incbin bin/256KaibaPal.dmp
+
+JadenBG:
+#incbin bin/256Jaden.dmp
+ALIGN 4
+JadenBGPal:
+#incbin bin/256JadenPal.dmp
+
+AlexisBG:
+#incbin bin/256Alexis.dmp
+ALIGN 4
+AlexisBGPal:
+#incbin bin/256AlexisPal.dmp
+
+ChazzBG:
+#incbin bin/256Chazz.dmp
+ALIGN 4
+ChazzBGPal:
+#incbin bin/256ChazzPal.dmp
+
+ReimuBG:
+#incbin bin/256Reimu.dmp
+ALIGN 4
+ReimuBGPal:
+#incbin bin/256ReimuPal.dmp
+
+ShinkiBG:
+#incbin bin/256Shinki.dmp
+ALIGN 4
+ShinkiBGPal:
+#incbin bin/256ShinkiPal.dmp
+
+AliceBG:
+#incbin bin/256Alice.dmp
+ALIGN 4
+AliceBGPal:
+#incbin bin/256AlicePal.dmp
+
+MarisaBG:
+#incbin bin/256Marisa.dmp
+ALIGN 4
+MarisaBGPal:
+#incbin bin/256MarisaPal.dmp
+
+YuukaBG:
+#incbin bin/256Yuuka.dmp
+ALIGN 4
+YuukaBGPal:
+#incbin bin/256YuukaPal.dmp
+
+MimaBG:
+#incbin bin/256Mima.dmp
+ALIGN 4
+MimaBGPal:
+#incbin bin/256MimaPal.dmp
