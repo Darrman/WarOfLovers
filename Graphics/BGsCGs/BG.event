@@ -131,6 +131,13 @@ POIN AliceBG; WORD 0x0; POIN AliceBGPal
 POIN MarisaBG; WORD 0x0; POIN MarisaBGPal
 POIN YuukaBG; WORD 0x0; POIN YuukaBGPal
 POIN MimaBG; WORD 0x0; POIN MimaBGPal
+POIN SonicBG; WORD 0x0; POIN SonicBGPal
+POIN TailsBG; WORD 0x0; POIN TailsBGPal
+POIN KnucklesBG; WORD 0x0; POIN KnucklesBGPal
+POIN RobotnikBG; WORD 0x0; POIN RobotnikBGPal
+POIN ShadowBG; WORD 0x0; POIN ShadowBGPal
+POIN SnakeBG; WORD 0x0; POIN SnakeBGPal
+
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -482,3 +489,39 @@ MimaBG:
 ALIGN 4
 MimaBGPal:
 #incbin bin/256MimaPal.dmp
+
+SonicBG:
+#incbin bin/256Sonic.dmp
+ALIGN 4
+SonicBGPal:
+#incbin bin/256SonicPal.dmp
+
+TailsBG:
+#incbin bin/256Tails.dmp
+ALIGN 4
+TailsBGPal:
+#incbin bin/256TailsPal.dmp
+
+KnucklesBG:
+#incbin bin/256Knuckles.dmp
+ALIGN 4
+KnucklesBGPal:
+#incbin bin/256KnucklesPal.dmp
+
+RobotnikBG:
+#incbin bin/256Robotnik.dmp
+ALIGN 4
+RobotnikBGPal:
+#incbin bin/256RobotnikPal.dmp
+
+ShadowBG:
+#incbin bin/256Shadow.dmp
+ALIGN 4
+ShadowBGPal:
+#incbin bin/256ShadowPal.dmp
+
+SnakeBG:
+#incbin bin/256Snake.dmp
+ALIGN 4
+SnakeBGPal:
+#incbin bin/256SnakePal.dmp

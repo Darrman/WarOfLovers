@@ -568,7 +568,7 @@ ENDA
 BackgroundViewer:
 FADI 16
 SVAL 0x2 0x0
-SVAL 0x3 0x71
+SVAL 0x3 0x78
 REMOVEPORTRAITS
 LABEL 0x0
 BACG 0xFFFF
@@ -662,7 +662,7 @@ CALL LoadPikachu*/
 
 //LOAD1 0x1 FEE32023Units
 
-CALL LoadZelda
+/*CALL LoadZelda
 CALL LoadSahasrahla
 CALL LoadMarin
 CALL LoadSaria
@@ -671,6 +671,17 @@ CALL LoadMetaKnight
 CALL LoadFalco
 CALL LoadPeppy
 CALL LoadSlippy
+*/
+
+//2025: just call the common, you don't need a unit
+CALL YugiCommon
+CALL JadenCommon
+CALL SonicCommon
+CALL RobotnikCommon
+CALL SnakeCommon
+CALL ArmstrongCommon
+CALL MimaCommon
+CALL ReimuCommon
 ENDA
 
 FEE32023Units:

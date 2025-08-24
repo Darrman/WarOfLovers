@@ -322,3 +322,162 @@ My name's Slippy Toad, and[N]
 I was repairing the team's[AN]
 submarine when I suddenly[N]
 wound up on this planet![A][X]
+
+## RecruitSalesman
+Ha ha ha... huh?[N]
+Where did I go?[AN]
+They call me the Happy[N]
+Mask Salesman.[AN]
+Have I met a terrible[N]
+fate?[A][X]
+
+## RecruitGanon
+Muah ha ha ha! I am[N]
+Ganondorf, King of[AN]
+the Gerudo! Yes, I do[N]
+think an alliance is[AN]
+in our best interests[N]
+for the time being...[A][X]
+
+## RecruitWolf
+Grr... I wasn't paid to[N]
+take this mission![AN]
+Name's Wolf O'Donnell,[N]
+head of Star Wolf.[AN]
+Seems like I'm stuck here,[N]
+so may as well fight.[A][X]
+
+## RecruitMewtwo
+I am Mewtwo... The[N]
+strongest Pokemon...[AN]
+Are you worthy to command[N]
+me, human? We shall see.[A][X]
+
+## RecruitMrGAndW
+BEEP! I AM MR. GAME AND[N]
+WATCH. HOW YOU HAVE[AN]
+SUMMONED ME, I DO NOT[N]
+KNOW. LET US FIGHT[AN]
+TOGETHER![A][X]
+
+## RecruitRosa
+Hello, my name is Rosa[N]
+Farrell. If anyone gets[AN]
+hurt, then I can heal[N]
+their wounds.[A][X]
+
+## RecruitKainFF4
+What's going on?[N]
+Urgh, my head...[AN]
+So, I suppose I'm now[N]
+serving you?[A][X]
+
+## RecruitRydia
+Oh, my head feels light...[N]
+At least I haven't been[AN]
+eaten by Leviathan again.[N]
+But where am I?[A][X]
+
+## RecruitLenna
+Did we make it to Galuf's[N]
+world? Butz? Faris?[AN]
+Where are you? Did we get[N]
+split up? Oh, sorry.[AN]
+I didn't see you there.[N]
+My name's Lenna.[A][X]
+
+## RecruitGaluf
+Huh? Last I remember, we[N]
+were at the Barrier[AN]
+Tower... What's going on?[N]
+Did I get left behind?[A][X]
+
+## RecruitCeles
+PLACEHOLDER[A][X]
+
+## RecruitLocke
+PLACEHOLDER[A][X]
+
+## RecruitYugi
+PLACEHOLDER[A][X]
+
+## RecruitJoey
+PLACEHOLDER[A][X]
+
+## RecruitTea
+PLACEHOLDER[A][X]
+
+## RecruitKaiba
+PLACEHOLDER[A][X]
+
+## RecruitJaden
+PLACEHOLDER[A][X]
+
+## RecruitAlexis
+PLACEHOLDER[A][X]
+
+## RecruitChazz
+PLACEHOLDER[A][X]
+
+## RecruitOlimar
+PLACEHOLDER[A][X]
+
+## RecruitLouie
+PLACEHOLDER[A][X]
+
+## RecruitPresident
+PLACEHOLDER[A][X]
+
+## RecruitSnake
+PLACEHOLDER[A][X]
+
+## RecruitRaiden
+PLACEHOLDER[A][X]
+
+## RecruitArmstrong
+PLACEHOLDER[A][X]
+
+## RecruitSonic
+PLACEHOLDER[A][X]
+
+## RecruitTails
+PLACEHOLDER[A][X]
+
+## RecruitKnuckles
+PLACEHOLDER[A][X]
+
+## RecruitRobotnik
+PLACEHOLDER[A][X]
+
+## RecruitAmy
+PLACEHOLDER[A][X]
+
+## RecruitFlynn
+PLACEHOLDER[A][X]
+
+## RecruitIsabeau
+PLACEHOLDER[A][X]
+
+## RecruitJonathan
+PLACEHOLDER[A][X]
+
+## RecruitWalter
+PLACEHOLDER[A][X]
+
+## RecruitReimu
+PLACEHOLDER[A][X]
+
+## RecruitMarisa
+PLACEHOLDER[A][X]
+
+## RecruitMima
+PLACEHOLDER[A][X]
+
+## RecruitYuuka
+PLACEHOLDER[A][X]
+
+## RecruitShinki
+PLACEHOLDER[A][X]
+
+## RecruitAlice
+PLACEHOLDER[A][X]

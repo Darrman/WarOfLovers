@@ -637,6 +637,26 @@
 #define CGPeppy 0x61
 #define CGSlippy 0x62
 #define CGBlackScreen 0x63 //find a way to uncorrupt the original one!
+#define CGArmstrong 0x64
+#define CGYugi 0x65
+#define CGJoey 0x66
+#define CGTea 0x67
+#define CGKaiba 0x68
+#define CGJaden 0x69
+#define CGAlexis 0x6A
+#define CGChazz 0x6B
+#define CGReimu 0x6C
+#define CGShinki 0x6D
+#define CGAlice 0x6E
+#define CGMarisa 0x6F
+#define CGYuuka 0x70
+#define CGMima 0x71
+#define CGSonic 0x72
+#define CGTails 0x73
+#define CGKnuckles 0x74
+#define CGRobotnik 0x75
+#define CGShadow 0x76
+#define CGSnake 0x77
 
 //Event IDs
 #define JamModeOn 0x71

@@ -473,6 +473,486 @@ CALL $9EE2C4 //EndConvo
 SVAL s2 Slippy
 ENDA
 
+SalesmanCommon:
+//SetBackground(CGSalesman)
+//SOUN VoiceSalesmanSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitSalesman
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Salesman
+ENDA
+
+GanonCommon:
+//SetBackground(CGGanon)
+//SOUN VoiceGanonSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitGanon
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Ganon
+ENDA
+
+WolfCommon:
+//SetBackground(CGWolf)
+//SOUN VoiceWolfSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitWolf
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Wolf
+ENDA
+
+MewtwoCommon:
+//SetBackground(CGMewtwo)
+//SOUN VoiceMewtwoSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitMewtwo
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Mewtwo
+ENDA
+
+MrGAndWCommon:
+//SetBackground(CGMrGandW)
+//SOUN VoiceMrGandWSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitMrGAndW
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 MrGAndW
+ENDA
+
+RosaCommon:
+//SetBackground(CGRosa)
+//SOUN VoiceRosaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitRosa
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Rosa
+ENDA
+
+KainFF4Common:
+//SetBackground(CGKainFF4)
+//SOUN VoiceKainFF4Summon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitKainFF4
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 KainFF4
+ENDA
+
+RydiaCommon:
+//SetBackground(CGRydia)
+//SOUN VoiceRydiaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitRydia
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Rydia
+ENDA
+
+
+LennaCommon:
+//SetBackground(CGLenna)
+//SOUN VoiceLennaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitLenna
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Lenna
+ENDA
+
+GalufCommon:
+//SetBackground(CGGaluf)
+//SOUN VoiceGalufSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitGaluf
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Galuf
+ENDA
+
+CelesCommon:
+//SetBackground(CGCeles)
+//SOUN VoiceCelesSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitCeles
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Celes
+ENDA
+
+LockeCommon:
+//SetBackground(CGLocke)
+//SOUN VoiceLockeSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitLocke
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Locke
+ENDA
+
+YugiCommon:
+SetBackground(CGYugi)
+//SOUN VoiceYugiSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitYugi
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Yugi
+ENDA
+
+JoeyCommon:
+SetBackground(CGJoey)
+//SOUN VoiceJoeySummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitJoey
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Joey
+ENDA
+
+TeaCommon:
+SetBackground(CGTea)
+//SOUN VoiceTeaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitTea
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Tea
+ENDA
+
+KaibaCommon:
+SetBackground(CGKaiba)
+//SOUN VoiceKaibaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitKaiba
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Kaiba
+ENDA
+
+JadenCommon:
+SetBackground(CGJaden)
+//SOUN VoiceJadenSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitJaden
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Jaden
+ENDA
+
+AlexisCommon:
+SetBackground(CGAlexis)
+//SOUN VoiceAlexisSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitAlexis
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Alexis
+ENDA
+
+ChazzCommon:
+SetBackground(CGChazz)
+//SOUN VoiceChazzSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitChazz
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Chazz
+ENDA
+
+OlimarCommon:
+//SetBackground(CGOlimar)
+//SOUN VoiceOlimarSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitOlimar
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Olimar
+ENDA
+
+LouieCommon:
+//SetBackground(CGLouie)
+//SOUN VoiceLouieSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitLouie
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Louie
+ENDA
+
+PresidentCommon:
+//SetBackground(CGPresident)
+//SOUN VoicePresidentSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitPresident
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 President
+ENDA
+
+SnakeCommon:
+SetBackground(CGSnake)
+//SOUN VoiceSnakeSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitSnake
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Snake
+ENDA
+
+RaidenCommon:
+//SetBackground(CGRaiden)
+//SOUN VoiceRaidenSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitRaiden
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Raiden
+ENDA
+
+ArmstrongCommon:
+SetBackground(CGArmstrong)
+//SOUN VoiceArmstrongSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitArmstrong
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Armstrong
+ENDA
+
+SonicCommon:
+SetBackground(CGSonic)
+//SOUN VoiceSonicSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitSonic
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Sonic
+ENDA
+
+TailsCommon:
+SetBackground(CGTails)
+//SOUN VoiceTailsSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitTails
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Tails
+ENDA
+
+KnucklesCommon:
+SetBackground(CGKnuckles)
+//SOUN VoiceKnucklesSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitKnuckles
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Knuckles
+ENDA
+
+RobotnikCommon:
+SetBackground(CGRobotnik)
+//SOUN VoiceRobotnikSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitRobotnik
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Robotnik
+ENDA
+
+ShadowCommon:
+SetBackground(CGShadow)
+//SOUN VoiceAmySummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitAmy
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Amy
+ENDA
+
+FlynnCommon:
+//SetBackground(CGFlynn)
+//SOUN VoiceFlynnSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitFlynn
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Flynn
+ENDA
+
+IsabeauCommon:
+//SetBackground(CGIsabeau)
+//SOUN VoiceIsabeauSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitIsabeau
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Isabeau
+ENDA
+
+JonathanCommon:
+//SetBackground(CGJonathan)
+//SOUN VoiceJonathanSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitJonathan
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Jonathan
+ENDA
+
+WalterCommon:
+//SetBackground(CGWalter)
+//SOUN VoiceWalterSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitWalter
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Walter
+ENDA
+
+ReimuCommon:
+SetBackground(CGReimu)
+//SOUN VoiceReimuSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitReimu
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Reimu
+ENDA
+
+MarisaCommon:
+SetBackground(CGMarisa)
+//SOUN VoiceMarisaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitMarisa
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Marisa
+ENDA
+
+MimaCommon:
+SetBackground(CGMima)
+//SOUN VoiceMimaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitMima
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Mima
+ENDA
+
+YuukaCommon:
+SetBackground(CGYuuka)
+//SOUN VoiceYuukaSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitYuuka
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Yuuka
+ENDA
+
+ShinkiCommon:
+SetBackground(CGShinki)
+//SOUN VoiceShinkiSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitShinki
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Shinki
+ENDA
+
+AliceCommon:
+SetBackground(CGAlice)
+//SOUN VoiceAliceSummon
+STAL 20
+CGTEXTSTART
+TEXTSHOW RecruitAlice
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+SVAL s2 Alice
+ENDA
 
 UnitGachaJam:
 //The original gacha used in Jam Mode
