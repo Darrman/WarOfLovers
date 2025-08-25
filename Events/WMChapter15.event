@@ -1,7 +1,12 @@
 WorldMapPointerTable(15,WM_Events)
 
 WM_Events:
-BeginWorldMap
+//BeginWorldMap calls the intro WM which is Akaneia.
+//We don't want WM_SHOWDRAWNMAP called, so...
+_0xC220
+STAL 2
+WM_SETCAM 0 0
+WM_FADEOUT 0x0 0x0 0x0
 MUSC M_ToSofia
 STAL 120
 WorldMapShowTextBox
