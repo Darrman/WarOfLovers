@@ -33,6 +33,8 @@
 #define VoiceKashimSelect 0x15C
 #define VoiceSophiaSelect 0x15D
 #define VoiceBartreSelect 0x166
+#define VoiceSonicSelect 0x167
+#define VoiceSnakeSelect 0x170
 
 ALIGN 2
 MarthVoiceEffect:
@@ -778,6 +780,48 @@ WORD $FF00FF
 BartreVoice_wav:
 #incbin "bin/Bartre_BreakYourBones.bin"
 SongTable(VoiceBartreSelect,BartreVoice,7)
+
+SonicVoiceEffect:
+BYTE Sonic
+BYTE 0x00
+SHORT VoiceSonicSelect
+
+SonicVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SonicVoice:
+WORD $01
+POIN SonicVoice_map
+POIN SonicVoice_data
+
+SonicVoice_map:
+WORD $3c00
+POIN SonicVoice_wav
+WORD $FF00FF
+
+SonicVoice_wav:
+#incbin "bin/Sonic_YoureTooSlow.bin"
+SongTable(VoiceSonicSelect,SonicVoice,7)
+
+SnakeVoiceEffect:
+BYTE Snake
+BYTE 0x00
+SHORT VoiceSnakeSelect
+
+SnakeVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SnakeVoice:
+WORD $01
+POIN SnakeVoice_map
+POIN SnakeVoice_data
+
+SnakeVoice_map:
+WORD $3c00
+POIN SnakeVoice_wav
+WORD $FF00FF
+
+SnakeVoice_wav:
+#incbin "bin/Snake_ImDoneHere.bin"
+SongTable(VoiceSnakeSelect,SnakeVoice,7)
 
 /*ALIGN 2
 EirikaSoundEffect:

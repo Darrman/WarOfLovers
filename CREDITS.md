@@ -358,6 +358,11 @@
 - Falco: Star Fox 64
 - Peppy: Star Fox 64
 - Slippy: Star Fox 64
+- Yugi: Yu-Gi-Oh Duel Links
+- Jaden: Yu-Gi-Oh Duel Links
+- Sonic: Super Smash Bros Brawl
+- Snake: Super Smash Bros Brawl
+- Robotnik: Sonic Adventure
 
 - Converted by Darrman
 

@@ -674,14 +674,15 @@ CALL LoadSlippy
 */
 
 //2025: just call the common, you don't need a unit
-CALL YugiCommon
 CALL JadenCommon
-CALL SonicCommon
+CALL ReimuCommon
 CALL RobotnikCommon
 CALL SnakeCommon
-CALL ArmstrongCommon
+CALL YugiCommon
+CALL SonicCommon
 CALL MimaCommon
-CALL ReimuCommon
+CALL ArmstrongCommon
+
 ENDA
 
 FEE32023Units:

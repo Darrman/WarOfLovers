@@ -393,91 +393,219 @@ Tower... What's going on?[N]
 Did I get left behind?[A][X]
 
 ## RecruitCeles
-PLACEHOLDER[A][X]
+...So, there really is[N]
+an afterlife?[AN]
+My name is Celes Chere.[N]
+What am I meant to do?[A][X]
 
 ## RecruitLocke
-PLACEHOLDER[A][X]
+Locke Cole, treasure[N]
+hunter, right here.[AN]
+You got that? Now, this[N]
+place must have some[AN]
+connection to Phoenix.[N]
+Where should I go?[A][X]
 
 ## RecruitYugi
-PLACEHOLDER[A][X]
+It's time to duel![N]
+...Wait a minute...[AN]
+I wasn't duelling you.[N]
+Is this a Shadow Game?[AN]
+No... Was I teleported?[N]
+Hello. I am Yugi Muto.[A][X]
 
 ## RecruitJoey
-PLACEHOLDER[A][X]
+Alright, I'm Joey Wheeler![N]
+One of the best duellists[AN]
+in Domino City! Don't worry,[N]
+I can defend myself in a[AN]
+real fight too. Now, let[N]
+me at 'em![A][X]
 
 ## RecruitTea
-PLACEHOLDER[A][X]
+Hello! My name's Tea, and[N]
+this isn't New York,[AN]
+but I still think we should[N]
+be friends.[A][X]
 
 ## RecruitKaiba
-PLACEHOLDER[A][X]
+I'm Seto Kaiba, the CEO[N]
+of Kaiba Corp, and I[AN]
+must have fallen into[N]
+another virtual world.[AN]
+How else am I meant to[N]
+explain all this magic?[A][X]
 
 ## RecruitJaden
-PLACEHOLDER[A][X]
+...I don't think it[N]
+worked. Am I in the[AN]
+stars now? I suppose[N]
+I am. Well, hey there.[AN]
+I'm Jaden Yuki. So,[N]
+get your game on?[A][X]
 
 ## RecruitAlexis
-PLACEHOLDER[A][X]
+What now? I've been[N]
+brainwashed, sent to a[AN]
+desert world, jumped[N]
+into a dark world, and[AN]
+was seconds away from[N]
+being sacrificed![A][X]
 
 ## RecruitChazz
-PLACEHOLDER[A][X]
+Lucky you! You are in[N]
+The Chazz's presence.[AN]
+I'm the best student in[N]
+Duel Academy. I'm way[AN]
+better than the Slifer[N]
+Slacker! Ha ha ha![A][X]
 
 ## RecruitOlimar
-PLACEHOLDER[A][X]
+I'm Captain Olimar of[N]
+Hocotate Freight.[AN]
+My company are always[N]
+in debt, and it's been[AN]
+so long since I could[N]
+see my family...[A][X]
 
 ## RecruitLouie
-PLACEHOLDER[A][X]
+I'm Louie. I'm hungry.[N]
+Do you have a bite to[AN]
+eat? I'm not picky.[N]
+Anything sounds good.[A][X]
 
 ## RecruitPresident
-PLACEHOLDER[A][X]
+Oh me, oh my... Pokos![N]
+All of the metal on[AN]
+these creatures could[N]
+sell for millions![AN]
+Yes, going here myself[N]
+was a very smart choice![A][X]
 
 ## RecruitSnake
-PLACEHOLDER[A][X]
+I have no name, but you[N]
+can call me Snake.[AN]
+I'm just a musher who races[N]
+sled dogs, but I doubt you[AN]
+called me here for that.[N]
+Does anybody have a light?[AN]
+I could use a smoke.[A][X]
 
 ## RecruitRaiden
 PLACEHOLDER[A][X]
 
 ## RecruitArmstrong
-PLACEHOLDER[A][X]
+I'm Presidential Candidate[N]
+and current US Senator[AN]
+Armstrong, but you don't[N]
+//fuck with this senator.[AN]
+//Mildly censored to keep the age rating down
+screw with this senator.[AN]
+I played college football[N]
+you know! You need muscle[AN]
+for your war? I've got it.[A][X]
 
 ## RecruitSonic
-PLACEHOLDER[A][X]
+I'm Sonic the Hedgehog,[N]
+the fastest thing alive![AN]
+Looks like I'm going on[N]
+another adventure. Fun![AN]
+Just tell me where the[N]
+nearest chili dogs are.[A][X]
 
 ## RecruitTails
-PLACEHOLDER[A][X]
+Hey there, my name's[N]
+Tails. Need someone[AN]
+to fix up a broken[N]
+machine? That's me.[A][X]
 
 ## RecruitKnuckles
-PLACEHOLDER[A][X]
+I am Knuckles the[N]
+Echidna, guardian[AN]
+of the Master Emerald.[N]
+If someone steals it[AN]
+in my absence... I will[N]
+blame you, blue man.[A][X]
 
 ## RecruitRobotnik
-PLACEHOLDER[A][X]
+Ha ha ha! I am Doctor[N]
+Ivo Robotnik, the[AN]
+greatest genius in the[N]
+entire world! You[AN]
+should be honoured to[N]
+be in my presence.[A][X]
 
-## RecruitAmy
+## RecruitShadow
 PLACEHOLDER[A][X]
 
 ## RecruitFlynn
-PLACEHOLDER[A][X]
+I am Flynn, a Samurai of[N]
+Mikado. This land is[AN]
+nothing like Tokyo.[N]
+But this isn't Mikado...[A][X]
 
 ## RecruitIsabeau
-PLACEHOLDER[A][X]
+My name is Isabeau. The[N]
+best path to walk is[AN]
+a balanced, neutral one.[N]
+Do you agree?[A][X]
 
 ## RecruitJonathan
-PLACEHOLDER[A][X]
+Greetings. I am Jonathan.[N]
+Personally, I believe that[AN]
+a lawful philosophy is the[N]
+best one to follow.[A][X]
 
 ## RecruitWalter
-PLACEHOLDER[A][X]
+Heya. The name's Walter.[N]
+Way I see things, the[AN]
+best solution is to[N]
+embrace the chaos.[A][X]
 
 ## RecruitReimu
-PLACEHOLDER[A][X]
+Okay, I've been in a lot[N]
+of strange incidents.[AN]
+But this is not Gensokyo.[N]
+Did you cause this?![AN]
+No? Well, I'm Reimu[N]
+Hakurei, and fix this![A][X]
 
 ## RecruitMarisa
-PLACEHOLDER[A][X]
+Hm, this place looks[N]
+cool. I could learn[AN]
+a thing or two from[N]
+this magic! Oh yeah,[AN]
+my name's Marisa. I[N]
+can help you out.[A][X]
 
 ## RecruitMima
-PLACEHOLDER[A][X]
+Hm hm... Maybe this is[N]
+the key to becoming[AN]
+a god! Ahem. You, blue[N]
+man! I am Mima,[AN]
+the goddess of Gensokyo![N]
+I suppose I can help.[A][X]
 
 ## RecruitYuuka
-PLACEHOLDER[A][X]
+Zzz... I didn't expect to[N]
+wake up here...[AN]
+You want me to fight for[N]
+you? Sure, why not.[AN]
+I'll turn your foes into a[N]
+mist of atoms. Neat![A][X]
 
 ## RecruitShinki
-PLACEHOLDER[A][X]
+Hello! I'm Shinki, the[N]
+Goddess of Makai.[AN]
+I've wanted to go on a[N]
+holiday recently, but[AN]
+this wasn't where I was[N]
+planning. Oh well.[A][X]
 
 ## RecruitAlice
-PLACEHOLDER[A][X]
+What? Hey! Can't I get a[N]
+moment of peace?[AN]
+Sigh. My name is Alice[N]
+Margatroid. I'm quite[AN]
+good with magic and I[N]
+love my dolls. Let's go.[A][X]

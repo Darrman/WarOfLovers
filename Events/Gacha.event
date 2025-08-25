@@ -620,7 +620,7 @@ ENDA
 
 YugiCommon:
 SetBackground(CGYugi)
-//SOUN VoiceYugiSummon
+SOUN VoiceYugiSummon
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitYugi
@@ -668,7 +668,7 @@ ENDA
 
 JadenCommon:
 SetBackground(CGJaden)
-//SOUN VoiceJadenSummon
+SOUN VoiceJadenSummon
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitJaden
@@ -740,7 +740,7 @@ ENDA
 
 SnakeCommon:
 SetBackground(CGSnake)
-//SOUN VoiceSnakeSummon
+SOUN VoiceSnakeSummon
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitSnake
@@ -776,7 +776,7 @@ ENDA
 
 SonicCommon:
 SetBackground(CGSonic)
-//SOUN VoiceSonicSummon
+SOUN VoiceSonicSummon
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitSonic
@@ -812,7 +812,7 @@ ENDA
 
 RobotnikCommon:
 SetBackground(CGRobotnik)
-//SOUN VoiceRobotnikSummon
+SOUN VoiceRobotnikSummon
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitRobotnik
@@ -827,7 +827,7 @@ SetBackground(CGShadow)
 //SOUN VoiceAmySummon
 STAL 20
 CGTEXTSTART
-TEXTSHOW RecruitAmy
+TEXTSHOW RecruitShadow
 TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo 	

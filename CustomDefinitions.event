@@ -592,6 +592,11 @@
 #define VoiceFalcoSummon 0x283
 #define VoicePeppySummon 0x284
 #define VoiceSlippySummon 0x285
+#define VoiceSonicSummon 0x286
+#define VoiceSnakeSummon 0x287
+#define VoiceJadenSummon 0x288
+#define VoiceRobotnikSummon 0x289
+#define VoiceYugiSummon 0x28A
 
 //Summon CGs
 #define CGMario 0x39

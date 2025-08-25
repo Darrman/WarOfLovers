@@ -435,3 +435,88 @@ WORD $FF00FF
 SlippyVoiceSummon_wav:
 #incbin "bin/Slippy_BigIdea.bin"
 SongTable(VoiceSlippySummon,SlippyVoiceSummon,7)
+
+ALIGN 2
+SonicVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SonicVoiceSummon:
+WORD $01
+POIN SonicVoiceSummon_map
+POIN SonicVoiceSummon_data
+
+SonicVoiceSummon_map:
+WORD $3c00
+POIN SonicVoiceSummon_wav
+WORD $FF00FF
+
+SonicVoiceSummon_wav:
+#incbin "bin/Sonic_TheName.bin"
+SongTable(VoiceSonicSummon,SonicVoiceSummon,7)
+
+ALIGN 2
+SnakeVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+SnakeVoiceSummon:
+WORD $01
+POIN SnakeVoiceSummon_map
+POIN SnakeVoiceSummon_data
+
+SnakeVoiceSummon_map:
+WORD $3c00
+POIN SnakeVoiceSummon_wav
+WORD $FF00FF
+
+SnakeVoiceSummon_wav:
+#incbin "bin/Snake_KeptYouWaiting.bin"
+SongTable(VoiceSnakeSummon,SnakeVoiceSummon,7)
+
+ALIGN 2
+JadenVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+JadenVoiceSummon:
+WORD $01
+POIN JadenVoiceSummon_map
+POIN JadenVoiceSummon_data
+
+JadenVoiceSummon_map:
+WORD $3c00
+POIN JadenVoiceSummon_wav
+WORD $FF00FF
+
+JadenVoiceSummon_wav:
+#incbin "bin/Jaden_GetYourGameOn.bin"
+SongTable(VoiceJadenSummon,JadenVoiceSummon,7)
+
+ALIGN 2
+RobotnikVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RobotnikVoiceSummon:
+WORD $01
+POIN RobotnikVoiceSummon_map
+POIN RobotnikVoiceSummon_data
+
+RobotnikVoiceSummon_map:
+WORD $3c00
+POIN RobotnikVoiceSummon_wav
+WORD $FF00FF
+
+RobotnikVoiceSummon_wav:
+#incbin "bin/Robotnik_GetALoadOfThis.bin"
+SongTable(VoiceRobotnikSummon,RobotnikVoiceSummon,7)
+
+ALIGN 2
+YugiVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+YugiVoiceSummon:
+WORD $01
+POIN YugiVoiceSummon_map
+POIN YugiVoiceSummon_data
+
+YugiVoiceSummon_map:
+WORD $3c00
+POIN YugiVoiceSummon_wav
+WORD $FF00FF
+
+YugiVoiceSummon_wav:
+#incbin "bin/Yugi_HeartOfTheCards.bin"
+SongTable(VoiceYugiSummon,YugiVoiceSummon,7)
