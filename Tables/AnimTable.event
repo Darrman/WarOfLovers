@@ -32,6 +32,24 @@ weaponTypeAnim(animNone, 0x7)
 weaponAnimEnd
 
 ALIGN 4
+SetAnimationPointers(HeroAlm, AlmAnims)
+AlmAnims:
+weaponTypeAnim(animSword, 0x53)
+weaponTypeAnim(animBow, 0x54)
+weaponTypeAnim(animNone, 0x55)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(MageFighter, PriestessAnims)
+//temporary until I properly set up the class
+PriestessAnims:
+weaponTypeAnim(animSword, 0x56)
+weaponTypeAnim(animAnima, 0x57)
+weaponTypeAnim(animStaff, 0x4D)
+weaponTypeAnim(animNone, 0x57)
+weaponAnimEnd
+
+ALIGN 4
 SetAnimationPointers(AxeKnight, AxeKnightAnims)
 AxeKnightAnims:
 weaponTypeAnim(animAxe, 0x95)

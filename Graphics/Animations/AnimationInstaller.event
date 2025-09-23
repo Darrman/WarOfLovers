@@ -34,6 +34,28 @@
 #include "Lilina/Magic/MagicInstaller.event"
 }
 
+//Alm's "Hero" - Alm
+{
+#include "Alm/Sword/SwordInstaller.event"
+}
+{
+#include "Alm/Bow/BowInstaller.event"
+}
+{
+#include "Alm/Unarmed/UnarmedInstaller.event"
+}
+
+//Priestess - Celica and Celine
+{
+#include "Priestess/Sword/SwordInstaller.event"
+}
+{
+#include "Priestess/Magic/MagicInstaller.event"
+}
+{
+#include "Priestess/Staff/StaffInstaller.event"
+}
+
 //Advance Wars animations - future Jugdral
 {
 #include "Infantry/Gun/GunInstaller.event"

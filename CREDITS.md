@@ -175,6 +175,8 @@
 
 - Marth: Blaze/Abzel, helped in debugging by 2WB
 - Chiki: L95 (dragon), Tykky (human), Jotari (transformation)
+- Alm: Nuramon
+- Priestess: HyperGammaSpaces, Jono
 - Axe Knight: Primefusion
 - Sword Armour: TheBlindArcher
 - Axe Armour: TheBlindArcher
