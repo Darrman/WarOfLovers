@@ -110,21 +110,34 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-MUSC M_Ricardo
+//MUSC M_Ricardo
+MUSC M_Slider
 Text(Riverside,LethalObligatoryETCBanterMario)
+MUSC M_BirthOfTheHolyKnight
 Text(Riverside,LethalObligatoryETCBanterFE)
+MUSC M_SimonsTheme
+//no Yugioh music in the repo, use a different Konami series
 Text(Riverside,LethalObligatoryETCBanterYGO)
+MUSC M_TheDreadfulFight
 Text(Riverside,LethalObligatoryETCBanterFF)
-MUSC M_WhenTheRushComes
+//MUSC M_WhenTheRushComes
+MUSC M_FinalDestination
 Text(Riverside,LethalObligatoryETCBanterSmash)
+MUSC M_MetropolisZone
 Text(Riverside,LethalObligatoryETCBanterSonic)
+MUSC M_Ginza
 Text(Riverside,LethalObligatoryETCBanterSMT)
+MUSC M_SeptetteForTheDeadPrincess
 Text(Riverside,LethalObligatoryETCBanterTouhou)
+//Switch tracks again, if you let Yukari brag about borders Necrofantasia would be nice
 Text(Town_Gate,LethalReturnToFoyleRoad)
-MUSC M_BattleForWhoseSake
+//MUSC M_BattleForWhoseSake
+MUSC M_RedBrinstar
 Text(Fort_Outside,LethalSpacePirateMarch)
+MUSC M_InTheFinal
 Text(Fort_Outside,LethalFawfulWins)
-MUSC M_ScarsOfTheScouring
+//MUSC M_ScarsOfTheScouring
+MUSC M_WhenTheRushComes
 SetBackground(CGBlackScreen)
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox

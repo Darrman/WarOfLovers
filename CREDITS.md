@@ -9,7 +9,6 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Old Bird: Lethal Company (Darrman)
 - Bracken: Lethal Company (Darrman)
 
-# Probably Used Stuff
 - Reimu: Redbean
 - Marisa: Redbean
 - Sakuya: Redbean
@@ -29,6 +28,17 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Walter: Shin Megami Tensei 4 (Darrman)
 - Jonathan: Shin Megami Tensei 4 (Darrman)
 - Shirou: Fate/Stay Night (Darrman)
+
+# Music:
+- Slider: Sme
+- Birth of the Holy Knight: Pikmin1211
+- Simon's Theme: A Reliable Chair
+- The Dreadful Fight: 7743
+- Final Destination: DrGreen3339
+- Metropolis Zone: Sme
+- Ginza: 7743
+- Septette for the Dead Princess: 7743
+- When the Rush Comes (Jugdral): DrGreen3339
 
 
 # War of Lovers Remnants

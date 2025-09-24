@@ -202,10 +202,10 @@ SongTable(M_BattleForWhoseSake,BattleForWhoseSake,0)
 SongTable(M_Charge,FE6Charge,0)
 }
 
-{
-#include "WhenTheRushComes.event"
-SongTable(M_WhenTheRushComes,WhenTheRushComes,0)
-}
+//{
+//#include "WhenTheRushComes.event"
+//SongTable(M_WhenTheRushComes,WhenTheRushComes,0)
+//}
 
 {
 #include "AnUnexpectedCaller.event"
@@ -295,5 +295,61 @@ SongTable(M_DismalNation,LandOfSorrow,1)
 {
 #include "TwilightOfTheGods.event"
 SongTable(M_TwilightOfTheGods,TwilightOfTheGods,1)
+}
+
+//Non-FE songs for Lethal Emblem
+{
+#include "Slider.event"
+SongTable(M_Slider,Slider,1)
+}
+
+{
+#include "BirthOfTheHolyKnight.event"
+SongTable(M_BirthOfTheHolyKnight,BirthOfTheHolyKnight,1)
+}
+
+{
+#include "SimonsTheme.event"
+SongTable(M_SimonsTheme,SimonsTheme,1)
+}
+
+{
+#include "TheDreadfulFight.event"
+SongTable(M_TheDreadfulFight,TheDreadfulFight,1)
+}
+
+{
+#include "FinalDestination.event"
+SongTable(M_FinalDestination,FinalDestination,1)
+}
+
+{
+#include "MetropolisZone.event"
+SongTable(M_MetropolisZone,MetropolisZone,1)
+}
+
+{
+#include "Ginza.event"
+SongTable(M_Ginza,Ginza,1)
+}
+
+{
+#include "SeptetteForTheDeadPrincess.event"
+SongTable(M_SeptetteForTheDeadPrincess,SeptetteForTheDeadPrincess,1)
+}
+
+{
+#include "RedBrinstar.event"
+SongTable(M_RedBrinstar,RedBrinstar,1)
+}
+
+{
+#include "InTheFinal.event"
+SongTable(M_InTheFinal,InTheFinal,1)
+}
+
+{
+#include "WhenTheRushComesFE4.event"
+SongTable(M_WhenTheRushComes,WhenTheRushComes,1)
 }
 
