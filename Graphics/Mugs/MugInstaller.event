@@ -149,7 +149,8 @@ setMugEntry(0x1D, Falcon_Mug, 3,6,3,4)
 
 Jigglypuff_Mug:
 #incext PortraitFormatter "Jigglypuff.png"
-setMugEntry(0x1E, Jigglypuff_Mug, 3,6,3,4)
+//setMugEntry(0x1E, Jigglypuff_Mug, 3,6,3,4)
+setMugEntry(0x1E, Jigglypuff_Mug, 0,4,10,4, 3,6,3,4, 1)
 
 Ness_Mug:
 #incext PortraitFormatter "Ness.png"
@@ -157,11 +158,13 @@ setMugEntry(0x1F, Ness_Mug, 4,7,4,5)
 
 Paula_Mug:
 #incext PortraitFormatter "Paula.png"
-setMugEntry(0x20, Paula_Mug, 4,7,4,5)
+//setMugEntry(0x20, Paula_Mug, 4,7,4,5)
+setMugEntry(0x20, Paula_Mug, 0,4,10,4, 4,7,4,5, 1)
 
 Jeff_Mug:
 #incext PortraitFormatter "Jeff.png"
-setMugEntry(0x21, Jeff_Mug, 4,7,4,4)
+//setMugEntry(0x21, Jeff_Mug, 4,7,4,4)
+setMugEntry(0x21, Jeff_Mug, 0,2,0,4, 4,7,4,4, 1)
 
 Poo_Mug:
 #incext PortraitFormatter "Poo.png"
@@ -169,7 +172,8 @@ setMugEntry(0x22, Poo_Mug, 4,7,4,5)
 
 Pokey_Mug:
 #incext PortraitFormatter "Pokey.png"
-setMugEntry(0x23, Pokey_Mug, 4,7,4,3)
+//setMugEntry(0x23, Pokey_Mug, 4,7,4,3)
+setMugEntry(0x23, Pokey_Mug, 0,4,10,4, 4,7,4,3, 1)
 
 CecilFF4_Mug:
 #incext PortraitFormatter "CecilFF4.png"
@@ -305,7 +309,8 @@ setMugEntry(0x44, Zelda_Mug, 3,6,3,4)
 
 Sahasrahla_Mug:
 #incext PortraitFormatter "Sahasrahla.png"
-setMugEntry(0x45, Sahasrahla_Mug, 3,6,4,4)
+//setMugEntry(0x45, Sahasrahla_Mug, 3,6,4,4)
+setMugEntry(0x45, Sahasrahla_Mug, 10,2,10,4, 3,6,4,4, 1)
 
 Marin_Mug:
 #incext PortraitFormatter "Marin.png"
@@ -313,15 +318,18 @@ setMugEntry(0x46, Marin_Mug, 3,6,3,4)
 
 Saria_Mug:
 #incext PortraitFormatter "Saria.png"
-setMugEntry(0x47, Saria_Mug, 4,7,4,4)
+//setMugEntry(0x47, Saria_Mug, 4,7,4,4)
+setMugEntry(0x47, Saria_Mug, 0,2,0,4, 4,7,4,4, 1)
 
 Dedede_Mug:
 #incext PortraitFormatter "Dedede.png"
-setMugEntry(0x48, Dedede_Mug, 3,7,3,5)
+//setMugEntry(0x48, Dedede_Mug, 3,7,3,5)
+setMugEntry(0x48, Dedede_Mug, 0,4,10,4, 3,7,3,5, 1)
 
 MetaKnight_Mug:
 #incext PortraitFormatter "MetaKnight.png"
-setMugEntry(0x49, MetaKnight_Mug, 3,6,3,4)
+//setMugEntry(0x49, MetaKnight_Mug, 3,6,3,4)
+setMugEntry(0x49, MetaKnight_Mug, 0,1,10,1, 3,6,3,4, 1)
 
 Falco_Mug:
 #incext PortraitFormatter "Falco.png"
@@ -329,11 +337,13 @@ setMugEntry(0x4A, Falco_Mug, 4,5,4,3)
 
 Peppy_Mug:
 #incext PortraitFormatter "Peppy.png"
-setMugEntry(0x4B, Peppy_Mug, 3,7,3,4)
+//setMugEntry(0x4B, Peppy_Mug, 3,7,3,4)
+setMugEntry(0x4B, Peppy_Mug, 0,3,10,3, 3,7,3,4, 1)
 
 Slippy_Mug:
 #incext PortraitFormatter "Slippy.png"
-setMugEntry(0x4C, Slippy_Mug, 2,6,2,3)
+//setMugEntry(0x4C, Slippy_Mug, 2,6,2,3)
+setMugEntry(0x4C, Slippy_Mug, 0,4,10,4, 2,6,2,3, 1)
 
 Celica_Mug:
 #incext PortraitFormatter "Celica.png"
