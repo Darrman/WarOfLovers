@@ -305,3 +305,7 @@ POP
   //Extensions to various character limits
   //Items to eight tiles: GigaExcalibur
   #include "GachaJam/CharacterLimitExtensions/StatusScreenInline.event"
+
+  //Portrait hackbox extension (Laqieer, Aera)
+  #include "GachaJam/HackboxExtension/HackboxExtension.event"
+  

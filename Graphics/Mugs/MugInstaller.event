@@ -22,6 +22,8 @@ POP
 //I'm going to have to redefine them here
 #define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD 0x01; POP"
 #define setMugEntry(mugEntry, mugLocation, mouthX, mouthY, eyeX, eyeY, eyeControl) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; WORD 0x00000000; BYTE mouthX mouthY eyeX eyeY; WORD eyeControl; POP"
+//New macro for extended portraits - 1 after eyeControl sets extension flag
+#define setMugEntry(mugEntry, mugLocation, ext1X, ext1Y, ext2X, ext2Y, mouthX, mouthY, eyeX, eyeY, eyeControl) "PUSH; ORG PortraitTable+mugEntry*0x1C; POIN mugLocation; POIN mugLocation+0x1624; POIN mugLocation+0x1604; POIN mugLocation+0x1004; BYTE ext1X ext1Y ext2X ext2Y; BYTE mouthX mouthY eyeX eyeY; BYTE eyeControl 0 1 0; POP"
 
 
 Marth_Mug:
@@ -50,7 +52,8 @@ setMugEntry(0x7, Luigi_Mug, 4,5,4,3)
 
 Peach_Mug:
 #incext PortraitFormatter "Peach.png"
-setMugEntry(0x8, Peach_Mug, 2,7,2,5)
+//setMugEntry(0x8, Peach_Mug, 2,7,2,5)
+setMugEntry(0x8, Peach_Mug, 0,3,10,4, 2,7,2,5, 1)
 
 Bowser_Mug:
 #incext PortraitFormatter "Bowser.png"
@@ -62,7 +65,8 @@ setMugEntry(0xA, DK_Mug, 2,7,3,4)
 
 Toad_Mug:
 #incext PortraitFormatter "Toad.png"
-setMugEntry(0xB, Toad_Mug, 3,8,3,6)
+//setMugEntry(0xB, Toad_Mug, 3,8,3,6)
+setMugEntry(0xB, Toad_Mug, 10,2,10,4, 3,8,3,6, 1)
 
 Wario_Mug:
 #incext PortraitFormatter "Wario.png"
@@ -82,11 +86,13 @@ setMugEntry(0xF, Waluigi_Mug, 3,7,3,5)
 
 Ash_Mug:
 #incext PortraitFormatter "Ash.png"
-setMugEntry(0x10, Ash_Mug, 4,7,4,5)
+//setMugEntry(0x10, Ash_Mug, 4,7,4,5)
+setMugEntry(0x10, Ash_Mug, 0,4,10,4, 4,7,4,5, 1)
 
 Misty_Mug:
 #incext PortraitFormatter "Misty.png"
-setMugEntry(0x11, Misty_Mug, 4,7,4,5)
+//setMugEntry(0x11, Misty_Mug, 4,7,4,5)
+setMugEntry(0x11, Misty_Mug, 0,4,10,1, 4,7,4,5, 1)
 
 Brock_Mug:
 #incext PortraitFormatter "Brock.png"
@@ -94,23 +100,28 @@ setMugEntry(0x12, Brock_Mug, 3,5,3,3)
 
 Jessie_Mug:
 #incext PortraitFormatter "Jessie.png"
-setMugEntry(0x13, Jessie_Mug, 5,7,4,4)
+//setMugEntry(0x13, Jessie_Mug, 5,7,4,4)
+setMugEntry(0x13, Jessie_Mug, 0,2,0,4, 5,7,4,4, 1)
 
 James_Mug:
 #incext PortraitFormatter "James.png"
-setMugEntry(0x14, James_Mug, 4,6,4,4)
+//setMugEntry(0x14, James_Mug, 4,6,4,4)
+setMugEntry(0x14, James_Mug, 10,2,10,4, 4,6,4,4, 1)
 
 May_Mug:
 #incext PortraitFormatter "May.png"
-setMugEntry(0x15, May_Mug, 4,5,4,3)
+//setMugEntry(0x15, May_Mug, 4,5,4,3)
+setMugEntry(0x15, May_Mug, 0,4,10,4, 4,5,4,3, 1)
 
 Dawn_Mug:
 #incext PortraitFormatter "Dawn.png"
-setMugEntry(0x16, Dawn_Mug, 3,6,3,4)
+//setMugEntry(0x16, Dawn_Mug, 3,6,3,4)
+setMugEntry(0x16, Dawn_Mug, 0,2,0,4, 3,6,3,4, 1)
 
 Serena_Mug:
 #incext PortraitFormatter "Serena.png"
-setMugEntry(0x17, Serena_Mug, 4,7,4,4)
+//setMugEntry(0x17, Serena_Mug, 4,7,4,4)
+setMugEntry(0x17, Serena_Mug, 0,3,10,2, 4,7,4,4, 1)
 
 Link_Mug:
 #incext PortraitFormatter "Link.png"
