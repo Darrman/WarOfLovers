@@ -528,7 +528,8 @@ setMugEntry(0xCD, Veronica_Mug, 2,7,2,5)
 
 Yugi_Mug:
 #incext PortraitFormatter "Yugi.png"
-setMugEntry(0xCE, Yugi_Mug, 3,8,3,6)
+//setMugEntry(0xCE, Yugi_Mug, 3,8,3,6)
+setMugEntry(0xCE, Yugi_Mug, 0,4,10,4, 3,8,3,6, 1)
 
 Tea_Mug:
 #incext PortraitFormatter "Tea.png"
@@ -536,7 +537,8 @@ setMugEntry(0xCF, Tea_Mug, 4,7,4,5)
 
 Joey_Mug:
 #incext PortraitFormatter "Joey.png"
-setMugEntry(0xD0, Joey_Mug, 4,7,5,5)
+//setMugEntry(0xD0, Joey_Mug, 4,7,5,5)
+setMugEntry(0xD0, Joey_Mug, 10,4,0,0, 4,7,5,5, 1)
 
 Kaiba_Mug:
 #incext PortraitFormatter "Kaiba.png"
@@ -580,11 +582,13 @@ setMugEntry(0xDA, Robotnik_Mug, 3,5,3,3)
 
 MrGameAndWatch_Mug:
 #incext PortraitFormatter "MrGameAndWatch.png"
-setMugEntry(0xDB, MrGameAndWatch_Mug, 2,6,3,3)
+//setMugEntry(0xDB, MrGameAndWatch_Mug, 2,6,3,3)
+setMugEntry(0xDB, MrGameAndWatch_Mug, 0,2,0,4, 2,6,3,3, 1)
 
 Popo_Mug:
 #incext PortraitFormatter "Popo.png"
-setMugEntry(0xDC, Popo_Mug, 3,5,3,3)
+//setMugEntry(0xDC, Popo_Mug, 3,5,3,3)
+setMugEntry(0xDC, Popo_Mug, 10,2,10,4, 3,5,3,3, 1)
 
 Flynn_Mug:
 #incext PortraitFormatter "Flynn.png"
@@ -596,7 +600,8 @@ setMugEntry(0xDE, Isabeau_Mug, 3,6,3,4)
 
 Walter_Mug:
 #incext PortraitFormatter "Walter.png"
-setMugEntry(0xDF, Walter_Mug, 2,6,2,4)
+//setMugEntry(0xDF, Walter_Mug, 2,6,2,4)
+setMugEntry(0xDF, Walter_Mug, 0,2,0,0, 2,6,2,4, 1)
 
 Jonathan_Mug:
 #incext PortraitFormatter "Jonathan.png"
@@ -624,15 +629,18 @@ setMugEntry(0xE5, Grey_Mug, 4,6,4,4)
 
 Jaden_Mug:
 #incext PortraitFormatter "Jaden.png"
-setMugEntry(0xE6, Jaden_Mug, 4,6,4,4)
+//setMugEntry(0xE6, Jaden_Mug, 4,6,4,4)
+setMugEntry(0xE6, Jaden_Mug, 0,3,10,2, 4,6,4,4, 1)
 
 Alexis_Mug:
 #incext PortraitFormatter "Alexis.png"
-setMugEntry(0xE7, Alexis_Mug, 4,5,4,3)
+//setMugEntry(0xE7, Alexis_Mug, 4,5,4,3)
+setMugEntry(0xE7, Alexis_Mug, 0,2,0,0, 4,5,4,3, 1)
 
 Chazz_Mug:
 #incext PortraitFormatter "Chazz.png"
-setMugEntry(0xE8, Chazz_Mug, 5,6,5,3)
+//setMugEntry(0xE8, Chazz_Mug, 5,6,5,3)
+setMugEntry(0xE8, Chazz_Mug, 0,2,0,0, 5,6,5,3, 1)
 
 Reimu_Mug:
 #incext PortraitFormatter "Reimu.png"
@@ -660,11 +668,13 @@ setMugEntry(0xEE, Alice_Mug, 4,7,3,5)
 
 Snake_Mug:
 #incext PortraitFormatter "Snake.png"
-setMugEntry(0xEF, Snake_Mug, 4,6,4,4)
+//setMugEntry(0xEF, Snake_Mug, 4,6,4,4)
+setMugEntry(0xEF, Snake_Mug, 0,4,0,0, 4,6,4,4, 1)
 
 Raiden_Mug:
 #incext PortraitFormatter "Raiden.png"
-setMugEntry(0xF0, Raiden_Mug, 3,7,3,4)
+//setMugEntry(0xF0, Raiden_Mug, 3,7,3,4)
+setMugEntry(0xF0, Raiden_Mug, 10,2,10,4, 3,7,3,4, 1)
 
 Armstrong_Mug:
 #incext PortraitFormatter "Armstrong.png"
