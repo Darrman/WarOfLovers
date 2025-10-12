@@ -138,31 +138,41 @@ his enemies; his combat is mediocre.[X]
 George[X]
 
 ## GeorgeDesc
-Placeholder description.[X]
+The founder of the Akaneian Free[N]
+Knights. A cunning soldier, yet[N]
+acts in accordance with morals.[X]
 
 ## MalliesiaName
 Malliesia[X]
 
 ## MalliesiaDesc
-Placeholder description.[X]
+A cleric from Grunia and once[N]
+Rena's apprentice. She's now[N]
+something of a bad girl.[X]
 
 ## RicardoName
 Ricardo[X]
 
 ## RicardoDesc
-Placeholder description.[X]
+A notorious and unrepentant[N]
+thief, who has taken part in[N]
+many a heist in his time.[X]
 
 ## TomthName
 Tomth[X]
 
 ## TomthDesc
-Placeholder description.[X]
+A veteran knight of Akaneia.[N]
+The civil war forced him out[N]
+of retirement.[X]
 
 ## SajiName
 Saji[X]
 
 ## SajiDesc
-Placeholder description.[X]
+A Talisian woodcutter. A simple,[N]
+uncomplicated man who loyally[N]
+defends his home.[X]
 
 ## KashimName
 Kashim[X]
@@ -176,19 +186,25 @@ which has made his family wealthy.[X]
 Riff[X]
 
 ## RiffDesc
-Placeholder description.[X]
+A priest, long a resident of Talis.[N]
+A kindly old man who helps all[N]
+and operates an orphanage.[X]
 
 ## LindaName
 Linda[X]
 
 ## LindaDesc
-Placeholder description.[X]
+An Akaneian mage and confidant of[N]
+Nina. She fled Pales before its[N]
+fall and now desires liberation.[X]
 
 ## OgumaName
 Oguma[X]
 
 ## OgumaDesc
-Placeholder description.[X]
+A mercenary from Peraty and once[N]
+Sheeda's bodyguard. His feelings[N]
+led him to leave her service.[X]
 
 ## BartsName
 Barts[X]
@@ -226,7 +242,9 @@ future. Quiet and polite.[X]
 Astore[X]
 
 ## AstoreDesc
-Placeholder description.[X]
+A spy in Ostia's employ since[N]
+Hector's time. Experienced in[N]
+many fields of espionage.[X]
 
 ## FirName
 Fir[X]
@@ -246,19 +264,25 @@ over his daughter Fir's welfare.[X]
 Camus[X]
 
 ## CamusDesc
-Placeholder description.[X]
+The leader of Grunia's Black Knights[N]
+in a former life. Now, he is Zeke[N]
+of Rigel, married to Teeta. Loyal.[X]
 
 ## DyuteName
 Dyute[X]
 
 ## DyuteDesc
-Placeholder description.[X]
+A young woman with exceptional[N]
+talent in magic. Energetic,[N]
+cheerful, and carefree.[X]
 
 ## CelineName
 Celine[X]
 
 ## CelineDesc
-Placeholder description.[X]
+Queen of Firene. Values peace,[N]
+but is pragmatic and will do[N]
+anything to accomplish it.[X]
 
 ## BaldoFriendName
 B. Friend[X]
@@ -672,140 +696,186 @@ skills instead lie with mechanics.[X]
 Salesman[X]
 
 ## SalesmanDesc
-Placeholder description.[X]
+A mysterious man with a vast[N]
+collection of masks. Little[N]
+more is known about him.[X]
 
 ## GanonName
 Ganon[X]
 
 ## GanonDesc
-Placeholder description.[X]
+King of the Gerudo, or the[N]
+King of Evil. Bearer of the[N]
+Triforce of Power.[X]
 
 ## WolfName
 Wolf[X]
 
 ## WolfDesc
-Placeholder description.[X]
+The leader of Star Wolf and[N]
+rival of Fox. Takes jobs from[N]
+whomever is offering.[X]
 
 ## MewtwoName
 Mewtwo[X]
-
+ 
 ## MewtwoDesc
-Placeholder description.[X]
+A Pokemon artifically created[N]
+to be the strongest. Now seeks[N]
+a reason for being.[X]
 
 ## MrGameAndWatchName
 //& in text label names breaks
 Mr. G & W[X]
 
 ## MrGameAndWatchDesc
-Placeholder description.[X]
+The manifestation of many[N]
+Game and Watch games. A two-[N]
+dimensional being.[X]
 
 ## PopoName
 Popo[X]
 
 ## PopoDesc
-Placeholder description.[X]
+One of the Ice Climbers. He[N]
+and his partner Nana have[N]
+summitted many mountains.[X]
 
 ## KainFF4Name
 Kain[X]
 
 ## KainFF4Desc
-Placeholder description.[X]
+Leader of the Dragoons of Baron.[N]
+Friends with Cecil, has a crush[N]
+on Rosa, and notoriously disloyal.[X]
 
 ## RosaName
 Rosa[X]
 
 ## RosaDesc
-Placeholder description.[X]
+A white mage and Cecil's wife.[N]
+She is willing to follow him[N]
+wherever he goes.[X]
 
 ## RydiaName
 Rydia[X]
 
 ## RydiaDesc
-Placeholder description.[X]
+The last of the Summoners of Mist.[N]
+Despite many hard experiences,[N]
+she's usually cheerful.[X]
 
 ## LennaName
 Lenna[X]
 
 ## LennaDesc
-Placeholder description.[X]
+Princess of Tycoon. All-loving[N]
+and elegant, with a tendency[N]
+to be self-sacrificing.[X]
 
 ## GalufName
 Galuf[X]
 
 ## GalufDesc
-Placeholder description.[X]
+King of Bal. He travelled worlds[N]
+to stop Exdeath, losing his memory[N]
+for a time. Extremely tenacious.[X]
 
 ## CelesName
 Celes[X]
 
 ## CelesDesc
-Placeholder description.[X]
+Once a general of the Empire,[N]
+before defecting to the Returners.[N]
+Also known for her opera.[X]
 
 ## LockeName
 Locke[X]
 
 ## LockeDesc
-Placeholder description.[X]
+A treasure hunter who has lost[N]
+a loved one. He's now searching[N]
+the world for a solution.[X]
 
 ## YugiName
 Yugi[X]
 
 ## YugiDesc
-Placeholder description.[X]
+The King of Games and expert[N]
+Duel Monsters player. Cares[N]
+deeply for his friends.[X]
 
 ## JoeyName
 Joey[X]
 
 ## JoeyDesc
-Placeholder description.[X]
+A confident duellist. Seems[N]
+a bit rough around the edges,[N]
+but is deeply loyal.[X]
 
 ## TeaName
 Tea[X]
 
 ## TeaDesc
-Placeholder description.[X]
+An aspiring dancer and friend[N]
+of Yugi's. She dreams of making[N]
+it to Broadway some day.[X]
 
 ## KaibaName
 Kaiba[X]
 
 ## KaibaDesc
-Placeholder description.[X]
+CEO of Kaiba Corporation. Ruthless[N]
+in all facets of life and has[N]
+a gargantuan ego.[X]
 
 ## JadenName
 Jaden[X]
 
 ## JadenDesc
-Placeholder description.[X]
+Nicknamed the "Slifer Slacker", he[N]
+loved nothing more than duelling[N]
+in happier times. Now, he's broken.[X]
 
 ## AlexisName
 Alexis[X]
 
 ## AlexisDesc
-Placeholder description.[X]
+The so-called queen of Obelisk[N]
+Blue. Got brainwashed for a time[N]
+before entering the Dark World.[X]
 
 ## ChazzName
 Chazz[X]
 
 ## ChazzDesc
-Placeholder description.[X]
+An over-confident student at[N]
+Duel Academy. Known for his[N]
+catchphrase, "Chazz it up!"[X]
 
 ## OlimarName
 Olimar[X]
 
 ## OlimarDesc
-Placeholder description.[X]
+A captain of Hocotate Freight.[N]
+Involved in several crashes that[N]
+stranded him on alien planets.[X]
 
 ## LouieName
 Louie[X]
 
 ## LouieDesc
-Placeholder description.[X]
+An employee of Hocotate Freight.[N]
+He was sent to accompany Olimar[N]
+to pay off company debt.[X]
 
 ## PresidentName
 President[X]
 
 ## PresidentDesc
-Placeholder description.[X]
+Hocotate Freight's president.[N]
+He got a loan from loan sharks[N]
+and had to pay the debt personally.[X]
 
 //## CronoName
 //Crono[X]
@@ -829,19 +899,25 @@ Placeholder description.[X]
 Sonic[X]
 
 ## SonicDesc
-Placeholder description.[X]
+A hedgehog that can run faster[N]
+than the speed of sound.[N]
+Always happy to adventure.[X]
 
 ## TailsName
 Tails[X]
 
 ## TailsDesc
-Placeholder description.[X]
+A fox, Sonic's best friend, and[N]
+skilled with machinery. Willing[N]
+to lend a hand when he can.[X]
 
 ## KnucklesName
 Knuckles[X]
 
 ## KnucklesDesc
-Placeholder description.[X]
+A powerful echidna and guardian[N]
+of the Master Emerald. Gullible[N]
+and easy to deceive.[X]
 
 ## AmyName
 Amy[X]
@@ -853,31 +929,41 @@ Placeholder description.[X]
 Robotnik[X]
 
 ## RobotnikDesc
-Placeholder description.[X]
+A supremely intelligent scientist.[N]
+Nicknamed "Eggman", he turns[N]
+animals into robots for sport.[X]
 
 ## FlynnName
 Flynn[X]
 
 ## FlynnDesc
-Placeholder description.[X]
+A Samurai of Mikado. After finding[N]
+a way to Tokyo, he got involved[N]
+in many supernatural events.[X]
 
 ## IsabeauName
 Isabeau[X]
 
 ## IsabeauDesc
-Placeholder description.[X]
+A Samurai of Mikado. She tries to[N]
+find a path reconciling every[N]
+faction in Tokyo.[X]
 
 ## JonathanName
 Jonathan[X]
 
 ## JonathanDesc
-Placeholder description.[X]
+A Samurai of Mikado. He believes[N]
+in an orderly world, where everyone[N]
+has their place.[X]
 
 ## WalterName
 Walter[X]
 
 ## WalterDesc
-Placeholder description.[X]
+A Samurai of Mikado. He believes[N]
+in a chaotic world, where people[N]
+can find their own calling.[X]
 
 ## SnakeName
 Snake[X]
@@ -901,38 +987,49 @@ Placeholder description.[X]
 Reimu[X]
 
 ## ReimuDesc
-Placeholder description.[X]
+The Hakurei shrine maiden, who[N]
+keeps the peace in Gensokyo.[N]
+Bears no grudges, but quick to anger.[X]
 
 ## MarisaName
 Marisa[X]
 
 ## MarisaDesc
-Placeholder description.[X]
+A witch and Reimu's best friend.[N]
+Easy-going, but willing to do[N]
+anything to improve her skills.[X]
 
 ## MimaName
 Mima[X]
 
 ## MimaDesc
-Placeholder description.[X]
+An evil spirit who bore a grudge.[N]
+She forgot the details and now[N]
+teases Reimu. A serial liar.[X]
 
 ## YuukaName
 Yuuka[X]
 
 ## YuukaDesc
-Placeholder description.[X]
+A youkai with power over flowers.[N]
+While capable of being affable,[N]
+she has a vicious sense of humour.[X]
 
 ## ShinkiName
 Shinki[X]
 
 ## ShinkiDesc
-Placeholder description.[X]
+The Goddess of Makai. She claims to[N]
+have created everyone there, and[N]
+is protective of her realm.[X]
 
 ## AliceName
 Alice[X]
 
 ## AliceDesc
-Placeholder description.[X]
-
+A magician from Makai. She focuses[N]
+her magic in manipulation of dolls,[N]
+but knows extra-powerful spells.[X]
 
 ## RodyName
 Rody[X]
@@ -1220,7 +1317,9 @@ Placeholder description.[X]
 Etie[X]
 
 ## EtieDesc
-Placeholder description.[X]
+Retainer of the late Alfred. Like him,[N]
+she is very fond of muscles and will[N]
+look for any method to bulk up.[X]
 
 ## ClaireName
 Claire[X]
