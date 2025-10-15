@@ -5,7 +5,7 @@ Sheeda,0,3
 Chiki,1,10
 Marich,12,20
 George,0,3
-Malliesia,0,30
+Malliesia,1,30
 Ricardo,0,3
 Caesar,0,3
 Tomth,0,3
@@ -14,8 +14,8 @@ Saji,0,3
 Luke,0,3
 Rody,0,3
 Kashim,0,3
-Riff,0,3
-Linda,0,20
+Riff,0,20
+Linda,1,20
 Oguma,0,3
 Barts,0,3
 Eliwood,0,3
@@ -28,10 +28,10 @@ Fir,0,3
 Bartre,0,3
 Valbo,0,3
 Camus,0,3
-Dyute,0,50
-Valencian,0,3
+Dyute,0,75
+Claire,0,3
 Alm,0,3
-Celine,0,40
+Celine,12,40
 Chalphy,0,3
 """Oifaye""",0,3
 Noba,0,3
@@ -48,7 +48,7 @@ Cecil,0,3
 Ellis,5,10
 Elyosian,0,3
 Gato???,0,30
-Celica,18,25
+Celica,18,60
 Roy,0,3
 Mario,0,10
 Luigi,0,3
@@ -127,12 +127,12 @@ Flynn,0,3
 Isabeau,0,3
 Jonathan,0,3
 Walter,0,3
-,0,3
-,0,3
-,0,3
-,0,3
-,0,3
-,0,3
+Reimu,0,3
+Marisa,0,3
+Mima,0,3
+Yuuka,0,3
+Shinki,0,3
+Alice,0,3
 ,0,3
 ,0,3
 ,0,3
@@ -151,25 +151,25 @@ Walter,0,3
 ,0,3
 ,0,3
 Kris,0,3
-Alear,0,3
-Boucheron,0,3
-Clanne,4,3
+Alear,0,20
+Boucheron,0,0
+Clanne,8,35
 Ch5x Boss,0,3
-Louis,0,3
+Louis,0,0
 """Ratface""",0,3
-Amber,0,3
+Amber,3,0
 """Rogue Bern Boss""",0,3
-Citrinne,6,3
+Citrinne,12,65
 """Executioner""",0,3
 Ch10x Boss,0,3
-Diamant,0,3
-Alcryst,0,3
-Ch12 Sub-Boss,0,3
+Diamant,0,15
+Alcryst,2,10
+Lapis,3,20
 Ch13x Boss,0,3
-Ch14 Boss,0,3
-Claire,0,3
+Etie,2,0
+Luke,0,3
 Cleive,0,3
-Grey or Robin,0,3
+Grey,0,3
 Mycen,0,3
 Doma Faithful Remnant Boss,0,3
 Miletos Castle Boss,0,3
