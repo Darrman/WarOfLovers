@@ -140,6 +140,22 @@ kill me... Alear's vulnerable...[AN]
 I thought you were on the run.[N]
 Was Ostia's fall a ruse?[A][CloseEyes][X]
 
+## EtieDeath
+[Left][LoadEtie]
+Placeholder[A][X]
+
+## CleiveDeath
+[Left][LoadCleive]
+Placeholder[A][X]
+
+## GreyDeath
+[Left][LoadGrey]
+Placeholder[A][X]
+
+## MycenDeath
+[Left][LoadMycen]
+Placeholder[A][X]
+
 ## KrisCh1Death
 [Left][LoadKris]
 What?! No... No! This is...[N]
@@ -218,6 +234,42 @@ lets her majesty live...[AN]
 Then that is a price I am[N]
 willing to pay.[A][CloseEyes][X]
 
+## GeorgeDeath
+[Right][LoadGeorge]
+Placeholder[A][X]
+
+## MalliesiaDeath
+[Right][LoadMalliesia]
+Placeholder[A][X]
+
+## RicardoDeath
+[Right][LoadRicardo]
+Placeholder[A][X]
+
+## TomthDeath
+[Right][LoadTomth]
+Placeholder[A][X]
+
+## SajiDeath
+[Right][LoadSaji]
+Placeholder[A][X]
+
+## RiffDeath
+[Right][LoadRiff]
+Placeholder[A][X]
+
+## LindaDeath
+[Right][LoadLinda]
+Placeholder[A][X]
+
+## OgumaDeath
+[Right][LoadOguma]
+Placeholder[A][X]
+
+## BartsDeath
+[Right][LoadBarts]
+Placeholder[A][X]
+
 ## WendyDeath
 [Right][LoadWendy]
 You're joking, right?[N]
@@ -242,6 +294,74 @@ to get killed...[A][CloseEyes][X]
 [Right][LoadWallace]
 Wa ha ha! Looks like I've[N]
 relied too much on my armour![A][X]
+
+## AstoreDeath
+[Right][LoadAstore]
+Placeholder[A][X]
+
+## FirDeath
+[Right][LoadFir]
+Placeholder[A][X]
+
+## ValboDeath
+[Right][LoadValbo]
+Placeholder[A][X]
+
+## CamusDeath
+[Right][LoadCamus]
+Placeholder[A][X]
+
+## DyuteDeath
+[Right][LoadDyute]
+Placeholder[A][X]
+
+## ClaireDeath
+[Right][LoadClaire]
+Placeholder[A][X]
+
+## AlmDeath
+[Right][LoadAlm]
+Placeholder[A][X]
+
+## CelineDeath
+[Right][LoadCeline]
+Placeholder[A][X]
+
+## FeenaDeath
+[Right][LoadFeena]
+Placeholder[A][X]
+
+## NavarreDeath
+[Right][LoadNavarre]
+Placeholder[A][X]
+
+## KainDeath
+[Right][LoadKain]
+Placeholder[A][X]
+
+## GordonDeath
+[Right][LoadGordon]
+Placeholder[A][X]
+
+## BanutuDeath
+[Right][LoadBanutu]
+Placeholder[A][X]
+
+## EllisDeath
+[Right][LoadEllis]
+Placeholder[A][X]
+
+## GatoDeath
+[Right][LoadGato]
+Placeholder[A][X]
+
+## CelicaDeath
+[Right][LoadCelica]
+Placeholder[A][X]
+
+## RoyDeath
+[Right][LoadRoy]
+Placeholder[A][X]
 
 ## MarioDeath
 [Right][LoadMario]
@@ -452,3 +572,167 @@ this one out... for... ever.[A][CloseEyes][X]
 [Right][LoadSlippy]
 Somebody! Anybody! Help me![N]
 Aaaaah![A][CloseEyes][X]
+
+## SalesmanDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## GanonDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## WolfDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## MewtwoDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## MrGameAndWatchDeath
+[Right][LoadMrG&W]
+Placeholder[A][X]
+
+## PopoDeath
+[Right][LoadPopo]
+Placeholder[A][X]
+
+## RosaDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## KainFF4Death
+[Right][LoadKainFF4]
+Placeholder[A][X]
+
+## RydiaDeath
+[Right][LoadRydia]
+Placeholder[A][X]
+
+## LennaDeath
+[Right][LoadLenna]
+Placeholder[A][X]
+
+## GalufDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## CelesDeath
+[Right][LoadCeles]
+Placeholder[A][X]
+
+## LockeDeath
+[Right][LoadLocke]
+Placeholder[A][X]
+
+## YugiDeath
+[Right][LoadYugi]
+Placeholder[A][X]
+
+## JoeyDeath
+[Right][LoadJoey]
+Placeholder[A][X]
+
+## TeaDeath
+[Right][LoadTea]
+Placeholder[A][X]
+
+## KaibaDeath
+[Right][LoadKaiba]
+Placeholder[A][X]
+
+## JadenDeath
+[Right][LoadJaden]
+Placeholder[A][X]
+
+## AlexisDeath
+[Right][LoadAlexis]
+Placeholder[A][X]
+
+## ChazzDeath
+[Right][LoadChazz]
+Placeholder[A][X]
+
+## OlimarDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## LouieDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## PresidentDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## SnakeDeath
+[Right][LoadSnake]
+Placeholder[A][X]
+
+## RaidenDeath
+[Right][LoadRaiden]
+Placeholder[A][X]
+
+## ArmstrongDeath
+[Right][LoadArmstrong]
+Placeholder[A][X]
+
+## SonicDeath
+[Right][LoadSonic]
+Placeholder[A][X]
+
+## TailsDeath
+[Right][LoadTails]
+Placeholder[A][X]
+
+## KnucklesDeath
+[Right][LoadKnuckles]
+Placeholder[A][X]
+
+## ShadowDeath
+[Right][LoadFace][0x01][0x01]
+Placeholder[A][X]
+
+## RobotnikDeath
+[Right][LoadRobotnik]
+Placeholder[A][X]
+
+## FlynnDeath
+[Right][LoadFlynn]
+Placeholder[A][X]
+
+## IsabeauDeath
+[Right][LoadIsabeau]
+Placeholder[A][X]
+
+## JonathanDeath
+[Right][LoadJonathan]
+Placeholder[A][X]
+
+## WalterDeath
+[Right][LoadWalter]
+Placeholder[A][X]
+
+## ReimuDeath
+[Right][LoadReimu]
+Placeholder[A][X]
+
+## MarisaDeath
+[Right][LoadMarisa]
+Placeholder[A][X]
+
+## MimaDeath
+[Right][LoadMima]
+Placeholder[A][X]
+
+## YuukaDeath
+[Right][LoadYuuka]
+Placeholder[A][X]
+
+## ShinkiDeath
+[Right][LoadShinki]
+Placeholder[A][X]
+
+## AliceDeath
+[Right][LoadAlice]
+Placeholder[A][X]
