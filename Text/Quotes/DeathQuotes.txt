@@ -142,19 +142,27 @@ Was Ostia's fall a ruse?[A][CloseEyes][X]
 
 ## EtieDeath
 [Left][LoadEtie]
-Placeholder[A][X]
+I mustn't have trained enough. Divine[N]
+One, Queen Celine, forgive me.[A][CloseEyes][X]
 
 ## CleiveDeath
 [Left][LoadCleive]
-Placeholder[A][X]
+Your Majesty, I have failed you.[N]
+With my death, Sofia Castle is open.[AN]
+Matilda, Claire, be well. May you[N]
+survive Valencia's fall...[A][CloseEyes][X]
 
 ## GreyDeath
 [Left][LoadGrey]
-Placeholder[A][X]
+So, this is the end for me. Alm,[N]
+Claire, I did what I could.[A][CloseEyes][X]
 
 ## MycenDeath
 [Left][LoadMycen]
-Placeholder[A][X]
+Today is the last day of a united[N]
+Valencia. Alm, your majesty...[AN]
+Please, see the light. That woman[N]
+is not Celica. Who is she, really?[A][CloseEyes][X]
 
 ## KrisCh1Death
 [Left][LoadKris]
@@ -575,95 +583,117 @@ Aaaaah![A][CloseEyes][X]
 
 ## SalesmanDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+I've met a terrible fate,[N]
+haven't I?[A][CloseEyes][X]
 
 ## GanonDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+Who are you? I have the[N]
+Triforce's power![A][CloseEyes][X]
 
 ## WolfDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+This can't be happening![A][CloseEyes][X]
 
 ## MewtwoDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+So, there is someone stronger.[N]
+This is the end for me.[A][CloseEyes][X]
 
 ## MrGameAndWatchDeath
 [Right][LoadMrG&W]
-Placeholder[A][X]
+BEEP... MY FINAL MISTAKE.[N]
+GOODBYE.[A][CloseEyes][X]
 
 ## PopoDeath
 [Right][LoadPopo]
-Placeholder[A][X]
+I'm losing my grip... I'm[N]
+falling away fast...[A][CloseEyes][X]
 
 ## RosaDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+Cecil? Where are you?[N]
+I think this is it...[A][CloseEyes][X]
 
 ## KainFF4Death
 [Right][LoadKainFF4]
-Placeholder[A][X]
+So, death has finally caught[N]
+up with me. Heh...[A][CloseEyes][X]
 
 ## RydiaDeath
 [Right][LoadRydia]
-Placeholder[A][X]
+I've been here before, but this[N]
+time I really am dying...[A][CloseEyes][X]
 
 ## LennaDeath
 [Right][LoadLenna]
-Placeholder[A][X]
+If this helps us prevail, then[N]
+I have no regrets...[A][CloseEyes][X]
 
 ## GalufDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+So, my time's come. Please,[N]
+Cara, stay strong![A][CloseEyes][X]
 
 ## CelesDeath
 [Right][LoadCeles]
-Placeholder[A][X]
+Despite all of my power, I lost.[N]
+Perhaps this is right.[A][CloseEyes][X]
 
 ## LockeDeath
 [Right][LoadLocke]
-Placeholder[A][X]
+I'll never be able to bring[N]
+Rachel back. I'm finished.[A][CloseEyes][X]
 
 ## YugiDeath
 [Right][LoadYugi]
-Placeholder[A][X]
+So, I've lost this duel, and[N]
+with it, my soul...[A][CloseEyes][X]
 
 ## JoeyDeath
 [Right][LoadJoey]
-Placeholder[A][X]
+Aw man, I can't believe this.[N]
+My luck's gone and run out![A][CloseEyes][X]
 
 ## TeaDeath
 [Right][LoadTea]
-Placeholder[A][X]
+What... what's happening to me?[N]
+Is this how it feels to die?[A][CloseEyes][X]
 
 ## KaibaDeath
 [Right][LoadKaiba]
-Placeholder[A][X]
+This must be a trick! A lie![N]
+My demise is an impossibility![A][CloseEyes][X]
 
 ## JadenDeath
 [Right][LoadJaden]
-Placeholder[A][X]
+Well, there's no more fun in[N]
+anything. Goodbye...[A][CloseEyes][X]
 
 ## AlexisDeath
 [Right][LoadAlexis]
-Placeholder[A][X]
+What did I do to deserve this?[N]
+Well, I'll see the stars now...[A][CloseEyes][X]
 
 ## ChazzDeath
 [Right][LoadChazz]
-Placeholder[A][X]
+Ah, forget it. The Chazz will[N]
+grace your presence... no more.[A][CloseEyes][X]
 
 ## OlimarDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+My family... I will never see you[N]
+again. Please, forgive me.[A][CloseEyes][X]
 
 ## LouieDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+Ouch... I feel like a Pikmin[N]
+hit me. How do I taste?[A][CloseEyes][X]
 
 ## PresidentDeath
 [Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+My riches... I'll never get back[N]
+to cash them in...[A][CloseEyes][X]
 
 ## SnakeDeath
 [Right][LoadSnake]
@@ -679,15 +709,18 @@ Placeholder[A][X]
 
 ## SonicDeath
 [Right][LoadSonic]
-Placeholder[A][X]
+Looks like I've hit a wall. I'm[N]
+just going to... rest a bit...[A][X]
 
 ## TailsDeath
 [Right][LoadTails]
-Placeholder[A][X]
+Oh no... It hurts... Why does[N]
+it hurt so much? Sonic, help...[A][CloseEyes][X]
 
 ## KnucklesDeath
 [Right][LoadKnuckles]
-Placeholder[A][X]
+Without me, there is nobody[N]
+guarding the Master Emerald...[A][CloseEyes][X]
 
 ## ShadowDeath
 [Right][LoadFace][0x01][0x01]
@@ -695,44 +728,55 @@ Placeholder[A][X]
 
 ## RobotnikDeath
 [Right][LoadRobotnik]
-Placeholder[A][X]
+No way! I can't believe this![N]
+Nothing to do with... the hedgehog...[A][CloseEyes][X]
 
 ## FlynnDeath
 [Right][LoadFlynn]
-Placeholder[A][X]
+It's a one-way trip to the Styx[N]
+for me. Farewell.[A][CloseEyes][X]
 
 ## IsabeauDeath
 [Right][LoadIsabeau]
-Placeholder[A][X]
+All I want is peace. Will my death[N]
+bring this about?[A][CloseEyes][X]
 
 ## JonathanDeath
 [Right][LoadJonathan]
-Placeholder[A][X]
+So, everything's all coming down.[N]
+I die for what I believe for.[A][CloseEyes][X]
 
 ## WalterDeath
 [Right][LoadWalter]
-Placeholder[A][X]
+Way I see it, you can make your own[N]
+fate. I was weak, and so I die.[A][CloseEyes][X]
 
 ## ReimuDeath
 [Right][LoadReimu]
-Placeholder[A][X]
+I can't continue like this... Without me,[N]
+what will happen to Gensokyo?[A][CloseEyes][X]
 
 ## MarisaDeath
 [Right][LoadMarisa]
-Placeholder[A][X]
+Heh... Looks like I've a lot of stuff[N]
+to give back, because I'm dead![A][CloseEyes][X]
 
 ## MimaDeath
 [Right][LoadMima]
-Placeholder[A][X]
+Well, I've been in hell before.[N]
+What's another trip there?[A][CloseEyes][X]
 
 ## YuukaDeath
 [Right][LoadYuuka]
-Placeholder[A][X]
+What comes around comes around.[N]
+My life is finally over.[A][CloseEyes][X]
 
 ## ShinkiDeath
 [Right][LoadShinki]
-Placeholder[A][X]
+I've been struck down, far from home.[N]
+May Makai survive...[A][CloseEyes][X]
 
 ## AliceDeath
 [Right][LoadAlice]
-Placeholder[A][X]
+I've been humiliated in defeat,[N]
+but this... I'm dying here...[A][CloseEyes][X]
