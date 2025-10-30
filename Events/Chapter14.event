@@ -15,6 +15,16 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x00,AfterPrep,1)
+TurnEventPlayer(0x10,SummonMonsters,3)
+TurnEventPlayer(0x10,SummonMonsters,6)
+TurnEventPlayer(0x10,SummonMonsters,9)
+TurnEventPlayer(0x10,SummonMonsters,12)
+TurnEventPlayer(0x10,SummonMonsters,15)
+TurnEventPlayer(0x10,SummonMonsters,18)
+TurnEventPlayer(0x10,SummonMonsters,21)
+TurnEventPlayer(0x10,SummonMonsters,24)
+TurnEventPlayer(0x10,SummonMonsters,27)
+TurnEventPlayer(0x10,SummonMonsters,30)
 END_MAIN
 
 CharacterBasedEvents:
@@ -37,6 +47,7 @@ END_MAIN
 MiscBasedEvents:
 DefeatAll(EndingScene)
 CauseGameOverIfLordDies
+AFEV 0x10 KillSummons 0x0F
 END_MAIN
 
 Dunno1:
@@ -109,6 +120,9 @@ UNIT Dyute Myrmidon_F 0x0 Level(8,Ally,0) [18,5] 0x0 0x0 0x0 0x0 [Shamshir, Slim
 //Now we all know Dyute as a mage. Her FE2 ending says she quits magic. Solution: Infantry sword, get her magic back on promo.
 UNIT
 
+EnemySummon:
+UNIT Monster Gargoyle 0x0 Level(10,Enemy,1) [16,14] 0x0 0x0 0x1 SummonREDA [IronLance] PursueWithoutHeedAI
+UNIT
 
 Traps1:
 ENDTRAP
@@ -142,6 +156,45 @@ WM_LOADLOCATION2 0 13 0 //Required to fix chapter name
 WM_SETDESTINATION 0 13 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 13 //Needed for world map narration.
 MNCH 15
+ENDA
+
+SummonMonsters:
+//Original behaviour: summons happen as an action mid-phase, summons don't move turn they're summoned.
+//I'll just imitate them via running this summon event every few turns.
+COUNTER_SET 0 8 //rudimentary loop to save some lines
+CAM1 DomaFaithful
+STAL 10
+LABEL 1421
+RANDOMNUMBER 1
+BNE 1420 s0 sC
+LOAD1 0x1 EnemySummon
+WARPIN [16,14] //not great, but either misalign the effect or bloat the code eight times over
+//MOVE 0xFFFF Monster [16,13]
+ENUN
+ENDWARP
+STAL 15
+LABEL 1420
+COUNTER_DEC 0
+COUNTER_CHECK 0
+BNE 1421 s0 sC //continue looping until counter hits zero; should summon eight times (or whatever the value may be)
+ENUF 0x10 //unset flag
+NoFade
+ENDA
+
+KillSummons:
+LABEL 1423
+CHECK_ALIVE Monster
+BEQ 1422 s0 sC //if no monsters, skip to the end
+CAM1 Monster
+FlashCursor(Monster,30)
+STAL 5
+KILL Monster
+AWAIT_KILL Monster
+STAL 30
+GOTO 1423 //keep looping until they're all dead
+LABEL 1422
+ENUT 0x10 //no more summons
+NoFade
 ENDA
 
 DyuteVillage:
@@ -183,3 +236,6 @@ ALIGN 4
 Ch14Vendor:
 SHLI Fire
 ALIGN 4
+
+SummonREDA:
+REDA [16,14]

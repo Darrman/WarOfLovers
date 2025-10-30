@@ -340,6 +340,7 @@
 #define Yied 0xed
 #define LoptSect 0xee
 #define DegeneratedDragon 0xef
+#define Monster DegeneratedDragon //shouldn't coexist, use this for now
 #define Firene 0xf0
 #define Brodia 0xf1
 #define Askr 0xf2
