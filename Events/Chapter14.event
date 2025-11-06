@@ -147,6 +147,15 @@ Text(Ch14AfterPrepRoutEm)
 ENDA
 
 EndingScene:
+//program conditionals for Doot in later
+MUSC M_TogetherWeRide
+CALL UnitGachaAct3
+WARPIN [5,5]
+MOVE 0xFFFF 0xFFFD [5,5]
+ENUN
+ENDWARP
+STAL 20
+
 Text(Village,Ch14EndingWhatDidSheDo)
 Text(Village,Ch14EndingNotAllValencian)
 Text(Castle_Room,Ch14EndingWeMustSaveCelica)

@@ -213,7 +213,8 @@
 #define Sonic 0x77
 #define Tails 0x78
 #define Knuckles 0x79
-#define Amy 0x7a
+#define Shadow 0x7a
+#define Amy Shadow //temp
 #define Robotnik 0x7b
 
 //Megami Tensei
