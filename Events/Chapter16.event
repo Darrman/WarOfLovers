@@ -14,15 +14,30 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,AfterPrep,1)
+TurnEventEnemy(0x0,InitialWarpRagnarok,2)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x7,GreyStandsDown,Claire,Grey)
+CharacterEventBothWays(0x8,MycenMoves,Grey,Mycen)
+//There's probably a better way to go about this. Turn Grey blue as a temporary unit?
+//I've done the same with Barth, so there's precedent.
 END_MAIN
 
 LocationBasedEvents:
 #ifdef __DEBUG__
 Seize(11,31)
 #endif
+Door(4,28)
+Door(18,28)
+Chest(IronSword,2,31)
+Chest(IronBlade,5,30)
+Chest(IronBlade,7,32)
+Chest(IronBlade,15,32)
+Chest(IronBlade,16,29)
+Chest(IronBlade,20,30)
+Chest(IronBlade,19,2)
 END_MAIN
 
 MiscBasedEvents:
@@ -42,12 +57,47 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [11,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [11,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,31] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,31] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [12,29] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [11,32] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,33] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,32] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [11,34] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [13,34] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,30] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [11,29] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT
 
 Bad:
-UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [9,3] 0x0 0x0 0x0 0x0 [Falchion] AttackInRangeAI
-UNIT Celine MageFighter 0x00 Level(5,Enemy,0) [10,3] 0x0 0x0 0x0 0x0 [Bolganone] PursueWithoutHeedAI
+//Chapter bosses
+UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [9,3] 0x0 0x0 0x0 0x0 [Falchion/*Valencian Falchion*/, LifeOrb] AttackInRangeAI
+UNIT Celine MageFighter 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, /*CelicaRing*/] PursueWithoutHeedAI
+UNIT Grey Hero Alm Level(3,Enemy,0) [11,20] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
+UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [5,11] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] NeverMoveAI
+UNIT Valencia General Alm Level(3,Enemy,1) [4,11] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
+UNIT DomaFaithfulBoss Summoner 0x00 Level(3,Enemy,0) [20,5] DropItem 0x0 0x0 0x0 [Fenrir, Berserk, GuidingRing] AttackInRangeAI
+//Starting group, by Grey
+UNIT Valencia Soldier Alm Level(16,Enemy,1) [10,22] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Valencia Soldier Alm Level(16,Enemy,1) [12,22] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Valencia Mercenary Alm Level(16,Enemy,1) [11,23] 0x0 0x0 0x0 0x0 [IronBlade] PursueWithoutHeedAI
+UNIT Valencia Mage Alm Level(16,Enemy,1) [16,25] 0x0 0x0 0x0 0x0 [Elwind] PursueWithoutHeedAI
+UNIT Valencia Archer Alm Level(16,Enemy,1) [7,25] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT Valencia Mage Alm Level(16,Enemy,1) [2,23] 0x0 0x0 0x0 0x0 [Thunder] PursueWithoutHeedAI
+UNIT
+
+BadDoma:
+//Corridor to the right, full of monsters
+UNIT DomaFaithful Shaman DomaFaithfulBoss Level(16,Enemy,1) [20,17] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT DomaFaithful Shaman DomaFaithfulBoss Level(16,Enemy,1) [21,18] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT DomaFaithful Bonewalker DomaFaithfulBoss Level(16,Enemy,1) [21,12] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT DomaFaithful Bonewalker DomaFaithfulBoss Level(16,Enemy,1) [20,12] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT DomaFaithful Bonewalker DomaFaithfulBoss Level(16,Enemy,1) [19,8] 0x0 0x0 0x0 0x0 [Armourslayer] AttackInRangeAI
+UNIT DomaFaithful DracoZombie DomaFaithfulBoss Level(1,Enemy,1) [20,1] 0x0 0x0 0x0 0x0 [WretchedAir] GuardTileAI
+UNIT DomaFaithful Revenant DomaFaithfulBoss Level(16,Enemy,1) [21,9] 0x0 0x0 0x0 0x0 [RottenClaw] AttackInRangeAI
+UNIT DomaFaithful Entombed DomaFaithfulBoss Level(1,Enemy,1) [19,2] 0x0 0x0 0x0 0x0 [SharpClaw] AttackInRangeAI
 UNIT
 
 Traps1:
@@ -59,11 +109,62 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+CALL DismountAll
 Text(Castle_Room,Ch16OpeningGoodJobCeline)
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 BadDoma
 GotoPrepScreen
 ENDA
+
+AfterPrep:
+//scene
+MOVE 10 Celine [2,16]
+ENUN
+STAL 20
+WARPOUT [2,16]
+MOVE 0xFFFF Celine [20,6]
+WARPIN [20,6]
+ENDWARP
+//scene
+ENDA
+
+InitialWarpRagnarok:
+//Shouldn't be able to kill Celine by T2
+//She teleports on top of whoever's there, which is fine, I suppose.
+//It's not a fatal issue and she moves immediately that enemy phase.
+//scene
+WARPOUT [20,6]
+STAL 10
+MOVE 0xFFFF Celine [11,20]
+ENDWARP
+//scene?
+ENDA
+
+//Spawn Louis or Chloe in after a few turns if alive
+
+//Killing the Doma rep triggers the throne room door to open
+
+GreyStandsDown:
+//convo
+TurnNPC(Grey)
+NoFade
+ENDA
+
+MycenMoves:
+//convo
+TurnNPC(Mycen)
+NoFade
+ENDA
+
+//SPARING CELINE:
+//1: Time out the Ch6 defence and let Louis get away.
+//2: Get 13x and do something involving Chloe.
+//3: Do not kill any named Valencians, Cleive excepted: trying to talk him down is required.
+//4: Let Louis/Chloe reach Celine this chapter (probably Louis); she'll turn green.
+//5: With all that said and done, talk to her with Marth and she turns blue!
+
+//Alm, at least, can be talked down with any Valencian.
 
 EndingScene:
 WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
