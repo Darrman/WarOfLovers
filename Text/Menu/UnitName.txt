@@ -1345,6 +1345,14 @@ Advisor to Alm, who regards him as[N]
 his "gramps". Serious and loyal,[N]
 faithfully following his liege.[X]
 
+## GreyName
+Grey[X]
+
+## GreyDesc
+A friend of Alm's since childhood,[N]
+from Ram. Generally laid-back and[N]
+easy to get along with.[X]
+
 ## DomaFaithfulBossName
 Doma F. Boss[X]
 

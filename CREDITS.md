@@ -99,12 +99,14 @@
 - Serena: Pokemon Anime (Darrman)
 - Pikachu: Pokemon Red/Blue (Darrman)
 - Jigglypuff: Pokemon Red/Blue (Darrman)
+- Mewtwo: AlemOwl
 
 - Link: BatimaTheBat
 - Zelda: Sirknite31
 - Sahasrahla: A Link to the Past (Darrman)
 - Marin: Kanna
 - Saria: Ocarina of Time (Darrman)
+- Ganondorf: UncleMikey
 
 - Samus: Fenreir
 
@@ -133,11 +135,14 @@
 - Lenna: Final Fantasy 5 mobile (Darrman)
 - Celes: Final Fantasy 6 (Darrman)
 - Locke: Final Fantasy 6 (Darrman)
+- Rosa: Final Fantasy 4 (Darrman)
+- Galuf: Final Fantasy 5 Advance (Darrman)
 
 - Sonic: GoudaGrabber
 - Tails: GoudaGrabber
 - Knuckles: Sonic Adventure? (Sme)
 - Robotnik: AlemOwl
+- Shadow: AlemOwl
 
 - Mr. Game and Watch: Super Smash Bros. 4 (Darrman)
 - Popo: Super Smash Bros. Melee (Darrman)
