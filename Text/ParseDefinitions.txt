@@ -231,5 +231,4 @@
 [LoadRaiden] = [LoadFace][0xE5][0x1]
 [LoadArmstrong] = [LoadFace][0xE5][0x1]
 
-
 [LoadAnna] = [LoadFace][0x64][0x1]

@@ -142,6 +142,15 @@ Text(Ch15AfterPrepCleiveSpeech)
 ENDA
 
 EndingScene:
+//super temp
+MUSC M_TogetherWeRide
+CALL UnitGachaAct3
+WARPIN [5,5]
+MOVE 0xFFFF 0xFFFD [5,5]
+ENUN
+ENDWARP
+STAL 20
+//conditional for Cleive talked to
 Text(Castle_Outside,Ch15EndingHowUseless)
 Text(Castle_Room,Ch15EndingWarRoomSpat)
 
