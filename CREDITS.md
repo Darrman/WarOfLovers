@@ -40,6 +40,15 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Septette for the Dead Princess: 7743
 - When the Rush Comes (Jugdral): DrGreen3339
 
+- World map: Wikimedia Commons users as follows -
+    Ireland_trad_counties_named.svg:
+    *Population_density_of_Ireland_map2002.svg:
+    *Ireland_complete.svg: Future Perfect at Sunrise
+    derivative work: The Illusional Ministry
+    derivative work: Sswonk
+    derivative work: Draceane
+    Licence: https://creativecommons.org/licenses/by-sa/3.0/deed.en
+    GBA insertion and railway lines drawn on: Darrman
 
 # War of Lovers Remnants
 

@@ -7,11 +7,13 @@ POP
 
 ALIGN 4
 SmallWorldMapGFX:
-#incext Png2Dmp "AkaneiaMapTiles.png" --lz77
+//#incext Png2Dmp "AkaneiaMapTiles.png" --lz77
+#incext Png2Dmp "IrelandPoliticalRailway.png" --lz77
 
 ALIGN 4
 SmallWorldMapPalette:
-#incext Png2Dmp "AkaneiaMapTiles.png" --palette-only
+//#incext Png2Dmp "AkaneiaMapTiles.png" --palette-only
+#incext Png2Dmp "IrelandPoliticalRailway.png" --palette-only
 
 ALIGN 4
 SmallWorldMapTSA:
