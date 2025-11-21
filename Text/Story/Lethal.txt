@@ -365,7 +365,7 @@ Look, I see a big wall over there.[N]
 Maybe the Arch is this a way![A][X]
 
 ## LethalSpacePirateMarch
-[ML][LoadFace][0x1][0x1][MR][LoadFace][0x01][0x01]
+[ML][LoadGanon][MR][LoadRidley]
 //RIDLEY:
 I see everyone is at the ready.[N]
 We have gathered a massive[AN]
@@ -393,7 +393,7 @@ Halden Electronics. Down with[N]
 Mario... and Samus will die![A][X]
 
 ## LethalFawfulWins
-[Left][LoadMario][MR][LoadFace][0x01][0x01]
+[Left][LoadMario][MR][LoadFawful]
 //FAWFUL:
 Ha ha ha ha ha! My attack was[N]
 the mushroom of your doom![AN]
@@ -447,7 +447,7 @@ Mario and Peach have[AN]
 been overthrown! Now I[N]
 can rearrange the world![A]
 [MoveRight]
-[FR][LoadFace][0x01][0x01]
+[FR][LoadRidley]
 //RIDLEY
 Now... kill 'em all![N]
 The enemy commander is[AN]

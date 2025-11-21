@@ -635,6 +635,19 @@ KainFF4_Mug:
 #incext PortraitFormatter "KainFF4.png"
 setMugEntry(0xED, KainFF4_Mug, 4,8,4,6)
 
+Ganondorf_Mug:
+#incext PortraitFormatter "Ganondorf.png"
+setMugEntry(0xEE, Ganondorf_Mug, 3,5,3,3)
+
+Ridley_Mug:
+#incext PortraitFormatter "Ridley.png"
+setMugEntry(0xEF, Ridley_Mug, 1,5,3,2)
+
+Fawful_Mug:
+#incext PortraitFormatter "Fawful.png"
+setMugEntry(0xF0, Fawful_Mug, 4,5,4,3)
+
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"

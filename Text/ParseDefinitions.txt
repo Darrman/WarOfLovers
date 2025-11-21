@@ -226,5 +226,8 @@
 [LoadShirou] = [LoadFace][0xEB][0x1]
 [LoadKaiba] = [LoadFace][0xEC][0x1]
 [LoadKainFF4] = [LoadFace][0xED][0x1]
+[LoadGanon] = [LoadFace][0xEE][0x1]
+[LoadRidley] = [LoadFace][0xEF][0x1]
+[LoadFawful] = [LoadFace][0xF0][0x1]
 
 [LoadAnna] = [LoadFace][0x64][0x1]

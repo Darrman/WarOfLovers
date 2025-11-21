@@ -28,6 +28,9 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Walter: Shin Megami Tensei 4 (Darrman)
 - Jonathan: Shin Megami Tensei 4 (Darrman)
 - Shirou: Fate/Stay Night (Darrman)
+- Ganondorf: UncleMikey
+- Ridley: Super Metroid (Darrman)
+- Fawful: Bowser's Inside Story (Darrman)
 
 # Music:
 - Slider: Sme
