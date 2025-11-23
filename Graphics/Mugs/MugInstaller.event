@@ -766,3 +766,5 @@ setMugEntry(0xF1, Armstrong_Mug, 2,4,2,2)
 //#incext PortraitFormatter "Lorenz.png"
 //setMugEntry(0x43, Lorenz_Mug, 4, 7, 4, 4)
 
+//Causes issues if included in Engine Hacks, so including here:
+#include ../../EngineHacks/GachaJam/DynamicPortraits/DynamicPortraitsInstaller.event

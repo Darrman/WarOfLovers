@@ -77,10 +77,15 @@ BYTE  #0x0B
 
 //Just to test functionality, here's my own Sample 4:
 //Mario becomes Link if Zelda exists
+/*
 SHORT 0x06 //Mario
 SHORT 0x18 //Link
 SHORT 0x0 //flag doesn't matter
 BYTE Zelda //she needs to be around
 BYTE 0x0 //but her class doesn't matter
+*/
 
+//My sample works, which means this works.
+//TODO: Celine-as-Celica mandates this
+//Beyond 100 pipe dreams also require this, but those are pipe dreams
 WORD 0x0 0x0//Terminator, don't delete this or very bad things will happen
