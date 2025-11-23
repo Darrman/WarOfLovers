@@ -1,0 +1,166 @@
+#ifdef _FE8_
+#ifndef CHAR_BASED_PROMOS
+#define CHAR_BASED_PROMOS
+
+PUSH
+ORG $CC5F6
+SHORT 0x46C0 //nop
+jumpToHack(CharBasedPromos)
+ORG $CC5DE
+SHORT 0x46C0 //nop
+jumpToHack(CharBasedPromosPrep)
+POP
+
+#include "CharBasedPromos.lyn.event"
+#include "CharBasedPromosPrepScreen.lyn.event"
+
+MESSAGE CharBasedPromos
+
+#define CharBasedPromoEntry(charID,startingClass,promotedClass) "BYTE charID startingClass promotedClass 0"
+#define CharBasedPromoEnd "WORD 0"
+
+ALIGN 4
+CharBasedPromoList:
+//Obviously far from final, but I'll set up everyone with the traditional class for now.
+//Due to technical issues the game hangs if there's no split promo or a character promo, so just define everyone
+//What with all the dismount variants, I may be here for a while!
+//Todo: Add missing classes, female versions as necessary
+CharBasedPromoEntry(Marth,Lord,StarLord)
+CharBasedPromoEntry(Sheeda,PegasusKnight,FalconKnight)
+//might give her a special class if there's room
+CharBasedPromoEntry(Sheeda,KnightPegasus,KnightFalcon)
+CharBasedPromoEntry(Malliesia,Cleric,Bishop_F)
+CharBasedPromoEntry(Ricardo,Thief,Rogue)
+CharBasedPromoEntry(Caesar,Mercenary,Hero)
+CharBasedPromoEntry(Tomth,LanceArmour,General)
+CharBasedPromoEntry(Ryan,Archer,Sniper)
+CharBasedPromoEntry(Saji,Fighter,Warrior)
+CharBasedPromoEntry(Kashim,Hunter,Horseman)
+CharBasedPromoEntry(Riff,Priest,Bishop)
+CharBasedPromoEntry(Linda,Mage_F,Sage_F)
+CharBasedPromoEntry(Oguma,Mercenary,Hero)
+CharBasedPromoEntry(Barts,Pirate,Berserker)
+//there's slots for T3 Eliwood if I give him one
+CharBasedPromoEntry(Lilina,Mage_F,Sage_F)
+//there's room for a special Lilina T2
+CharBasedPromoEntry(Miledy,DragonKnight_F,DragonMaster_F)
+CharBasedPromoEntry(Miledy,KnightDragon,KnightDragonM_F)
+CharBasedPromoEntry(Wolt,Archer,Sniper)
+CharBasedPromoEntry(Sophia,Shaman_F,Druid_F)
+CharBasedPromoEntry(Astore,Thief,Assassin)
+CharBasedPromoEntry(Fir,Myrmidon_F,Swordmaster_F)
+CharBasedPromoEntry(Dyute,Myrmidon_F,MageFighter) //Celica/Celine Priestess?
+//room for an Alm T3 if deemed necessary
+//Jugdral is all over the place, and aside from the Est everyone should be T2
+
+//The Random Unit Pool
+//A lot more room for these characters to be unorthodox.
+CharBasedPromoEntry(Mario,Brigand,Berserker)
+CharBasedPromoEntry(Luigi,Pirate,Berserker)
+CharBasedPromoEntry(Peach,Cleric,Bishop_F)
+CharBasedPromoEntry(Bowser,DragonKnight,DragonMaster)
+CharBasedPromoEntry(Bowser,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(DK,LanceArmour,General)
+CharBasedPromoEntry(Toad,Thief,Rogue)
+CharBasedPromoEntry(Wario,AxeKnight,GreatKnight)
+CharBasedPromoEntry(Wario,KnightAxe,KnightGreat)
+CharBasedPromoEntry(Daisy,Mage_F,Sage_F)
+CharBasedPromoEntry(Yoshi,LanceKnight,DukeKnight)
+CharBasedPromoEntry(Yoshi,KnightLance,KnightDuke)
+CharBasedPromoEntry(Waluigi,FreeKnight,Ranger)
+CharBasedPromoEntry(Waluigi,KnightFree,KnightRanger)
+CharBasedPromoEntry(Link,Mercenary,Horseman)
+CharBasedPromoEntry(Zelda,Thief,Rogue) //Trickster, if they're put in
+CharBasedPromoEntry(Sahasrahla,Priest,Bishop)
+CharBasedPromoEntry(Saria,Mage_F,MageKnight_F)
+CharBasedPromoEntry(Salesman,Shaman,Druid)
+CharBasedPromoEntry(Ganon,Soldier,Halberdier) //lance/dark hybrid, ideally
+CharBasedPromoEntry(Kirby,Shaman,Druid)
+CharBasedPromoEntry(Dedede,Fighter,Warrior)
+CharBasedPromoEntry(MetaKnight,Myrmidon,Swordmaster)
+CharBasedPromoEntry(Fox,Hunter,Horseman) //all Star Fox would use guns
+CharBasedPromoEntry(Falco,DragonKnight,DragonMaster)
+CharBasedPromoEntry(Falco,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(Peppy,Soldier,Halberdier)
+CharBasedPromoEntry(Slippy,Pirate,Berserker)
+CharBasedPromoEntry(Wolf,DragonKnight,DragonMaster)
+CharBasedPromoEntry(Wolf,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(Ness,Fighter,Warrior) //War Monk would be perfect here
+CharBasedPromoEntry(Paula,Mage_F,Sage_F)
+CharBasedPromoEntry(Jeff,Archer,Sniper)
+CharBasedPromoEntry(Poo,Myrmidon,Swordmaster) //Mage Fighter?
+CharBasedPromoEntry(Pokey,SwordArmour,General)
+CharBasedPromoEntry(Samus,Archer_F,Sniper_F) //gun
+CharBasedPromoEntry(Pikachu,Mage,Sage)
+CharBasedPromoEntry(Jigglypuff,Cleric,Bishop_F)
+CharBasedPromoEntry(Mewtwo,Shaman,Druid)
+CharBasedPromoEntry(Falcon,LanceKnight,DukeKnight)
+CharBasedPromoEntry(MrGameAndWatch,Fighter,Warrior)
+CharBasedPromoEntry(Popo,Brigand,Berserker)
+CharBasedPromoEntry(CecilFF4,FreeKnight,Paladin)
+CharBasedPromoEntry(CecilFF4,KnightFree,KnightPaladin)
+CharBasedPromoEntry(Rosa,Cleric,Bishop_F) //the Fates bishop (bow/staff) would work
+CharBasedPromoEntry(KainFF4,DragonKnight,DragonMaster)
+CharBasedPromoEntry(KainFF4,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(Rydia,Mage_F,Sage_F) //Summoner but anima
+CharBasedPromoEntry(Butz,AxeKnight,GreatKnight) //maybe he could be a cav, I'm short on them
+CharBasedPromoEntry(Butz,KnightAxe,KnightGreat)
+CharBasedPromoEntry(Lenna,Troubadour,Valkyrie) //the Jugdral style?
+CharBasedPromoEntry(Galuf,Soldier,Halberdier)
+CharBasedPromoEntry(Terra,Mage_F,Sage_F)
+CharBasedPromoEntry(Celes,Mage_F,Sage_F) //Mage Fighter
+CharBasedPromoEntry(Locke,Thief,Rogue)
+CharBasedPromoEntry(Ash,Mercenary,Hero)
+CharBasedPromoEntry(Misty,Archer_F,BowKnight)
+CharBasedPromoEntry(Brock,Fighter,Warrior)
+CharBasedPromoEntry(Jessie,PegasusKnight,FalconKnight)
+CharBasedPromoEntry(Jessie,KnightPegasus,KnightFalcon)
+CharBasedPromoEntry(James,DragonKnight,DragonMaster)
+CharBasedPromoEntry(James,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(May,Myrmidon_F,Swordmaster_F)
+CharBasedPromoEntry(Dawn,Troubadour,Valkyrie)
+CharBasedPromoEntry(Serena,FreeKnight,Ranger)
+CharBasedPromoEntry(Serena,KnightFree,KnightRanger)
+CharBasedPromoEntry(Yugi,Shaman,Druid)
+CharBasedPromoEntry(Joey,Mercenary,Hero)
+CharBasedPromoEntry(Kaiba,DragonKnight,DragonMaster) //jet
+CharBasedPromoEntry(Kaiba,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(Jaden,Fighter,Hero)
+CharBasedPromoEntry(Alexis,PegasusKnight,FalconKnight)
+CharBasedPromoEntry(Alexis,KnightPegasus,KnightFalcon)
+CharBasedPromoEntry(Chazz,LanceArmour,General)
+CharBasedPromoEntry(Olimar,Priest,Bishop)
+CharBasedPromoEntry(Louie,Bael,ElderBael)
+CharBasedPromoEntry(President,Pirate,Berserker)
+CharBasedPromoEntry(Snake,Thief,Assassin) //Metal Gear would all use guns
+CharBasedPromoEntry(Raiden,Myrmidon,Swordmaster)
+CharBasedPromoEntry(Armstrong,Brigand,Berserker)
+CharBasedPromoEntry(Sonic,Myrmidon,Swordmaster)
+CharBasedPromoEntry(Tails,DragonKnight,DragonMaster)
+CharBasedPromoEntry(Tails,KnightDragon,KnightDragonM)
+CharBasedPromoEntry(Knuckles,Fighter,Warrior)
+CharBasedPromoEntry(Shadow,Myrmidon,Assassin) //Ow, the edge! In other words, gun.
+CharBasedPromoEntry(Robotnik,BowArmour,General) //A tank, probably
+CharBasedPromoEntry(Flynn,Monk,Bishop) //SMT all open to guns.
+CharBasedPromoEntry(Isabeau,Mage_F,Sage_F)
+CharBasedPromoEntry(Jonathan,Myrmidon,Swordmaster)
+CharBasedPromoEntry(Walter,Brigand,Berserker)
+CharBasedPromoEntry(Reimu,PegasusKnight,FalconKnight) //staves instead of swords?
+CharBasedPromoEntry(Reimu,KnightPegasus,KnightFalcon)
+CharBasedPromoEntry(Marisa,Mage_F,MageKnight_F)
+CharBasedPromoEntry(Mima,Shaman_F,Druid_F)
+CharBasedPromoEntry(Yuuka,Archer_F,Sniper_F)
+CharBasedPromoEntry(Shinki,Troubadour,Valkyrie)
+CharBasedPromoEntry(Shinki,KnightTroubadour,KnightValkyrie)
+CharBasedPromoEntry(Alice,Mage_F,Sage_F) //Anima Summoner. I've way too many mage girls in this.
+//To be determined...
+
+CharBasedPromoEnd
+
+
+#endif // CHAR_BASED_PROMOS
+#else
+ERROR Char Based Promos is only for FE8!
+#endif // _FE8_
+
+

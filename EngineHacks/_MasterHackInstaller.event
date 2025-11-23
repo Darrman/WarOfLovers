@@ -308,4 +308,7 @@ POP
 
   //Portrait hackbox extension (Laqieer, Aera)
   #include "GachaJam/HackboxExtension/HackboxExtension.event"
+
+  //Character-based promotions (Sme)
+  #include "GachaJam/CharBasedPromos/CharBasedPromos.event"
   
