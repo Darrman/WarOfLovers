@@ -4002,7 +4002,7 @@ UNIT Celes Mage_F 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elwind, 
 UNIT
 
 LockeUnitAct3:
-UNIT Locke Pirate 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [WindSword, Vulnerary] NoAI
+UNIT Locke Thief 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [WindSword, Vulnerary] NoAI
 UNIT
 
 YugiUnitAct3:

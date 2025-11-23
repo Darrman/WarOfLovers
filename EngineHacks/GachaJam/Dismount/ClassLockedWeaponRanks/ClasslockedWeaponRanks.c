@@ -17,7 +17,12 @@ void DisplayWeaponExp(int num, int x, int y, int wtype)
 
     // Display weapon type icon
     DrawIcon(gUiTmScratchA + TILEMAP_INDEX(x, y),
-        0x70 + wtype, // TODO: icon id definitions
+        0x400 + wtype, // TODO: icon id definitions. 0x70 for vanilla, changing for icon rework.
+	//Because I'm not smart, I changed the ASM in the lyn.event to
+	//ADD r1 0x1; LSL r1, r1, #0xA (load 1, shift it two bytes).
+	//Then the BL afterwards went haywire. Sigh. Taking shortcuts is a bad idea.
+	//Editing .lyn.events manually is bad: it also breaks weapon usability!
+	//Best just wait for the proper fix...
         TILEREF(0, STATSCREEN_BGPAL_EXTICONS));
 
 	if(!(gStatScreen.unit->pClassData->baseRanks[wtype])) {
