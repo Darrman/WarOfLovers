@@ -2,31 +2,38 @@ PUSH
 
 ORG 0x5B65C0
 MenuGraphicsTiles:
-#incext Png2Dmp "Main.png" --lz77
+//#incext Png2Dmp "Main.png" --lz77
+#incbin "Main.img.bin"
 
 ORG 0xA1B730
 PrepScreenTiles:
-#incext Png2Dmp "Preps.png" --lz77
+//#incext Png2Dmp "Preps.png" --lz77
+#incbin "Preps.img.bin"
 
 ORG 0x9AD9F8
 PrepScreenMoneyTiles:
-#incext Png2Dmp "PrepsShopMoney.png" --lz77
+//#incext Png2Dmp "PrepsShopMoney.png" --lz77
+#incbin "PrepsShopMoney.img.bin"
 
 ORG 0xA1BAB8
 PrepScreenUseItemTiles:
-#incext Png2Dmp "PrepsItemUse.png" --lz77
+//#incext Png2Dmp "PrepsItemUse.png" --lz77
+#incbin "PrepsItemUse.img.bin"
 
 ORG 0xA1D7DC
 PrepScreenItemTiles:
-#incext Png2Dmp "PrepsItemMenu.png" --lz77
+//#incext Png2Dmp "PrepsItemMenu.png" --lz77
+#incbin "PrepsItemMenu.img.bin"
 
 ORG 0xA167C8
 MiniBoxTiles:
-#incext Png2Dmp "MiniBox.png" --lz77
+//#incext Png2Dmp "MiniBox.png" --lz77
+#incbin "MiniBox.img.bin"
 
 ORG 0xA16D6C
 MiniBoxNumbers:
-#incext Png2Dmp "NewNumbers.png" --lz77
+//#incext Png2Dmp "NewNumbers.png" --lz77
+#incbin "NewNumbers.img.bin"
 
 ORG 0x5B6BB4
 UIPalette:
@@ -41,7 +48,8 @@ POIN BattlePrepMoney
 POP
 
 BattlePrepMoney:
-#incext Png2Dmp "PrepsMoney.png" --lz77
+//#incext Png2Dmp "PrepsMoney.png" --lz77
+#incbin "PrepsMoney.img.bin"
 
 //I hope I don't have to mess with too much TSA...
 //Following Alice's tutorial here (with Stephano graphics as base)
