@@ -24,13 +24,3 @@ PUSH
 ORG 0x88590
 WORD 0
 POP
-
-//not part of the stat screen but I haven't changed battle prep yet so here
-//only reason I'm changing this now is because it's same palette as play time
-PUSH
-ORG $98468
-POIN BattlePrepMoney
-POP
-
-BattlePrepMoney:
-#incext Png2Dmp "BattlePrepMoney.png" --lz77

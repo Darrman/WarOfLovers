@@ -8,6 +8,18 @@ ORG 0xA1B730
 PrepScreenTiles:
 #incext Png2Dmp "Preps.png" --lz77
 
+ORG 0x9AD9F8
+PrepScreenMoneyTiles:
+#incext Png2Dmp "PrepsShopMoney.png" --lz77
+
+ORG 0xA1BAB8
+PrepScreenUseItemTiles:
+#incext Png2Dmp "PrepsItemUse.png" --lz77
+
+ORG 0xA1D7DC
+PrepScreenItemTiles:
+#incext Png2Dmp "PrepsItemMenu.png" --lz77
+
 ORG 0xA167C8
 MiniBoxTiles:
 #incext Png2Dmp "MiniBox.png" --lz77
@@ -22,7 +34,14 @@ UIPalette:
 //Above corrupts the stat screen, exporting only needed colours
 #incbin "UI.pal.bin"
 
+//Now in the UI folder, since that's where this file lives in the relevant
+//tutorial and other battle prep tiles are changed here
+ORG $98468
+POIN BattlePrepMoney
 POP
+
+BattlePrepMoney:
+#incext Png2Dmp "PrepsMoney.png" --lz77
 
 //I hope I don't have to mess with too much TSA...
 //Following Alice's tutorial here (with Stephano graphics as base)
