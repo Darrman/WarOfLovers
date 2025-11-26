@@ -25,6 +25,89 @@ defWeaponDebuffs(4,0,4,0,4,4,0) //0x5: Pebble debuff.
 	BYTE 0x0	//end of list
 #endif
 
+HeroCrestList:
+BYTE Mercenary Mercenary_F Myrmidon Myrmidon_F Fighter Brigand 0x00
+
+KnightCrestList:
+BYTE Cavalier KnightCavalier Cavalier_F KnightCavalier FreeKnight KnightFree
+BYTE LanceKnight KnightLance AxeKnight KnightAxe SwordArmour LanceArmour
+BYTE AxeArmour BowArmour Soldier 0x00
+
+OrionsBoltList:
+BYTE Archer Archer_F Hunter ArchKnight KnightArch 0x00
+
+ElysianWhipList:
+BYTE PegasusKnight KnightPegasus DragonKnight KnightDragon DragonKnight_F 0x00
+
+GuidingRingList:
+BYTE Priest Cleric Mage Mage_F Monk Shaman Shaman_F Troubadour KnightTroubadour 0x00
+
+//While FEBuilder claims everything has its own data, I haven't touched this.
+//And it seems to be bleeding into unit palettes, apparently. Repoint time.
+//This list is just for safety if a character promotion hasn't been defined.
+//Two bytes a class, nothing fancy going on here.
+PUSH
+ORG 0xCC7D0
+POIN PromotionBranchList
+ORG 0xCC824
+POIN PromotionBranchList
+ORG 0xCC860
+POIN PromotionBranchList
+ORG 0xCC8A4
+POIN PromotionBranchList
+POP
+
+PromotionBranchList:
+//0x00
+BYTE 0 0 StarLord StarLord 0 0 0 0 0 0 Paladin Paladin Paladin_F Paladin_F 0 0
+BYTE 0 0 General General General_F General_F 0 0 0 0 Assassin Assassin 0 0 Hero Hero
+//0x10
+BYTE Hero_F Hero_F 0 0 0 0 Swordmaster Swordmaster Swordmaster_F Swordmaster_F 0 0 0 0 0 0
+BYTE 0 0 Sniper Sniper Sniper_F Sniper_F 0 0 0 0 0 0 0 0 DragonMaster DragonMaster
+//0x20
+BYTE DragonMaster_F DragonMaster_F 0 0 0 0 0 0 0 0 Sage Sage Sage_F Sage_F 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 Druid Druid Druid_F Druid_F 0 0
+//0x30
+BYTE 0 0 0 0 0 0 0 0 Gorgon Gorgon 0 0 0 0 KnightPaladin KnightPaladin
+BYTE KnightFalcon KnightFalcon 0 0 KnightDragonM KnightDragonM 0 0 0 0 0 0 0 0 Warrior Warrior
+//0x40
+BYTE 0 0 Berserker Berserker Berserker Berserker 0 0 Bishop Bishop Bishop Bishop 0 0 KnightPaladin_F KnightPaladin_F
+BYTE FalconKnight FalconKnight 0 0 Bishop_F Bishop_F Valkyrie Valkyrie 0 0 0 0 Halberdier Halberdier 0 0
+//0x50
+BYTE 0 0 0 0 Entombed Entombed 0 0 Wight Wight Wight_Bow Wight_Bow 0 0 0 0
+BYTE ElderBael ElderBael 0 0 0 0 Gwyllgi Gwyllgi 0 0 Maelduin Maelduin 0 0 ArchMogall ArchMogall
+//0x60
+BYTE 0 0 0 0 Gorgon Gorgon Deathgoyle Deathgoyle 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0x70
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0x80
+BYTE Ranger Ranger DukeKnight DukeKnight GreatKnight GreatKnight BowKnight BowKnight KnightRanger KnightRanger KnightDuke KnightDuke KnightGreat KnightGreat KnightBow KnightBow
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 General General
+//0x90
+BYTE General General General General Horseman Horseman 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xA0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xB0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xC0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xD0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xE0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xF0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+//0xFF
+
 #ifndef ChestKey_IEList
 	#define ChestKey_IEList
 
