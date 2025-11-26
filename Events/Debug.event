@@ -22,7 +22,7 @@ POIN DebugLocationBasedEvents
 POIN DebugMiscBasedEvents
 POIN Dunno1 Dunno2 Dunno3 Tutorial
 POIN Traps1 Traps2
-POIN DebugUnitsFE DebugUnitsFE
+POIN DebugUnitsGood DebugUnitsGood
 POIN $0 $0 $0
 POIN $0 $0 $0
 POIN DebugBeginningScene DebugEndingScene
@@ -39,120 +39,319 @@ DebugUnitsGood:
 UNIT Marth Lord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, Warp] NoAI
-//Units beyond 0x80 disappear when switching chapters!
-//Here they consistently vanish beyond 0x80. Some IDs go in Arch of Coups but some don't? Appears to be vanilla behaviour.
-//Requires investigation and fixing.
+//Don't forget to clean up Ch1 so Marisa doesn't become Alfred in a cutscene and turn red.
 UNIT
 
-DebugUnitsFE:
-UNIT Marich Sage 0x00 Level(1, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [Blizzard, Wind, Elwind, Tornado] NoAI
-UNIT Rody DukeKnight 0x00 Level(1, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
-UNIT Eliwood Paladin 0x00 Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [Audhulma] NoAI
-UNIT Lilina Mage_F 0x00 Level(10, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [Bolganone, Meteor, Elthunder, Thoron] NoAI
-UNIT Barth General 0x00 Level(1, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
-UNIT Valbo General 0x00 Level(1, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
-UNIT Valencia2 Civilian 0x00 Level(1, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [BlackGem, BlackGem, BlackGem] NoAI
-UNIT Alm HeroAlm 0x00 Level(1, Enemy, 0) [3,8] 0x00 0x00 0x0 0x00 [SilverSword] NoAI
-UNIT Kain Paladin 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [SilverSword] NoAI
-UNIT Ellis Bishop_F 0x00 Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [Latona, Excalibur] NoAI
-UNIT Celica MageFighter 0x00 Level(1, Ally, 0) [3,5] 0x00 0x00 0x0 0x00 [Falchion] NoAI
-UNIT Roy Swordmaster 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+//DebugUnitsFE:
+//UNIT Marich Sage 0x00 Level(1, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [Blizzard, Wind, Elwind, Tornado] NoAI
+//UNIT Rody DukeKnight 0x00 Level(1, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
+//UNIT Eliwood Paladin 0x00 Level(1, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [Audhulma] NoAI
+//UNIT Lilina Mage_F 0x00 Level(10, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [Bolganone, Meteor, Elthunder, Thoron] NoAI
+//UNIT Barth General 0x00 Level(1, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
+//UNIT Valbo General 0x00 Level(1, Ally, 0) [2,9] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
+//UNIT Valencia2 Civilian 0x00 Level(1, Ally, 0) [3,9] 0x00 0x00 0x0 0x00 [BlackGem, BlackGem, BlackGem] NoAI
+//UNIT Alm HeroAlm 0x00 Level(1, Ally, 0) [3,8] 0x00 0x00 0x0 0x00 [SilverSword] NoAI
+//UNIT Kain Paladin 0x00 Level(1, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [SilverSword] NoAI
+//UNIT Ellis Bishop_F 0x00 Level(1, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [Latona, Excalibur] NoAI
+//UNIT Celica MageFighter 0x00 Level(1, Ally, 0) [3,5] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+//UNIT Roy Swordmaster 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+//UNIT
+
+DebugUnitsAkaneia:
+UNIT George Sniper 0x00 Level(5,Ally,0) [1,2] 0x00 0x0 0x0 0x00 [SilverBow] NoAI
+UNIT Malliesia Cleric 0x00 Level(4,Ally,0) [2,2] 0x00 0x0 0x0 0x00 [Heal] NoAI
+UNIT Ricardo Thief 0x00 Level(3,Ally,0) [3,2] 0x00 0x0 0x0 0x00 [IronSword, Lockpick] NoAI
+UNIT Caesar Mercenary 0x00 Level(5,Ally,0) [4,2] 0x00 0x0 0x0 0x00 [SteelSword] NoAI
+UNIT Tomth LanceArmour 0x00 Level(4,Ally,0) [5,2] 0x00 0x0 0x0 0x00 [IronLance, Javelin] NoAI
+UNIT Ryan Archer 0x00 Level(7,Ally,0) [6,2] 0x00 0x0 0x0 0x00 [IronBow] NoAI
+UNIT Saji Fighter 0x00 Level(2,Ally,0) [7,2] 0x00 0x0 0x0 0x00 [IronAxe] NoAI
+UNIT 0x0c AxeKnight 0x00 Level(1,Ally,0) [8,2] 0x00 0x0 0x0 0x00 [IronAxe] NoAI
+UNIT Rody DukeKnight 0x00 Level(1,Ally,0) [9,2] 0x00 0x0 0x0 0x00 [SilverLance] NoAI
+UNIT Kashim Hunter 0x00 Level(7,Ally,0) [10,2] 0x00 0x0 0x0 0x00 [IronBow] NoAI
+UNIT Riff Priest 0x00 Level(4,Ally,0) [11,2] 0x00 0x0 0x0 0x00 [Heal] NoAI
+UNIT Linda Mage_F 0x00 Level(5,Ally,0) [12,2] 0x00 0x0 0x0 0x00 [Aura] NoAI
+UNIT Oguma Mercenary 0x00 Level(8,Ally,0) [13,2] 0x00 0x0 0x0 0x00 [SteelSword] NoAI
+UNIT Barts Pirate 0x00 Level(5,Ally,0) [14,2] 0x00 0x0 0x0 0x00 [DevilAxe] NoAI
 UNIT
 
+DebugUnitsElibe:
+UNIT Eliwood Paladin 0x00 Level(1, Ally, 0) [1,3] 0x00 0x00 0x0 0x00 [Durandal, SilverSword] NoAI
+UNIT Lilina Mage_F 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [Forblaze, Meteor, Elthunder, Thoron] NoAI
+UNIT Miledy DragonKnight_F 0x00 Level(10,Ally,0) [3,3] 0x0 0x0 0x0 0x0 [SteelLance] NoAI
+UNIT Wolt Archer 0x00 Level(7,Ally,0) [4,3] 0x0 0x0 0x0 0x0 [SteelBow] NoAI
+UNIT Sophia Shaman_F 0x00 Level(5,Ally,0) [5,3] 0x0 0x0 0x0 0x0 [Flux] NoAI
+UNIT Astore Thief 0x00 Level(10,Ally,0) [6,3] 0x0 0x0 0x0 0x0 [PoisonSword] NoAI
+UNIT Fir Myrmidon_F 0x00 Level(5,Ally,0) [7,3] 0x0 0x0 0x0 0x0 [Shamshir] NoAI
+UNIT Bartre Warrior 0x00 Level(2,Ally,0) [8,3] 0x0 0x0 0x0 0x0 [SteelAxe] NoAI
+UNIT
+
+DebugUnitsValencia:
+UNIT Valbo General 0x00 Level(1, Ally, 0) [1,4] 0x00 0x00 0x0 0x00 [SilverLance] NoAI
+UNIT Camus Paladin 0x00 Level(3, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [Gradius] NoAI
+UNIT Dyute Myrmidon_F 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Claire FalconKnight 0x00 Level(1, Ally, 0) [4,4] 0x00 0x00 0x0 0x00 [SteelLance] NoAI
+UNIT Alm HeroAlm 0x00 Level(5, Ally, 0) [5,4] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+UNIT Celine MageFighter 0x00 Level(5, Ally, 0) [6,4] 0x00 0x00 0x0 0x00 [Bolganone] NoAI
+UNIT
+
+DebugUnitsJugdral:
+UNIT BaldoDescendant Civilian 0x0 Level(1, Ally, 0) [1,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT BaldoFriend Civilian 0x0 Level(1, Ally, 0) [2,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT NobaDescendant Civilian 0x0 Level(1, Ally, 0) [3,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT GuyYouGetInThracia Civilian 0x0 Level(1, Ally, 0) [4,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT Ryuto Druid 0x0 Level(1, Ally, 0) [5,5] 0x0 0x0 0x0 0x0 [Luna] NoAI
+UNIT BlagiDescendant Civilian 0x0 Level(1, Ally, 0) [6,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT NeirDescendant Civilian 0x0 Level(1, Ally, 0) [7,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT Feena Dancer 0x0 Level(1, Ally, 0) [8,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Navarre Swordmaster 0x0 Level(1, Ally, 0) [9,5] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
+UNIT
+
+DebugUnitsAkaneia2:
+UNIT Kain Ranger 0x0 Level(10,Ally,0) [1,6] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Gordon Sniper 0x0 Level(10,Ally,0) [2,6] 0x0 0x0 0x0 0x0 [SilverBow] NoAI
+UNIT Banutu Mamkute 0x0 Level(10,Ally,0) [3,6] 0x0 0x0 0x0 0x0 [WretchedAir] NoAI
+UNIT Cecil Ranger_F 0x0 Level(10,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Marich Sage 0x0 Level(10,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [Excalibur] NoAI
+UNIT Ellis Bishop_F 0x0 Level(5,Ally,0) [6,6] 0x0 0x0 0x0 0x0 [Fortify] NoAI
+UNIT
+
+DebugUnitsElyos:
+UNIT ElyosianPlaceholder Civilian 0x0 Level(10,Ally,0) [1,7] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Gato Sage 0x0 Level(10,Ally,0) [2,7] 0x0 0x0 0x0 0x0 [Thoron] NoAI
+UNIT Celica MageFighter 0x0 Level(20,Ally,0) [3,7] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Roy StarLord 0x0 Level(20,Ally,0) [4,7] 0x0 0x0 0x0 0x0 [Falchion] NoAI
+UNIT
+
+DebugUnitsBosses:
+UNIT Alear DracoZombie 0x00 Level(1,Enemy,0) [1,8] 0x0 0x0 0x0 0x0 [WretchedAir] GuardTileAI
+UNIT Diamant Hero 0x00 Level(1,Enemy,0) [3,8] 0x0 0x0 0x0 0x0 [SilverSword] GuardTileAI
+UNIT Celine MageFighter 0x00 Level(1,Enemy,0) [5,8] 0x0 0x0 0x0 0x0 [Bolganone] GuardTileAI
+UNIT Ivy KnightMage 0x00 Level(1,Enemy,0) [7,8] 0x0 0x0 0x0 0x0 [Thoron] GuardTileAI
+UNIT Kris Hero 0x00 Level(1,Enemy,0) [9,8] 0x0 0x0 0x0 0x0 [MiracleSword] GuardTileAI
+UNIT Veyle DracoZombie 0x00 Level(1,Enemy,0) [11,8] 0x0 0x0 0x0 0x0 [WretchedAir] GuardTileAI
+UNIT Alfonse Hero 0x00 Level(1,Enemy,0) [13,8] 0x0 0x0 0x0 0x0 [MiracleSword] GuardTileAI
+UNIT
+
+//DebugUnitsMario:
+//UNIT Mario Berserker 0x00 Level(1, Ally, 0) [4,1] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+//UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [4,2] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+//UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [4,3] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
+//UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [4,4] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
+//UNIT Toad Rogue 0x00 Level(1, Ally, 0) [4,5] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
+//UNIT Wario GreatKnight 0x00 Level(1, Ally, 0) [4,6] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary] NoAI
+//UNIT Daisy Sage_F 0x00 Level(1, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [Elfire, Heal] NoAI
+//UNIT Yoshi Paladin 0x00 Level(1, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [SilverLance, Javelin] NoAI
+//UNIT Waluigi GreatKnight 0x00 Level(1, Ally, 0) [4,9] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance] NoAI
+//UNIT DK General 0x00 Level(1,Ally,0) [5,9] 0x00 0x00 0x0 0x00 [SilverLance, HandAxe] NoAI
+//UNIT
+//
+//DebugUnitsPokemon:
+//UNIT Ash Hero 0x00 Level(1, Ally, 0) [6,1] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe] NoAI
+//UNIT Misty Ranger_F 0x00 Level(1, Ally, 0) [6,2] 0x00 0x00 0x0 0x00 [Longbow, Vulnerary] NoAI
+//UNIT Brock Warrior 0x00 Level(1, Ally, 0) [6,3] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow] NoAI
+//UNIT Jessie FalcoKnight 0x00 Level(1, Ally, 0) [6,4] 0x00 0x00 0x0 0x00 [KillerLance, Vulnerary] NoAI
+//UNIT James WyvernLord 0x00 Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [Armourslayer, Vulnerary] NoAI
+//UNIT May Swordmaster_F 0x00 Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI
+//UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [Physic, Divine] NoAI
+//UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [SilverSword, Javelin] NoAI
+//UNIT
+//
+//DebugUnitsZelda:
+//UNIT Link Hero 0x00 Level(1, Ally, 0) [8,1] 0x00 0x00 0x0 0x00 [BraveSword, Halberd] NoAI
+//UNIT Zelda Thief 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI
+//UNIT Sahasrahla Priest 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+//UNIT Marin Dancer 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+//UNIT Saria Mage_F 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+//UNIT
+//
+//DebugUnitsKirby:
+//UNIT Kirby Druid 0x00 Level(1, Ally, 0) [8,3] 0x00 0x00 0x0 0x00 [Fenrir, Heal] NoAI
+//UNIT Dedede Fighter 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+//UNIT MetaKnight Myrmidon 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+//UNIT
+//
+//DebugUnitsStarFox:
+//UNIT Fox Sniper 0x00 Level(1, Ally, 0) [8,4] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI
+//UNIT Falco DragonKnight 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+//UNIT Peppy Soldier 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+//UNIT Slippy Pirate 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+//UNIT
+//
+//DebugUnitsSmash:
+//UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
+//UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [Bolting, Thunder] NoAI
+//UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer] NoAI
+//UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [Sleep, Mend] NoAI
+//UNIT
+//
+//DebugUnitsRPG:
+//UNIT Ness MageKnight 0x00 Level(1, Ally, 0) [10,1] 0x00 0x00 0x0 0x00 [Elfire, Mend] NoAI
+//UNIT Paula Sage_F 0x00 Level(1, Ally, 0) [10,2] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire] NoAI
+//UNIT Jeff Sniper 0x00 Level(1, Ally, 0) [10,3] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI
+//UNIT Poo Swordmaster 0x00 Level(1, Ally, 0) [10,4] 0x00 0x00 0x0 0x00 [KillingEdge, Vulnerary] NoAI
+//UNIT Pokey General 0x00 Level(1, Ally, 0) [10,5] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato] NoAI
+//UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [10,6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+//UNIT Butz WyvernLord 0x00 Level(1, Ally, 0) [10,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
+//UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
+//UNIT
+//
+//DebugUnitsYugioh:
+//UNIT Yugi Shaman 0x00 Level(1, Ally, 0) [12,1] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT Joey Myrmidon 0x00 Level(1, Ally, 0) [12,2] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+//UNIT Tea Dancer 0x00 Level(1, Ally, 0) [12,3] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT Kaiba DragonKnight 0x00 Level(1, Ally, 0) [12,4] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT Jaden Mercenary 0x00 Level(1, Ally, 0) [12,5] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT Alexis Mage_F 0x00 Level(1, Ally, 0) [12,6] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT Chazz Soldier 0x00 Level(1, Ally, 0) [12,7] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT
+//
+//DebugUnitsPikminGear:
+//UNIT Olimar Priest 0x00 Level(1, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [Heal] NoAI
+//UNIT Louie Bael 0x00 Level(1, Ally, 0) [13,2] 0x00 0x00 0x0 0x00 [SharpClaw] NoAI
+//UNIT President Pirate 0x00 Level(1, Ally, 0) [13,3] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
+//UNIT Snake Thief 0x00 Level(1, Ally, 0) [13,4] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+//UNIT Raiden Myrmidon 0x00 Level(1, Ally, 0) [13,5] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+//UNIT Armstrong Brigand 0x00 Level(1, Ally, 0) [13,6] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
+//UNIT
+//
+//DebugUnitsTouhou:
+//UNIT Reimu Soldier 0x00 Level(1, Ally, 0) [14,1] 0x00 0x00 0x0 0x00 [IronLance] NoAI
+//UNIT Marisa Mage_F 0x00 Level(1, Ally, 0) [14,2] 0x00 0x00 0x0 0x00 [Fire] NoAI
+//UNIT Mima Shaman_F 0x00 Level(1, Ally, 0) [14,3] 0x00 0x00 0x0 0x00 [Flux] NoAI
+//UNIT Yuuka Archer_F 0x00 Level(1, Ally, 0) [14,4] 0x00 0x00 0x0 0x00 [IronBow] NoAI
+//UNIT Shinki PegasusKnight 0x00 Level(1, Ally, 0) [14,5] 0x00 0x00 0x0 0x00 [IronLance] NoAI
+//UNIT Alice Mage_F 0x00 Level(1, Ally, 0) [14,6] 0x00 0x00 0x0 0x00 [Fire] NoAI
+//UNIT
+
+//Level 10 to test promotions, but otherwise load with level 1 stats
 DebugUnitsMario:
-UNIT Mario Berserker 0x00 Level(1, Ally, 0) [4,1] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
-UNIT Luigi Berserker 0x00 Level(1, Ally, 0) [4,2] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
-UNIT Peach Bishop_F 0x00 Level(1, Ally, 0) [4,3] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
-UNIT Bowser WyvernLord 0x00 Level(1, Ally, 0) [4,4] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
-UNIT Toad Rogue 0x00 Level(1, Ally, 0) [4,5] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
-UNIT Wario GreatKnight 0x00 Level(1, Ally, 0) [4,6] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary] NoAI
-UNIT Daisy Sage_F 0x00 Level(1, Ally, 0) [4,7] 0x00 0x00 0x0 0x00 [Elfire, Heal] NoAI
-UNIT Yoshi Paladin 0x00 Level(1, Ally, 0) [4,8] 0x00 0x00 0x0 0x00 [SilverLance, Javelin] NoAI
-UNIT Waluigi GreatKnight 0x00 Level(1, Ally, 0) [4,9] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance] NoAI
-UNIT DK General 0x00 Level(1,Ally,0) [5,9] 0x00 0x00 0x0 0x00 [SilverLance, HandAxe] NoAI
+UNIT Mario Brigand 0x00 Level(10, Ally, 0) [1,1] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT Luigi Pirate 0x00 Level(10, Ally, 0) [1,2] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT Peach Cleric 0x00 Level(10, Ally, 0) [1,3] 0x00 0x00 0x0 0x00 [Mend, Lightning] NoAI
+UNIT Bowser DragonKnight 0x00 Level(10, Ally, 0) [1,4] 0x00 0x00 0x0 0x00 [SilverLance, Vulnerary] NoAI
+UNIT Toad Thief 0x00 Level(10, Ally, 0) [1,5] 0x00 0x00 0x0 0x00 [SteelSword, Lockpick] NoAI
+UNIT Wario AxeKnight 0x00 Level(10, Ally, 0) [1,6] 0x00 0x00 0x0 0x00 [SilverAxe, Vulnerary] NoAI
+UNIT Daisy Mage_F 0x00 Level(10, Ally, 0) [1,7] 0x00 0x00 0x0 0x00 [Elfire, Heal] NoAI
+UNIT Yoshi LanceKnight 0x00 Level(10, Ally, 0) [1,8] 0x00 0x00 0x0 0x00 [SilverLance, Javelin] NoAI
+UNIT Waluigi FreeKnight 0x00 Level(10, Ally, 0) [1,9] 0x00 0x00 0x0 0x00 [SilverSword, SteelLance] NoAI
+UNIT DK LanceArmour 0x00 Level(10,Ally,0) [0,9] 0x00 0x00 0x0 0x00 [SilverLance, HandAxe] NoAI
 UNIT
 
 DebugUnitsPokemon:
-UNIT Ash Hero 0x00 Level(1, Ally, 0) [6,1] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe] NoAI
-UNIT Misty Ranger_F 0x00 Level(1, Ally, 0) [6,2] 0x00 0x00 0x0 0x00 [Longbow, Vulnerary] NoAI
-UNIT Brock Warrior 0x00 Level(1, Ally, 0) [6,3] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow] NoAI
-UNIT Jessie FalcoKnight 0x00 Level(1, Ally, 0) [6,4] 0x00 0x00 0x0 0x00 [KillerLance, Vulnerary] NoAI
-UNIT James WyvernLord 0x00 Level(1, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [Armourslayer, Vulnerary] NoAI
-UNIT May Swordmaster_F 0x00 Level(1, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI
-UNIT Dawn Valkyrie 0x00 Level(1, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [Physic, Divine] NoAI
-UNIT Serena Paladin_F 0x00 Level(1, Ally, 0) [6,8] 0x00 0x00 0x0 0x00 [SilverSword, Javelin] NoAI
+UNIT Ash Mercenary 0x00 Level(10, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [SilverSword, IronAxe] NoAI
+UNIT Misty Archer_F 0x00 Level(10, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [Longbow, Vulnerary] NoAI
+UNIT Brock Fighter 0x00 Level(10, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [KillerAxe, SteelBow] NoAI
+UNIT Jessie PegasusKnight 0x00 Level(10, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [KillerLance, Vulnerary] NoAI
+UNIT James DragonKnight 0x00 Level(10, Ally, 0) [2,5] 0x00 0x00 0x0 0x00 [Armourslayer, Vulnerary] NoAI
+UNIT May Myrmidon_F 0x00 Level(10, Ally, 0) [2,6] 0x00 0x00 0x0 0x00 [Shamshir, Vulnerary] NoAI
+UNIT Dawn Troubadour 0x00 Level(10, Ally, 0) [2,7] 0x00 0x00 0x0 0x00 [Physic, Divine] NoAI
+UNIT Serena Cavalier_F 0x00 Level(10, Ally, 0) [2,8] 0x00 0x00 0x0 0x00 [SilverSword, Javelin] NoAI
 UNIT
 
 DebugUnitsZelda:
-UNIT Link Hero 0x00 Level(1, Ally, 0) [8,1] 0x00 0x00 0x0 0x00 [BraveSword, Halberd] NoAI
-UNIT Zelda Thief 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI
-UNIT Sahasrahla Priest 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
-UNIT Marin Dancer 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
-UNIT Saria Mage_F 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+UNIT Link Mercenary 0x00 Level(10, Ally, 0) [3,1] 0x00 0x00 0x0 0x00 [BraveSword, Halberd] NoAI
+UNIT Zelda Thief 0x00 Level(10, Ally, 0) [3,2] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] NoAI
+UNIT Sahasrahla Priest 0x00 Level(10, Ally, 0) [3,3] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT Marin Dancer 0x00 Level(10, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Saria Mage_F 0x00 Level(10, Ally, 0) [3,5] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+UNIT Ganon Soldier 0x00 Level(10, Ally, 0) [3,6] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT Salesman Shaman 0x00 Level(10, Ally, 0) [3,7] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
 UNIT
 
 DebugUnitsKirby:
-UNIT Kirby Druid 0x00 Level(1, Ally, 0) [8,3] 0x00 0x00 0x0 0x00 [Fenrir, Heal] NoAI
-UNIT Dedede Fighter 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
-UNIT MetaKnight Myrmidon 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Kirby Shaman 0x00 Level(10, Ally, 0) [4,1] 0x00 0x00 0x0 0x00 [Fenrir, Heal] NoAI
+UNIT Dedede Fighter 0x00 Level(10, Ally, 0) [4,2] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT MetaKnight Myrmidon 0x00 Level(10, Ally, 0) [4,3] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
 UNIT
 
 DebugUnitsStarFox:
-UNIT Fox Sniper 0x00 Level(1, Ally, 0) [8,4] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI
-UNIT Falco DragonKnight 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
-UNIT Peppy Soldier 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
-UNIT Slippy Pirate 0x00 Level(1, Ally, 0) [0,0] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT Fox Hunter 0x00 Level(10, Ally, 0) [5,1] 0x00 0x00 0x0 0x00 [SilverBow, Vulnerary] NoAI
+UNIT Falco DragonKnight 0x00 Level(10, Ally, 0) [5,2] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Peppy Soldier 0x00 Level(10, Ally, 0) [5,3] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Slippy Pirate 0x00 Level(10, Ally, 0) [5,4] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT Wolf DragonKnight 0x00 Level(10, Ally, 0) [5,5] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
 UNIT
 
 DebugUnitsSmash:
-UNIT Samus Sniper_F 0x00 Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
-UNIT Pikachu Sage 0x00 Level(1, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [Bolting, Thunder] NoAI
-UNIT Falcon Paladin 0x00 Level(1, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer] NoAI
-UNIT Jigglypuff Bishop_F 0x00 Level(1, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [Sleep, Mend] NoAI
+UNIT Samus Archer_F 0x00 Level(10, Ally, 0) [6,1] 0x00 0x00 0x0 0x00 [KillerBow, Vulnerary] NoAI
+UNIT Pikachu Mage 0x00 Level(10, Ally, 0) [6,2] 0x00 0x00 0x0 0x00 [Bolting, Thunder] NoAI
+UNIT Falcon LanceKnight 0x00 Level(10, Ally, 0) [6,3] 0x00 0x00 0x0 0x00 [Horseslayer, Wyrmslayer] NoAI
+UNIT Jigglypuff Cleric 0x00 Level(10, Ally, 0) [6,4] 0x00 0x00 0x0 0x00 [Sleep, Mend] NoAI
+UNIT Mewtwo Shaman 0x00 Level(10, Ally, 0) [6,5] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT MrGAndW Fighter 0x00 Level(10, Ally, 0) [6,6] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Popo Brigand 0x00 Level(10, Ally, 0) [6,7] 0x00 0x00 0x0 0x00 [IronSword] NoAI
 UNIT
 
-DebugUnitsRPG:
-UNIT Ness MageKnight 0x00 Level(1, Ally, 0) [10,1] 0x00 0x00 0x0 0x00 [Elfire, Mend] NoAI
-UNIT Paula Sage_F 0x00 Level(1, Ally, 0) [10,2] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire] NoAI
-UNIT Jeff Sniper 0x00 Level(1, Ally, 0) [10,3] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI
-UNIT Poo Swordmaster 0x00 Level(1, Ally, 0) [10,4] 0x00 0x00 0x0 0x00 [KillingEdge, Vulnerary] NoAI
-UNIT Pokey General 0x00 Level(1, Ally, 0) [10,5] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato] NoAI
-UNIT Cecil Paladin 0x00 Level(1, Ally, 0) [10,6] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
-UNIT Butz WyvernLord 0x00 Level(1, Ally, 0) [10,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
-UNIT Terra MageKnight_F 0x00 Level(1, Ally, 0) [10,8] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
+DebugUnitsEarthbound:
+UNIT Ness Fighter 0x00 Level(10, Ally, 0) [7,1] 0x00 0x00 0x0 0x00 [Elfire, Mend] NoAI
+UNIT Paula Mage_F 0x00 Level(10, Ally, 0) [7,2] 0x00 0x00 0x0 0x00 [Fimbulvetr, Elfire] NoAI
+UNIT Jeff Archer 0x00 Level(10, Ally, 0) [7,3] 0x00 0x00 0x0 0x00 [KillerBow, BraveBow] NoAI
+UNIT Poo Myrmidon 0x00 Level(10, Ally, 0) [7,4] 0x00 0x00 0x0 0x00 [KillingEdge, Vulnerary] NoAI
+UNIT Pokey SwordArmour 0x00 Level(10, Ally, 0) [7,5] 0x00 0x00 0x0 0x00 [Armourslayer, Zanbato] NoAI
+UNIT
+
+DebugUnitsFinalFantasy:
+UNIT CecilFF4 FreeKnight 0x00 Level(10, Ally, 0) [8,1] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+UNIT Rosa Cleric 0x00 Level(10, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+UNIT KainFF4 DragonKnight 0x00 Level(10, Ally, 0) [8,3] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+UNIT Rydia Mage_F 0x00 Level(10, Ally, 0) [8,4] 0x00 0x00 0x0 0x00 [LightBrand, Vulnerary] NoAI
+UNIT Butz AxeKnight 0x00 Level(10, Ally, 0) [8,5] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
+UNIT Lenna Cleric 0x00 Level(10, Ally, 0) [8,6] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
+UNIT Galuf Soldier 0x00 Level(10, Ally, 0) [8,7] 0x00 0x00 0x0 0x00 [SilverLance, SteelSword] NoAI
+UNIT Terra Mage_F 0x00 Level(10, Ally, 0) [8,8] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
+UNIT Celes Mage_F 0x00 Level(10, Ally, 0) [8,9] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
+UNIT Locke Thief 0x00 Level(10, Ally, 0) [7,9] 0x00 0x00 0x0 0x00 [Fimbulvetr, Mend] NoAI
 UNIT
 
 DebugUnitsYugioh:
-UNIT Yugi Shaman 0x00 Level(1, Ally, 0) [12,1] 0x00 0x00 0x0 0x00 [Flux] NoAI
-UNIT Joey Myrmidon 0x00 Level(1, Ally, 0) [12,2] 0x00 0x00 0x0 0x00 [IronSword] NoAI
-UNIT Tea Dancer 0x00 Level(1, Ally, 0) [12,3] 0x00 0x00 0x0 0x00 [Flux] NoAI
-UNIT Kaiba DragonKnight 0x00 Level(1, Ally, 0) [12,4] 0x00 0x00 0x0 0x00 [Flux] NoAI
-UNIT Jaden Mercenary 0x00 Level(1, Ally, 0) [12,5] 0x00 0x00 0x0 0x00 [Flux] NoAI
-UNIT Alexis Mage_F 0x00 Level(1, Ally, 0) [12,6] 0x00 0x00 0x0 0x00 [Flux] NoAI
-UNIT Chazz Soldier 0x00 Level(1, Ally, 0) [12,7] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Yugi Shaman 0x00 Level(10, Ally, 0) [9,1] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Joey Mercenary 0x00 Level(10, Ally, 0) [9,2] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Tea Dancer 0x00 Level(10, Ally, 0) [9,3] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Kaiba DragonKnight 0x00 Level(10, Ally, 0) [9,4] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Jaden Fighter 0x00 Level(10, Ally, 0) [9,5] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Alexis PegasusKnight 0x00 Level(10, Ally, 0) [9,6] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Chazz LanceArmour 0x00 Level(10, Ally, 0) [9,7] 0x00 0x00 0x0 0x00 [Flux] NoAI
 UNIT
 
-DebugUnitsPikminGear:
-UNIT Olimar Priest 0x00 Level(1, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [Heal] NoAI
-UNIT Louie Bael 0x00 Level(1, Ally, 0) [13,2] 0x00 0x00 0x0 0x00 [SharpClaw] NoAI
-UNIT President Pirate 0x00 Level(1, Ally, 0) [13,3] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
-UNIT Snake Thief 0x00 Level(1, Ally, 0) [13,4] 0x00 0x00 0x0 0x00 [IronSword] NoAI
-UNIT Raiden Myrmidon 0x00 Level(1, Ally, 0) [13,5] 0x00 0x00 0x0 0x00 [IronSword] NoAI
-UNIT Armstrong Brigand 0x00 Level(1, Ally, 0) [13,6] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
+DebugUnitsPikmin:
+UNIT Olimar Priest 0x00 Level(10, Ally, 0) [10,1] 0x00 0x00 0x0 0x00 [Heal] NoAI
+UNIT Louie Bael 0x00 Level(10, Ally, 0) [10,2] 0x00 0x00 0x0 0x00 [SharpClaw] NoAI
+UNIT President Pirate 0x00 Level(10, Ally, 0) [10,3] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
+UNIT
+
+DebugUnitsMetalGear:
+UNIT Snake Thief 0x00 Level(10, Ally, 0) [11,1] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Raiden Myrmidon 0x00 Level(10, Ally, 0) [11,2] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Armstrong Brigand 0x00 Level(10, Ally, 0) [11,3] 0x00 0x00 0x0 0x00 [IronAxe] NoAI
 UNIT
 
 DebugUnitsTouhou:
-UNIT Reimu Soldier 0x00 Level(1, Ally, 0) [14,1] 0x00 0x00 0x0 0x00 [IronLance] NoAI
-UNIT Marisa Mage_F 0x00 Level(1, Ally, 0) [14,2] 0x00 0x00 0x0 0x00 [Fire] NoAI
-UNIT Mima Shaman_F 0x00 Level(1, Ally, 0) [14,3] 0x00 0x00 0x0 0x00 [Flux] NoAI
-UNIT Yuuka Archer_F 0x00 Level(1, Ally, 0) [14,4] 0x00 0x00 0x0 0x00 [IronBow] NoAI
-UNIT Shinki PegasusKnight 0x00 Level(1, Ally, 0) [14,5] 0x00 0x00 0x0 0x00 [IronLance] NoAI
-UNIT Alice Mage_F 0x00 Level(1, Ally, 0) [14,6] 0x00 0x00 0x0 0x00 [Fire] NoAI
+UNIT Reimu Soldier 0x00 Level(10, Ally, 0) [12,1] 0x00 0x00 0x0 0x00 [IronLance] NoAI
+UNIT Marisa Mage_F 0x00 Level(10, Ally, 0) [12,2] 0x00 0x00 0x0 0x00 [Fire] NoAI
+UNIT Mima Shaman_F 0x00 Level(10, Ally, 0) [12,3] 0x00 0x00 0x0 0x00 [Flux] NoAI
+UNIT Yuuka Archer_F 0x00 Level(10, Ally, 0) [12,4] 0x00 0x00 0x0 0x00 [IronBow] NoAI
+UNIT Shinki PegasusKnight 0x00 Level(10, Ally, 0) [12,5] 0x00 0x00 0x0 0x00 [IronLance] NoAI
+UNIT Alice Mage_F 0x00 Level(10, Ally, 0) [12,6] 0x00 0x00 0x0 0x00 [Fire] NoAI
+UNIT
+
+DebugUnitsSMT:
+UNIT Flynn Monk 0x00 Level(10, Ally, 0) [13,1] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Isabeau Mage_F 0x00 Level(10, Ally, 0) [13,2] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Jonathan Myrmidon 0x00 Level(10, Ally, 0) [13,3] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Walter Brigand 0x00 Level(10, Ally, 0) [13,4] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT
+
+DebugUnitsSonic:
+UNIT Sonic Myrmidon 0x00 Level(10, Ally, 0) [14,1] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Tails DragonKnight 0x00 Level(10, Ally, 0) [14,2] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Knuckles Fighter 0x00 Level(10, Ally, 0) [14,3] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Robotnik BowArmour 0x00 Level(10, Ally, 0) [14,4] 0x00 0x00 0x0 0x00 [IronSword] NoAI
+UNIT Shadow Myrmidon 0x00 Level(10, Ally, 0) [14,5] 0x00 0x00 0x0 0x00 [IronSword] NoAI
 UNIT
 
 DebugBad:
 //UNIT Kris Hero 0x00 Level(20,Enemy,1) [14,9] 0x00 0x00 0x0 0x00 [MiracleSword] GuardTileAI
-UNIT Pokey ArmourKnight 0x00 Level(1,Enemy,1) [0,1] 0x00 0x00 0x0 0x00 [IronLance] GuardTileAI
+UNIT Boucheron Fighter 0x00 Level(1,Enemy,0) [0,1] 0x00 0x00 0x0 0x00 [IronAxe] GuardTileAI
 UNIT
 
 //ORG $8D1650
@@ -170,12 +369,25 @@ LOCA 0x0 PortraitViewer [3,1] 0x10
 LOCA 0x0 BackgroundViewer [5,1] 0x10
 Armory(DebugArmoury,7,1)
 Vendor(DebugVendor,11,1)
-House(0x0,DismountTest,2,0)
-House(0x0,LoadSuperMarioUnits,4,0)
-House(0x0,LoadPocketMonstersUnits,6,0)
-House(0x0,LoadLegendOfZeldaUnits,8,0)
-House(0x0,LoadOtherRPGUnits,10,0)
-House(0x0,FEE3TrailerRecording,12,0)
+House(0x0,LoadFireEmblemUnits,0,0)
+House(0x0,LoadSuperMarioUnits,1,0)
+House(0x0,LoadPocketMonstersUnits,2,0)
+House(0x0,LoadLegendOfZeldaUnits,3,0)
+House(0x0,LoadKirbyOfTheStarsUnits,4,0)
+House(0x0,LoadStarFoxUnits,5,0)
+House(0x0,LoadSuperSmashBrothersUnits,6,0)
+House(0x0,LoadEarthboundUnits,7,0)
+House(0x0,LoadFinalFantasyUnits,8,0)
+House(0x0,LoadYugiohUnits,9,0)
+House(0x0,LoadPikminUnits,10,0)
+House(0x0,LoadMetalGearUnits,11,0)
+House(0x0,LoadTouhouProjectUnits,12,0)
+House(0x0,LoadShinMegamiTenseiUnits,13,0)
+House(0x0,LoadSonicTheHedgehogUnits,14,0)
+House(0x0,LoadMajorBosses,0,1)
+Seize(0x3,Act1Warp,1,8)
+Seize(0x3,Act2Warp,3,8)
+Seize(0x3,Act3Warp,5,8)
 END_MAIN
 
 DebugMiscBasedEvents:
@@ -212,12 +424,14 @@ ALIGN 4
 //ORG $9FF4B8
 DebugBeginningScene:
 LOAD1 0x1 DebugUnitsGood
-LOAD1 0x01 DebugUnitsFE
+//LOAD1 0x01 DebugUnitsFE
 ENUN
 LOAD1 0x1 DebugBad
 ENUN
 STAL 10
 //Text(DebugWelcome)
+SVAL s3 60000
+GIVEMONEY Marth //I'd prefer this to be silent but it's better than selling a blue gem turn 1
 EVBIT_T 0x7
 ENDA
 
@@ -603,7 +817,12 @@ SHLI KnightCrest HeroCrest OrionsBolt ElysianWhip GuidingRing
 ALIGN 4
 
 LoadFireEmblemUnits:
-LOAD1 0x1 DebugUnitsFE
+LOAD1 0x1 DebugUnitsAkaneia
+LOAD1 0x1 DebugUnitsElibe
+LOAD1 0x1 DebugUnitsValencia
+LOAD1 0x1 DebugUnitsJugdral
+LOAD1 0x1 DebugUnitsAkaneia2
+LOAD1 0x1 DebugUnitsElyos
 ENUN
 ENDA
 
@@ -622,7 +841,7 @@ LOAD1 0x1 DebugUnitsZelda
 ENUN
 ENDA
 
-LoadKirbyUnits:
+LoadKirbyOfTheStarsUnits:
 LOAD1 0x1 DebugUnitsKirby
 ENUN
 ENDA
@@ -632,21 +851,75 @@ LOAD1 0x1 DebugUnitsStarFox
 ENUN
 ENDA
 
-LoadOtherRPGUnits:
-//temporary load for misc. groups
-LOAD1 0x1 DebugUnitsRPG
-//LOAD1 0x1 DebugUnitsSmash
-//LOAD1 0x1 DebugUnitsKirby
-//LOAD1 0x1 DebugUnitsStarFox
+LoadSuperSmashBrothersUnits:
+LOAD1 0x1 DebugUnitsSmash
+ENUN
+ENDA
+
+LoadYugiohUnits:
 LOAD1 0x1 DebugUnitsYugioh
-LOAD1 0x1 DebugUnitsPikminGear
+ENUN
+ENDA
+
+LoadPikminUnits:
+LOAD1 0x1 DebugUnitsPikmin
+ENUN
+ENDA
+
+LoadTouhouProjectUnits:
 LOAD1 0x1 DebugUnitsTouhou
+ENUN
+ENDA
+
+LoadFinalFantasyUnits:
+LOAD1 0x1 DebugUnitsFinalFantasy
+ENUN
+ENDA
+
+LoadMetalGearUnits:
+LOAD1 0x1 DebugUnitsMetalGear
+ENUN
+ENDA
+
+LoadShinMegamiTenseiUnits:
+LOAD1 0x1 DebugUnitsSMT
+ENUN
+ENDA
+
+LoadEarthboundUnits:
+LOAD1 0x1 DebugUnitsEarthbound
+ENUN
+ENDA
+
+LoadSonicTheHedgehogUnits:
+LOAD1 0x1 DebugUnitsSonic
+ENUN
+ENDA
+
+LoadMajorBosses:
+LOAD1 0x1 DebugUnitsBosses
 ENUN
 ENDA
 
 DismountTest:
 CALL DismountAll
 ENDA
+
+Act1Warp:
+MNC2 0x00
+EVBIT_T 0x7
+ENDA
+
+Act2Warp:
+MNC2 7
+EVBIT_T 0x7
+ENDA
+
+Act3Warp:
+MNC2 13
+EVBIT_T 0x7
+ENDA
+
 
 FEE3TrailerRecording:
 /*CALL LoadMario

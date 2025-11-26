@@ -106,6 +106,7 @@
 //Elyos and Askr
 #define ElyosianPlaceholder 0x2f
 #define TheGato 0x30
+#define Gato TheGato
 #define Celica 0x31
 #define Roy 0x32
 
