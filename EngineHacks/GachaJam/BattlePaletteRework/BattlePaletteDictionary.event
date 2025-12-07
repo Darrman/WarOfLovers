@@ -1,0 +1,97 @@
+//#define PaletteIdentifier(index,letter1,letter2,letter3,pointer) "BYTE letter1 letter2 letter3 0;  WORD 0 0; POIN pointer "
+#define PaletteIdentifier(index,letter1,letter2,letter3,letter4,letter5,letter6,letter7,letter8,letter9,letter10,letter11,pointer) "BYTE letter1 letter2 letter3 letter4 letter5 letter6 letter7 letter8 letter9 letter10 letter11 0; POIN pointer"
+
+//This file assumes you have installed palette data in another file. It is just a dictionary linking a palette index to a pointer where the actual color information is installed.
+
+//The letters are optional identifiers, you can leave them blank if you don't care.
+
+//If you have less than 0xFF entries, uncomment the PUSH and POP.
+
+/*
+PUSH
+ORG $EF8008
+*/
+
+//PaletteIdentifier($00,$72,$75,$6b,LukasSoldierPalette)
+//PaletteIdentifier($01,$72,$75,$6b,LukasArmorPalette)
+//PaletteIdentifier($02,$72,$75,$6b,LukasBaronPalette)
+PaletteIdentifier($01,$53,$68,$65,$65,$64,$61,$20,$50,$65,$67,$20,Sheeda_Pegasus)
+PaletteIdentifier($02,$53,$68,$65,$65,$64,$61,$46,$61,$6C,$63,$6F,Sheeda_Falcon)
+PaletteIdentifier($03,$53,$68,$65,$65,$64,$61,$20,$44,$69,$73,$20,Sheeda_Dismounted)
+PaletteIdentifier($04,$53,$68,$65,$65,$64,$61,$20,$44,$69,$73,$32,Sheeda_Dismounted_T2)
+PaletteIdentifier($05,$4D,$61,$72,$69,$6F,$42,$61,$6E,$64,$69,$74,Mario_Brigand)
+PaletteIdentifier($06,$4D,$61,$72,$69,$6F,$5A,$65,$72,$6B,$65,$72,Mario_Berserker)
+PaletteIdentifier($07,$4C,$75,$69,$67,$69,$50,$69,$72,$61,$74,$65,Luigi_Pirate)
+PaletteIdentifier($08,$4C,$75,$69,$67,$69,$5A,$65,$72,$6B,$65,$72,Luigi_Berserker)
+PaletteIdentifier($09,$50,$65,$61,$63,$68,$43,$6C,$65,$72,$69,$63,Peach_Cleric)
+PaletteIdentifier($0a,$50,$65,$61,$63,$68,$42,$69,$73,$68,$6F,$70,Peach_Bishop)
+PaletteIdentifier($0b,$42,$6F,$77,$73,$65,$72,$44,$72,$67,$6E,$4B,Bowser_Dragon_K)
+PaletteIdentifier($0c,$42,$6F,$77,$73,$65,$72,$44,$72,$67,$6E,$4D,Bowser_Dragon_M)
+PaletteIdentifier($0d,$42,$6F,$77,$73,$65,$72,$20,$44,$69,$73,$20,Bowser_Dismounted)
+PaletteIdentifier($0e,$42,$6F,$77,$73,$65,$72,$20,$44,$69,$73,$32,Bowser_Dismounted_2)
+PaletteIdentifier($0f,$44,$4B,$6F,$6E,$67,$4C,$6E,$41,$72,$6D,$72,DK_Lance_A)
+PaletteIdentifier($10,$44,$4B,$6F,$6E,$67,$47,$65,$6E,$72,$61,$6C,DK_General)
+PaletteIdentifier($11,$54,$6F,$61,$64,$20,$54,$68,$69,$65,$66,$20,Toad_Thief)
+PaletteIdentifier($12,$54,$6F,$61,$64,$20,$52,$6F,$67,$75,$65,$20,Toad_Rogue)
+PaletteIdentifier($13,$57,$61,$72,$69,$6F,$20,$41,$78,$65,$4B,$6E,Wario_Axe_K)
+PaletteIdentifier($14,$57,$61,$72,$69,$6F,$47,$72,$65,$61,$74,$4B,Wario_Great_K)
+PaletteIdentifier($15,$57,$61,$72,$69,$6F,$20,$44,$69,$73,$20,$20,Wario_Dismounted)
+PaletteIdentifier($16,$57,$61,$72,$69,$6F,$20,$44,$69,$73,$32,$20,Wario_Dismounted_2)
+PaletteIdentifier($17,$44,$61,$69,$73,$79,$20,$4D,$61,$67,$65,$20,Daisy_Mage)
+PaletteIdentifier($18,$44,$61,$69,$73,$79,$20,$53,$61,$67,$65,$20,Daisy_Sage)
+PaletteIdentifier($19,$59,$6F,$73,$68,$69,$4C,$61,$6E,$63,$65,$4B,Yoshi_Lance_K)
+PaletteIdentifier($1a,$59,$6F,$73,$68,$69,$20,$44,$75,$6B,$65,$4B,Yoshi_Duke_K)
+PaletteIdentifier($1b,$59,$6F,$73,$68,$69,$20,$44,$69,$73,$20,$20,Yoshi_Dismounted)
+PaletteIdentifier($1c,$59,$6F,$73,$68,$69,$20,$44,$69,$73,$32,$20,Yoshi_Dismounted_2)
+PaletteIdentifier($1d,$57,$61,$6C,$75,$67,$69,$46,$72,$65,$65,$4B,Waluigi_Free_K)
+PaletteIdentifier($1e,$57,$61,$6C,$75,$67,$69,$52,$61,$6E,$67,$72,Waluigi_Ranger)
+PaletteIdentifier($1f,$57,$61,$6C,$75,$69,$67,$69,$20,$44,$69,$73,Waluigi_Dismounted)
+PaletteIdentifier($20,$57,$61,$6C,$75,$69,$67,$69,$44,$69,$73,$32,Waluigi_Dismounted_2)
+PaletteIdentifier($21,$4C,$69,$6C,$69,$6E,$61,$20,$4D,$61,$67,$65,Lilina_Mage)
+PaletteIdentifier($22,$4C,$69,$6C,$69,$6E,$61,$20,$53,$61,$67,$65,Lilina_Sage)
+PaletteIdentifier($23,$45,$6C,$69,$77,$6F,$6F,$64,$50,$61,$6C,$61,Eliwood_Paladin)
+PaletteIdentifier($24,$45,$6C,$69,$77,$6F,$6F,$64,$20,$44,$69,$73,Eliwood_Dismounted)
+PaletteIdentifier($25,$4D,$69,$6C,$65,$64,$79,$44,$72,$67,$6E,$4B,Miledy_Dragon_K)
+PaletteIdentifier($26,$4D,$69,$6C,$65,$64,$79,$44,$72,$67,$6E,$4D,Miledy_Dragon_M)
+PaletteIdentifier($27,$4D,$69,$6C,$65,$64,$79,$20,$44,$69,$73,$20,Miledy_Dismounted)
+PaletteIdentifier($28,$4D,$69,$6C,$65,$64,$79,$20,$44,$69,$73,$32,Miledy_Dismounted_2)
+PaletteIdentifier($29,$57,$6F,$6C,$74,$20,$41,$72,$63,$68,$65,$72,Wolt_Archer)
+PaletteIdentifier($2a,$57,$6F,$6C,$74,$20,$53,$6E,$69,$70,$65,$72,Wolt_Sniper)
+PaletteIdentifier($2b,$53,$6F,$70,$68,$69,$61,$53,$68,$61,$6D,$6E,Sophia_Shaman)
+PaletteIdentifier($2c,$53,$6F,$70,$68,$69,$61,$44,$72,$75,$69,$64,Sophia_Druid)
+PaletteIdentifier($2d,$41,$73,$74,$6F,$72,$65,$54,$68,$69,$65,$66,Astore_Thief)
+PaletteIdentifier($2e,$41,$73,$74,$6F,$72,$65,$52,$6F,$67,$75,$65,Astore_Rogue)
+PaletteIdentifier($2f,$46,$69,$72,$4D,$79,$72,$6D,$69,$64,$6F,$6E,Fir_Myrmidon)
+PaletteIdentifier($30,$46,$69,$72,$53,$77,$64,$6D,$61,$73,$74,$72,Fir_Swordmaster)
+PaletteIdentifier($31,$42,$61,$72,$74,$72,$65,$57,$72,$69,$6F,$72,Bartre_Warrior)
+PaletteIdentifier($32,$4D,$61,$72,$69,$63,$68,$20,$53,$61,$67,$65,Marich_Sage)
+PaletteIdentifier($33,$47,$65,$6F,$72,$67,$65,$53,$6E,$69,$70,$72,George_Sniper)
+PaletteIdentifier($34,$4D,$61,$6C,$6C,$65,$73,$43,$6C,$65,$72,$63,Malliesia_Cleric)
+PaletteIdentifier($35,$4D,$61,$6C,$6C,$65,$73,$42,$69,$73,$68,$70,Malliesia_Bishop)
+PaletteIdentifier($36,$52,$69,$63,$61,$72,$64,$54,$68,$69,$65,$66,Ricardo_Thief)
+PaletteIdentifier($37,$52,$69,$63,$61,$72,$64,$52,$6F,$67,$75,$65,Ricardo_Rogue)
+PaletteIdentifier($38,$43,$61,$65,$73,$61,$72,$20,$4D,$65,$72,$63,Caesar_Merc)
+PaletteIdentifier($39,$43,$61,$65,$73,$61,$72,$20,$48,$65,$72,$6F,Caesar_Hero)
+PaletteIdentifier($3a,$54,$6F,$6D,$74,$68,$41,$72,$6D,$6F,$75,$72,Tomth_Armour)
+PaletteIdentifier($3b,$54,$6F,$6D,$74,$68,$47,$65,$6E,$72,$61,$6C,Tomth_General)
+PaletteIdentifier($3c,$52,$79,$61,$6E,$20,$41,$72,$63,$68,$65,$72,Ryan_Archer)
+PaletteIdentifier($3d,$52,$79,$61,$6E,$20,$53,$6E,$69,$70,$65,$72,Ryan_Sniper)
+PaletteIdentifier($3e,$53,$61,$6A,$69,$46,$69,$67,$68,$74,$65,$72,Saji_Fighter)
+PaletteIdentifier($3f,$53,$61,$6A,$69,$57,$61,$72,$72,$69,$6F,$72,Saji_Warrior)
+PaletteIdentifier($40,$52,$6F,$64,$79,$20,$44,$75,$6B,$65,$20,$4B,Rody_Duke_K)
+PaletteIdentifier($41,$52,$6F,$64,$79,$20,$44,$69,$73,$6D,$6E,$74,Rody_Dismounted)
+//Kashim T1
+//Kashim T2
+PaletteIdentifier($44,$52,$69,$66,$66,$20,$50,$72,$69,$65,$73,$74,Riff_Priest)
+PaletteIdentifier($45,$52,$69,$66,$66,$20,$42,$69,$73,$68,$6F,$70,Riff_Bishop)
+PaletteIdentifier($46,$4C,$69,$6E,$64,$61,$20,$4D,$61,$67,$65,$20,Linda_Mage)
+PaletteIdentifier($47,$4C,$69,$6E,$64,$61,$20,$53,$61,$67,$65,$20,Linda_Sage)
+PaletteIdentifier($48,$4F,$67,$75,$6D,$61,$20,$4D,$65,$72,$63,$20,Oguma_Merc)
+PaletteIdentifier($49,$4F,$67,$75,$6D,$61,$20,$48,$65,$72,$6F,$20,Oguma_Hero)
+PaletteIdentifier($4A,$42,$61,$72,$74,$73,$50,$69,$72,$61,$74,$65,Barts_Fighter)
+PaletteIdentifier($4B,$42,$61,$72,$74,$73,$5A,$65,$72,$6B,$65,$72,Barts_Warrior)
+PaletteIdentifier($4C,$43,$65,$6C,$69,$6E,$65,$52,$6F,$79,$61,$6C,Celine_Priestess)
+
+/* 
+POP
+*/ 

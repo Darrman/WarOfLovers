@@ -1,0 +1,602 @@
+#define PaletteEntry(index) "(BattlePaletteDictionary) + (index*$10)"
+#define PaletteAssociationEntry(charID, index) "BYTE charID; BYTE $00 $00 $00; POIN PaletteEntry(index)"
+
+NO_PALETTE: //point here for anything that doesnt need custom palettes (lords included)
+WORD 0 0
+ALIGN 4
+
+CavalierPaletteList:
+//Same list for free/lance/axe knights too
+PaletteAssociationEntry(Wario, $13)
+PaletteAssociationEntry(Yoshi, $19)
+PaletteAssociationEntry(Waluigi, $1D)
+WORD 0 0
+ALIGN 4
+
+PaladinPaletteList:
+//Merge duke knight here for now
+PaletteAssociationEntry(Yoshi,$1A)
+PaletteAssociationEntry(Eliwood,$23)
+PaletteAssociationEntry(Rody,$3E)
+WORD 0 0
+ALIGN 4
+
+ArmourPaletteList:
+//All tier one armours go here
+PaletteAssociationEntry(DK,$0F)
+PaletteAssociationEntry(Tomth,$38)
+WORD 0 0
+ALIGN 4
+
+GeneralPaletteList:
+PaletteAssociationEntry(DK, $10)
+PaletteAssociationEntry(Tomth, $39)
+WORD 0 0
+ALIGN 4
+
+ThiefPaletteList:
+PaletteAssociationEntry(Toad, $11)
+PaletteAssociationEntry(Astore, $2D)
+PaletteAssociationEntry(Ricardo, $36)
+WORD 0 0
+ALIGN 4
+
+MercPaletteList:
+PaletteAssociationEntry(Caesar, $36)
+PaletteAssociationEntry(Oguma, $47)
+WORD 0 0
+ALIGN 4
+
+HeroPaletteList:
+PaletteAssociationEntry(Caesar, $37)
+PaletteAssociationEntry(Oguma, $48)
+WORD 0 0
+ALIGN 4
+
+MyrmPaletteList:
+PaletteAssociationEntry(Fir, $2F)
+WORD 0 0
+ALIGN 4
+
+SwordmasterPaletteList:
+PaletteAssociationEntry(Fir, $30)
+WORD 0 0
+ALIGN 4
+
+AssassinPaletteList:
+WORD 0 0
+ALIGN 4
+
+ArcherPaletteList:
+PaletteAssociationEntry(Wolt, $29)
+PaletteAssociationEntry(Ryan, $3A)
+WORD 0 0
+ALIGN 4
+
+SniperPaletteList:
+PaletteAssociationEntry(Wolt, $29)
+PaletteAssociationEntry(George, $33)
+PaletteAssociationEntry(Ryan, $3A)
+WORD 0 0
+ALIGN 4
+
+RangerPaletteList:
+PaletteAssociationEntry(Waluigi, $1E)
+WORD 0 0
+ALIGN 4
+
+DragonKPaletteList:
+PaletteAssociationEntry(Bowser, $0B)
+PaletteAssociationEntry(Miledy, $25)
+WORD 0 0
+ALIGN 4
+
+DragonMPaletteList:
+PaletteAssociationEntry(Bowser, $0C)
+PaletteAssociationEntry(Miledy, $26)
+WORD 0 0
+ALIGN 4
+
+WyvKnightPaletteList:
+WORD 0 0
+ALIGN 4
+
+MagePaletteList:
+PaletteAssociationEntry(Daisy, $17)
+PaletteAssociationEntry(Lilina, $21)
+PaletteAssociationEntry(Linda, $45)
+WORD 0 0
+ALIGN 4
+
+SagePaletteList:
+PaletteAssociationEntry(Daisy, $17)
+PaletteAssociationEntry(Lilina, $21)
+PaletteAssociationEntry(Marich, $32)
+PaletteAssociationEntry(Linda, $45)
+WORD 0 0
+ALIGN 4
+
+MageKnightPaletteList:
+WORD 0 0
+ALIGN 4
+
+BishopPaletteList:
+PaletteAssociationEntry(Peach, $0A)
+PaletteAssociationEntry(Malliesia, $35)
+PaletteAssociationEntry(Riff, $44)
+WORD 0 0
+ALIGN 4
+
+ShamanPaletteList:
+PaletteAssociationEntry(Sophia, $2B)
+WORD 0 0
+ALIGN 4
+
+DruidPaletteList:
+PaletteAssociationEntry(Sophia, $2C)
+WORD 0 0
+ALIGN 4
+
+SummonerPaletteList:
+WORD 0 0
+ALIGN 4
+
+RoguePaletteList:
+PaletteAssociationEntry(Toad, $12)
+PaletteAssociationEntry(Astore, $2E)
+PaletteAssociationEntry(Ricardo, $37)
+WORD 0 0
+ALIGN 4
+
+GKPaletteList:
+PaletteAssociationEntry(Wario, $14)
+WORD 0 0
+ALIGN 4
+
+ManaketePaletteList:
+WORD 0 0
+ALIGN 4
+
+FighterPaletteList:
+PaletteAssociationEntry(Saji, $3C)
+WORD 0 0
+ALIGN 4
+
+WarriorPaletteList:
+PaletteAssociationEntry(Bartre, $31)
+PaletteAssociationEntry(Saji, $3D)
+WORD 0 0
+ALIGN 4
+
+BrigandPaletteList:
+PaletteAssociationEntry(Mario, $05)
+WORD 0 0
+ALIGN 4
+
+PiratePaletteList:
+PaletteAssociationEntry(Luigi, $07)
+WORD 0 0
+ALIGN 4
+
+BerserkerPaletteList:
+PaletteAssociationEntry(Mario, $06)
+PaletteAssociationEntry(Luigi, $08)
+WORD 0 0
+ALIGN 4
+
+MonkPaletteList:
+WORD 0 0
+ALIGN 4
+
+PriestPaletteList:
+PaletteAssociationEntry(Riff, $43)
+WORD 0 0
+ALIGN 4
+
+BardPaletteList:
+WORD 0 0
+ALIGN 4
+
+PegKnightPaletteList:
+PaletteAssociationEntry(Sheeda, $01)
+WORD 0 0
+ALIGN 4
+
+FalconKnightPaletteList:
+PaletteAssociationEntry(Sheeda, $02)
+WORD 0 0
+ALIGN 4
+
+ClericPaletteList:
+PaletteAssociationEntry(Peach, $09)
+PaletteAssociationEntry(Malliesia, $34)
+WORD 0 0
+ALIGN 4
+
+TroubadourPaletteList:
+WORD 0 0
+ALIGN 4
+
+ValkyriePaletteList:
+WORD 0 0
+ALIGN 4
+
+DancerPaletteList:
+WORD 0 0
+ALIGN 4
+
+SoldierPaletteList:
+WORD 0 0
+ALIGN 4
+
+NecromancerPaletteList:
+WORD 0 0
+ALIGN 4
+
+RevenantPaletteList:
+WORD 0 0
+ALIGN 4
+
+EntombedPaletteList:
+WORD 0 0
+ALIGN 4
+
+BonewalkerPaletteList:
+WORD 0 0
+ALIGN 4
+
+WightPaletteList:
+WORD 0 0
+ALIGN 4
+
+BaelPaletteList:
+WORD 0 0
+ALIGN 4
+
+ElderBaelPaletteList:
+WORD 0 0
+ALIGN 4
+
+CyclopsPaletteList:
+WORD 0 0
+ALIGN 4
+
+DogPaletteList:
+WORD 0 0
+ALIGN 4
+
+BigDogPaletteList:
+WORD 0 0
+ALIGN 4
+
+TarvosPaletteList:
+WORD 0 0
+ALIGN 4
+
+MaelduinPaletteList:
+WORD 0 0
+ALIGN 4
+
+MogallPaletteList:
+WORD 0 0
+ALIGN 4
+
+ArchMogallPaletteList:
+WORD 0 0
+ALIGN 4
+
+GorgonPaletteList:
+WORD 0 0
+ALIGN 4
+
+GargoylePaletteList:
+WORD 0 0
+ALIGN 4
+
+DeathgoylePaletteList:
+WORD 0 0
+ALIGN 4
+
+DracozombiePaletteList:
+WORD 0 0
+ALIGN 4
+
+KnightT1PaletteList:
+//just myrmidon for now, many of these are placeholders
+PaletteAssociationEntry(Sheeda, $03)
+PaletteAssociationEntry(Bowser, $0D)
+PaletteAssociationEntry(Wario, $15)
+PaletteAssociationEntry(Yoshi, $1B)
+PaletteAssociationEntry(Waluigi, $1F)
+PaletteAssociationEntry(Miledy, $27)
+WORD 0 0
+ALIGN 4
+
+KnightT2PaletteList:
+PaletteAssociationEntry(Sheeda, $04)
+PaletteAssociationEntry(Bowser, $0E)
+PaletteAssociationEntry(Wario, $16)
+PaletteAssociationEntry(Yoshi, $1C)
+PaletteAssociationEntry(Waluigi, $20)
+PaletteAssociationEntry(Eliwood, $24)
+PaletteAssociationEntry(Miledy, $28)
+PaletteAssociationEntry(Rody, $3E)
+WORD 0 0
+ALIGN 4
+
+PriestessPaletteList:
+PaletteAssociationEntry(Celine,$4B)
+WORD 0 0
+ALIGN 4
+
+BYTE $FF $FF $FF $FF $FF $FF $FF $FF
+ALIGN 4
+
+
+/*
+ *
+ * Now to hook these groups up to classIDs
+ *
+ */
+
+#define SetClassPaletteTable(classID,palette) "POIN palette"
+
+MapClassIdToPalettes:
+    WORD 0 //class 0
+    SetClassPaletteTable(Lord,NO_PALETTE) //lords already have their palette in the animation itself
+    SetClassPaletteTable(0x02,NO_PALETTE)
+    SetClassPaletteTable(StarLord,NO_PALETTE)
+    SetClassPaletteTable(0x04,NO_PALETTE)
+    SetClassPaletteTable(Cavalier,CavalierPaletteList)
+    SetClassPaletteTable(Cavalier_F,CavalierPaletteList)
+	SetClassPaletteTable(Paladin,PaladinPaletteList)
+	SetClassPaletteTable(Paladin_F,PaladinPaletteList)
+	SetClassPaletteTable(LanceArmour,ArmourPaletteList)
+	SetClassPaletteTable(Knight_F,ArmourPaletteList)
+	SetClassPaletteTable(General,GeneralPaletteList)
+	SetClassPaletteTable(General_F,GeneralPaletteList)
+	SetClassPaletteTable(Thief,ThiefPaletteList)
+	SetClassPaletteTable(Mamkute,NO_PALETTE)
+	SetClassPaletteTable(Mercenary,MercPaletteList)
+	SetClassPaletteTable(Mercenary_F,MercPaletteList)
+	SetClassPaletteTable(Hero,HeroPaletteList)
+	SetClassPaletteTable(Hero_F,HeroPaletteList)
+	SetClassPaletteTable(Myrmidon,MyrmPaletteList)
+	SetClassPaletteTable(Myrmidon_F,MyrmPaletteList)
+	SetClassPaletteTable(Swordmaster,SwordmasterPaletteList)
+	SetClassPaletteTable(Swordmaster_F,SwordmasterPaletteList)
+	SetClassPaletteTable(Assassin,AssassinPaletteList)
+	SetClassPaletteTable(Assassin_F,AssassinPaletteList)
+	SetClassPaletteTable(Archer,ArcherPaletteList)
+	SetClassPaletteTable(Archer_F,ArcherPaletteList)
+	SetClassPaletteTable(Sniper,SniperPaletteList)
+	SetClassPaletteTable(Sniper_F,SniperPaletteList)
+	SetClassPaletteTable(Horseman,RangerPaletteList)
+	SetClassPaletteTable(Ranger_F,RangerPaletteList)
+	SetClassPaletteTable(DragonKnight,DragonKPaletteList)
+	SetClassPaletteTable(DragonKnight_F,DragonKPaletteList)
+	SetClassPaletteTable(DragonMaster,DragonMPaletteList)
+	SetClassPaletteTable(DragonMaster_F,DragonMPaletteList)
+	SetClassPaletteTable(WyvernKnight,WyvKnightPaletteList)
+	SetClassPaletteTable(WyvernKnight_F,WyvKnightPaletteList)
+	SetClassPaletteTable(Mage,MagePaletteList)
+	SetClassPaletteTable(Mage_F,MagePaletteList)
+	SetClassPaletteTable(Sage,SagePaletteList)
+	SetClassPaletteTable(Sage_F,SagePaletteList)
+	SetClassPaletteTable(MageKnight,MageKnightPaletteList)
+	SetClassPaletteTable(MageKnight_F,MageKnightPaletteList)
+	SetClassPaletteTable(Bishop, BishopPaletteList)
+	SetClassPaletteTable(Bishop_F, BishopPaletteList)
+	SetClassPaletteTable(Shaman, ShamanPaletteList)
+	SetClassPaletteTable(Shaman_F, ShamanPaletteList)
+	SetClassPaletteTable(Druid, DruidPaletteList)
+	SetClassPaletteTable(Druid_F, DruidPaletteList)
+	SetClassPaletteTable(Summoner, SummonerPaletteList)
+	SetClassPaletteTable(Summoner_F, SummonerPaletteList)
+	SetClassPaletteTable(Rogue, RoguePaletteList)
+	SetClassPaletteTable(GorgonEgg, NO_PALETTE)
+	SetClassPaletteTable(GreatKnight, GKPaletteList)
+	SetClassPaletteTable(GreatKnight_F, GKPaletteList)
+	SetClassPaletteTable(KnightCavalier, KnightT1PaletteList)
+	SetClassPaletteTable(KnightPegasus, KnightT1PaletteList)
+	SetClassPaletteTable(KnightPaladin, KnightT2PaletteList)
+	SetClassPaletteTable(KnightDragon, KnightT1PaletteList)
+	SetClassPaletteTable(Mamkute_2, NO_PALETTE)
+	SetClassPaletteTable(Mamkute_F, NO_PALETTE)
+	SetClassPaletteTable(KnightFalcon, KnightT2PaletteList)
+	SetClassPaletteTable(KnightPaladin_F, KnightT2PaletteList)
+	SetClassPaletteTable(Fighter, FighterPaletteList)
+	SetClassPaletteTable(Warrior, WarriorPaletteList)
+	SetClassPaletteTable(Brigand, BrigandPaletteList)
+	SetClassPaletteTable(Pirate, PiratePaletteList)
+	SetClassPaletteTable(Berserker, BerserkerPaletteList)
+	SetClassPaletteTable(Monk, MonkPaletteList)
+	SetClassPaletteTable(Priest, PriestPaletteList)
+	SetClassPaletteTable(Bard, BardPaletteList)
+	SetClassPaletteTable(KnightCavalier_F, KnightT1PaletteList)
+	SetClassPaletteTable(PegasusKnight, PegKnightPaletteList)
+	SetClassPaletteTable(FalconKnight, FalconKnightPaletteList)
+	SetClassPaletteTable(Cleric, ClericPaletteList)
+	SetClassPaletteTable(Troubadour, TroubadourPaletteList)
+	SetClassPaletteTable(Valkyrie, ValkyriePaletteList)
+	SetClassPaletteTable(Dancer, DancerPaletteList)
+	SetClassPaletteTable(Soldier, SoldierPaletteList)
+	SetClassPaletteTable(Necromancer, NecromancerPaletteList)
+	SetClassPaletteTable(Fleet, NO_PALETTE)
+	SetClassPaletteTable(Phantom, NO_PALETTE)
+	SetClassPaletteTable(Revenant, RevenantPaletteList)
+	SetClassPaletteTable(Entombed, EntombedPaletteList)
+	SetClassPaletteTable(Bonewalker,BonewalkerPaletteList)
+	SetClassPaletteTable(BonewalkerBow, BonewalkerPaletteList)
+	SetClassPaletteTable(Wight, WightPaletteList)
+	SetClassPaletteTable(WightBow, WightPaletteList)
+	SetClassPaletteTable(Bael, BaelPaletteList)
+	SetClassPaletteTable(ElderBael, ElderBaelPaletteList)
+	SetClassPaletteTable(Cyclops, CyclopsPaletteList)
+	SetClassPaletteTable(MautheDoog, DogPaletteList)
+	SetClassPaletteTable(Gwyllgi, BigDogPaletteList)
+	SetClassPaletteTable(Tarvos, TarvosPaletteList)
+	SetClassPaletteTable(Maelduin, MaelduinPaletteList)
+	SetClassPaletteTable(Mogall, MogallPaletteList)
+	SetClassPaletteTable(ArchMogall, ArchMogallPaletteList)
+	SetClassPaletteTable(Gorgon, GorgonPaletteList)
+	SetClassPaletteTable(GorgonEgg2, NO_PALETTE)
+	SetClassPaletteTable(Gargoyle, GargoylePaletteList)
+	SetClassPaletteTable(Deathgoyle, DeathgoylePaletteList)
+	SetClassPaletteTable(DemonKing, NO_PALETTE)
+	//All the rest are blank/free to replace until 0x80
+	SetClassPaletteTable(0x67, NO_PALETTE)
+	SetClassPaletteTable(0x68, NO_PALETTE)
+	SetClassPaletteTable(0x69, NO_PALETTE)
+	SetClassPaletteTable(0x6a, NO_PALETTE)
+	SetClassPaletteTable(0x6b, NO_PALETTE)
+	SetClassPaletteTable(0x6c, NO_PALETTE)
+	SetClassPaletteTable(0x6d, NO_PALETTE)
+	SetClassPaletteTable(0x6e, NO_PALETTE)
+	SetClassPaletteTable(0x6f, NO_PALETTE)
+	SetClassPaletteTable(0x70, NO_PALETTE)
+	SetClassPaletteTable(0x71, NO_PALETTE)
+	SetClassPaletteTable(0x72, NO_PALETTE)
+	SetClassPaletteTable(0x73, NO_PALETTE)
+	SetClassPaletteTable(0x74, NO_PALETTE)
+	SetClassPaletteTable(0x75, NO_PALETTE)
+	SetClassPaletteTable(0x76, NO_PALETTE)
+	SetClassPaletteTable(0x77, NO_PALETTE)
+	SetClassPaletteTable(0x78, NO_PALETTE)
+	SetClassPaletteTable(0x79, NO_PALETTE)
+	SetClassPaletteTable(0x7a, NO_PALETTE)
+	SetClassPaletteTable(0x7b, NO_PALETTE)
+	SetClassPaletteTable(0x7c, NO_PALETTE)
+	SetClassPaletteTable(0x7d, NO_PALETTE)
+	SetClassPaletteTable(0x7e, NO_PALETTE)
+	SetClassPaletteTable(0x7f, NO_PALETTE)
+    //add the rest of your classes here, continue until class 0x7F
+	//I hope this doesn't mean it breaks at class 0x7F...
+	//If it does, that's bad news. Lots of placeholder stuff here,
+	//so just nullify their palettes until they get their animations.
+	SetClassPaletteTable(FreeKnight, CavalierPaletteList)
+	SetClassPaletteTable(LanceKnight, CavalierPaletteList)
+	SetClassPaletteTable(AxeKnight, CavalierPaletteList)
+	SetClassPaletteTable(ArchKnight, CavalierPaletteList)
+	SetClassPaletteTable(Ranger, RangerPaletteList)
+	SetClassPaletteTable(DukeKnight, PaladinPaletteList)
+	SetClassPaletteTable(BowKnight, RangerPaletteList)
+	SetClassPaletteTable(KnightRanger, KnightT2PaletteList)
+	SetClassPaletteTable(KnightDuke, KnightT2PaletteList)
+	SetClassPaletteTable(KnightGreat, KnightT2PaletteList)
+	SetClassPaletteTable(KnightBow, SniperPaletteList)
+	SetClassPaletteTable(SwordArmour, ArmourPaletteList)
+	SetClassPaletteTable(AxeArmour, ArmourPaletteList)
+	SetClassPaletteTable(BowArmour, ArmourPaletteList)
+	SetClassPaletteTable(Hunter, NO_PALETTE)
+	SetClassPaletteTable(HunterT2, NO_PALETTE)
+	SetClassPaletteTable(Halberdier, NO_PALETTE)
+	SetClassPaletteTable(KnightDragonM, KnightT2PaletteList)
+	SetClassPaletteTable(KnightDragonM_F, KnightT2PaletteList)
+	SetClassPaletteTable(KnightTroubadour, KnightT1PaletteList)
+	SetClassPaletteTable(KnightValkyrie, KnightT2PaletteList)
+	SetClassPaletteTable(FireDragon, NO_PALETTE)
+	SetClassPaletteTable(IceDragon, NO_PALETTE)
+	SetClassPaletteTable(MagicDragon, NO_PALETTE)
+	SetClassPaletteTable(FlyingDragon, NO_PALETTE)
+	SetClassPaletteTable(DivineDragon, NO_PALETTE)
+	SetClassPaletteTable(EarthDragon, NO_PALETTE)
+	SetClassPaletteTable(KnightMage, NO_PALETTE)
+	SetClassPaletteTable(KnightMage_F, NO_PALETTE)
+	SetClassPaletteTable(KnightLord, NO_PALETTE)
+	SetClassPaletteTable(KnightEliwood, NO_PALETTE)
+	SetClassPaletteTable(SageLilina, NO_PALETTE)
+	SetClassPaletteTable(HeroAlm, NO_PALETTE)
+	SetClassPaletteTable(LordKnight, NO_PALETTE)
+	SetClassPaletteTable(KnightSigurd, NO_PALETTE)
+	SetClassPaletteTable(MageFighter, PriestessPaletteList)
+	SetClassPaletteTable(WarMonk, NO_PALETTE)
+	SetClassPaletteTable(ValkyrieTellius, NO_PALETTE)
+	SetClassPaletteTable(KnightValkyrieFE10, NO_PALETTE)
+	SetClassPaletteTable(Basara, NO_PALETTE)
+	SetClassPaletteTable(Infantry, NO_PALETTE)
+	SetClassPaletteTable(AntiAir, NO_PALETTE)
+	SetClassPaletteTable(LightTank, NO_PALETTE)
+	SetClassPaletteTable(MediumTank, NO_PALETTE)
+	SetClassPaletteTable(Mech, NO_PALETTE)
+	SetClassPaletteTable(Recon, NO_PALETTE)
+	SetClassPaletteTable(APC, NO_PALETTE)
+	SetClassPaletteTable(Artillery, NO_PALETTE)
+	SetClassPaletteTable(FighterPlane, NO_PALETTE)
+	SetClassPaletteTable(Bomber, NO_PALETTE)
+	SetClassPaletteTable(Helicopter, NO_PALETTE)
+	SetClassPaletteTable(Battleship, NO_PALETTE)
+	SetClassPaletteTable(Submarine, NO_PALETTE)
+	//remaining classes blank
+	SetClassPaletteTable(0xB9, NO_PALETTE)
+	SetClassPaletteTable(0xBA, NO_PALETTE)
+	SetClassPaletteTable(0xBB, NO_PALETTE)
+	SetClassPaletteTable(0xBC, NO_PALETTE)
+	SetClassPaletteTable(0xBD, NO_PALETTE)
+	SetClassPaletteTable(0xBE, NO_PALETTE)
+	SetClassPaletteTable(0xBF, NO_PALETTE)
+	SetClassPaletteTable(0xC0, NO_PALETTE)
+	SetClassPaletteTable(0xC1, NO_PALETTE)
+	SetClassPaletteTable(0xC2, NO_PALETTE)
+	SetClassPaletteTable(0xC3, NO_PALETTE)
+	SetClassPaletteTable(0xC4, NO_PALETTE)
+	SetClassPaletteTable(0xC5, NO_PALETTE)
+	SetClassPaletteTable(0xC6, NO_PALETTE)
+	SetClassPaletteTable(0xC7, NO_PALETTE)
+	SetClassPaletteTable(0xC8, NO_PALETTE)
+	SetClassPaletteTable(0xC9, NO_PALETTE)
+	SetClassPaletteTable(0xCA, NO_PALETTE)
+	SetClassPaletteTable(0xCB, NO_PALETTE)
+	SetClassPaletteTable(0xCC, NO_PALETTE)
+	SetClassPaletteTable(0xCD, NO_PALETTE)
+	SetClassPaletteTable(0xCE, NO_PALETTE)
+	SetClassPaletteTable(0xCF, NO_PALETTE)
+	SetClassPaletteTable(0xD0, NO_PALETTE)
+	SetClassPaletteTable(0xD1, NO_PALETTE)
+	SetClassPaletteTable(0xD2, NO_PALETTE)
+	SetClassPaletteTable(0xD3, NO_PALETTE)
+	SetClassPaletteTable(0xD4, NO_PALETTE)
+	SetClassPaletteTable(0xD5, NO_PALETTE)
+	SetClassPaletteTable(0xD6, NO_PALETTE)
+	SetClassPaletteTable(0xD7, NO_PALETTE)
+	SetClassPaletteTable(0xD8, NO_PALETTE)
+	SetClassPaletteTable(0xD9, NO_PALETTE)
+	SetClassPaletteTable(0xDA, NO_PALETTE)
+	SetClassPaletteTable(0xDB, NO_PALETTE)
+	SetClassPaletteTable(0xDC, NO_PALETTE)
+	SetClassPaletteTable(0xDD, NO_PALETTE)
+	SetClassPaletteTable(0xDE, NO_PALETTE)
+	SetClassPaletteTable(0xDF, NO_PALETTE)
+	SetClassPaletteTable(0xE0, NO_PALETTE)
+	SetClassPaletteTable(0xE1, NO_PALETTE)
+	SetClassPaletteTable(0xE2, NO_PALETTE)
+	SetClassPaletteTable(0xE3, NO_PALETTE)
+	SetClassPaletteTable(0xE4, NO_PALETTE)
+	SetClassPaletteTable(0xE5, NO_PALETTE)
+	SetClassPaletteTable(0xE6, NO_PALETTE)
+	SetClassPaletteTable(0xE7, NO_PALETTE)
+	SetClassPaletteTable(0xE8, NO_PALETTE)
+	SetClassPaletteTable(0xE9, NO_PALETTE)
+	SetClassPaletteTable(0xEA, NO_PALETTE)
+	SetClassPaletteTable(0xEB, NO_PALETTE)
+	SetClassPaletteTable(0xEC, NO_PALETTE)
+	SetClassPaletteTable(0xED, NO_PALETTE)
+	SetClassPaletteTable(0xEE, NO_PALETTE)
+	SetClassPaletteTable(0xEF, NO_PALETTE)
+	SetClassPaletteTable(0xF0, NO_PALETTE)
+	SetClassPaletteTable(0xF1, NO_PALETTE)
+	SetClassPaletteTable(0xF2, NO_PALETTE)
+	SetClassPaletteTable(0xF3, NO_PALETTE)
+	SetClassPaletteTable(0xF4, NO_PALETTE)
+	SetClassPaletteTable(0xF5, NO_PALETTE)
+	SetClassPaletteTable(0xF6, NO_PALETTE)
+	SetClassPaletteTable(0xF7, NO_PALETTE)
+	SetClassPaletteTable(0xF8, NO_PALETTE)
+	SetClassPaletteTable(0xF9, NO_PALETTE)
+	SetClassPaletteTable(0xFA, NO_PALETTE)
+	SetClassPaletteTable(0xFB, NO_PALETTE)
+	SetClassPaletteTable(0xFC, NO_PALETTE)
+	SetClassPaletteTable(0xFD, NO_PALETTE)
+	SetClassPaletteTable(0xFE, NO_PALETTE)
+	SetClassPaletteTable(0xFF, NO_PALETTE)
+WORD 0 //term

@@ -72,7 +72,11 @@
 # char{0x21} "Lilina Mage" set{Lilina, 0x1, Mage_F}
 	5553FF7FFF6B1F4B2E19557F8E7E6B699F4E5F117304F57FAD7F2B7EE760A514
 # char{0x22} "Lilina Sage" set{Lilina, 0x3, Sage_F}
-	5553FF7FFF6BBE462E19557F8E7E6B697F4EFD107304F57FAD7F2B7EA558A514
+//SageF was redrawn between 6 and 8: though the default palette is the same,
+//Lilina's dress is red instead of white. Some colours swapped to make it
+//white again, though it doesn't perfectly match FE6.
+//	5553FF7FFF6BBE462E19557F8E7E6B697F4EFD107304F57FAD7F2B7EA558A514
+	55537F4EFF6BBE462E19557F8E7E6B69FF7FF57F6304FD10AD7F2B7EA558A514
 # char{0x23} "Eliwood Paladin" set{Eliwood, 0x3, Paladin}
 	5553FF7FFF6FDA2ED131DF431A00520C157F4D72276DA744567F2D628849A514
 # char{0x24} "Eliwood Dismounted" set{Eliwood, 0x4, KnightPaladin}

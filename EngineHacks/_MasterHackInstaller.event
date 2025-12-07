@@ -313,3 +313,5 @@ POP
   //Character-based promotions (Sme)
   #include "GachaJam/CharBasedPromos/CharBasedPromos.event"
   
+  //Battle palette rework (Hypergammaspaces)
+  #include "GachaJam/BattlePaletteRework/BattlePaletteReworkFE8.event"
