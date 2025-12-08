@@ -7,59 +7,59 @@ ALIGN 4
 
 CavalierPaletteList:
 //Same list for free/lance/axe knights too
-PaletteAssociationEntry(Wario, $13)
-PaletteAssociationEntry(Yoshi, $19)
-PaletteAssociationEntry(Waluigi, $1D)
+PaletteAssociationEntry(Wario, $12)
+PaletteAssociationEntry(Yoshi, $18)
+PaletteAssociationEntry(Waluigi, $1C)
 WORD 0 0
 ALIGN 4
 
 PaladinPaletteList:
 //Merge duke knight here for now
-PaletteAssociationEntry(Yoshi,$1A)
-PaletteAssociationEntry(Eliwood,$23)
-PaletteAssociationEntry(Rody,$3E)
+PaletteAssociationEntry(Yoshi,$19)
+PaletteAssociationEntry(Eliwood,$22)
+PaletteAssociationEntry(Rody,$3F)
 WORD 0 0
 ALIGN 4
 
 ArmourPaletteList:
 //All tier one armours go here
-PaletteAssociationEntry(DK,$0F)
-PaletteAssociationEntry(Tomth,$38)
+PaletteAssociationEntry(DK,$0E)
+PaletteAssociationEntry(Tomth,$39)
 WORD 0 0
 ALIGN 4
 
 GeneralPaletteList:
-PaletteAssociationEntry(DK, $10)
-PaletteAssociationEntry(Tomth, $39)
+PaletteAssociationEntry(DK, $0F)
+PaletteAssociationEntry(Tomth, $3a)
 WORD 0 0
 ALIGN 4
 
 ThiefPaletteList:
-PaletteAssociationEntry(Toad, $11)
-PaletteAssociationEntry(Astore, $2D)
-PaletteAssociationEntry(Ricardo, $36)
+PaletteAssociationEntry(Toad, $10)
+PaletteAssociationEntry(Astore, $2C)
+PaletteAssociationEntry(Ricardo, $35)
 WORD 0 0
 ALIGN 4
 
 MercPaletteList:
-PaletteAssociationEntry(Caesar, $36)
+PaletteAssociationEntry(Caesar, $37)
 PaletteAssociationEntry(Oguma, $47)
 WORD 0 0
 ALIGN 4
 
 HeroPaletteList:
-PaletteAssociationEntry(Caesar, $37)
+PaletteAssociationEntry(Caesar, $38)
 PaletteAssociationEntry(Oguma, $48)
 WORD 0 0
 ALIGN 4
 
 MyrmPaletteList:
-PaletteAssociationEntry(Fir, $2F)
+PaletteAssociationEntry(Fir, $2E)
 WORD 0 0
 ALIGN 4
 
 SwordmasterPaletteList:
-PaletteAssociationEntry(Fir, $30)
+PaletteAssociationEntry(Fir, $2F)
 WORD 0 0
 ALIGN 4
 
@@ -68,32 +68,32 @@ WORD 0 0
 ALIGN 4
 
 ArcherPaletteList:
-PaletteAssociationEntry(Wolt, $29)
-PaletteAssociationEntry(Ryan, $3A)
+PaletteAssociationEntry(Wolt, $28)
+PaletteAssociationEntry(Ryan, $3b)
 WORD 0 0
 ALIGN 4
 
 SniperPaletteList:
-PaletteAssociationEntry(Wolt, $29)
-PaletteAssociationEntry(George, $33)
-PaletteAssociationEntry(Ryan, $3A)
+PaletteAssociationEntry(Wolt, $28)
+PaletteAssociationEntry(George, $32)
+PaletteAssociationEntry(Ryan, $3c)
 WORD 0 0
 ALIGN 4
 
 RangerPaletteList:
-PaletteAssociationEntry(Waluigi, $1E)
+PaletteAssociationEntry(Waluigi, $1D)
 WORD 0 0
 ALIGN 4
 
 DragonKPaletteList:
-PaletteAssociationEntry(Bowser, $0B)
-PaletteAssociationEntry(Miledy, $25)
+PaletteAssociationEntry(Bowser, $0A)
+PaletteAssociationEntry(Miledy, $24)
 WORD 0 0
 ALIGN 4
 
 DragonMPaletteList:
-PaletteAssociationEntry(Bowser, $0C)
-PaletteAssociationEntry(Miledy, $26)
+PaletteAssociationEntry(Bowser, $0B)
+PaletteAssociationEntry(Miledy, $25)
 WORD 0 0
 ALIGN 4
 
@@ -102,17 +102,17 @@ WORD 0 0
 ALIGN 4
 
 MagePaletteList:
-PaletteAssociationEntry(Daisy, $17)
-PaletteAssociationEntry(Lilina, $21)
+PaletteAssociationEntry(Daisy, $16)
+PaletteAssociationEntry(Lilina, $20)
 PaletteAssociationEntry(Linda, $45)
 WORD 0 0
 ALIGN 4
 
 SagePaletteList:
-PaletteAssociationEntry(Daisy, $17)
+PaletteAssociationEntry(Daisy, $16)
 PaletteAssociationEntry(Lilina, $21)
-PaletteAssociationEntry(Marich, $32)
-PaletteAssociationEntry(Linda, $45)
+PaletteAssociationEntry(Marich, $31)
+PaletteAssociationEntry(Linda, $46)
 WORD 0 0
 ALIGN 4
 
@@ -121,19 +121,19 @@ WORD 0 0
 ALIGN 4
 
 BishopPaletteList:
-PaletteAssociationEntry(Peach, $0A)
-PaletteAssociationEntry(Malliesia, $35)
+PaletteAssociationEntry(Peach, $09)
+PaletteAssociationEntry(Malliesia, $34)
 PaletteAssociationEntry(Riff, $44)
 WORD 0 0
 ALIGN 4
 
 ShamanPaletteList:
-PaletteAssociationEntry(Sophia, $2B)
+PaletteAssociationEntry(Sophia, $2A)
 WORD 0 0
 ALIGN 4
 
 DruidPaletteList:
-PaletteAssociationEntry(Sophia, $2C)
+PaletteAssociationEntry(Sophia, $2B)
 WORD 0 0
 ALIGN 4
 
@@ -142,14 +142,14 @@ WORD 0 0
 ALIGN 4
 
 RoguePaletteList:
-PaletteAssociationEntry(Toad, $12)
-PaletteAssociationEntry(Astore, $2E)
-PaletteAssociationEntry(Ricardo, $37)
+PaletteAssociationEntry(Toad, $11)
+PaletteAssociationEntry(Astore, $2D)
+PaletteAssociationEntry(Ricardo, $36)
 WORD 0 0
 ALIGN 4
 
 GKPaletteList:
-PaletteAssociationEntry(Wario, $14)
+PaletteAssociationEntry(Wario, $13)
 WORD 0 0
 ALIGN 4
 
@@ -158,29 +158,29 @@ WORD 0 0
 ALIGN 4
 
 FighterPaletteList:
-PaletteAssociationEntry(Saji, $3C)
+PaletteAssociationEntry(Saji, $3B)
 WORD 0 0
 ALIGN 4
 
 WarriorPaletteList:
-PaletteAssociationEntry(Bartre, $31)
-PaletteAssociationEntry(Saji, $3D)
+PaletteAssociationEntry(Bartre, $30)
+PaletteAssociationEntry(Saji, $3C)
 WORD 0 0
 ALIGN 4
 
 BrigandPaletteList:
-PaletteAssociationEntry(Mario, $05)
+PaletteAssociationEntry(Mario, $04)
 WORD 0 0
 ALIGN 4
 
 PiratePaletteList:
-PaletteAssociationEntry(Luigi, $07)
+PaletteAssociationEntry(Luigi, $06)
 WORD 0 0
 ALIGN 4
 
 BerserkerPaletteList:
-PaletteAssociationEntry(Mario, $06)
-PaletteAssociationEntry(Luigi, $08)
+PaletteAssociationEntry(Mario, $05)
+PaletteAssociationEntry(Luigi, $07)
 WORD 0 0
 ALIGN 4
 
@@ -198,18 +198,18 @@ WORD 0 0
 ALIGN 4
 
 PegKnightPaletteList:
-PaletteAssociationEntry(Sheeda, $01)
+PaletteAssociationEntry(Sheeda, $00)
 WORD 0 0
 ALIGN 4
 
 FalconKnightPaletteList:
-PaletteAssociationEntry(Sheeda, $02)
+PaletteAssociationEntry(Sheeda, $01)
 WORD 0 0
 ALIGN 4
 
 ClericPaletteList:
-PaletteAssociationEntry(Peach, $09)
-PaletteAssociationEntry(Malliesia, $34)
+PaletteAssociationEntry(Peach, $08)
+PaletteAssociationEntry(Malliesia, $33)
 WORD 0 0
 ALIGN 4
 
@@ -303,24 +303,24 @@ ALIGN 4
 
 KnightT1PaletteList:
 //just myrmidon for now, many of these are placeholders
+PaletteAssociationEntry(Sheeda, $02)
+PaletteAssociationEntry(Bowser, $0C)
+PaletteAssociationEntry(Wario, $14)
+PaletteAssociationEntry(Yoshi, $1A)
+PaletteAssociationEntry(Waluigi, $1E)
+PaletteAssociationEntry(Miledy, $26)
+WORD 0 0
+ALIGN 4
+
+KnightT2PaletteList:
 PaletteAssociationEntry(Sheeda, $03)
 PaletteAssociationEntry(Bowser, $0D)
 PaletteAssociationEntry(Wario, $15)
 PaletteAssociationEntry(Yoshi, $1B)
 PaletteAssociationEntry(Waluigi, $1F)
+PaletteAssociationEntry(Eliwood, $23)
 PaletteAssociationEntry(Miledy, $27)
-WORD 0 0
-ALIGN 4
-
-KnightT2PaletteList:
-PaletteAssociationEntry(Sheeda, $04)
-PaletteAssociationEntry(Bowser, $0E)
-PaletteAssociationEntry(Wario, $16)
-PaletteAssociationEntry(Yoshi, $1C)
-PaletteAssociationEntry(Waluigi, $20)
-PaletteAssociationEntry(Eliwood, $24)
-PaletteAssociationEntry(Miledy, $28)
-PaletteAssociationEntry(Rody, $3E)
+PaletteAssociationEntry(Rody, $40)
 WORD 0 0
 ALIGN 4
 
@@ -478,6 +478,10 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(LanceKnight, CavalierPaletteList)
 	SetClassPaletteTable(AxeKnight, CavalierPaletteList)
 	SetClassPaletteTable(ArchKnight, CavalierPaletteList)
+	SetClassPaletteTable(KnightFree, KnightT1PaletteList)
+	SetClassPaletteTable(KnightLance, KnightT1PaletteList)
+	SetClassPaletteTable(KnightAxe, KnightT1PaletteList)
+	SetClassPaletteTable(KnightBow, ArcherPaletteList)
 	SetClassPaletteTable(Ranger, RangerPaletteList)
 	SetClassPaletteTable(DukeKnight, PaladinPaletteList)
 	SetClassPaletteTable(BowKnight, RangerPaletteList)
