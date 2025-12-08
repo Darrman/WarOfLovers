@@ -94,6 +94,13 @@ PaletteIdentifier($48,$4F,$67,$75,$6D,$61,$20,$48,$65,$72,$6F,$20,Oguma_Hero)
 PaletteIdentifier($49,$42,$61,$72,$74,$73,$50,$69,$72,$61,$74,$65,Barts_Fighter)
 PaletteIdentifier($4A,$42,$61,$72,$74,$73,$5A,$65,$72,$6B,$65,$72,Barts_Warrior)
 PaletteIdentifier($4B,$43,$65,$6C,$69,$6E,$65,$52,$6F,$79,$61,$6C,Celine_Priestess)
+PaletteIdentifier($4C,$56,$61,$6C,$62,$6F,$47,$65,$6E,$72,$61,$6C,Valbo_General)
+PaletteIdentifier($4D,$43,$61,$6D,$75,$73,$50,$61,$6C,$64,$69,$6E,Camus_Paladin)
+PaletteIdentifier($4E,$43,$61,$6D,$75,$73,$20,$44,$69,$73,$2E,$20,Camus_Dismounted)
+PaletteIdentifier($4F,$44,$79,$75,$74,$65,$20,$4D,$79,$72,$6D,$20,Dyute_Myrmidon)
+PaletteIdentifier($50,$44,$79,$75,$74,$65,$50,$72,$73,$74,$65,$73,Dyute_Priestess)
+PaletteIdentifier($51,$43,$6C,$61,$69,$72,$65,$46,$61,$6C,$63,$6F,Claire_Falcon)
+PaletteIdentifier($52,$43,$6C,$61,$69,$72,$65,$20,$44,$69,$73,$2E,Claire_Dismounted)
 
 /* 
 POP

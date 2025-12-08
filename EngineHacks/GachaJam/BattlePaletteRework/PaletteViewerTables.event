@@ -13,7 +13,8 @@ BYTE Shaman_F Druid_F Thief Rogue Myrmidon_F Swordmaster_F Warrior
 BYTE Sage Sniper Cleric Bishop_F Thief Rogue Mercenary
 BYTE Hero LanceArmour General Archer Sniper Fighter Warrior
 BYTE DukeKnight KnightDuke 0 0 Priest Bishop Mage_F
-BYTE Sage_F Mercenary Hero Pirate Berserker MageFighter 0
+BYTE Sage_F Mercenary Hero Pirate Berserker MageFighter General
+BYTE Paladin KnightPaladin Myrmidon_F MageFighter FalconKnight KnightFalcon 0
 //continue with 7 entries per line
 BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0
 POP

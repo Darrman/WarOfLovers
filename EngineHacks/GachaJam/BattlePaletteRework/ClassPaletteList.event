@@ -18,6 +18,7 @@ PaladinPaletteList:
 PaletteAssociationEntry(Yoshi,$19)
 PaletteAssociationEntry(Eliwood,$22)
 PaletteAssociationEntry(Rody,$3F)
+PaletteAssociationEntry(Camus,$4D)
 WORD 0 0
 ALIGN 4
 
@@ -31,6 +32,7 @@ ALIGN 4
 GeneralPaletteList:
 PaletteAssociationEntry(DK, $0F)
 PaletteAssociationEntry(Tomth, $3a)
+PaletteAssociationEntry(Valbo, $4C)
 WORD 0 0
 ALIGN 4
 
@@ -55,6 +57,7 @@ ALIGN 4
 
 MyrmPaletteList:
 PaletteAssociationEntry(Fir, $2E)
+PaletteAssociationEntry(Dyute, $4F)
 WORD 0 0
 ALIGN 4
 
@@ -204,6 +207,7 @@ ALIGN 4
 
 FalconKnightPaletteList:
 PaletteAssociationEntry(Sheeda, $01)
+PaletteAssociationEntry(Claire, $51)
 WORD 0 0
 ALIGN 4
 
@@ -321,11 +325,14 @@ PaletteAssociationEntry(Waluigi, $1F)
 PaletteAssociationEntry(Eliwood, $23)
 PaletteAssociationEntry(Miledy, $27)
 PaletteAssociationEntry(Rody, $40)
+PaletteAssociationEntry(Camus, $4E)
+PaletteAssociationEntry(Claire, $52)
 WORD 0 0
 ALIGN 4
 
 PriestessPaletteList:
 PaletteAssociationEntry(Celine,$4B)
+PaletteAssociationEntry(Dyute,$50)
 WORD 0 0
 ALIGN 4
 
