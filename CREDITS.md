@@ -52,6 +52,7 @@ Lovers and in the rom. Unused stuff does not need to be ported.
     derivative work: Draceane
     Licence: https://creativecommons.org/licenses/by-sa/3.0/deed.en
     GBA insertion and railway lines drawn on: Darrman
+- Artifice map: ZeroXA, Darrman
 
 # War of Lovers Remnants
 
