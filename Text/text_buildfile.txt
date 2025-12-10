@@ -70,6 +70,9 @@ Your progress has been saved.[N]
 You may resume gameplay from this[N]
 point with Resume Chapter.[A][X]
 
+## ScrapLabel
+Scrap[X]
+
 ## nameCamus
 //for identity problems
 Camus[X]
