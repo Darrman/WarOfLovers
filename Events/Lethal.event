@@ -17,6 +17,7 @@ TurnBasedEvents:
 TurnEventPlayer(0x0,EntehMakesItOut,2)
 TurnEventPlayer(0x0,GoblinSlayerSlain,3)
 TurnEventPlayer(0x0,DogSpawn,5)
+TurnEventPlayer(0x0,GiantSpawn,10)
 TurnEventEnemy(0x0,LeftBehind,18)
 END_MAIN
 
@@ -46,7 +47,7 @@ Tutorial:
 END_MAIN
 
 Good:
-UNIT Sigurd FreeKnight 0x00 Level(1,Ally,0) [10,4] 0x0  0x0 0x0 0x0 [IronSword, SlimSword] NoAI
+UNIT Sigurd FreeKnight 0x00 Level(1,Ally,0) [10,4] 0x0  0x0 0x0 0x0 [IronSword, SlimSword, Vulnerary] NoAI
 UNIT Mario Lord 0x00 Level(1,Ally,0) [19,2] 0x0  0x0 0x0 0x0 [Mallet, DevilAxe, Vulnerary] NoAI
 UNIT Mima Sage_F 0x00 Level(1,Ally,0) [9,3] 0x0  0x0 0x0 0x0 [Elfire, Lightning, StopSign] NoAI
 UNIT Hornet Soldier 0x00 Level(1,Ally,0) [18,1] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
@@ -75,7 +76,7 @@ UNIT Enteh Cleric 0x00 Level(1,Ally,0) [9,4] 0x0 0x0 0x0 0x0 [Heal, TorchStaff] 
 UNIT
 
 MaskedGoblin:
-UNIT GoblinSlayer Entombed 0x00 Level(1,Enemy,0) [9,3] 0x0 0x0 0x1 GoblinREDA [SharpClaw] PursueWithoutHeedAI
+UNIT GoblinSlayer Revenant 0x00 Level(1,Enemy,0) [9,3] 0x0 0x0 0x1 GoblinREDA [SharpClaw] PursueWithoutHeedAI
 UNIT
 
 GoblinREDA:
@@ -243,41 +244,50 @@ LOAD1 0x1 EntehGroup
 ENDA
 
 GoblinSlayerSlain:
-LOAD1 0x1 MaskedGoblin
-CAM1 MaskVictim
+//LOAD1 0x1 MaskedGoblin
+//CAM1 MaskVictim
 //text
-STAL 10
+//STAL 10
+//too early, push him back
 FOGVISION 10
 CHECK_ALIVE OldBird1
-BNE 6850 s0 sC
+BEQ 6850 s0 sC
 TurnNPC(OldBird1)
 LABEL 6850
 ENDA
 
 DogSpawn:
+LOAD1 0x1 MaskedGoblin
+CAM1 MaskVictim
+//text
+STAL 10
 LOAD1 0x1 T5Spawn
 CHECK_ALIVE OldBird1
-BNE 6851 s0 sC
+BEQ 6851 s0 sC
 TurnEnemy(OldBird1)
 LABEL 6851
-CHECK_ALIVE OldBird2
-BNE 6852 s0 sC
-TurnNPC(OldBird2)
+CHECK_ALIVE OldBird3
+BEQ 6852 s0 sC
+TurnNPC(OldBird3)
 LABEL 6852
 FOGVISION 8
 ENDA
 
 GiantSpawn:
 LOAD1 0x1 T10Spawn
-CHECK_ALIVE OldBird2
-BNE 6853 s0 sC
-TurnEnemy(OldBird2)
-LABEL 6853
 CHECK_ALIVE OldBird3
-BNE 6854 s0 sC
-TurnNPC(OldBird3)
+BEQ 6853 s0 sC
+TurnEnemy(OldBird3)
+LABEL 6853
+CHECK_ALIVE OldBird2
+BEQ 6854 s0 sC
+TurnNPC(OldBird2)
 LABEL 6854
 FOGVISION 6
+ENDA
+
+HurryUpRain:
+WEATHER 4 //rain, because it's flooded Artifice. Good luck.
 ENDA
 
 LeftBehind:
