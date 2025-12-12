@@ -306,7 +306,7 @@ And we need to get to Alm.[N]
 We absolutely must avoid a war![A][X]
 
 ## Ch14ClaireReportsIn
-[Left][LoadClaire][Right][LoadAlm][FR][LoadCeline]
+[Left][LoadClaire][Right][LoadAlm][FR][LoadRedCeline]
 [Left]
 Your majesty! I don't know what[N]
 happened in Grove Village, but[AN]

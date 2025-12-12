@@ -388,7 +388,7 @@ is utterly pointless. It must end.[AN]
 Preferably at the negotiating table.[A][X]
 
 ## Ch15EndingWarRoomSpat
-[FL][LoadMycen][Left][LoadAlm][Right][LoadCeline][FR][LoadGrey]
+[FL][LoadMycen][Left][LoadAlm][Right][LoadRedCeline][FR][LoadGrey]
 //Mycen, Alm, Celine, Grey
 [Left]
 Was I wrong? Cleive is dead. I[N]
@@ -466,6 +466,7 @@ we could easily defeat Marth.[AN]
 What... have I done? I... need[N]
 to go. I need a minute.[A]
 //if you get her perma-engaged have it flicker a bit here
+[LoadCeline][......]
 [MoveFarFarLeft][Clear]
 [FR]
 Did Celica's hair just... flash[N]

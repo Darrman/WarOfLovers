@@ -526,7 +526,7 @@ As for our teleporting witch...[AN][X]
 [Left][LoadAlm]
 Who are you? You stand in Sofia[N]
 Castle, in the united Valencia...[AN]
-[Right][LoadCeline]
+[Right][LoadRedCeline]
 //Ideally engaged Celine, stronger resemblance
 Alm! I have so much to tell you.[N]
 When I woke up, I was trapped[AN]

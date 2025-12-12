@@ -77,6 +77,7 @@
 - "Executioner": FE6 (Obsidian Daddy, Lenh)
 - Lapis: FE17 (Darrman)
 - Etie: FE17 (Darrman)
+- Chloe: Sterling_Glovner
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)

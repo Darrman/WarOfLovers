@@ -118,7 +118,7 @@ It would take a miracle for us[N]
 to persuade her...[AN][X]
 
 ## Ch16AfterPrepEveryoneTakesPosition
-[Left][LoadAlm][Right][LoadCeline]
+[Left][LoadAlm][Right][LoadRedCeline]
 Everyone else is in position.[N]
 Either we defend Sofia Castle,[AN]
 or we die trying. We don't have[N]
@@ -137,7 +137,7 @@ then, Alm. I promise I shall[N]
 not be long. Please stay safe.[AN][X]
 
 ## Ch16AfterPrepBeforeCelineWarps
-[Right][LoadCeline]
+[Right][LoadRedCeline]
 Alm... this is probably it.[N]
 Forgive me for deceiving you.[A][X]
 
@@ -185,11 +185,11 @@ But she's still supplying us.[N]
 Time to summon some monsters...[A][X]
 
 ## Ch16CelineWarpsIn
-[ML][LoadMarth][FFR][LoadCeline]
+[ML][LoadMarth][FFR][LoadRedCeline]
 WARP RAGNAROK![A][X]
 
 ## Ch16CelineSeesMarth
-[ML][LoadMarth][MR][LoadCeline]
+[ML][LoadMarth][MR][LoadRedCeline]
 So, it's true. As King Diamant said,[N]
 you survived that shipwreck.[AN]
 Louis died in that wreck, you know.[N]
@@ -304,7 +304,7 @@ Someone else replaced her.[AN]
 off to me. We must end this.[A][X]
 
 ## Ch16LouisLimpsIn
-[Right][LoadLouis][FR][LoadFace][0x01][0x01]
+[Right][LoadLouis][FR][LoadChloe]
 //Louis, Chloe; Chloe updated Louis off-screen
 [Right]
 Huff... Queen Celine... It's[N]
@@ -337,7 +337,7 @@ I'll explain when we reach[N]
 Celine. Don't pick any fights![A][X]
 
 ## Ch16CelineWavers
-[ML][LoadCeline][Right][LoadLouis][FR][LoadFace][0x01][0x01]
+[ML][LoadRedCeline][Right][LoadLouis][FR][LoadChloe]
 //Celine, Louis, Chloe
 [Right]
 Your majesty![A]
@@ -549,7 +549,7 @@ Celine's... stopped? What is[N]
 she planning now?[AN][X]
 
 ## Ch16CelineTurns
-[ML][LoadMarth][MR][LoadCeline]
+[ML][LoadMarth][MR][LoadRedCeline]
 I... No, I can't. If I betray[N]
 the Divine One, her revenge[AN]
 will be ruinous. Will there[N]
@@ -629,6 +629,7 @@ Alear... I'm so, so, sorry.[N]
 Please forgive me... Sniff...[AN]
 But... this is the right thing[N]
 to do. I... sob... surrender![AN]
+[LoadCeline][......]
 This is the Ring of the Caring[N]
 Princess! Marth, take it. Give[AN]
 this to Alm, and have him say[N]
@@ -644,7 +645,7 @@ Now, to talk with Alm and end[N]
 this war once and for all.[A][X]
 
 ## Ch16AlmCrushesCeline
-[ML][LoadAlm][MR][LoadCeline]
+[ML][LoadAlm][MR][LoadRedCeline]
 Alm...[A]
 [ML]
 Celica? What are you doing?[N]
@@ -653,6 +654,7 @@ The Akaneians are coming.[AN]
 ...I have something very[N]
 important to tell you.[AN]
 //Disengage
+[LoadCeline]
 I've been lying to you all[N]
 this time. I'm not Celica.[AN]
 [ML]

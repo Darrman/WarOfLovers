@@ -464,7 +464,7 @@ setMugEntry(0xBD, Bartre_Mug, 2,5,2,2)
 
 Valbo_Mug:
 #incext PortraitFormatter "Valbo.png"
-setMugEntry(0xBE, Valbo_Mug, 4,6,4,4)
+setMugEntry(0xBE, Valbo_Mug, 4,7,4,5)
 
 Camus_Mug:
 #incext PortraitFormatter "Camus.png"
@@ -609,11 +609,11 @@ setMugEntry(0xE0, Jonathan_Mug, 2,5,2,3)
 
 Claire_Mug:
 #incext PortraitFormatter "Claire.png"
-setMugEntry(0xE1, Claire_Mug, 4,6,4,4)
+setMugEntry(0xE1, Claire_Mug, 4,7,4,5)
 
 Mycen_Mug:
 #incext PortraitFormatter "Mycen.png"
-setMugEntry(0xE2, Mycen_Mug, 4,6,4,4)
+setMugEntry(0xE2, Mycen_Mug, 4,7,4,5)
 
 Etie_Mug:
 #incext PortraitFormatter "Etie.png"
@@ -621,11 +621,11 @@ setMugEntry(0xE3, Etie_Mug, 4,7,4,5)
 
 Cleive_Mug:
 #incext PortraitFormatter "Cleive.png"
-setMugEntry(0xE4, Cleive_Mug, 4,6,4,4)
+setMugEntry(0xE4, Cleive_Mug, 4,7,4,5)
 
 Grey_Mug:
 #incext PortraitFormatter "Grey.png"
-setMugEntry(0xE5, Grey_Mug, 4,6,4,4)
+setMugEntry(0xE5, Grey_Mug, 4,7,4,5)
 
 Jaden_Mug:
 #incext PortraitFormatter "Jaden.png"
@@ -679,6 +679,38 @@ setMugEntry(0xF0, Raiden_Mug, 10,2,10,4, 3,7,3,4, 1)
 Armstrong_Mug:
 #incext PortraitFormatter "Armstrong.png"
 setMugEntry(0xF1, Armstrong_Mug, 2,4,2,2)
+
+Rosa_Mug:
+#incext PortraitFormatter "Rosa.png"
+setMugEntry(0xF2, Rosa_Mug, 3,8,3,5)
+
+Galuf_Mug:
+#incext PortraitFormatter "Galuf.png"
+setMugEntry(0xF3, Galuf_Mug, 4,7,4,4)
+
+Shadow_Mug:
+#incext PortraitFormatter "Shadow.png"
+setMugEntry(0xF4, Shadow_Mug, 10,4,0,0, 3,7,3,5, 1)
+
+Olimar_Mug:
+#incext PortraitFormatter "Olimar.png"
+setMugEntry(0xF5, Olimar_Mug, 0,4,10,4, 2,6,4,2, 1)
+
+Mewtwo_Mug:
+#incext PortraitFormatter "Mewtwo.png"
+setMugEntry(0xF6, Mewtwo_Mug, 3,5,3,3)
+
+Chloe_Mug:
+#incext PortraitFormatter "Chloe.png"
+setMugEntry(0xF7, Chloe_Mug, 3,5,3,3)
+
+CelineEngaged_Mug:
+#incext PortraitFormatter "CelineEngaged.png"
+setMugEntry(0xF8, CelineEngaged_Mug, 2,6,2,4)
+
+Ganon_Mug:
+#incext PortraitFormatter "Ganon.png"
+setMugEntry(0xF9, Ganon_Mug, 3,5,3,3)
 
 
 //Leftovers from Evening Train Crash 2, may need in future
