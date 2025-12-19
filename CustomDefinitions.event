@@ -244,6 +244,7 @@
 #define Boucheron 0x99
 #define Clanne 0x9a
 #define Ch5xBoss 0x9b
+#define Athena Ch5xBoss
 #define Louis 0x9c
 //Act 2
 #define Ch7Brigand 0x9D

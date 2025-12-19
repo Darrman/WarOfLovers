@@ -16,8 +16,8 @@
    <property name="Anims1" value="5"/>
    <property name="ChapterID" value="25"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x74"/>
-   <property name="MapID" value="0x73"/>
+   <property name="MapChangesID" value="Ch25MapChanges"/>
+   <property name="MapID" value="Ch25Map"/>
    <property name="ObjectType1" value="0x18"/>
    <property name="PaletteID" value="0x48"/>
    <property name="TileConfig" value="0x1a"/>

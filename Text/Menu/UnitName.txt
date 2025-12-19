@@ -1092,6 +1092,11 @@ Captain of the Aritian Royal Guards.[N]
 Claims to have valiantly defended[N]
 Marth from many assassinations.[X]
 
+## KrisDesc2
+The self-proclaimed Emperor of[N]
+Akaneia. A strict, authoritarian[N]
+figure who bears no dissent.[A][X]
+
 ## CaesarName
 Caesar[X]
 
@@ -1287,10 +1292,13 @@ No character is assigned[N]
 to this slot.[X]
 
 ## Ch5xBossName
-Ch. 5x Boss[X]
+Athena[X]
 
 ## Ch5xBossDesc
-Placeholder description.[X]
+//Could I headcanon an identity for this?
+A woman from an unknown land.[N]
+Skilled with a blade, while[N]
+pronouncing W as V.[X]
 
 ## ExecutionerName
 //another member of IRL Bern's founding dynasty

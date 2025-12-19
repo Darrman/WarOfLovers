@@ -50,6 +50,7 @@ I have escaped![A][X]
 #include Story/Chapter3.txt
 #include Story/Chapter4.txt
 #include Story/Chapter5.txt
+#include Story/Chapter5x.txt
 #include Story/Chapter6.txt
 #include Story/Chapter7.txt
 #include Story/Chapter8.txt

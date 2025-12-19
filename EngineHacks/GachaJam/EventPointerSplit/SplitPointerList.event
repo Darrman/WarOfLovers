@@ -64,7 +64,7 @@ TileConfigPointerTable(VillageTileConfig, 0x1AA140) //10
 TileConfigPointerTable(CastleTileConfig, 0x1A8CCC) //1A
 
 #define PlainsTileConfig 0x30
-TileConfigPointerTable(PlainsTileConfig, 0x1A7674) //30
+TileConfigPointerTable(PlainsTileConfig, PlainsTiles /*0x1A7674*/) //30
 
 #define FortTileConfig 0x3e
 TileConfigPointerTable(FortTileConfig, 0x1A6604) //3E
@@ -282,6 +282,13 @@ FE6CastleOstiaPalette:
 ALIGN 4
 FE6CastlePheraePalette:
 #incbin "../../../Maps/Tilesets/FE6CastlePheraePalette.dmp"
+
+ALIGN 4
+PlainsTiles:
+//I figured a tile always took up the same space, but I was wrong
+//and it corrupted the castle data. So, repoint.
+#incext compress "../../../Maps/Tilesets/PlainsDoor.mapchip_config"
+
 
 // ------------------------------- MAP ------------------------------------
 

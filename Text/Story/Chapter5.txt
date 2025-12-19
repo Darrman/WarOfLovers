@@ -667,6 +667,8 @@ We still hold Garda. An option is[N]
 to repeat the War of Darkness[AN]
 and march for Orleans. We could[N]
 try to sail for Peraty as well.[AN]
+//If gaiden requirements met, go!
+//If not, don't. Rewrite this scene a bit.
 [Left]
 Going to Peraty is useless without[N]
 an army, and marching for Devil[AN]

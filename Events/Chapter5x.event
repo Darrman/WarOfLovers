@@ -1,0 +1,260 @@
+EventPointerTable(0x8D, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventEnemy(0x0, WarrenReinforcements, 5)
+TurnEventPlayer(0x0, FleetReinforcements, 7)
+TurnEventEnemy(0x0, WarrenReinforcements, 8)
+TurnEventPlayer(0x0, FleetReinforcements, 10)
+TurnEventEnemy(0x0, WarrenReinforcements, 11)
+TurnEventPlayer(0x0, FleetReinforcements, 13)
+TurnEventEnemy(0x0, TimeUp, 14)
+
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x7,OgumaReappears,Sheeda,Oguma)
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,GeorgesOldVillage,24,5)
+House(0x9,OgumaHouse,15,2) //red roof, but sometimes revisitable
+House(0x0,OldStorageTent,5,4)
+House(0x0,ByShop,26,24)
+Chest(BlueGem,14,8)
+Chest(GoddessIcon,18,9)
+Chest(HeroCrest,27,21)
+Door(12,9)
+Door(16,10)
+Door(27,18)
+Seize(0x3,EndingScene,6,20)
+Armory(Ch5xArmoury,27,24)
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,24,7)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [24,7] 0x0  0x0 0x0 0x0 [Falchion, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [22,3] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [26,6] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [26,8] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [23,7] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [20,9] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [19,7] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [18,5] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [18,7] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [25,6] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [26,9] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [24,6] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Athena Myrmidon_F 0x00 Level(10,Enemy,0) [6,20] 0x0 0x0 0x0 0x0 [Shamshir, ThunderSword] NeverMoveAI
+UNIT Akaneia LanceArmour Athena Level(3,Enemy,1) [7,21] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+UNIT Akaneia LanceArmour Athena Level(3,Enemy,1) [5,21] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+UNIT Akaneia BowArmour Athena Level(3,Enemy,1) [6,22] 0x0 0x0 0x0 0x0 [Longbow] NeverMoveAI
+UNIT Akaneia LanceKnight Athena Level(3,Enemy,1) [8,15] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Akaneia Archer Athena Level(3,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
+UNIT Akaneia LanceKnight Athena Level(3,Enemy,1) [1,8] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT Akaneia LanceKnight Athena Level(3,Enemy,1) [1,9] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT Akaneia LanceKnight Athena Level(3,Enemy,1) [1,10] 0x0 0x0 0x0 0x0 [SlimLance] AttackInRangeAI
+UNIT Akaneia LanceArmour Athena Level(3,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Akaneia Mage Athena Level(3,Enemy,1) [15,13] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT Akaneia Mage Athena Level(3,Enemy,1) [17,11] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT Akaneia Archer Athena Level(3,Enemy,1) [15,15] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT Akaneia Mercenary Athena Level(3,Enemy,1) [14,22] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Akaneia Mercenary Athena Level(3,Enemy,1) [13,21] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT
+
+Bad2:
+UNIT PirateGeneric Pirate 0x0 Level(3,Enemy,1) [21,14] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x0 Level(3,Enemy,1) [18,16] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x0 Level(3,Enemy,1) [25,25] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x0 Level(3,Enemy,1) [16,25] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Pirate 0x0 Level(3,Enemy,1) [19,20] 0x0 0x0 0x0 0x0 [HandAxe] PursueWithoutHeedAI
+UNIT PirateGeneric Hunter 0x0 Level(3,Enemy,1) [25,21] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT PirateGeneric Hunter 0x0 Level(3,Enemy,1) [22,16] 0x0 0x0 0x0 0x0 [Longbow] AttackInRangeAI
+UNIT Akaneia Thief 0x0 Level(3,Enemy,1) [0,9] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] LootingThiefAI
+UNIT PirateGeneric Pirate 0x0 Level(3,NPC,1) [9,3] 0x0 0x0 0x0 0x0 [DevilAxe] PursueWithoutHeedAI
+UNIT
+
+OgumaGroup:
+UNIT Oguma Mercenary 0x0 Level(8,NPC,0) [17,18] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
+UNIT
+
+AkaneianReinforcements:
+UNIT Akaneia LanceKnight Athena Level(5,Enemy,1) [0,8] 0x0 0x0 0x1 ReinforcementREDA1 [Javelin] PursueWithoutHeedAI
+UNIT Akaneia FreeKnight Athena Level(5,Enemy,1) [0,9] 0x0 0x0 0x1 ReinforcementREDA2 [IronSword] PursueWithoutHeedAI
+UNIT Akaneia AxeKnight Athena Level(5,Enemy,1) [0,10] 0x0 0x0 0x1 ReinforcementREDA3 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+LythianReinforcements:
+UNIT Lythos PegasusKnight Athena Level(5,Enemy,1) [27,0] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Lythos PegasusKnight Athena Level(5,Enemy,1) [29,0] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT
+
+KrisFight2:
+UNIT Kris Hero 0x00 Level(20,Enemy,0) [0,9] 0x00 0x00 0x1 KrisREDA [MiracleSword] PursueWithoutHeedAI
+UNIT
+
+Traps1:
+SavePoint(8,15)
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+MUSC M_ANewJourney
+SetBackground(CGBlackScreen)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW Ch5xWorldMap
+TEXTEND
+STAL 10
+LOAD3 0x1 Good
+LOAD1 0x1 OgumaGroup
+CAM1 Marth
+MUSC M_OffToWar
+CALL $9EE2C4 //EndConvo, get rid of black screen
+FlashCursor(Marth,60)
+Text(Ch5xOpeningReturnToPeraty)
+CAM1 Oguma
+FlashCursor(Oguma,60)
+Text(Ch5xOpeningMoodyOguma)
+FADI 10
+LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+CAM1 Athena
+FADU 10
+FlashCursor(Athena,60)
+Text(Ch5xOpeningNeutralityIsNonsense)
+FADI 10
+MUSC M_PreperationsFE11
+CAM1 [0,0]
+FADU 10
+STAL 10
+CAM1 [31,0]
+STAL 10
+CAM1 [31,28]
+STAL 10
+CAM1 [0,28]
+STAL 10
+CAM1 [0,0]
+STAL 10
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MUSC M_Victory
+Text(Ch5xEndingCantRunHere)
+WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
+WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
+MNCH 0x6
+ENDA
+
+OgumaReappears:
+MUSC M_TogetherWeRide
+Text(Ch5xLongTimeNoSee)
+TurnAlly(Oguma)
+NoFade
+ENDA
+
+GeorgesOldVillage:
+Text(Ch5xVillage)
+SVAL s3 SlimLance
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+OgumaHouse:
+SVAL s1 Oguma
+CHECK_ACTIVE
+BEQ 551 s1 sC //branch to his variant
+Text(Ch5xHouse2)
+ENUF 0x9
+GOTO 552
+LABEL 551
+Text(Ch5xHouse2Oguma)
+SVAL s3 Armourslayer
+GIVEITEMTO Oguma
+TILECHANGE 8 //close village
+LABEL 552
+NoFade
+ENDA
+
+OldStorageTent:
+Text(Ch5xHouse1)
+NoFade
+ENDA
+
+ByShop:
+Text(Ch5xHouse3)
+NoFade
+ENDA
+
+WarrenReinforcements:
+LOAD1 0x1 AkaneianReinforcements
+NoFade
+ENDA
+
+FleetReinforcements:
+LOAD1 0x1 LythianReinforcements
+NoFade
+ENDA
+
+TimeUp:
+LOAD1 0x1 AkaneianReinforcements
+LOAD1 0x1 KrisFight2
+CAM1 Kris
+//line
+NoFade
+ENDA
+
+Ch5xArmoury:
+SHLI IronSword IronLance IronAxe IronBow
+ALIGN 4
+
+ReinforcementREDA1:
+REDA [2,8]
+
+ReinforcementREDA2:
+REDA [2,9]
+
+ReinforcementREDA3:
+REDA [2,10]
+
+KrisREDA:
+REDA [4,9]

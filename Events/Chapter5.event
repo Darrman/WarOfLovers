@@ -305,6 +305,10 @@ MUSC M_Conspiracy
 Text(Castle_Hall_Night,Ch5AlfonseAppears)
 MUSC M_OffToWar
 Text(Castle_Hall_Night,Ch5RodyEscapes)
+//gaiden conditional
+SVAL s1 10 //let's say 10 turns to hit the gaiden
+CHECK_TURNS
+BGT 510 s1 sC
 Text(Castle_Hall_Night,Ch5MarthSailsNorth)
 REMU Rody
 SVAL s3 ShieldOfSeals
@@ -313,6 +317,15 @@ WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
 MNCH 0x6
+GOTO 511
+
+LABEL 510
+//new text
+REMU Rody
+SVAL s3 ShieldOfSeals
+GIVEITEMTO Marth
+MNC2 0x24 //Ch5x
+LABEL 511
 ENDA
 
 AfterPrepScreen:
