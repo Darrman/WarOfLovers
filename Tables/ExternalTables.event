@@ -170,6 +170,18 @@ ORG 0x58B12
 BYTE Starlight
 POP
 
+//Get rid of the tower label on the gaidens
+PUSH
+ORG 0x96B18
+BYTE 0xFF
+POP
+
+//Save in the gaidens (ex-tower chapters; Circles)
+PUSH
+ORG 0x9500C
+BYTE 0xC0 0x46 0x05 0xE0
+POP
+
 #include SupportsEndings.event
 #include StatBoostPointers.event
 #include AnimTable.event

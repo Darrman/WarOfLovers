@@ -919,11 +919,13 @@ A powerful echidna and guardian[N]
 of the Master Emerald. Gullible[N]
 and easy to deceive.[X]
 
-## AmyName
-Amy[X]
+## ShadowName
+Shadow[X]
 
-## AmyDesc
-Placeholder description.[X]
+## ShadowDesc
+The ultimate life form. Known for[N]
+being considered a faker and having[N]
+used many different guns.[X]
 
 ## RobotnikName
 Robotnik[X]

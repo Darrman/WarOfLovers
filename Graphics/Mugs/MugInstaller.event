@@ -712,6 +712,14 @@ Ganon_Mug:
 #incext PortraitFormatter "Ganon.png"
 setMugEntry(0xF9, Ganon_Mug, 3,5,3,3)
 
+Athena_Mug:
+#incext PortraitFormatter "Athena.png"
+setMugEntry(0xFA, Athena_Mug, 3,5,3,3)
+
+Jade_Mug:
+#incext PortraitFormatter "Jade.png"
+setMugEntry(0xFB, Jade_Mug, 2,5,2,3)
+
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:

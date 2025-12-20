@@ -239,5 +239,7 @@
 [LoadCelineEngaged] = [LoadFace][0xF8][0x1]
 [LoadRedCeline] = [LoadCelineEngaged]
 [LoadGanon] = [LoadFace][0xF9][0x1]
+[LoadAthena] = [LoadFace][0xFA][0x1]
+[LoadJade] = [LoadFace][0xFB][0x1]
 
 [LoadAnna] = [LoadFace][0x64][0x1]

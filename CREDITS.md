@@ -64,6 +64,7 @@
 - Timerra: Sterling_Glovner
 - Fogado: Sterling_Glovner
 - Veyle: Sterling_Glovner
+- Athena: FE11 (Darrman)
 - Louis: Sterling_Glovner
 - Alfonse: FEH (Darrman)
 - "Ratface": FE7
@@ -78,6 +79,7 @@
 - Lapis: FE17 (Darrman)
 - Etie: FE17 (Darrman)
 - Chloe: Sterling_Glovner
+- Jade: Sterling_Glovner
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)

@@ -55,10 +55,11 @@ Kill the boss sitting[N]
 on the eastern fort[X]
 
 ## Ch5xName
-Chapter 5x[X]
+Ch. 5x: Peraty's Panic[X]
 
 ## Ch5xGoal
-Placeholder[X]
+Seize the gate on[N]
+the southwest island[X]
 
 ## Ch6Name
 Ch. 6: The Icy Seas[X]
@@ -116,10 +117,11 @@ All units escape onto[N]
 a boat to flee Elibe[X]
 
 ## Ch13Name
-Ch. 13: The Floodgates Open[X]
+Ch. 13: The Floodgates Fail[X]
 
 ## Ch13Goal
-Placeholder[X]
+Subdue Valbo, the[N]
+enemy general[X]
 
 ## Ch13xName
 Chapter 13x[X]
@@ -128,22 +130,25 @@ Chapter 13x[X]
 Placeholder[X]
 
 ## Ch14Name
-Chapter 14[X]
+Ch. 14: Fight in the Grove[X]
 
 ## Ch14Goal
-Placeholder[X]
+Rout the Valencian unit[N]
+attacking Marth's army[X]
 
 ## Ch15Name
-Chapter 15[X]
+Ch. 15: Siege of Sofia[X]
 
 ## Ch15Goal
-Placeholder[X]
+Rout the Valencian army[N]
+defending Sofia Castle[X]
 
 ## Ch16Name
-Chapter 16[X]
+Ch. 16: Celine's Fate[X]
 
 ## Ch16Goal
-Placeholder[X]
+Subdue Emperor Alm;[N]
+kill Queen Celine[X]
 
 ## Ch17Name
 Chapter 17[X]

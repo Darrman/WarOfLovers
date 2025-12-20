@@ -149,17 +149,17 @@ CAM1 Marth
 MUSC M_OffToWar
 CALL $9EE2C4 //EndConvo, get rid of black screen
 FlashCursor(Marth,60)
-Text(Ch5xOpeningReturnToPeraty)
+Text(Ship,Ch5xOpeningReturnToPeraty)
 CAM1 Oguma
 FlashCursor(Oguma,60)
-Text(Ch5xOpeningMoodyOguma)
+Text(Fort_Outside,Ch5xOpeningMoodyOguma)
 FADI 10
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 CAM1 Athena
 FADU 10
 FlashCursor(Athena,60)
-Text(Ch5xOpeningNeutralityIsNonsense)
+Text(Castle_Outside,Ch5xOpeningNeutralityIsNonsense)
 FADI 10
 MUSC M_PreperationsFE11
 CAM1 [0,0]
@@ -178,7 +178,8 @@ ENDA
 
 EndingScene:
 MUSC M_Victory
-Text(Ch5xEndingCantRunHere)
+Text(Castle_Hall,Ch5xEndingCantRunHere)
+Text(Castle_Room,Ch5xEndingDiamantAndAlfred)
 WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
@@ -193,7 +194,7 @@ NoFade
 ENDA
 
 GeorgesOldVillage:
-Text(Ch5xVillage)
+Text(Outside_Village_Day,Ch5xVillage)
 SVAL s3 SlimLance
 GIVEITEMTO 0xFFFF
 NoFade
@@ -203,11 +204,11 @@ OgumaHouse:
 SVAL s1 Oguma
 CHECK_ACTIVE
 BEQ 551 s1 sC //branch to his variant
-Text(Ch5xHouse2)
+Text(HouseBG,Ch5xHouse2)
 ENUF 0x9
 GOTO 552
 LABEL 551
-Text(Ch5xHouse2Oguma)
+Text(HouseBG,Ch5xHouse2Oguma)
 SVAL s3 Armourslayer
 GIVEITEMTO Oguma
 TILECHANGE 8 //close village
@@ -216,12 +217,12 @@ NoFade
 ENDA
 
 OldStorageTent:
-Text(Ch5xHouse1)
+Text(HouseBG,Ch5xHouse1)
 NoFade
 ENDA
 
 ByShop:
-Text(Ch5xHouse3)
+Text(HouseBG,Ch5xHouse3)
 NoFade
 ENDA
 
