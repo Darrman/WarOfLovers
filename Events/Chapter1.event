@@ -97,6 +97,12 @@ TooLate:
 UNIT Kris Hero 0x00 Level(20,Enemy,0) [1,0] 0x00 0x00 0x1 KrisREDA [MiracleSword] PursueWithoutHeedAI
 UNIT
 
+GeorgeAndCompany:
+UNIT George Sniper 0x00 Level(5,Ally,0) [15,4] 0x0 0x0 0x1 GeorgeREDA [Partia, IronBow, Vulnerary] NoAI //You don't keep the Partia past Ch6!
+UNIT Ricardo Thief 0x00 Level(3,Ally,0) [15,4] 0x0 0x0 0x1 RicardoREDA [IronSword, Lockpick, Vulnerary] NoAI
+UNIT Malliesia Cleric 0x00 Level(4,Ally,0) [15,4] 0x0 0x0 0x1 MalliesiaREDA [Heal, Hammerne, Vulnerary] NoAI
+UNIT
+
 MarthAlearGroup:
 UNIT Marth Lord 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
@@ -105,14 +111,14 @@ UNIT
 RoyalIntroGroup:
 UNIT Marth Lord 0x00 Level(1,Ally,0) [7,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
-UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [2,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
+UNIT 0xD1 KnightPaladin 0x00 Level(1,NPC,0) [2,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
 UNIT Celine Sage_F 0x00 Level(1,NPC,0) [3,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
 UNIT Diamant Hero 0x00 Level(1,NPC,0) [1,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
 UNIT Alcryst Sniper 0x00 Level(1,NPC,0) [2,1] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
 UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,1] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
 UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
-UNIT 0x87 General 0x00 Level(1,NPC,0) [12,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
-UNIT 0x88 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [11,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
+UNIT 0xD7 General 0x00 Level(1,NPC,0) [12,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
+UNIT 0xD8 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [11,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
 UNIT Veyle Druid_F 0x00 Level(1,NPC,0) [7,8] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
 UNIT
 
@@ -120,22 +126,22 @@ WeddingGroup:
 UNIT Marth Lord 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
 UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
 UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
-UNIT 0x81 KnightPaladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred, dies and unfought
+UNIT 0xD1 KnightPaladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred, dies and unfought
 UNIT Celine Sage_F 0x00 Level(1,NPC,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
 UNIT Diamant Hero 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
 UNIT Alcryst Sniper 0x00 Level(1,NPC,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
 UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
 UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
-UNIT 0x87 General 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra, unfought
-UNIT 0x88 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [10,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
+UNIT 0xD7 General 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra, unfought
+UNIT 0xD8 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [10,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
 UNIT Boucheron Fighter 0x00 Level(1,NPC,0) [5,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Boucheron
-UNIT 0x8B KnightFalcon 0x00 Level(1,NPC,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Chloe
-UNIT 0x8C General 0x00 Level(1,NPC,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Jade
+UNIT Chloe KnightFalcon 0x00 Level(1,NPC,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Chloe
+UNIT Jade General 0x00 Level(1,NPC,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Jade
 UNIT Lapis Swordmaster_F 0x00 Level(1,NPC,0) [1,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Lapis
-UNIT 0x8E Rogue 0x00 Level(1,NPC,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Zelkov
-UNIT 0x8F KnightDragon 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Rosado
-UNIT 0x90 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Merrin
-UNIT 0x91 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Pandreo
+UNIT 0xDE Rogue 0x00 Level(1,NPC,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Zelkov
+UNIT 0xDF KnightDragon 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Rosado
+UNIT 0xE0 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Merrin
+UNIT 0xE1 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Pandreo
 UNIT Veyle Druid_F 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
 UNIT Clanne Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
 UNIT Framme Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
@@ -157,8 +163,8 @@ ALIGN 4
 
 BeginningScene:
 //Intro Setup
-SetBackground(CGBlackScreen)
 EVBIT_MODIFY 1 //No skipping
+SetBackground(CGBlackScreen)
 TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
 TEXTSHOW HackIntro
@@ -195,11 +201,11 @@ FlashCursor(Vander,60)
 Text(Castle_Room,Ch1RoyalIntroductions)
 MOVE 8 Vander [13,1]
 STAL 10
-MOVE 8 0x81 [7,6]
+MOVE 8 0xD1 [7,6]
 MOVE 8 Celine [6,6]
 ENUN
 Text(Castle_Room,Ch1RoyalIntroductionsFirene)
-MOVE 8 0x81 [0,5]
+MOVE 8 0xD1 [0,5]
 MOVE 8 Celine [0,6]
 STAL 10
 MOVE 8 Diamant [7,6]
@@ -209,7 +215,7 @@ Text(Castle_Room,Ch1RoyalIntroductionsBrodia)
 MOVE 8 Diamant [1,0]
 MOVE 8 Alcryst [2,0]
 STAL 10
-MOVE 8 0x81 [4,6]
+MOVE 8 0xD1 [4,6]
 MOVE 8 Celine [5,6]
 MOVE 8 Ivy [7,6]
 MOVE 8 Hortensia [8,6]
@@ -220,12 +226,12 @@ MOVE 8 Hortensia [14,6]
 STAL 10
 MOVE 8 Diamant [1,5]
 MOVE 8 Alcryst [2,5]
-MOVE 8 0x87 [7,6]
-MOVE 8 0x88 [8,6]
+MOVE 8 0xD7 [7,6]
+MOVE 8 0xD8 [8,6]
 ENUN
 Text(Castle_Room,Ch1RoyalIntroductionsSolm)
-MOVE 8 0x87 [11,4]
-MOVE 8 0x88 [11,5]
+MOVE 8 0xD7 [11,4]
+MOVE 8 0xD8 [11,5]
 STAL 10
 MOVE 8 Ivy [12,4]
 MOVE 8 Hortensia [12,5]
@@ -254,23 +260,23 @@ Text(Shrine_lighter,Ch1IObject)
 TurnEnemy(Alear)
 TurnEnemy(Clanne)
 TurnEnemy(Vander)
-TurnEnemy(0x81) //Alfred
+TurnEnemy(0xD1) //Alfred
 TurnEnemy(Celine)
 TurnEnemy(Diamant)
 TurnEnemy(Alcryst)
 TurnEnemy(Ivy)
 TurnEnemy(Hortensia)
-TurnEnemy(0x87) //Timerra
-TurnEnemy(0x88) //Fogado
+TurnEnemy(0xD7) //Timerra
+TurnEnemy(0xD8) //Fogado
 TurnEnemy(Veyle) 
 TurnEnemy(Boucheron)
-TurnEnemy(0x8B) //Chloe
-TurnEnemy(0x8C) //Jade
+TurnEnemy(Chloe) //Chloe
+TurnEnemy(Jade) //Jade
 TurnEnemy(Lapis)
-TurnEnemy(0x8E) //Zelkov
-TurnEnemy(0x8F) //Rosado
-TurnEnemy(0x90) //Merrin
-TurnEnemy(0x91) //Pandreo
+TurnEnemy(0xDE) //Zelkov
+TurnEnemy(0xDF) //Rosado
+TurnEnemy(0xE0) //Merrin
+TurnEnemy(0xE1) //Pandreo
 TurnEnemy(Framme)
 MOVE 8 Marth [7,10]
 ENUN
@@ -292,6 +298,36 @@ Text(Inn,Ch1OpeningBackInWarren)
 MOVE 8 Marth [15,4]
 ENUN
 Text(HouseBG,Ch1OpeningSecretShopNew)
+
+//Want to summon? Yes/No/Never
+EVBIT_MODIFY 1 //No skipping
+TEXTSTART
+TEXTSHOW Ch1OpeningSummonGunYesNo
+TEXTEND
+REMA
+SVAL s7 1 //it's how VBA Ch24 does it, I'm stealing the conditional from there
+BNE 25 s7 sC
+TEXTSTART
+TEXTSHOW Ch1OpeningUseSummonGunYesNo
+TEXTEND
+REMA
+SVAL s7 1 //it's how VBA Ch24 does it, I'm stealing the conditional from there
+BNE 27 s7 sC
+EVBIT_MODIFY 0 //skip
+Text(Ch1OpeningFeelingLucky)
+GOTO 26
+
+LABEL 25
+EVBIT_MODIFY 0 //skip
+ENUT NoSummonGun
+Text(HouseBG,Ch1OpeningNoSummonsPlease)
+GOTO 26
+LABEL 27
+EVBIT_MODIFY 0 //skip
+ENUT NoFirstSummon
+Text(HouseBG,Ch1OpeningNotYet)
+LABEL 26
+
 LOAD1 0x1 CaesarGroup
 CAM1 Caesar
 FlashCursor(Caesar,60)
@@ -343,7 +379,7 @@ Text(HouseBG,Ch1OpeningSecretShop)
 LOAD1 0x1 BadJam
 LOAD1 0x1 LucinaGroup
 Text(Ch1OpeningOrderAttack)
-Text(Ch1OpeningMarthFights)
+Text(Ch1OpeningMarthFightsOld)
 NoFade
 ENDA
 
@@ -355,6 +391,8 @@ CLEN 0
 REMA
 LOAD2 0x1 CutsceneMarth
 FADU 10
+CHECK_EVENTID NoSummonGun
+BNE 4 sC s0 //skip summon if no gun
 MUSC M_TogetherWeRide
 CHECK_EVENTID JamModeOn
 BNE 2 sC s0 //branch if jam mode 
@@ -364,6 +402,7 @@ MOVE 0xFFFF 0xFFFD [1,0]
 ENUN
 ENDWARP
 STAL 20
+LABEL 4
 MUSC M_Victory
 Text(Plain,Ch1EndingNew)
 GOTO 3
@@ -385,11 +424,20 @@ MNCH 0x1
 ENDA
 
 Turn2ActivateGacha:
-Text(HouseBG,Ch1AnnaSummonsAnArmy)
-CAM1 [17,7]
-STAL 10
+CHECK_EVENTID NoSummonGun
+BNE 20 sC s0 //go to the fixed event
+CHECK_EVENTID NoFirstSummon
+BNE 20 sC s0
 CHECK_EVENTID JamModeOn
-BNE 8 sC s0 //branch if jam mode 
+BNE 8 sC s0 //branch if jam mode
+
+MUSC M_Conspiracy
+Text(HouseBG,Ch1TheSummonGunFires)
+MUSC 0x7FFF
+CAM1 [17,7]
+STAL 120
+MUSC M_TogetherWeRide
+STAL 10
 CALL UnitGachaAct1
 WARPIN [16,7]
 MOVE 0xFFFF 0xFFFD [16,7]
@@ -424,9 +472,14 @@ MOVE 0xFFFF 0xFFFD [17,7]
 ENUN
 ENDWARP
 STAL 30
+
+Text(HouseBG,Ch1TheDustSettles)
 
 GOTO 9
 LABEL 8
+Text(HouseBG,Ch1AnnaSummonsAnArmyOld)
+CAM1 [17,7]
+STAL 10 
 CALL UnitGachaJam
 WARPIN [16,7]
 MOVE 0xFFFF 0xFFFD [16,7]
@@ -462,8 +515,21 @@ ENUN
 ENDWARP
 STAL 30
 
+Text(HouseBG,Ch1AfterSummoningOld)
+
 LABEL 9
-Text(HouseBG,Ch1AfterSummoning)
+GOTO 21
+
+//No summon version
+LABEL 20
+MUSC M_TogetherWeRide
+Text(HouseBG,Ch1CuriousGeorge)
+MUSC M_Ricardo
+Text(HouseBG,Ch1MalliesiaMischief)
+CAM1 [15,4]
+LOAD1 0x1 GeorgeAndCompany
+
+LABEL 21
 NoFade
 ENDA
 
@@ -566,6 +632,15 @@ REDA [16,10]
 
 MarthREDA:
 REDA [13,8]
+
+GeorgeREDA:
+REDA [15,6]
+
+MalliesiaREDA:
+REDA [14,5]
+
+RicardoREDA:
+REDA [16,5]
 
 Ch1Armoury:
 SHLI IronSword SteelSword IronLance SteelLance IronAxe SteelAxe IronBow SteelBow

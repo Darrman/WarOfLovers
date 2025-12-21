@@ -249,17 +249,22 @@
 //Act 2
 #define Ch7Brigand 0x9D
 #define Ch7Boss Ch7Brigand
+#define Rodent Ch7Boss
 #define Amber 0x9E
 #define RogueBernBoss 0x9F
+#define Berthold RogueBernBoss
 #define Ch10Boss 0xa0
 #define Citrinne Ch10Boss
 #define Executioner 0xa1
+#define Gebhard Executioner
 #define Ch10xBoss 0xa2
+#define Jade Ch10xBoss
 #define Diamant 0xa3
 #define Alcryst 0xa4
 #define Lapis 0xa5
 //Act 3
 #define Ch13xBoss 0xa6
+#define Chloe Ch13xBoss
 #define Ch14Boss 0xa7
 #define Etie Ch14Boss
 #define Cleive 0xa9
@@ -670,3 +675,6 @@
 //Event IDs
 #define JamModeOn 0x71
 #define DiamantDead 0x72
+#define NoSummonGun 0x73
+#define NoFirstSummon 0x74
+#define OrbMissed 0x75
