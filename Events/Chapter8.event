@@ -104,6 +104,10 @@ UNIT Colonial PegasusKnight Amber Level(6,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SlimLa
 UNIT Colonial Myrmidon Amber Level(8,Enemy,1) [9,4] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT
 
+FirGroup:
+UNIT Fir Myrmidon_F 0x00 Level(5,Ally,0) [1,5] 0x0 0x0 0x0 0x0 [KillingEdge, IronSword] NoAI
+UNIT
+
 CutsceneRandomBadonUnits:
 //just replace with party members
 UNIT Marth Lord 0x00 Level(1,Ally,0) [5,8] 0x0 0x0 0x0 0x0 [Rapier] NoAI
@@ -244,12 +248,17 @@ ENDA
 
 EndingScene:
 Text(Ch8EndingBossDies)
+CHECK_EVENTID NoSummonGun
+BNE 801 s0 sC
+CHECK_EVENTID 0x7 //Fir
+BNE 801 s0 sC
 MUSC M_JoinUs
 CALL UnitGachaAct2
 WARPIN [5,1]
 MOVE 0xFFFF 0xFFFD [5,1]
 ENUN
 ENDWARP
+LABEL 801
 MUSC M_Triumph
 Text(Fort,Ch8EndingInFort)
 MUSC M_Stratagem
@@ -271,9 +280,11 @@ NoFade
 ENDA
 
 EtrurianVillage:
-Text(Outside_Village_Day,Ch8Village2)
-SVAL s3 WhiteGem
-GIVEITEMTO 0xFFFF
+//Text(Outside_Village_Day,Ch8Village2)
+Text(Outside_Village_Day,PlaceholderText)
+//SVAL s3 WhiteGem
+//GIVEITEMTO 0xFFFF
+LOAD1 0x1 FirGroup
 NoFade
 ENDA
 

@@ -256,7 +256,7 @@ ENDA
 
 EndingScene:
 //Still a bit rough, but plenty extra writing needed here anyway
-//Check if all green units alive: if so, no gaiden
+//Check if all green units alive: if not, no gaiden
 CHECK_EVENTID 0xD //set if a green unit dies here
 BNE 1001 s0 sC
 MUSC M_Triumph
@@ -270,6 +270,8 @@ LABEL 1001
 //Will likely revise depending on how the recruitments map out
 //Let's tie Wolt to 10 and Sophia to 10x for now
 CHECK_EVENTID 0x7 //Wolt talked to
+BNE 1002 s0 sC
+CHECK_EVENTID NoSummonGun
 BNE 1002 s0 sC
 MUSC M_JoinUs
 //Check if moving a mount indoors will crash or not; if so stick in a plain tile somewhere

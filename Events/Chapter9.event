@@ -19,6 +19,7 @@ TurnEventNPC(0x0,GuinevereSendsReinforcements,2)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,ReturnOfMiledy,Eliwood,Miledy)
 END_MAIN
 
 LocationBasedEvents:
@@ -254,12 +255,17 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+CHECK_EVENTID NoSummonGun
+BNE 901 s0 sC
+CHECK_EVENTID 0x8 //Miledy
+BNE 901 s0 sC
 MUSC M_JoinUs
 CALL UnitGachaAct2
 WARPIN [8,3]
 MOVE 0xFFFF 0xFFFD [8,3]
 ENUN
 ENDWARP
+LABEL 901
 MUSC M_Triumph
 Text(Castle_Hall,Ch9EndingBernKeep)
 Text(Castle_Hall,Ch9EndingBernKeep2)
@@ -313,6 +319,14 @@ StartingVillage:
 Text(Outside_Village_Day,Ch9Village)
 SVAL s3 Longbow
 GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+ReturnOfMiledy:
+//The more smooth way would be to talk to her, then Guin lets her go in chapter ending
+MUSC M_JoinUs
+Text(PlaceholderText)
+TurnAlly(Miledy)
 NoFade
 ENDA
 

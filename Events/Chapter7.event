@@ -269,12 +269,17 @@ LOAD2 0x0 CutsceneEndingGood
 ENUN
 CAM1 Chiki //she's the furthest left here
 FADU 10
+CHECK_EVENTID NoSummonGun
+BNE 702 s0 sC
+CHECK_EXISTS Barts
+BNE 702 s0 sC //Messy, but Ch6 doesn't have a recruit, so...
 MUSC M_JoinUs
 CALL UnitGachaAct2
 WARPIN [9,20]
 MOVE 0xFFFF 0xFFFD [9,20]
 ENUN
 ENDWARP
+LABEL 702
 //if he died, game over this chapter as how does Marth get to Lycia?
 //maybe write an alt scene if you don't talk to Eliwood
 MUSC M_Triumph

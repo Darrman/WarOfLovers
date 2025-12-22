@@ -177,6 +177,17 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+CHECK_EVENTID NoSummonGun
+BNE 553 s0 sC
+MUSC M_TogetherWeRide
+CALL UnitGachaAct1
+WARPIN [6,18]
+MOVE 0xFFFF 0xFFFD [6,18]
+ENUN
+ENDWARP
+STAL 20
+
+LABEL 553
 MUSC M_Victory
 Text(Castle_Hall,Ch5xEndingCantRunHere)
 Text(Castle_Room,Ch5xEndingDiamantAndAlfred)

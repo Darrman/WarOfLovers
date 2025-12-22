@@ -292,6 +292,8 @@ STAL 10
 //the recruit would spawn on the ship, ideally a cutscene map will be used in the future
 CHECK_EVENTID 0xe //did you recruit Bartre?
 BNE 1205 s0 sC //skip this if so
+CHECK_EVENTID NoSummonGun
+BNE 1205 s0 sC
 MUSC M_JoinUs
 CALL UnitGachaAct2
 WARPIN [5,1]

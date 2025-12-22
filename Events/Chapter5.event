@@ -109,6 +109,13 @@ UNIT Lythos Fleet Alear2 Level(10,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [FireGun] Purs
 UNIT Lythos General Alear2 Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
 UNIT
 
+RiffGroup:
+UNIT Riff Priest 0x00 Level(4,Ally,0) [4,10] 0x0 0x0 0x0 0x0 [Barrier, Heal, Vulnerary] NoAI
+UNIT
+
+LindaGroup:
+UNIT Linda Mage_F 0x00 Level(5,Ally,0) [28,5] 0x0 0x0 0x0 0x0 [Aura, Wind] NoAI
+
 ClanneGroup:
 UNIT Clanne Mage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
 UNIT
@@ -119,7 +126,7 @@ UNIT
 
 CutsceneAlear:
 UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [SilverSword] NeverMoveAI
-UNIT 0x80 /*Vander*/ KnightPaladin 0x00 Level(10,Enemy,0) [12,2] 0x0 0x0 0x0 [SilverLance] NeverMoveAI
+UNIT Vander KnightPaladin 0x00 Level(10,Enemy,0) [12,2] 0x0 0x0 0x0 [SilverLance] NeverMoveAI
 UNIT
 
 CutsceneMarthOutside:
@@ -289,6 +296,10 @@ CALL ReturnToTitle
 LABEL 503
 
 //main game
+CHECK_EVENTID NoSummonGun
+BNE 512 s0 sC
+CHECK_EVENTID 0x8 //Linda's village
+BNE 512 s0 sC
 MUSC M_TogetherWeRide
 CALL UnitGachaAct1
 WARPIN [25,8]
@@ -297,6 +308,7 @@ ENUN
 ENDWARP
 STAL 20
 
+LABEL 512
 MUSC M_Victory
 Text(Ch5BossDead)
 MUSC M_ThemeOfLove
@@ -357,34 +369,40 @@ NoFade
 ENDA
 
 Ch5WestVillage:
+//Let's make Riff need a Marth visit for old time's sake.
 SVAL s1 Marth
 CHECK_ACTIVE
 BEQ 506 s1 sC
 Text(Village,Ch5RiffVillage)
+SVAL s3 Dragonshield
+GIVEITEMTO 0xFFFF
 GOTO 507
 LABEL 506
 Text(Village,Ch5MarthFinallyVisits)
+LOAD1 0x1 RiffGroup
 LABEL 507
-SVAL s3 Dragonshield
-GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Ch5EastVillage:
+//Not sure how to get Linda when you have summons...
+//Just make her the end of chapter summon?
 MUSC M_TogetherWeRide
-Text(Village,Ch5MoneyVillage)
 CHECK_EVENTID JamModeOn
 BNE 508 sC s0 //branch if jam mode 
-CALL UnitGachaAct1
+Text(Village,PlaceholderText) //Linda recruit dialogue
+LOAD1 0x1 LindaGroup
+//CALL UnitGachaAct1
 GOTO 509
 LABEL 508
+Text(Village,Ch5MoneyVillage)
 CALL UnitGachaJam
-LABEL 509
 WARPIN [28,5]
 MOVE 0xFFFF 0xFFFD [28,5]
 ENUN
 ENDWARP
 STAL 20
+LABEL 509
 NoFade
 ENDA
 
