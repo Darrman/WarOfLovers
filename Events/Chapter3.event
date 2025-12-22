@@ -15,9 +15,11 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventEnemy(0x0,Ch3LukeTaunt,1)
+TurnEventNPC(0x0,RosheDrawsNear,2)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,RosheRecruitment,Marth,Roshe)
 END_MAIN
 
 LocationBasedEvents:
@@ -144,6 +146,14 @@ LukeGroup:
 UNIT Luke Cavalier 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Javelin, SteelSword] NeverMoveAI
 UNIT
 
+SajiGroup:
+UNIT Saji Fighter 0x00 Level(2,Ally,0) [7,17] 0x0 0x0 0x0 0x0 [Hammer, Vulnerary] NoAI
+UNIT
+
+RosheGroup:
+UNIT Roshe AxeKnight 0x00 Level(3,NPC,0) [4,0] 0x0 0x0 0x0 0x0 [IronAxe, Vulnerary] PursueWithoutHeedAI
+UNIT
+
 CutsceneMarth:
 UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [28,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [27,13] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
@@ -208,6 +218,13 @@ LOAD1 0x1 BadBanditsJam
 LOAD1 0x1 BadNearLeaf
 LABEL 304
 FADI 10
+CHECK_EVENTID NoFirstSummon
+BNE 310 sC s0
+LOAD1 0x1 SajiGroup
+MOVE 10 Saji [4,11]
+FlashCursor(Saji,60)
+Text(Ch3OpeningSuddenlySaji)
+LABEL 310
 NoFade
 ENDA
 
@@ -219,12 +236,17 @@ LOAD2 0x1 CutsceneMarth
 MUSC M_TogetherWeRide
 CHECK_EVENTID JamModeOn
 BNE 305 sC s0 //branch if jam mode 
+CHECK_EVENTID NoSummonGun
+BNE 309 sC s0
+CHECK_EVENTID 0x8 //Roshe recruitment
+BNE 309 sC s0
 CALL UnitGachaAct1
 WARPIN [28,14]
 MOVE 0xFFFF 0xFFFD [28,14]
 ENUN
 ENDWARP
 STAL 20
+LABEL 309
 FlashCursor(Marth,60)
 MUSC M_Victory
 Text(Woodland,Ch3EndingLuke)
@@ -270,6 +292,7 @@ TEXTSHOW Ch3ImperialEdict
 TEXTEND
 Text(Town_Gate,Ch3SpeechEnd)
 GOTO 306
+//Jam Mode
 LABEL 305
 CALL UnitGachaJam
 WARPIN [28,14]
@@ -308,6 +331,21 @@ CAM1 Leaf
 FlashCursor(Leaf,60)
 Text(Ch3LeafLine)
 LABEL 308
+NoFade
+ENDA
+
+RosheDrawsNear:
+LOAD1 0x1 RosheGroup
+CAM1 Roshe
+FlashCursor(Roshe,60)
+Text(Ch3ReinforcementsFromOrleans)
+NoFade
+ENDA
+
+RosheRecruitment:
+MUSC M_TogetherWeRide
+Text(Ch3RosheGet)
+TurnAlly(Roshe)
 NoFade
 ENDA
 

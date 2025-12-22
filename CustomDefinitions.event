@@ -57,7 +57,7 @@
 #define Tomth 0x09
 #define Ryan 0x0a
 #define Saji 0x0b
-#define EMPTY 0x0c
+#define Roshe 0x0c
 #define Rody 0x0d
 #define Kashim 0x0e
 #define Riff 0x0f //I'm using the Ephraim slot, I need it!

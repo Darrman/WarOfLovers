@@ -39,6 +39,7 @@ an assault from the south.[AN]
 Will he fall into another Trap of Lefcandy?[A][X]
 
 ## Ch2OpeningMarth
+//Pretty stilted, rewrite
 [MR][LoadMarth]
 News certainly travels faster on[N]
 horseback compared to walking.[AN]
@@ -50,6 +51,31 @@ I should have defended Warren?[N]
 No. I can't fight an army alone.[AN]
 Kris's faction grows stronger.[N]
 I must reach Talis, and quickly.[A][X]
+
+## Ch2OpeningTomthAppears
+[ML][LoadMarth][MR][LoadTomth]
+Your majesty, it is an honour.[N]
+I am Tomth, once a knight of[AN]
+Akaneia. I haven't actively[N]
+served ever since I resigned[AN]
+my commission in the face of[N]
+Hardin. I had retired here,[AN]
+but most people here support[N]
+Kris. I, however, do not.[AN]
+[ML]
+So, you wish to fight alongside[N]
+us? I would gladly appreciate[AN]
+that. Though that reminds me.[N]
+Where is Mishelan?[AN]
+[MR]
+Sigh... We don't exactly see[N]
+eye to eye anymore.[AN]
+Last I heard, he was turning his[N]
+band of watchmen into a militia.[AN]
+This civil war is a disgrace.[N]
+Everyone claims to be loyal to[AN]
+you, your highness. We shall soon[N]
+see which faction is truthful.[A][X]
 
 ## Ch2OpeningLyn
 [ML][LoadLyn][MR][LoadFace][0x6B][0x01]
@@ -168,6 +194,9 @@ sooner, but there's nothing to[AN]
 be done. Ryan, did you have any[N]
 orders from your superiors?[AN]
 [ML]
+//Alear wouldn't wait: she'd want the Emblem immediately!
+//Rewrite this a bit: obviously she's staying here, so maybe some
+//wires got crossed somewhere or Alear said X, Alfonse said Y
 Captain Kris had my division guard[N]
 Lefcandy Valley. A mysterious[AN]
 woman has a prisoner held nearby,[N]
@@ -337,6 +366,10 @@ about him, you vanished![AN]
 A few weeks later, Sheeda flew[N]
 off to look for you. She was[AN]
 looking everywhere for you.[N]
+//Rewrite a bit: say she was taken prisoner by Kris at first
+//Then Alear catches wind of things, knocks her out just prior,
+//and then cast the memory-altering magic and introduce at wedding
+//The nightmares can be of forgetting Banutu as a nod to how the brainwashing is
 A few weeks after that, that[AN]
 Alear woman said you were in[N]
 Lythos. I'd never heard of[AN]

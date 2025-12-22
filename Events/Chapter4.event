@@ -218,6 +218,8 @@ ENDA
 EndingScene:
 CHECK_EVENTID 0x8 //Kashim recruited?
 BNE 412 s0 sC //skip recruit
+CHECK_EVENTID NoSummonGun
+BNE 412 s0 sC
 MUSC M_TogetherWeRide
 CHECK_EVENTID JamModeOn
 BNE 410 sC s0 //branch if jam mode

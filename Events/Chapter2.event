@@ -120,6 +120,10 @@ RyanGroup:
 UNIT Ryan Archer 0x00 Level(7,Enemy,0) [12,11] 0x0 0x0 0x0 0x0 [SteelBow] NeverMoveAI
 UNIT
 
+TomthGroup:
+UNIT Tomth LanceArmour 0x00 Level(4,Ally,0) [9,26] 0x0 0x0 0x0 0x0 [IronLance, Vulnerary] NoAI
+UNIT
+
 ChikiGroup:
 //cut down from 10: not very many levels for the entire game, is it?
 UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [5,1] 0x00 0x00 0x0 0x00 [DivineStone, Vulnerary] NoAI
@@ -153,16 +157,31 @@ BNE 201 sC s0 //branch if jam mode
 LOAD1 0x1 RyanGroup
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+Text(Woodland,Ch2OpeningMarth) //to be rewritten
 GOTO 202
 LABEL 201
 LOAD1 0x1 LynGroup
 LOAD1 0x1 BadJam
 LOAD1 0x1 Bad2Jam
+Text(Woodland,Ch2OpeningMarth)
 LABEL 202
 CAM1 Marth
 FADU 10
 MUSC M_OffToWar
-Text(Woodland,Ch2OpeningMarth)
+CHECK_EVENTID NoSummonGun
+BNE 211 sC s0
+CHECK_EVENTID NoFirstSummon
+BNE 211 sC s0
+
+GOTO 212
+LABEL 211
+LOAD1 0x1 TomthGroup
+STAL 10
+MOVE 10 Tomth [8,23]
+ENUN
+FlashCursor(Tomth,60)
+Text(Woodland,Ch2OpeningTomthAppears)
+LABEL 212
 MUSC M_Conspiracy
 CHECK_EVENTID JamModeOn
 BNE 203 sC s0 //branch if jam mode
@@ -179,17 +198,25 @@ NoFade
 ENDA
 
 EndingScene:
-CHECK_EVENTID 0x8 //did you talk to Ryan?
-BNE 207 s0 sC //skip past the random recruit
+CHECK_EVENTID NoSummonGun
+BNE 209 s0 sC //if you can't summon, you don't
 MUSC M_TogetherWeRide
 CHECK_EVENTID JamModeOn
 BNE 205 sC s0 //branch if jam mode 
+CHECK_EVENTID 0x8 //did you talk to Ryan?
+BNE 207 s0 sC //skip past the random recruit
+
 CALL UnitGachaAct1
 WARPIN [12,10]
 MOVE 0xFFFF 0xFFFD [12,10]
 ENUN
 ENDWARP
 STAL 20
+GOTO 210
+LABEL 209
+CHECK_EVENTID 0x8 //did you talk to Ryan?
+BNE 207 s0 sC //play the Ryan version if so
+LABEL 210
 MUSC M_Victory
 Text(Village,Ch2EndingRyan)
 Text(Prison_Cell, Ch2EndingFindingChiki)
@@ -202,6 +229,8 @@ LOAD1 0x1 ChikiGroup
 ENUN
 Text(Castle_Outside, Ch2EndingChikiStory)
 GOTO 206
+
+//Jam Mode
 LABEL 205
 CALL UnitGachaJam
 WARPIN [12,10]
