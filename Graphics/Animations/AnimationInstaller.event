@@ -89,5 +89,26 @@
 #include "ArmourKnight/Bow/BowInstaller.event"
 }
 
+//Halberdier
+{
+#include "Halberdier/Lance/LanceInstaller.event"
+}
+{
+#include "Halberdier/Unarmed/UnarmedInstaller.event"
+}
+
+//Hunter
+{
+#include "Hunter/Bow/BowInstaller.event"
+}
+{
+#include "Hunter/Unarmed/UnarmedInstaller.event"
+}
+
+//Arch Knight
+{
+#include "ArchKnight/Bow/BowInstaller.event"
+}
+
 //Battle Palettes
 #include "Palettes/PaletteSetup.event"

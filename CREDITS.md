@@ -193,6 +193,9 @@
 - Anti-Air: Advance Wars (Amyd, Dark)
 - Tank: Advance Wars (Amyd, Dark)
 - Ice Dragon: SqRtOfPi, shadowofchaos, Marlon0024
+- Halberdier: TheBlindArcher
+- Arch Knight: Orihara_Saki, DerTheVaporeon, Kao, Aurora
+- Hunter: MeatOfJustice, Leo_link, Spud
 
 # Magic Animations:
 - Bolganone: Mikey Seregon

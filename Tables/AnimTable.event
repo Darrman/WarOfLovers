@@ -84,6 +84,27 @@ weaponTypeAnim(animNone, 0x41) //unarmed (lance) armour
 weaponAnimEnd
 
 ALIGN 4
+SetAnimationPointers(Halberdier, HalberdierAnims)
+HalberdierAnims:
+weaponTypeAnim(animLance, 0x42)
+weaponTypeAnim(animNone, 0x43)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(Hunter, HunterAnims)
+HunterAnims:
+weaponTypeAnim(animBow, 0x64)
+weaponTypeAnim(animNone, 0x65)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(ArchKnight, ArchKnightAnims)
+ArchKnightAnims:
+weaponTypeAnim(animBow, 0x5A)
+weaponTypeAnim(animNone, 0x36) //cav unarmed
+weaponAnimEnd
+
+ALIGN 4
 SetAnimationPointers(Infantry, InfantryAnims)
 InfantryAnims:
 weaponTypeAnim(animBow, 0x92)
