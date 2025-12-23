@@ -291,10 +291,16 @@ SVAL s3 IceStone
 GIVEITEMTO Chiki
 MUSC M_Stratagem
 Text(Castle_Room,Ch10EndingSomniel)
+CHECK_EVENTID 0xD //Gaiden check: save the prisoners
+BEQ 1003 s0 sC //flag not set: go
 WM_LOADLOCATION2 0 9 0 //Required to fix chapter name
 WM_SETDESTINATION 0 9 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 9 //Needed for world map narration.
 MNCH 0xB
+GOTO 1004
+LABEL 1003
+MNC2 0x25 //Ch10x
+LABEL 1004
 ENDA
 
 ENDA
