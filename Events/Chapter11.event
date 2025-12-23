@@ -92,7 +92,7 @@ UNIT Ostia LanceArmour Barth Level(10,NPC,1) [16,8] 0x0 0x0 0x0 0x0 [SteelLance]
 UNIT
 
 Bad:
-UNIT Diamant Hero 0x00 Level(3,Enemy,0) [8,25] DropItem 0x0 0x0 0x0 [SilverSword, EarthOrb, RoyRing] AttackInRangeAI
+UNIT Diamant MasterLord 0x00 Level(3,Enemy,0) [8,25] DropItem 0x0 0x0 0x0 [SilverSword, EarthOrb, RoyRing] AttackInRangeAI
 UNIT Brodia Mercenary Diamant Level(10,Enemy,1) [6,23] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT Brodia Soldier Diamant Level(10,Enemy,1) [7,24] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
 UNIT Brodia Myrmidon Diamant Level(12,Enemy,1) [8,22] 0x0 0x0 0x0 0x0 [KillingEdge] AttackInRangeAI
@@ -167,7 +167,7 @@ UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [9,27] 0x0 0x0 0x1 DragonREDA4
 UNIT
 
 CutsceneAlear:
-UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [7,27] 0x0 0x0 0x1 AlearT9REDA [SilverSword] PursueWithoutHeedAI
+UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [7,27] 0x0 0x0 0x1 AlearT9REDA [SilverSword] PursueWithoutHeedAI
 //Ideally her actual Falchion equivalent - not for v0.3!
 UNIT
 
@@ -211,7 +211,7 @@ UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [5,11] 0x0 0x0 0x0 0x0 [SilverSw
 UNIT Marth Lord 0x00 Level(1,Ally,0) [6,10] 0x0 0x0 0x0 0x0 [Rapier] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,8] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,9] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
-UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [7,13] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [7,13] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
 UNIT
 
 CutsceneEndingInside:
@@ -221,7 +221,7 @@ UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [9,3] 0x0 0x0 0x0 0x0 [SilverSwo
 UNIT Marth Lord 0x00 Level(1,Ally,0) [8,4] 0x0 0x0 0x0 0x0 [Rapier] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,5] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,4] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
-UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [22,4] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [22,4] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
 UNIT
 
 CutsceneEndingDurandal:
@@ -233,7 +233,7 @@ UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [24,25] 0x0 0x0 0x1 EliwoodREDA 
 UNIT
 
 CutsceneEndingBad:
-UNIT Alear Swordmaster_F 0x0 Level(20,Enemy,0) [6,21] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [6,21] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
 UNIT Framme Bishop_F 0x0 Level(1,Enemy,0) [7,22] 0x0 0x0 0x0 0x0 [Recover] NoAI
 UNIT Alfonse Hero 0x00 Level(20,Enemy,0) [5,23] 0x00 0x0 0x0 0x0 [Falchion] NoAI
 UNIT Veronica Druid_F 0x00 Level(20,Enemy,0) [4,22] 0x0 0x0 0x0 0x0 [Maph] NoAI

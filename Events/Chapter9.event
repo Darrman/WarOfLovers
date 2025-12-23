@@ -131,7 +131,7 @@ UNIT Marth Lord 0x00 Level(1,Ally,0) [11,25] 0x0 0x0 0x0 0x0 [Rapier] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,25] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [11,26] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
 UNIT RogueBernBoss DragonMaster 0x00 Level(1,Enemy,0) [1,1] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
-UNIT Diamant Hero 0x00 Level(3,Enemy,0) [0,1] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
+UNIT Diamant MasterLord 0x00 Level(3,Enemy,0) [0,1] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
 UNIT RogueBern DragonKnight 0x00 Level(1,Enemy,1) [10,22] 0x0 0x0 0x0 0x0 [IronLance] NoAI
 UNIT
 
@@ -140,11 +140,11 @@ UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [13,24] 0x0 0x0 0x0 0x0 [Elfire, Thunde
 UNIT
 
 CutsceneSomniel:
-UNIT Alear Swordmaster_F 0x00 Level(1,Enemy,0) [7,4] 0x0  0x0 0x0 0x0 [Falchion] NoAI
+UNIT Alear DivineOne 0x00 Level(1,Enemy,0) [7,4] 0x0  0x0 0x0 0x0 [Falchion] NoAI
 UNIT Amber KnightPaladin 0x00 Level(1,Enemy,0) [6,6] 0x0  0x0 0x0 0x0 [SilverLance] NoAI //really Alfred, who dies here
-UNIT Celine Sage_F 0x00 Level(1,Enemy,0) [8,6] 0x0 0x0 0x0 0x0 [Bolganone] NoAI
+UNIT Celine Priestess 0x00 Level(1,Enemy,0) [8,6] 0x0 0x0 0x0 0x0 [Bolganone] NoAI
 UNIT Vander KnightPaladin 0x00 Level(1,Enemy,0) [2,3] 0x0  0x0 0x0 0x0 [SilverLance] NoAI 
-UNIT Diamant Hero 0x00 Level(1,Enemy,0) [0,6] 0x0  0x0 0x0 0x0 [MiracleSword] NoAI 
+UNIT Diamant MasterLord 0x00 Level(1,Enemy,0) [0,6] 0x0  0x0 0x0 0x0 [MiracleSword] NoAI 
 UNIT
 
 Traps1:

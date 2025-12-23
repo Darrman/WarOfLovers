@@ -64,7 +64,7 @@ UNIT
 
 Bad:
 //We're in Valencia, so ideally the AI would be the "if <50%, run to a heal tile no matter what" AI of FE2.
-UNIT Valbo ArmourKnight 0x00 Level(10,Enemy,0) [15,21] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT Valbo General 0x00 Level(1,Enemy,0) [15,21] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
 //keep him on the fort: slows Sheeda down via dismounting (she can take a hit from the single enemy nearby)
 UNIT Valencia ArmourKnight Valbo Level(10,Enemy,1) [8,5] 0x0 0x0 0x0 0x0 [SteelLance] GuardTileAI
 UNIT Valencia ArmourKnight Valbo Level(10,Enemy,1) [9,5] 0x0 0x0 0x0 0x0 [SteelLance] GuardTileAI
@@ -95,7 +95,7 @@ UNIT Marth Lord 0x00 Level(1,Ally,0) [1,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulner
 UNIT
 
 CutsceneValbo:
-UNIT Valbo ArmourKnight 0x00 Level(10,Enemy,0) [3,1] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT Valbo General 0x00 Level(1,Enemy,0) [3,1] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
 UNIT
 
 Traps1:

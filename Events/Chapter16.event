@@ -83,7 +83,7 @@ UNIT
 Bad:
 //Chapter bosses
 UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [9,3] 0x0 0x0 0x0 0x0 [Falchion/*Valencian Falchion*/, LifeOrb] ChaseOnceApproachedAI
-UNIT Celine MageFighter 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, /*CelicaRing*/] PursueWithoutHeedAI
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, /*CelicaRing*/] PursueWithoutHeedAI
 UNIT Grey Hero Alm Level(3,Enemy,0) [11,20] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
 UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [3,18] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI
 UNIT Valencia General Alm Level(3,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
@@ -142,7 +142,7 @@ UNIT
 
 LouisLives:
 UNIT Louis General Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 LouisREDA [ShortSpear, KnightCrest] PursueWithoutHeedAI //ideal: move towards Celine, do not attack
-UNIT Firene /*Chloe*/ KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeREDA [SlimSword, ElysianWhip] PursueWithoutHeedAI //ideal: move towards Celine, do not attack
+UNIT Chloe KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeREDA [SlimSword, ElysianWhip] PursueWithoutHeedAI //ideal: move towards Celine, do not attack
 UNIT
 
 Traps1:

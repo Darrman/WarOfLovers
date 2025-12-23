@@ -43,6 +43,7 @@
 	MountedUnmounted(PegasusKnight, KnightPegasus)
 	MountedUnmounted(FalcoKnight, KnightFalcon)
 	MountedUnmounted(DragonKnight, KnightDragon)
+	MountedUnmounted(DragonKnight_F, KnightDragon_F)
 	MountedUnmounted(FreeKnight, KnightFree)
 	MountedUnmounted(LanceKnight, KnightLance)
 	MountedUnmounted(AxeKnight, KnightAxe)

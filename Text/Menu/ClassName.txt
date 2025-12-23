@@ -395,7 +395,8 @@ Their breath weakens any attackers.[X]
 (Placeholder for promoted Lilina)[X]
 
 ## HeroAlmDesc
-(Placeholder for Alm's class)[X]
+Fierce and regal warriors. Wields[N]
+swords and bows without mercy.[X]
 
 ## LordKnightDesc
 (Placeholder for Celice's descendant)[X]
@@ -415,6 +416,35 @@ Renaming is necessary.)[X]
 ## BasaraDesc
 (Placeholder for hybrid lance/magic[N]
 class. Open to non-Fates name.)[X]
+
+## PriestessName
+Priestess[X]
+
+## PriestessDesc
+Faithful women adept with magic.[N]
+Their demeanour is kind, but stern.[X]
+
+## DivineOneName
+Divine One[X]
+
+## DivineOneDesc
+Divine Dragons of Elyos. Adept with[N]
+the sword and the fist alike.[X]
+
+## DarkChildName
+//universal Fell -> Dark; such an irritating Awakening-ism
+Dark Child[X]
+
+## DarkChildDesc
+Dark Dragons of Elyos. Wielders of[N]
+terrible magic and knives.[X]
+
+## MasterLordName
+Master Lord[X]
+
+## MasterLordDesc
+Nobles of significant skill with[N]
+the sword. Brave and charming.[X]
 
 ## InfantryDesc
 Gun-toting soldiers that form the[N]

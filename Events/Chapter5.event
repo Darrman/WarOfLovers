@@ -120,12 +120,12 @@ ClanneGroup:
 UNIT Clanne Mage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
 UNIT
 
-DivineOne:
-UNIT Alear2 Swordmaster_F /*DracoZombie*/ 0x00 Level(20,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [WretchedAir] NeverMoveAI
+NotSoDivineOne:
+UNIT Alear2 DivineOne /*DracoZombie*/ 0x00 Level(20,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [WretchedAir] NeverMoveAI
 UNIT
 
 CutsceneAlear:
-UNIT Alear Swordmaster_F 0x00 Level(10,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [SilverSword] NeverMoveAI
+UNIT Alear DivineOne 0x00 Level(10,Enemy,0) [12,1] 0x0 0x0 0x0 0x0 [SilverSword] NeverMoveAI
 UNIT Vander KnightPaladin 0x00 Level(10,Enemy,0) [12,2] 0x0 0x0 0x0 [SilverLance] NeverMoveAI
 UNIT
 
@@ -217,7 +217,7 @@ GOTO 502
 LABEL 501
 //the pre-release script assumed Alear was truthful... but I know the truth
 //dragon zombie she will be!
-LOAD1 0x1 DivineOne
+LOAD1 0x1 NotSoDivineOne
 LOAD1 0x1 BadJam
 LOAD1 0x1 Bad2Jam
 LABEL 502

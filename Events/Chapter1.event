@@ -124,11 +124,11 @@ UNIT
 
 WeddingGroup:
 UNIT Marth Lord 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
-UNIT Alear Swordmaster_F 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
+UNIT Alear DivineOne 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
 UNIT Vander KnightPaladin 0x00 Level(1,NPC,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Vander
 UNIT 0xD1 KnightPaladin 0x00 Level(1,NPC,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred, dies and unfought
-UNIT Celine Sage_F 0x00 Level(1,NPC,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
-UNIT Diamant Hero 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
+UNIT Celine Priestess 0x00 Level(1,NPC,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Celine
+UNIT Diamant MasterLord 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
 UNIT Alcryst Sniper 0x00 Level(1,NPC,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
 UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
 UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
@@ -142,7 +142,7 @@ UNIT 0xDE Rogue 0x00 Level(1,NPC,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem,
 UNIT 0xDF KnightDragon 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Rosado
 UNIT 0xE0 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Merrin
 UNIT 0xE1 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Pandreo
-UNIT Veyle Druid_F 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
+UNIT Veyle DarkChild 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
 UNIT Clanne Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
 UNIT Framme Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
 UNIT

@@ -134,7 +134,7 @@ UNIT Colonial FreeKnight 0x0 Level(12,Enemy,1) [39,7] 0x0 0x0 0x1  EastCavalierR
 UNIT
 
 DarkDragon:
-UNIT Veyle Druid_F 0x0 Level(20,Enemy,0) [39,6] 0x0 0x0 0x1 VeyleREDA [Flux, Fenrir, Elixir] PursueWithoutHeedAI
+UNIT Veyle DarkChild 0x0 Level(20,Enemy,0) [39,6] 0x0 0x0 0x1 VeyleREDA [Flux, Fenrir, Elixir] PursueWithoutHeedAI
 UNIT
 
 CutsceneCaveLilinaChiki:
@@ -162,7 +162,7 @@ UNIT
 CutscenePrinceAlcryst:
 UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [2,8] DropItem 0x0 0x0 0x0 [SilverBow, Elephant/*, LynRing*/] NeverMoveAI
 UNIT Lapis Swordmaster_F Alcryst Level(2,Enemy,0) [3,8] 0x0 0x0 0x0 0x0 [SilverBlade, WindSword] NeverMoveAI
-UNIT Diamant Hero 0x00 Level(1,Enemy,0) [18,7] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Diamant MasterLord 0x00 Level(1,Enemy,0) [18,7] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
 UNIT
 
 CutsceneNoDissentAllowed:

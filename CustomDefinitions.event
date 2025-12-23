@@ -387,6 +387,7 @@
 #define KnightFalcon 0x3D
 #define KnightPaladin_F 0x3E
 #define KnightCavalier_F 0x47
+#define KnightDragon_F 0x7E
 //Expanded zone
 #define FreeKnight 0x80
 #define LanceKnight 0x81
@@ -447,6 +448,10 @@
 #define Helicopter 0xB6
 #define Battleship 0xB7
 #define Submarine 0xB8
+#define Priestess 0xB9
+#define MasterLord 0xBA
+#define DivineOne 0xBB
+#define DarkChild 0xBC
 
 //Map sprites
 #define MarthSprite 0x0
