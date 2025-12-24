@@ -509,6 +509,14 @@
 #undef Forblaze //the dummy Forblaze has been overwritten
 #define Forblaze 0xcb
 #define LynRing 0xcc
+#define CelicaRing 0xcd
+#define HectorRing 0xce
+#define EirikaRing 0xcf
+#define Kingsfang 0xd0
+#define FE2Falchion Kingsfang
+#define ValencianBow 0xd1
+#define FE2Bow ValencianBow
+#define WoDao 0xa
 
 //Music
 //Akaneia

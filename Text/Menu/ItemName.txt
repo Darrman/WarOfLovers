@@ -52,6 +52,24 @@ Thunder Sword[X]
 ## ThunderSwordDesc
 Shoots lightning at foes.[X]
 
+## WoDaoName
+Wo Dao[X]
+
+## WoDaoDesc
+High crit. Myrmidons & swordmasters.[X]
+
+## FE2FalchionName
+Kingsfang[X]
+
+## FE2FalchionDesc
+The blade that killed Doma. Alm only.[X]
+
+## FE2BowName
+Valencian Bow[X]
+
+## FE2BowDesc
+A Valencian specialty. Extreme range.[X]
+
 ## QuickRainName
 Quick Rain[X]
 
@@ -324,8 +342,39 @@ The Ring of the Lady of the Plains,[N]
 Lyn. Grants Astra when equipped.[X]
 
 ## LynRingUseDesc
-Grants Astra when[N]
-held.[X]
+Grants Astra when held.[X]
+
+## EirikaRingName
+Eirika's Ring[X]
+
+## EirikaRingDesc
+The Ring of the Azure Twin, Eirika.[N]
+Grants Luna when equipped.[X]
+
+## EirikaRingUseDesc
+Grants Luna when held.[X]
+
+## CelicaRingName
+Celica's Ring[X]
+
+## CelicaRingDesc
+The Ring of the Caring Princess,[N]
+Celica. Grants Rewarp when equipped.[X]
+
+## CelicaRingUseDesc
+Grants Rewarp when held.[X]
+
+## HectorRingName
+Hector's Bracelet[X]
+
+## HectorRingDesc
+The Bracelet of the Brash General,[N]
+Hector. Grants Great Shield when[N]
+equipped.[X]
+
+## HectorRingUseDesc
+Grants Great Shield[N]
+when held.[X]
 
 ## HealName
 Heal Staff[X]

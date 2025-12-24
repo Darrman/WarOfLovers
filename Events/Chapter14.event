@@ -81,7 +81,7 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [2,22] 0x0 0x0 0x0 0x0 [WingSpear
 UNIT
 
 Bad:
-UNIT Etie BowKnight 0x00 Level(1,Enemy,0) [5,3] 0x0  0x0 0x0 0x0 [SilverBow] AttackInRangeAI
+UNIT Etie BowKnight 0x00 Level(1,Enemy,0) [5,3] 0x0  0x0 0x0 0x0 [FE2Bow, SilverBow] AttackInRangeAI
 UNIT DomaFaithful Summoner 0x00 Level(1,Enemy,1) [16,14] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
 UNIT Valencia ArmourKnight 0x00 Level(14,Enemy,1) [22,6] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
 UNIT Valencia ArmourKnight 0x00 Level(14,Enemy,1) [22,7] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI

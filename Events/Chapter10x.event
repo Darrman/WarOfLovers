@@ -61,7 +61,7 @@ Bad:
 //Gist of the chapter: you start in the throne room. Jade is at the main entrance. 
 //It sounds funny to have the front gate heavily guarded but you can just walk through the back, but that's a bit
 //too silly, perhaps? Right now the enemy is grave robbing...
-UNIT Jade General_F 0x0 Level(1,Enemy,0) [10,19] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Jade General_F 0x0 Level(1,Enemy,0) [10,19] DropItem 0x0 0x0 0x0 [SilverLance, HectorRing] NoAI
 UNIT
 
 Traps1:
