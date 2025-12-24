@@ -139,6 +139,12 @@ Again Staff[X]
 ## AgainDesc
 Allows all allies to move again.[X]
 
+## VenomousName
+Venomous[X]
+
+## VenomousDesc
+Holy lance of Firene. Poisons.[X]
+
 ## IotesShieldName
 Iote's Shield[X]
 
@@ -365,7 +371,7 @@ Celica. Grants Rewarp when equipped.[X]
 Grants Rewarp when held.[X]
 
 ## HectorRingName
-Hector's Bracelet[X]
+Hector's Ring[X]
 
 ## HectorRingDesc
 The Bracelet of the Brash General,[N]

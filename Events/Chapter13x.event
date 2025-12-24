@@ -17,6 +17,7 @@ TurnBasedEvents:
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEvent(ChloeSpared,IBelieveThisIsYours,Marth,Chloe,0x7)
 END_MAIN
 
 LocationBasedEvents:
@@ -27,6 +28,8 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+AREA 0x7 OohShiny [29,24] [29,24]
 END_MAIN
 
 Dunno1:
@@ -57,7 +60,59 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [23,29] 0x0 0x0 0x0 0x0 [WingSpea
 UNIT
 
 Bad:
-UNIT DomaFaithful Summoner 0x00 Level(1,Enemy,0) [18,8] 0x0 0x0 0x0 0x0 [Flux] NeverMoveAI
+//Bosses and outside the manor
+UNIT Chloe FalconKnight 0x00 Level(1,Enemy,0) [5,3] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Javelin] AttackInRangeAI
+UNIT DomaFaithful Summoner 0x00 Level(1,Enemy,1) [18,8] DropItem 0x0 0x0 0x0 [Luna, Eclipse, EirikaRing] NeverMoveAI
+UNIT Monster Revenant DomaFaithful Level(5,Enemy,1) [5,18] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI
+UNIT Monster Revenant DomaFaithful Level(5,Enemy,1) [7,17] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI
+UNIT Monster Revenant DomaFaithful Level(5,Enemy,1) [2,18] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI
+UNIT Monster Revenant DomaFaithful Level(5,Enemy,1) [4,17] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI
+UNIT Monster Bonewalker_Bow DomaFaithful Level(5,Enemy,1) [9,18] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Monster Bonewalker DomaFaithful Level(8,Enemy,1) [13,17] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT Monster Bonewalker DomaFaithful Level(8,Enemy,1) [18,18] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Monster Bonewalker DomaFaithful Level(8,Enemy,1) [14,16] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT Monster Bonewalker DomaFaithful Level(8,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [KillingEdge] PursueWithoutHeedAI
+UNIT Monster Bonewalker DomaFaithful Level(8,Enemy,1) [16,20] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
+UNIT Monster DracoZombie DomaFaithful Level(3,Enemy,1) [29,24] DropItem 0x0 0x0 0x0 [WretchedAir, SpiritDust] AttackInRangeAI
+UNIT Monster Gargoyle DomaFaithful Level(8,Enemy,1) [22,21] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Monster Gargoyle DomaFaithful Level(8,Enemy,1) [23,22] 0x0 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT Monster Mogall DomaFaithful Level(8,Enemy,1) [24,23] 0x0 0x0 0x0 0x0 [Flux] PursueWithoutHeedAI
+UNIT
+
+Bad2:
+//In and around the manor
+UNIT Firene PegasusKnight 0x00 Level(11,Enemy,1) [7,3] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT Firene PegasusKnight 0x00 Level(11,Enemy,1) [6,4] 0x0 0x0 0x0 0x0 [SlimLance] AttackInRangeAI
+UNIT Firene PegasusKnight 0x00 Level(11,Enemy,1) [5,5] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT Firene Mercenary 0x00 Level(11,Enemy,1) [13,7] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Firene Fighter 0x00 Level(11,Enemy,1) [22,7] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Firene Archer 0x00 Level(11,Enemy,1) [12,8] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
+UNIT Firene Mage 0x00 Level(11,Enemy,1) [20,8] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
+UNIT Firene Mage 0x00 Level(11,Enemy,1) [15,7] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT Monster Bonewalker_Bow DomaFaithful Level(8,Enemy,1) [13,9] 0x0 0x0 0x0 0x0 [ValencianBow] PursueWithoutHeedAI
+UNIT Monster Bonewalker_Bow DomaFaithful Level(8,Enemy,1) [22,9] 0x0 0x0 0x0 0x0 [ValencianBow] PursueWithoutHeedAI
+UNIT Monster Mogall DomaFaithful Level(8,Enemy,1) [28,1] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT Monster Gargoyle DomaFaithful Level(8,Enemy,1) [29,2] DropItem 0x0 0x0 0x0 [SteelLance, ElysianWhip] AttackInRangeAI
+UNIT Monster Gargoyle DomaFaithful Level(8,Enemy,1) [30,3] 0x0 0x0 0x0 0x0 [IronLance] AttackInRangeAI
+UNIT
+
+Bad3:
+UNIT Firene LanceKnight 0x00 Level(11,Enemy,1) [8,4] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Firene FreeKnight 0x00 Level(11,Enemy,1) [27,4] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Firene AxeArmour 0x00 Level(11,Enemy,1) [17,5] 0x0 0x0 0x0 0x0 [HandAxe] GuardTileAI
+UNIT Firene SwordArmour 0x00 Level(11,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [ThunderSword] GuardTileAI
+UNIT Firene AxeKnight 0x00 Level(11,Enemy,1) [8,13] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Firene ArchKnight 0x00 Level(11,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [SteelBow] ChaseOnceApproachedAI
+UNIT Monster Mogall DomaFaithful Level(8,Enemy,1) [26,17] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
+UNIT Monster Mogall DomaFaithful Level(8,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [Flux] ChaseOnceApproachedAI
+UNIT
+
+NinaGroup:
+UNIT Nina Bishop_F 0x00 Level(7,NPC,0) [1,15] 0x0 0x0 0x0 0x0 [Lightning, Heal, Elixir] GuardTileAI
+UNIT
+
+CamusGroup:
+UNIT Camus Paladin 0x00 Level(1,NPC,0) [6,26] 0x0 0x0 0x0 0x0 [SilverLance, Spear] PursueWithoutHeedAI
 UNIT
 
 Traps1:
@@ -69,8 +124,12 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-LOAD1 0x1 Good
+LOAD3 0x1 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+LOAD1 0x1 Bad3
+LOAD1 0x1 NinaGroup
+LOAD1 0x1 CamusGroup
 GotoPrepScreen
 ENDA
 
@@ -81,7 +140,25 @@ WM_SETNEXTLOCATION 0 0 12 //Needed for world map narration.
 MNCH 14
 ENDA
 
+OohShiny:
+SVAL s3 Venomous
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+IBelieveThisIsYours:
+Text(PlaceholderText)
+RemoveItemFromEverywhere(Venomous)
+STAL 10
+MOVE 10 Chloe [0,8]
+ENUN
+DISA Chloe
+Text(PlaceholderText)
+NoFade
+ENDA
+
 //Chloe: Engage's holy lance is sitting in the southeast fort. Grab it.
 //Then talk to her with Marth and give her the lance back! Then she retreats.
+//(Due to technical limitations (read: I'm a hack), it magically teleports.)
 //Get rid of the Doma Faithful guy too. Of course, you could keep it.
 //Nina: put her above the cliffs, left side of the map, but below the mountains.

@@ -355,6 +355,7 @@
 
 //Friendly NPCs
 #define Merlinus 0xf3
+#define Nina Merlinus //you should try to merge those generics a bit more...
 #define Garret 0xf4
 #define Wallace 0xf5
 #define Marcus 0xf6
@@ -517,6 +518,7 @@
 #define ValencianBow 0xd1
 #define FE2Bow ValencianBow
 #define WoDao 0xa
+#define Venomous 0xd2
 
 //Music
 //Akaneia
@@ -691,3 +693,6 @@
 #define NoSummonGun 0x73
 #define NoFirstSummon 0x74
 #define OrbMissed 0x75
+#define LouisSpared 0x76
+#define ChloeSpared 0x77
+#define CelineRecruited 0x78

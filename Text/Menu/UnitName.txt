@@ -1312,16 +1312,20 @@ Resents bureaucracy and executes[N]
 prisoners without authorisation.[X]
 
 ## Ch10xBossName
-Ch. 10x Boss[X]
+Jade[X]
 
 ## Ch10xBossDesc
-Placeholder description.[X]
+A knight of Brodia and retainer of[N]
+Diamant. Nicknamed the "Iron Wall"[N]
+and of serious demeanour.[X]
 
 ## Ch13xBossName
-Ch. 13x Boss[X]
+Chloe[X]
 
 ## Ch13xBossDesc
-Placeholder description.[X]
+Celine's retainer and knight of[N]
+Firene. A cheerful woman fond of[N]
+fairy tales and folk food.[X]
 
 ## EtieName
 Etie[X]
