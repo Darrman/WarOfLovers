@@ -109,11 +109,11 @@ UNIT Valencia LanceKnight Cleive Level(15,Enemy,1) [4,39] 0x0 0x0 0x0 0x0 [IronL
 UNIT Valencia LanceKnight Cleive Level(15,Enemy,1) [15,28] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
 UNIT Valencia LanceKnight Cleive Level(15,Enemy,1) [5,30] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
 UNIT Valencia Soldier Cleive Level(20,Enemy,1) [10,27] 0x0 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
-UNIT Firene Berserker Cleive Level(1,Enemy,1) [8,25] 0x0 0x0 0x0 0x0 [IronAxe] NeverMoveAI
-UNIT Firene Hero Cleive Level(1,Enemy,1) [9,24] 0x0 0x0 0x0 0x0 [IronAxe] NeverMoveAI
-UNIT Firene Swordmaster Cleive Level(1,Enemy,1) [10,25] 0x0 0x0 0x0 0x0 [IronSword] NeverMoveAI
-UNIT Firene Bishop Cleive Level(1,Enemy,1) [11,24] 0x0 0x0 0x0 0x0 [Lightning, Physic] NeverMoveAI
-UNIT Firene Sage Cleive Level(1,Enemy,1) [12,25] 0x0 0x0 0x0 0x0 [Thunder] NeverMoveAI
+UNIT Firene Berserker Cleive Level(1,Enemy,1) [8,25] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Firene Hero Cleive Level(1,Enemy,1) [9,24] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Firene Swordmaster Cleive Level(1,Enemy,1) [10,25] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Firene Bishop Cleive Level(1,Enemy,1) [11,24] 0x0 0x0 0x0 0x0 [Lightning, Physic] HealUnits
+UNIT Firene Sage Cleive Level(1,Enemy,1) [12,25] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
 UNIT
 
 Traps1:

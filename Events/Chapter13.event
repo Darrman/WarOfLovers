@@ -18,7 +18,7 @@ TurnEventEnemy(0x0,MarthGetsInterrogated,1)
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEvent(0x3,TheValboRecruitment,Sheeda,Valbo)
+CharacterEvent(0x7,TheValboRecruitment,Sheeda,Valbo)
 END_MAIN
 
 LocationBasedEvents:
@@ -30,6 +30,9 @@ END_MAIN
 MiscBasedEvents:
 DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
+#ifdef __DEBUG__
+AREA 0x3 EndingScene [5,1] [5,1]
+#endif
 END_MAIN
 
 Dunno1:
@@ -122,19 +125,32 @@ ENDA
 
 EndingScene:
 //conditionals to be written
+CHECK_EVENTID 0x7 //Valbo talked to
+BEQ 1301 s0 sC //if not jump
 MUSC M_TogetherWeRide
 Text(Castle_Hall_4,Ch13EndingConvincingValbo)
 Text(Castle_Hall_4,Ch13EndingLetLilinaThrough)
 Text(Castle_Hall_4,Ch13EndingValboIsConvinced)
 Text(Castle_Hall_4,Ch13EndingValboTheEscort)
+GOTO 1302
+LABEL 1301
+//Valbo dies variant
+Text(PlaceholderText)
+LABEL 1302
 MUSC M_TwilightOfTheGods //ideally I'd pick a track to call "Alm's theme" - not the final chapter music
 Text(Castle_Room,Ch13EndingAlmMonologue)
 Text(Castle_Room,Ch13EndingCelicaReturns)
 REVEAL Marth //and he's back
+CHECK_EVENTID 0x7 //Valbo talked to
+BNE 1303 s0 sC
 WM_LOADLOCATION2 0 12 0 //Required to fix chapter name
 WM_SETDESTINATION 0 12 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 12 //Needed for world map narration.
 MNCH 14
+GOTO 1304
+LABEL 1303
+MNC2 0x26 //13x
+LABEL 1304
 ENDA
 
 MarthGetsInterrogated:
@@ -143,5 +159,6 @@ ENDA
 
 TheValboRecruitment:
 Text(Ch13SheedaTalksToValbo)
+ENUT 0x3
 CALL EndingScene
 ENDA

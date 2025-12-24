@@ -1596,7 +1596,7 @@ UNIT
 UnitGachaAct1:
 //Just have all currently implemented units for now
 LABEL 5100
-RANDOMNUMBER 41
+RANDOMNUMBER 82
 SVAL s1 0
 BEQ 5100 s1 sC //unit 1
 SVAL s1 1
@@ -1681,6 +1681,89 @@ SVAL s1 40
 BEQ 5140 s1 sC //unit 5
 SVAL s1 41
 BEQ 5141 s1 sC //unit 5
+SVAL s1 42
+BEQ 5142 s1 sC //unit 5
+SVAL s1 43
+BEQ 5143 s1 sC //unit 5
+SVAL s1 44
+BEQ 5144 s1 sC //unit 5
+SVAL s1 45
+BEQ 5145 s1 sC //unit 5
+SVAL s1 46
+BEQ 5146 s1 sC //unit 5
+SVAL s1 47
+BEQ 5147 s1 sC //unit 5
+SVAL s1 48
+BEQ 5148 s1 sC //unit 5
+SVAL s1 49
+BEQ 5149 s1 sC //unit 5
+SVAL s1 50
+BEQ 5150 s1 sC //unit 5
+SVAL s1 51
+BEQ 5151 s1 sC //unit 5
+SVAL s1 52
+BEQ 5152 s1 sC //unit 5
+SVAL s1 51
+BEQ 5151 s1 sC //unit 5
+SVAL s1 54
+BEQ 5154 s1 sC //unit 5
+SVAL s1 55
+BEQ 5155 s1 sC //unit 5
+SVAL s1 56
+BEQ 5156 s1 sC //unit 5
+SVAL s1 57
+BEQ 5157 s1 sC //unit 5
+SVAL s1 58
+BEQ 5158 s1 sC //unit 5
+SVAL s1 59
+BEQ 5159 s1 sC //unit 5
+SVAL s1 60
+BEQ 5160 s1 sC //unit 5
+SVAL s1 61
+BEQ 5161 s1 sC //unit 5
+SVAL s1 62
+BEQ 5162 s1 sC //unit 5
+SVAL s1 63
+BEQ 5163 s1 sC //unit 5
+SVAL s1 64
+BEQ 5164 s1 sC //unit 5
+SVAL s1 65
+BEQ 5165 s1 sC //unit 5
+SVAL s1 66
+BEQ 5166 s1 sC //unit 5
+SVAL s1 67
+BEQ 5167 s1 sC //unit 5
+SVAL s1 68
+BEQ 5168 s1 sC //unit 5
+SVAL s1 69
+BEQ 5169 s1 sC //unit 5
+SVAL s1 70
+BEQ 5170 s1 sC //unit 5
+SVAL s1 71
+BEQ 5171 s1 sC //unit 5
+SVAL s1 72
+BEQ 5172 s1 sC //unit 5
+SVAL s1 73
+BEQ 5173 s1 sC //unit 5
+SVAL s1 74
+BEQ 5174 s1 sC //unit 5
+SVAL s1 75
+BEQ 5175 s1 sC //unit 5
+SVAL s1 76
+BEQ 5176 s1 sC //unit 5
+SVAL s1 77
+BEQ 5177 s1 sC //unit 5
+SVAL s1 78
+BEQ 5178 s1 sC //unit 5
+SVAL s1 79
+BEQ 5179 s1 sC //unit 5
+SVAL s1 80
+BEQ 5180 s1 sC //unit 5
+SVAL s1 81
+BEQ 5181 s1 sC //unit 5
+SVAL s1 82
+BEQ 5182 s1 sC //unit 5
+
 ENDA
 
 LoadMarioAct1:
@@ -2060,6 +2143,376 @@ ENUN
 CALL SlippyCommon
 ENDA
 
+LoadGanonAct1:
+LABEL 5142
+CHECK_EXISTS Ganon
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 GanonUnitAct1
+ENUN
+CALL GanonCommon
+ENDA
+
+LoadSalesmanAct1:
+LABEL 5143
+CHECK_EXISTS Salesman
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SalesmanUnitAct1
+ENUN
+CALL SalesmanCommon
+ENDA
+
+LoadMewtwoAct1:
+LABEL 5144
+CHECK_EXISTS Mewtwo
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MewtwoUnitAct1
+ENUN
+CALL MewtwoCommon
+ENDA
+
+LoadMrGameAndWatchAct1:
+LABEL 5145
+CHECK_EXISTS MrGameAndWatch
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MrGameAndWatchUnitAct1
+ENUN
+CALL MrGAndWCommon
+ENDA
+
+LoadPopoAct1:
+LABEL 5146
+CHECK_EXISTS Popo
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PopoUnitAct1
+ENUN
+CALL PopoCommon
+ENDA
+
+LoadRosaAct1:
+LABEL 5147
+CHECK_EXISTS Rosa
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RosaUnitAct1
+ENUN
+CALL RosaCommon
+ENDA
+
+LoadKainAct1:
+LABEL 5148
+CHECK_EXISTS KainFF4
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KainUnitAct1
+ENUN
+CALL KainFF4Common
+ENDA
+
+LoadRydiaAct1:
+LABEL 5149
+CHECK_EXISTS Rydia
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RydiaUnitAct1
+ENUN
+CALL RydiaCommon
+ENDA
+
+LoadLennaAct1:
+LABEL 5150
+CHECK_EXISTS Lenna
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LennaUnitAct1
+ENUN
+CALL LennaCommon
+ENDA
+
+LoadGalufAct1:
+LABEL 5151
+CHECK_EXISTS Galuf
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 GalufUnitAct1
+ENUN
+CALL GalufCommon
+ENDA
+
+LoadCelesAct1:
+LABEL 5152
+CHECK_EXISTS Celes
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 CelesUnitAct1
+ENUN
+CALL CelesCommon
+ENDA
+
+LoadLockeAct1:
+LABEL 5153
+CHECK_EXISTS Locke
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LockeUnitAct1
+ENUN
+CALL LockeCommon
+ENDA
+
+LoadYugiAct1:
+LABEL 5154
+CHECK_EXISTS Yugi
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 YugiUnitAct1
+ENUN
+CALL YugiCommon
+ENDA
+
+LoadJoeyAct1:
+LABEL 5155
+CHECK_EXISTS Joey
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JoeyUnitAct1
+ENUN
+CALL JoeyCommon
+ENDA
+
+LoadTeaAct1:
+LABEL 5156
+CHECK_EXISTS Tea
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 TeaUnitAct1
+ENUN
+CALL TeaCommon
+ENDA
+
+LoadKaibaAct1:
+LABEL 5157
+CHECK_EXISTS Kaiba
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KaibaUnitAct1
+ENUN
+CALL KaibaCommon
+ENDA
+
+LoadJadenAct1:
+LABEL 5158
+CHECK_EXISTS Jaden
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JadenUnitAct1
+ENUN
+CALL JadenCommon
+ENDA
+
+LoadAlexisAct1:
+LABEL 5159
+CHECK_EXISTS Alexis
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 AlexisUnitAct1
+ENUN
+CALL AlexisCommon
+ENDA
+
+LoadChazzAct1:
+LABEL 5160
+CHECK_EXISTS Chazz
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ChazzUnitAct1
+ENUN
+CALL ChazzCommon
+ENDA
+
+LoadOlimarAct1:
+LABEL 5161
+CHECK_EXISTS Olimar
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 OlimarUnitAct1
+ENUN
+CALL OlimarCommon
+ENDA
+
+LoadLouieAct1:
+LABEL 5162
+CHECK_EXISTS Louie
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LouieUnitAct1
+ENUN
+CALL LouieCommon
+ENDA
+
+LoadPresidentAct1:
+LABEL 5163
+CHECK_EXISTS President
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PresidentUnitAct1
+ENUN
+CALL PresidentCommon
+ENDA
+
+LoadSnakeAct1:
+LABEL 5164
+CHECK_EXISTS Snake
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SnakeUnitAct1
+ENUN
+CALL SnakeCommon
+ENDA
+
+LoadRaidenAct1:
+LABEL 5165
+CHECK_EXISTS Raiden
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RaidenUnitAct1
+ENUN
+CALL RaidenCommon
+ENDA
+
+LoadArmstrongAct1:
+LABEL 5166
+CHECK_EXISTS Armstrong
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ArmstrongUnitAct1
+ENUN
+CALL ArmstrongCommon
+ENDA
+
+LoadSonicAct1:
+LABEL 5167
+CHECK_EXISTS Sonic
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SonicUnitAct1
+ENUN
+CALL SonicCommon
+ENDA
+
+LoadTailsAct1:
+LABEL 5168
+CHECK_EXISTS Tails
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 TailsUnitAct1
+ENUN
+CALL TailsCommon
+ENDA
+
+LoadKnucklesAct1:
+LABEL 5169
+CHECK_EXISTS Knuckles
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KnucklesUnitAct1
+ENUN
+CALL KnucklesCommon
+ENDA
+
+LoadShadowAct1:
+LABEL 5170
+CHECK_EXISTS Shadow
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ShadowUnitAct1
+ENUN
+CALL ShadowCommon
+ENDA
+
+LoadRobotnikAct1:
+LABEL 5171
+CHECK_EXISTS Robotnik
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RobotnikUnitAct1
+ENUN
+CALL RobotnikCommon
+ENDA
+
+LoadFlynnAct1:
+LABEL 5172
+CHECK_EXISTS Flynn
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 FlynnUnitAct1
+ENUN
+CALL FlynnCommon
+ENDA
+
+LoadIsabeauAct1:
+LABEL 5173
+CHECK_EXISTS Isabeau
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 IsabeauUnitAct1
+ENUN
+CALL IsabeauCommon
+ENDA
+
+LoadJonathanAct1:
+LABEL 5174
+CHECK_EXISTS Jonathan
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JonathanUnitAct1
+ENUN
+CALL JonathanCommon
+ENDA
+
+LoadWalterAct1:
+LABEL 5175
+CHECK_EXISTS Walter
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 WalterUnitAct1
+ENUN
+CALL WalterCommon
+ENDA
+
+LoadReimuAct1:
+LABEL 5176
+CHECK_EXISTS Reimu
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ReimuUnitAct1
+ENUN
+CALL ReimuCommon
+ENDA
+
+LoadMarisaAct1:
+LABEL 5177
+CHECK_EXISTS Marisa
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MarisaUnitAct1
+ENUN
+CALL MarisaCommon
+ENDA
+
+LoadMimaAct1:
+LABEL 5178
+CHECK_EXISTS Mima
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MimaUnitAct1
+ENUN
+CALL MimaCommon
+ENDA
+
+LoadYuukaAct1:
+LABEL 5179
+CHECK_EXISTS Yuuka
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 YuukaUnitAct1
+ENUN
+CALL YuukaCommon
+ENDA
+
+LoadShinkiAct1:
+LABEL 5180
+CHECK_EXISTS Shinki
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ShinkiUnitAct1
+ENUN
+CALL ShinkiCommon
+ENDA
+
+LoadAliceAct1:
+LABEL 5181
+CHECK_EXISTS Alice
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 AliceUnitAct1
+ENUN
+CALL AliceCommon
+ENDA
+
+LoadWolfAct1:
+LABEL 5182
+CHECK_EXISTS Wolf
+BNE 5100 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 WolfUnitAct1
+ENUN
+CALL WolfCommon
+ENDA
+
+
 MarioUnitAct1:
 UNIT Mario Brigand 0x00 Level(1, Ally, 0) [255,255] 0x00 0x00 0x0 0x00 [Hammer, HandAxe, Vulnerary] NoAI
 UNIT
@@ -2228,10 +2681,175 @@ SlippyUnitAct1:
 UNIT Slippy Pirate 0x00 Level(1, Ally, 0) [255,255] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
 UNIT
 
+GanonUnitAct1:
+UNIT Ganon Soldier 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+SalesmanUnitAct1:
+UNIT Salesman Shaman 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+WolfUnitAct1:
+UNIT Wolf DragonKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+MewtwoUnitAct1:
+UNIT Mewtwo Shaman 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+MrGameAndWatchUnitAct1:
+UNIT MrGameAndWatch Fighter 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [HandAxe, Vulnerary] NoAI
+UNIT
+
+PopoUnitAct1:
+UNIT Popo Brigand 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT
+
+RosaUnitAct1:
+UNIT Rosa Cleric 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Mend, Vulnerary] NoAI
+UNIT
+
+KainUnitAct1:
+UNIT KainFF4 DragonKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+RydiaUnitAct1:
+UNIT Rydia Mage_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Thunder, Vulnerary] NoAI
+UNIT
+
+LennaUnitAct1:
+UNIT Lenna Cleric 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Mend, Vulnerary] NoAI
+UNIT
+
+GalufUnitAct1:
+UNIT Galuf Myrmidon 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Armourslayer, Vulnerary] NoAI
+UNIT
+
+CelesUnitAct1:
+UNIT Celes Mage_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elwind, Vulnerary] NoAI
+UNIT
+
+LockeUnitAct1:
+UNIT Locke Thief 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+YugiUnitAct1:
+UNIT Yugi Shaman 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+JoeyUnitAct1:
+UNIT Joey Mercenary 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelSword, Vulnerary] NoAI
+UNIT
+
+TeaUnitAct1:
+UNIT Tea Dancer 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SlimSword, Vulnerary] NoAI
+UNIT
+
+KaibaUnitAct1:
+UNIT Kaiba DragonKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Javelin, Vulnerary] NoAI
+UNIT
+
+JadenUnitAct1:
+UNIT Jaden Fighter 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT
+
+AlexisUnitAct1:
+UNIT Alexis PegasusKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SlimLance, Vulnerary] NoAI
+UNIT
+
+ChazzUnitAct1:
+UNIT Chazz LanceArmour 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Javelin, Vulnerary] NoAI
+UNIT
+
+OlimarUnitAct1:
+UNIT Olimar Priest 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
+LouieUnitAct1:
+UNIT Louie Bael 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [FetidClaw, Vulnerary] NoAI
+UNIT
+
+PresidentUnitAct1:
+UNIT President Pirate 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [PoisonAxe, Vulnerary] NoAI
+UNIT
+
+SnakeUnitAct1:
+UNIT Snake Thief 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [PoisonSword, Vulnerary] NoAI
+UNIT
+
+RaidenUnitAct1:
+UNIT Raiden Myrmidon 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+ArmstrongUnitAct1:
+UNIT Armstrong Brigand 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
+UNIT
+
+SonicUnitAct1:
+UNIT Sonic Myrmidon 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+TailsUnitAct1:
+UNIT Tails DragonKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+KnucklesUnitAct1:
+UNIT Knuckles Fighter 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
+UNIT
+
+ShadowUnitAct1:
+UNIT Shadow Myrmidon 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+RobotnikUnitAct1:
+UNIT Robotnik BowArmour 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] NoAI
+UNIT
+
+FlynnUnitAct1:
+UNIT Flynn Monk 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Lightning, Vulnerary] NoAI
+UNIT
+
+WalterUnitAct1:
+UNIT Walter Brigand 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT
+
+JonathanUnitAct1:
+UNIT Jonathan Myrmidon 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+IsabeauUnitAct1:
+UNIT Isabeau Mage_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+UNIT
+
+ReimuUnitAct1:
+UNIT Reimu Soldier 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+MarisaUnitAct1:
+UNIT Marisa Mage_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Thunder, Vulnerary] NoAI
+UNIT
+
+MimaUnitAct1:
+UNIT Mima Shaman_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+YuukaUnitAct1:
+UNIT Yuuka Archer_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronBow, Vulnerary] NoAI
+UNIT
+
+ShinkiUnitAct1:
+UNIT Shinki Troubadour 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
+AliceUnitAct1:
+UNIT Alice Mage_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Fire, Vulnerary] NoAI
+UNIT
+
+
 UnitGachaAct2:
 //Now do it all again! TODO: make this any bit more efficient...
 LABEL 5200
-RANDOMNUMBER 41
+RANDOMNUMBER 82
 SVAL s1 0
 BEQ 5200 s1 sC //unit 1
 SVAL s1 1
@@ -2316,7 +2934,91 @@ SVAL s1 40
 BEQ 5240 s1 sC //unit 5
 SVAL s1 41
 BEQ 5241 s1 sC //unit 5
+SVAL s1 42
+BEQ 5242 s1 sC //unit 5
+SVAL s1 43
+BEQ 5243 s1 sC //unit 5
+SVAL s1 44
+BEQ 5244 s1 sC //unit 5
+SVAL s1 45
+BEQ 5245 s1 sC //unit 5
+SVAL s1 46
+BEQ 5246 s1 sC //unit 5
+SVAL s1 47
+BEQ 5247 s1 sC //unit 5
+SVAL s1 48
+BEQ 5248 s1 sC //unit 5
+SVAL s1 49
+BEQ 5249 s1 sC //unit 5
+SVAL s1 50
+BEQ 5250 s1 sC //unit 5
+SVAL s1 51
+BEQ 5251 s1 sC //unit 5
+SVAL s1 52
+BEQ 5252 s1 sC //unit 5
+SVAL s1 52
+BEQ 5252 s1 sC //unit 5
+SVAL s1 54
+BEQ 5254 s1 sC //unit 5
+SVAL s1 55
+BEQ 5255 s1 sC //unit 5
+SVAL s1 56
+BEQ 5256 s1 sC //unit 5
+SVAL s1 57
+BEQ 5257 s1 sC //unit 5
+SVAL s1 58
+BEQ 5258 s1 sC //unit 5
+SVAL s1 59
+BEQ 5259 s1 sC //unit 5
+SVAL s1 60
+BEQ 5260 s1 sC //unit 5
+SVAL s1 61
+BEQ 5261 s1 sC //unit 5
+SVAL s1 62
+BEQ 5262 s1 sC //unit 5
+SVAL s1 63
+BEQ 5263 s1 sC //unit 5
+SVAL s1 64
+BEQ 5264 s1 sC //unit 5
+SVAL s1 65
+BEQ 5265 s1 sC //unit 5
+SVAL s1 66
+BEQ 5266 s1 sC //unit 5
+SVAL s1 67
+BEQ 5267 s1 sC //unit 5
+SVAL s1 68
+BEQ 5268 s1 sC //unit 5
+SVAL s1 69
+BEQ 5269 s1 sC //unit 5
+SVAL s1 70
+BEQ 5270 s1 sC //unit 5
+SVAL s1 71
+BEQ 5271 s1 sC //unit 5
+SVAL s1 72
+BEQ 5272 s1 sC //unit 5
+SVAL s1 73
+BEQ 5273 s1 sC //unit 5
+SVAL s1 74
+BEQ 5274 s1 sC //unit 5
+SVAL s1 75
+BEQ 5275 s1 sC //unit 5
+SVAL s1 76
+BEQ 5276 s1 sC //unit 5
+SVAL s1 77
+BEQ 5277 s1 sC //unit 5
+SVAL s1 78
+BEQ 5278 s1 sC //unit 5
+SVAL s1 79
+BEQ 5279 s1 sC //unit 5
+SVAL s1 80
+BEQ 5280 s1 sC //unit 5
+SVAL s1 81
+BEQ 5281 s1 sC //unit 5
+SVAL s1 82
+BEQ 5282 s1 sC //unit 5
+
 ENDA
+
 
 LoadMarioAct2:
 LABEL 5200
@@ -2695,6 +3397,376 @@ ENUN
 CALL SlippyCommon
 ENDA
 
+LoadGanonAct2:
+LABEL 5242
+CHECK_EXISTS Ganon
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 GanonUnitAct2
+ENUN
+CALL GanonCommon
+ENDA
+
+LoadSalesmanAct2:
+LABEL 5243
+CHECK_EXISTS Salesman
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SalesmanUnitAct2
+ENUN
+CALL SalesmanCommon
+ENDA
+
+LoadMewtwoAct2:
+LABEL 5244
+CHECK_EXISTS Mewtwo
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MewtwoUnitAct2
+ENUN
+CALL MewtwoCommon
+ENDA
+
+LoadMrGameAndWatchAct2:
+LABEL 5245
+CHECK_EXISTS MrGameAndWatch
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MrGameAndWatchUnitAct2
+ENUN
+CALL MrGAndWCommon
+ENDA
+
+LoadPopoAct2:
+LABEL 5246
+CHECK_EXISTS Popo
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PopoUnitAct2
+ENUN
+CALL PopoCommon
+ENDA
+
+LoadRosaAct2:
+LABEL 5247
+CHECK_EXISTS Rosa
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RosaUnitAct2
+ENUN
+CALL RosaCommon
+ENDA
+
+LoadKainAct2:
+LABEL 5248
+CHECK_EXISTS KainFF4
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KainUnitAct2
+ENUN
+CALL KainFF4Common
+ENDA
+
+LoadRydiaAct2:
+LABEL 5249
+CHECK_EXISTS Rydia
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RydiaUnitAct2
+ENUN
+CALL RydiaCommon
+ENDA
+
+LoadLennaAct2:
+LABEL 5250
+CHECK_EXISTS Lenna
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LennaUnitAct2
+ENUN
+CALL LennaCommon
+ENDA
+
+LoadGalufAct2:
+LABEL 5251
+CHECK_EXISTS Galuf
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 GalufUnitAct2
+ENUN
+CALL GalufCommon
+ENDA
+
+LoadCelesAct2:
+LABEL 5252
+CHECK_EXISTS Celes
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 CelesUnitAct2
+ENUN
+CALL CelesCommon
+ENDA
+
+LoadLockeAct2:
+LABEL 5253
+CHECK_EXISTS Locke
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LockeUnitAct2
+ENUN
+CALL LockeCommon
+ENDA
+
+LoadYugiAct2:
+LABEL 5254
+CHECK_EXISTS Yugi
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 YugiUnitAct2
+ENUN
+CALL YugiCommon
+ENDA
+
+LoadJoeyAct2:
+LABEL 5255
+CHECK_EXISTS Joey
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JoeyUnitAct2
+ENUN
+CALL JoeyCommon
+ENDA
+
+LoadTeaAct2:
+LABEL 5256
+CHECK_EXISTS Tea
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 TeaUnitAct2
+ENUN
+CALL TeaCommon
+ENDA
+
+LoadKaibaAct2:
+LABEL 5257
+CHECK_EXISTS Kaiba
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KaibaUnitAct2
+ENUN
+CALL KaibaCommon
+ENDA
+
+LoadJadenAct2:
+LABEL 5258
+CHECK_EXISTS Jaden
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JadenUnitAct2
+ENUN
+CALL JadenCommon
+ENDA
+
+LoadAlexisAct2:
+LABEL 5259
+CHECK_EXISTS Alexis
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 AlexisUnitAct2
+ENUN
+CALL AlexisCommon
+ENDA
+
+LoadChazzAct2:
+LABEL 5260
+CHECK_EXISTS Chazz
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ChazzUnitAct2
+ENUN
+CALL ChazzCommon
+ENDA
+
+LoadOlimarAct2:
+LABEL 5261
+CHECK_EXISTS Olimar
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 OlimarUnitAct2
+ENUN
+CALL OlimarCommon
+ENDA
+
+LoadLouieAct2:
+LABEL 5262
+CHECK_EXISTS Louie
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 LouieUnitAct2
+ENUN
+CALL LouieCommon
+ENDA
+
+LoadPresidentAct2:
+LABEL 5263
+CHECK_EXISTS President
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 PresidentUnitAct2
+ENUN
+CALL PresidentCommon
+ENDA
+
+LoadSnakeAct2:
+LABEL 5264
+CHECK_EXISTS Snake
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SnakeUnitAct2
+ENUN
+CALL SnakeCommon
+ENDA
+
+LoadRaidenAct2:
+LABEL 5265
+CHECK_EXISTS Raiden
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RaidenUnitAct2
+ENUN
+CALL RaidenCommon
+ENDA
+
+LoadArmstrongAct2:
+LABEL 5266
+CHECK_EXISTS Armstrong
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ArmstrongUnitAct2
+ENUN
+CALL ArmstrongCommon
+ENDA
+
+LoadSonicAct2:
+LABEL 5267
+CHECK_EXISTS Sonic
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 SonicUnitAct2
+ENUN
+CALL SonicCommon
+ENDA
+
+LoadTailsAct2:
+LABEL 5268
+CHECK_EXISTS Tails
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 TailsUnitAct2
+ENUN
+CALL TailsCommon
+ENDA
+
+LoadKnucklesAct2:
+LABEL 5269
+CHECK_EXISTS Knuckles
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 KnucklesUnitAct2
+ENUN
+CALL KnucklesCommon
+ENDA
+
+LoadShadowAct2:
+LABEL 5270
+CHECK_EXISTS Shadow
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ShadowUnitAct2
+ENUN
+CALL ShadowCommon
+ENDA
+
+LoadRobotnikAct2:
+LABEL 5271
+CHECK_EXISTS Robotnik
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 RobotnikUnitAct2
+ENUN
+CALL RobotnikCommon
+ENDA
+
+LoadFlynnAct2:
+LABEL 5272
+CHECK_EXISTS Flynn
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 FlynnUnitAct2
+ENUN
+CALL FlynnCommon
+ENDA
+
+LoadIsabeauAct2:
+LABEL 5273
+CHECK_EXISTS Isabeau
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 IsabeauUnitAct2
+ENUN
+CALL IsabeauCommon
+ENDA
+
+LoadJonathanAct2:
+LABEL 5274
+CHECK_EXISTS Jonathan
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 JonathanUnitAct2
+ENUN
+CALL JonathanCommon
+ENDA
+
+LoadWalterAct2:
+LABEL 5275
+CHECK_EXISTS Walter
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 WalterUnitAct2
+ENUN
+CALL WalterCommon
+ENDA
+
+LoadReimuAct2:
+LABEL 5276
+CHECK_EXISTS Reimu
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ReimuUnitAct2
+ENUN
+CALL ReimuCommon
+ENDA
+
+LoadMarisaAct2:
+LABEL 5277
+CHECK_EXISTS Marisa
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MarisaUnitAct2
+ENUN
+CALL MarisaCommon
+ENDA
+
+LoadMimaAct2:
+LABEL 5278
+CHECK_EXISTS Mima
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 MimaUnitAct2
+ENUN
+CALL MimaCommon
+ENDA
+
+LoadYuukaAct2:
+LABEL 5279
+CHECK_EXISTS Yuuka
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 YuukaUnitAct2
+ENUN
+CALL YuukaCommon
+ENDA
+
+LoadShinkiAct2:
+LABEL 5280
+CHECK_EXISTS Shinki
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 ShinkiUnitAct2
+ENUN
+CALL ShinkiCommon
+ENDA
+
+LoadAliceAct2:
+LABEL 5281
+CHECK_EXISTS Alice
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 AliceUnitAct2
+ENUN
+CALL AliceCommon
+ENDA
+
+LoadWolfAct2:
+LABEL 5282
+CHECK_EXISTS Wolf
+BNE 5200 s0 sC //If unit exists, pick someone else
+LOAD1 0x1 WolfUnitAct2
+ENUN
+CALL WolfCommon
+ENDA
+
+
 //Only difference is auto-level to 5. No time to mess with equipment.
 
 MarioUnitAct2:
@@ -2864,6 +3936,171 @@ UNIT
 SlippyUnitAct2:
 UNIT Slippy Pirate 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
 UNIT
+
+GanonUnitAct2:
+UNIT Ganon Soldier 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+SalesmanUnitAct2:
+UNIT Salesman Shaman 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+WolfUnitAct2:
+UNIT Wolf DragonKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+MewtwoUnitAct2:
+UNIT Mewtwo Shaman 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Luna, Vulnerary] NoAI
+UNIT
+
+MrGameAndWatchUnitAct2:
+UNIT MrGameAndWatch Fighter 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [HandAxe, Vulnerary] NoAI
+UNIT
+
+PopoUnitAct2:
+UNIT Popo Brigand 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Hammer, Vulnerary] NoAI
+UNIT
+
+RosaUnitAct2:
+UNIT Rosa Cleric 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Mend, Vulnerary] NoAI
+UNIT
+
+KainUnitAct2:
+UNIT KainFF4 DragonKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+RydiaUnitAct2:
+UNIT Rydia Mage_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Thunder, Vulnerary] NoAI
+UNIT
+
+LennaUnitAct2:
+UNIT Lenna Cleric 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
+GalufUnitAct2:
+UNIT Galuf Myrmidon 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+CelesUnitAct2:
+UNIT Celes Mage_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Wind, Vulnerary] NoAI
+UNIT
+
+LockeUnitAct2:
+UNIT Locke Thief 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [WindSword, Vulnerary] NoAI
+UNIT
+
+YugiUnitAct2:
+UNIT Yugi Shaman 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+JoeyUnitAct2:
+UNIT Joey Mercenary 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelSword, Vulnerary] NoAI
+UNIT
+
+TeaUnitAct2:
+UNIT Tea Dancer 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SlimSword, Vulnerary] NoAI
+UNIT
+
+KaibaUnitAct2:
+UNIT Kaiba DragonKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [ShortSpear, Vulnerary] NoAI
+UNIT
+
+JadenUnitAct2:
+UNIT Jaden Fighter 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT
+
+AlexisUnitAct2:
+UNIT Alexis PegasusKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+ChazzUnitAct2:
+UNIT Chazz LanceArmour 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [ShortSpear, Vulnerary] NoAI
+UNIT
+
+OlimarUnitAct2:
+UNIT Olimar Priest 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Heal, Vulnerary] NoAI
+UNIT
+
+LouieUnitAct2:
+UNIT Louie Bael 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SharpClaw, Vulnerary] NoAI
+UNIT
+
+PresidentUnitAct2:
+UNIT President Pirate 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [PoisonAxe, Vulnerary] NoAI
+UNIT
+
+SnakeUnitAct2:
+UNIT Snake Thief 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [PoisonSword, Vulnerary] NoAI
+UNIT
+
+RaidenUnitAct2:
+UNIT Raiden Myrmidon 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+ArmstrongUnitAct2:
+UNIT Armstrong Brigand 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
+UNIT
+
+SonicUnitAct2:
+UNIT Sonic Myrmidon 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+TailsUnitAct2:
+UNIT Tails DragonKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+KnucklesUnitAct2:
+UNIT Knuckles Fighter 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
+UNIT
+
+ShadowUnitAct2:
+UNIT Shadow Myrmidon 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+RobotnikUnitAct2:
+UNIT Robotnik BowArmour 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelBow, Vulnerary] NoAI
+UNIT
+
+FlynnUnitAct2:
+UNIT Flynn Monk 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Shine, Vulnerary] NoAI
+UNIT
+
+WalterUnitAct2:
+UNIT Walter Brigand 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe, Vulnerary] NoAI
+UNIT
+
+JonathanUnitAct2:
+UNIT Jonathan Myrmidon 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT
+
+IsabeauUnitAct2:
+UNIT Isabeau Mage_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elfire, Vulnerary] NoAI
+UNIT
+
+ReimuUnitAct2:
+UNIT Reimu Soldier 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT
+
+MarisaUnitAct2:
+UNIT Marisa Mage_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elthunder, Vulnerary] NoAI
+UNIT
+
+MimaUnitAct2:
+UNIT Mima Shaman_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Flux, Vulnerary] NoAI
+UNIT
+
+YuukaUnitAct2:
+UNIT Yuuka Archer_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Longbow, Vulnerary] NoAI
+UNIT
+
+ShinkiUnitAct2:
+UNIT Shinki Troubadour 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Mend, Vulnerary] NoAI
+UNIT
+
+AliceUnitAct2:
+UNIT Alice Mage_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elfire, Vulnerary] NoAI
+UNIT
+
 
 UnitGachaAct3:
 //Now do it all again! TODO: make this any bit more efficient...

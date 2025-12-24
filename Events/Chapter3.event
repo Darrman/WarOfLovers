@@ -218,13 +218,17 @@ LOAD1 0x1 BadBanditsJam
 LOAD1 0x1 BadNearLeaf
 LABEL 304
 FADI 10
+CHECK_EVENTID NoSummonGun
+BNE 310 sC s0
 CHECK_EVENTID NoFirstSummon
 BNE 310 sC s0
+GOTO 311
+LABEL 310
 LOAD1 0x1 SajiGroup
 MOVE 10 Saji [4,11]
 FlashCursor(Saji,60)
 Text(Ch3OpeningSuddenlySaji)
-LABEL 310
+LABEL 311
 NoFade
 ENDA
 

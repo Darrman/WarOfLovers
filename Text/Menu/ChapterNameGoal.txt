@@ -133,15 +133,15 @@ Placeholder[X]
 Ch. 14: Fight in the Grove[X]
 
 ## Ch14Goal
-Rout the Valencian unit[N]
+Rout the Valencians[N]
 attacking Marth's army[X]
 
 ## Ch15Name
 Ch. 15: Siege of Sofia[X]
 
 ## Ch15Goal
-Rout the Valencian army[N]
-defending Sofia Castle[X]
+Rout the Valencians[N]
+guarding Sofia Castle[X]
 
 ## Ch16Name
 Ch. 16: Celine's Fate[X]
