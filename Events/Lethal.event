@@ -18,6 +18,7 @@ TurnEventPlayer(0x0,EntehMakesItOut,2)
 TurnEventPlayer(0x0,GoblinSlayerSlain,3)
 TurnEventPlayer(0x0,DogSpawn,5)
 TurnEventPlayer(0x0,GiantSpawn,10)
+TurnEventPlayer(0x0,HurryUpRain,17)
 TurnEventEnemy(0x0,LeftBehind,18)
 END_MAIN
 
@@ -57,10 +58,10 @@ Bad:
 //Boss: Wuxia Chicken. Dead guy spawns as a mask (zombie) fairly quickly. Old Birds flip between red and green every so often.
 //Stretch goal: normal mode is a reasonable chapter and you can fight some of the enemies.
 //Hard mode is truly Lethal Company: insta-kills everywhere and all enemies are ambush spawns.
-UNIT Chicken Swordmaster 0x0 Level(1,Enemy,0) [11,27] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT Chicken Swordmaster 0x0 Level(1,Enemy,0) [11,27] DropItem 0x0 0x0 0x0 [IronSword, Antitoxin] AttackInRangeAI
 UNIT OldBird1 Sniper 0x00 Level(1,Enemy,0) [19,19] 0x0  0x0 0x0 0x0 [Ballista] AttackInRangeAI
 UNIT OldBird2 Sniper 0x00 Level(1,Enemy,0) [6,20] 0x0  0x0 0x0 0x0 [BraveBow] ChaseOnceApproachedAI
-UNIT OldBird3 Sniper 0x00 Level(1,Enemy,0) [15,17] 0x0  0x0 0x0 0x0 [Ballista] ChaseOnceApproachedAI
+UNIT OldBird3 Sniper 0x00 Level(1,Enemy,0) [15,17] 0x0  0x0 0x0 0x0 [Ballista] AttackInRangeAI
 UNIT Giant Cyclops 0x00 Level(1,Enemy,0) [9,22] 0x0  0x0 0x0 0x0 [IronAxe] ChaseOnceApproachedAI
 UNIT Giant Cyclops 0x00 Level(1,Enemy,0) [2,15] 0x0  0x0 0x0 0x0 [IronAxe] AttackInRangeAI
 UNIT Dog Gwyllgi 0x00 Level(1,Enemy,0) [22,7] 0x0  0x0 0x0 0x0 [FireFang] AttackInRangeAI
@@ -72,15 +73,18 @@ UNIT BaboonHawk Brigand 0x00 Level(1,Enemy,0) [16,22] 0x0  0x0 0x0 0x0 [IronAxe]
 UNIT
 
 EntehGroup:
-UNIT Enteh Cleric 0x00 Level(1,Ally,0) [9,4] 0x0 0x0 0x0 0x0 [Heal, TorchStaff] NoAI
+UNIT Enteh Cleric 0x00 Level(1,Ally,0) [9,3] 0x0 0x0 0x1 EntehREDA [Heal, TorchStaff, Vulnerary] NoAI
 UNIT
+
+EntehREDA:
+REDA [9,5]
 
 MaskedGoblin:
 UNIT GoblinSlayer Revenant 0x00 Level(1,Enemy,0) [9,3] 0x0 0x0 0x1 GoblinREDA [SharpClaw] PursueWithoutHeedAI
 UNIT
 
 GoblinREDA:
-REDA [9,5]
+REDA [9,4]
 
 T5Spawn:
 UNIT Dog Gwyllgi 0x00 Level(1,Enemy,0) [11,11] 0x0  0x0 0x0 0x0 [FireFang] AttackInRangeAI
@@ -341,9 +345,9 @@ LOAD1 0x1 EntehGroup
 ENDA
 
 GoblinSlayerSlain:
-LOAD1 0x1 MaskedGoblin
-CAM1 MaskVictim
-FlashCursor(GoblinSlayer,60)
+//LOAD1 0x1 MaskedGoblin
+//CAM1 MaskVictim
+//FlashCursor(GoblinSlayer,60)
 //text
 //STAL 10
 //too early, push him back

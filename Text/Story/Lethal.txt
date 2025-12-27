@@ -700,7 +700,7 @@ I believe I am competent at this[N]
 too. Sha![A][X]
 
 ## LethalMineMishap
-[ML][LoadSigurd][MR][LoadFace][0x01][0x01]
+[ML][LoadSigurd][MR][LoadSnorlax]
 [ML]
 //SIGURD:
 Snorlax, be careful. There[N]
@@ -922,7 +922,7 @@ that has no shortage of problems[N]
 too. Dangerous times. - S. A.[A][X]
 
 ## LethalPrepareToTakeOff
-[ML][LoadSigurd][MR][LoadFace][0x01][0x01]
+[ML][LoadSigurd][MR][LoadEmeraldHerald]
 //HERALD:
 Anyone who's not on board the[N]
 ship is going to be left behind.[AN]
@@ -981,7 +981,7 @@ afraid. This is all beyond me.[A]
 the Company its 5,000 so we live.[AN]
 Then we take manual control and[N]
 aim for some nearby planet![A]
-[FL][Clear][LoadFace][0x01][0x01]
+[FL][Clear][LoadEmeraldHerald]
 //HERALD:
 ...I see. Hope shines in your eyes.[N]
 It would serve you well to unite[AN]

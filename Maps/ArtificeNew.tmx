@@ -5,7 +5,7 @@
  </tileset>
  <layer id="1" name="Main" width="24" height="32">
   <properties>
-   <property name="Anims1" value="5"/>
+   <property name="Anims1" value="0x12"/>
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="0"/>
    <property name="Main" value=""/>
@@ -701,9 +701,9 @@
    <tile gid="623"/>
    <tile gid="623"/>
    <tile gid="623"/>
-   <tile gid="623"/>
    <tile gid="626"/>
    <tile gid="560"/>
+   <tile gid="558"/>
    <tile gid="193"/>
    <tile gid="321"/>
    <tile gid="231"/>
@@ -726,7 +726,7 @@
    <tile gid="529"/>
    <tile gid="529"/>
    <tile gid="529"/>
-   <tile gid="529"/>
+   <tile gid="558"/>
    <tile gid="558"/>
    <tile gid="225"/>
    <tile gid="141"/>
@@ -749,9 +749,9 @@
    <tile gid="625"/>
    <tile gid="623"/>
    <tile gid="623"/>
-   <tile gid="623"/>
    <tile gid="626"/>
    <tile gid="560"/>
+   <tile gid="558"/>
    <tile gid="133"/>
    <tile gid="206"/>
    <tile gid="199"/>
