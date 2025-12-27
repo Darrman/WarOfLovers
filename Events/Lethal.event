@@ -90,6 +90,33 @@ T10Spawn:
 UNIT Giant Cyclops 0x00 Level(1,Enemy,0) [9,8] 0x0  0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
 UNIT
 
+CutsceneIntoTheDungeon:
+UNIT Sigurd FreeKnight 0x00 Level(1,Ally,0) [11,25] 0x0  0x0 0x0 0x0 [IronSword, SlimSword, Vulnerary] NoAI
+UNIT Mario Lord 0x00 Level(1,Ally,0) [10,26] 0x0  0x0 0x0 0x0 [Mallet, DevilAxe, Vulnerary] NoAI
+UNIT Mima Sage_F 0x00 Level(1,Ally,0) [12,26] 0x0  0x0 0x0 0x0 [Elfire, Lightning, StopSign] NoAI
+UNIT Hornet Soldier 0x00 Level(1,Ally,0) [10,27] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
+UNIT 0xD0 Sniper 0x00 Level(1,Ally,0) [12,27] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Shirou
+UNIT MaskVictim General 0x00 Level(1,Ally,0) [15,27] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Goblin
+UNIT 0xD2 Bishop_F 0x00 Level(1,Ally,0) [15,29] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Herald
+UNIT Enteh Cleric 0x00 Level(1,Ally,0) [13,29] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
+UNIT 0xD3 Cyclops 0x00 Level(1,Ally,0) [9,29] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Snorlax
+UNIT
+
+CutsceneMineMadness:
+UNIT Sigurd KnightFree 0x00 Level(1,Ally,0) [10,17] 0x0  0x0 0x0 0x0 [IronSword, SlimSword, Vulnerary] NoAI
+UNIT Mario Lord 0x00 Level(1,Ally,0) [9,18] 0x0  0x0 0x0 0x0 [Mallet, DevilAxe, Vulnerary] NoAI
+UNIT Mima Sage_F 0x00 Level(1,Ally,0) [11,18] 0x0  0x0 0x0 0x0 [Elfire, Lightning, StopSign] NoAI
+UNIT Hornet Soldier 0x00 Level(1,Ally,0) [2,17] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
+UNIT 0xD0 Sniper 0x00 Level(1,Ally,0) [2,18] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Shirou
+UNIT MaskVictim General 0x00 Level(1,Ally,0) [15,27] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Goblin
+UNIT Enteh Cleric 0x00 Level(1,Ally,0) [12,19] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
+UNIT 0xD3 Cyclops 0x00 Level(1,Ally,0) [9,19] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Snorlax
+UNIT 0xD4 Revenant 0x00 Level(1,Enemy,0) [6,14] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI //mask
+UNIT 0xD5 Sniper 0x00 Level(1,Enemy,0) [8,8] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI //turret
+UNIT 0xD6 Wight 0x00 Level(1,Enemy,0) [10,2] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI //Bracken
+UNIT
+
+
 Traps1:
 Scrap(10,5) //Test
 Scrap(2,3) //Hangar exit
@@ -193,22 +220,92 @@ CenterTutorialTextBox
 TEXTSHOW LethalPlanetIntroduction
 TEXTEND
 STAL 30
+LOAD2 0x1 CutsceneIntoTheDungeon
 CALL $9EE2C4 //EndConvo, get rid of black screen
 MUSC M_OffToWar
+CAM1 Mario
+FlashCursor(Sigurd,60)
 Text(Shrine_lighter,LethalPreArtificeBriefing)
+FADI 10
+MOVE 10 Sigurd [10,10]
+ENUN
+STAL 5
+RECLASS Sigurd KnightFree //game crashes otherwise
+CLEA 0
+CLEE 0
+CLEN 0
+STAL 10
 MUSC M_Companions
+LOMA 1 //"Ch2", the cave map
+STAL 10
+LOAD2 0x1 CutsceneMineMadness
+ENUN
+STAL 10
+MOVE 10 Mario [2,10]
+MOVE 10 Hornet [1,10]
+MOVE 10 Sigurd [6,7]
+MOVE 10 0xD3 [7,6]
+STAL 30
+FADU 10
+ENUN
+STAL 20
+MOVE 10 0xD0 [17,2]
+MOVE 10 Enteh [16,7]
+MOVE 10 Mima [10,10]
+//MOVE 10 MaskVictim [8,9]
+ENUN
+CAM1 Mario
+STAL 10
+FlashCursor(Mario,60)
 Text(Castle_Hall_4,LethalProperPlatforming)
+CAM1 Sigurd
+FlashCursor(Sigurd,60)
 Text(Castle_Hall_4,LethalMineMishap)
+KILL 0xD3 //Snorlax
+AWAIT_KILL 0xD3
+STAL 10
+CAM1 Enteh
+FlashCursor(Enteh,60)
 Text(Castle_Hall_4,LethalSnareSurvival)
+MOVE 10 Mario [8,1]
+MOVE 10 0xD0 [10,2]
+ENUN
 Text(Castle_Hall_4,LethalBrackenBreak)
+KILL 0xD0
+AWAIT_KILL 0xD0
+STAL 10
+//CAM1 MaskVictim
+FlashCursor(MaskVictim,60)
 Text(Castle_Hall_4,LethalDodgingDanmaku)
+MOVE 10 Hornet [9,17]
+//MOVE 10 MaskVictim [10,17]
+ENUN
+STAL 10
+MOVE 10 0xD4 [10,15]
+CAM1 MaskVictim
+FlashCursor(MaskVictim,60)
 Text(Castle_Hall_4,LethalMaskMauling)
+MOVE 10 0xD4 [10,16]
+MOVE 10 Sigurd [12,13]
+MOVE 10 Mima [14,14]
+MOVE 10 Enteh [8,14]
+ENUN
+KILL MaskVictim
+AWAIT_KILL MaskVictim
 MUSC M_WarringPowers
 Text(Castle_Hall_4,LethalTheJesterAttacks)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+STAL 10
+LOMA 0 //back to chapter map
+STAL 10
 TILECHANGE 0x1
 TILECHANGE 0x2 //close top two hangars
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
+RECLASS Sigurd FreeKnight //back up
 CAM1 Sigurd
 Text(LethalMainEntrance)
 CAM1 Mario
@@ -244,8 +341,9 @@ LOAD1 0x1 EntehGroup
 ENDA
 
 GoblinSlayerSlain:
-//LOAD1 0x1 MaskedGoblin
-//CAM1 MaskVictim
+LOAD1 0x1 MaskedGoblin
+CAM1 MaskVictim
+FlashCursor(GoblinSlayer,60)
 //text
 //STAL 10
 //too early, push him back
