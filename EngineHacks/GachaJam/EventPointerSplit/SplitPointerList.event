@@ -93,6 +93,9 @@ TileConfigPointerTable(OstiaTileConfig, OstiaTiles) //12 in FE6
 #define DragonsGateTileConfig 0xc1
 TileConfigPointerTable(DragonsGateTileConfig, DragonsGateTiles) //C1 in FE7
 
+#define CaveTileConfig 0xA0 //pick a number, any number!
+TileConfigPointerTable(CaveTileConfig, CaveTiles) //by ZoramineFae
+
 // -------------------------------OBJ TYPE-------------------------------
 
 #define FieldsObjType 1
@@ -133,6 +136,9 @@ ObjTypePalettePointerTable(OstiaObjType, OstiaObjects) //13 in FE6
 
 #define DragonsGateObjType 0xc3
 ObjTypePalettePointerTable(DragonsGateObjType, DragonsGateObjects) //0xc3 in FE7
+
+#define CaveObjType 0xA1
+ObjTypePalettePointerTable(CaveObjType, CaveObjects) 
 
 // -------------------------------Palette-------------------------------
 
@@ -223,6 +229,8 @@ ObjTypePalettePointerTable(CastlePaletteFE6Ostia, FE6CastleOstiaPalette) //2d in
 #define CastlePaletteFE6Pherae 0x2c
 ObjTypePalettePointerTable(CastlePaletteFE6Pherae, FE6CastlePheraePalette) //edit of ostia
 
+#define CavePalette1 0xA2
+ObjTypePalettePointerTable(CavePalette1, CavePalette) 
 
 // -------------------------------Tile Anims-------------------------------
 
@@ -282,6 +290,18 @@ FE6CastleOstiaPalette:
 ALIGN 4
 FE6CastlePheraePalette:
 #incbin "../../../Maps/Tilesets/FE6CastlePheraePalette.dmp"
+
+ALIGN 4
+CaveObjects:
+#incext Png2Dmp "../../../Maps/Tilesets/Cave.png" --lz77
+
+ALIGN 4
+CaveTiles:
+#incext compress "../../../Maps/Tilesets/Cave.mapchip_config"
+
+ALIGN 4
+CavePalette:
+#incext Png2Dmp "../../../Maps/Tilesets/Cave.png" --palette-only
 
 // ------------------------------- MAP ------------------------------------
 

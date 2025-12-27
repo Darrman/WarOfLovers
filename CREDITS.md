@@ -31,17 +31,22 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Ganondorf: UncleMikey
 - Ridley: Super Metroid (Darrman)
 - Fawful: Bowser's Inside Story (Darrman)
+- Chicken: Retrogamer
+- Goblin Slayer: Goblin Slayer (Darrman)
 
 # Music:
-- Slider: Sme
-- Birth of the Holy Knight: Pikmin1211
-- Simon's Theme: A Reliable Chair
-- The Dreadful Fight: 7743
-- Final Destination: DrGreen3339
-- Metropolis Zone: Sme
-- Ginza: 7743
-- Septette for the Dead Princess: 7743
-- When the Rush Comes (Jugdral): DrGreen3339
+- Slider: Super Mario 64 (Sme)
+- Birth of the Holy Knight: Genealogy of the Holy War (Pikmin1211)
+- Simon's Theme: Castlevania (A Reliable Chair)
+- The Dreadful Fight: Final Fantasy 4 (7743)
+- Final Destination: Super Smash Bros Melee (DrGreen3339)
+- Metropolis Zone: Sonic the Hedgehog 2 (Sme)
+- Ginza: Shin Megami Tensei (7743)
+- Septette for the Dead Princess: Embodiment of Scarlet Devil (7743)
+- Red Brinstar: Super Metroid (DrGreen3339)
+- In the Final: Bowser's Inside Story (MeteorSR23)
+- When the Rush Comes (Jugdral): Genealogy of the Holy War (DrGreen3339)
+
 
 - World map: Wikimedia Commons users as follows -
     Ireland_trad_counties_named.svg:
@@ -53,6 +58,7 @@ Lovers and in the rom. Unused stuff does not need to be ported.
     Licence: https://creativecommons.org/licenses/by-sa/3.0/deed.en
     GBA insertion and railway lines drawn on: Darrman
 - Artifice map: ZeroXA, Darrman
+- Cave tileset: ZoramineFae
 
 # War of Lovers Remnants
 
