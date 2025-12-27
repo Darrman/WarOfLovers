@@ -1694,9 +1694,9 @@ to return to Gensokyo once again.[X]
 Enteh[X]
 
 ## EntehDesc
-The Shaman of Water. (Placeholder for[N]
-proper personality description beyond[N]
-"kind and calm" - finish TRS!)[X]
+The Shaman of Water. She then[N]
+kept talking past Runan as[N]
+they could not communicate.[X]
 
 ## HornetName
 Hornet[X]

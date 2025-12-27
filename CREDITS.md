@@ -33,6 +33,7 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Fawful: Bowser's Inside Story (Darrman)
 - Chicken: Retrogamer
 - Goblin Slayer: Goblin Slayer (Darrman)
+- Emerald Herald: Dark Souls 2 (Darrman)
 
 # Music:
 - Slider: Super Mario 64 (Sme)

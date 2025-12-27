@@ -28,11 +28,11 @@ at least 1 HP.[N]
 (3 Durability Per Hit)[X]
 
 ## UMText_DV
- Save[X]
+ Check[X]
 
 ## UMText_DVDesc
-Save progress made during this[N]
-chapter. May only be used once.[X]
+Investigate the area to see[N]
+if there is anything.[X]
 
 ## UM_Shove
  Shove[X]

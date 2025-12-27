@@ -637,7 +637,7 @@ Moon 68-Artifice[N]
 Danger: S++[A][X]
 
 ## LethalPreArtificeBriefing
-[FL][LoadFace][0x01][0x01][Left][LoadSigurd][Right][LoadMario][FR][LoadShirou]
+[FL][LoadEmeraldHerald][Left][LoadSigurd][Right][LoadMario][FR][LoadShirou]
 [Left]
 //SIGURD:
 So, we need to get five thousand[N]
@@ -658,9 +658,9 @@ to preserve what hope we have...[A]
 [FR]
 I will get off of this moon.[N]
 I will return to (FATE TOWN)![A]
-[Clear][LoadFace][0x01][0x01]
+[Clear][LoadSnorlax]
 //POKEMON:
-(PLACEHOLDER CRY)[A]
+Snorrrrr.... lax...[A]
 //HORNET:
 [Clear][LoadHornet]
 For hopefully the final time, let[N]
@@ -674,9 +674,9 @@ all of this. There has to be.[A]
 Hm hm hm... Believe me, this[N]
 has trouble written all over it.[A]
 //DEAD GUY:
-[Clear][LoadFace][0x01][0x01]
-Sure would be nice if you could[N]
-decide my identity already![A]
+[Clear][LoadGoblinSlayer]
+Well, we have a job to do.[N]
+Let's not wait around.[A]
 [Left]
 //SIGURD:
 Everybody, move out![A][X]
@@ -703,13 +703,13 @@ too. Sha![A][X]
 [ML][LoadSigurd][MR][LoadFace][0x01][0x01]
 [ML]
 //SIGURD:
-(POKEMON), be careful. There[N]
+Snorlax, be careful. There[N]
 are mines everywhere and[AN]
 trying to swim through the[N]
 caves is certain death.[AN]
 [MR]
 //POKEMON:
-(POKEMON SPEAK)[A]
+Snor. Lax. Lax? Snor!?[A]
 [ML]
 //SIGURD:
 Rosa is not going to be happy.[N]
@@ -750,7 +750,7 @@ Huh? People die when they[N]
 are kill--[A][X]
 
 ## LethalDodgingDanmaku
-[ML][LoadFace][0x01][0x01][MR][LoadMima]
+[ML][LoadGoblinSlayer][MR][LoadMima]
 [ML]
 //DEAD GUY:
 Hey, watch out for all of[N]
@@ -765,7 +765,7 @@ I've faced down a goddess![N]
 These machines can't compare![A][X]
 
 ## LethalMaskMauling
-[ML][LoadFace][0x01][0x01][MR][LoadHornet][ML]
+[ML][LoadGoblinSlayer][MR][LoadHornet][ML]
 //DEAD GUY:
 Alright, I've dropped everything[N]
 off at the lift now.[AN]
@@ -775,7 +775,7 @@ I shall bring these back.[N]
 Be careful in the mines.[A]
 [ML]
 //DEAD GUY:
-Thanks. So I know (POKEMON)[N]
+Thanks. So I know Snorlax[N]
 got blown up, but everyone[AN]
 else is still alive. Time to[N]
 head into the caves.[AN]
@@ -877,7 +877,9 @@ of finding something very[N]
 valuable too. The quota is 5,000[N]
 gold: miss it and it's game over![AN]
 Scrap tiles obviously stand out.[N]
-To be considered safe, [Red]escape[Red]
+Move onto the highlighted tiles[N]
+and check them to recover an item.[AN]
+To be considered safe, [Red]escape[Red][N]
 by reaching the front of the ship[N]
 and leaving the map.[AN]
 Sell items by moving onto the[N]

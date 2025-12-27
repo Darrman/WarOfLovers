@@ -229,5 +229,8 @@
 [LoadGanon] = [LoadFace][0xEE][0x1]
 [LoadRidley] = [LoadFace][0xEF][0x1]
 [LoadFawful] = [LoadFace][0xF0][0x1]
+[LoadGoblinSlayer] = [LoadFace][0xF1][0x1]
+[LoadEmeraldHerald] = [LoadFace][0xF2][0x1]
+[LoadSnorlax] = [LoadFace][0xF3][0x1]
 
 [LoadAnna] = [LoadFace][0x64][0x1]

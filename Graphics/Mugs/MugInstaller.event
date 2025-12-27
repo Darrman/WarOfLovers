@@ -657,7 +657,11 @@ setMugEntry(0xF2, EmeraldHerald_Mug, 4,4,4,2)
 
 Snorlax_Mug:
 #incext PortraitFormatter "Snorlax.png"
-setMugEntry(0xF3, Snorlax_Mug, 4,5,6,3)
+setMugEntry(0xF3, Snorlax_Mug, 4,5,5,3)
+
+Chicken_Mug:
+#incext PortraitFormatter "Chicken.png"
+setMugEntry(0xF4, Chicken_Mug, 4,7,4,5)
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
