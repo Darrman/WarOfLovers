@@ -73,7 +73,7 @@ WORD 0x08958A58 0x0895D1A8 0x0895D65C
 WORD 0x0895D75C 0x0895D768 0x0895DC1C
 WORD 0x0 0x0 0x0                                    // Not sure what this is used for.
 WORD 0x0 0x0 0x0                                    // ID used for random BG.
-POIN EndingBG; WORD 0x0; POIN EndingBGPal
+POIN EndingBG; WORD 0x1; POIN EndingBGPal
 //POIN TestBG; WORD 0x0; POIN TestBGPal       // TSA == 0 indicates 256-colour BGs.
 //POIN MarioBG; WORD 0x0; POIN MarioBGPal       // TSA == 1 indicates 224-colour BGs.
 //POIN DKBG; WORD 0x0; POIN DKBGPal
@@ -381,10 +381,10 @@ POIN BlackScreenBG; WORD 0x0; POIN BlackScreenBGPal
 //#incbin bin/256SlippyPal.dmp
 
 EndingBG:
-#incbin bin/256Ending.dmp
+#incbin bin/224Ending.dmp
 ALIGN 4
 EndingBGPal:
-#incbin bin/256EndingPal.dmp
+#incbin bin/224EndingPal.dmp
 
 BlackScreenBG:
 #incbin bin/256BlackScreen.dmp

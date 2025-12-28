@@ -36,6 +36,7 @@ Please read the attached CREDITS.md file.
 - Several items just have placeholder icons.
 - Some parts of the opening FMV get stuck flickering between 90% of one frame
 and 10% of another. 
+- Character deaths are not accounted for in the ending.
 
 ## Patching Instructions
 Apply "LethalEmblem.ups" file to a clean American FE8 rom.
