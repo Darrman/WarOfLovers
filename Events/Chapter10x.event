@@ -20,14 +20,14 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(0x3,EndingScene,19,4)
+#endif
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatBoss(EndingScene)
-#ifdef __DEBUG__
-Seize(0x3,EndingScene,19,4)
-#endif
 END_MAIN
 
 Dunno1:

@@ -151,6 +151,149 @@ LABEL 6025
 RECLASS Serena KnightFree
 LABEL 6026
 
+CHECK_ALIVE Wolf
+BEQ 6028 s0 sC
+CHECK_CLASS Wolf
+SVAL s1 DragonMaster
+BNE 6027 s1 sC //Free Knight
+RECLASS Wolf KnightDragonM
+GOTO 6028
+LABEL 6027
+RECLASS Wolf KnightDragon
+LABEL 6028
+
+CHECK_ALIVE Kain
+BEQ 6030 s0 sC
+CHECK_CLASS Kain
+SVAL s1 DragonMaster
+BNE 6029 s1 sC //Dragon Knight
+RECLASS Kain KnightDragonM
+GOTO 6030
+LABEL 6029
+RECLASS Kain KnightDragon
+LABEL 6030
+
+CHECK_ALIVE Butz
+BEQ 6032 s0 sC
+CHECK_CLASS Butz
+SVAL s1 GreatKnight
+BNE 6031 s1 sC //Axe Knight
+RECLASS Butz KnightGreat
+GOTO 6032
+LABEL 6031
+RECLASS Butz KnightAxe
+LABEL 6032
+
+CHECK_ALIVE Kaiba
+BEQ 6034 s0 sC
+CHECK_CLASS Kaiba
+SVAL s1 DragonMaster
+BNE 6033 s1 sC //Dragon Knight
+RECLASS Kaiba KnightDragonM
+GOTO 6034
+LABEL 6033
+RECLASS Kaiba KnightDragon
+LABEL 6034
+
+CHECK_ALIVE Alexis
+BEQ 6036 s0 sC
+CHECK_CLASS Alexis
+SVAL s1 FalconKnight
+BNE 6035 s1 sC //Pegasus Knight
+RECLASS Alexis KnightFalcon
+GOTO 6036
+LABEL 6035
+RECLASS Alexis KnightPegasus
+LABEL 6036
+
+CHECK_ALIVE Tails
+BEQ 6038 s0 sC
+CHECK_CLASS Tails
+SVAL s1 DragonMaster
+BNE 6037 s1 sC //Dragon Knight
+RECLASS Tails KnightDragonM
+GOTO 6038
+LABEL 6037
+RECLASS Tails KnightDragon
+LABEL 6038
+
+CHECK_ALIVE Reimu
+BEQ 6040 s0 sC
+CHECK_CLASS Reimu
+SVAL s1 FalconKnight
+BNE 6039 s1 sC //Pegasus Knight
+RECLASS Reimu KnightFalcon
+GOTO 6040
+LABEL 6039
+RECLASS Reimu KnightPegasus
+LABEL 6040
+
+CHECK_ALIVE Shinki
+BEQ 6042 s0 sC
+CHECK_CLASS Shinki
+SVAL s1 Valkyrie
+BNE 6041 s1 sC //Troubadour
+RECLASS Shinki KnightValkyrie
+GOTO 6042
+LABEL 6041
+RECLASS Shinki KnightTroubadour
+LABEL 6042
+
+CHECK_ALIVE Rody
+BEQ 6044 s0 sC
+CHECK_CLASS Rody
+SVAL s1 Ranger
+BNE 6043 s1 sC //Free Knight
+RECLASS Rody KnightRanger
+GOTO 6044
+LABEL 6043
+RECLASS Rody KnightFree
+LABEL 6044
+
+CHECK_ALIVE Roshe
+BEQ 6046 s0 sC
+CHECK_CLASS Roshe
+SVAL s1 Ranger
+BNE 6045 s1 sC //Free Knight
+RECLASS Roshe KnightRanger
+GOTO 6046
+LABEL 6045
+RECLASS Roshe KnightFree
+LABEL 6046
+
+CHECK_ALIVE Miledy
+BEQ 6048 s0 sC
+CHECK_CLASS Miledy
+SVAL s1 Ranger
+BNE 6047 s1 sC //Free Knight
+RECLASS Miledy KnightRanger
+GOTO 6048
+LABEL 6047
+RECLASS Miledy KnightFree
+LABEL 6048
+
+CHECK_ALIVE Camus
+BEQ 6050 s0 sC
+CHECK_CLASS Camus
+SVAL s1 Ranger
+BNE 6049 s1 sC //Free Knight
+RECLASS Camus KnightRanger
+GOTO 6050
+LABEL 6049
+RECLASS Camus KnightFree
+LABEL 6050
+
+CHECK_ALIVE Claire
+BEQ 6052 s0 sC
+CHECK_CLASS Claire
+SVAL s1 Ranger
+BNE 6051 s1 sC //Free Knight
+RECLASS Claire KnightRanger
+GOTO 6052
+LABEL 6051
+RECLASS Claire KnightFree
+LABEL 6052
+
 ENDA
 
 DismountSheeda:
