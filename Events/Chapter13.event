@@ -14,6 +14,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,AfterPreps,1)
 TurnEventEnemy(0x0,MarthGetsInterrogated,1)
 END_MAIN
 
@@ -30,8 +31,10 @@ END_MAIN
 MiscBasedEvents:
 DefeatBoss(EndingScene)
 CauseGameOverIfLordDies
+AFEV 0x10 ValencianDied 0x0F
 #ifdef __DEBUG__
-AREA 0x3 EndingScene [5,1] [5,1]
+AREA 0x3 EndingScene [5,0] [5,0]
+AREA 0x3 DebugGoodOutcome [5,1] [5,1]
 #endif
 END_MAIN
 
@@ -77,6 +80,7 @@ UNIT Valencia Priest Valbo Level(10,Enemy,1) [12,13] 0x0 0x0 0x0 0x0 [Physic] He
 UNIT Valencia Archer Valbo Level(10,Enemy,1) [19,14] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
 UNIT Valencia Mercenary Valbo Level(10,Enemy,1) [8,12] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT Valencia Mercenary Valbo Level(10,Enemy,1) [9,13] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Valencia Archer Valbo Level(10,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
 UNIT Valencia Archer Valbo Level(10,Enemy,1) [5,15] 0x0 0x0 0x0 0x0 [Longbow] AttackInRangeAI
 UNIT Valencia ArmourKnight Valbo Level(10,Enemy,1) [8,23] 0x0 0x0 0x0 0x0 [Javelin] GuardTileAI
 UNIT Valencia ArmourKnight Valbo Level(10,Enemy,1) [9,23] 0x0 0x0 0x0 0x0 [Javelin] GuardTileAI
@@ -91,6 +95,7 @@ UNIT Valencia LanceKnight Valbo Level(10,Enemy,1) [16,6] 0x0 0x0 0x0 0x0 [SteelL
 UNIT Valencia LanceKnight Valbo Level(10,Enemy,1) [0,27] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Valencia BowKnight Valbo Level(1,Enemy,1) [12,35] DropItem 0x0 0x0 0x0 [SteelBow, OrionsBolt] PursueWithoutHeedAI
 UNIT Valencia Archer Valbo Level(10,Enemy,1) [4,26] 0x0 0x0 0x0 0x0 [QuickRain] NeverMoveAI
+UNIT Valencia Fleet Valbo Level(10,Enemy,1) [2,20] 0x0 0x0 0x0 0x0 [FireGun] AttackInRangeAI
 UNIT
 
 CutsceneMarth:
@@ -98,10 +103,30 @@ UNIT Marth Lord 0x00 Level(1,Ally,0) [1,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulner
 UNIT
 
 CutsceneValbo:
-UNIT Valbo General 0x00 Level(1,Enemy,0) [3,1] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT Valbo General 0x00 Level(1,Enemy,0) [8,14] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT
+
+CutsceneClaire:
+UNIT Claire FalconKnight 0x00 Level(1,Enemy,0) [11,0] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT
+
+CutsceneBoat:
+UNIT Akaneia Fleet 0x00 Level(1,NPC,0) [0,0] 0x0 0x0 0x1 BoatREDA [Ballista] PursueWithoutHeedAI
+UNIT
+
+CutsceneAlm:
+UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [10,18] DropItem 0x0 0x0 0x0 [Kingsfang, LifeOrb] ChaseOnceApproachedAI
+UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [9,22] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI
+UNIT Grey Hero Alm Level(3,Enemy,0) [10,24] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
+UNIT Valencia Sniper Alm Level(3,Enemy,0) [12,24] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI //Robin
+UNIT
+
+CutsceneCeline:
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [11,26] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, CelicaRing] PursueWithoutHeedAI
 UNIT
 
 Traps1:
+SavePoint(11,14)
 ENDTRAP
 ALIGN 4
 
@@ -112,14 +137,66 @@ ALIGN 4
 BeginningScene:
 //just some placeholders for screenshot purposes
 MUSC M_DisquietingSteps
+LOAD1 0x1 CutsceneValbo
+LOAD1 0x1 CutsceneClaire
+CAM1 Valbo
+FADU 10
+MOVE 10 Claire [9,8]
+ENUN
+RECLASS Claire KnightFalcon //dismount
+STAL 10
+MOVE 10 Claire [9,14]
+ENUN
+STAL 20
+FlashCursor(Claire,60)
 Text(Fort_Outside,Ch13OpeningUnknownVessel)
+MOVE 10 Claire [9,18]
+ENUN
+RECLASS Claire FalconKnight
+STAL 10
+MOVE 20 Claire [9,35]
+ENUN
+DISA Claire
+CAM1 [0,0]
+STAL 20
 Text(Ship,Ch13OpeningLandHo)
+LOAD1 0x1 CutsceneBoat
+ENUN
+MOVE 10 Valbo [3,1]
+ENUN
+LOAD2 0x0 CutsceneMarth
+MOVE 10 Marth [2,1]
+ENUN
+FlashCursor(Valbo,60)
 Text(Harbor,Ch13OpeningInterrogation)
+Rescue(3,1,2,1) //Valbo captures Marth
+EVBIT_T 9 //follow Valbo as he moves
+MOVE 10 Valbo [15,21]
+ENUN
 REMU Marth //don't worry, you'll get him back soon
+CAM1 Akaneia
+FlashCursor(Akaneia,60)
 Text(Ship,Ch13OpeningWhereIsMarthAnyway)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+CAM1 [0,0]
+MUSC M_PreperationsFE11
 LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+FADU 10
+STAL 20
+CAM1 [23,0]
+STAL 20
+CAM1 [23,35]
+STAL 20
+CAM1 [0,35]
+STAL 20
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
@@ -132,17 +209,47 @@ Text(Castle_Hall_4,Ch13EndingConvincingValbo)
 Text(Castle_Hall_4,Ch13EndingLetLilinaThrough)
 Text(Castle_Hall_4,Ch13EndingValboIsConvinced)
 Text(Castle_Hall_4,Ch13EndingValboTheEscort)
+CHECK_EVENTID 0x10 //Too many kills?
+BNE 1302 s0 sC //skip scene if so
+Text(Castle_Hall_4,Ch13EndingNinaSpotted)
+Text(Castle_Hall_4,Ch13EndingGaidenYes) //you meet the requirements, you're going
 GOTO 1302
 LABEL 1301
 //Valbo dies variant
 Text(PlaceholderText)
 LABEL 1302
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+STAL 10
+LOMA 16 //Sofia Castle
+LOAD1 0x1 CutsceneAlm
+CAM1 [11,18] //the throne room
 MUSC M_TwilightOfTheGods //ideally I'd pick a track to call "Alm's theme" - not the final chapter music
+FADU 10
+BROWNBOX Ch15LocationName [0,0] //Sofia Castle
+FlashCursor(Alm,60)
 Text(Castle_Room,Ch13EndingAlmMonologue)
+CAM1 [11,26]
+STAL 15
+WARPIN [11,26]
+LOAD1 0x0 CutsceneCeline
+ENDWARP
+STAL 20
+EVBIT_T 9
+MOVE 10 Celine [12,18]
+MOVE 10 Mycen [11,20]
+ENUN
+FlashCursor(Mycen,60)
 Text(Castle_Room,Ch13EndingCelicaReturns)
 REVEAL Marth //and he's back
+CHECK_EVENTID 0x10 //Kill count sufficiently low
+BNE 1306 s0 sC
 CHECK_EVENTID 0x7 //Valbo talked to
 BNE 1303 s0 sC
+LABEL 1306
 WM_LOADLOCATION2 0 12 0 //Required to fix chapter name
 WM_SETDESTINATION 0 12 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 12 //Needed for world map narration.
@@ -153,12 +260,39 @@ MNC2 0x26 //13x
 LABEL 1304
 ENDA
 
+AfterPreps:
+COUNTER_SET 1 8 //Let's say for the gaiden, you can kill up to seven enemies. Kill an eighth, Valbo gets mad.
+ENDA
+
+ValencianDied:
+ENUF 0x0F //unset flags, this will trigger repeatedly
+ENUF 0x10
+COUNTER_DEC 1 //reduce counter
+COUNTER_CHECK 1
+BNE 1305 s0 sC //if counter hits zero continue
+Text(PlaceholderText)
+ENUT 0x0F
+ENUT 0x10 //no gaiden for you!
+LABEL 1305
+NoFade
+ENDA
+
 MarthGetsInterrogated:
 Text(Castle_Hall_4, Ch13T1AnotherGrilling)
 ENDA
 
 TheValboRecruitment:
 Text(Ch13SheedaTalksToValbo)
+TurnAlly(Valbo)
 ENUT 0x3
 CALL EndingScene
 ENDA
+
+DebugGoodOutcome:
+ENUT 0x7 //Valbo talk flag
+TurnAlly(Valbo)
+CALL EndingScene
+ENDA
+
+BoatREDA:
+REDA [0,1]
