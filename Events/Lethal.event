@@ -112,7 +112,7 @@ UNIT Mario Lord 0x00 Level(1,Ally,0) [9,18] 0x0  0x0 0x0 0x0 [Mallet, DevilAxe, 
 UNIT Mima Sage_F 0x00 Level(1,Ally,0) [11,18] 0x0  0x0 0x0 0x0 [Elfire, Lightning, StopSign] NoAI
 UNIT Hornet Soldier 0x00 Level(1,Ally,0) [2,17] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
 UNIT 0xD0 Sniper 0x00 Level(1,Ally,0) [2,18] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Shirou
-UNIT MaskVictim General 0x00 Level(1,Ally,0) [15,27] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Goblin
+UNIT MaskVictim General 0x00 Level(1,Ally,0) [15,17] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Goblin
 UNIT Enteh Cleric 0x00 Level(1,Ally,0) [12,19] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI
 UNIT 0xD3 Cyclops 0x00 Level(1,Ally,0) [9,19] 0x0  0x0 0x0 0x0 [IronLance, Javelin] NoAI //Snorlax
 UNIT 0xD4 Revenant 0x00 Level(1,Enemy,0) [6,14] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI //mask
@@ -256,7 +256,7 @@ STAL 20
 MOVE 10 0xD0 [17,2]
 MOVE 10 Enteh [16,7]
 MOVE 10 Mima [10,10]
-//MOVE 10 MaskVictim [8,9]
+MOVE 10 MaskVictim [8,9]
 ENUN
 CAM1 Mario
 STAL 10
@@ -271,18 +271,22 @@ STAL 10
 CAM1 Enteh
 FlashCursor(Enteh,60)
 Text(Castle_Hall_4,LethalSnareSurvival)
+MOVE 10 Enteh [17,1]
 MOVE 10 Mario [8,1]
 MOVE 10 0xD0 [10,2]
 ENUN
+CAM1 0xD0
+FlashCursor(0xD0,60) //Shirou
 Text(Castle_Hall_4,LethalBrackenBreak)
 KILL 0xD0
 AWAIT_KILL 0xD0
 STAL 10
-//CAM1 MaskVictim
+MOVE 10 0xD6 [10,2]
+CAM1 MaskVictim
 FlashCursor(MaskVictim,60)
 Text(Castle_Hall_4,LethalDodgingDanmaku)
 MOVE 10 Hornet [9,17]
-//MOVE 10 MaskVictim [10,17]
+MOVE 10 MaskVictim [10,17]
 ENUN
 STAL 10
 MOVE 10 0xD4 [10,15]
@@ -330,6 +334,32 @@ CHECK_MONEY
 BGT 6899 s1 sC
 MUSC M_IntoTheShadowOfTriumph
 Text(Shrine_lighter,LethalEndingInSpaceQuota)
+
+SetBackground(CGEnding) //ending is on this number
+EVBIT_MODIFY 1 //No skipping
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalEndingChoice
+TEXTEND
+STAL 10
+SVAL s1 1
+BEQ 6897 sC s1 //branch if yes
+EVBIT_MODIFY 0 //skip
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalToGensokyo
+TEXTEND
+STAL 10
+GOTO 6896
+LABEL 6897
+EVBIT_MODIFY 0 //skip
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW LethalToLylat
+TEXTEND
+LABEL 6896
+MUSC M_EndingMedleyBook1
+Text(LethalTheEnd)
 MNTS 0x0
 GOTO 6898
 LABEL 6899
@@ -340,8 +370,10 @@ LABEL 6898
 ENDA
 
 EntehMakesItOut:
-Text(LethalT2EntehEscapes)
 LOAD1 0x1 EntehGroup
+CAM1 Enteh
+FlashCursor(Enteh,60)
+Text(LethalT2EntehEscapes)
 ENDA
 
 GoblinSlayerSlain:
@@ -361,6 +393,7 @@ ENDA
 DogSpawn:
 LOAD1 0x1 MaskedGoblin
 CAM1 MaskVictim
+FlashCursor(MaskVictim,60)
 //text
 STAL 10
 LOAD1 0x1 T5Spawn

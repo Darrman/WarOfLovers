@@ -127,7 +127,7 @@ INLINE ClassSkillTable,Skill
 0x7D Elder Bael 2,0x0
 0x7E Journeyman (2),0x0
 Pupil (2),0x0
-Free Knight,CantoID
+Free Knight,0x0
 Lance Knight,CantoID
 Axe Knight,CantoID
 Arch Knight,CantoID

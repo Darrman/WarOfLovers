@@ -15,8 +15,8 @@ ALIGN 4
 
 //Akaneia (FE1, 3, 11, 12)
 {
-#include "AkaneiaAnthem.event"
-SongTable(M_AkaneiaAnthem,AkaneiaAnthem,0)
+//#include "AkaneiaAnthem.event"
+//SongTable(M_AkaneiaAnthem,AkaneiaAnthem,0)
 }
 
 {
@@ -353,3 +353,22 @@ SongTable(M_InTheFinal,InTheFinal,1)
 SongTable(M_WhenTheRushComes,WhenTheRushComes,1)
 }
 
+{
+#include "Expedition.event"
+SongTable(M_Expedition,Expedition,1)
+}
+
+{
+#include "IntoTheDarkness.event"
+SongTable(M_IntoTheDarkness,ff4darkness,1)
+}
+
+{
+#include "BelovedTomboyishGirl.event"
+SongTable(M_BelovedTomboyishGirl,BelovedTomboyishGirl,0)
+}
+
+{
+#include "Airship.event"
+SongTable(M_Airship,AirshipSMB3,0)
+}

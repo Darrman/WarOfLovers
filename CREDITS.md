@@ -36,6 +36,7 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Emerald Herald: Dark Souls 2 (Darrman)
 
 # Music:
+- Airship: Super Mario Bros 3 (DrGreen3339)
 - Slider: Super Mario 64 (Sme)
 - Birth of the Holy Knight: Genealogy of the Holy War (Pikmin1211)
 - Simon's Theme: Castlevania (A Reliable Chair)
@@ -47,7 +48,9 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Red Brinstar: Super Metroid (DrGreen3339)
 - In the Final: Bowser's Inside Story (MeteorSR23)
 - When the Rush Comes (Jugdral): Genealogy of the Holy War (DrGreen3339)
-
+- Expedition: Mystery of the Emblem (Sme)
+- Into the Darkness: Final Fantasy 4 (Sme)
+- Beloved Tomboyish Girl: Embodiment of Scarlet Devil (Pikmin1211)
 
 - World map: Wikimedia Commons users as follows -
     Ireland_trad_counties_named.svg:

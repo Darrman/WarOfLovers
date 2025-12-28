@@ -591,6 +591,10 @@
 #define M_SeptetteForTheDeadPrincess 0x28D
 #define M_InTheFinal 0x28E
 #define M_RedBrinstar 0x28F
+#define M_Airship 0x43 //title screen
+#define M_BelovedTomboyishGirl 0x290
+#define M_IntoTheDarkness 0x291
+#define M_Expedition 0x292
 
 //VA
 //26D to 2BB all empty
@@ -623,6 +627,7 @@
 #define VoiceSlippySummon 0x285
 
 //Summon CGs
+#define CGEnding 0x38
 #define CGMario 0x39
 #define CGDK 0x3A
 #define CGLink 0x3B
@@ -665,7 +670,7 @@
 #define CGFalco 0x60
 #define CGPeppy 0x61
 #define CGSlippy 0x62
-#define CGBlackScreen 0x63 //find a way to uncorrupt the original one!
+#define CGBlackScreen 0x39 //find a way to uncorrupt the original one!
 
 //Event IDs
 #define JamModeOn 0x71
