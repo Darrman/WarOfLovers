@@ -73,311 +73,318 @@ WORD 0x08958A58 0x0895D1A8 0x0895D65C
 WORD 0x0895D75C 0x0895D768 0x0895DC1C
 WORD 0x0 0x0 0x0                                    // Not sure what this is used for.
 WORD 0x0 0x0 0x0                                    // ID used for random BG.
-POIN TestBG; WORD 0x0; POIN TestBGPal       // TSA == 0 indicates 256-colour BGs.
-POIN MarioBG; WORD 0x0; POIN MarioBGPal       // TSA == 1 indicates 224-colour BGs.
-POIN DKBG; WORD 0x0; POIN DKBGPal
-POIN LinkBG; WORD 0x0; POIN LinkBGPal
-POIN SamusBG; WORD 0x0; POIN SamusBGPal
-POIN YoshiBG; WORD 0x0; POIN YoshiBGPal
-POIN KirbyBG; WORD 0x0; POIN KirbyBGPal
-POIN FoxBG; WORD 0x0; POIN FoxBGPal
-POIN PikachuBG; WORD 0x0; POIN PikachuBGPal
-POIN LuigiBG; WORD 0x0; POIN LuigiBGPal
-POIN PeachBG; WORD 0x0; POIN PeachBGPal
-POIN BowserBG; WORD 0x0; POIN BowserBGPal
-POIN ToadBG; WORD 0x0; POIN ToadBGPal
-POIN WarioBG; WORD 0x0; POIN WarioBGPal
-POIN DaisyBG; WORD 0x0; POIN DaisyBGPal
-POIN WaluigiBG; WORD 0x0; POIN WaluigiBGPal
-POIN AshBG; WORD 0x0; POIN AshBGPal
-POIN MistyBG; WORD 0x0; POIN MistyBGPal
-POIN BrockBG; WORD 0x0; POIN BrockBGPal
-POIN JessieBG; WORD 0x0; POIN JessieBGPal
-POIN JamesBG; WORD 0x0; POIN JamesBGPal
-POIN MayBG; WORD 0x0; POIN MayBGPal
-POIN DawnBG; WORD 0x0; POIN DawnBGPal
-POIN SerenaBG; WORD 0x0; POIN SerenaBGPal
-POIN FalconBG; WORD 0x0; POIN FalconBGPal
-POIN JigglypuffBG; WORD 0x0; POIN JigglypuffBGPal
-POIN NessBG; WORD 0x0; POIN NessBGPal
-POIN PaulaBG; WORD 0x0; POIN PaulaBGPal
-POIN JeffBG; WORD 0x0; POIN JeffBGPal
-POIN PooBG; WORD 0x0; POIN PooBGPal
-POIN PokeyBG; WORD 0x0; POIN PokeyBGPal
-POIN CecilBG; WORD 0x0; POIN CecilBGPal
-POIN ButzBG; WORD 0x0; POIN ButzBGPal
-POIN TerraBG; WORD 0x0; POIN TerraBGPal
-POIN ZeldaBG; WORD 0x0; POIN ZeldaBGPal
-POIN SahasrahlaBG; WORD 0x0; POIN SahasrahlaBGPal
-POIN MarinBG; WORD 0x0; POIN MarinBGPal
-POIN SariaBG; WORD 0x0; POIN SariaBGPal
-POIN DededeBG; WORD 0x0; POIN DededeBGPal
-POIN MetaKnightBG; WORD 0x0; POIN MetaKnightBGPal
-POIN FalcoBG; WORD 0x0; POIN FalcoBGPal
-POIN PeppyBG; WORD 0x0; POIN PeppyBGPal
-POIN SlippyBG; WORD 0x0; POIN SlippyBGPal
+POIN EndingBG; WORD 0x0; POIN EndingBGPal
+//POIN TestBG; WORD 0x0; POIN TestBGPal       // TSA == 0 indicates 256-colour BGs.
+//POIN MarioBG; WORD 0x0; POIN MarioBGPal       // TSA == 1 indicates 224-colour BGs.
+//POIN DKBG; WORD 0x0; POIN DKBGPal
+//POIN LinkBG; WORD 0x0; POIN LinkBGPal
+//POIN SamusBG; WORD 0x0; POIN SamusBGPal
+//POIN YoshiBG; WORD 0x0; POIN YoshiBGPal
+//POIN KirbyBG; WORD 0x0; POIN KirbyBGPal
+//POIN FoxBG; WORD 0x0; POIN FoxBGPal
+//POIN PikachuBG; WORD 0x0; POIN PikachuBGPal
+//POIN LuigiBG; WORD 0x0; POIN LuigiBGPal
+//POIN PeachBG; WORD 0x0; POIN PeachBGPal
+//POIN BowserBG; WORD 0x0; POIN BowserBGPal
+//POIN ToadBG; WORD 0x0; POIN ToadBGPal
+//POIN WarioBG; WORD 0x0; POIN WarioBGPal
+//POIN DaisyBG; WORD 0x0; POIN DaisyBGPal
+//POIN WaluigiBG; WORD 0x0; POIN WaluigiBGPal
+//POIN AshBG; WORD 0x0; POIN AshBGPal
+//POIN MistyBG; WORD 0x0; POIN MistyBGPal
+//POIN BrockBG; WORD 0x0; POIN BrockBGPal
+//POIN JessieBG; WORD 0x0; POIN JessieBGPal
+//POIN JamesBG; WORD 0x0; POIN JamesBGPal
+//POIN MayBG; WORD 0x0; POIN MayBGPal
+//POIN DawnBG; WORD 0x0; POIN DawnBGPal
+//POIN SerenaBG; WORD 0x0; POIN SerenaBGPal
+//POIN FalconBG; WORD 0x0; POIN FalconBGPal
+//POIN JigglypuffBG; WORD 0x0; POIN JigglypuffBGPal
+//POIN NessBG; WORD 0x0; POIN NessBGPal
+//POIN PaulaBG; WORD 0x0; POIN PaulaBGPal
+//POIN JeffBG; WORD 0x0; POIN JeffBGPal
+//POIN PooBG; WORD 0x0; POIN PooBGPal
+//POIN PokeyBG; WORD 0x0; POIN PokeyBGPal
+//POIN CecilBG; WORD 0x0; POIN CecilBGPal
+//POIN ButzBG; WORD 0x0; POIN ButzBGPal
+//POIN TerraBG; WORD 0x0; POIN TerraBGPal
+//POIN ZeldaBG; WORD 0x0; POIN ZeldaBGPal
+//POIN SahasrahlaBG; WORD 0x0; POIN SahasrahlaBGPal
+//POIN MarinBG; WORD 0x0; POIN MarinBGPal
+//POIN SariaBG; WORD 0x0; POIN SariaBGPal
+//POIN DededeBG; WORD 0x0; POIN DededeBGPal
+//POIN MetaKnightBG; WORD 0x0; POIN MetaKnightBGPal
+//POIN FalcoBG; WORD 0x0; POIN FalcoBGPal
+//POIN PeppyBG; WORD 0x0; POIN PeppyBGPal
+//POIN SlippyBG; WORD 0x0; POIN SlippyBGPal
 POIN BlackScreenBG; WORD 0x0; POIN BlackScreenBGPal
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
 
-TestBG:
-#incbin bin/256TestCG.dmp
-ALIGN 4
-TestBGPal:
-#incbin bin/256TestCGPal.dmp
+//TestBG:
+//#incbin bin/256TestCG.dmp
+//ALIGN 4
+//TestBGPal:
+//#incbin bin/256TestCGPal.dmp
+//
+//MarioBG:
+//#incbin bin/256Mario.dmp
+//ALIGN 4
+//MarioBGPal:
+//#incbin bin/256MarioPal.dmp
+//
+//DKBG:
+//#incbin bin/256DK.dmp
+//ALIGN 4
+//DKBGPal:
+//#incbin bin/256DKPal.dmp
+//
+//LinkBG:
+//#incbin bin/256Link.dmp
+//ALIGN 4
+//LinkBGPal:
+//#incbin bin/256LinkPal.dmp
+//
+//SamusBG:
+//#incbin bin/256Samus.dmp
+//ALIGN 4
+//SamusBGPal:
+//#incbin bin/256SamusPal.dmp
+//
+//YoshiBG:
+//#incbin bin/256Yoshi.dmp
+//ALIGN 4
+//YoshiBGPal:
+//#incbin bin/256YoshiPal.dmp
+//
+//KirbyBG:
+//#incbin bin/256Kirby.dmp
+//ALIGN 4
+//KirbyBGPal:
+//#incbin bin/256KirbyPal.dmp
+//
+//FoxBG:
+//#incbin bin/256Fox.dmp
+//ALIGN 4
+//FoxBGPal:
+//#incbin bin/256FoxPal.dmp
+//
+//PikachuBG:
+//#incbin bin/256Pikachu.dmp
+//ALIGN 4
+//PikachuBGPal:
+//#incbin bin/256PikachuPal.dmp
+//
+//LuigiBG:
+//#incbin bin/256Luigi.dmp
+//ALIGN 4
+//LuigiBGPal:
+//#incbin bin/256LuigiPal.dmp
+//
+//PeachBG:
+//#incbin bin/256Peach.dmp
+//ALIGN 4
+//PeachBGPal:
+//#incbin bin/256PeachPal.dmp
+//
+//BowserBG:
+//#incbin bin/256Bowser.dmp
+//ALIGN 4
+//BowserBGPal:
+//#incbin bin/256BowserPal.dmp
+//
+//ToadBG:
+//#incbin bin/256Toad.dmp
+//ALIGN 4
+//ToadBGPal:
+//#incbin bin/256ToadPal.dmp
+//
+//WarioBG:
+//#incbin bin/256Wario.dmp
+//ALIGN 4
+//WarioBGPal:
+//#incbin bin/256WarioPal.dmp
+//
+//DaisyBG:
+//#incbin bin/256Daisy.dmp
+//ALIGN 4
+//DaisyBGPal:
+//#incbin bin/256DaisyPal.dmp
+//
+//WaluigiBG:
+//#incbin bin/256Waluigi.dmp
+//ALIGN 4
+//WaluigiBGPal:
+//#incbin bin/256WaluigiPal.dmp
+//
+//AshBG:
+//#incbin bin/256Ash.dmp
+//ALIGN 4
+//AshBGPal:
+//#incbin bin/256AshPal.dmp
+//
+//MistyBG:
+//#incbin bin/256Misty.dmp
+//ALIGN 4
+//MistyBGPal:
+//#incbin bin/256MistyPal.dmp
+//
+//BrockBG:
+//#incbin bin/256Brock.dmp
+//ALIGN 4
+//BrockBGPal:
+//#incbin bin/256BrockPal.dmp
+//
+//JessieBG:
+//#incbin bin/256Jessie.dmp
+//ALIGN 4
+//JessieBGPal:
+//#incbin bin/256JessiePal.dmp
+//
+//JamesBG:
+//#incbin bin/256James.dmp
+//ALIGN 4
+//JamesBGPal:
+//#incbin bin/256JamesPal.dmp
+//
+//MayBG:
+//#incbin bin/256May.dmp
+//ALIGN 4
+//MayBGPal:
+//#incbin bin/256MayPal.dmp
+//
+//DawnBG:
+//#incbin bin/256Dawn.dmp
+//ALIGN 4
+//DawnBGPal:
+//#incbin bin/256DawnPal.dmp
+//
+//SerenaBG:
+//#incbin bin/256Serena.dmp
+//ALIGN 4
+//SerenaBGPal:
+//#incbin bin/256SerenaPal.dmp
+//
+//FalconBG:
+//#incbin bin/256Falcon.dmp
+//ALIGN 4
+//FalconBGPal:
+//#incbin bin/256FalconPal.dmp
+//
+//JigglypuffBG:
+//#incbin bin/256Jigglypuff.dmp
+//ALIGN 4
+//JigglypuffBGPal:
+//#incbin bin/256JigglypuffPal.dmp
+//
+//NessBG:
+//#incbin bin/256Ness.dmp
+//ALIGN 4
+//NessBGPal:
+//#incbin bin/256NessPal.dmp
+//
+//PaulaBG:
+//#incbin bin/256Paula.dmp
+//ALIGN 4
+//PaulaBGPal:
+//#incbin bin/256PaulaPal.dmp
+//
+//JeffBG:
+//#incbin bin/256Jeff.dmp
+//ALIGN 4
+//JeffBGPal:
+//#incbin bin/256JeffPal.dmp
+//
+//PooBG:
+//#incbin bin/256Poo.dmp
+//ALIGN 4
+//PooBGPal:
+//#incbin bin/256PooPal.dmp
+//
+//PokeyBG:
+//#incbin bin/256Pokey.dmp
+//ALIGN 4
+//PokeyBGPal:
+//#incbin bin/256PokeyPal.dmp
+//
+//CecilBG:
+//#incbin bin/256Cecil.dmp
+//ALIGN 4
+//CecilBGPal:
+//#incbin bin/256CecilPal.dmp
+//
+//ButzBG:
+//#incbin bin/256Butz.dmp
+//ALIGN 4
+//ButzBGPal:
+//#incbin bin/256ButzPal.dmp
+//
+//TerraBG:
+//#incbin bin/256Terra.dmp
+//ALIGN 4
+//TerraBGPal:
+//#incbin bin/256TerraPal.dmp
+//
+//ZeldaBG:
+//#incbin bin/256Zelda.dmp
+//ALIGN 4
+//ZeldaBGPal:
+//#incbin bin/256ZeldaPal.dmp
+//
+//SahasrahlaBG:
+//#incbin bin/256Sahasrahla.dmp
+//ALIGN 4
+//SahasrahlaBGPal:
+//#incbin bin/256SahasrahlaPal.dmp
+//
+//MarinBG:
+//#incbin bin/256Marin.dmp
+//ALIGN 4
+//MarinBGPal:
+//#incbin bin/256MarinPal.dmp
+//
+//SariaBG:
+//#incbin bin/256Saria.dmp
+//ALIGN 4
+//SariaBGPal:
+//#incbin bin/256SariaPal.dmp
+//
+//DededeBG:
+//#incbin bin/256Dedede.dmp
+//ALIGN 4
+//DededeBGPal:
+//#incbin bin/256DededePal.dmp
+//
+//MetaKnightBG:
+//#incbin bin/256MetaKnight.dmp
+//ALIGN 4
+//MetaKnightBGPal:
+//#incbin bin/256MetaKnightPal.dmp
+//
+//FalcoBG:
+//#incbin bin/256Falco.dmp
+//ALIGN 4
+//FalcoBGPal:
+//#incbin bin/256FalcoPal.dmp
+//
+//PeppyBG:
+//#incbin bin/256Peppy.dmp
+//ALIGN 4
+//PeppyBGPal:
+//#incbin bin/256PeppyPal.dmp
+//
+//SlippyBG:
+//#incbin bin/256Slippy.dmp
+//ALIGN 4
+//SlippyBGPal:
+//#incbin bin/256SlippyPal.dmp
 
-MarioBG:
-#incbin bin/256Mario.dmp
+EndingBG:
+#incbin bin/256Ending.dmp
 ALIGN 4
-MarioBGPal:
-#incbin bin/256MarioPal.dmp
-
-DKBG:
-#incbin bin/256DK.dmp
-ALIGN 4
-DKBGPal:
-#incbin bin/256DKPal.dmp
-
-LinkBG:
-#incbin bin/256Link.dmp
-ALIGN 4
-LinkBGPal:
-#incbin bin/256LinkPal.dmp
-
-SamusBG:
-#incbin bin/256Samus.dmp
-ALIGN 4
-SamusBGPal:
-#incbin bin/256SamusPal.dmp
-
-YoshiBG:
-#incbin bin/256Yoshi.dmp
-ALIGN 4
-YoshiBGPal:
-#incbin bin/256YoshiPal.dmp
-
-KirbyBG:
-#incbin bin/256Kirby.dmp
-ALIGN 4
-KirbyBGPal:
-#incbin bin/256KirbyPal.dmp
-
-FoxBG:
-#incbin bin/256Fox.dmp
-ALIGN 4
-FoxBGPal:
-#incbin bin/256FoxPal.dmp
-
-PikachuBG:
-#incbin bin/256Pikachu.dmp
-ALIGN 4
-PikachuBGPal:
-#incbin bin/256PikachuPal.dmp
-
-LuigiBG:
-#incbin bin/256Luigi.dmp
-ALIGN 4
-LuigiBGPal:
-#incbin bin/256LuigiPal.dmp
-
-PeachBG:
-#incbin bin/256Peach.dmp
-ALIGN 4
-PeachBGPal:
-#incbin bin/256PeachPal.dmp
-
-BowserBG:
-#incbin bin/256Bowser.dmp
-ALIGN 4
-BowserBGPal:
-#incbin bin/256BowserPal.dmp
-
-ToadBG:
-#incbin bin/256Toad.dmp
-ALIGN 4
-ToadBGPal:
-#incbin bin/256ToadPal.dmp
-
-WarioBG:
-#incbin bin/256Wario.dmp
-ALIGN 4
-WarioBGPal:
-#incbin bin/256WarioPal.dmp
-
-DaisyBG:
-#incbin bin/256Daisy.dmp
-ALIGN 4
-DaisyBGPal:
-#incbin bin/256DaisyPal.dmp
-
-WaluigiBG:
-#incbin bin/256Waluigi.dmp
-ALIGN 4
-WaluigiBGPal:
-#incbin bin/256WaluigiPal.dmp
-
-AshBG:
-#incbin bin/256Ash.dmp
-ALIGN 4
-AshBGPal:
-#incbin bin/256AshPal.dmp
-
-MistyBG:
-#incbin bin/256Misty.dmp
-ALIGN 4
-MistyBGPal:
-#incbin bin/256MistyPal.dmp
-
-BrockBG:
-#incbin bin/256Brock.dmp
-ALIGN 4
-BrockBGPal:
-#incbin bin/256BrockPal.dmp
-
-JessieBG:
-#incbin bin/256Jessie.dmp
-ALIGN 4
-JessieBGPal:
-#incbin bin/256JessiePal.dmp
-
-JamesBG:
-#incbin bin/256James.dmp
-ALIGN 4
-JamesBGPal:
-#incbin bin/256JamesPal.dmp
-
-MayBG:
-#incbin bin/256May.dmp
-ALIGN 4
-MayBGPal:
-#incbin bin/256MayPal.dmp
-
-DawnBG:
-#incbin bin/256Dawn.dmp
-ALIGN 4
-DawnBGPal:
-#incbin bin/256DawnPal.dmp
-
-SerenaBG:
-#incbin bin/256Serena.dmp
-ALIGN 4
-SerenaBGPal:
-#incbin bin/256SerenaPal.dmp
-
-FalconBG:
-#incbin bin/256Falcon.dmp
-ALIGN 4
-FalconBGPal:
-#incbin bin/256FalconPal.dmp
-
-JigglypuffBG:
-#incbin bin/256Jigglypuff.dmp
-ALIGN 4
-JigglypuffBGPal:
-#incbin bin/256JigglypuffPal.dmp
-
-NessBG:
-#incbin bin/256Ness.dmp
-ALIGN 4
-NessBGPal:
-#incbin bin/256NessPal.dmp
-
-PaulaBG:
-#incbin bin/256Paula.dmp
-ALIGN 4
-PaulaBGPal:
-#incbin bin/256PaulaPal.dmp
-
-JeffBG:
-#incbin bin/256Jeff.dmp
-ALIGN 4
-JeffBGPal:
-#incbin bin/256JeffPal.dmp
-
-PooBG:
-#incbin bin/256Poo.dmp
-ALIGN 4
-PooBGPal:
-#incbin bin/256PooPal.dmp
-
-PokeyBG:
-#incbin bin/256Pokey.dmp
-ALIGN 4
-PokeyBGPal:
-#incbin bin/256PokeyPal.dmp
-
-CecilBG:
-#incbin bin/256Cecil.dmp
-ALIGN 4
-CecilBGPal:
-#incbin bin/256CecilPal.dmp
-
-ButzBG:
-#incbin bin/256Butz.dmp
-ALIGN 4
-ButzBGPal:
-#incbin bin/256ButzPal.dmp
-
-TerraBG:
-#incbin bin/256Terra.dmp
-ALIGN 4
-TerraBGPal:
-#incbin bin/256TerraPal.dmp
-
-ZeldaBG:
-#incbin bin/256Zelda.dmp
-ALIGN 4
-ZeldaBGPal:
-#incbin bin/256ZeldaPal.dmp
-
-SahasrahlaBG:
-#incbin bin/256Sahasrahla.dmp
-ALIGN 4
-SahasrahlaBGPal:
-#incbin bin/256SahasrahlaPal.dmp
-
-MarinBG:
-#incbin bin/256Marin.dmp
-ALIGN 4
-MarinBGPal:
-#incbin bin/256MarinPal.dmp
-
-SariaBG:
-#incbin bin/256Saria.dmp
-ALIGN 4
-SariaBGPal:
-#incbin bin/256SariaPal.dmp
-
-DededeBG:
-#incbin bin/256Dedede.dmp
-ALIGN 4
-DededeBGPal:
-#incbin bin/256DededePal.dmp
-
-MetaKnightBG:
-#incbin bin/256MetaKnight.dmp
-ALIGN 4
-MetaKnightBGPal:
-#incbin bin/256MetaKnightPal.dmp
-
-FalcoBG:
-#incbin bin/256Falco.dmp
-ALIGN 4
-FalcoBGPal:
-#incbin bin/256FalcoPal.dmp
-
-PeppyBG:
-#incbin bin/256Peppy.dmp
-ALIGN 4
-PeppyBGPal:
-#incbin bin/256PeppyPal.dmp
-
-SlippyBG:
-#incbin bin/256Slippy.dmp
-ALIGN 4
-SlippyBGPal:
-#incbin bin/256SlippyPal.dmp
+EndingBGPal:
+#incbin bin/256EndingPal.dmp
 
 BlackScreenBG:
 #incbin bin/256BlackScreen.dmp

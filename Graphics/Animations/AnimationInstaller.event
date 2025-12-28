@@ -1,70 +1,70 @@
 //Star Lord - Marth
 {
-#include "Marth/Sword/SwordInstaller.event"
+//#include "Marth/Sword/SwordInstaller.event"
 }
 {
-#include "Marth/Unarmed/UnarmedInstaller.event"
+//#include "Marth/Unarmed/UnarmedInstaller.event"
 }
 
 //Divine Dragon - Chiki
 {
-#include "Chiki/Dragon/DragonInstaller.event"
+//#include "Chiki/Dragon/DragonInstaller.event"
 }
 {
-#include "Chiki/Dragon/DragonInstaller2.event"
+//#include "Chiki/Dragon/DragonInstaller2.event"
 }
 {
-#include "Chiki/Dragon/TransformInstaller.event"
+//#include "Chiki/Dragon/TransformInstaller.event"
 }
 {
-#include "Chiki/Dragon/RevertInstaller.event"
+//#include "Chiki/Dragon/RevertInstaller.event"
 }
 //AA refuses to assemble, something "not in list"
 {
-#include "Chiki/Unarmed/UnarmedInstaller.event"
+//#include "Chiki/Unarmed/UnarmedInstaller.event"
 }
 
 //Ice Dragon
 {
-#include "IceDragon/Breath/BreathInstaller.event"
+//#include "IceDragon/Breath/BreathInstaller.event"
 }
 
 //FE6 Mage F - Lilina
 {
-#include "Lilina/Magic/MagicInstaller.event"
+//#include "Lilina/Magic/MagicInstaller.event"
 }
 
 //Advance Wars animations - future Jugdral
 {
-#include "Infantry/Gun/GunInstaller.event"
+//#include "Infantry/Gun/GunInstaller.event"
 }
 {
-#include "AntiAir/Cannon/CannonInstaller.event"
+//#include "AntiAir/Cannon/CannonInstaller.event"
 }
 {
-#include "Tank/Cannon/CannonInstaller.event"
+//#include "Tank/Cannon/CannonInstaller.event"
 }
 
 //Axe Knight
 {
-#include "AxeKnight/Axe/AxeInstaller.event"
+//#include "AxeKnight/Axe/AxeInstaller.event"
 }
 {
-#include "AxeKnight/HandAxe/HandAxeInstaller.event"
+//#include "AxeKnight/HandAxe/HandAxeInstaller.event"
 }
 
 //Armour Knight variants
 {
-#include "ArmourKnight/Sword/SwordInstaller.event"
+//#include "ArmourKnight/Sword/SwordInstaller.event"
 }
 {
-#include "ArmourKnight/Axe/AxeInstaller.event"
+//#include "ArmourKnight/Axe/AxeInstaller.event"
 }
 {
-#include "ArmourKnight/HandAxe/HandAxeInstaller.event"
+//#include "ArmourKnight/HandAxe/HandAxeInstaller.event"
 }
 {
-#include "ArmourKnight/Bow/BowInstaller.event"
+//#include "ArmourKnight/Bow/BowInstaller.event"
 }
 
 //Battle Palettes
