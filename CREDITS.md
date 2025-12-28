@@ -64,7 +64,10 @@ Lovers and in the rom. Unused stuff does not need to be ported.
 - Artifice map: ZeroXA, Darrman
 - Cave tileset: ZoramineFae
 
+- FMV footage all by Darrman. Music (Necrofantasia): Perfect Cherry Blossom.
+
 # War of Lovers Remnants
+- Some of these were ripped out to fit in the FMV, but I do not feel like editing the below.
 
 # Portraits:
 - Marth: Alusq
