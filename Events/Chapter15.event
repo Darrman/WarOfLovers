@@ -48,19 +48,19 @@ END_MAIN
 Good:
 UNIT Marth Lord 0x00 Level(1,Ally,0) [10,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [1,1] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [2,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [5,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [7,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [9,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [12,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [15,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [16,1] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [17,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [19,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [21,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [22,1] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [23,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [11,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [2,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [5,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [7,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [9,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [12,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [15,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [16,1] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [17,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [19,2] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [21,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [22,1] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [23,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x0 Level(1,Ally,0) [11,0] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
 
 UNIT
 
@@ -87,7 +87,7 @@ UNIT Firene MageKnight Cleive Level(1,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [Elwind] 
 UNIT Firene SwordArmour Cleive Level(15,Enemy,1) [20,15] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
 UNIT Firene AxeArmour Cleive Level(15,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [SteelAxe] NeverMoveAI
 UNIT Firene GreatKnight Cleive Level(1,Enemy,1) [23,23] 0x0 0x0 0x0 0x0 [SilverAxe] AttackInRangeAI
-UNIT Firene General Cleive Level(1,Enemy,1) [23,26] 0x0 0x0 0x0 0x0 [Spear, KillerAxe] NeverMoveAI
+UNIT Firene General Cleive Level(1,Enemy,1) [23,26] 0x0 0x0 0x0 0x0 [Spear, KillerAxe] AttackInRangeAI
 UNIT Firene Archer Cleive Level(15,Enemy,1) [15,18] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 UNIT Firene Archer Cleive Level(15,Enemy,1) [4,21] 0x0 0x0 0x0 0x0 [FireGun] NeverMoveAI
 UNIT Firene Archer Cleive Level(15,Enemy,1) [15,21] 0x0 0x0 0x0 0x0 [FireGun] NeverMoveAI
@@ -116,6 +116,27 @@ UNIT Firene Bishop Cleive Level(1,Enemy,1) [11,24] 0x0 0x0 0x0 0x0 [Lightning, P
 UNIT Firene Sage Cleive Level(1,Enemy,1) [12,25] 0x0 0x0 0x0 0x0 [Thunder] AttackInRangeAI
 UNIT
 
+CutsceneAlmSpeech:
+UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [10,30] DropItem 0x0 0x0 0x0 [Kingsfang, LifeOrb] ChaseOnceApproachedAI
+UNIT Mycen Paladin Alm Level(3,Enemy,0) [9,31] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI
+UNIT Cleive DukeKnight 0x00 Level(5,Enemy,0) [11,31] 0x0 0x0 0x0 0x0 [SteelSword, SilverLance] AttackInRangeAI
+UNIT Claire FalconKnight 0x00 Level(1,Enemy,0) [15,27] 0x0 0x0 0x0 0x0 [SilverLance, Elixir] GuardTileAI
+UNIT Grey Hero Alm Level(3,Enemy,0) [5,30] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
+UNIT Valencia Sniper Alm Level(3,Enemy,0) [7,32] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI //Robin
+UNIT Alear DivineOne 0x00 Level(10,Enemy,0) [6,24] 0x0 0x0 0x0 0x0 [SilverSword] NeverMoveAI
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [11,24] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, CelicaRing] PursueWithoutHeedAI
+UNIT Etie Paladin_F 0x00 Level(1,Enemy,0) [9,35] 0x0  0x0 0x0 0x0 [FE2Bow, SilverBow] AttackInRangeAI //Matilda
+UNIT RogueBernBoss Sage 0x00 Level(1,Enemy,0) [11,35] 0x0  0x0 0x0 0x0 [FE2Bow, SilverBow] AttackInRangeAI //Noma
+UNIT Sheeda PegasusKnight 0x0 Level(1,Ally,0) [16,32] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT
+
+CutsceneAlmPlan:
+UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Kingsfang, LifeOrb] ChaseOnceApproachedAI
+UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [10,5] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI
+UNIT Grey Hero Alm Level(3,Enemy,0) [11,5] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [11,3] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, CelicaRing] PursueWithoutHeedAI
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -125,34 +146,104 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_TheAirOfBrutality
+LOAD3 0x0 Good
+CAM1 Marth
+FADU 10
 Text(Town_Gate,Ch15OpeningBetterLayLow)
+FADI 10
+LOAD2 0x0 CutsceneAlmSpeech
+CAM1 [10,30]
+MUSC M_TwilightOfTheGods
+FADU 10
+FlashCursor(Alm,60)
+STAL 10
 Text(Castle_Outside,Ch15OpeningAlmDeclaresWar)
+CAM1 Sheeda
+MOVE 10 Sheeda [16,29]
+MOVE 10 Claire [15,29]
+MOVE 10 Cleive [16,28]
+ENUN
+FlashCursor(Sheeda,60)
 Text(Village,Ch15OpeningSheedasShock)
+MOVE 20 Sheeda [10,2]
+MOVE 10 Cleive [16,29]
+ENUN
+CAM1 Marth
+FlashCursor(Chiki,60)
 Text(Town_Gate,Ch15OpeningMarthLearns)
 Text(Town_Gate,Ch15OpeningPrepareForBattle)
-LOAD1 0x1 Good
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+CAM1 [0,0]
+MUSC M_PreperationsFE11
+LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 Bad3
+FADU 10
+STAL 10
+CAM1 [23,0]
+STAL 20
+CAM1 [23,40]
+STAL 20
+CAM1 [0,40]
+STAL 20
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
 AfterPrep:
+CAM1 Cleive
+FlashCursor(Cleive,60)
 Text(Ch15AfterPrepCleiveSpeech)
+NoFade
 ENDA
 
 EndingScene:
-//super temp
+CHECK_ALIVE Claire
+BEQ 1501 s0 sC //if dead call gacha
+CHECK_ALLEGIANCE Claire
+BEQ 1502 s0 sC //if blue go to Claire version of events
+LABEL 1501
+DISA Claire //she leaves you if you kill Cleive without attempting mercy
 MUSC M_TogetherWeRide
 CALL UnitGachaAct3
-WARPIN [5,5]
-MOVE 0xFFFF 0xFFFD [5,5]
+WARPIN [10,26]
+MOVE 0xFFFF 0xFFFD [10,26]
 ENUN
 ENDWARP
 STAL 20
-//conditional for Cleive talked to
+MUSC M_DismalNation
 Text(Castle_Outside,Ch15EndingHowUseless)
+GOTO 1503
+
+//conditional for Cleive talked to
+LABEL 1502
+CHECK_EVENTID 0x8 //Cleive talk
+BEQ 1501 s0 sC //if missed summon a guy
+MUSC M_DismalNation
+Text(Castle_Outside,Ch15EndingHowUselessClaire)
+LABEL 1503
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+STAL 10
+LOMA 16 //Sofia Castle
+LOAD1 0x1 CutsceneAlmPlan
+CAM1 [9,4] //the balcony
+MUSC M_TwilightOfTheGods 
+FADU 10
+FlashCursor(Alm,60)
 Text(Castle_Room,Ch15EndingWarRoomSpat)
+MOVE 20 Celine [3,23]
+STAL 20
 
 WM_LOADLOCATION2 0 14 0 //Required to fix chapter name
 WM_SETDESTINATION 0 14 0 //World map node. Keep these equal.
@@ -161,12 +252,14 @@ MNCH 16
 ENDA
 
 ClaireGet:
-//dialogue
+MUSC M_TogetherWeRide
+Text(Ch15StopItClaire)
 TurnAlly(Claire)
 NoFade
 ENDA
 
 CleiveTheMule:
-//dialogue
+MUSC M_TheFiendsRapture
+Text(Ch15CleiveDoesNotSeeReason)
 NoFade
 ENDA
