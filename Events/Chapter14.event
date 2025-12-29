@@ -124,6 +124,35 @@ EnemySummon:
 UNIT Monster Gargoyle 0x0 Level(10,Enemy,1) [16,14] 0x0 0x0 0x1 SummonREDA [IronLance] PursueWithoutHeedAI
 UNIT
 
+CutsceneGood:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [0,20] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [0,21] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [0,22] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Valbo General 0x00 Level(10,Ally,0) [0,23] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT
+
+CutsceneBad:
+UNIT Claire FalconKnight 0x00 Level(1,Enemy,0) [5,5] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT Etie BowKnight 0x00 Level(1,Enemy,0) [5,3] 0x0  0x0 0x0 0x0 [FE2Bow, SilverBow] AttackInRangeAI
+UNIT
+
+CutsceneClaireEnding:
+UNIT Claire FalconKnight 0x00 Level(1,Enemy,0) [29,2] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
+UNIT
+
+CutsceneGoodEnding:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [5,3] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,5] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,5] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Valbo General 0x00 Level(10,Ally,0) [5,7] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT
+
+CutsceneSofiaCastle:
+UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [10,18] DropItem 0x0 0x0 0x0 [Kingsfang, LifeOrb] ChaseOnceApproachedAI
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [12,18] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, CelicaRing] PursueWithoutHeedAI
+UNIT Claire KnightFalcon 0x00 Level(1,Enemy,0) [11,31] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT
+
 Traps1:
 ENDTRAP
 ALIGN 4
@@ -133,12 +162,57 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+//Conditional for no Valbo - scenes not written
+MUSC M_DismalNation
+CAM1 [10,23]
+LOAD2 0x0 CutsceneGood
+FADU 10
+MOVE 10 Marth [10,23]
+MOVE 10 Sheeda [11,21]
+MOVE 10 Chiki [10,22]
+ENUN
+CHECK_ALIVE Valbo //skip past his movement if dead for now
+BEQ 1403 s0 sC
+MOVE 10 Valbo [12,23]
+ENUN
+FlashCursor(Valbo,60)
+LABEL 1403
 Text(Woodland,Ch14OpeningOnTheRoad)
+STAL 10
+MUSC M_DisquietingSteps
+LOAD2 0x0 CutsceneBad
+ENUN
+CAM1 Etie
+STAL 10
+FlashCursor(Claire,60)
 Text(Village,Ch14OpeningClaireFrets)
+STAL 10
+MOVE 10 Claire [27,6]
+ENUN
+STAL 10
+FlashCursor(Etie,60)
 Text(Village,Ch14OpeningEtieTakesOver)
+STAL 10
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+MUSC M_PreperationsFE11
+CAM1 [0,0]
 LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+FADU 10
+STAL 10
+CAM1 [31,0]
+STAL 20
+CAM1 [31,31]
+STAL 20
+CAM1 [0,31]
+STAL 20
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
@@ -148,6 +222,19 @@ ENDA
 
 EndingScene:
 //program conditionals for Doot in later
+LOAD2 0x0 CutsceneClaireEnding
+CAM1 Claire
+FlashCursor(Claire,60)
+Text(Village,Ch14EndingWhatDidSheDo)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+CAM1 [5,5]
+LOAD2 0x0 CutsceneGoodEnding
+CHECK_EVENTID 0x7 //Dyute
+BNE 1401 s0 sC
 MUSC M_TogetherWeRide
 CALL UnitGachaAct3
 WARPIN [5,5]
@@ -155,10 +242,27 @@ MOVE 0xFFFF 0xFFFD [5,5]
 ENUN
 ENDWARP
 STAL 20
-
-Text(Village,Ch14EndingWhatDidSheDo)
+LABEL 1401
+MUSC M_WithMilasDivineProtection //not great music choice, but eh
 Text(Village,Ch14EndingNotAllValencian)
 Text(Castle_Room,Ch14EndingWeMustSaveCelica)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+STAL 10
+LOMA 16 //Sofia Castle
+LOAD1 0x1 CutsceneSofiaCastle
+CAM1 [11,18] //the throne room
+MUSC M_TwilightOfTheGods 
+FADU 10
+BROWNBOX Ch15LocationName [0,0] //Sofia Castle
+STAL 15
+MOVE 10 Claire [11,20]
+ENUN
+STAL 10
+FlashCursor(Claire,60)
 Text(Castle_Room,Ch14ClaireReportsIn)
 
 WM_LOADLOCATION2 0 13 0 //Required to fix chapter name
