@@ -4,7 +4,9 @@
 
 NewPortraitTable:
 #incbin "VanillaPortraitTable.dmp" //Keep generic villagers/class cards the same
-ORG (NewPortraitTable + 0x1C * 0xFF) //If 255 won't cut it, I can always go further
+ORG (NewPortraitTable + 0x1C * 0x100) //What do you know, you hit 255
+//Not for this release, but reorganise entirely for the next repoint
+//Retained vanilla assets can be reinserted individually
 
 // Repoint to it
 PUSH
@@ -720,6 +722,21 @@ Jade_Mug:
 #incext PortraitFormatter "Jade.png"
 setMugEntry(0xFB, Jade_Mug, 2,5,2,3)
 
+Salesman_Mug:
+#incext PortraitFormatter "HappyMaskSalesman.png"
+setMugEntry(0xFC, Salesman_Mug, 0,4,10,4, 2,6,2,4, 1)
+
+Wolf_Mug:
+#incext PortraitFormatter "Wolf.png"
+setMugEntry(0xFD, Wolf_Mug, 2,6,2,4)
+
+Louie_Mug:
+#incext PortraitFormatter "Louie.png"
+setMugEntry(0xFE, Louie_Mug, 4,7,4,4)
+
+President_Mug:
+#incext PortraitFormatter "President.png"
+setMugEntry(0xFF, President_Mug, 0,4,10,4, 4,7,2,3, 1)
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
