@@ -14,12 +14,17 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,BrigandSpawn,2)
 END_MAIN
 
 CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Chest(Swordreaver,20,11)
+Chest(Elixir,22,12)
+Village(0x7,OrphanageSite,3,3)
+Village(0x8,BehindJade,19,19)
 #ifdef __DEBUG__
 Seize(0x3,EndingScene,19,4)
 #endif
@@ -61,7 +66,51 @@ Bad:
 //Gist of the chapter: you start in the throne room. Jade is at the main entrance. 
 //It sounds funny to have the front gate heavily guarded but you can just walk through the back, but that's a bit
 //too silly, perhaps? Right now the enemy is grave robbing...
-UNIT Jade General_F 0x0 Level(1,Enemy,0) [10,19] DropItem 0x0 0x0 0x0 [SilverLance, HectorRing] NoAI
+UNIT Jade General_F 0x0 Level(1,Enemy,0) [10,19] DropItem 0x0 0x0 0x0 [SilverAxe, Tomahawk, HectorRing] AttackInRangeAI
+UNIT Brodia AxeArmour Jade Level(8,Enemy,1) [9,18] 0x0 0x0 0x0 0x0 [IronAxe] GuardTileAI
+UNIT Brodia SwordArmour Jade Level(8,Enemy,1) [11,18] 0x0 0x0 0x0 0x0 [IronSword] GuardTileAI
+UNIT Brodia BowArmour Jade Level(8,Enemy,1) [12,17] 0x0 0x0 0x0 0x0 [IronBow] GuardTileAI
+UNIT Brodia LanceArmour Jade Level(8,Enemy,1) [8,17] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
+UNIT Brodia AxeArmour Jade Level(8,Enemy,1) [13,16] 0x0 0x0 0x0 0x0 [HandAxe] GuardTileAI
+UNIT Brodia AxeArmour Jade Level(8,Enemy,1) [7,16] 0x0 0x0 0x0 0x0 [HandAxe] GuardTileAI
+UNIT Brodia Myrmidon Jade Level(8,Enemy,1) [11,14] 0x0 0x0 0x0 0x0 [IronSword] GuardTileAI
+UNIT Brodia Soldier Jade Level(8,Enemy,1) [10,14] 0x0 0x0 0x0 0x0 [IronLance] GuardTileAI
+UNIT Brodia Fighter Jade Level(8,Enemy,1) [9,14] 0x0 0x0 0x0 0x0 [IronAxe] GuardTileAI
+UNIT Brodia Thief Jade Level(8,Enemy,1) [14,11] 0x0 0x0 0x0 0x0 [IronSword, Lockpick] LootingThiefAI
+UNIT Brodia Soldier Jade Level(8,Enemy,1) [16,19] 0x0 0x0 0x0 0x0 [IronLance] ChaseOnceApproachedAI
+UNIT Brodia Soldier Jade Level(8,Enemy,1) [21,17] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Brodia Mage Jade Level(8,Enemy,1) [1,19] 0x0 0x0 0x0 0x0 [Fire] ChaseOnceApproachedAI
+UNIT
+
+Bad2:
+UNIT Brodia LanceArmour Jade Level(8,Enemy,1) [11,6] 0x0 0x0 0x0 0x0 [Javelin] NeverMoveAI
+UNIT Brodia Myrmidon Jade Level(8,Enemy,1) [13,4] 0x0 0x0 0x0 0x0 [IronSword] PursueWithoutHeedAI
+UNIT Brodia Soldier Jade Level(8,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Brodia Fighter Jade Level(8,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
+UNIT Brodia Archer Jade Level(8,Enemy,1) [7,8] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT Brodia Mage Jade Level(8,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [Fire] AttackInRangeAI
+UNIT Brodia Archer Jade Level(8,Enemy,1) [13,1] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
+UNIT Brodia Archer Jade Level(8,Enemy,1) [6,4] 0x0 0x0 0x0 0x0 [Longbow] ChaseOnceApproachedAI
+UNIT Brodia Mage Jade Level(8,Enemy,1) [3,5] 0x0 0x0 0x0 0x0 [Thunder] ChaseOnceApproachedAI
+UNIT Brodia Soldier Jade Level(8,Enemy,1) [10,1] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Brodia Shaman Jade Level(8,Enemy,1) [0,9] 0x0 0x0 0x0 0x0 [Flux] ChaseOnceApproachedAI
+UNIT Brodia Monk Jade Level(8,Enemy,1) [1,12] 0x0 0x0 0x0 0x0 [Lightning] ChaseOnceApproachedAI
+UNIT
+
+BrigandGroup:
+UNIT BrigandGeneric Brigand Jade Level(8,Enemy,1) [18,0] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAI
+UNIT
+
+CutsceneLilina:
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [17,8] 0x0 0x0 0x0 0x0 [Elfire, Thunder, Vulnerary] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [17,9] 0x0 0x0 0x0 0x0 [SilverSword, Javelin, Vulnerary, ChestKey_5] PursueWithoutHeedAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [17,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+CutsceneJade:
+UNIT Jade General_F 0x0 Level(1,Enemy,0) [15,20] DropItem 0x0 0x0 0x0 [SilverAxe, Tomahawk, HectorRing] AttackInRangeAI
+UNIT Alcryst Sniper 0x00 Level(5,Enemy,0) [24,20] DropItem 0x0 0x0 0x0 [SilverBow, FireGun, LynRing] NeverMoveAI
+UNIT Brodia Soldier Jade Level(8,Enemy,1) [14,19] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT
 
 Traps1:
@@ -73,16 +122,107 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_Charge
+SetBackground(CGBlackScreen)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW Ch10xWorldMap
+TEXTEND
+
+STAL 10
+LOAD2 0x0 CutsceneLilina
+LOAD2 0x0 CutsceneJade
+CAM1 Jade
+FADI 10
+MUSC M_Stratagem
+CALL $9EE2C4 //EndConvo, get rid of black screen
+FlashCursor(Jade,60)
+STAL 10
+Text(Castle_Outside,Ch10xOpeningJadedJade)
+STAL 10
+MOVE 10 Alcryst [16,20]
+ENUN
+STAL 10
+FlashCursor(Alcryst,60)
+Text(Castle_Outside,Ch10xOpeningAlcrystSaysHello)
+MOVE 10 Alcryst [10,21]
+ENUN
+CAM1 [19,8]
+MUSC M_IntoTheShadowOfTriumph //not great, actual sad music would be better
+STAL 20
+FlashCursor(Lilina,60)
+Text(Castle_Garden,Ch10xOpeningPayingRespects)
+MUSC M_AnUnexpectedCaller
+MOVE 10 Jade [14,4]
+ENUN
+FlashCursor(Jade,60)
+TEXTSTART
+TEXTSHOW Ch10xOpeningUnplannedMeeting
+TEXTEND
+SOUN 0xB1 //door opening
 TILECHANGE 6 //open the throne room roof
-LOAD1 0x1 Good
+TEXTCONT
+TEXTEND
+REMA
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+MUSC M_EnemiesAppear
+LOAD3 0x0 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
+CAM1 [0,0]
+FADU 10
+STAL 10
+CAM1 [24,0]
+STAL 20
+CAM1 [24,21]
+STAL 20
+CAM1 [0,21]
+STAL 20
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
 EndingScene:
+CHECK_EVENTID NoSummonGun
+BNE 1051 s0 sC //no gun? no summon
+CHECK_EXISTS Sophia //if you recruited her and she died, she still takes up a slot
+BNE 1051 s0 sC //branch if recruited
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [10,17]
+MOVE 0xFFFF 0xFFFD [10,17]
+ENUN
+ENDWARP
+LABEL 1051
+MUSC M_IntoTheShadowOfTriumph
+Text(Castle_Outside,Ch10xEndingBracelets)
+
 WM_LOADLOCATION2 0 9 0 //Required to fix chapter name
 WM_SETDESTINATION 0 9 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 9 //Needed for world map narration.
 MNCH 0xB
 ENDA
 
+BrigandSpawn:
+EVBIT_T 9
+LOAD1 0x0 BrigandGroup
+NoFade
+ENDA
+
+OrphanageSite:
+Text(Village,Ch10xLughVillage)
+SVAL s3 KillerAxe
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+BehindJade:
+Text(Village,Ch10xSouthVillage)
+SVAL s3 HeroCrest
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
