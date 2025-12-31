@@ -133,7 +133,7 @@ BYTE 0 0 0
 //0xAA - Demon King Class Card
 
 BYTE 0
-//Portrait ID 0xAB, 0xAC
+//Portrait ID 0xAB
 
 //0xAB - Supply Minimug
 //0xAC - Copy of the Placeholder Mug
@@ -141,7 +141,7 @@ BYTE 0
 //and they shouldn't be used as normal portraits anyway; 
 //so as long as you have <0x71 unique portraits you can leave this inline.
 
-BYTE 0 0 0
+BYTE 0 0 0 0
 //Portrait ID 0xAC, 0xAD, 0xAE, 0xAF
 //Ratface, Ch10 Sub, George, Malliesia
 //Actual portraits inserted again
@@ -158,9 +158,34 @@ BYTE 0 0 0 0 0 0 0 0
 //Portrait ID 0xC0, 0xC1, 0xC2, 0xC3, 0xC4, 0xC5, 0xC6, 0xC7
 //Dyute, Feena, Navarre, Gordon, Banutu, Cecil, Gato, Framme
 
-BYTE 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 1 0
 //Portrait ID 0xC8, 0xC9, 0xCA, 0xCB, 0xCC, 0xCD, 0xCE, 0xCF
-//Lapis, Marcus, Wallace, Garret, Wendy, Veronica, BLANK, BLANK
+//Lapis, Marcus, Wallace, Garret, Wendy, Veronica, Yugi, Tea
+
+BYTE 0 0 1 1 0 1 1 0
+//Portrait ID 0xD0, 0xD1, 0xD2, 0xD3, 0xD4, 0xD5, 0xD6, 0xD7
+//Joey, Kaiba, Rydia, Kain, Lenna, Celes, Locke, Sonic
+
+BYTE 0 0 0 0 0 0 0 0
+//Portrait ID 0xD8, 0xD9, 0xDA, 0xDB, 0xDC, 0xDD, 0xDE, 0xDF
+//Tails, Knuckles, Robotnik, MrG&W, Popo, Flynn, Isabeau, Walter
+
+BYTE 0 1 1 0 1 1 0 0
+//Portrait ID 0xE0, 0xE1, 0xE2, 0xE3, 0xE4, 0xE5, 0xE6, 0xE7
+//Jonathan, Claire, Mycen, Etie, Cleive, Grey, Jaden, Alexis
+
+BYTE 0 0 0 0 0 0 0 0
+//Portrait ID 0xE8, 0xE9, 0xEA, 0xEB, 0xEC, 0xED, 0xEE, 0xEF
+//Chazz, Reimu, Marisa, Mima, Yuuka, Shinki, Alice, Snake
+
+BYTE 0 0 1 0 0 0 0 0
+//Portrait ID 0xF0, 0xF1, 0xF2, 0xF3, 0xF4, 0xF5, 0xF6, 0xF7
+//Raiden, Armstrong, Rosa, Galuf, Shadow, Olimar, Mewtwo, Chloe
+
+BYTE 0 0 0 0 0 0 0 0
+//Portrait ID 0xF8, 0xF9, 0xFA, 0xFB, 0xFC, 0xFD, 0xFE, 0xFF
+//Red Celine, Ganon, Athena, Jade, Salesman, Wolf, Louie, President
+
 
 ALIGN 4
 

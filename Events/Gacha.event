@@ -475,6 +475,7 @@ ENDA
 
 SalesmanCommon:
 //SetBackground(CGSalesman)
+SetBackground(CGBlackScreen) //placeholder if no CG
 //SOUN VoiceSalesmanSummon
 STAL 20
 CGTEXTSTART
@@ -487,6 +488,7 @@ ENDA
 
 GanonCommon:
 //SetBackground(CGGanon)
+SetBackground(CGBlackScreen)
 //SOUN VoiceGanonSummon
 STAL 20
 CGTEXTSTART
@@ -499,6 +501,7 @@ ENDA
 
 WolfCommon:
 //SetBackground(CGWolf)
+SetBackground(CGBlackScreen)
 //SOUN VoiceWolfSummon
 STAL 20
 CGTEXTSTART
@@ -511,6 +514,7 @@ ENDA
 
 MewtwoCommon:
 //SetBackground(CGMewtwo)
+SetBackground(CGBlackScreen)
 //SOUN VoiceMewtwoSummon
 STAL 20
 CGTEXTSTART
@@ -523,6 +527,7 @@ ENDA
 
 MrGAndWCommon:
 //SetBackground(CGMrGandW)
+SetBackground(CGBlackScreen)
 //SOUN VoiceMrGandWSummon
 STAL 20
 CGTEXTSTART
@@ -535,6 +540,7 @@ ENDA
 
 PopoCommon:
 //SetBackground(CGPopo)
+SetBackground(CGBlackScreen)
 //SOUN VoicePopoSummon
 STAL 20
 CGTEXTSTART
@@ -547,6 +553,7 @@ ENDA
 
 RosaCommon:
 //SetBackground(CGRosa)
+SetBackground(CGBlackScreen)
 //SOUN VoiceRosaSummon
 STAL 20
 CGTEXTSTART
@@ -559,6 +566,7 @@ ENDA
 
 KainFF4Common:
 //SetBackground(CGKainFF4)
+SetBackground(CGBlackScreen)
 //SOUN VoiceKainFF4Summon
 STAL 20
 CGTEXTSTART
@@ -571,6 +579,7 @@ ENDA
 
 RydiaCommon:
 //SetBackground(CGRydia)
+SetBackground(CGBlackScreen)
 //SOUN VoiceRydiaSummon
 STAL 20
 CGTEXTSTART
@@ -584,6 +593,7 @@ ENDA
 
 LennaCommon:
 //SetBackground(CGLenna)
+SetBackground(CGBlackScreen)
 //SOUN VoiceLennaSummon
 STAL 20
 CGTEXTSTART
@@ -596,6 +606,7 @@ ENDA
 
 GalufCommon:
 //SetBackground(CGGaluf)
+SetBackground(CGBlackScreen)
 //SOUN VoiceGalufSummon
 STAL 20
 CGTEXTSTART
@@ -608,6 +619,7 @@ ENDA
 
 CelesCommon:
 //SetBackground(CGCeles)
+SetBackground(CGBlackScreen)
 //SOUN VoiceCelesSummon
 STAL 20
 CGTEXTSTART
@@ -620,6 +632,7 @@ ENDA
 
 LockeCommon:
 //SetBackground(CGLocke)
+SetBackground(CGBlackScreen)
 //SOUN VoiceLockeSummon
 STAL 20
 CGTEXTSTART
@@ -716,6 +729,7 @@ ENDA
 
 OlimarCommon:
 //SetBackground(CGOlimar)
+SetBackground(CGBlackScreen)
 //SOUN VoiceOlimarSummon
 STAL 20
 CGTEXTSTART
@@ -728,6 +742,7 @@ ENDA
 
 LouieCommon:
 //SetBackground(CGLouie)
+SetBackground(CGBlackScreen)
 //SOUN VoiceLouieSummon
 STAL 20
 CGTEXTSTART
@@ -740,6 +755,7 @@ ENDA
 
 PresidentCommon:
 //SetBackground(CGPresident)
+SetBackground(CGBlackScreen)
 //SOUN VoicePresidentSummon
 STAL 20
 CGTEXTSTART
@@ -848,6 +864,7 @@ ENDA
 
 FlynnCommon:
 //SetBackground(CGFlynn)
+SetBackground(CGBlackScreen)
 //SOUN VoiceFlynnSummon
 STAL 20
 CGTEXTSTART
@@ -860,6 +877,7 @@ ENDA
 
 IsabeauCommon:
 //SetBackground(CGIsabeau)
+SetBackground(CGBlackScreen)
 //SOUN VoiceIsabeauSummon
 STAL 20
 CGTEXTSTART
@@ -872,6 +890,7 @@ ENDA
 
 JonathanCommon:
 //SetBackground(CGJonathan)
+SetBackground(CGBlackScreen)
 //SOUN VoiceJonathanSummon
 STAL 20
 CGTEXTSTART
@@ -884,6 +903,7 @@ ENDA
 
 WalterCommon:
 //SetBackground(CGWalter)
+SetBackground(CGBlackScreen)
 //SOUN VoiceWalterSummon
 STAL 20
 CGTEXTSTART
@@ -2814,7 +2834,7 @@ UNIT Walter Brigand 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe
 UNIT
 
 JonathanUnitAct1:
-UNIT Jonathan Myrmidon 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Jonathan LanceKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
 UNIT
 
 IsabeauUnitAct1:
@@ -2822,7 +2842,7 @@ UNIT Isabeau Mage_F 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Fire, V
 UNIT
 
 ReimuUnitAct1:
-UNIT Reimu Soldier 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Reimu PegasusKnight 0x00 Level(1, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
 UNIT
 
 MarisaUnitAct1:
@@ -4070,7 +4090,7 @@ UNIT Walter Brigand 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAxe
 UNIT
 
 JonathanUnitAct2:
-UNIT Jonathan Myrmidon 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Jonathan LanceKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
 UNIT
 
 IsabeauUnitAct2:
@@ -4078,7 +4098,7 @@ UNIT Isabeau Mage_F 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elfire,
 UNIT
 
 ReimuUnitAct2:
-UNIT Reimu Soldier 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Reimu PegasusKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
 UNIT
 
 MarisaUnitAct2:
@@ -5323,7 +5343,7 @@ UNIT Walter Brigand 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronAx
 UNIT
 
 JonathanUnitAct3:
-UNIT Jonathan Myrmidon 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
+UNIT Jonathan LanceKnight 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronSword, Vulnerary] NoAI
 UNIT
 
 IsabeauUnitAct3:
@@ -5331,7 +5351,7 @@ UNIT Isabeau Mage_F 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Elfire
 UNIT
 
 ReimuUnitAct3:
-UNIT Reimu Soldier 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
+UNIT Reimu PegasusKnight 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [IronLance, Vulnerary] NoAI
 UNIT
 
 MarisaUnitAct3:
