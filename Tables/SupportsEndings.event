@@ -47,28 +47,28 @@ BYTE 0 0
 EliwoodSupports:
 //Leave three blank where an A Ninian once was
 CharacterSupport(/*Ninian*/Roy, Lilina, 0, 0, 0, 0, 0)
-SupportBases(/*241*/81, 81, 0, 0, 0, 0, 0)
+SupportBases(/*241*/78, 50, 0, 0, 0, 0, 0)
 SupportGrowths(/*3*/3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
 RoySupports:
 CharacterSupport(Lilina, Eliwood, 0, 0, 0, 0, 0)
-SupportBases(241, 81, 0, 0, 0, 0, 0)
+SupportBases(78, 50, 0, 0, 0, 0, 0)
 SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
 AlmSupports:
 CharacterSupport(Celica, 0, 0, 0, 0, 0, 0)
-SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportBases(78, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
 CelicaSupports:
 CharacterSupport(Alm, 0, 0, 0, 0, 0, 0)
-SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportBases(78, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
@@ -203,7 +203,7 @@ LinkSupports:
 CharacterSupport(Yoshi, Zelda, Saria, 0, 0, 0, 0)
 SupportBases(81, 241, 81, 0, 0, 0, 0)
 SupportGrowths(3, 3, 3, 0, 0, 0, 0)
-BYTE 1 //support count
+BYTE 3 //support count
 BYTE 0 0
 
 SamusSupports:
@@ -284,22 +284,22 @@ BYTE 1 //support count
 BYTE 0 0
 
 CecilSupports:
-CharacterSupport(Butz, Terra, 0, 0, 0, 0, 0)
-SupportBases(81, 81, 0, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(Rosa, KainFF4, Rydia, 0, 0, 0, 0)
+SupportBases(241, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
 BYTE 0 0
 
 ButzSupports:
-CharacterSupport(Cecil, Terra, 0, 0, 0, 0, 0)
-SupportBases(81, 81, 0, 0, 0, 0, 0)
+CharacterSupport(Lenna, Galuf, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
 SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
 TerraSupports:
-CharacterSupport(Cecil, Butz, 0, 0, 0, 0, 0)
-SupportBases(81, 81, 0, 0, 0, 0, 0)
+CharacterSupport(Celes, Locke, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
 SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
@@ -365,6 +365,299 @@ CharacterSupport(Link, 0, 0, 0, 0, 0, 0)
 SupportBases(81, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
+BYTE 0 0
+
+GanonSupports:
+CharacterSupport(Salesman, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+SalesmanSupports:
+CharacterSupport(Ganon, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+MewtwoSupports:
+//We call this pairing the spares
+CharacterSupport(Wolf, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+MrGAndWSupports:
+CharacterSupport(Popo, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+PopoSupports:
+CharacterSupport(MrGameAndWatch, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+WolfSupports:
+CharacterSupport(Mewtwo, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+KainFF4Supports:
+CharacterSupport(CecilFF4, Rosa, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+RosaSupports:
+CharacterSupport(CecilFF4, Kain, Rydia, 0, 0, 0, 0)
+SupportBases(241, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+RydiaSupports:
+//Sorry Edge!
+CharacterSupport(CecilFF4, Rosa, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+LennaSupports:
+//Faris isn't in this game, so...
+CharacterSupport(Butz, Galuf, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+GalufSupports:
+//Cara would have the A if the gang was all here
+CharacterSupport(Butz, Lenna, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+CelesSupports:
+CharacterSupport(Locke, Terra, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+LockeSupports:
+CharacterSupport(Celes, Terra, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+YugiSupports:
+CharacterSupport(Tea, Joey, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+JoeySupports:
+CharacterSupport(Yugi, Tea, Kaiba, 0, 0, 0, 0)
+SupportBases(161, 161, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+TeaSupports:
+CharacterSupport(Yugi, Joey, 0, 0, 0, 0, 0)
+SupportBases(241, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+KaibaSupports:
+//If everyone was here, Mokuba would be the only support...
+CharacterSupport(Joey, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+JadenSupports:
+//This is end of season 3: C ranks are generous!
+CharacterSupport(Alexis, Chazz, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+AlexisSupports:
+CharacterSupport(Jaden, Chazz, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+ChazzSupports:
+CharacterSupport(Alexis, Jaden, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+OlimarSupports:
+CharacterSupport(Louie, President, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+LouieSupports:
+CharacterSupport(Olimar, President, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+PresidentSupports:
+CharacterSupport(Olimar, Louie, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+SnakeSupports:
+CharacterSupport(Raiden, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+RaidenSupports:
+CharacterSupport(Snake, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+ArmstrongSupports:
+CharacterSupport(0, 0, 0, 0, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+BYTE 0 //support count
+BYTE 0 0
+
+SonicSupports:
+CharacterSupport(Tails, Knuckles, Shadow, 0, 0, 0, 0)
+SupportBases(161, 161, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+TailsSupports:
+CharacterSupport(Sonic, Knuckles, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+KnucklesSupports:
+CharacterSupport(Sonic, Tails, 0, 0, 0, 0, 0)
+SupportBases(161, 161, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+ShadowSupports:
+CharacterSupport(Sonic, Robotnik, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+RobotnikSupports:
+CharacterSupport(Shadow, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+FlynnSupports:
+CharacterSupport(Isabeau, Jonathan, Walter, 0, 0, 0, 0)
+SupportBases(81, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+JonathanSupports:
+CharacterSupport(Flynn, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+WalterSupports:
+CharacterSupport(Flynn, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+IsabeauSupports:
+CharacterSupport(Flynn, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+ReimuSupports:
+CharacterSupport(Marisa, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+MarisaSupports:
+CharacterSupport(Reimu, Mima, Alice, 0, 0, 0, 0)
+SupportBases(241, 81, 81, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
+BYTE 3 //support count
+BYTE 0 0
+
+MimaSupports:
+CharacterSupport(Marisa, Yuuka, 0, 0, 0, 0, 0)
+SupportBases(81, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+YuukaSupports:
+CharacterSupport(Mima, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+ShinkiSupports:
+CharacterSupport(Alice, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+AliceSupports:
+CharacterSupport(Shinki, Marisa, 0, 0, 0, 0, 0)
+SupportBases(241, 81, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 2 //support count
 BYTE 0 0
 
 //Support conversations
