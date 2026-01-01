@@ -5,3 +5,5 @@
 # tmx2ea-generated data file
 *.dmp
 
+# deleted, kept in repo for reference
+/del

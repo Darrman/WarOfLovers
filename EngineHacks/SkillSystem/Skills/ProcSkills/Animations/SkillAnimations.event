@@ -2,65 +2,65 @@
 ALIGN 4
 LunaAnim:
 {
-#include "Luna/LunaAnim.event"
+//#include "Luna/LunaAnim.event"
 }
 
 ALIGN 4
 AstraAnim:
 {
-  #include "Astra/AstraAnim.event"
+//  #include "Astra/AstraAnim.event"
 }
 
 ALIGN 4
 AdeptAnim:
 {
-  #include "Adept/AdeptAnim.event"
+//  #include "Adept/AdeptAnim.event"
 }
 
 ALIGN 4
 SolAnim:
 {
-  #include "Sol/SolAnim.event"
+//  #include "Sol/SolAnim.event"
 }
 
 ALIGN 4
 AetherAnim:
 {
-  #include "Aether/AetherAnim.event"
+//  #include "Aether/AetherAnim.event"
 }
 
 ALIGN 4
 ImpaleAnim:
 {
-  #include "Impale/ImpaleAnim.event"
+//  #include "Impale/ImpaleAnim.event"
 }
 
 ALIGN 4
 ColossusAnim:
 {
-  #include "Colossus/ColossusAnim.event"
+//  #include "Colossus/ColossusAnim.event"
 }
 
 ALIGN 4
 IgnisAnim:
 {
-  #include "Ignis/IgnisAnim.event"
+//  #include "Ignis/IgnisAnim.event"
 }
 
 ALIGN 4
 PaviseAnim:
 {
-  #include "Pavise/PaviseAnim.event"
+//  #include "Pavise/PaviseAnim.event"
 }
 
 ALIGN 4
 AegisAnim:
 {
-  #include "Aegis/AegisAnim.event"
+//  #include "Aegis/AegisAnim.event"
 }
 
 ALIGN 4
 SureShotAnim:
 {
-  #include "SureShot/SureShotAnim.event"
+//  #include "SureShot/SureShotAnim.event"
 }

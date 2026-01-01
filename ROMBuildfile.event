@@ -27,14 +27,16 @@
 
     //Engine Hacks
     #include "EngineHacks/_MasterHackInstaller.event"
-    MESSAGE Used hax space ends at currentOffset
+    MESSAGE Used hack space ends at currentOffset
 
     //Events
     #include "Events/MasterEventInstaller.event"
+    MESSAGE Used event space ends at currentOffset
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
-    
+    MESSAGE End of area Used map space ends at currentOffset
+	
     //install graphics/music at the end of the rom
     ORG 0xEFB2E0
     //Music
