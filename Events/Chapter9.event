@@ -36,6 +36,8 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 0xA BossCharges [0,0] [6,14] //approaching middle forts
+AREA 0xA BossCharges [7,8] [13,13] //don't try fly-skipping
 END_MAIN
 
 Dunno1:
@@ -68,11 +70,11 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [12,25] 0x0 0x0 0x0 0x0 [SilverLa
 UNIT
 
 Bad:
-UNIT RogueBernBoss DragonMaster 0x00 Level(1,Enemy,0) [3,4] 0x0 0x0 0x0 0x0 [SilverLance] AttackInRangeAI
-UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [2,3] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
-UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,5] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
-UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,3] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
-UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [2,5] 0x0 0x0 0x0 [SteelLance] AttackInRangeAI
+UNIT RogueBernBoss DragonMaster 0x00 Level(1,Enemy,0) [3,4] 0x0 0x0 0x0 0x0 [SilverLance] GuardTileAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [2,3] 0x0 0x0 0x0 [SteelLance] GuardTileAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,5] 0x0 0x0 0x0 [SteelLance] GuardTileAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [4,3] 0x0 0x0 0x0 [SteelLance] GuardTileAI
+UNIT RogueBern DragonKnight RogueBernBoss Level(7,Enemy,1) [2,5] 0x0 0x0 0x0 [SteelLance] GuardTileAI
 UNIT RogueBern Fighter RogueBernBoss Level(7,Enemy,1) [19,14] 0x0 0x0 0x0 [IronAxe] PursueWithoutHeedAI
 UNIT RogueBern Fighter RogueBernBoss Level(7,Enemy,1) [16,16] 0x0 0x0 0x0 [Halberd] PursueWithoutHeedAI
 UNIT RogueBern Brigand RogueBernBoss Level(7,Enemy,1) [20,17] 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
@@ -269,6 +271,10 @@ LABEL 901
 MUSC M_Triumph
 Text(Castle_Hall,Ch9EndingBernKeep)
 Text(Castle_Hall,Ch9EndingBernKeep2)
+CHECK_EVENTID 0x8 //Miledy
+BEQ 902 s0 sC //skip if not recruited
+Text(Castle_Hall,Ch9EndingMiledyOrders)
+
 FADI 10
 CLEA 0
 CLEE 0
@@ -325,8 +331,19 @@ ENDA
 ReturnOfMiledy:
 //The more smooth way would be to talk to her, then Guin lets her go in chapter ending
 MUSC M_JoinUs
-Text(PlaceholderText)
+Text(Ch9MiledyChat)
 TurnAlly(Miledy)
+NoFade
+ENDA
+
+BossCharges:
+//Swap from Guard to Pursue once approached: stop Miledy from getting killed
+SVAL s1 0x00000000 //pursue
+CHAI RogueBernBoss
+CHAI [2,3] //the dragon knights immediately around him
+CHAI [4,5]
+CHAI [4,3]
+CHAI [2,5]
 NoFade
 ENDA
 

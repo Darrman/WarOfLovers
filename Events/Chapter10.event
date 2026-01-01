@@ -149,10 +149,10 @@ UNIT
 PheraenPrisoners:
 UNIT Merlinus Civilian_2 0x00 Level(1,NPC,0) [14,1] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
 UNIT Wolt Archer 0x0 Level(7,NPC,0) [18,1] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //Wolt
-UNIT Garret Berserker 0x0 Level(1,NPC,0) [19,14] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I asked for random suggestions so this is Garret now
+UNIT Garret Berserker 0x0 Level(1,NPC,0) [19,26] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I asked for random suggestions so this is Garret now
 UNIT Wallace General 0x0 Level(1,NPC,0) [19,18] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //Wallace has returned!
 UNIT Marcus KnightPaladin 0x0 Level(1,NPC,0) [19,22] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //it would be wrong to not have Marcus
-UNIT Sophia Shaman_F 0x0 Level(5,NPC,0) [19,26] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I dunno inexplicable Sophia to hint for Forblaze?
+UNIT Sophia Shaman_F 0x0 Level(5,NPC,0) [19,14] 0x0 0x0 0x0 0x0 [0x0] AttackInRangeAI //I dunno inexplicable Sophia to hint for Forblaze?
 UNIT
 
 CutsceneSurrender:
@@ -191,6 +191,7 @@ MOVE 8 Executioner [8,6]
 ENUN
 FlashCursor(Merlinus,60)
 Text(Castle_Hall_3,Ch10OpeningFatalNegotiations) //todo: make them less fatal
+STAL 10 //I have no idea why it sometimes inverts this scripted battle, causing a hang
 NormalDamage(0,0) //figure out how to have scripted status staff
 EndAttack
 FIGHT_MAP Brodia Marcus Sleep 0
@@ -256,16 +257,6 @@ ENDA
 
 EndingScene:
 //Still a bit rough, but plenty extra writing needed here anyway
-//Check if all green units alive: if not, no gaiden
-CHECK_EVENTID 0xD //set if a green unit dies here
-BNE 1001 s0 sC
-MUSC M_Triumph
-Text(Ch10EndingPrisonersSaved)
-SVAL s3 Rapier
-GIVEITEMTO Marth
-//had pencilled in Eliwood, but I wrote it with Marth
-//placeholder: should be some reward in addition to the gaiden
-LABEL 1001
 //Then check if you got Wolt/Sophia, if you left them green get a random
 //Will likely revise depending on how the recruitments map out
 //Let's tie Wolt to 10 and Sophia to 10x for now
@@ -289,6 +280,19 @@ MUSC M_LegendOfTheDivineDragonMusicBox
 Text(Castle_Hall_3,Ch10EndingForNinian)
 SVAL s3 IceStone
 GIVEITEMTO Chiki
+//Check if all green units alive: if not, no gaiden
+CHECK_EVENTID 0xD //set if a green unit dies here
+BNE 1001 s0 sC
+MUSC M_Triumph
+Text(Ch10EndingPrisonersSaved)
+SVAL s3 Rapier
+GIVEITEMTO Marth
+//had pencilled in Eliwood, but I wrote it with Marth
+//placeholder: should be some reward in addition to the gaiden
+Text(Castle_Hall_3,Ch10EndingGaidenGet)
+Text(Castle_Hall_3,Ch10EndingToAraphen)
+LABEL 1001
+
 MUSC M_Stratagem
 Text(Castle_Room,Ch10EndingSomniel)
 CHECK_EVENTID 0xD //Gaiden check: save the prisoners

@@ -421,7 +421,7 @@ But now is the time for action. All[N]
 men, attack the southern convoy![A][X]
 
 ## Ch9GuinevereReaction
-[ML][LoadMiledy][0x01][MR][LoadGuinevere]
+[ML][LoadMiledy][MR][LoadGuinevere]
 //the generic is actually Miledy now, Guinevere
 [ML]
 Your majesty, Berthold's unit has[N]
@@ -519,6 +519,22 @@ doing me any good. If Berthold[AN]
 gets himself killed, that's what[N]
 a warmonger like him deserves.[A][X]
 
+## Ch9MiledyChat
+[ML][LoadMiledy][MR][LoadEliwood]
+[ML]
+Marquess Pherae, it is good to see[N]
+you safe. We apologise for the[AN]
+attacks the rebels have launched[N]
+on your party.[AN]
+[MR]
+No, you are fine. We have had to[N]
+defend ourselves on our way here.[AN]
+Shall we work together to defeat[N]
+the rebels?[AN]
+[ML]
+Our goals are aligned, so let us[N]
+work together for now.[A][X]
+
 ## Ch9EndingBernKeep
 [Left][LoadGuinevere][Right][LoadLilina][FR][LoadEliwood]
 //Guinevere
@@ -613,6 +629,28 @@ You look exhausted, Lilina. A night's[N]
 sleep would do you a lot of good.[AN]
 [Right]
 Very well. Thank you, Guinevere.[A][X]
+
+## Ch9EndingMiledyOrders
+[Left][LoadGuinevere][Right][LoadMiledy]
+[Left]
+Miledy, I understand you were[N]
+talking with Marquess Pherae.[AN]
+[Right]
+Yes, your majesty. We co-operated[N]
+to defeat the rebels and allow[AN]
+his party to get here.[AN]
+[Left]
+Good. While I must stay here,[N]
+I would like to keep an eye on[AN]
+things outside of Bern. Miledy,[N]
+assist the Lycians for now.[AN]
+[Right]
+Of course, your majesty. I did[N]
+that during the war: I am more[AN]
+than willing to do so again.[N]
+Your wish is my command.[A]
+[Left]
+Thank you, Miledy.[A][X]
 
 ## Ch9EndingAlfredDies
 [Right][LoadAlear][Left][LoadAlfred][FR][LoadCeline]

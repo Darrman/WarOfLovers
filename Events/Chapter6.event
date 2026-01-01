@@ -32,6 +32,7 @@ TurnEventNPC(0x3, EndingScene, 7) //npc phase to stop a turn being tacked on
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x7,ComeOnBarts,Oguma,Barts)
 END_MAIN
 
 LocationBasedEvents:
@@ -130,7 +131,7 @@ UNIT Lythos DragonKnight 0x00 Level(3,Enemy,1) [15,19] 0x0 0x0 0x0 0x0 [Javelin]
 UNIT
 
 T5Group:
-UNIT DegeneratedDragon DracoZombie 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [IceStone] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT DegeneratedDragon IceDragon 0x0 Level(1,Enemy,1) [19,0] 0x0 0x0 0 0 [IceStone] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
 UNIT Lythos Mercenary 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA1 [Wyrmslayer] AttackInRangeAI
 UNIT Lythos Mage 0x0 Level(4,Enemy,1) [22,15] 0x0 0x0 1 LythosREDA2 [Fire] AttackInRangeAI
 UNIT Lythos PegasusKnight 0x00 Level(3,Enemy,1) [0,7] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
@@ -158,9 +159,9 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [14,12] 0x0 0x0 0x0 0x0 [DivineStone] 
 UNIT
 
 EndingDragons:
-UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [15,3] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
-UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [16,4] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
-UNIT PirateGeneric DracoZombie 0x0 Level(1,Enemy,1) [17,2] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT PirateGeneric IceDragon 0x0 Level(1,Enemy,1) [15,3] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT PirateGeneric IceDragon 0x0 Level(1,Enemy,1) [16,4] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
+UNIT PirateGeneric IceDragon 0x0 Level(1,Enemy,1) [17,2] 0x0 0x0 0 0 [WretchedAir] PursueWithoutHeedAI //Ice Dragon, Dragon Zombie for now
 UNIT
 
 Traps1:
@@ -208,6 +209,7 @@ MUSC M_Victory
 CHECK_EVENTID 0x2
 BNE 601 s0 sC
 Text(Ship,Ch6LythosRetreatBoss)
+ENUT LouisSpared
 GOTO 602
 LABEL 601
 Text(Ship,Ch6LythosRetreatNoBoss)
@@ -381,6 +383,18 @@ ENDA
 
 Turn6Reinforcements:
 LOAD1 0x1 T6Group
+NoFade
+ENDA
+
+ComeOnBarts:
+MUSC M_Conspiracy
+TEXTSTART
+TEXTSHOW Ch6BartsThePirate
+TEXTEND
+MUSC M_TogetherWeRide
+TEXTCONT
+TEXTEND
+TurnAlly(Barts)
 NoFade
 ENDA
 

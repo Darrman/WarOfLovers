@@ -115,6 +115,7 @@ UNIT
 
 LindaGroup:
 UNIT Linda Mage_F 0x00 Level(5,Ally,0) [28,5] 0x0 0x0 0x0 0x0 [Aura, Wind] NoAI
+UNIT
 
 ClanneGroup:
 UNIT Clanne Mage 0x00 Level(10,Enemy,0) [25,7] 0x0 0x0 0x0 0x0 [Elfire] NeverMoveAI //replace with Clanne or whoever
@@ -332,7 +333,7 @@ MNCH 0x6
 GOTO 511
 
 LABEL 510
-//new text
+Text(Castle_Hall_Night,Ch5MarthSailsSouth)
 REMU Rody
 SVAL s3 ShieldOfSeals
 GIVEITEMTO Marth
@@ -378,8 +379,15 @@ SVAL s3 Dragonshield
 GIVEITEMTO 0xFFFF
 GOTO 507
 LABEL 506
-Text(Village,Ch5MarthFinallyVisits)
+CHECK_EVENTID JamModeOn
+BNE 513 s0 sC //old text/reward if so
+Text(Village,Ch5RiffReallyIsHome)
 LOAD1 0x1 RiffGroup
+GOTO 507
+LABEL 513
+Text(Village,Ch5MarthFinallyVisits)
+SVAL s3 Dragonshield
+GIVEITEMTO 0xFFFF
 LABEL 507
 NoFade
 ENDA
@@ -390,7 +398,7 @@ Ch5EastVillage:
 MUSC M_TogetherWeRide
 CHECK_EVENTID JamModeOn
 BNE 508 sC s0 //branch if jam mode 
-Text(Village,PlaceholderText) //Linda recruit dialogue
+Text(Village,Ch5LindaAppears) //Linda recruit dialogue
 LOAD1 0x1 LindaGroup
 //CALL UnitGachaAct1
 GOTO 509

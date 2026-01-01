@@ -130,6 +130,10 @@ UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [19,6] 0x0 0x0 0x0 0x0 [IronLa
 UNIT RogueBern DragonKnight 0x0 Level(10,Enemy,1) [0,10] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT
 
+AstoreGroup:
+UNIT Astore Thief 0x0 Level(10,Ally,0) [13,18] 0x0 0x0 0x1 AstoreREDA [SteelSword, PoisonSword, Vulnerary] NoAI
+UNIT
+
 SouthernReinforcements:
 UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [6,27] 0x0 0x0 0x1 SouthREDA1 [Javelin] PursueWithoutHeedAI
 UNIT Colonial LanceKnight 0x0 Level(10,Enemy,1) [7,27] 0x0 0x0 0x1 SouthREDA2 [SteelLance] PursueWithoutHeedAI
@@ -656,56 +660,59 @@ NoFade
 ENDA
 
 Village1515:
-Text(Outside_Village_Day,Ch11VillageText1)
+Text(Village,Ch11VillageText4)
 SVAL s3 Hammer
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1915:
-Text(Outside_Village_Day,Ch11VillageText2)
+Text(Village,Ch11VillageText2)
 SVAL s3 AngelicRobe
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village118:
-Text(Outside_Village_Day,Ch11VillageText3)
+Text(Village,Ch11VillageText3)
 SVAL s3 Elfire
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1318:
-Text(Outside_Village_Day,Ch11VillageText4)
-SVAL s3 ShortSpear
-GIVEITEMTO 0xFFFF
+//Text(Village,Ch11VillageText4)
+//SVAL s3 ShortSpear
+//GIVEITEMTO 0xFFFF
+MUSC M_JoinUs
+Text(Village,Ch11AstoreLurks)
+LOAD1 0x1 AstoreGroup
 NoFade
 ENDA
 
 Village1521:
-Text(Outside_Village_Day,Ch11VillageText5)
+Text(Village,Ch11VillageText5)
 SVAL s3 BrightLance
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1921:
-Text(Outside_Village_Day,Ch11VillageText6)
+Text(Village,Ch11VillageText6)
 SVAL s3 Physic
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village124:
-Text(Outside_Village_Day,Ch11VillageText7)
+Text(Village,Ch11VillageText7)
 SVAL s3 EnergyRing
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village1324:
-Text(Outside_Village_Day,Ch11VillageText8)
+Text(Village,Ch11VillageText8)
 SVAL s3 Swordslayer
 GIVEITEMTO 0xFFFF
 NoFade
@@ -785,3 +792,6 @@ REDA [22,21]
 
 LilinaREDA:
 REDA [24,20]
+
+AstoreREDA:
+REDA [13,19]

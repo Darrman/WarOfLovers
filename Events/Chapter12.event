@@ -26,6 +26,8 @@ END_MAIN
 
 CharacterBasedEvents:
 CharacterEventBothWays(0xe,RecruitingBartre,Eliwood,Bartre)
+CharacterEventBothWays(0xe,DaughterAndFather,Fir,Bartre)
+
 END_MAIN
 
 LocationBasedEvents:
@@ -356,6 +358,14 @@ Text(Ch12BartreGet)
 TurnAlly(Bartre)
 NoFade
 ENDA
+
+DaughterAndFather:
+MUSC M_JoinUs
+Text(Ch12BartreGetFir)
+TurnAlly(Bartre)
+NoFade
+ENDA
+
 
 CavalryIncoming:
 CAM1 [36,6]

@@ -15,6 +15,7 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
+TurnEventEnemy(0x0,FirMovesToAVillage,1)
 END_MAIN
 
 CharacterBasedEvents:
@@ -102,10 +103,11 @@ UNIT Colonial Shaman Amber Level(6,Enemy,1) [17,3] 0x0 0x0 0x0 0x0 [Flux] Attack
 UNIT Colonial Shaman Amber Level(6,Enemy,1) [16,1] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
 UNIT Colonial PegasusKnight Amber Level(6,Enemy,1) [1,1] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
 UNIT Colonial Myrmidon Amber Level(8,Enemy,1) [9,4] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Fir Myrmidon_F 0x00 Level(5,Enemy,0) [3,4] 0x0 0x0 0x0 0x0 [WoDao, IronSword] NoAI
 UNIT
 
 FirGroup:
-UNIT Fir Myrmidon_F 0x00 Level(5,Ally,0) [1,5] 0x0 0x0 0x0 0x0 [KillingEdge, IronSword] NoAI
+UNIT Fir Myrmidon_F 0x00 Level(5,Ally,0) [1,5] 0x0 0x0 0x1 FirREDA [WoDao, IronSword] NoAI
 UNIT
 
 CutsceneRandomBadonUnits:
@@ -155,7 +157,8 @@ LOAD3 0x1 CutsceneRandomBadonUnits
 MUSC M_WhenTheRushComes
 FADU 10
 STAL 30
-//maybe flash a "BADON" text box
+BROWNBOX Ch12LocationName [0,0] //Badon
+STAL 10
 FlashCursor(Marth,60)
 Text(Harbor,Ch8OpeningLanding)
 FADI 10
@@ -180,8 +183,8 @@ MOVE 10 Chiki [10,0]
 MOVE 10 Sheeda [4,5] //stop short: gotta dismount!
 MOVE 10 Eliwood [5,5]
 ENUN
-RECLASS Sheeda KnightPegasus
-RECLASS Eliwood KnightPaladin
+CALL DismountSheeda
+CALL DismountEliwood
 STAL 15
 MOVE 10 Sheeda [10,0]
 MOVE 10 Eliwood [10,0]
@@ -207,8 +210,8 @@ CLEN 10
 LOMA 8 //chapter map
 LOAD2 0x1 CutsceneOnTheMap
 CAM1 [22,11]
-RECLASS Eliwood Paladin
-RECLASS Sheeda PegasusKnight //she only dismounted for the cutscene, mount her again
+CALL MountEliwood
+CALL MountSheeda //she only dismounted for the cutscene, mount her again
 //Aside: boy, these will be "fun" once I give an elysian whip!
 //Realisation: Just call a "DismountSheeda" event for cutscenes every time?
 //I need a universal dismount anyway for indoor maps.
@@ -279,9 +282,19 @@ Text(Ch8AfterPrepBad)
 NoFade
 ENDA
 
+FirMovesToAVillage:
+FlashCursor(Fir,60)
+MOVE 10 Fir [1,5]
+ENUN
+STAL 10
+DISA Fir //she enters the village, which you shouldn't be able to reach turn 1
+Text(Outside_Village_Day, Ch8FirGetsATalkingTo)
+NoFade
+ENDA
+
 EtrurianVillage:
 //Text(Outside_Village_Day,Ch8Village2)
-Text(Outside_Village_Day,PlaceholderText)
+Text(Outside_Village_Day,Ch8FirVisited)
 //SVAL s3 WhiteGem
 //GIVEITEMTO 0xFFFF
 LOAD1 0x1 FirGroup
@@ -325,3 +338,6 @@ EtrurianHouse3:
 Text(HouseBG,Ch8House6)
 NoFade
 ENDA
+
+FirREDA:
+REDA [1,6]
