@@ -186,6 +186,9 @@ BYTE 0 0 0 0 0 0 0 0
 //Portrait ID 0xF8, 0xF9, 0xFA, 0xFB, 0xFC, 0xFD, 0xFE, 0xFF
 //Red Celine, Ganon, Athena, Jade, Salesman, Wolf, Louie, President
 
+BYTE 0 0 1 0 0 0 0 0
+//Portrait ID 0x100, 0x101, 0x102, 0x103, 0x104, 0x105, 0x106, 0x107
+//Roshe, Nina, DFBoss, Teeta, DFMinion, NULL, NULL, NULL
 
 ALIGN 4
 

@@ -4,7 +4,7 @@
 
 NewPortraitTable:
 #incbin "VanillaPortraitTable.dmp" //Keep generic villagers/class cards the same
-ORG (NewPortraitTable + 0x1C * 0x104) //What do you know, you hit 255
+ORG (NewPortraitTable + 0x1C * 0x108) //What do you know, you hit 255
 //Not for this release, but reorganise entirely for the next repoint
 //Retained vanilla assets can be reinserted individually
 
@@ -749,6 +749,14 @@ setMugEntry(0x101, Nina_Mug, 4,7,4,5)
 DomaFaithfulBoss_Mug:
 #incext PortraitFormatter "DomaFaithfulBoss.png"
 setMugEntry(0x102, DomaFaithfulBoss_Mug, 4,8,4,6)
+
+Teeta_Mug:
+#incext PortraitFormatter "Teeta.png"
+setMugEntry(0x103, Teeta_Mug, 4,7,4,5)
+
+DomaFaithfulMinion_Mug:
+#incext PortraitFormatter "DomaFaithfulMinion.png"
+setMugEntry(0x104, DomaFaithfulMinion_Mug, 4,7,4,5)
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:

@@ -14,9 +14,17 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x10,SummonMonsters,5)
+TurnEventPlayer(0x10,SummonMonsters,9)
+TurnEventPlayer(0x10,SummonMonsters,13)
+TurnEventPlayer(0x10,SummonMonsters,17)
+TurnEventPlayer(0x10,SummonMonsters,21)
+TurnEventPlayer(0x10,SummonMonsters,25)
+TurnEventPlayer(0x10,SummonMonsters,29)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x8,TalkingToNina,Marth,Nina)
 CharacterEvent(ChloeSpared,IBelieveThisIsYours,Marth,Chloe,0x7)
 END_MAIN
 
@@ -101,18 +109,38 @@ UNIT Firene LanceKnight 0x00 Level(11,Enemy,1) [8,4] 0x0 0x0 0x0 0x0 [SteelLance
 UNIT Firene FreeKnight 0x00 Level(11,Enemy,1) [27,4] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
 UNIT Firene AxeArmour 0x00 Level(11,Enemy,1) [17,5] 0x0 0x0 0x0 0x0 [HandAxe] GuardTileAI
 UNIT Firene SwordArmour 0x00 Level(11,Enemy,1) [18,5] 0x0 0x0 0x0 0x0 [ThunderSword] GuardTileAI
-UNIT Firene AxeKnight 0x00 Level(11,Enemy,1) [8,13] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Firene AxeKnight 0x00 Level(11,Enemy,1) [8,13] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
 UNIT Firene ArchKnight 0x00 Level(11,Enemy,1) [27,13] 0x0 0x0 0x0 0x0 [SteelBow] ChaseOnceApproachedAI
 UNIT Monster Mogall DomaFaithful Level(8,Enemy,1) [26,17] 0x0 0x0 0x0 0x0 [Flux] AttackInRangeAI
 UNIT Monster Mogall DomaFaithful Level(8,Enemy,1) [17,12] 0x0 0x0 0x0 0x0 [Flux] ChaseOnceApproachedAI
 UNIT
 
 NinaGroup:
-UNIT Nina Bishop_F 0x00 Level(7,NPC,0) [1,15] 0x0 0x0 0x0 0x0 [Lightning, Heal, Elixir] GuardTileAI
+UNIT Nina Bishop_F 0x00 Level(7,NPC,0) [0,14] 0x0 0x0 0x0 0x0 [Lightning, Heal, Elixir] GuardTileAI
 UNIT
 
 CamusGroup:
 UNIT Camus Paladin 0x00 Level(1,NPC,0) [6,26] 0x0 0x0 0x0 0x0 [SilverLance, Spear] PursueWithoutHeedAI
+UNIT
+
+CutsceneGood:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [0,25] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [0,26] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Valbo General 0x00 Level(1,Ally,0) [0,27] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT Camus Paladin 0x00 Level(1,NPC,0) [0,28] 0x0 0x0 0x0 0x0 [SilverLance, Spear] PursueWithoutHeedAI
+UNIT Nina Bishop_F 0x00 Level(7,NPC,0) [1,28] 0x0 0x0 0x0 0x0 [Lightning, Heal, Elixir] GuardTileAI
+UNIT
+
+CutsceneBad:
+UNIT Chloe FalconKnight 0x00 Level(1,Enemy,0) [5,4] 0x0 0x0 0x0 0x0 [SilverLance, SteelSword, Javelin] AttackInRangeAI
+UNIT DomaFaithful Summoner 0x00 Level(1,Enemy,1) [18,8] DropItem 0x0 0x0 0x0 [Luna, Eclipse, EirikaRing] NeverMoveAI
+UNIT Monster Revenant DomaFaithful Level(5,Enemy,1) [24,16] 0x0 0x0 0x0 0x0 [RottenClaw] PursueWithoutHeedAI
+UNIT
+
+CutsceneBetterEnding:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [17,9] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Valbo General 0x00 Level(1,Ally,0) [18,9] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [17,8] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT
 
 Traps1:
@@ -124,36 +152,177 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
+MUSC M_ToSofia
+SetBackground(CGBlackScreen)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW Ch13xWorldMap
+TEXTEND
+CALL $9EE2C4 //EndConvo, get rid of black screen
+
+MUSC M_ThemeOfLove
+BROWNBOX Ch13xAFewDaysAgo [0,0]
+Text(Town_Past,Ch13xOpeningHeartbreak)
+FADI 10
+LOAD2 0x0 CutsceneGood
+LOAD2 0x0 CutsceneBad
+CAM1 [16,28]
+MUSC M_TheAirOfBrutality
+FADU 10
+MOVE 10 Nina [16,16]
+ENUN
+MOVE 10 Marth [16,28]
+MOVE 10 Chiki [15,27]
+MOVE 10 Valbo [14,26]
+ENUN
+STAL 10
+FlashCursor(Valbo,60)
+Text(Plain_2,Ch13xOpeningAtFearMountain)
+STAL 10
+MOVE 10 Camus [14,27]
+ENUN
+FlashCursor(Valbo,60)
+Text(Plain_2,Ch13xOpeningUncomfortableReunion)
+STAL 10
+MUSC M_DisquietingSteps
+CAM1 [1,15]
+MOVE 10 Nina [4,17]
+MOVE 10 Monster [7,17]
+ENUN
+STAL 10
+MOVE 10 Monster [5,18]
+STAL 5
+MOVE 10 Nina [1,15]
+MOVE 10 Chloe [3,13]
+ENUN
+FlashCursor(Nina,60)
+Text(Plain_2,Ch13xOpeningThisIsNoFairyTale)
+//no need for any eventing, but dialogue implies Chloe gives Nina an elixir
+EVBIT_T 9 //follow
+MOVE 10 Chloe [17,12]
+ENUN
+RECLASS Chloe KnightFalcon
+STAL 10
+MOVE 10 Chloe [19,8]
+ENUN
+FlashCursor(Chloe,60)
+Text(Fort,Ch13xOpeningTheCultPlans)
+FADI 10
+EVBIT_F 9
+CLEA 0
+CLEE 0
+CLEN 0
+MUSC M_PreperationsFE11
+CAM1 [0,0]
 LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 Bad3
 LOAD1 0x1 NinaGroup
 LOAD1 0x1 CamusGroup
+FADU 10
+STAL 10
+CAM1 [31,0]
+STAL 20
+CAM1 [31,29]
+STAL 20
+CAM1 [0,29]
+STAL 20
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
 EndingScene:
+FADI 8
+CLEA 0
+REMA
+CALL DismountSheeda
+CHECK_ALIVE Nina
+BEQ 1351 s0 sC //branch if dead
+LOAD2 0x0 CutsceneBetterEnding
+RECLASS Camus KnightPaladin
+MOVE 0xFFFF Camus [18,7]
+MOVE 0xFFFF Nina [16,9]
+ENUN
+MUSC M_Victory
+CAM1 [18,9]
+FADI 10
+FlashCursor(Marth,60)
+Text(Fort,Ch13xEndingNinaSaved)
+STAL 10
+TurnAlly(Camus)
+FADU 10
+RECLASS Camus Paladin
+GOTO 1352
+
+//Nina dies
+LABEL 1351
+MOVE 0xFFFF Camus [18,7]
+CAM1 [18,9]
+LOAD2 0x0 CutsceneBetterEnding
+CHECK_EVENTID NoSummonGun
+BNE 1361 s0 sC
+MUSC M_JoinUs
+CALL UnitGachaAct2
+WARPIN [17,11]
+MOVE 0xFFFF 0xFFFD [17,11]
+ENUN
+ENDWARP
+LABEL 1361
+MUSC M_DismalNation
+FlashCursor(Camus,60)
+Text(Fort,Ch13xEndingNinaDies)
+
+LABEL 1352
+FlashCursor(Sheeda,60)
+Text(Fort,Ch13xEndingAnotherRingFound)
+FADU 10
+CALL MountSheeda
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+MUSC M_DisquietingSteps
+Text(Volcano,Ch13xEndingDomasGrave)
+
 WM_LOADLOCATION2 0 12 0 //Required to fix chapter name
 WM_SETDESTINATION 0 12 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 12 //Needed for world map narration.
 MNCH 14
 ENDA
 
+AfterPrep:
+CAM1 DomaFaithful
+FlashCursor(DomaFaithful,60)
+Text(Ch13xAfterPrepEvilLaughter)
+NoFade
+ENDA
+
 OohShiny:
+CHECK_ALLEGIANCE 0xFFFF //current
+BNE 1355 s0 sC
 SVAL s3 Venomous
 GIVEITEMTO 0xFFFF
+GOTO 1356
+LABEL 1355
+ENUF 0x7 //player only
+LABEL 1356
 NoFade
 ENDA
 
 IBelieveThisIsYours:
-Text(PlaceholderText)
+Text(Ch13xSparingChloe)
 RemoveItemFromEverywhere(Venomous)
 STAL 10
 MOVE 10 Chloe [0,8]
 ENUN
 DISA Chloe
-Text(PlaceholderText)
+NoFade
+ENDA
+
+TalkingToNina:
+Text(Ch13xSavingNinaMarth)
 NoFade
 ENDA
 
@@ -162,3 +331,49 @@ ENDA
 //(Due to technical limitations (read: I'm a hack), it magically teleports.)
 //Get rid of the Doma Faithful guy too. Of course, you could keep it.
 //Nina: put her above the cliffs, left side of the map, but below the mountains.
+
+SummonMonsters:
+//Original behaviour: summons happen as an action mid-phase, summons don't move turn they're summoned.
+//I'll just imitate them via running this summon event every few turns.
+COUNTER_SET 0 8 //rudimentary loop to save some lines
+CAM1 DomaFaithful
+STAL 10
+LABEL 1321
+RANDOMNUMBER 1
+BNE 1320 s0 sC
+LOAD1 0x1 EnemySummon
+WARPIN [18,8] //not great, but either misalign the effect or bloat the code eight times over
+//MOVE 0xFFFF Monster [16,13]
+ENUN
+ENDWARP
+STAL 15
+LABEL 1320
+COUNTER_DEC 0
+COUNTER_CHECK 0
+BNE 1321 s0 sC //continue looping until counter hits zero; should summon eight times (or whatever the value may be)
+ENUF 0x10 //unset flag
+NoFade
+ENDA
+
+KillSummons:
+LABEL 1323
+CHECK_ALIVE Monster
+BEQ 1322 s0 sC //if no monsters, skip to the end
+CAM1 Monster
+FlashCursor(Monster,30)
+STAL 5
+KILL Monster
+AWAIT_KILL Monster
+STAL 30
+GOTO 1323 //keep looping until they're all dead
+LABEL 1322
+ENUT 0x10 //no more summons
+NoFade
+ENDA
+
+EnemySummon:
+UNIT Monster Revenant 0x0 Level(5,Enemy,1) [18,8] 0x0 0x0 0x1 SummonREDA [RottenClaw] PursueWithoutHeedAI
+UNIT
+
+SummonREDA:
+REDA [18,8]
