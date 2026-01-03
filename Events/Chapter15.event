@@ -23,7 +23,7 @@ CharacterEventBothWays(0x8,CleiveTheMule,Claire,Cleive)
 END_MAIN
 
 LocationBasedEvents:
-Seize(10,24)
+//Seize(10,24)
 #ifdef __DEBUG__
 Seize(10,1)
 #endif
@@ -166,8 +166,17 @@ MOVE 10 Cleive [16,28]
 ENUN
 FlashCursor(Sheeda,60)
 Text(Village,Ch15OpeningSheedasShock)
-MOVE 20 Sheeda [10,2]
+STAL 10
+MOVE 20 Sheeda [15,21]
 MOVE 10 Cleive [16,29]
+ENUN
+CALL DismountSheeda
+STAL 2
+MOVE 20 Sheeda [10,15]
+ENUN
+CALL MountSheeda
+STAL 2
+MOVE 20 Sheeda [10,2]
 ENUN
 CAM1 Marth
 FlashCursor(Chiki,60)

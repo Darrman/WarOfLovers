@@ -16,11 +16,34 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterPrep,1)
 TurnEventEnemy(0x0,InitialWarpRagnarok,2)
+TurnEventEnemy(0x0,CelinesPeopleArrive,4)
+TurnEventPlayer(0x0,PreparingToWarp,5)
+TurnEventEnemy(0x0,NormalWarpRagnarok,5)
+TurnEventEnemy(0x0,EntranceSpawns,6)
+TurnEventEnemy(0x0,NormalWarpRagnarok,8)
+TurnEventEnemy(0x0,EntranceSpawns2,10)
+TurnEventEnemy(0x0,NormalWarpRagnarok,11)
+TurnEventEnemy(0x0,NormalWarpRagnarok,14)
+TurnEventEnemy(0x0,NormalWarpRagnarok,17)
+TurnEventEnemy(0x0,NormalWarpRagnarok,20)
+TurnEventEnemy(0x0,NormalWarpRagnarok,23)
+TurnEventEnemy(0x0,NormalWarpRagnarok,26)
+TurnEventEnemy(0x0,NormalWarpRagnarok,29)
+
 END_MAIN
 
 CharacterBasedEvents:
 CharacterEventBothWays(0x7,GreyStandsDown,Claire,Grey)
 CharacterEventBothWays(0x8,MycenMoves,Grey,Mycen)
+CharacterEventBothWays(0x9,MycenPersuasion,Mycen,Alm)
+CharacterEventBothWays(0x9,ValboPersuasion,Valbo,Alm)
+CharacterEventBothWays(0x9,ClairePersuasion,Claire,Alm)
+CharacterEventBothWays(0x9,DyutePersuasion,Dyute,Alm)
+CharacterEventBothWays(0xA,LouisExplains,Louis,Celine)
+CharacterEventBothWays(0xA,LouisExplains,Chloe,Celine)
+CharacterEvent(0xB,CelineSaved,Marth,Celine,0xA)
+CharacterEvent(0x3,AlmStopsCelineAlive,Marth,Alm,0xB)
+CharacterEvent(0x3,AlmStopsCelineDead,Marth,Alm,0xC)
 //Mycen calms Alm down, variants for any other Valencian
 //Louis makes Celine think long and hard...
 //and Marth makes her surrender
@@ -35,13 +58,16 @@ Seize(11,31)
 #endif
 Door(4,28)
 Door(18,28)
-Chest(IronSword,2,31)
-Chest(IronBlade,5,30)
-Chest(IronBlade,7,32)
-Chest(IronBlade,15,32)
-Chest(IronBlade,16,29)
-Chest(IronBlade,20,30)
-Chest(IronBlade,19,2)
+Chest(ThunderSword,2,31)
+Chest(Horseslayer,5,30)
+Chest(OrionsBolt,7,32)
+Chest(GoddessIcon,15,32)
+Chest(AngelicRobe,16,29)
+Chest(Divine,20,30)
+Chest(Bolganone,19,2)
+Seize(0x11,TheSeizeEasterEgg,10,18)
+Seize(0x11,TheSeizeEasterEgg,12,18)
+SecretShop(SofiaCastleSecretShop,23,4)
 END_MAIN
 
 MiscBasedEvents:
@@ -51,6 +77,7 @@ AREA 0x10 LeftSwitchHit [3,18] [3,18]
 AREA 0x11 MiddleSwitchHit [10,18] [12,18]
 AREA 0x12 RightSwitchHit [20,0] [20,0]
 CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -83,7 +110,8 @@ UNIT
 Bad:
 //Chapter bosses
 UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [9,3] DropItem 0x0 0x0 0x0 [Kingsfang, LifeOrb] ChaseOnceApproachedAI
-UNIT Celine Priestess 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, CelicaRing] PursueWithoutHeedAI
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Forblaze, ShadowKiller, CelicaRing] PursueWithoutHeedAI
+//True Ragnarok may be too strong, and I did have Alear steal Forblaze earlier. Look what we find here!
 UNIT Grey Hero Alm Level(3,Enemy,0) [11,20] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
 UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [3,18] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI
 UNIT Valencia General Alm Level(3,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
@@ -107,7 +135,7 @@ UNIT DomaFaithful Shaman DomaFaithfulBoss Level(16,Enemy,1) [21,18] 0x0 0x0 0x0 
 UNIT DomaFaithful Bonewalker DomaFaithfulBoss Level(16,Enemy,1) [21,12] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT DomaFaithful Bonewalker DomaFaithfulBoss Level(16,Enemy,1) [20,12] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
 UNIT DomaFaithful Bonewalker DomaFaithfulBoss Level(16,Enemy,1) [19,8] 0x0 0x0 0x0 0x0 [Armourslayer] AttackInRangeAI
-UNIT DomaFaithful DracoZombie DomaFaithfulBoss Level(1,Enemy,1) [20,1] 0x0 0x0 0x0 0x0 [WretchedAir] GuardTileAI
+UNIT DomaFaithful DracoZombie DomaFaithfulBoss Level(1,Enemy,1) [20,1] 0x0 0x0 0x0 0x0 [SharpClaw] AttackInRangeAI
 UNIT DomaFaithful Revenant DomaFaithfulBoss Level(16,Enemy,1) [21,9] 0x0 0x0 0x0 0x0 [RottenClaw] AttackInRangeAI
 UNIT DomaFaithful Entombed DomaFaithfulBoss Level(1,Enemy,1) [19,2] 0x0 0x0 0x0 0x0 [SharpClaw] AttackInRangeAI
 UNIT
@@ -141,8 +169,75 @@ UNIT Valencia Bishop_F Alm Level(3,Enemy,1) [12,4] 0x0 0x0 0x0 0x0 [Lightning, P
 UNIT
 
 LouisLives:
-UNIT Louis General Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 LouisREDA [ShortSpear, KnightCrest] PursueWithoutHeedAI //ideal: move towards Celine, do not attack
-UNIT Chloe KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeREDA [SlimSword, ElysianWhip] PursueWithoutHeedAI //ideal: move towards Celine, do not attack
+UNIT Louis General Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 LouisREDA [ShortSpear, KnightCrest] [0x0, 0x8, 0x0, 0x0] //talk to Celine
+UNIT Chloe KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeREDA [SlimSword, ElysianWhip] [0x0, 0x8, 0x0, 0x0] //talk to Celine
+UNIT
+
+DrawbridgeReinforcements:
+UNIT Valencia Mercenary Alm Level(16,Enemy,1) [11,34] 0x0 0x0 0x1 Spawn1REDA [SteelSword] PursueWithoutHeedAI
+UNIT Valencia Soldier Alm Level(16,Enemy,1) [11,35] 0x0 0x0 0x1 Spawn2REDA [SteelLance] PursueWithoutHeedAI
+UNIT Valencia Mage Alm Level(16,Enemy,1) [11,36] 0x0 0x0 0x1 Spawn3REDA [Wind] PursueWithoutHeedAI
+UNIT
+
+DrawbridgeReinforcements2:
+UNIT Valencia Mercenary Alm Level(16,Enemy,1) [11,34] 0x0 0x0 0x1 Spawn1REDA [IronSword] PursueWithoutHeedAI
+UNIT Valencia LanceArmour Alm Level(16,Enemy,1) [11,35] 0x0 0x0 0x1 Spawn2REDA [Javelin] PursueWithoutHeedAI
+UNIT Valencia Cleric Alm Level(16,Enemy,1) [11,36] 0x0 0x0 0x1 Spawn3REDA [Heal] HealUnits
+UNIT
+
+CutsceneCeline:
+UNIT Celine Priestess 0x00 Level(5,Enemy,0) [19,4] DropItem 0x0 0x0 0x0 [Forblaze, ShadowKiller, CelicaRing] PursueWithoutHeedAI
+UNIT DomaFaithfulBoss Summoner 0x00 Level(3,Enemy,0) [20,5] DropItem 0x0 0x0 0x0 [Fenrir, Berserk, GuidingRing] AttackInRangeAI
+UNIT
+
+CutsceneAlear:
+UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [20,0] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT
+
+CutsceneGoodOpening:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [9,35] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [13,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Valbo General 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Claire KnightFalcon 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT George Sniper 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Bartre Warrior 0x00 Level(1,Ally,0) [9,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Oguma Mercenary 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sophia Shaman_F 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Camus Paladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT
+
+CutsceneSomniel:
+UNIT Alear DivineOne 0x00 Level(1,Enemy,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
+UNIT 0xD7 Halberdier 0x00 Level(1,Enemy,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
+UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,Enemy,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
+UNIT Framme Bishop_F 0x00 Level(1,Enemy,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
+UNIT
+
+CutsceneCelineCondemnation:
+UNIT Alear DivineOne 0x00 Level(1,Enemy,0) [6,5] 0x0  0x0 0x0 0x0 [Rapier] NoAI
+UNIT Vander KnightPaladin 0x00 Level(1,Enemy,0) [7,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI 
+//UNIT 0xD1 KnightPaladin 0x00 Level(1,Enemy,0) [5,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred, deceased
+//UNIT Celine Priestess 0x00 Level(1,Enemy,0) [4,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Traitor
+//UNIT Diamant MasterLord 0x00 Level(1,Enemy,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //KIA
+//UNIT Alcryst Sniper 0x00 Level(1,Enemy,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //KIA
+UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,Enemy,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI 
+UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,Enemy,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+UNIT 0xD7 Halberdier 0x00 Level(1,Enemy,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra
+UNIT 0xD8 Sniper /*Horseman*/ 0x00 Level(1,Enemy,0) [10,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
+//UNIT Boucheron Fighter 0x00 Level(1,Enemy,0) [5,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //KIA
+//UNIT Chloe KnightFalcon 0x00 Level(1,Enemy,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //MIA
+//UNIT Jade General 0x00 Level(1,Enemy,0) [2,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //KIA
+//UNIT Lapis Swordmaster_F 0x00 Level(1,Enemy,0) [1,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //KIA
+UNIT 0xDE Rogue 0x00 Level(1,Enemy,0) [12,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Zelkov
+UNIT 0xDF KnightDragon 0x00 Level(1,Enemy,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Rosado
+UNIT 0xE0 Gwyllgi 0x00 Level(1,Enemy,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Merrin
+UNIT 0xE1 Bishop 0x00 Level(1,Enemy,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Pandreo
+UNIT Veyle DarkChild 0x00 Level(1,Enemy,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI
+//UNIT Clanne Sage 0x00 Level(1,Enemy,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //KIA
+UNIT Framme Bishop_F 0x00 Level(1,Enemy,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI 
 UNIT
 
 Traps1:
@@ -155,22 +250,76 @@ ALIGN 4
 
 BeginningScene:
 CALL DismountAll
+CAM1 [20,4]
+LOAD2 0x0 CutsceneCeline
+MUSC M_DisquietingSteps
+FADU 10
+FlashCursor(Celine,60)
 Text(Castle_Room,Ch16OpeningDoma)
+MUSC M_WarringPowers
+LOAD2 0x0 CutsceneAlear
+MOVE 10 Alear [20,3]
+MOVE 10 Celine [19,3]
+ENUN
+FlashCursor(Alear,60)
 Text(Castle_Room,Ch16OpeningGoodJobCeline)
+MOVE 10 Alear [20,0]
+DISA Alear
+MUSC M_TheAirOfBrutality
+LOAD2 0x0 CutsceneGoodOpening
+CAM1 [11,31]
+MOVE 10 Marth [11,31]
+MOVE 10 Sheeda [9,31]
+MOVE 10 Chiki [10,31]
+MOVE 10 Eliwood [12,29]
+ENUN
+MOVE 10 Lilina [11,32]
+MOVE 10 Valbo [10,33]
+MOVE 10 Claire [9,32]
+MOVE 10 George [11,34]
+ENUN
+MOVE 10 Bartre [13,34]
+MOVE 10 Oguma [10,35]
+MOVE 10 Sophia [10,30]
+MOVE 10 Camus [11,29]
+ENUN
+STAL 10
+FlashCursor(Marth,60)
 Text(Castle_Hall,Ch16OpeningHowToStopAlm)
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+MUSC M_PreperationsFE11
+CAM1 [0,0]
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 BadDoma
 LOAD1 0x1 BadTreasureRooms
 LOAD1 0x1 BadThroneRoom
+FADU 10
+STAL 10
+CAM1 [23,0]
+STAL 20
+CAM1 [23,35]
+STAL 20
+CAM1 [0,35]
+STAL 20
+CAM1 [0,0]
+STAL 10
 GotoPrepScreen
 ENDA
 
 AfterPrep:
+CAM1 Alm
+FlashCursor(Celine,60)
 Text(Castle_Room,Ch16AfterPrepEveryoneTakesPosition)
+EVBIT_T 9 //follow
 MOVE 10 Celine [2,16]
 ENUN
 Text(Ch16AfterPrepBeforeCelineWarps)
+EVBIT_F 9
 STAL 20
 WARPOUT [2,16]
 MOVE 0xFFFF Celine [20,6]
@@ -190,22 +339,137 @@ WARPOUT [20,6]
 STAL 10
 MOVE 0xFFFF Celine [11,20]
 ENDWARP
+CAM1 Celine
 Text(Ch16CelineSeesMarth)
 ENDA
 
+NormalWarpRagnarok:
+//Faking witch teleportation: Celine will go to one of a few fixed places
+CHECK_EVENTID 0xA //Louis talked to Celine
+BNE 1637 s0 sC
+RANDOMNUMBER 5
+SVAL s1 0
+BEQ 1630 s1 sC //next to Alm
+SVAL s1 1
+BEQ 1631 s1 sC //near Doma guy
+SVAL s1 2
+BEQ 1632 s1 sC //throne room
+SVAL s1 3
+BEQ 1633 s1 sC //Marth's starting tile
+SVAL s1 4
+BEQ 1634 s1 sC //by Mycen
+SVAL s1 5
+BEQ 1635 s1 sC //a treasure room
+
+LABEL 1637
+CALL CelinesLastMistake
+
+LABEL 1630
+WARPIN [10,3]
+MOVE 0xFFFF Celine [10,3]
+ENDWARP
+GOTO 1636
+
+LABEL 1631
+WARPIN [20,7]
+MOVE 0xFFFF Celine [20,7]
+ENDWARP
+GOTO 1636
+
+LABEL 1632
+WARPIN [11,18]
+MOVE 0xFFFF Celine [11,18]
+ENDWARP
+GOTO 1636
+
+LABEL 1633
+WARPIN [9,35]
+MOVE 0xFFFF Celine [9,35]
+ENDWARP
+GOTO 1636
+
+LABEL 1634
+WARPIN [2,20]
+MOVE 0xFFFF Celine [2,20]
+ENDWARP
+GOTO 1636
+
+LABEL 1635
+WARPIN [20,30]
+MOVE 0xFFFF Celine [20,30]
+ENDWARP
+GOTO 1636
+
+LABEL 1636
+NoFade
+ENDA
+
+CelinesLastMistake:
+MUSC M_ThemeOfLove
+Text(Ch16AlmCrushesCeline)
+StartBattle
+CriticalHit(0,48)
+EndAttack
+FIGHT Alm Celine Kingsfang 0
+ENDB
+
 //Spawn Louis or Chloe in after a few turns if alive
+CelinesPeopleArrive:
+CHECK_EVENTID LouisSpared
+BEQ 1602 s0 sC
+CHECK_EVENTID ChloeSpared
+BEQ 1602 s0 sC
+EVBIT_T 9 //auto-camera?
+LOAD1 0x1 LouisLives
+FlashCursor(Louis,60)
+Text(Ch16LouisLimpsIn)
+LABEL 1602
+NoFade
+ENDA
 
 //Killing the Doma rep triggers the throne room door to open
 
 GreyStandsDown:
 Text(Ch16GreyTurnsGreen)
-TurnNPC(Grey)
+TurnAlly(Grey) //One escort is enough
 NoFade
 ENDA
 
 MycenMoves:
 Text(Ch16GreyPersuadesMycen)
-TurnNPC(Mycen)
+TurnAlly(Mycen)
+ENUT 0x10 //switch flag
+CALL LeftSwitchHit
+NoFade
+ENDA
+
+TheSeizeEasterEgg:
+Text(PlaceholderText)
+ENUT 0x11 //switch
+CALL MiddleSwitchHit
+NoFade
+ENDA
+
+AfterDomaDeath:
+ENUT 0x12 //switch
+CALL RightSwitchHit
+NoFade
+ENDA
+
+EntranceSpawns:
+LOAD1 0x0 DrawbridgeReinforcements
+NoFade
+ENDA
+
+EntranceSpawns2:
+LOAD1 0x0 DrawbridgeReinforcements2
+NoFade
+ENDA
+
+PreparingToWarp:
+CAM1 Celine
+FlashCursor(Celine,60)
+Text(Ch16WarpRagnarokWarning)
 NoFade
 ENDA
 
@@ -217,6 +481,77 @@ ENDA
 //5: With all that said and done, talk to her with Marth and she turns blue!
 
 //Alm, at least, can be talked down with any Valencian.
+
+LouisExplains:
+MUSC M_DismalNation
+Text(Ch16CelineWavers)
+SVAL s1 0x00000306 //do nothing
+CHAI Louis
+CHAI Chloe
+CHAI Celine
+CAM1 Marth
+FlashCursor(Marth,60)
+Text(Ch16NoteCelineHesitation)
+NoFade
+ENDA
+
+CelineSaved:
+MUSC M_ThemeOfLove //something a bit more sombre? Heh, Sombron's Japanese name.
+Text(Ch16CelineTurns)
+//As the rescue macro demands locations and Celine could be anywhere, I'm going to get up to some trickery.
+TurnNPC(Celine)
+TurnNPC(Louis)
+TurnNPC(Chloe)
+MOVEONTO 10 Celine Marth
+FADI 10
+CHECK_COORDS Marth
+//I don't think you can move units to a location with a specific memory slot. I'll leave the check in, still.
+//Marth is getting dropped off at an arbitrary tile for now.
+MOVE 0xFFFF Marth [0,0]
+MOVE 0xFFFF Celine [0,1]
+ENUN
+Rescue(0,0,0,1) //If this were FE5 it'd be a capture
+MOVE 0xFFFF Marth [3,22] //near Mycen
+FADU 10
+NoFade
+ENDA
+
+AlmStopsCelineAlive:
+SVAL s1 2 //Is Alm red?
+CHECK_ALLEGIANCE Alm
+BEQ 1639 s1 sC
+MUSC M_TwilightOfTheGods
+Text(Ch16EndingTruceCelineRecruited)
+SVAL s1 18 //get Marth to his base HP so he always lives
+SET_HP Marth
+StartBattle
+NormalDamage(0,17) //it would be too mean if Marth could die taking the hit for Celine, so let him at 1 at base
+EndAttack
+FIGHT Alm Marth Kingsfang 0
+STAL 30
+Text(Ch16EndingTruceSignedCeline)
+ENUT CelineRecruited
+ENUT 0x03
+TurnAlly(Alm)
+TurnAlly(Celine)
+CALL EndingScene
+
+LABEL 1639
+CALL AlmSaysScram
+ENDA
+
+AlmStopsCelineDead:
+MUSC M_TwilightOfTheGods
+Text(Ch16EndingTruceCelineDead)
+TurnAlly(Alm)
+CALL EndingScene
+ENDA
+
+AlmSaysScram:
+Text(Ch16NoValencianTalk)
+ENUF 0x3 //you haven't won
+NoFade
+ENDB
 
 LeftSwitchHit:
 CALL SwitchCheck
@@ -241,20 +576,111 @@ CHECK_EVENTID 0x12 //right switch
 BEQ 1601 s0 sC //if not hit, jump
 CAM1 [4,15] //the stairs
 TILEREVERT 0xA //they're open!
-//scene
+STAL 20
+CAM1 Marth
+FlashCursor(Marth,60)
+Text(Ch16WayToAlmOpen)
 LABEL 1601
 NoFade
 ENDA
 
-EndingScene:
-WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
-WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
-WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
-MNCH 17
+MycenPersuasion:
+Text(Ch16MycenTellsAlmToStop)
+TurnNPC(Alm)
+NoFade
 ENDA
+
+ClairePersuasion:
+Text(PlaceholderText)
+TurnNPC(Alm)
+NoFade
+ENDA
+
+ValboPersuasion:
+Text(PlaceholderText)
+TurnNPC(Alm)
+NoFade
+ENDA
+
+DyutePersuasion:
+Text(PlaceholderText)
+TurnNPC(Alm)
+NoFade
+ENDA
+
+
+EndingScene:
+REMU Grey
+REMU Mycen //they're temporary
+CHECK_EVENTID 0x02 //Boss kill (read: Alm)
+BEQ 1621 s0 sC //Branch if Alm's still alive
+MUSC Game_Over //not actually game over, but it's appropriately miserable
+Text(Castle_Hall_3_Night,Ch16EndingValenciaIsFinished)
+GOTO 1622
+LABEL 1621
+MUSC M_TwilightOfTheGods
+//Most dialogue changes little enough I can just use the written versions for now
+Text(Castle_Hall_3_Night,Ch16EndingChikiChatsToAlm)
+Text(Castle_Hall_3_Night,Ch16EndingCelicaSummoningCeline)
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelicaCeline)
+CHECK_EVENTID CelineRecruited
+BEQ 1623 s0 sC
+Text(Ch16EndingTheFateOfFirene)
+LABEL 1623
+
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+LOMA 26 //Somniel
+LOAD2 0x0 CutsceneSomniel
+MUSC M_Conspiracy
+FADU 10
+STAL 5
+BROWNBOX LocationSomniel [0,0]
+STAL 10
+FlashCursor(Alear,60)
+
+Text(Ch16EndingAlearGetsAProgressReport)
+CHECK_EVENTID CelineRecruited
+BEQ 1624 s0 sC
+Text(Castle_Room,Ch16EndingVeyleHasAwfulNews)
+FADU 10
+CLEE 0
+LOAD2 0x0 CutsceneCelineCondemnation
+FADI 10
+FlashCursor(Vander,60)
+Text(Shrine_lighter,Ch16EndingCelinesBetrayal)
+LABEL 1624
+SetBackground(CGBlackScreen)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW Ch16EndOfDemoMessage
+TEXTEND
+
+
+//WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
+//WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
+//WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
+//MNCH 17
+ENDB
+
+SofiaCastleSecretShop:
+SHLI ValencianBow ThunderSword Physic Elwind Horseslayer
+ALIGN 4
 
 LouisREDA:
 REDA [20,2]
 
 ChloeREDA:
 REDA [20,1]
+
+Spawn1REDA:
+REDA [10,33]
+
+Spawn2REDA:
+REDA [11,33]
+
+Spawn3REDA:
+REDA [11,33]

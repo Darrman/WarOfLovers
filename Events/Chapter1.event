@@ -132,7 +132,7 @@ UNIT Diamant MasterLord 0x00 Level(1,NPC,0) [2,6] 0x0  0x0 0x0 0x0 [Falchion, Wh
 UNIT Alcryst Sniper 0x00 Level(1,NPC,0) [1,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alcryst
 UNIT Ivy Sage_F /*DragonKnight_F*/ 0x00 Level(1,NPC,0) [12,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Ivy
 UNIT Hortensia Bishop_F /*FalcoKnight*/ 0x00 Level(1,NPC,0) [13,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Hortensia
-UNIT 0xD7 General 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra, unfought
+UNIT 0xD7 Halberdier 0x00 Level(1,NPC,0) [9,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Timerra, unfought
 UNIT 0xD8 Sniper /*Horseman*/ 0x00 Level(1,NPC,0) [10,6] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Fogado
 UNIT Boucheron Fighter 0x00 Level(1,NPC,0) [5,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Boucheron
 UNIT Chloe KnightFalcon 0x00 Level(1,NPC,0) [4,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Chloe
@@ -143,7 +143,7 @@ UNIT 0xDF KnightDragon 0x00 Level(1,NPC,0) [13,7] 0x0  0x0 0x0 0x0 [Falchion, Wh
 UNIT 0xE0 Gwyllgi 0x00 Level(1,NPC,0) [9,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Merrin
 UNIT 0xE1 Bishop 0x00 Level(1,NPC,0) [10,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Pandreo
 UNIT Veyle DarkChild 0x00 Level(1,NPC,0) [5,5] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Veyle
-UNIT Clanne Sage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
+UNIT Clanne Mage 0x00 Level(1,NPC,0) [2,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Clanne
 UNIT Framme Bishop_F 0x00 Level(1,NPC,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Framme
 UNIT
 
