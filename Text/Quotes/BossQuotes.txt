@@ -279,3 +279,146 @@ None of you stand a chance[N]
 against me. None of you[AN]
 compare to me, let alone[N]
 Alear. This is the end.[A][X]
+
+## ValboBattle
+[Left][LoadValbo]
+Just who are you people? Where[N]
+did you come from? Why are[AN]
+you attacking us? Well, you[N]
+shall proceed no further![A][X]
+
+## EtieBattle
+[Left][LoadEtie]
+I've been waiting to give my[N]
+muscles a workout! This[AN]
+country has some interesting[N]
+bows. Time to test one out![A][X]
+
+## CleiveBattle
+[Left][LoadCleive]
+Akaneian scum! Your invasion[N]
+ends here. You will never[AN]
+darken the doors of Sofia[N]
+Castle as long as I live![A][X]
+
+## ClaireBattle
+[Left][LoadClaire]
+So, it has come to this?[N]
+I see how it is.[AN]
+When this day is done,[N]
+you shall be but a memory.[A][X]
+
+## GreyBattle
+[Left][LoadGrey]
+So, you've made it inside[N]
+the castle, eh?[AN]
+No magic can touch me, and[N]
+I'm a fast one, too.[A][X]
+
+## MycenBattle
+[Left][LoadMycen]
+Oh, we truly are doomed...[N]
+Your majesty, why did you[AN]
+declare this foolish war?[N]
+Akaneia have taken it[AN]
+very seriously. Now, I will[N]
+fight for the last time.[A][X]
+
+## DomaBossBattle
+[Left][LoadDomaBoss]
+We've been forced underground[N]
+by that damnable United[AN]
+Valencia! I care not for[N]
+your cause, but as part[AN]
+of a deal we must assist[N]
+Celine and the Firenese.[AN]
+I know better than to[N]
+betray her for no reason.[AN]
+So, quiver in fear with[N]
+my terrible magic![A][X]
+
+## CelineBattle
+[Left][LoadRedCeline]
+If I fall here, Firene is[N]
+finished.[AN]
+If I fall here, the Divine[N]
+One will be distraught.[AN]
+If I fall here, no miracle will[N]
+save me from my mortality.[AN]
+And that is why I must fight![N]
+For the fate of Firene![A][X]
+
+## CelineVsMarth
+[Left][LoadRedCeline]
+Emblem Marth. I believe we[N]
+are both set in our ways.[AN]
+[Clear][Right][LoadMarth]
+Emblem... This whole war[N]
+revolves around them.[AN]
+As if the world is just[N]
+Alear's play thing.[AN]
+[Clear][Left][LoadRedCeline]
+...You may have a point.[N]
+But our paths are set.[AN]
+Em-- no. Marth, show me[N]
+your best. Let us see[AN]
+whose virtue shines true[N]
+today. For Firene![A]
+[Clear][Right][LoadMarth]
+For peace. For prosperity.[N]
+And for the world.[A][X]
+
+## AlmBattle
+[Left][LoadAlm]
+This is it. You worthless[N]
+warmongers. You just appear[AN]
+by the floodgate, tear your[N]
+way through Sofia, and now[AN]
+you are intent on destroying[N]
+everything we hold dear![AN]
+You may have kidnapped Celica[N]
+before she made her escape.[AN]
+You may have funded the Doma[N]
+Faithful's resurgence.[AN]
+But I'll be damned if I can't[N]
+cut you down right now![A][X]
+
+## AlmVsMarth
+[Right][LoadMarth]
+Alm, it's not too late. I[N]
+do not want to fight.[AN]
+[Clear][Left][LoadAlm]
+What kind of shameless liar[N]
+are you? Identify yourself.[AN]
+[Clear][Right][LoadMarth]
+I am Marth, the commander[N]
+of the Akaneian forces.[AN]
+[Clear][Left][LoadAlm]
+I see. Two emperors facing[N]
+each other down.[AN]
+Let us see which is stronger:[N]
+Akaneia, or Valencia?[A][X]
+
+## AthenaBattle
+[Left][LoadAthena]
+Ve are interested in a fight.[N]
+Come, ve shall duel![A][X]
+
+## JadeBattle
+[Left][LoadJade]
+I can't find Emblem Hector...[N]
+Did you find him first?[A][X]
+
+## ChloeBattle
+[Left][LoadChloe]
+I am Chloe, knight of Firene.[N]
+I have to assist these people,[AN]
+and so I am. The Divine One and[N]
+her majesty need my help![A][X]
+
+## DomaMinionBattle
+[Left][LoadDomaMinion]
+He he he... I've had enough of[N]
+being pushed around by Alm[AN]
+and his cronies. The Doma[N]
+Faithful shall rise again![A][X]

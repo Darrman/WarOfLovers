@@ -192,7 +192,7 @@ bargain, or you shall regret it.[AN]
 Hmph... The money's good, but[N]
 she's got that stench of...[AN]
 I don't know. That woman... I[N]
-don't trust her one little bit.[A]
+don't trust her one little bit.[AN]
 But she's still supplying us.[N]
 Time to summon some monsters...[A][X]
 

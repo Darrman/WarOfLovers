@@ -164,6 +164,21 @@ Valencia. Alm, your majesty...[AN]
 Please, see the light. That woman[N]
 is not Celica. Who is she, really?[A][CloseEyes][X]
 
+## DomaBossDeath
+[Left][LoadDomaBoss]
+Cough... Hack... I am not long[N]
+for this worthless world.[AN]
+But Celine did give me the[N]
+duty of protecting this[AN]
+button nearby. I've nothing[N]
+to lose anymore. So... ha![AN]
+Perhaps you Akaneians can[N]
+find out what I just did![AN]
+Doma may not be able to[N]
+give blessings anymore,[AN]
+but from what I know...[N]
+neither is Narga! Ha ha ha...[A][CloseEyes][X]
+
 ## KrisCh1Death
 [Left][LoadKris]
 What?! No... No! This is...[N]
@@ -174,6 +189,27 @@ you planning? What... just...[N]
 happened to me? What is Alear[AN]
 doing? What is Alfonse doing?[N]
 Who is Marich with? Katarina...[A][CloseEyes][X]
+
+## AthenaDeath
+[Left][LoadAthena]
+Vun voman... No voman. Ve will[N]
+now take our leave of this place.[A][CloseEyes][X]
+
+## JadeDeath
+[Left][LoadJade]
+No... My armour was not enough.[N]
+I have been defeated.[A][CloseEyes][X]
+
+## ChloeDeath
+[Left][LoadChloe]
+This ending may be a sad one...[N]
+but your majesty, serving[AN]
+you was fairy tale enough.[N]
+Please, forgive me...[A][CloseEyes][X]
+
+## DomaMinionDeath
+[Left][LoadDomaMinion]
+May Doma's blessings--[A][CloseEyes][X]
 
 ## MarthDeath
 [Right][LoadMarth]
@@ -244,44 +280,53 @@ willing to pay.[A][CloseEyes][X]
 
 ## GeorgeDeath
 [Right][LoadGeorge]
-Placeholder[A][X]
+In the end, my cunning has[N]
+simply gotten me killed.[A][CloseEyes][X]
 
 ## MalliesiaDeath
 [Right][LoadMalliesia]
-Placeholder[A][X]
+Ouch... My head... What's[N]
+that white light?[A][CloseEyes][X]
 
 ## RicardoDeath
 [Right][LoadRicardo]
-Placeholder[A][X]
+Heh... Looks like my thieving[N]
+days have come to an end.[A][CloseEyes][X]
 
 ## TomthDeath
 [Right][LoadTomth]
-Placeholder[A][X]
+So, I will not live to see[N]
+Akaneia at peace again.[A][CloseEyes][X]
 
 ## SajiDeath
 [Right][LoadSaji]
-Placeholder[A][X]
+I can't say I wasn't pushing[N]
+my luck fighting this war...[A][CloseEyes][X]
 
 ## RiffDeath
 [Right][LoadRiff]
-Placeholder[A][X]
+My time has finally come. It[N]
+was an honour, Lord Marth.[A][CloseEyes][X]
 
 ## LindaDeath
 [Right][LoadLinda]
-Placeholder[A][X]
+I've... My strength has run[N]
+out. Father... I'm coming.[A][CloseEyes][X]
 
 ## OgumaDeath
 [Right][LoadOguma]
-Placeholder[A][X]
+Death has finally caught up[N]
+to me. Sheeda, farewell.[A][CloseEyes][X]
 
 ## BartsDeath
 [Right][LoadBarts]
-Placeholder[A][X]
+A death like this is only[N]
+right for a pirate like me.[A][CloseEyes][X]
 
 ## WendyDeath
 [Right][LoadWendy]
 You're joking, right?[N]
-I suppose... not...[A][X]
+I suppose... not...[A][CloseEyes][X]
 
 ## MerlinusDeath
 [Right][LoadMerlinus]
@@ -301,39 +346,108 @@ to get killed...[A][CloseEyes][X]
 ## WallaceDeath
 [Right][LoadWallace]
 Wa ha ha! Looks like I've[N]
-relied too much on my armour![A][X]
+relied too much on my armour![A][CloseEyes][X]
 
 ## AstoreDeath
 [Right][LoadAstore]
-Placeholder[A][X]
+It appears... I can no longer[N]
+offer my services... to Ostia.[A][CloseEyes][X]
 
 ## FirDeath
 [Right][LoadFir]
-Placeholder[A][X]
+No... I can't be dying... in[N]
+a place like this...[A][CloseEyes][X]
 
 ## ValboDeath
 [Right][LoadValbo]
-Placeholder[A][X]
+I've been the last of my family[N]
+for years. Now, I rejoin them.[A][CloseEyes][X]
+
+## ValboDeathBoss
+[Left][LoadValbo]
+Just who are you people?[N]
+The floodgate has fallen...[AN]
+We've got little defence...[N]
+before Sofia Castle...[A][CloseEyes][X]
 
 ## CamusDeath
 [Right][LoadCamus]
-Placeholder[A][X]
+Teeta... Please forgive me[N]
+for leaving you alone...[A][CloseEyes][X]
 
 ## DyuteDeath
 [Right][LoadDyute]
-Placeholder[A][X]
+I don't want to die... but,[N]
+I am. Ryuto, goodbye...[A][CloseEyes][X]
 
 ## ClaireDeath
 [Right][LoadClaire]
-Placeholder[A][X]
+No... Please... help...[N]
+Grey, farewell...[A][CloseEyes][X]
+
+## ClaireDeathEnemy
+[Left][LoadClaire]
+You were right, Cleive...[N]
+They are ruthless.[AN]
+Cleive, Grey, save Valencia[N]
+where I cannot...[A][CloseEyes][X]
 
 ## AlmDeath
 [Right][LoadAlm]
-Placeholder[A][X]
+Damn it all. Celica, I'm so[N]
+sorry... I can't save you.[A][CloseEyes][X]
+
+## AlmDeathBoss
+[Left][LoadAlm]
+Damn you all. All of my work,[N]
+up in smoke in a few weeks.[AN]
+The floodgate, Doma Faithful,[N]
+those were distractions.[AN]
+You slaughtered my friends,[N]
+murdered my countrymen.[AN]
+Akaneia's already a mighty[N]
+empire, even if there is[AN]
+an ongoing civil war. But[N]
+now you seek to make it[AN]
+even bigger. Two continents.[N]
+I see how it is. Marth,[AN]
+Emperor of the World. Maybe[N]
+even God of the World.[AN]
+Valencia's yours, you vermin.[N]
+I'll see you in hell.[AN]
+I may not know who could stop[N]
+you, but I wish them luck.[A][CloseEyes][X]
 
 ## CelineDeath
 [Right][LoadCeline]
-Placeholder[A][X]
+All flowers eventually wilt.[N]
+But... please, not now...[A][CloseEyes][X]
+
+## CelineDeathBoss
+[Left][LoadCeline]
+There's no recovering from a[N]
+wound this severe.[AN]
+...Listen. This is critically[N]
+important. Take this ring.[AN]
+This is the Ring of the Caring[N]
+Princess... Celica.[AN]
+If you want to stop Alear, then[N]
+you're going to need it.[AN]
+Chant "Care for us, Emblem of[N]
+Echoes" to call her spirit.[AN]
+But her body is on the Somniel.[N]
+You can't get in...[AN]
+[CloseEyes]
+Forgive me, my friends. Chloe...[N]
+Louis... I'll join you soon.[AN]
+Hortensia... Know you were a[N]
+good friend. Be careful...[AN]
+Alear... Please, stop this[N]
+war before it's too late...[AN]
+...Alm... I'm so sorry for[N]
+everything...[AN]
+...Firene... I... have failed[N]
+you. My kingdom... my people...[A][X]
 
 ## FeenaDeath
 [Right][LoadFeena]
@@ -582,17 +696,17 @@ Somebody! Anybody! Help me![N]
 Aaaaah![A][CloseEyes][X]
 
 ## SalesmanDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadSalesman]
 I've met a terrible fate,[N]
 haven't I?[A][CloseEyes][X]
 
 ## GanonDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadGanon]
 Who are you? I have the[N]
 Triforce's power![A][CloseEyes][X]
 
 ## WolfDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadWolf]
 This can't be happening![A][CloseEyes][X]
 
 ## MewtwoDeath
@@ -611,7 +725,7 @@ I'm losing my grip... I'm[N]
 falling away fast...[A][CloseEyes][X]
 
 ## RosaDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadRosa]
 Cecil? Where are you?[N]
 I think this is it...[A][CloseEyes][X]
 
@@ -631,7 +745,7 @@ If this helps us prevail, then[N]
 I have no regrets...[A][CloseEyes][X]
 
 ## GalufDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadGaluf]
 So, my time's come. Please,[N]
 Cara, stay strong![A][CloseEyes][X]
 
@@ -681,36 +795,38 @@ Ah, forget it. The Chazz will[N]
 grace your presence... no more.[A][CloseEyes][X]
 
 ## OlimarDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadOlimar]
 My family... I will never see you[N]
 again. Please, forgive me.[A][CloseEyes][X]
 
 ## LouieDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadLouis]
 Ouch... I feel like a Pikmin[N]
 hit me. How do I taste?[A][CloseEyes][X]
 
 ## PresidentDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadPresident]
 My riches... I'll never get back[N]
 to cash them in...[A][CloseEyes][X]
 
 ## SnakeDeath
 [Right][LoadSnake]
-Placeholder[A][X]
+...Nobody's even calling my[N]
+name. How... serene.[A][CloseEyes][X]
 
 ## RaidenDeath
 [Right][LoadRaiden]
-Placeholder[A][X]
+Alas, I am slain.[A][CloseEyes][X]
 
 ## ArmstrongDeath
 [Right][LoadArmstrong]
-Placeholder[A][X]
+Where are my nanomachines?[N]
+I can't just die like this![A][CloseEyes][X]
 
 ## SonicDeath
 [Right][LoadSonic]
 Looks like I've hit a wall. I'm[N]
-just going to... rest a bit...[A][X]
+just going to... rest a bit...[A][CloseEyes][X]
 
 ## TailsDeath
 [Right][LoadTails]
@@ -723,13 +839,14 @@ Without me, there is nobody[N]
 guarding the Master Emerald...[A][CloseEyes][X]
 
 ## ShadowDeath
-[Right][LoadFace][0x01][0x01]
-Placeholder[A][X]
+[Right][LoadShadow]
+Heh. It's all over, isn't it?[N]
+What comes around goes around.[A][CloseEyes][X]
 
 ## RobotnikDeath
 [Right][LoadRobotnik]
 No way! I can't believe this![N]
-Nothing to do with... the hedgehog...[A][CloseEyes][X]
+Not killed by... the hedgehog...[A][CloseEyes][X]
 
 ## FlynnDeath
 [Right][LoadFlynn]
@@ -748,18 +865,18 @@ I die for what I believe for.[A][CloseEyes][X]
 
 ## WalterDeath
 [Right][LoadWalter]
-Way I see it, you can make your own[N]
-fate. I was weak, and so I die.[A][CloseEyes][X]
+Way I see it, make your own[N]
+fate. I'm weak, so I'm dead.[A][CloseEyes][X]
 
 ## ReimuDeath
 [Right][LoadReimu]
-I can't continue like this... Without me,[N]
-what will happen to Gensokyo?[A][CloseEyes][X]
+I can't continue like this...[N]
+Without me, what of Gensokyo?[A][CloseEyes][X]
 
 ## MarisaDeath
 [Right][LoadMarisa]
-Heh... Looks like I've a lot of stuff[N]
-to give back, because I'm dead![A][CloseEyes][X]
+Heh... Looks like I've a lot of[N]
+stuff to give back. I'm dead![A][CloseEyes][X]
 
 ## MimaDeath
 [Right][LoadMima]
@@ -768,13 +885,13 @@ What's another trip there?[A][CloseEyes][X]
 
 ## YuukaDeath
 [Right][LoadYuuka]
-What comes around comes around.[N]
+What comes around, comes around.[N]
 My life is finally over.[A][CloseEyes][X]
 
 ## ShinkiDeath
 [Right][LoadShinki]
-I've been struck down, far from home.[N]
-May Makai survive...[A][CloseEyes][X]
+I've been struck down, far from[N]
+home. May Makai survive...[A][CloseEyes][X]
 
 ## AliceDeath
 [Right][LoadAlice]
