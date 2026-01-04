@@ -49,7 +49,7 @@ CharBasedPromoEntry(Wolt,Archer,Sniper)
 CharBasedPromoEntry(Sophia,Shaman_F,Druid_F)
 CharBasedPromoEntry(Astore,Thief,Assassin)
 CharBasedPromoEntry(Fir,Myrmidon_F,Swordmaster_F)
-CharBasedPromoEntry(Dyute,Myrmidon_F,MageFighter) //Celica/Celine Priestess?
+CharBasedPromoEntry(Dyute,Myrmidon_F,Priestess) //Celica/Celine Priestess?
 //room for an Alm T3 if deemed necessary
 //Jugdral is all over the place, and aside from the Est everyone should be T2
 

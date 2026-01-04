@@ -450,6 +450,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(GorgonEgg2, NO_PALETTE)
 	SetClassPaletteTable(Gargoyle, GargoylePaletteList)
 	SetClassPaletteTable(Deathgoyle, DeathgoylePaletteList)
+	SetClassPaletteTable(DracoZombie, NO_PALETTE)
 	SetClassPaletteTable(DemonKing, NO_PALETTE)
 	//All the rest are blank/free to replace until 0x80
 	SetClassPaletteTable(0x67, NO_PALETTE)
@@ -539,10 +540,10 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(Battleship, NO_PALETTE)
 	SetClassPaletteTable(Submarine, NO_PALETTE)
 	//remaining classes blank
-	SetClassPaletteTable(0xB9, NO_PALETTE)
-	SetClassPaletteTable(0xBA, NO_PALETTE)
-	SetClassPaletteTable(0xBB, NO_PALETTE)
-	SetClassPaletteTable(0xBC, NO_PALETTE)
+	SetClassPaletteTable(Priestess, PriestessPaletteList)
+	SetClassPaletteTable(MasterLord, NO_PALETTE)
+	SetClassPaletteTable(DivineOne, NO_PALETTE)
+	SetClassPaletteTable(DarkChild, NO_PALETTE)
 	SetClassPaletteTable(0xBD, NO_PALETTE)
 	SetClassPaletteTable(0xBE, NO_PALETTE)
 	SetClassPaletteTable(0xBF, NO_PALETTE)

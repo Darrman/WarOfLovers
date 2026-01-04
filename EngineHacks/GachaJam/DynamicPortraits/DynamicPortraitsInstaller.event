@@ -85,6 +85,18 @@ BYTE Zelda //she needs to be around
 BYTE 0x0 //but her class doesn't matter
 */
 
+SHORT 0x55 //Merlinus
+SHORT 0x101 //Nina
+SHORT 0x27 //same hack as Celine but Nina comes before her
+BYTE 0x0
+BYTE 0x0 //cleaner method doesn't work as she's green not blue
+
+SHORT 0x37 //Celine
+SHORT 0xF8 //red Celine
+SHORT 0x27
+BYTE 0
+BYTE 0
+
 //My sample works, which means this works.
 //TODO: Celine-as-Celica mandates this
 //Beyond 100 pipe dreams also require this, but those are pipe dreams
