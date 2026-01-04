@@ -283,6 +283,7 @@ NoFade
 ENDA
 
 FirMovesToAVillage:
+CAM1 Fir
 FlashCursor(Fir,60)
 MOVE 10 Fir [1,5]
 ENUN

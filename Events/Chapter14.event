@@ -116,7 +116,7 @@ UNIT Firene PegasusKnight Etie Level(14,Enemy,1) [2,30] 0x0 0x0 0x0 0x0 [IronLan
 UNIT
 
 Doot:
-UNIT Dyute Myrmidon_F 0x0 Level(8,Ally,0) [18,5] 0x0 0x0 0x0 0x0 [Shamshir, SlimSword, Vulnerary] NoAI
+UNIT Dyute Myrmidon_F 0x0 Level(8,Ally,0) [18,5] 0x0 0x0 0x0 0x0 [KillingEdge, SlimSword, Vulnerary] NoAI
 //Now we all know Dyute as a mage. Her FE2 ending says she quits magic. Solution: Infantry sword, get her magic back on promo.
 UNIT
 
@@ -154,6 +154,8 @@ UNIT Claire KnightFalcon 0x00 Level(1,Enemy,0) [11,31] 0x0 0x0 0x0 0x0 [SilverLa
 UNIT
 
 Traps1:
+SavePoint(24,21)
+SavePoint(5,8)
 ENDTRAP
 ALIGN 4
 

@@ -211,6 +211,11 @@ Please, forgive me...[A][CloseEyes][X]
 [Left][LoadDomaMinion]
 May Doma's blessings--[A][CloseEyes][X]
 
+## NinaDeath
+[Left][LoadNina]
+It's over. At last, it's[N]
+all over... Peace...[A][CloseEyes][X]
+
 ## MarthDeath
 [Right][LoadMarth]
 Sheeda... I'm sorry...[N]

@@ -352,3 +352,12 @@ RECLASS Eliwood Paladin
 LABEL 6908
 ENDA
 
+//Nothing to do with dismount but I'm not making a new file for one little thing
+//Should force her to use the right portrait
+Ch16CelineDeathQuote:
+ENUF 0x27
+TEXTSTART
+TEXTSHOW CelineDeathBoss
+TEXTEND
+REMA
+ENDA

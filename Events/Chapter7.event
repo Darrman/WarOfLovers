@@ -186,7 +186,7 @@ Text(Shrine_3,Ch7OpeningThroughTheGate)
 FADI 10
 STAL 30
 CHECK_EVENTID LouisSpared
-BNE 707 s0 sC //if he's dead skip
+BEQ 707 s0 sC //if he's dead skip
 Text(Forest,Ch7OpeningLouisSurvived)
 STAL 30
 LABEL 707

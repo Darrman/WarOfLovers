@@ -97,10 +97,11 @@ Seize the throne of[N]
 Pherae Castle[X]
 
 ## Ch10xName
-Chapter 10x[X]
+Ch. 10x: Digging Up the Past[X]
 
 ## Ch10xGoal
-Placeholder[X]
+Defeat Jade and stop[N]
+her from finding Hector[X]
 
 ## Ch11Name
 Ch. 11: Diamant's Charge[X]
@@ -124,10 +125,11 @@ Subdue Valbo, the[N]
 enemy general[X]
 
 ## Ch13xName
-Chapter 13x[X]
+Ch. 13x: A Love's End[X]
 
 ## Ch13xGoal
-Placeholder[X]
+Rout Nuibaba's Manor[N]
+of all enemy forces[X]
 
 ## Ch14Name
 Ch. 14: Fight in the Grove[X]

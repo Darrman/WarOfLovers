@@ -22,13 +22,22 @@ TurnEventEnemy(0x0,NormalWarpRagnarok,5)
 TurnEventEnemy(0x0,EntranceSpawns,6)
 TurnEventEnemy(0x0,NormalWarpRagnarok,8)
 TurnEventEnemy(0x0,EntranceSpawns2,10)
-TurnEventEnemy(0x0,NormalWarpRagnarok,11)
-TurnEventEnemy(0x0,NormalWarpRagnarok,14)
-TurnEventEnemy(0x0,NormalWarpRagnarok,17)
-TurnEventEnemy(0x0,NormalWarpRagnarok,20)
-TurnEventEnemy(0x0,NormalWarpRagnarok,23)
-TurnEventEnemy(0x0,NormalWarpRagnarok,26)
-TurnEventEnemy(0x0,NormalWarpRagnarok,29)
+TurnEventEnemy(0xB,NormalWarpRagnarok,11)
+TurnEventEnemy(0xB,NormalWarpRagnarok,14)
+TurnEventEnemy(0xB,NormalWarpRagnarok,17)
+TurnEventEnemy(0xB,NormalWarpRagnarok,20)
+TurnEventEnemy(0xB,NormalWarpRagnarok,23)
+TurnEventEnemy(0xB,NormalWarpRagnarok,26)
+TurnEventEnemy(0xB,NormalWarpRagnarok,29)
+
+TurnEventPlayer(0x15,SummonMonsters,3)
+TurnEventPlayer(0x15,SummonMonsters,7)
+TurnEventPlayer(0x15,SummonMonsters,11)
+TurnEventPlayer(0x15,SummonMonsters,15)
+TurnEventPlayer(0x15,SummonMonsters,19)
+TurnEventPlayer(0x15,SummonMonsters,23)
+TurnEventPlayer(0x15,SummonMonsters,27)
+TurnEventPlayer(0x15,SummonMonsters,31)
 
 END_MAIN
 
@@ -43,7 +52,7 @@ CharacterEventBothWays(0xA,LouisExplains,Louis,Celine)
 CharacterEventBothWays(0xA,LouisExplains,Chloe,Celine)
 CharacterEvent(0xB,CelineSaved,Marth,Celine,0xA)
 CharacterEvent(0x3,AlmStopsCelineAlive,Marth,Alm,0xB)
-CharacterEvent(0x3,AlmStopsCelineDead,Marth,Alm,0xC)
+CharacterEvent(0x3,AlmStopsCelineDead,Marth,Alm,0x17)
 //Mycen calms Alm down, variants for any other Valencian
 //Louis makes Celine think long and hard...
 //and Marth makes her surrender
@@ -76,8 +85,10 @@ MiscBasedEvents:
 AREA 0x10 LeftSwitchHit [3,18] [3,18]
 AREA 0x11 MiddleSwitchHit [10,18] [12,18]
 AREA 0x12 RightSwitchHit [20,0] [20,0]
+AFEV 0x0 KillSummons 0x15
+AFEV 0x3 AlmKilled 0x16
+AFEV 0x3 CelineKilled 0x17
 CauseGameOverIfLordDies
-DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -113,7 +124,7 @@ UNIT Alm HeroAlm 0x00 Level(5,Enemy,0) [9,3] DropItem 0x0 0x0 0x0 [Kingsfang, Li
 UNIT Celine Priestess 0x00 Level(5,Enemy,0) [10,3] DropItem 0x0 0x0 0x0 [Forblaze, ShadowKiller, CelicaRing] PursueWithoutHeedAI
 //True Ragnarok may be too strong, and I did have Alear steal Forblaze earlier. Look what we find here!
 UNIT Grey Hero Alm Level(3,Enemy,0) [11,20] DropItem 0x0 0x0 0x0 [ThunderSword, SilverAxe] ChaseOnceApproachedAI
-UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [3,18] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI
+UNIT Mycen KnightPaladin Alm Level(3,Enemy,0) [3,18] DropItem 0x0 0x0 0x0 [SilverSword, Elixir] GuardTileAI //He moves to chug his elixir. Whatever, I can tighten up any exploits later.
 UNIT Valencia General Alm Level(3,Enemy,1) [5,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
 UNIT Valencia General Alm Level(3,Enemy,1) [4,10] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
 UNIT DomaFaithfulBoss Summoner 0x00 Level(3,Enemy,0) [20,5] DropItem 0x0 0x0 0x0 [Fenrir, Berserk, GuidingRing] AttackInRangeAI
@@ -174,15 +185,19 @@ UNIT Chloe KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeRED
 UNIT
 
 DrawbridgeReinforcements:
-UNIT Valencia Mercenary Alm Level(16,Enemy,1) [11,34] 0x0 0x0 0x1 Spawn1REDA [SteelSword] PursueWithoutHeedAI
+UNIT Valencia Mercenary Alm Level(16,Enemy,1) [10,35] 0x0 0x0 0x1 Spawn1REDA [SteelSword] PursueWithoutHeedAI
 UNIT Valencia Soldier Alm Level(16,Enemy,1) [11,35] 0x0 0x0 0x1 Spawn2REDA [SteelLance] PursueWithoutHeedAI
-UNIT Valencia Mage Alm Level(16,Enemy,1) [11,36] 0x0 0x0 0x1 Spawn3REDA [Wind] PursueWithoutHeedAI
+UNIT Valencia Mage Alm Level(16,Enemy,1) [12,35] 0x0 0x0 0x1 Spawn3REDA [Wind] PursueWithoutHeedAI
 UNIT
 
 DrawbridgeReinforcements2:
-UNIT Valencia Mercenary Alm Level(16,Enemy,1) [11,34] 0x0 0x0 0x1 Spawn1REDA [IronSword] PursueWithoutHeedAI
+UNIT Valencia Mercenary Alm Level(16,Enemy,1) [10,35] 0x0 0x0 0x1 Spawn1REDA [IronSword] PursueWithoutHeedAI
 UNIT Valencia LanceArmour Alm Level(16,Enemy,1) [11,35] 0x0 0x0 0x1 Spawn2REDA [Javelin] PursueWithoutHeedAI
-UNIT Valencia Cleric Alm Level(16,Enemy,1) [11,36] 0x0 0x0 0x1 Spawn3REDA [Heal] HealUnits
+UNIT Valencia Cleric Alm Level(16,Enemy,1) [12,35] 0x0 0x0 0x1 Spawn3REDA [Heal] HealUnits
+UNIT
+
+EnemySummon:
+UNIT Monster Bonewalker DomaFaithfulBoss Level(12,Enemy,1) [20,6] 0x0 0x0 0x1 SummonREDA [SteelSword] PursueWithoutHeedAI
 UNIT
 
 CutsceneCeline:
@@ -241,6 +256,8 @@ UNIT Framme Bishop_F 0x00 Level(1,Enemy,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, Wh
 UNIT
 
 Traps1:
+SavePoint(20,2)
+SavePoint(6,9)
 ENDTRAP
 ALIGN 4
 
@@ -308,6 +325,7 @@ CAM1 [0,35]
 STAL 20
 CAM1 [0,0]
 STAL 10
+ENUT 0x27 //last temp ID, set so Celine can swap her mug
 GotoPrepScreen
 ENDA
 
@@ -401,6 +419,7 @@ ENDWARP
 GOTO 1636
 
 LABEL 1636
+ENUF 0xB //stop warping once turned green: unset flag
 NoFade
 ENDA
 
@@ -450,12 +469,6 @@ CALL MiddleSwitchHit
 NoFade
 ENDA
 
-AfterDomaDeath:
-ENUT 0x12 //switch
-CALL RightSwitchHit
-NoFade
-ENDA
-
 EntranceSpawns:
 LOAD1 0x0 DrawbridgeReinforcements
 NoFade
@@ -485,6 +498,7 @@ ENDA
 LouisExplains:
 MUSC M_DismalNation
 Text(Ch16CelineWavers)
+Text(Ch16CelineWavers2) //scene too long, broken up
 SVAL s1 0x00000306 //do nothing
 CHAI Louis
 CHAI Chloe
@@ -496,6 +510,7 @@ NoFade
 ENDA
 
 CelineSaved:
+ENUF 0x27 //change mug back
 MUSC M_ThemeOfLove //something a bit more sombre? Heh, Sombron's Japanese name.
 Text(Ch16CelineTurns)
 //As the rescue macro demands locations and Celine could be anywhere, I'm going to get up to some trickery.
@@ -531,6 +546,7 @@ FIGHT Alm Marth Kingsfang 0
 STAL 30
 Text(Ch16EndingTruceSignedCeline)
 ENUT CelineRecruited
+ENUT AlmRecruited
 ENUT 0x03
 TurnAlly(Alm)
 TurnAlly(Celine)
@@ -543,6 +559,8 @@ ENDA
 AlmStopsCelineDead:
 MUSC M_TwilightOfTheGods
 Text(Ch16EndingTruceCelineDead)
+ENUT AlmRecruited
+ENUT 0x03
 TurnAlly(Alm)
 CALL EndingScene
 ENDA
@@ -574,10 +592,13 @@ CHECK_EVENTID 0x11 //middle switch
 BEQ 1601 s0 sC //if not hit, jump
 CHECK_EVENTID 0x12 //right switch
 BEQ 1601 s0 sC //if not hit, jump
+EARTHQUAKE 0 1
+STAL 10
 CAM1 [4,15] //the stairs
 TILEREVERT 0xA //they're open!
 STAL 20
 CAM1 Marth
+EARTHQUAKE_END
 FlashCursor(Marth,60)
 Text(Ch16WayToAlmOpen)
 LABEL 1601
@@ -608,14 +629,39 @@ TurnNPC(Alm)
 NoFade
 ENDA
 
+AlmKilled:
+CHECK_EXISTS Celine
+BEQ 1626 s0 sC
+ENUF 0x3
+//Text
+GOTO 1627
+LABEL 1626
+CALL EndingScene
+LABEL 1627
+ENDA
+
+CelineKilled:
+CHECK_EXISTS Alm
+BEQ 1628 s0 sC
+ENUF 0x3
+//Text
+GOTO 1629
+LABEL 1628
+CALL EndingScene
+LABEL 1629
+ENDA
+
 
 EndingScene:
-REMU Grey
-REMU Mycen //they're temporary
-CHECK_EVENTID 0x02 //Boss kill (read: Alm)
-BEQ 1621 s0 sC //Branch if Alm's still alive
+DISA Grey
+DISA Mycen //they're temporary
+CHECK_EXISTS Alm
+BNE 1621 s0 sC //Branch if Alm's still alive
 MUSC Game_Over //not actually game over, but it's appropriately miserable
 Text(Castle_Hall_3_Night,Ch16EndingValenciaIsFinished)
+DISA Valbo
+DISA Dyute
+DISA Claire
 GOTO 1622
 LABEL 1621
 MUSC M_TwilightOfTheGods
@@ -628,6 +674,8 @@ BEQ 1623 s0 sC
 Text(Ch16EndingTheFateOfFirene)
 LABEL 1623
 
+//
+LABEL 1622
 FADI 10
 CLEA 0
 CLEE 0
@@ -646,10 +694,10 @@ Text(Ch16EndingAlearGetsAProgressReport)
 CHECK_EVENTID CelineRecruited
 BEQ 1624 s0 sC
 Text(Castle_Room,Ch16EndingVeyleHasAwfulNews)
-FADU 10
+FADI 10
 CLEE 0
 LOAD2 0x0 CutsceneCelineCondemnation
-FADI 10
+FADU 10
 FlashCursor(Vander,60)
 Text(Shrine_lighter,Ch16EndingCelinesBetrayal)
 LABEL 1624
@@ -658,13 +706,54 @@ TUTORIALTEXTBOXSTART
 CenterTutorialTextBox
 TEXTSHOW Ch16EndOfDemoMessage
 TEXTEND
-
+MNTS 0
 
 //WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
 //WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
 //WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
 //MNCH 17
 ENDB
+
+SummonMonsters:
+//Original behaviour: summons happen as an action mid-phase, summons don't move turn they're summoned.
+//I'll just imitate them via running this summon event every few turns.
+COUNTER_SET 0 8 //rudimentary loop to save some lines
+CAM1 DomaFaithfulBoss
+STAL 10
+LABEL 1661
+RANDOMNUMBER 1
+BNE 1660 s0 sC
+LOAD1 0x1 EnemySummon
+WARPIN [20,6] //not great, but either misalign the effect or bloat the code eight times over
+//MOVE 0xFFFF Monster [16,13]
+ENUN
+ENDWARP
+STAL 15
+LABEL 1660
+COUNTER_DEC 0
+COUNTER_CHECK 0
+BNE 1661 s0 sC //continue looping until counter hits zero; should summon eight times (or whatever the value may be)
+ENUF 0x15 //unset flag
+NoFade
+ENDA
+
+KillSummons:
+LABEL 1663
+CHECK_ALIVE Monster
+BEQ 1662 s0 sC //if no monsters, skip to the end
+CAM1 Monster
+FlashCursor(Monster,30)
+STAL 5
+KILL Monster
+AWAIT_KILL Monster
+STAL 30
+GOTO 1663 //keep looping until they're all dead
+LABEL 1662
+ENUT 0x15 //no more summons
+ENUT 0x12 //switch
+CALL RightSwitchHit
+NoFade
+ENDA
 
 SofiaCastleSecretShop:
 SHLI ValencianBow ThunderSword Physic Elwind Horseslayer
@@ -683,4 +772,7 @@ Spawn2REDA:
 REDA [11,33]
 
 Spawn3REDA:
-REDA [11,33]
+REDA [12,33]
+
+SummonREDA:
+REDA [20,6]

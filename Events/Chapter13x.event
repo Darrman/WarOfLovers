@@ -144,6 +144,8 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [17,8] 0x0 0x0 0x0 0x0 [WingSpear
 UNIT
 
 Traps1:
+SavePoint(8,17)
+SavePoint(17,2)
 ENDTRAP
 ALIGN 4
 
@@ -230,6 +232,7 @@ CAM1 [0,29]
 STAL 20
 CAM1 [0,0]
 STAL 10
+ENUT 0x27 //Nina is Merlinus internally, switch mug
 GotoPrepScreen
 ENDA
 
@@ -283,6 +286,7 @@ CLEA 0
 CLEE 0
 CLEN 0
 REMA
+ENUF 0x27
 MUSC M_DisquietingSteps
 Text(Volcano,Ch13xEndingDomasGrave)
 

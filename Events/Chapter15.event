@@ -138,6 +138,8 @@ UNIT Celine Priestess 0x00 Level(5,Enemy,0) [11,3] DropItem 0x0 0x0 0x0 [Bolgano
 UNIT
 
 Traps1:
+SavePoint(10,19)
+SavePoint(12,32)
 ENDTRAP
 ALIGN 4
 
