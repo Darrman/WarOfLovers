@@ -25,21 +25,21 @@ BYTE 0 0
 
 MarichSupports:
 CharacterSupport(Ellis, 0, 0, 0, 0, 0, 0)
-SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportBases(78, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
 EllisSupports:
 CharacterSupport(Marich, 0, 0, 0, 0, 0, 0)
-SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportBases(78, 0, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
 LilinaSupports:
 CharacterSupport(Roy, Eliwood, 0, 0, 0, 0, 0)
-SupportBases(241, 81, 0, 0, 0, 0, 0)
+SupportBases(78, 50, 0, 0, 0, 0, 0)
 SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
@@ -658,6 +658,21 @@ CharacterSupport(Shinki, Marisa, 0, 0, 0, 0, 0)
 SupportBases(241, 81, 0, 0, 0, 0, 0)
 SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 2 //support count
+BYTE 0 0
+
+AlcrystSupports:
+//Engage may not let me ship, but...
+CharacterSupport(Lapis, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
+BYTE 0 0
+
+LapisSupports:
+CharacterSupport(Alcryst, 0, 0, 0, 0, 0, 0)
+SupportBases(241, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+BYTE 1 //support count
 BYTE 0 0
 
 //Support conversations
