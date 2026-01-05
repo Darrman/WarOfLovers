@@ -40,7 +40,7 @@
 
 #include "EngineHacks/SkillSystem/skill_definitions.event"
 
-#define __DEBUG__ // Uncomment to get the Debug startup menu :p
+//#define __DEBUG__ // Uncomment to get the Debug startup menu :p
 
 //Characters
 //Fire Emblem: full roster defined for no-gacha modes.
@@ -696,3 +696,4 @@
 #define LouisSpared 0x76
 #define ChloeSpared 0x77
 #define CelineRecruited 0x78
+#define AlmRecruited 0x79

@@ -253,46 +253,46 @@ LABEL 6044
 CHECK_ALIVE Roshe
 BEQ 6046 s0 sC
 CHECK_CLASS Roshe
-SVAL s1 Ranger
-BNE 6045 s1 sC //Free Knight
-RECLASS Roshe KnightRanger
+SVAL s1 GreatKnight
+BNE 6045 s1 sC //Axe Knight
+RECLASS Roshe KnightGreat
 GOTO 6046
 LABEL 6045
-RECLASS Roshe KnightFree
+RECLASS Roshe KnightAxe
 LABEL 6046
 
 CHECK_ALIVE Miledy
 BEQ 6048 s0 sC
 CHECK_CLASS Miledy
-SVAL s1 Ranger
-BNE 6047 s1 sC //Free Knight
-RECLASS Miledy KnightRanger
+SVAL s1 DragonMaster_F
+BNE 6047 s1 sC //Dragon Knight
+RECLASS Miledy KnightDragonM_F
 GOTO 6048
 LABEL 6047
-RECLASS Miledy KnightFree
+RECLASS Miledy KnightDragon_F
 LABEL 6048
 
 CHECK_ALIVE Camus
 BEQ 6050 s0 sC
-CHECK_CLASS Camus
-SVAL s1 Ranger
-BNE 6049 s1 sC //Free Knight
-RECLASS Camus KnightRanger
-GOTO 6050
-LABEL 6049
-RECLASS Camus KnightFree
+RECLASS Camus KnightPaladin //simplify event if pre-promote
 LABEL 6050
 
 CHECK_ALIVE Claire
 BEQ 6052 s0 sC
-CHECK_CLASS Claire
-SVAL s1 Ranger
-BNE 6051 s1 sC //Free Knight
-RECLASS Claire KnightRanger
-GOTO 6052
-LABEL 6051
-RECLASS Claire KnightFree
+RECLASS Claire KnightFalcon
 LABEL 6052
+
+CHECK_ALIVE Jonathan
+BEQ 6054 s0 sC
+CHECK_CLASS Jonathan
+SVAL s1 DukeKnight
+BNE 6053 s1 sC //Lance Knight
+RECLASS Jonathan KnightDuke
+GOTO 6054
+LABEL 6053
+RECLASS Jonathan KnightLance
+LABEL 6054
+
 
 ENDA
 
