@@ -114,7 +114,7 @@ UNIT Riff Priest 0x00 Level(4,Ally,0) [4,10] 0x0 0x0 0x0 0x0 [Barrier, Heal, Vul
 UNIT
 
 LindaGroup:
-UNIT Linda Mage_F 0x00 Level(5,Ally,0) [28,5] 0x0 0x0 0x0 0x0 [Aura, Wind] NoAI
+UNIT Linda MageLinda 0x00 Level(5,Ally,0) [28,5] 0x0 0x0 0x0 0x0 [Aura, Wind] NoAI
 UNIT
 
 ClanneGroup:

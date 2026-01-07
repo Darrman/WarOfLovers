@@ -151,12 +151,12 @@ Knight (D Master M),KnightMovingSprite|IsPointer,0x81caa20
 Knight (D Master F),KnightFMovingSprite|IsPointer,0x81caa20
 Knight (Troubadour),KnightFMovingSprite|IsPointer,0x81caa20
 Knight (Valkyrie),KnightFMovingSprite|IsPointer,0x81caa20
-Fire Dragon,0x81c3ed4,0x81c46cc
-Ice Dragon,0x81c3ed4,0x81c46cc
-Magic Dragon,0x81c3ed4,0x81c46cc
-Flying Dragon,0x81c3ed4,0x81c46cc
-Divine Dragon,0x81c3ed4,0x81c46cc
-Earth Dragon,0x81c3ed4,0x81c46cc
+Fire Dragon,0x81fb098,0x81fbe5c
+Ice Dragon,0x81fb098,0x81fbe5c
+Magic Dragon,0x81fb098,0x81fbe5c
+Flying Dragon,0x81fb098,0x81fbe5c
+Divine Dragon,0x81fb098,0x81fbe5c
+Earth Dragon,0x81fb098,0x81fbe5c
 Knight (Mage M),KnightMovingSprite|IsPointer,0x81caa20
 Knight (Mage F),KnightFMovingSprite|IsPointer,0x81caa20
 Knight Lord (Eliwood),0x81c6a84,0x81c7428
@@ -187,7 +187,7 @@ Priestess,0x81d9cb0,0x81da694
 Master Lord,PromotedMarthMovingSprite|IsPointer,0x81c46cc
 Divine One,0x81ce65c,0x81ceee0
 Dark Child (Veyle),0x81dd9e0,0x81de2c4
-Dummy,0x81c3ed4,0x81c46cc
+Mage (Linda),0x81d87c0,0x81d908c
 Dummy,0x81c3ed4,0x81c46cc
 Dummy,0x81c3ed4,0x81c46cc
 Dummy,0x81c3ed4,0x81c46cc

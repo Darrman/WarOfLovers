@@ -453,6 +453,7 @@
 #define MasterLord 0xBA
 #define DivineOne 0xBB
 #define DarkChild 0xBC
+#define MageLinda 0xBD
 
 //Map sprites
 #define MarthSprite 0x0

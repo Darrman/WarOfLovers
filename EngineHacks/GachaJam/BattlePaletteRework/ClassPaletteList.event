@@ -544,7 +544,7 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(MasterLord, NO_PALETTE)
 	SetClassPaletteTable(DivineOne, NO_PALETTE)
 	SetClassPaletteTable(DarkChild, NO_PALETTE)
-	SetClassPaletteTable(0xBD, NO_PALETTE)
+	SetClassPaletteTable(MageLinda, MagePaletteList)
 	SetClassPaletteTable(0xBE, NO_PALETTE)
 	SetClassPaletteTable(0xBF, NO_PALETTE)
 	SetClassPaletteTable(0xC0, NO_PALETTE)
