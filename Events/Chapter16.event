@@ -86,8 +86,8 @@ AREA 0x10 LeftSwitchHit [3,18] [3,18]
 AREA 0x11 MiddleSwitchHit [10,18] [12,18]
 AREA 0x12 RightSwitchHit [20,0] [20,0]
 AFEV 0x0 KillSummons 0x15
-AFEV 0x3 AlmKilled 0x16
-AFEV 0x3 CelineKilled 0x17
+AFEV 0x20 AlmKilled 0x16
+AFEV 0x21 CelineKilled 0x17
 CauseGameOverIfLordDies
 END_MAIN
 
@@ -363,6 +363,9 @@ ENDA
 
 NormalWarpRagnarok:
 //Faking witch teleportation: Celine will go to one of a few fixed places
+//Bug: Warp effect plays even if Celine is dead
+CHECK_EXISTS Celine //Celine dead
+BEQ 1636 s0 sC //Skip
 CHECK_EVENTID 0xA //Louis talked to Celine
 BNE 1637 s0 sC
 RANDOMNUMBER 5
@@ -419,7 +422,7 @@ ENDWARP
 GOTO 1636
 
 LABEL 1636
-ENUF 0xB //stop warping once turned green: unset flag
+ENUF 0xB //when this flag is set, she stops, so unset it for now
 NoFade
 ENDA
 
@@ -640,6 +643,7 @@ GOTO 1627
 LABEL 1626
 CALL EndingScene
 LABEL 1627
+NoFade
 ENDA
 
 CelineKilled:
@@ -651,6 +655,7 @@ GOTO 1629
 LABEL 1628
 CALL EndingScene
 LABEL 1629
+NoFade
 ENDA
 
 
