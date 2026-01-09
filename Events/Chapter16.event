@@ -15,7 +15,7 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterPrep,1)
-TurnEventEnemy(0x0,InitialWarpRagnarok,2)
+TurnEventEnemy(0x0,InitialWarpRagnarok,3)
 TurnEventEnemy(0x0,CelinesPeopleArrive,4)
 TurnEventPlayer(0x0,PreparingToWarp,5)
 TurnEventEnemy(0x0,NormalWarpRagnarok,5)
@@ -156,15 +156,15 @@ BadTreasureRooms:
 UNIT Firene Halberdier Celine Level(1,Enemy,1) [4,29] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
 UNIT Firene Archer Celine Level(16,Enemy,1) [4,32] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI
 UNIT Firene Archer Celine Level(16,Enemy,1) [2,29] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT Firene Mage Celine Level(13,Enemy,1) [1,32] 0x0 0x0 0x0 0x0 [Meteor] NeverMoveAI
+//UNIT Firene Mage Celine Level(13,Enemy,1) [1,32] 0x0 0x0 0x0 0x0 [Meteor] NeverMoveAI
 //Right room
 UNIT Firene Warrior Celine Level(1,Enemy,1) [18,29] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
 UNIT Firene Archer Celine Level(16,Enemy,1) [20,29] 0x0 0x0 0x0 0x0 [Longbow] PursueWithoutHeedAI
 UNIT Firene Archer Celine Level(16,Enemy,1) [18,30] 0x0 0x0 0x0 0x0 [SteelBow] PursueWithoutHeedAI
-UNIT Firene Mage Celine Level(13,Enemy,1) [21,31] 0x0 0x0 0x0 0x0 [Meteor] NeverMoveAI
+//UNIT Firene Mage Celine Level(13,Enemy,1) [21,31] 0x0 0x0 0x0 0x0 [Meteor] NeverMoveAI
 //Guarding the throne room stairs
 UNIT Firene Berserker Celine Level(3,Enemy,1) [3,20] 0x0 0x0 0x0 0x0 [KillerAxe] AttackInRangeAI
-UNIT Firene Sniper Celine Level(3,Enemy,1) [4,19] 0x0 0x0 0x0 0x0 [SteelAxe] AttackInRangeAI
+UNIT Firene Sniper Celine Level(3,Enemy,1) [4,19] 0x0 0x0 0x0 0x0 [SteelBow] AttackInRangeAI
 UNIT Firene Sage Celine Level(3,Enemy,1) [1,19] 0x0 0x0 0x0 0x0 [Elthunder] AttackInRangeAI
 UNIT Firene KnightPaladin Celine Level(3,Enemy,1) [2,20] 0x0 0x0 0x0 0x0 [SilverSword] AttackInRangeAI
 UNIT
@@ -471,11 +471,13 @@ ENDA
 
 EntranceSpawns:
 LOAD1 0x0 DrawbridgeReinforcements
+ENUN
 NoFade
 ENDA
 
 EntranceSpawns2:
 LOAD1 0x0 DrawbridgeReinforcements2
+ENUN
 NoFade
 ENDA
 
