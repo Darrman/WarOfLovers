@@ -133,7 +133,7 @@ If that is what you desire, then[N]
 I cannot refuse, your highness.[A][X]
 
 ## Ch5xHouse1
-[ML][LoadAnna][MR][LoadCurrent]
+[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
 //Anna is a placeholder for random villagers
 [ML]
 The nearby fort was always the[N]
@@ -145,7 +145,7 @@ from Port Warren. There was the[AN]
 occasional exile that crossed the[N]
 bridge, but it wasn't common.[AN]
 Now I see Akaneia's civil war[N]
-has spilled over. Why do[AN]
+has spilled over. Why do[AN]5
 you have to keep causing so[N]
 much trouble around here?[A][X]
 
@@ -163,7 +163,7 @@ place is tidy when I come back.[N]
 Oh, I should take this with me.[A][X]
 
 ## Ch5xHouse3
-[ML][LoadAnna][MR][LoadCurrent]
+[ML][LoadFace][0x5B][0x01][MR][LoadCurrent]
 [ML]
 You... You're with Marth. I'd know[N]
 that man's standard anywhere.[AN]
@@ -174,14 +174,14 @@ annexation now. Yeah, I've[AN]
 heard he's disappeared to Lythos[N]
 or whatever the new emperor said.[AN]
 But I think Lythos is about as[N]
-real as Jugdral. That is, not.[AN]
+real as Lieberia. That is, not.[AN]
 Is this whole civil war just a[N]
 very roundabout purge of Marth's[AN]
 enemies? I would love it if you[N]
 could just leave us alone. Out![A][X]
 
 ## Ch5xVillage
-[ML][LoadAnna][MR][LoadCurrent]
+[ML][LoadFace][0x5D][0x01][LoadCurrent]
 [ML]
 Let's just say I'm well-informed.[N]
 This town was an Akaneian penal[AN]
@@ -205,7 +205,7 @@ solved your myrmidon problem.[N]
 Now, can anyone use it?[A][X]
 
 ## Ch5xEndingCantRunHere
-[Left][LoadAnna][Right][LoadMarth][FR][LoadSheeda]
+[Left][LoadFace][0x58][0x01][Right][LoadMarth][FR][LoadSheeda]
 [Right]
 The fact that we defeated one of[N]
 Kris's commanders means we can't[AN]
