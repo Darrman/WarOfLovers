@@ -15,12 +15,13 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterPrep,1)
+TurnEventPlayer(0x0,HintToReachAlm,2)
 TurnEventEnemy(0x0,InitialWarpRagnarok,3)
 TurnEventEnemy(0x0,CelinesPeopleArrive,4)
 TurnEventPlayer(0x0,PreparingToWarp,5)
-TurnEventEnemy(0x0,NormalWarpRagnarok,5)
+TurnEventEnemy(0xB,NormalWarpRagnarok,5)
 TurnEventEnemy(0x0,EntranceSpawns,6)
-TurnEventEnemy(0x0,NormalWarpRagnarok,8)
+TurnEventEnemy(0xB,NormalWarpRagnarok,8)
 TurnEventEnemy(0x0,EntranceSpawns2,10)
 TurnEventEnemy(0xB,NormalWarpRagnarok,11)
 TurnEventEnemy(0xB,NormalWarpRagnarok,14)
@@ -211,9 +212,9 @@ UNIT
 
 CutsceneGoodOpening:
 UNIT Marth Lord 0x00 Level(1,Ally,0) [9,35] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Chiki Mamkute 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [13,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Valbo General 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Claire KnightFalcon 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
@@ -221,7 +222,7 @@ UNIT George Sniper 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Bartre Warrior 0x00 Level(1,Ally,0) [9,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Oguma Mercenary 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Sophia Shaman_F 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Camus Paladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Camus KnightPaladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT
 
 CutsceneSomniel:
@@ -256,6 +257,7 @@ UNIT Framme Bishop_F 0x00 Level(1,Enemy,0) [12,2] 0x0  0x0 0x0 0x0 [Falchion, Wh
 UNIT
 
 Traps1:
+SavePoint(8,25)
 SavePoint(20,2)
 SavePoint(6,9)
 ENDTRAP
@@ -310,7 +312,7 @@ CLEN 0
 REMA
 MUSC M_PreperationsFE11
 CAM1 [0,0]
-LOAD1 0x1 Good
+LOAD3 0x0 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 BadDoma
 LOAD1 0x1 BadTreasureRooms
@@ -427,12 +429,29 @@ NoFade
 ENDA
 
 CelinesLastMistake:
+COUNTER_CHECK 1 //if not 0, skip the event and decrement counter
+BNE 1638 s0 sC
 MUSC M_ThemeOfLove
+CAM1 Alm
+STAL 10
+WARPIN [10,3]
+MOVE 0xFFFF Celine [10,3]
+ENDWARP
+STAL 10
+FlashCursor(Celine,60)
 Text(Ch16AlmCrushesCeline)
 StartBattle
 CriticalHit(0,48)
 EndAttack
 FIGHT Alm Celine Kingsfang 0
+KILL Celine
+AWAIT_KILL Celine
+GOTO 1639
+LABEL 1638
+COUNTER_DEC 1 //Celine skips this warp
+ENUF 0xB //But not all her warps
+LABEL 1639
+NoFade
 ENDB
 
 //Spawn Louis or Chloe in after a few turns if alive
@@ -453,6 +472,7 @@ ENDA
 
 GreyStandsDown:
 Text(Ch16GreyTurnsGreen)
+ENUT 0x1B //set Grey's battle quote flag
 TurnAlly(Grey) //One escort is enough
 NoFade
 ENDA
@@ -461,12 +481,13 @@ MycenMoves:
 Text(Ch16GreyPersuadesMycen)
 TurnAlly(Mycen)
 ENUT 0x10 //switch flag
+ENUT 0x1C //battle quote
 CALL LeftSwitchHit
 NoFade
 ENDA
 
 TheSeizeEasterEgg:
-Text(PlaceholderText)
+Text(Ch16SeizeEasterEgg)
 ENUT 0x11 //switch
 CALL MiddleSwitchHit
 NoFade
@@ -511,6 +532,7 @@ CHAI Celine
 CAM1 Marth
 FlashCursor(Marth,60)
 Text(Ch16NoteCelineHesitation)
+COUNTER_SET 1 1 //Skip Celine's next teleportation so you can reasonably get to her
 NoFade
 ENDA
 
@@ -542,6 +564,8 @@ CHECK_ALLEGIANCE Alm
 BEQ 1639 s1 sC
 MUSC M_TwilightOfTheGods
 Text(Ch16EndingTruceCelineRecruited)
+ENUT 0x1
+ENUT 0x18 //set generic and Marth battle quote flags
 SVAL s1 18 //get Marth to his base HP so he always lives
 SET_HP Marth
 StartBattle
@@ -577,14 +601,17 @@ NoFade
 ENDB
 
 LeftSwitchHit:
+Text(Ch16SwitchHit)
 CALL SwitchCheck
 ENDA
 
 MiddleSwitchHit:
+Text(Ch16SwitchHit)
 CALL SwitchCheck
 ENDA
 
 RightSwitchHit:
+Text(Ch16SwitchHit)
 CALL SwitchCheck
 ENDA
 
@@ -597,15 +624,20 @@ CHECK_EVENTID 0x11 //middle switch
 BEQ 1601 s0 sC //if not hit, jump
 CHECK_EVENTID 0x12 //right switch
 BEQ 1601 s0 sC //if not hit, jump
-EARTHQUAKE 0 1
+STAL 10
+CHECK_EVENTID 0x22 //all switches
+BNE 1601 s0 sC //if stairs open, jump
 STAL 10
 CAM1 [4,15] //the stairs
+EARTHQUAKE 0 1
+STAL 30
 TILEREVERT 0xA //they're open!
-STAL 20
+STAL 30
 CAM1 Marth
 EARTHQUAKE_END
 FlashCursor(Marth,60)
 Text(Ch16WayToAlmOpen)
+ENUT 0x22 //set flag, otherwise event recurs after every action
 LABEL 1601
 NoFade
 ENDA
@@ -725,7 +757,7 @@ SummonMonsters:
 //Original behaviour: summons happen as an action mid-phase, summons don't move turn they're summoned.
 //I'll just imitate them via running this summon event every few turns.
 COUNTER_SET 0 8 //rudimentary loop to save some lines
-CAM1 DomaFaithfulBoss
+CAM1 [20,5] /*DomaFaithfulBoss*/
 STAL 10
 LABEL 1661
 RANDOMNUMBER 1
@@ -759,6 +791,14 @@ LABEL 1662
 ENUT 0x15 //no more summons
 ENUT 0x12 //switch
 CALL RightSwitchHit
+NoFade
+ENDA
+
+HintToReachAlm:
+CAM1 Marth
+STAL 10
+FlashCursor(Marth,60)
+Text(Ch16SwitchHint)
 NoFade
 ENDA
 

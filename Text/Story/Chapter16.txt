@@ -196,6 +196,18 @@ don't trust her one little bit.[AN]
 But she's still supplying us.[N]
 Time to summon some monsters...[A][X]
 
+## Ch16SwitchHint
+[ML][LoadMarth][MR][LoadSheeda]
+Marth, there's some strange[N]
+patterns on the floor.[AN]
+[ML]
+Yes. Perhaps they lead to an[N]
+important room in the castle?[A][X]
+
+## Ch16SwitchHit
+[MR][LoadCurrent]
+I've hit a switch![A][X]
+
 ## Ch16CelineWarpsIn
 [ML][LoadMarth][FFR][LoadRedCeline]
 WARP RAGNAROK![A][X]
@@ -1530,3 +1542,10 @@ Thank you for playing.[N]
 You will now return to the[N]
 War of Lovers title screen.[N]
 [Red]Valencia ~ End of Demo ~ [Red][A][X]
+
+## Ch16SeizeEasterEgg
+[MR][LoadMarth]
+I may have seized this throne,[N]
+but the battle is not yet won.[AN]
+What's this sitting next to[N]
+these thrones?[A][X]
