@@ -469,7 +469,7 @@ Ilia seems stable, but to be[AN]
 completely honest with you,[N]
 I can't stand the cold![AN]
 Maybe I should try my luck[N]
-with the Dragons' Gate...[A][X]
+with the Dread Isle...[A][X]
 
 ## Ch12HouseText9
 [ML][LoadFace][0x63][0x01][MR][LoadCurrent]

@@ -154,7 +154,7 @@ So, Brodia's noticed us. We're[N]
 going to have to fight it out.[A][X]
 
 ## Ch10xLughVillage
-[ML][LoadAnna][MR][LoadCurrent]
+[ML][LoadFace][0x5F][0x01][MR][LoadCurrent]
 [ML]
 So Bern rolled over Araphen again.[N]
 That's not particularly surprising.[AN]
@@ -170,7 +170,7 @@ something nice, so here you go.[N]
 Chase out those invaders![A][X]
 
 ## Ch10xSouthVillage
-[ML][LoadAnna][MR][LoadCurrent]
+[ML][LoadFace][0x61][0x01][MR][LoadCurrent]
 [ML]
 You know, I heard that the[N]
 last marquess before Bern[AN]
