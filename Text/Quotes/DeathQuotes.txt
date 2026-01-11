@@ -142,27 +142,31 @@ Was Ostia's fall a ruse?[A][CloseEyes][X]
 
 ## EtieDeath
 [Left][LoadEtie]
-I mustn't have trained enough. Divine[N]
-One, Queen Celine, forgive me.[A][CloseEyes][X]
+I mustn't have trained enough.[N]
+Divine One, Queen Celine,[AN]
+forgive me. At least... I died[N]
+for a worthy cause.[A][CloseEyes][X]
 
 ## CleiveDeath
 [Left][LoadCleive]
-Your Majesty, I have failed you.[N]
-With my death, Sofia Castle is open.[AN]
-Matilda, Claire, be well. May you[N]
+Your Majesty, I have failed[N]
+you. With my death, Sofia[AN]
+Castle is open. Matilda,[N]
+Claire, be well. May you[AN]
 survive Valencia's fall...[A][CloseEyes][X]
 
 ## GreyDeath
 [Left][LoadGrey]
-So, this is the end for me. Alm,[N]
-Claire, I did what I could.[A][CloseEyes][X]
+So, this is the end for me.[N]
+Alm, Claire, I did my best.[A][CloseEyes][X]
 
 ## MycenDeath
 [Left][LoadMycen]
-Today is the last day of a united[N]
-Valencia. Alm, your majesty...[AN]
-Please, see the light. That woman[N]
-is not Celica. Who is she, really?[A][CloseEyes][X]
+Today is the last day of a[N]
+united Valencia. Alm,[AN]
+your majesty... Please, see[N]
+the light. That woman is not[AN]
+Celica. Who is she, really?[A][CloseEyes][X]
 
 ## DomaBossDeath
 [Left][LoadDomaBoss]
@@ -192,8 +196,8 @@ Who is Marich with? Katarina...[A][CloseEyes][X]
 
 ## AthenaDeath
 [Left][LoadAthena]
-Vun voman... No voman. Ve will[N]
-now take our leave of this place.[A][CloseEyes][X]
+Vun voman... No voman. Ve vill[N]
+now take... our leave...[A][CloseEyes][X]
 
 ## JadeDeath
 [Left][LoadJade]

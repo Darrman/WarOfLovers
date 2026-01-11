@@ -1753,7 +1753,7 @@ Valencia under Emperor Alm.[X]
 Doma F.[X]
 
 ## DomaFaithfulDesc
-A remnant of Judah's Doma Faithful[N]
+A remnant of (DF)'s Doma Faithful[N]
 branch, now branded heretical.[X]
 
 ## MiletosName
@@ -1804,6 +1804,13 @@ Dragon[X]
 ## DegeneratedDragonDesc
 A dragon who has succumbed to the[N]
 ravages of degeneration.[X]
+
+## MonsterName
+Monster[X]
+
+## MonsterDesc
+A creature roaming the land,[N]
+attacking all it sees.[X]
 
 ## FireneName
 Firene[X]

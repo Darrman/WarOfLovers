@@ -162,9 +162,9 @@ LABEL 6027
 RECLASS Wolf KnightDragon
 LABEL 6028
 
-CHECK_ALIVE Kain
+CHECK_ALIVE KainFF4
 BEQ 6030 s0 sC
-CHECK_CLASS Kain
+CHECK_CLASS KainFF4
 SVAL s1 DragonMaster
 BNE 6029 s1 sC //Dragon Knight
 RECLASS Kain KnightDragonM
