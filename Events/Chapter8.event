@@ -16,6 +16,7 @@ POIN BeginningScene EndingScene
 TurnBasedEvents:
 TurnEventPlayer(0x0,AfterBattlePrep,1)
 TurnEventEnemy(0x0,FirMovesToAVillage,1)
+TurnEventPlayer(0x0,StandardBrigandSpawn,4)
 END_MAIN
 
 CharacterBasedEvents:
@@ -108,6 +109,10 @@ UNIT
 
 FirGroup:
 UNIT Fir Myrmidon_F 0x00 Level(5,Ally,0) [1,5] 0x0 0x0 0x1 FirREDA [WoDao, IronSword] NoAI
+UNIT
+
+BrigandReinforcement:
+UNIT BrigandGeneric Brigand 0x00 Level(6,Enemy,1) [1,14] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAI
 UNIT
 
 CutsceneRandomBadonUnits:
@@ -337,6 +342,12 @@ ENDA
 
 EtrurianHouse3:
 Text(HouseBG,Ch8House6)
+NoFade
+ENDA
+
+StandardBrigandSpawn:
+EVBIT_T 9 //follow
+LOAD1 0x1 BrigandReinforcement
 NoFade
 ENDA
 

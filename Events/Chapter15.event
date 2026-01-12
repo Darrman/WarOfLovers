@@ -31,6 +31,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+DefeatAll(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -266,6 +267,7 @@ ClaireGet:
 MUSC M_TogetherWeRide
 Text(Ch15StopItClaire)
 TurnAlly(Claire)
+ENUT 0x11 //Claire boss quote
 NoFade
 ENDA
 

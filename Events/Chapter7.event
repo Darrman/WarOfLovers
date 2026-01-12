@@ -329,16 +329,19 @@ NoFade
 ENDA
 
 StairsSpawns:
+EVBIT_T 9 //follow
 LOAD1 0x1 StairsBlock
 NoFade
 ENDA
 
 BehindEliwoodSpawns:
+EVBIT_T 9 //follow
 LOAD1 0x1 NWBlock
 NoFade
 ENDA
 
 SWThiefSpawn:
+EVBIT_T 9 //follow
 LOAD1 0x1 SWThiefBlock
 NoFade
 ENDA

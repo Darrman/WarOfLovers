@@ -632,6 +632,7 @@ NoFade
 ENDA
 
 DownGoTheSideGates:
+EVBIT_T 9
 LOAD1 0x1 WendyFriendsAndFoesWest
 STAL 20
 LOAD1 0x1 WendyFriendsAndFoesEast
@@ -719,7 +720,7 @@ NoFade
 ENDA
 
 Ch11Vendor:
-SHLI Fire Thunder Wind Elwind Heal Vulnerary
+SHLI Fire Elfire Lightning Shine Flux Heal Vulnerary
 ALIGN 4
 
 Ch11WestArmoury:

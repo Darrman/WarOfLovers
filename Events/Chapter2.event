@@ -152,22 +152,26 @@ ALIGN 4
 
 BeginningScene:
 LOAD3 0x0 Good
+MUSC M_OffToWar
+CAM1 Marth
+FADI 10
 CHECK_EVENTID JamModeOn
 BNE 201 sC s0 //branch if jam mode 
 LOAD1 0x1 RyanGroup
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
+FADU 10
+FlashCursor(Marth,60)
 Text(Woodland,Ch2OpeningMarth) //to be rewritten
 GOTO 202
 LABEL 201
 LOAD1 0x1 LynGroup
 LOAD1 0x1 BadJam
 LOAD1 0x1 Bad2Jam
+FADU 10
+FlashCursor(Marth,60)
 Text(Woodland,Ch2OpeningMarth)
 LABEL 202
-CAM1 Marth
-FADU 10
-MUSC M_OffToWar
 CHECK_EVENTID NoSummonGun
 BNE 211 sC s0
 CHECK_EVENTID NoFirstSummon

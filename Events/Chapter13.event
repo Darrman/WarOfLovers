@@ -278,7 +278,10 @@ NoFade
 ENDA
 
 MarthGetsInterrogated:
+CAM1 Valbo
+FlashCursor(Valbo,60)
 Text(Castle_Hall_4, Ch13T1AnotherGrilling)
+NoFade
 ENDA
 
 TheValboRecruitment:

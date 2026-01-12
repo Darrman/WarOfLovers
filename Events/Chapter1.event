@@ -539,6 +539,7 @@ MUSC M_Conspiracy
 TEXTSTART
 TEXTSHOW Ch1BuyingCaesarOff
 TEXTEND
+EVBIT_MODIFY 1 //No skipping
 SVAL s1 5000
 CHECK_MONEY
 BGT 110 s1 sC //can't afford him, no good
@@ -548,6 +549,7 @@ TEXTEND
 REMA
 SVAL s7 1 //it's how VBA Ch24 does it, I'm stealing the conditional from there
 BNE 111 s7 sC
+EVBIT_MODIFY 0
 SVAL s3 5000
 TAKEMONEY
 TurnAlly(Caesar)
@@ -565,6 +567,7 @@ WM_SETNEXTLOCATION 0 0 1 //Needed for world map narration.
 MNCH 0x1
 GOTO 112
 LABEL 111
+EVBIT_MODIFY 0 //A bit wasteful, but these events are fragile
 Text(Ch1EtTuMarth)
 GOTO 112
 LABEL 110

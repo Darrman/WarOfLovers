@@ -238,11 +238,13 @@ NoFade
 ENDA
 
 WarrenReinforcements:
+EVBIT_T 9 //follow
 LOAD1 0x1 AkaneianReinforcements
 NoFade
 ENDA
 
 FleetReinforcements:
+EVBIT_T 9 //follow
 LOAD1 0x1 LythianReinforcements
 NoFade
 ENDA

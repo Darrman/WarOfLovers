@@ -202,7 +202,7 @@ Text(Castle_Room,Ch3AlearPoutsOld)
 MUSC M_Conspiracy
 Text(Castle_Room,Ch3AlearKrisPlottingOld)
 LABEL 302
-FADU 10
+FADI 10
 LOAD3 0x0 Good
 CHECK_EVENTID JamModeOn
 BNE 303 sC s0 //branch if jam mode 
@@ -217,7 +217,7 @@ LOAD1 0x1 BadJam
 LOAD1 0x1 BadBanditsJam
 LOAD1 0x1 BadNearLeaf
 LABEL 304
-FADI 10
+FADU 10
 CHECK_EVENTID NoSummonGun
 BNE 310 sC s0
 CHECK_EVENTID NoFirstSummon

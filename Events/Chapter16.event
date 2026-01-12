@@ -494,12 +494,14 @@ NoFade
 ENDA
 
 EntranceSpawns:
+EVBIT_T 9
 LOAD1 0x0 DrawbridgeReinforcements
 ENUN
 NoFade
 ENDA
 
 EntranceSpawns2:
+EVBIT_T 9
 LOAD1 0x0 DrawbridgeReinforcements2
 ENUN
 NoFade

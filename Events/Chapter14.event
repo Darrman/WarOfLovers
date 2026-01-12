@@ -113,6 +113,7 @@ UNIT Firene AxeKnight Etie Level(14,Enemy,1) [28,14] 0x0 0x0 0x0 0x0 [IronAxe] C
 UNIT Firene Archer Etie Level(14,Enemy,1) [29,9] 0x0 0x0 0x0 0x0 [Longbow] ChaseOnceApproachedAI
 UNIT Firene PegasusKnight Etie Level(14,Enemy,1) [1,29] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
 UNIT Firene PegasusKnight Etie Level(14,Enemy,1) [2,30] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT BrigandGeneric Brigand 0x00 Level(10,Enemy,1) [29,31] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAI
 UNIT
 
 Doot:
@@ -321,6 +322,8 @@ ENDA
 
 OtherVillage:
 Text(Ch14Village1)
+SVAL s3 GuidingRing
+GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
@@ -340,16 +343,16 @@ NoFade
 ENDA
 
 CentralHouse:
-Text(PlaceholderText)
+Text(Ch14House4)
 NoFade
 ENDA
 
 Ch14Armoury:
-SHLI IronSword
+SHLI SteelSword SteelLance SteelBow Javelin KillingEdge
 ALIGN 4
 
 Ch14Vendor:
-SHLI Fire
+SHLI Elfire Elthunder Shaver Lightning Flux Mend Restore Vulnerary
 ALIGN 4
 
 SummonREDA:
