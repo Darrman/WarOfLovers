@@ -544,7 +544,7 @@ SetBackground(CGBlackScreen)
 //SOUN VoicePopoSummon
 STAL 20
 CGTEXTSTART
-//TEXTSHOW RecruitPopo not written yet
+TEXTSHOW RecruitPopo
 TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo 	
@@ -589,7 +589,6 @@ REMA
 CALL $9EE2C4 //EndConvo 	
 SVAL s2 Rydia
 ENDA
-
 
 LennaCommon:
 //SetBackground(CGLenna)
@@ -852,14 +851,14 @@ ENDA
 
 ShadowCommon:
 SetBackground(CGShadow)
-//SOUN VoiceAmySummon
+//SOUN VoiceShadowSummon
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitShadow
 TEXTEND
 REMA
 CALL $9EE2C4 //EndConvo 	
-SVAL s2 Amy
+SVAL s2 Shadow
 ENDA
 
 FlynnCommon:
@@ -1723,8 +1722,8 @@ SVAL s1 51
 BEQ 5151 s1 sC //unit 5
 SVAL s1 52
 BEQ 5152 s1 sC //unit 5
-SVAL s1 51
-BEQ 5151 s1 sC //unit 5
+SVAL s1 53
+BEQ 5153 s1 sC //unit 5
 SVAL s1 54
 BEQ 5154 s1 sC //unit 5
 SVAL s1 55
@@ -2976,8 +2975,8 @@ SVAL s1 51
 BEQ 5251 s1 sC //unit 5
 SVAL s1 52
 BEQ 5252 s1 sC //unit 5
-SVAL s1 52
-BEQ 5252 s1 sC //unit 5
+SVAL s1 53
+BEQ 5253 s1 sC //unit 5
 SVAL s1 54
 BEQ 5254 s1 sC //unit 5
 SVAL s1 55

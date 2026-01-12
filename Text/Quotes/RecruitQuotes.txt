@@ -32,12 +32,12 @@ my bananas and now I'm hungry.[AN]
 He will pay![A][X]
 
 ## RecruitToad
+//Could be anywhere, Akaneia mention has to go
 #[MR][LoadMarth][ML][LoadToad]
 W-w-where am I? I was in Peach's[N]
 Castle and suddenly I'm in this[AN]
 place! MARIO! HELP ME! I'm in...[N]
-Akaneia? I've never heard of it[AN]
-in my life![A][X]
+What? I've never heard of it![A][X]
 
 ## RecruitWario
 #[MR][LoadMarth][ML][LoadWario]
@@ -326,18 +326,17 @@ wound up on this planet![A][X]
 ## RecruitSalesman
 Ha ha ha... huh?[N]
 Where did I go?[AN]
-They call me the Happy[N]
-Mask Salesman.[AN]
-Have I met a terrible[N]
-fate?[A][X]
+They call me the Happy Mask[N]
+Salesman.[AN]
+Have I met a terrible fate?[A][X]
 
 ## RecruitGanon
-Muah ha ha ha! I am[N]
-Ganondorf, King of[AN]
-the Gerudo! Yes, I do[N]
-think an alliance is[AN]
-in our best interests[N]
-for the time being...[A][X]
+Muah ha ha ha! I am Ganondorf,[N]
+King of the Gerudo![AN]
+Yes, I do think an alliance is[N]
+in our best interests for[AN]
+the time being, your majesty...[N]
+Ha ha ha![A][X]
 
 ## RecruitWolf
 Grr... I wasn't paid to[N]
@@ -356,21 +355,20 @@ me, human? We shall see.[A][X]
 ## RecruitMrGAndW
 BEEP! I AM MR. GAME AND[N]
 WATCH. HOW YOU HAVE[AN]
-SUMMONED ME, I DO NOT[N]
-KNOW. LET US FIGHT[AN]
-TOGETHER![A][X]
+SUMMONED ME, I DO NOT KNOW.[N]
+LET US FIGHT TOGETHER![A][X]
 
 ## RecruitRosa
-Hello, my name is Rosa[N]
-Farrell. If anyone gets[AN]
-hurt, then I can heal[N]
-their wounds.[A][X]
+Hello, my name is Rosa Farrell.[N]
+I'm a trained white mage,[AN]
+so if anyone gets hurt, then I[N]
+can heal their wounds.[A][X]
 
 ## RecruitKainFF4
-What's going on?[N]
-Urgh, my head...[AN]
-So, I suppose I'm now[N]
-serving you?[A][X]
+What's going on? Urgh, my head...[N]
+So, I'm now serving you?[AN]
+I am Kain Highwind, your[N]
+most humble servant...[A][X]
 
 ## RecruitRydia
 Oh, my head feels light...[N]
@@ -387,9 +385,9 @@ I didn't see you there.[N]
 My name's Lenna.[A][X]
 
 ## RecruitGaluf
-Huh? Last I remember, we[N]
-were at the Barrier[AN]
-Tower... What's going on?[N]
+Huh? Last I remember, we were[N]
+at the Barrier Tower...[AN]
+What's going on?[N]
 Did I get left behind?[A][X]
 
 ## RecruitCeles
@@ -399,12 +397,10 @@ My name is Celes Chere.[N]
 What am I meant to do?[A][X]
 
 ## RecruitLocke
-Locke Cole, treasure[N]
-hunter, right here.[AN]
-You got that? Now, this[N]
-place must have some[AN]
-connection to Phoenix.[N]
-Where should I go?[A][X]
+Locke Cole, treasure hunter,[N]
+right here. You got that?[AN]
+Now, this place must have some[N]
+connection to Phoenix.[AN][X]
 
 ## RecruitYugi
 It's time to duel![N]
@@ -423,50 +419,44 @@ real fight too. Now, let[N]
 me at 'em![A][X]
 
 ## RecruitTea
-Hello! My name's Tea, and[N]
-this isn't New York,[AN]
-but I still think we should[N]
-be friends.[A][X]
+Hello! My name's Tea, and this[N]
+isn't New York, but I still[AN]
+think we should be friends.[N]
+What are we without friends?[A][X]
 
 ## RecruitKaiba
-I'm Seto Kaiba, the CEO[N]
-of Kaiba Corp, and I[AN]
-must have fallen into[N]
-another virtual world.[AN]
-How else am I meant to[N]
-explain all this magic?[A][X]
+I'm Seto Kaiba, the CEO of Kaiba[N]
+Corp, and I must have fallen[AN]
+into another virtual world.[N]
+How else am I meant to explain[AN]
+all this magic? Or this Blue[N]
+Eyes White Dragon?[A][X]
 
 ## RecruitJaden
-...I don't think it[N]
-worked. Am I in the[AN]
-stars now? I suppose[N]
-I am. Well, hey there.[AN]
-I'm Jaden Yuki. So,[N]
-get your game on?[A][X]
+...I don't think it worked.[N]
+Am I in the stars now?[AN]
+I suppose I am. Well, hey there.[N]
+I'm Jaden Yuki. Get your game on?[A][X]
 
 ## RecruitAlexis
-What now? I've been[N]
-brainwashed, sent to a[AN]
-desert world, jumped[N]
-into a dark world, and[AN]
-was seconds away from[N]
-being sacrificed![A][X]
+What now? I've been brainwashed,[N]
+sent to a desert world, jumped[AN]
+into a dark world, and was seconds[N]
+away from being sacrificed![AN]
+Give me a break already! Jaden,[N]
+the next time I see you...[A][X]
 
 ## RecruitChazz
-Lucky you! You are in[N]
-The Chazz's presence.[AN]
-I'm the best student in[N]
-Duel Academy. I'm way[AN]
-better than the Slifer[N]
-Slacker! Ha ha ha![A][X]
+Lucky you! You are in The Chazz's[N]
+presence. I'm the best student[AN]
+in Duel Academy. I'm way better[N]
+than the Slifer Slacker! Ha ha ha![A][X]
 
 ## RecruitOlimar
-I'm Captain Olimar of[N]
-Hocotate Freight.[AN]
-My company are always[N]
-in debt, and it's been[AN]
-so long since I could[N]
-see my family...[A][X]
+I'm Captain Olimar of Hocotate[N]
+Freight. We are always in debt,[AN]
+and it's been so long since I[N]
+could see my family...[A][X]
 
 ## RecruitLouie
 I'm Louie. I'm hungry.[N]
@@ -475,12 +465,10 @@ eat? I'm not picky.[N]
 Anything sounds good.[A][X]
 
 ## RecruitPresident
-Oh me, oh my... Pokos![N]
-All of the metal on[AN]
-these creatures could[N]
-sell for millions![AN]
-Yes, going here myself[N]
-was a very smart choice![A][X]
+Oh me, oh my... Pokos! All of the[N]
+metal on these creatures could[AN]
+sell for millions! Yes, going here[N]
+myself was a very smart choice![A][X]
 
 ## RecruitSnake
 I have no name, but you[N]
@@ -492,7 +480,11 @@ Does anybody have a light?[AN]
 I could use a smoke.[A][X]
 
 ## RecruitRaiden
-PLACEHOLDER[A][X]
+//99% sure I'm wildly off, but I'll make up a quick line for now
+Come in... No answer.[N]
+Well, who might you be?[AN]
+My name is Raiden. Did you[N]
+bring me here?[A][X]
 
 ## RecruitArmstrong
 I'm Presidential Candidate[N]
@@ -514,40 +506,43 @@ Just tell me where the[N]
 nearest chili dogs are.[A][X]
 
 ## RecruitTails
-Hey there, my name's[N]
-Tails. Need someone[AN]
-to fix up a broken[N]
-machine? That's me.[A][X]
+Hey there, my name's Tails[N]
+Need someone to fix up a[AN]
+broken machine? I can do that.[N]
+I can fly, too![A][X]
 
 ## RecruitKnuckles
-I am Knuckles the[N]
-Echidna, guardian[AN]
-of the Master Emerald.[N]
-If someone steals it[AN]
-in my absence... I will[N]
-blame you, blue man.[A][X]
+I am Knuckles the Echidna,[N]
+guardian of the Master Emerald.[AN]
+If someone steals it in my[N]
+absence... I will blame you,[AN]
+blue man. Have I made myself[N]
+clear?![A][X]
 
 ## RecruitRobotnik
-Ha ha ha! I am Doctor[N]
-Ivo Robotnik, the[AN]
-greatest genius in the[N]
-entire world! You[AN]
-should be honoured to[N]
-be in my presence.[A][X]
+Ha ha ha! I am Doctor Ivo[N]
+Robotnik, the greatest genius[AN]
+in the entire world! You should be[N]
+honoured to be in my presence.[A][X]
 
 ## RecruitShadow
-PLACEHOLDER[A][X]
+My name is Shadow, and I am the[N]
+ultimate life form.[AN]
+This Chaos Control must have[N]
+gone wrong somehow.[AN]
+Most of you appear quite heroic.[N]
+I'm perfectly fine with that.[A][X]
 
 ## RecruitFlynn
-I am Flynn, a Samurai of[N]
-Mikado. This land is[AN]
-nothing like Tokyo.[N]
-But this isn't Mikado...[A][X]
+I am Flynn, a Samurai of Mikado.[N]
+This land is nothing like Tokyo.[AN]
+But this isn't Mikado...[N]
+So where is it, then?[A][X]
 
 ## RecruitIsabeau
-My name is Isabeau. The[N]
-best path to walk is[AN]
-a balanced, neutral one.[N]
+My name is Isabeau. The best path[N]
+to walk is balanced, neutral.[AN]
+By compromising, we avoid strife.[N]
 Do you agree?[A][X]
 
 ## RecruitJonathan
@@ -558,54 +553,56 @@ best one to follow.[A][X]
 
 ## RecruitWalter
 Heya. The name's Walter.[N]
-Way I see things, the[AN]
-best solution is to[N]
-embrace the chaos.[A][X]
+Way I see things, the best[AN]
+solution is to embrace the[N]
+chaos. Stand up for yourself![A][X]
 
 ## RecruitReimu
-Okay, I've been in a lot[N]
-of strange incidents.[AN]
-But this is not Gensokyo.[N]
-Did you cause this?![AN]
-No? Well, I'm Reimu[N]
-Hakurei, and fix this![A][X]
+Okay, I've been in a lot of strange[N]
+incidents. We're not in Gensokyo.[AN]
+Did you cause this?! No? Well[N]
+I'm Reimu Hakurei. I suppose[AN]
+I have no choice but to find the[N]
+culprit and fix this![A][X]
 
 ## RecruitMarisa
-Hm, this place looks[N]
-cool. I could learn[AN]
-a thing or two from[N]
-this magic! Oh yeah,[AN]
-my name's Marisa. I[N]
-can help you out.[A][X]
+Hm, this place looks cool. I[N]
+could learn a thing or two from[AN]
+this magic! Oh yeah, my name's[N]
+Marisa. I can help you out.[A][X]
 
 ## RecruitMima
-Hm hm... Maybe this is[N]
-the key to becoming[AN]
-a god! Ahem. You, blue[N]
-man! I am Mima,[AN]
-the goddess of Gensokyo![N]
-I suppose I can help.[A][X]
+Hm hm... Maybe this is the key to[N]
+becoming a god! Ahem.[AN]
+You, blue man! I am Mima, the[N]
+goddess of Gensokyo![AN]
+I suppose I can help you to[N]
+do whatever you're doing.[A][X]
 
 ## RecruitYuuka
-Zzz... I didn't expect to[N]
-wake up here...[AN]
-You want me to fight for[N]
-you? Sure, why not.[AN]
-I'll turn your foes into a[N]
-mist of atoms. Neat![A][X]
+Zzz... I didn't expect to wake up[N]
+here... You want me to fight[AN]
+for you? Sure, why not. I'll turn[N]
+your foes into a mist of atoms.[AN]
+Neat! Oh, my name's Yuuka. Do not[N]
+harm my flowers![A][X]
 
 ## RecruitShinki
-Hello! I'm Shinki, the[N]
-Goddess of Makai.[AN]
-I've wanted to go on a[N]
-holiday recently, but[AN]
-this wasn't where I was[N]
-planning. Oh well.[A][X]
+Hello! I'm Shinki, the Goddess of[N]
+Makai. I've wanted to go on a[AN]
+holiday recently, but this wasn't[N]
+where I was planning. Oh well.[A][X]
 
 ## RecruitAlice
-What? Hey! Can't I get a[N]
-moment of peace?[AN]
-Sigh. My name is Alice[N]
-Margatroid. I'm quite[AN]
-good with magic and I[N]
-love my dolls. Let's go.[A][X]
+What? Hey! Can't I get a moment[N]
+of peace? Sigh. My name is[AN]
+Alice Margatroid. I'm good with[N]
+magic and I love my dolls.[AN]
+Let's go. Makai, Gensokyo, here...[N]
+I can't sit still, hm?[A][X]
+
+## RecruitPopo
+Hello? Nana? Where are you? Oh[N]
+no... I'm all alone! I'm helpless![AN]
+When we're together, nothing can[N]
+stop us. Alone? Anything can.[A][X]
