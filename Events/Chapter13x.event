@@ -38,6 +38,7 @@ MiscBasedEvents:
 CauseGameOverIfLordDies
 DefeatAll(EndingScene)
 AREA 0x7 OohShiny [29,24] [29,24]
+AFEV 0x10 KillSummons 0x0F
 END_MAIN
 
 Dunno1:
