@@ -181,8 +181,8 @@ UNIT Valencia Bishop_F Alm Level(3,Enemy,1) [12,4] 0x0 0x0 0x0 0x0 [Lightning, P
 UNIT
 
 LouisLives:
-UNIT Louis General Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 LouisREDA [ShortSpear, KnightCrest] [0x0, 0x8, 0x0, 0x0] //talk to Celine
-UNIT Chloe KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeREDA [SlimSword, ElysianWhip] [0x0, 0x8, 0x0, 0x0] //talk to Celine
+UNIT Louis General Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 LouisREDA [ShortSpear, KnightCrest] [0x6, 0x8, 0x0, 0x0] //talk to Celine
+UNIT Chloe KnightFalcon Celine Level(1,Enemy,0) [20,0] DropItem 0x0 0x1 ChloeREDA [SlimSword, ElysianWhip] [0x6, 0x8, 0x0, 0x0] //talk to Celine
 UNIT
 
 DrawbridgeReinforcements:

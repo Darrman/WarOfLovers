@@ -316,6 +316,7 @@ POP
   //Battle palette rework (Hypergammaspaces)
   #include "GachaJam/BattlePaletteRework/BattlePaletteReworkFE8.event"
   
-  //Reinstate talk AI (Stan)
-  #include "GachaJam/NewAI/TalkAI/TalkAI.event"
+  //Reinstate talk AI (Stan for top one, Aera for bottom one)
+  //#include "GachaJam/NewAI/TalkAI/TalkAI.event"
+  #include "GachaJam/NewAI/TalkAIAera/TalkAI.event"
   
