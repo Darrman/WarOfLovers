@@ -2653,7 +2653,7 @@ UNIT CecilFF4 FreeKnight 0x00 Level(1, Ally, 0) [255,255] 0x00 0x00 0x0 0x00 [Ir
 UNIT
 
 ButzUnitAct1:
-UNIT Butz Soldier 0x00 Level(1, Ally, 0) [255,255] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT Butz AxeKnight 0x00 Level(1, Ally, 0) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
 UNIT
 
 TerraUnitAct1:
@@ -3909,7 +3909,7 @@ UNIT CecilFF4 FreeKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [Wy
 UNIT
 
 ButzUnitAct2:
-UNIT Butz Soldier 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT Butz AxeKnight 0x00 Level(5, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
 UNIT
 
 TerraUnitAct2:
@@ -5162,7 +5162,7 @@ UNIT CecilFF4 FreeKnight 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [W
 UNIT
 
 ButzUnitAct3:
-UNIT Butz Soldier 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelLance, Vulnerary] NoAI
+UNIT Butz AxeKnight 0x00 Level(10, Ally, 1) [255,255] 0x00 0x00 0x0 0x00 [SteelAxe, Vulnerary] NoAI
 UNIT
 
 TerraUnitAct3:
