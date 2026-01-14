@@ -125,6 +125,15 @@ CutsceneCeline:
 UNIT Celine Priestess 0x00 Level(5,Enemy,0) [11,26] DropItem 0x0 0x0 0x0 [Bolganone/*Ragnarok*/, ShadowKiller, CelicaRing] PursueWithoutHeedAI
 UNIT
 
+CutsceneEnding:
+UNIT Valbo General 0x00 Level(1,NPC,0) [15,21] 0x0 0x0 0x0 0x0 [SteelLance, ShortSpear, Vulnerary] NeverMoveAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) 	[15,22] 0x0  0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT
+
+CutsceneEndingLilina:
+UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [9,26] 0x0 0x0 0x0 0x0 [Fire, Vulnerary] NoAI
+UNIT
+
 Traps1:
 SavePoint(11,14)
 ENDTRAP
@@ -204,10 +213,47 @@ EndingScene:
 //conditionals to be written
 CHECK_EVENTID 0x7 //Valbo talked to
 BEQ 1301 s0 sC //if not jump
-MUSC M_TogetherWeRide
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+LOAD2 0x0 CutsceneEnding
+LOAD2 0x0 CutsceneBoat
+MUSC M_DisquietingSteps
+FADU 10
+FlashCursor(Valbo,60)
 Text(Castle_Hall_4,Ch13EndingConvincingValbo)
+CHECK_ALIVE Lilina
+BEQ 1307 s0 sC //if dead, branch
 Text(Castle_Hall_4,Ch13EndingLetLilinaThrough)
+LOAD2 0x0 CutsceneEndingLilina
+EVBIT_T 9 //follow
+MOVE 10 Sheeda [8,26]
+ENUN
+MOVE 10 Sheeda [1,1]
+MOVE 10 Lilina [2,1]
+ENUN
+STAL 20
+MOVE 10 Sheeda [15,22]
+MOVE 10 Lilina [15,23]
+ENUN
+STAL 10
 Text(Castle_Hall_4,Ch13EndingValboIsConvinced)
+GOTO 1308
+LABEL 1307
+Text(Castle_Hall_4,Ch13EndingLetLilinaThroughDead)
+EVBIT_T 9
+MOVE 10 Sheeda [1,1]
+ENUN
+STAL 20
+MOVE 10 Sheeda [15,22]
+ENUN
+STAL 10
+Text(Castle_Hall_4,Ch13EndingValboIsConvincedNoLilina)
+LABEL 1308
+MUSC M_TogetherWeRide
+TurnAlly(Valbo)
 Text(Castle_Hall_4,Ch13EndingValboTheEscort)
 CHECK_EVENTID 0x10 //Too many kills?
 BNE 1302 s0 sC //skip scene if so
@@ -216,7 +262,15 @@ Text(Castle_Hall_4,Ch13EndingGaidenYes) //you meet the requirements, you're goin
 GOTO 1302
 LABEL 1301
 //Valbo dies variant
-Text(PlaceholderText)
+MUSC M_TogetherWeRide
+CALL UnitGachaAct3
+WARPIN [15,26]
+MOVE 0xFFFF 0xFFFD [15,26]
+ENUN
+ENDWARP
+STAL 20
+MUSC M_Victory
+Text(Castle_Hall_4,Ch13EndingValboDies)
 LABEL 1302
 FADI 10
 CLEA 0
@@ -270,7 +324,9 @@ ENUF 0x10
 COUNTER_DEC 1 //reduce counter
 COUNTER_CHECK 1
 BNE 1305 s0 sC //if counter hits zero continue
-Text(PlaceholderText)
+CAM1 Valbo
+FlashCursor(Valbo,60)
+Text(Ch13ItsASlaughter)
 ENUT 0x0F
 ENUT 0x10 //no gaiden for you!
 LABEL 1305
@@ -286,7 +342,7 @@ ENDA
 
 TheValboRecruitment:
 Text(Ch13SheedaTalksToValbo)
-TurnAlly(Valbo)
+TurnNPC(Valbo)
 ENUT 0x3
 CALL EndingScene
 ENDA

@@ -267,8 +267,8 @@ CAM1 [18,9]
 LOAD2 0x0 CutsceneBetterEnding
 CHECK_EVENTID NoSummonGun
 BNE 1361 s0 sC
-MUSC M_JoinUs
-CALL UnitGachaAct2
+MUSC M_TogetherWeRide
+CALL UnitGachaAct3
 WARPIN [17,11]
 MOVE 0xFFFF 0xFFFD [17,11]
 ENUN

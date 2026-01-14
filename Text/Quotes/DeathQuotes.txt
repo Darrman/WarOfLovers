@@ -312,6 +312,11 @@ Akaneia at peace again.[A][CloseEyes][X]
 I can't say I wasn't pushing[N]
 my luck fighting this war...[A][CloseEyes][X]
 
+## RosheDeath
+[Right][LoadRoshe]
+This day... should have come[N]
+during the War of Heroes...[A][CloseEyes][X]
+
 ## RiffDeath
 [Right][LoadRiff]
 My time has finally come. It[N]
@@ -809,7 +814,7 @@ My family... I will never see you[N]
 again. Please, forgive me.[A][CloseEyes][X]
 
 ## LouieDeath
-[Right][LoadLouis]
+[Right][LoadLouie]
 Ouch... I feel like a Pikmin[N]
 hit me. How do I taste?[A][CloseEyes][X]
 

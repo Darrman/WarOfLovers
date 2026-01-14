@@ -282,10 +282,11 @@ Alear. This is the end.[A][X]
 
 ## ValboBattle
 [Left][LoadValbo]
-Just who are you people? Where[N]
-did you come from? Why are[AN]
-you attacking us? Well, you[N]
-shall proceed no further![A][X]
+Just who are you people?[N]
+Where did you come from?[AN]
+Why are you attacking us?[N]
+Well, you shall proceed[AN]
+no further![A][X]
 
 ## EtieBattle
 [Left][LoadEtie]
