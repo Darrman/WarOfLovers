@@ -44,7 +44,7 @@ protected.[A][X]
 [ML][LoadMarth][MR][LoadChiki]
 //Marth:
 [ML]
-Chiki.
+Chiki.[A]
 //Chiki:
 [MR]
 What is it, Mar-mar?[A]

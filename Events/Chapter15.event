@@ -84,7 +84,7 @@ UNIT Valencia LanceArmour Cleive Level(15,Enemy,1) [11,36] 0x0 0x0 0x0 0x0 [Stee
 UNIT
 
 Bad2:
-UNIT Firene MageKnight Cleive Level(1,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [Elwind] AttackInRangeAI
+UNIT Firene MageKnight Cleive Level(1,Enemy,1) [22,10] DropItem 0x0 0x0 0x0 [Elwind, Restore] AttackInRangeAI
 UNIT Firene SwordArmour Cleive Level(15,Enemy,1) [20,15] 0x0 0x0 0x0 0x0 [SteelSword] NeverMoveAI
 UNIT Firene AxeArmour Cleive Level(15,Enemy,1) [20,16] 0x0 0x0 0x0 0x0 [SteelAxe] NeverMoveAI
 UNIT Firene GreatKnight Cleive Level(1,Enemy,1) [23,23] 0x0 0x0 0x0 0x0 [SilverAxe] AttackInRangeAI

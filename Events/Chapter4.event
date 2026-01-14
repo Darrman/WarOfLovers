@@ -289,7 +289,10 @@ STAL 10
 TEXTCONT
 TEXTEND
 REMA
-MOVE 8 Sheeda [4,4]
+//MOVE 8 Sheeda [4,4]
+MOVEONTO 8 Sheeda Marth
+ENUN
+MOVE_1STEP 8 Sheeda 3 //up a tile; not sure what happens if tile is occupied
 ENUN
 MUSC M_TogetherWeRide
 Text(Ch4SheedaMarth)

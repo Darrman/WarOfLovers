@@ -348,7 +348,8 @@ The Ring of the Lady of the Plains,[N]
 Lyn. Grants Astra when equipped.[X]
 
 ## LynRingUseDesc
-Grants Astra when held.[X]
+Grants Astra when[N]
+held.[X]
 
 ## EirikaRingName
 Eirika's Ring[X]
@@ -358,7 +359,8 @@ The Ring of the Azure Twin, Eirika.[N]
 Grants Luna when equipped.[X]
 
 ## EirikaRingUseDesc
-Grants Luna when held.[X]
+Grants Luna when[N]
+held.[X]
 
 ## CelicaRingName
 Celica's Ring[X]
@@ -368,7 +370,8 @@ The Ring of the Caring Princess,[N]
 Celica. Grants Rewarp when equipped.[X]
 
 ## CelicaRingUseDesc
-Grants Rewarp when held.[X]
+Grants Rewarp when[N]
+held.[X]
 
 ## HectorRingName
 Hector's Ring[X]
