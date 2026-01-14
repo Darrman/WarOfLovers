@@ -126,6 +126,23 @@ KrisFight2:
 UNIT Kris Hero 0x00 Level(20,Enemy,0) [0,9] 0x00 0x00 0x1 KrisREDA [MiracleSword] PursueWithoutHeedAI
 UNIT
 
+CutsceneGood:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [6,20] 0x0  0x0 0x0 0x0 [Falchion, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,21] 0x0 0x0 0x0 0x0 [WingSpear, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,21] 0x0 0x0 0x0 0x0 [DivineStone] NoAI
+UNIT Akaneia Fleet   Marth Level(1,NPC,1) [26,4] 0x0 0x0 0x0 0x0 [Ballista] NeverMoveAI
+UNIT
+
+CutsceneBad:
+UNIT Veyle Fleet   Alear Level(1,Enemy,1) [31,4] 0x0 0x0 0x1 VeyleREDA [Ballista] NeverMoveAI
+UNIT Louis Fleet   Alear Level(1,Enemy,1) [31,5] 0x0 0x0 0x1 LouisREDA [Ballista] NeverMoveAI
+UNIT
+
+CutsceneSomniel:
+UNIT 0xD1 KnightPaladin 0x00 Level(1,Enemy,0) [6,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Alfred
+UNIT Diamant MasterLord 0x00 Level(1,Enemy,0) [8,7] 0x0  0x0 0x0 0x0 [Falchion, WhiteGem, Vulnerary] NoAI //Diamant
+UNIT
+
 Traps1:
 SavePoint(8,15)
 ENDTRAP
@@ -177,6 +194,13 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+FADI 10
+CAM1 [6,20] //gate
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+LOAD2 0x0 CutsceneGood
 CHECK_EVENTID NoSummonGun
 BNE 553 s0 sC
 MUSC M_TogetherWeRide
@@ -190,6 +214,46 @@ STAL 20
 LABEL 553
 MUSC M_Victory
 Text(Castle_Hall,Ch5xEndingCantRunHere)
+FADI 10
+MOVE 10 Marth [25,5]
+MOVE 10 Chiki [24,5]
+MOVE 10 Sheeda [25,4]
+ENUN
+FADU 10
+FlashCursor(Marth,60)
+Text(Harbor,Ch5xEndingSailingEast)
+CAM1 [31,4]
+MUSC M_Conspiracy
+LOAD2 0x0 CutsceneBad
+ENUN
+FlashCursor(Veyle,60)
+Text(Ship,Ch5xEndingVeyleCutsUsOff)
+MOVE 10 Veyle [27,4]
+MOVE 10 Chiki [25,5]
+MOVE 10 Sheeda [26,4]
+ENUN
+DISA Chiki
+DISA Sheeda
+DISA Marth //doesn't look great being unable to run next to the ship, but it'll do
+FlashCursor(Akaneia,60)
+Text(Ship,Ch5xEndingEmblemConfrontation)
+MOVE 10 Akaneia [20,0]
+STAL 15
+MOVE 10 Louis [22,0]
+ENUN
+DISA Akaneia
+MOVE 10 Louis [22,0]
+FADI 10
+CLEA 0
+CLEE 0
+CLEN 0
+REMA
+MUSC M_Insurrection	
+LOMA 26 //Somniel
+LOAD2 0x0 CutsceneSomniel
+FADU 10
+BROWNBOX LocationSomniel [0,0]
+FlashCursor(0xD1,60) //Alfred
 Text(Castle_Room,Ch5xEndingDiamantAndAlfred)
 WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
@@ -253,7 +317,8 @@ TimeUp:
 LOAD1 0x1 AkaneianReinforcements
 LOAD1 0x1 KrisFight2
 CAM1 Kris
-//line
+MUSC M_Confront
+Text(Ch5xKrisDrawsNear)
 NoFade
 ENDA
 
@@ -272,3 +337,9 @@ REDA [2,10]
 
 KrisREDA:
 REDA [4,9]
+
+VeyleREDA:
+REDA [28,4]
+
+LouisREDA:
+REDA [28,5]
