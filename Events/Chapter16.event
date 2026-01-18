@@ -508,9 +508,12 @@ NoFade
 ENDA
 
 PreparingToWarp:
+CHECK_EXISTS Celine //game hangs if she's dead otherwise
+BEQ 1640 s0 sC
 CAM1 Celine
 FlashCursor(Celine,60)
 Text(Ch16WarpRagnarokWarning)
+LABEL 1640
 NoFade
 ENDA
 
