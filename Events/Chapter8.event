@@ -300,6 +300,7 @@ ENDA
 
 EtrurianVillage:
 //Text(Outside_Village_Day,Ch8Village2)
+MUSC M_JoinUs
 Text(Outside_Village_Day,Ch8FirVisited)
 //SVAL s3 WhiteGem
 //GIVEITEMTO 0xFFFF

@@ -468,3 +468,10 @@ REDA [3,28]
 
 SouthSpawn3REDA:
 REDA [4,29]
+
+StopUsingDoorKeys:
+//AI Item Usage Table: I'm barely going to touch it, so may as well just do this per chapter
+PUSH 
+ORG 0xD8560
+BYTE 0x06 //Lockpick and antitoxin yes, door key no
+POP

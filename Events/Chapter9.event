@@ -338,12 +338,19 @@ ENDA
 
 BossCharges:
 //Swap from Guard to Pursue once approached: stop Miledy from getting killed
+SVAL s1 0 //Is active blue?
+CHECK_ALLEGIANCE 0xFFFF //active
+BNE 905 s0 sC
 SVAL s1 0x00000000 //pursue
 CHAI RogueBernBoss
 CHAI [2,3] //the dragon knights immediately around him
 CHAI [4,5]
 CHAI [4,3]
 CHAI [2,5]
+GOTO 906
+LABEL 905
+ENUF 0xA //unset flag
+LABEL 906
 NoFade
 ENDA
 

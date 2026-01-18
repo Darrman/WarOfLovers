@@ -43,7 +43,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-DefeatAll(EndingScene)
+DefeatBoss(EndingScene)
 END_MAIN
 
 Dunno1:
@@ -99,7 +99,7 @@ UNIT PirateGeneric Thief 0x00 Level(2,Enemy,1) [4,9] 0x0 0x0 0x0 0x0 [IronSword]
 UNIT
 
 LythosBoatGroup:
-UNIT Louis General 0x00 Level(1,Enemy,0) [24,7] DropItem 0x0 0x0 0x0 [ShortSpear, KnightCrest] NeverMoveAI 
+UNIT Louis General 0x00 Level(1,Enemy,0) [24,7] DropItem 0x0 0x1 LouisREDA [ShortSpear, KnightCrest] NeverMoveAI 
 UNIT Lythos AxeArmour Louis Level(5,Enemy,1) [22,10] 0x0 0x0 0x0 0x0 [IronAxe] NeverMoveAI
 UNIT Lythos LanceArmour Louis Level(5,Enemy,1) [22,13] 0x0 0x0 0x0 0x0 [IronLance] NeverMoveAI
 UNIT Lythos Mercenary 0x00 Level(5,Enemy,1) [25,9] 0x0 0x0 0x0 0x0 [Armourslayer] PursueWithoutHeedAI
@@ -396,6 +396,7 @@ TEXTEND
 MUSC M_TogetherWeRide
 TEXTCONT
 TEXTEND
+REMA
 TurnAlly(Barts)
 NoFade
 ENDA
@@ -405,3 +406,7 @@ REDA [22,14]
 
 LythosREDA2:
 REDA [23,15]
+
+LouisREDA:
+//game crashes if his spawn is blocked
+REDA [24,7]

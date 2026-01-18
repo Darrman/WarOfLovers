@@ -238,6 +238,8 @@ CAM1 [5,5]
 LOAD2 0x0 CutsceneGoodEnding
 CHECK_EVENTID 0x7 //Dyute
 BNE 1401 s0 sC
+CHECK_EVENTID NoSummonGun
+BNE 1401 s0 sC //if true
 MUSC M_TogetherWeRide
 CALL UnitGachaAct3
 WARPIN [5,5]

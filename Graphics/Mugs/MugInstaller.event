@@ -426,7 +426,7 @@ setMugEntry(0xB3, Kashim_Mug, 4, 6, 4, 4)
 
 Riff_Mug:
 #incext PortraitFormatter "Riff.png"
-setMugEntry(0xB4, Riff_Mug, 4,6,4,4)
+setMugEntry(0xB4, Riff_Mug, 3,7,3,5)
 
 Linda_Mug:
 #incext PortraitFormatter "Linda.png"

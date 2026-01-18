@@ -40,7 +40,7 @@ ElysianWhipList:
 BYTE PegasusKnight KnightPegasus DragonKnight KnightDragon DragonKnight_F 0x00
 
 GuidingRingList:
-BYTE Priest Cleric Mage Mage_F Monk Shaman Shaman_F Troubadour KnightTroubadour 0x00
+BYTE Priest Cleric Mage Mage_F Monk Shaman Shaman_F Troubadour KnightTroubadour MageLinda 0x00
 
 //While FEBuilder claims everything has its own data, I haven't touched this.
 //And it seems to be bleeding into unit palettes, apparently. Repoint time.
@@ -93,7 +93,7 @@ BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 //0xB0
 BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0 0 0 0 Sage_F Sage_F 0 0 0 0
 //0xC0
 BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 BYTE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

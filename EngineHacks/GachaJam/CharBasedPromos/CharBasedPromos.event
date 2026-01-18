@@ -37,7 +37,7 @@ CharBasedPromoEntry(Ryan,Archer,Sniper)
 CharBasedPromoEntry(Saji,Fighter,Warrior)
 CharBasedPromoEntry(Kashim,Hunter,Horseman)
 CharBasedPromoEntry(Riff,Priest,Bishop)
-CharBasedPromoEntry(Linda,Mage_F,Sage_F)
+CharBasedPromoEntry(Linda,MageLinda,Sage_F)
 CharBasedPromoEntry(Oguma,Mercenary,Hero)
 CharBasedPromoEntry(Barts,Pirate,Berserker)
 //there's slots for T3 Eliwood if I give him one

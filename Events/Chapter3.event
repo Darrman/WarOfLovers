@@ -147,7 +147,7 @@ UNIT Luke Cavalier 0x00 Level(8,Enemy,0) [28,13] DropItem 0x0 0x0 0x0 [Javelin, 
 UNIT
 
 SajiGroup:
-UNIT Saji Fighter 0x00 Level(2,Ally,0) [7,17] 0x0 0x0 0x0 0x0 [Hammer, Vulnerary] NoAI
+UNIT Saji Fighter 0x00 Level(2,Ally,0) [7,17] 0x0 0x0 0x0 0x0 [Hammer, IronAxe, Vulnerary] NoAI
 UNIT
 
 RosheGroup:

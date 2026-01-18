@@ -223,6 +223,8 @@ CHECK_ALLEGIANCE Claire
 BEQ 1502 s0 sC //if blue go to Claire version of events
 LABEL 1501
 DISA Claire //she leaves you if you kill Cleive without attempting mercy
+CHECK_EVENTID NoSummonGun
+BNE 1504 s0 sC //if true
 MUSC M_TogetherWeRide
 CALL UnitGachaAct3
 WARPIN [10,26]
@@ -230,6 +232,7 @@ MOVE 0xFFFF 0xFFFD [10,26]
 ENUN
 ENDWARP
 STAL 20
+LABEL 1504
 MUSC M_DismalNation
 Text(Castle_Outside,Ch15EndingHowUseless)
 GOTO 1503

@@ -1146,7 +1146,7 @@ five thousand, my sword is yours.[N]
 Otherwise, I'll cut you down.[AN][X]
 
 ## Ch1HireCaesarYesNo
-[MR]
+[MR][LoadMarth][ToggleMouthMove]
 (Is Caesar worth 5,000 gold?)[N]
 [Yes][X]
 

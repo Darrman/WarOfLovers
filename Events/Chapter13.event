@@ -262,6 +262,8 @@ Text(Castle_Hall_4,Ch13EndingGaidenYes) //you meet the requirements, you're goin
 GOTO 1302
 LABEL 1301
 //Valbo dies variant
+CHECK_EVENTID NoSummonGun
+BNE 1310 s0 sC //if true
 MUSC M_TogetherWeRide
 CALL UnitGachaAct3
 WARPIN [15,26]
@@ -269,6 +271,7 @@ MOVE 0xFFFF 0xFFFD [15,26]
 ENUN
 ENDWARP
 STAL 20
+LABEL 1310
 MUSC M_Victory
 Text(Castle_Hall_4,Ch13EndingValboDies)
 LABEL 1302

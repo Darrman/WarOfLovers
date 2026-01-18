@@ -319,6 +319,7 @@ MUSC 0x7FFF //silence
 CLEA 0
 CLEN 0
 LOAD2 0x0 CutsceneSleepingUnits
+CALL DismountSheeda //10x has outdoor sections, so dismount her again
 CAM1 Marth //he's sleeping in the treasure room: it was there or the cell
 STAL 30
 FADU 10
@@ -362,6 +363,8 @@ LOAD1 0x1 Bad2
 LOAD1 0x1 BarthAndCompany
 TILECHANGE 9 //the front door
 MUSC M_EnemiesAppear
+CALL MountEliwood
+CALL MountSheeda
 CAM1 [0,0]
 FADU 10
 STAL 20
@@ -669,14 +672,14 @@ ENDA
 
 Village1915:
 Text(Village,Ch11VillageText2)
-SVAL s3 AngelicRobe
+SVAL s3 KillerBow
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 Village118:
 Text(Village,Ch11VillageText3)
-SVAL s3 Elfire
+SVAL s3 AngelicRobe
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA

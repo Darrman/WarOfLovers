@@ -181,7 +181,7 @@ enemies? I would love it if you[N]
 could just leave us alone. Out![A][X]
 
 ## Ch5xVillage
-[ML][LoadFace][0x5D][0x01][LoadCurrent]
+[ML][LoadFace][0x5D][0x01][MR][LoadCurrent]
 [ML]
 Let's just say I'm well-informed.[N]
 This town was an Akaneian penal[AN]
