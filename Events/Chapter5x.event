@@ -219,6 +219,7 @@ MOVE 10 Marth [25,5]
 MOVE 10 Chiki [24,5]
 MOVE 10 Sheeda [25,4]
 ENUN
+CAM1 Marth
 FADU 10
 FlashCursor(Marth,60)
 Text(Harbor,Ch5xEndingSailingEast)
@@ -232,9 +233,9 @@ MOVE 10 Veyle [27,4]
 MOVE 10 Chiki [25,5]
 MOVE 10 Sheeda [26,4]
 ENUN
-DISA Chiki
-DISA Sheeda
-DISA Marth //doesn't look great being unable to run next to the ship, but it'll do
+REMU Chiki
+REMU Sheeda
+REMU Marth //doesn't look great being unable to run next to the ship, but it'll do
 FlashCursor(Akaneia,60)
 Text(Ship,Ch5xEndingEmblemConfrontation)
 MOVE 10 Akaneia [20,0]
@@ -255,6 +256,9 @@ FADU 10
 BROWNBOX LocationSomniel [0,0]
 FlashCursor(0xD1,60) //Alfred
 Text(Castle_Room,Ch5xEndingDiamantAndAlfred)
+REVEAL Marth
+REVEAL Sheeda
+REVEAL Chiki
 WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
 WM_SETDESTINATION 0 5 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 5 //Needed for world map narration.
