@@ -740,7 +740,7 @@ setMugEntry(0xFF, President_Mug, 0,4,10,4, 4,7,2,3, 1)
 
 Roshe_Mug:
 #incext PortraitFormatter "Roshe.png"
-setMugEntry(0x100, Roshe_Mug, 4,7,4,5)
+setMugEntry(0x105, Roshe_Mug, 4,7,4,5)
 
 Nina_Mug:
 #incext PortraitFormatter "Nina.png"

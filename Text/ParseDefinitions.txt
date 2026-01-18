@@ -245,7 +245,7 @@
 [LoadWolf] = [LoadFace][0xFD][0x1]
 [LoadLouie] = [LoadFace][0xFE][0x1]
 [LoadPresident] = [LoadFace][0xFF][0x1]
-[LoadRoshe] = [LoadFace][0x00][0x2]
+[LoadRoshe] = [LoadFace][0x05][0x2]
 [LoadNina] = [LoadFace][0x01][0x2]
 [LoadDomaBoss] = [LoadFace][0x02][0x2]
 [LoadTeeta] = [LoadFace][0x03][0x2]
