@@ -86,7 +86,7 @@ MiscBasedEvents:
 AREA 0x10 LeftSwitchHit [3,18] [3,18]
 AREA 0x11 MiddleSwitchHit [10,18] [12,18]
 AREA 0x12 RightSwitchHit [20,0] [20,0]
-AFEV 0x0 KillSummons 0x15
+AFEV 0x23 KillSummons 0x15
 AFEV 0x20 AlmKilled 0x16
 AFEV 0x21 CelineKilled 0x17
 CauseGameOverIfLordDies
@@ -482,14 +482,14 @@ Text(Ch16GreyPersuadesMycen)
 TurnAlly(Mycen)
 ENUT 0x10 //switch flag
 ENUT 0x1C //battle quote
-CALL LeftSwitchHit
+CALL SwitchCheck
 NoFade
 ENDA
 
 TheSeizeEasterEgg:
 Text(Ch16SeizeEasterEgg)
 ENUT 0x11 //switch
-CALL MiddleSwitchHit
+CALL SwitchCheck
 NoFade
 ENDA
 
@@ -605,19 +605,35 @@ ENUF 0x3 //you haven't won
 NoFade
 ENDB
 
+//I need three routines to turn off the right event id...
 LeftSwitchHit:
+CHECK_ALLEGIANCE 0xFFFF
+BNE 1641 s0 sC //red units can't hit the switches
 Text(Ch16SwitchHit)
 CALL SwitchCheck
+LABEL 1641
+ENUF 0x10
+NoFade
 ENDA
 
 MiddleSwitchHit:
+CHECK_ALLEGIANCE 0xFFFF
+BNE 1642 s0 sC //red units can't hit the switches
 Text(Ch16SwitchHit)
 CALL SwitchCheck
+LABEL 1642
+ENUF 0x11
+NoFade
 ENDA
 
 RightSwitchHit:
+CHECK_ALLEGIANCE 0xFFFF
+BNE 1643 s0 sC //red units can't hit the switches
 Text(Ch16SwitchHit)
 CALL SwitchCheck
+LABEL 1643
+ENUF 0x12
+NoFade
 ENDA
 
 SwitchCheck:
@@ -645,7 +661,7 @@ Text(Ch16WayToAlmOpen)
 ENUT 0x22 //set flag, otherwise event recurs after every action
 LABEL 1601
 NoFade
-ENDA
+ENDB
 
 MycenPersuasion:
 Text(Ch16MycenTellsAlmToStop)
@@ -795,7 +811,7 @@ GOTO 1663 //keep looping until they're all dead
 LABEL 1662
 ENUT 0x15 //no more summons
 ENUT 0x12 //switch
-CALL RightSwitchHit
+CALL SwitchCheck //dialogue makes it obvious, would cause issues on enemy phase
 NoFade
 ENDA
 
