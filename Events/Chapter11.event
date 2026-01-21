@@ -228,6 +228,16 @@ UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,4] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
 UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [22,4] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
 UNIT
 
+CutsceneEndingInsideNoBarth:
+UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [9,2] 0x0 0x0 0x0 0x0 [Fire] NoAI
+UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [9,3] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Marth Lord 0x00 Level(1,Ally,0) [8,4] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,5] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [7,4] 0x0 0x0 0x0 0x0 [Vulnerary] NoAI
+UNIT Alear DivineOne 0x0 Level(20,Enemy,0) [22,4] 0x0 0x0 0x0 0x0 [SilverSword] PursueWithoutHeedAI
+UNIT
+
+
 CutsceneEndingDurandal:
 UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [23,25] 0x0 0x0 0x1 LilinaREDA [Fire] NoAI
 UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [24,25] 0x0 0x0 0x1 EliwoodREDA [SilverSword] NoAI
@@ -459,6 +469,8 @@ CLEE 0
 CLEN 0
 
 LOMA 0x43 //Ostia Castle
+CHECK_ALIVE Barth
+BEQ 1120 s0 sC //If Barth is dead, branch
 LOAD2 0x0 CutsceneEndingInside
 SVAL s1 20 //cutscenes break if units die who shouldn't: get Lilina to 20
 SET_HP Lilina 
@@ -469,10 +481,10 @@ CAM1 [11,2] //far enough to push X=0 off-screen
 MUSC M_AnUnexpectedCaller
 FADU 10
 STAL 10
-SVAL s3 Fire
-GIVEITEMTO Lilina //emergency bugfix: game freezes if she counters unarmed
-SVAL s3 IronLance
-GIVEITEMTO Barth //same with him - if you toss the item, nothing I can do...
+//SVAL s3 Fire
+//GIVEITEMTO Lilina //emergency bugfix: game freezes if she counters unarmed
+//SVAL s3 IronLance
+//GIVEITEMTO Barth //same with him - if you toss the item, nothing I can do...
 FlashCursor(Barth,60)
 Text(Fort_2_Burning,Ch11EndingMarthGoAheadOfMe)
 STAL 30
@@ -492,16 +504,16 @@ MOVE 10 Alear [9,1]
 ENUN
 //Battles
 StartBattle
-NormalDamage(0,19) //20 is an exact kill at base level, Lilina's meant to live
-MissedAttack(1,0)
+NormalDamage(1,19) //20 is an exact kill at base level, Lilina's meant to live
+MissedAttack(0,0)
 EndAttack
-FIGHT Alear Lilina SilverSword 0
+FIGHT Lilina Alear Elfire 0
 STAL 30
 //quick line
 MOVE 10 Eliwood [10,1]
 ENUN
 StartBattle
-NormalDamage(0,3)
+NormalDamage(0,10)
 NormalDamage(1,15)
 EndAttack
 FIGHT Eliwood Alear SilverSword 0
@@ -513,21 +525,105 @@ STAL 20
 MOVE 10 Alear [9,2]
 ENUN
 StartBattle
-NormalDamage(0,12)
-NormalDamage(1,5)
-CriticalHit(0,36)
+NormalDamage(1,12)
+NormalDamage(0,8)
+CriticalHit(1,36)
 EndAttack
-FIGHT Alear Barth SilverSword 0
-STAL 30
+FIGHT Barth Alear IronLance 0
+STAL 15
 KILL Barth
 AWAIT_KILL Barth
+STAL 60
 //DISA Barth
 //rest in peace, general
-FADI 10
+FADI 5
 CLEA 0
 CLEE 0
 CLEN 0
+GOTO 1121
 
+LABEL 1120
+//If you managed to get Barth killed, he can't sacrifice himself
+//So Lilina and Eliwood die!
+LOAD2 0x0 CutsceneEndingInsideNoBarth
+SVAL s1 20 //cutscenes break if units die who shouldn't: get Lilina to 20
+SET_HP Lilina 
+SVAL s1 37 //Eliwood's base HP
+SET_HP Eliwood
+//Let Alear kill them if you've gotten Barth killed, but keep as much the same as possible
+CAM1 [11,2] //far enough to push X=0 off-screen
+MUSC M_AnUnexpectedCaller
+FADU 10
+STAL 10
+FlashCursor(Marth,60)
+Text(Fort_2_Burning,PlaceholderText)
+STAL 30
+MOVE 8 Marth [6,4]
+ENUN
+STAL 15
+MOVE 10 Marth [0,4]
+MOVE 10 Sheeda [0,5]
+MOVE 10 Chiki [1,4]
+//they should all be off-screen so no need to clear
+ENUN
+MOVE 10 Alear [12,2]
+ENUN
+FlashCursor(Eliwood,60)
+Text(Fort_2_Burning,Ch11EndingTheSacrifice)
+MOVE 10 Alear [9,1]
+ENUN
+//Battles
+StartBattle
+NormalDamage(1,19) //20 is an exact kill at base level, Lilina's meant to live
+MissedAttack(0,0)
+EndAttack
+FIGHT Lilina Alear Elfire 0
+STAL 30
+//quick line
+MOVE 10 Eliwood [10,1]
+ENUN
+StartBattle
+NormalDamage(0,10)
+NormalDamage(1,15)
+EndAttack
+FIGHT Eliwood Alear SilverSword 0
+STAL 30
+Text(Fort_2_Burning,PlaceholderText)
+MOVE 6 Lilina [5,4]
+MOVE 8 Eliwood [6,4]
+STAL 20
+MOVE 10 Alear [7,4]
+ENUN
+CAM1 Lilina
+StartBattle
+NormalDamage(1,15)
+NormalDamage(0,10)
+CriticalHit(1,45)
+EndAttack
+FIGHT Eliwood Alear SilverSword 0
+STAL 15
+KILL Eliwood
+AWAIT_KILL Eliwood
+STAL 60
+MOVE 6 Lilina [3,4]
+STAL 10
+MOVE 10 Alear [4,4]
+ENUN
+StartBattle
+CriticalHit(1,57)
+EndAttack
+FIGHT Lilina Alear Elfire 0
+STAL 15
+KILL Lilina
+AWAIT_KILL Lilina
+STAL 60
+FADI 5
+CLEA 0
+CLEE 0
+CLEN 0
+GOTO 1107 //skip to save screen
+
+LABEL 1121
 LOMA 0x45 //Durandal cave
 Text(Fort_Ruins_Outside,Ch11EndingMarthAtTheCave)
 CAM1 [23,22]
