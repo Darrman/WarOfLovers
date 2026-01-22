@@ -551,6 +551,12 @@ TurnNPC(Louis)
 TurnNPC(Chloe)
 MOVEONTO 10 Celine Marth
 FADI 10
+TurnAlly(Celine)
+RemoveItemFromEverywhere(CelicaRing) //flash her blue to get the ring off her when screen faded
+TurnNPC(Celine)
+SVAL s1 0x00000000 //pursue
+CHAI Louis
+CHAI Chloe
 CHECK_COORDS Marth
 //I don't think you can move units to a location with a specific memory slot. I'll leave the check in, still.
 //Marth is getting dropped off at an arbitrary tile for now.
@@ -560,6 +566,8 @@ ENUN
 Rescue(0,0,0,1) //If this were FE5 it'd be a capture
 MOVE 0xFFFF Marth [3,22] //near Mycen
 FADU 10
+SVAL s3 CelicaRing
+GIVEITEMTO Marth
 NoFade
 ENDA
 
@@ -725,14 +733,36 @@ DISA Claire
 GOTO 1622
 LABEL 1621
 MUSC M_TwilightOfTheGods
-//Most dialogue changes little enough I can just use the written versions for now
-Text(Castle_Hall_3_Night,Ch16EndingChikiChatsToAlm)
-Text(Castle_Hall_3_Night,Ch16EndingCelicaSummoningCeline)
-Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelicaCeline)
 CHECK_EVENTID CelineRecruited
 BEQ 1623 s0 sC
-Text(Ch16EndingTheFateOfFirene)
+Text(Castle_Hall_3_Night,Ch16EndingChikiChatsToAlm)
+Text(Castle_Hall_3_Night,Ch16EndingCelicaSummoningCeline)
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelica1)
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelica2Celine)
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelica3)
+MUSC M_Victory
+Text(Castle_Hall_3_Night,Ch16EndingSheedaSmallTalk)
+MUSC M_DismalNation
+Text(Castle_Hall_3_Night,Ch16EndingCelineExplainsHerself)
+Text(Castle_Hall_3_Night,Ch16EndingThePhysicalEmblemPlan)
+Text(Castle_Hall_3_Night,Ch16EndingTheFateOfFirene)
+CHECK_ALIVE Lilina
+BEQ 1624 s0 sC
+MUSC M_TogetherWeRide
+Text(Castle_Hall_3_Night,Ch16EndingForblazeReturn)
+RemoveItemFromEverywhere(Forblaze) //clear it off Celine
+SVAL s3 Forblaze
+GIVEITEMTO Lilina
+LABEL 1624
+MUSC M_WarringPowers
+Text(Castle_Hall_3_Night,Ch16EndingVeyleOverhears)
+GOTO 1622
 LABEL 1623
+Text(Castle_Hall_3_Night,Ch16EndingChikiChatsToAlm)
+Text(Castle_Hall_3_Night,Ch16EndingCelicaSummoningCeline) //difference minimal and can be handwaved
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelica1)
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelica2)
+Text(Castle_Hall_3_Night,Ch16EndingTalkingToCelica3)
 
 //
 LABEL 1622
@@ -760,6 +790,8 @@ LOAD2 0x0 CutsceneCelineCondemnation
 FADU 10
 FlashCursor(Vander,60)
 Text(Shrine_lighter,Ch16EndingCelinesBetrayal)
+MUSC M_EvilOnes
+Text(Shrine_lighter,Ch16EndingAlearMeltsDown)
 LABEL 1624
 SetBackground(CGBlackScreen)
 TUTORIALTEXTBOXSTART
