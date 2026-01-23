@@ -1141,8 +1141,8 @@ Valbo... Not Jesse... Not Noma...[AN]
 Let me try something else, then.[N]
 //Does Celica ever tell Alm her real name on-screen?
 //It would be pretty stupid if he didn't know though
-What is your name? Celica, of course.[N]
-But aside from that.[AN]
+What is your name? Celica, of[AN]
+course. But aside from that.[AN]
 [Right]
 Anteze? I only used that name for[N]
 official purposes on Valencia.[AN]

@@ -274,7 +274,7 @@ Text(Castle_Hall,Ch9EndingBernKeep2)
 CHECK_EVENTID 0x8 //Miledy
 BEQ 902 s0 sC //skip if not recruited
 Text(Castle_Hall,Ch9EndingMiledyOrders)
-
+LABEL 902
 FADI 10
 CLEA 0
 CLEE 0

@@ -899,7 +899,7 @@ What's another trip there?[A][CloseEyes][X]
 
 ## YuukaDeath
 [Right][LoadYuuka]
-What comes around, comes around.[N]
+What comes around goes around.[N]
 My life is finally over.[A][CloseEyes][X]
 
 ## ShinkiDeath

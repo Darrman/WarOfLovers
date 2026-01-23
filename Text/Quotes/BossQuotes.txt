@@ -27,10 +27,11 @@ him back into the fold![A][X]
 
 ## BylethBattle
 [Left][LoadByleth]
-My name is Byleth Eisner. I am 27[N]
-years old. I am a servant of[AN]
-Lady Alear. My title is Emblem of[N]
-the Academy. I am engaged.[AN]
+My name is Byleth Eisner.[N]
+I am 27 years old.[AN]
+I am a servant of Lady Alear.[AN]
+My title is Emblem of the[N]
+Academy. I am engaged.[AN]
 My orders are to defeat Marth[N]
 Lowell. Prepare to die.[A][X]
 
