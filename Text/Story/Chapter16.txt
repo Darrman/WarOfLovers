@@ -586,7 +586,9 @@ regardless of what you pick.[A][X]
 ## Ch16NoteCelineHesitation
 [MR][LoadMarth]
 Celine's... stopped? Why?[N]
-What are her reasons?[AN][X]
+What are her reasons?[AN]
+I have to find out why.[N]
+And quickly.[A][X]
 
 ## Ch16WayToAlmOpen
 [MR][LoadMarth]
@@ -829,6 +831,15 @@ Don't try to fool me. I know you[N]
 want to destroy Valencia.[AN]
 Either I'll defeat you, or die[N]
 trying. Draw your sword![A][X]
+
+## Ch16MycenMurdered
+[ML][LoadAlm][MR][LoadMarth]
+[MR]
+I am Marth, the leader of this[N]
+army. I desire a truce.[AN]
+[ML]
+So what? You killed Gramps.[N]
+Why should I listen to you?[A][X]
 
 ## Ch16EndingAnotherEmblemRing
 [ML][LoadMarth][MR][LoadSheeda]

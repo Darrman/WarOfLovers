@@ -51,9 +51,9 @@ CharacterEventBothWays(0x9,ClairePersuasion,Claire,Alm)
 CharacterEventBothWays(0x9,DyutePersuasion,Dyute,Alm)
 CharacterEventBothWays(0xA,LouisExplains,Louis,Celine)
 CharacterEventBothWays(0xA,LouisExplains,Chloe,Celine)
-CharacterEvent(0xB,CelineSaved,Marth,Celine,0xA)
 CharacterEvent(0x3,AlmStopsCelineAlive,Marth,Alm,0xB)
 CharacterEvent(0x3,AlmStopsCelineDead,Marth,Alm,0x17)
+CharacterEvent(0xB,CelineSaved,Marth,Celine,0xA)
 //Mycen calms Alm down, variants for any other Valencian
 //Louis makes Celine think long and hard...
 //and Marth makes her surrender
@@ -599,12 +599,19 @@ CALL AlmSaysScram
 ENDA
 
 AlmStopsCelineDead:
+CHECK_ALIVE Mycen
+BEQ 1619 s0 sC
 MUSC M_TwilightOfTheGods
 Text(Ch16EndingTruceCelineDead)
 ENUT AlmRecruited
 ENUT 0x03
 TurnAlly(Alm)
 CALL EndingScene
+LABEL 1619
+Text(Ch16MycenMurdered)
+TurnEnemy(Alm)
+ENUF 0x3
+NoFade
 ENDA
 
 AlmSaysScram:
@@ -747,13 +754,13 @@ Text(Castle_Hall_3_Night,Ch16EndingCelineExplainsHerself)
 Text(Castle_Hall_3_Night,Ch16EndingThePhysicalEmblemPlan)
 Text(Castle_Hall_3_Night,Ch16EndingTheFateOfFirene)
 CHECK_ALIVE Lilina
-BEQ 1624 s0 sC
+BEQ 1625 s0 sC
 MUSC M_TogetherWeRide
 Text(Castle_Hall_3_Night,Ch16EndingForblazeReturn)
 RemoveItemFromEverywhere(Forblaze) //clear it off Celine
 SVAL s3 Forblaze
 GIVEITEMTO Lilina
-LABEL 1624
+LABEL 1625
 MUSC M_WarringPowers
 Text(Castle_Hall_3_Night,Ch16EndingVeyleOverhears)
 GOTO 1622
