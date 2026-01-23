@@ -1378,10 +1378,13 @@ from Ram. Generally laid-back and[N]
 easy to get along with.[X]
 
 ## DomaFaithfulBossName
-Doma F. Boss[X]
+//Judah is biblical. Judas is a variant of it. I'll take another Bible villain.
+Pilate[X]
 
 ## DomaFaithfulBossDesc
-Placeholder description.[X]
+The heir to Judah's Doma Faithful.[N]
+Willing to do business with anyone[N]
+to see Alm and Celica overthrown.[X]
 
 ## MiletosBossName
 Miletos Boss[X]
@@ -1753,7 +1756,7 @@ Valencia under Emperor Alm.[X]
 Doma F.[X]
 
 ## DomaFaithfulDesc
-A remnant of (DF)'s Doma Faithful[N]
+A member of Pilate's Doma Faithful[N]
 branch, now branded heretical.[X]
 
 ## MiletosName

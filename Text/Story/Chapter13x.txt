@@ -282,7 +282,11 @@ feet soon! Bye![A][X]
 ## Ch13xOpeningTheCultPlans
 [MR][LoadChloe][ML][LoadDomaMinion]
 [MR]
-(CULTIST), a Valencian unit is[N]
+//Can't name him in gameplay, unit slot woes
+//Gaiden enemy name sources are all over the place, but for this I'll take
+//Mikhail - Gorbachev, so I'll name this unit after another Soviet leader
+//Let's use Brezhnev
+Leonid, a Valencian unit is[N]
 approaching us from the south.[AN]
 [ML]
 Excellent. All this funding[N]
@@ -470,7 +474,7 @@ Eirika...[AN][X]
 ## Ch13xEndingDomasGrave
 [Left][LoadCeline][FL][LoadHortensia][MR][LoadDomaBoss]
 [Left]
-So you are (D.F.)? I am Celine,[N]
+So you are Pilate? I am Celine,[N]
 and my friend is Hortensia.[AN]
 [MR]
 So, Celine. You want to see[N]
@@ -568,7 +572,7 @@ One's mission here. That's a[N]
 good thing, is it not?[AN]
 [Left]
 Yes, Hortensia. Let's talk outside.[N]
-(D.F.), it's a pleasure.[AN]
+Pilate, it's a pleasure.[AN]
 [MR]
 Yes. Celine, Hortensia, may[N]
 Doma's blessings be upon you.[AN][Clear]
