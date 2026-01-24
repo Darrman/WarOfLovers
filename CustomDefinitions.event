@@ -271,6 +271,7 @@
 #define Grey 0xaa
 #define Mycen 0xab
 #define DomaFaithfulBoss 0xac
+#define Pilate DomaFaithfulBoss
 //Act 4
 #define MiletosBoss 0xad
 #define RadosBoss 0xae

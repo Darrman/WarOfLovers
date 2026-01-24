@@ -724,7 +724,7 @@ Triforce's power![A][CloseEyes][X]
 This can't be happening![A][CloseEyes][X]
 
 ## MewtwoDeath
-[Right][LoadFace][0x01][0x01]
+[Right][LoadMewtwo]
 So, there is someone stronger.[N]
 This is the end for me.[A][CloseEyes][X]
 

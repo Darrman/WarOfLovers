@@ -16,7 +16,9 @@ BYTE DukeKnight KnightDuke Hunter Horseman Priest Bishop Mage_F
 BYTE Sage_F Mercenary Hero Pirate Berserker Priestess General
 BYTE Paladin KnightPaladin Myrmidon_F Priestess FalconKnight KnightFalcon AxeKnight
 BYTE GreatKnight KnightAxe KnightGreat Cavalier Hero DivineOne Fighter
-BYTE Mage Myrmidon_F General 0 0 0 0
+BYTE Mage Myrmidon_F General Brigand DukeKnight DragonMaster Sage_F
+BYTE Sniper General MasterLord Sniper Swordmaster_F FalconKnight KnightFalcon
+BYTE BowKnight KnightDuke Hero KnightDuke Summoner DarkChild 0
 //continue with 7 entries per line
 BYTE 0x0 0x0 0x0 0x0 0x0 0x0 0x0
 POP
