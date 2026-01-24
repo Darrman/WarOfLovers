@@ -101,3 +101,8 @@ POP
 {
 #include "Tornado/Tornado.event"
 }
+
+//Forblaze (IntSys; SHYUTERz)
+{
+#include "Forblaze/Forblaze.event"
+}
