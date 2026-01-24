@@ -167,10 +167,10 @@ BEQ 6030 s0 sC
 CHECK_CLASS KainFF4
 SVAL s1 DragonMaster
 BNE 6029 s1 sC //Dragon Knight
-RECLASS Kain KnightDragonM
+RECLASS KainFF4 KnightDragonM
 GOTO 6030
 LABEL 6029
-RECLASS Kain KnightDragon
+RECLASS KainFF4 KnightDragon
 LABEL 6030
 
 CHECK_ALIVE Butz
@@ -241,13 +241,7 @@ LABEL 6042
 
 CHECK_ALIVE Rody
 BEQ 6044 s0 sC
-CHECK_CLASS Rody
-SVAL s1 Ranger
-BNE 6043 s1 sC //Free Knight
-RECLASS Rody KnightRanger
-GOTO 6044
-LABEL 6043
-RECLASS Rody KnightFree
+RECLASS Rody KnightDuke
 LABEL 6044
 
 CHECK_ALIVE Roshe
@@ -293,6 +287,293 @@ LABEL 6053
 RECLASS Jonathan KnightLance
 LABEL 6054
 
+ENDA
+
+MountAll:
+//A quick and dirty hack to paper over the dismount bug.
+//Also, it corresponds to FE3 behaviour instead of FE5.
+//It's still there, but now if you dismount outdoors you lose stats.
+//Still a nasty issue, but one you're less likely to run into on accident.
+
+LABEL 6100 //Just in case I need to call this by label for some reason
+CHECK_ALIVE Sheeda //safety check
+BEQ 6102 s0 sC //equal means dead/not in party, skip
+CHECK_CLASS Sheeda
+SVAL s1 KnightFalcon
+BNE 6101 s1 sC //if she's not a falcon she's a pegasus, go there
+RECLASS Sheeda FalconKnight
+GOTO 6102
+LABEL 6101
+RECLASS Sheeda PegasusKnight
+LABEL 6102
+
+CHECK_ALIVE Eliwood
+BEQ 6104 s0 sC
+CHECK_CLASS Eliwood
+SVAL s1 KnightEliwood
+BNE 6103 s1 sC //Paladin
+RECLASS Eliwood LordKnight
+GOTO 6104
+LABEL 6103
+RECLASS Eliwood Paladin
+LABEL 6104
+
+CHECK_ALIVE Bowser
+BEQ 6106 s0 sC
+CHECK_CLASS Bowser
+SVAL s1 KnightDragonM
+BNE 6105 s1 sC //Dragon Knight
+RECLASS Bowser DragonMaster
+GOTO 6106
+LABEL 6105
+RECLASS Bowser DragonKnight
+LABEL 6106
+
+CHECK_ALIVE Wario
+BEQ 6108 s0 sC
+CHECK_CLASS Wario
+SVAL s1 KnightGreat
+BNE 6107 s1 sC //Axe Knight
+RECLASS Wario GreatKnight
+GOTO 6108
+LABEL 6107
+RECLASS Wario AxeKnight
+LABEL 6108
+
+CHECK_ALIVE Yoshi
+BEQ 6110 s0 sC
+CHECK_CLASS Yoshi
+SVAL s1 KnightDuke
+BNE 6109 s1 sC //Lance Knight
+RECLASS Yoshi DukeKnight
+GOTO 6110
+LABEL 6109
+RECLASS Yoshi LanceKnight
+LABEL 6110
+
+CHECK_ALIVE Waluigi
+BEQ 6112 s0 sC
+CHECK_CLASS Waluigi
+SVAL s1 KnightRanger
+BNE 6111 s1 sC //Free Knight
+RECLASS Waluigi Ranger
+GOTO 6112
+LABEL 6111
+RECLASS Waluigi FreeKnight
+LABEL 6112
+
+CHECK_ALIVE Falco
+BEQ 6114 s0 sC
+CHECK_CLASS Falco
+SVAL s1 KnightDragonM
+BNE 6113 s1 sC //Dragon Knight
+RECLASS Falco DragonMaster
+GOTO 6114
+LABEL 6113
+RECLASS Falco DragonKnight
+LABEL 6114
+
+CHECK_ALIVE Falcon
+BEQ 6116 s0 sC
+CHECK_CLASS Falcon
+SVAL s1 KnightDuke
+BNE 6115 s1 sC //Dragon Knight
+RECLASS Falcon DukeKnight
+GOTO 6116
+LABEL 6115
+RECLASS Falcon LanceKnight
+LABEL 6116
+
+CHECK_ALIVE CecilFF4
+BEQ 6118 s0 sC
+CHECK_CLASS CecilFF4
+SVAL s1 KnightPaladin
+BNE 6117 s1 sC //Free Knight
+RECLASS CecilFF4 Paladin
+GOTO 6118
+LABEL 6117
+RECLASS CecilFF4 FreeKnight
+LABEL 6118
+
+CHECK_ALIVE Jessie
+BEQ 6120 s0 sC
+CHECK_CLASS Jessie
+SVAL s1 KnightFalcon
+BNE 6119 s1 sC //Pegasus Knight
+RECLASS Jessie FalconKnight
+GOTO 6120
+LABEL 6119
+RECLASS Jessie PegasusKnight
+LABEL 6120
+
+CHECK_ALIVE James
+BEQ 6122 s0 sC
+CHECK_CLASS James
+SVAL s1 KnightDragonM
+BNE 6121 s1 sC //Dragon Knight
+RECLASS James DragonMaster
+GOTO 6122
+LABEL 6121
+RECLASS James DragonKnight
+LABEL 6122
+
+CHECK_ALIVE Dawn
+BEQ 6124 s0 sC
+CHECK_CLASS Dawn
+SVAL s1 KnightValkyrie
+BNE 6123 s1 sC //Troubadour
+RECLASS Dawn Valkyrie
+GOTO 6124
+LABEL 6123
+RECLASS Dawn Troubadour
+LABEL 6124
+
+CHECK_ALIVE Serena
+BEQ 6126 s0 sC
+CHECK_CLASS Serena
+SVAL s1 KnightRanger
+BNE 6125 s1 sC //Free Knight
+RECLASS Serena Ranger
+GOTO 6126
+LABEL 6125
+RECLASS Serena FreeKnight
+LABEL 6126
+
+CHECK_ALIVE Wolf
+BEQ 6128 s0 sC
+CHECK_CLASS Wolf
+SVAL s1 KnightDragonM
+BNE 6127 s1 sC //Free Knight
+RECLASS Wolf DragonMaster
+GOTO 6128
+LABEL 6127
+RECLASS Wolf DragonKnight
+LABEL 6128
+
+CHECK_ALIVE KainFF4
+BEQ 6130 s0 sC
+CHECK_CLASS KainFF4
+SVAL s1 KnightDragonM
+BNE 6129 s1 sC //Dragon Knight
+RECLASS KainFF4 DragonMaster
+GOTO 6130
+LABEL 6129
+RECLASS KainFF4 DragonKnight
+LABEL 6130
+
+CHECK_ALIVE Butz
+BEQ 6132 s0 sC
+CHECK_CLASS Butz
+SVAL s1 KnightGreat
+BNE 6131 s1 sC //Axe Knight
+RECLASS Butz GreatKnight
+GOTO 6132
+LABEL 6131
+RECLASS Butz AxeKnight
+LABEL 6132
+
+CHECK_ALIVE Kaiba
+BEQ 6134 s0 sC
+CHECK_CLASS Kaiba
+SVAL s1 KnightDragonM
+BNE 6133 s1 sC //Dragon Knight
+RECLASS Kaiba DragonMaster
+GOTO 6134
+LABEL 6133
+RECLASS Kaiba DragonKnight
+LABEL 6134
+
+CHECK_ALIVE Alexis
+BEQ 6136 s0 sC
+CHECK_CLASS Alexis
+SVAL s1 KnightFalcon
+BNE 6135 s1 sC //Pegasus Knight
+RECLASS Alexis FalconKnight
+GOTO 6136
+LABEL 6135
+RECLASS Alexis PegasusKnight
+LABEL 6136
+
+CHECK_ALIVE Tails
+BEQ 6138 s0 sC
+CHECK_CLASS Tails
+SVAL s1 KnightDragonM
+BNE 6137 s1 sC //Dragon Knight
+RECLASS Tails DragonMaster
+GOTO 6138
+LABEL 6137
+RECLASS Tails DragonKnight
+LABEL 6138
+
+CHECK_ALIVE Reimu
+BEQ 6140 s0 sC
+CHECK_CLASS Reimu
+SVAL s1 KnightFalcon
+BNE 6139 s1 sC //Pegasus Knight
+RECLASS Reimu FalconKnight
+GOTO 6140
+LABEL 6139
+RECLASS Reimu PegasusKnight
+LABEL 6140
+
+CHECK_ALIVE Shinki
+BEQ 6142 s0 sC
+CHECK_CLASS Shinki
+SVAL s1 KnightValkyrie
+BNE 6141 s1 sC //Troubadour
+RECLASS Shinki Valkyrie
+GOTO 6142
+LABEL 6141
+RECLASS Shinki Troubadour
+LABEL 6142
+
+CHECK_ALIVE Rody
+BEQ 6144 s0 sC
+RECLASS Rody DukeKnight
+LABEL 6144
+
+CHECK_ALIVE Roshe
+BEQ 6146 s0 sC
+CHECK_CLASS Roshe
+SVAL s1 KnightGreat
+BNE 6145 s1 sC //Axe Knight
+RECLASS Roshe GreatKnight
+GOTO 6146
+LABEL 6145
+RECLASS Roshe AxeKnight
+LABEL 6146
+
+CHECK_ALIVE Miledy
+BEQ 6148 s0 sC
+CHECK_CLASS Miledy
+SVAL s1 KnightDragonM_F
+BNE 6147 s1 sC //Dragon Knight
+RECLASS Miledy DragonMaster_F
+GOTO 6148
+LABEL 6147
+RECLASS Miledy DragonKnight_F
+LABEL 6148
+
+CHECK_ALIVE Camus
+BEQ 6150 s0 sC
+RECLASS Camus Paladin //simplify event if pre-promote
+LABEL 6150
+
+CHECK_ALIVE Claire
+BEQ 6152 s0 sC
+RECLASS Claire FalconKnight
+LABEL 6152
+
+CHECK_ALIVE Jonathan
+BEQ 6154 s0 sC
+CHECK_CLASS Jonathan
+SVAL s1 KnightDuke
+BNE 6153 s1 sC //Lance Knight
+RECLASS Jonathan DukeKnight
+GOTO 6154
+LABEL 6153
+RECLASS Jonathan LanceKnight
+LABEL 6154
 
 ENDA
 

@@ -172,6 +172,10 @@ FADI 10
 CLEA 0
 CLEE 0
 CLEN 0
+//Mixture of indoor and outdoor, I'll put in the call but it's awkward here
+//FE5-style just doesn't have these edge cases, but then I get hit with more bugs
+//And FE3 didn't have any "half-in, half-out" setups!
+CALL MountAll
 MUSC M_EnemiesAppear
 LOAD3 0x0 Good
 LOAD1 0x1 Bad

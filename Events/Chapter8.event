@@ -236,6 +236,8 @@ ENUN
 CLEA 0
 CLEN 0
 CLEE 0
+CALL MountAll //There's a fair amount of hybrid maps and you're probably ending Ch7 mounted
+//and the bug will trigger if that happens
 LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2

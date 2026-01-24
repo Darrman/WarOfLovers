@@ -258,6 +258,7 @@ STAL 10
 TurnAlly(Camus)
 FADU 10
 RECLASS Camus Paladin
+CALL MountSheeda
 GOTO 1352
 
 //Nina dies

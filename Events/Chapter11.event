@@ -372,6 +372,7 @@ LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 BarthAndCompany
 TILECHANGE 9 //the front door
+CALL MountAll //still a few indoor tiles, but this map is 95% outdoors as opposed to the ~50% of 10x
 MUSC M_EnemiesAppear
 CALL MountEliwood
 CALL MountSheeda
