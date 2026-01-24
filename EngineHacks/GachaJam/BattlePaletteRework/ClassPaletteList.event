@@ -10,6 +10,8 @@ CavalierPaletteList:
 PaletteAssociationEntry(Wario, $12)
 PaletteAssociationEntry(Yoshi, $18)
 PaletteAssociationEntry(Waluigi, $1C)
+PaletteAssociationEntry(Roshe, $54)
+PaletteAssociationEntry(Luke, $57)
 WORD 0 0
 ALIGN 4
 
@@ -33,6 +35,7 @@ GeneralPaletteList:
 PaletteAssociationEntry(DK, $0F)
 PaletteAssociationEntry(Tomth, $3a)
 PaletteAssociationEntry(Valbo, $4C)
+PaletteAssociationEntry(Louis, $5D)
 WORD 0 0
 ALIGN 4
 
@@ -52,17 +55,20 @@ ALIGN 4
 HeroPaletteList:
 PaletteAssociationEntry(Caesar, $38)
 PaletteAssociationEntry(Oguma, $48)
+PaletteAssociationEntry(Kris, $58)
 WORD 0 0
 ALIGN 4
 
 MyrmPaletteList:
 PaletteAssociationEntry(Fir, $2E)
 PaletteAssociationEntry(Dyute, $4F)
+PaletteAssociationEntry(Athena, $5C)
 WORD 0 0
 ALIGN 4
 
 SwordmasterPaletteList:
 PaletteAssociationEntry(Fir, $2F)
+PaletteAssociationEntry(Alear, $59)
 WORD 0 0
 ALIGN 4
 
@@ -85,6 +91,7 @@ ALIGN 4
 
 RangerPaletteList:
 PaletteAssociationEntry(Waluigi, $1D)
+PaletteAssociationEntry(Kashim, $43)
 WORD 0 0
 ALIGN 4
 
@@ -108,6 +115,7 @@ MagePaletteList:
 PaletteAssociationEntry(Daisy, $16)
 PaletteAssociationEntry(Lilina, $20)
 PaletteAssociationEntry(Linda, $45)
+PaletteAssociationEntry(Clanne, $5B)
 WORD 0 0
 ALIGN 4
 
@@ -153,6 +161,7 @@ ALIGN 4
 
 GKPaletteList:
 PaletteAssociationEntry(Wario, $13)
+PaletteAssociationEntry(Roshe, $55)
 WORD 0 0
 ALIGN 4
 
@@ -161,13 +170,14 @@ WORD 0 0
 ALIGN 4
 
 FighterPaletteList:
-PaletteAssociationEntry(Saji, $3B)
+PaletteAssociationEntry(Saji, $3E)
+PaletteAssociationEntry(Boucheron, $5A)
 WORD 0 0
 ALIGN 4
 
 WarriorPaletteList:
 PaletteAssociationEntry(Bartre, $30)
-PaletteAssociationEntry(Saji, $3C)
+PaletteAssociationEntry(Saji, $3F)
 WORD 0 0
 ALIGN 4
 
@@ -178,12 +188,14 @@ ALIGN 4
 
 PiratePaletteList:
 PaletteAssociationEntry(Luigi, $06)
+PaletteAssociationEntry(Barts, $4A)
 WORD 0 0
 ALIGN 4
 
 BerserkerPaletteList:
 PaletteAssociationEntry(Mario, $05)
 PaletteAssociationEntry(Luigi, $07)
+PaletteAssociationEntry(Barts, $4B)
 WORD 0 0
 ALIGN 4
 
@@ -313,6 +325,7 @@ PaletteAssociationEntry(Wario, $14)
 PaletteAssociationEntry(Yoshi, $1A)
 PaletteAssociationEntry(Waluigi, $1E)
 PaletteAssociationEntry(Miledy, $26)
+PaletteAssociationEntry(Roshe, $56)
 WORD 0 0
 ALIGN 4
 
@@ -327,12 +340,18 @@ PaletteAssociationEntry(Miledy, $27)
 PaletteAssociationEntry(Rody, $40)
 PaletteAssociationEntry(Camus, $4E)
 PaletteAssociationEntry(Claire, $52)
+PaletteAssociationEntry(Roshe, $57)
 WORD 0 0
 ALIGN 4
 
 PriestessPaletteList:
 PaletteAssociationEntry(Celine,$4B)
 PaletteAssociationEntry(Dyute,$50)
+WORD 0 0
+ALIGN 4
+
+HunterPaletteList:
+PaletteAssociationEntry(Kashim,$41)
 WORD 0 0
 ALIGN 4
 
@@ -500,8 +519,8 @@ MapClassIdToPalettes:
 	SetClassPaletteTable(SwordArmour, ArmourPaletteList)
 	SetClassPaletteTable(AxeArmour, ArmourPaletteList)
 	SetClassPaletteTable(BowArmour, ArmourPaletteList)
-	SetClassPaletteTable(Hunter, NO_PALETTE)
-	SetClassPaletteTable(HunterT2, NO_PALETTE)
+	SetClassPaletteTable(Hunter, HunterPaletteList)
+	SetClassPaletteTable(HunterT2, HunterPaletteList)
 	SetClassPaletteTable(Halberdier, NO_PALETTE)
 	SetClassPaletteTable(KnightDragonM, KnightT2PaletteList)
 	SetClassPaletteTable(KnightDragonM_F, KnightT2PaletteList)
@@ -542,7 +561,7 @@ MapClassIdToPalettes:
 	//remaining classes blank
 	SetClassPaletteTable(Priestess, PriestessPaletteList)
 	SetClassPaletteTable(MasterLord, NO_PALETTE)
-	SetClassPaletteTable(DivineOne, NO_PALETTE)
+	SetClassPaletteTable(DivineOne, SwordmasterPaletteList) //temp
 	SetClassPaletteTable(DarkChild, NO_PALETTE)
 	SetClassPaletteTable(MageLinda, MagePaletteList)
 	SetClassPaletteTable(0xBE, NO_PALETTE)

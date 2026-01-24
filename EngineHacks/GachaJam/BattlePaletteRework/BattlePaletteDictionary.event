@@ -83,8 +83,8 @@ PaletteIdentifier($3d,$53,$61,$6A,$69,$46,$69,$67,$68,$74,$65,$72,Saji_Fighter)
 PaletteIdentifier($3e,$53,$61,$6A,$69,$57,$61,$72,$72,$69,$6F,$72,Saji_Warrior)
 PaletteIdentifier($3f,$52,$6F,$64,$79,$20,$44,$75,$6B,$65,$20,$4B,Rody_Duke_K)
 PaletteIdentifier($40,$52,$6F,$64,$79,$20,$44,$69,$73,$6D,$6E,$74,Rody_Dismounted)
-PaletteIdentifier($41,$4B,$61,$73,$68,$69,$6D,$48,$75,$6E,$74,$72,0) //For Kashim
-PaletteIdentifier($42,$4B,$61,$73,$68,$69,$6D,$48,$6F,$72,$73,$65,0)
+PaletteIdentifier($41,$4B,$61,$73,$68,$69,$6D,$48,$75,$6E,$74,$72,Kashim_Hunter)
+PaletteIdentifier($42,$4B,$61,$73,$68,$69,$6D,$48,$6F,$72,$73,$65,Kashim_Horseman)
 PaletteIdentifier($43,$52,$69,$66,$66,$20,$50,$72,$69,$65,$73,$74,Riff_Priest)
 PaletteIdentifier($44,$52,$69,$66,$66,$20,$42,$69,$73,$68,$6F,$70,Riff_Bishop)
 PaletteIdentifier($45,$4C,$69,$6E,$64,$61,$20,$4D,$61,$67,$65,$20,Linda_Mage)
@@ -101,7 +101,17 @@ PaletteIdentifier($4F,$44,$79,$75,$74,$65,$20,$4D,$79,$72,$6D,$20,Dyute_Myrmidon
 PaletteIdentifier($50,$44,$79,$75,$74,$65,$50,$72,$73,$74,$65,$73,Dyute_Priestess)
 PaletteIdentifier($51,$43,$6C,$61,$69,$72,$65,$46,$61,$6C,$63,$6F,Claire_Falcon)
 PaletteIdentifier($52,$43,$6C,$61,$69,$72,$65,$20,$44,$69,$73,$2E,Claire_Dismounted)
-
+PaletteIdentifier($53,$52,$6F,$73,$68,$65,$20,$41,$78,$65,$4B,$6E,Roshe_Axe_K)
+PaletteIdentifier($54,$52,$6F,$73,$68,$65,$47,$72,$65,$61,$74,$4B,Roshe_Great_K)
+PaletteIdentifier($55,$52,$6F,$73,$68,$65,$20,$44,$69,$73,$2E,$20,Roshe_Dismounted)
+PaletteIdentifier($56,$52,$6F,$73,$68,$65,$20,$44,$69,$73,$2E,$32,Roshe_Dismounted_2)
+PaletteIdentifier($57,$4C,$75,$6B,$65,$20,$43,$61,$76,$61,$6C,$72,Luke_Cavalier)
+PaletteIdentifier($58,$4B,$72,$69,$73,$20,$48,$65,$72,$6F,$20,$20,Kris_Hero)
+PaletteIdentifier($59,$41,$6C,$65,$61,$72,$20,$53,$4D,$20,$20,$20,Alear_Swordmaster)
+PaletteIdentifier($5A,$42,$6F,$75,$63,$68,$46,$69,$67,$68,$74,$72,Boucheron_Fighter)
+PaletteIdentifier($5B,$43,$6C,$61,$6E,$6E,$65,$20,$4D,$61,$67,$65,Clanne_Mage)
+PaletteIdentifier($5C,$41,$74,$68,$65,$6E,$61,$20,$4D,$79,$72,$6D,Athena_Myrmidon)
+PaletteIdentifier($5D,$4C,$6F,$75,$69,$73,$47,$65,$6E,$72,$61,$6C,Louis_General)
 /* 
 POP
 */ 
