@@ -1,3 +1,46 @@
+There will be spoilers for recruitable units, story elements, and other such
+things in this file.
+You have been warned.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+And so, all shall be revealed...
+
 # Portraits:
 - Marth: Alusq
 - Sheeda: FE3 Book 2 (Darrman)
@@ -9,6 +52,7 @@
 - Ricardo: FE3 Book 2 (Darrman)
 - Tomth: FE3 Book 1 (Darrman)
 - Saji: FE3 Book 1 (Darrman)
+- Roshe: FE3 Book 2 (Darrman)
 - Kashim: FE3 Book 2 (Darrman)
 - Riff: FE1 (Darrman)
 - Linda: FE3 Book 2 (Darrman)
@@ -16,11 +60,15 @@
 - Barts: FE3 Book 1 (Darrman)
 
 - Lilina: FE6 (Obsidian Daddy, Lenh)
-- Eliwood: FE6 (GreatNothing, Obsidian Daddy, Lenh)
+- Eliwood: FE6 (TheGreatNothing, Obsidian Daddy, Lenh)
 - Roy: FE6 (Obsidian Daddy, Lenh)
 - Miledy: FE6 (Obsidian Daddy, Lenh)
 - Wolt: FE6 (Obsidian Daddy, Lenh)
 - Sophia: FE6 (Obsidian Daddy, Lenh)
+- Marcus: FE6 (Obsidian Daddy, Lenh)
+- Wallace: FE7
+- Garret: FE6 (Obsidian Daddy, Lenh)
+- Wendy: FE6 (Obsidian Daddy, Lenh)
 - Astore: FE6 (Obsidian Daddy, Lenh)
 - Fir: FE6 (Obsidian Daddy, Lenh)
 - Bartre: FE6 (Obsidian Daddy, Lenh)
@@ -30,10 +78,12 @@
 - Celica: Atey
 - Valbo: FE2 (Darrman)
 - Camus: FE3 Book 1 (Darrman)
+- Teeta: FE2 (Darrman)
 - Dyute: Redbean
 - Mycen: FE2 (Darrman)
 - Claire: FE2 (Darrman)
 - Cleive: FE2 (Darrman)
+- Grey: FE2 (Darrman)
 
 - (All Jugdral characters blank or FE4 (Darrman) as placeholders)
 - Feena: FE3 Book 2 (Darrman)
@@ -54,9 +104,11 @@
 - Luke: FE3 (Darrman)
 - Boucheron: Sterling_Glovner
 - Clanne: Maximus03
+- Athena: FE11 (Darrman)
 - Vander: Sterling_Glovner
 - Alfred: Sterling_Glovner
 - Celine: Saihua
+- Engaged Celine: Saihua, palette swapped by Darrman
 - Diamant: Sterling_Glovner
 - Alcryst: FE17 (Darrman)
 - Ivy: KingCrimson931
@@ -67,19 +119,23 @@
 - Athena: FE11 (Darrman)
 - Louis: Sterling_Glovner
 - Alfonse: FEH (Darrman)
-- "Ratface": FE7
+- Veronica: FEH (Darrman)
+- Rodent: FE7, palette swapped by Darrman
 - "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
 - Amber: Sterling_Glovner
-- "Rogue Bern Boss": FE6 (Obsidian Daddy, Lenh)
+- Berthold: FE6 (Obsidian Daddy, Lenh), palette swapped by Darrman
 - Merlinus: FE6 (Obsidian Daddy, Lenh)
 - Guinevere: FE6 (Obsidian Daddy, Lenh)
 - Citrinne: CavalryUnits
 - Framme: Maximus03, Norikins (minimug)
-- "Executioner": FE6 (Obsidian Daddy, Lenh)
+- Gebhard: FE6 (Obsidian Daddy, Lenh)
 - Lapis: FE17 (Darrman)
 - Etie: FE17 (Darrman)
 - Chloe: Sterling_Glovner
 - Jade: Sterling_Glovner
+- Pilate: FE2 (Darrman), palette swapped by Darrman
+- Leonid: FE2 (Darrman), palette swapped by Darrman
+
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
@@ -110,8 +166,9 @@
 - Marin: Kanna
 - Saria: Ocarina of Time (Darrman)
 - Ganondorf: UncleMikey
+- Happy Mask Salesman: Majora's Mask (Darrman)
 
-- Samus: Fenreir
+- Samus: Fenriel
 
 - Kirby: Super Smash Bros (Darrman)
 - Dedede: Kirby Right Back At Ya (Darrman)
@@ -121,6 +178,7 @@
 - Falco: Star Fox Command (Darrman)
 - Peppy: Star Fox 2 (Darrman)
 - Slippy: Star Fox 2 (Darrman)
+- Wolf: Star Fox Assault (Darrman)
 
 - Falcon: Garytop
 
@@ -143,7 +201,7 @@
 
 - Sonic: GoudaGrabber
 - Tails: GoudaGrabber
-- Knuckles: Sonic Adventure? (Sme)
+- Knuckles: Sonic Rush? (Sme)
 - Robotnik: AlemOwl
 - Shadow: AlemOwl
 
@@ -173,6 +231,10 @@
 - Yuuka: Redbean
 - Alice: Redbean
 - Shinki: Redbean
+
+- Olimar: Pikmin 1 (Darrman)
+- Louie: Pikmin 2 (Darrman)
+- President: Pikmin 2 (Darrman)
 
 - Lucina: Garytop
 - Lyn: FE7
@@ -204,6 +266,7 @@
 - Thoron: Mikey Seregon
 - Wind: Arch
 - Tornado: Mikey Seregon
+- Forblaze: FE6 (SHYUTERz)
 
 # Map Sprites:
 - Lord: ThyAnarchists
@@ -234,7 +297,7 @@
 - Etrurian Border: Darrman
 - Outside Bern Keep: FE7 Ch24
 - Pherae Castle: Darrman
-- Graveyard: PLACEHOLDER MAP
+- Araphen: FE6 Ch3
 - Ostia: FE6 Ch7
 - Badon: FE7 Ch16x, Ch20
 - Floodgate: FE2 Alm Ch3 Final Map (Darrman)
@@ -287,6 +350,7 @@
 - Peppy: Star Fox 64
 - Slippy: Star Fox 64 3D
 - Armstrong: Metal Gear Rising
+- Snake: Super Smash Bros Ultimate
 - Yugi: Yu-Gi-Oh Duel Links
 - Joey: Yu-Gi-Oh Duel Links
 - Tea: Yu-Gi-Oh Duel Links
@@ -300,6 +364,11 @@
 - Marisa: Touhou 5: Mystic Square
 - Yuuka: Touhou 5: Mystic Square
 - Mima: Touhou 5: Mystic Square
+- Sonic: Sonic Adventure
+- Tails: Sonic Adventure
+- Knuckles: Sonic Adventure
+- Robotnik: Sonic Adventure
+- Shadow: Sonic Adventure 2
 - All converted by Darrman.
 
 # Music
@@ -383,6 +452,16 @@
 - Status Screen: Darrman
 - Menu Tiles: Darrman, edited from template by Stephano
 
+# Storyline and Dialogue
+- Main story: Darrman
+- Support conversations: Darr's support-writing friend
+- Story planning: Darrman, Darr's support-writing friend
+
+# Playtesting
+- Darrman
+- TheGreatNothing
+- Darr's support-writing friend
+
 # Assembly
 
 - Built on the FE8 Skill System originally by Circleseverywhere.
@@ -404,3 +483,9 @@
 - Dynamic text entries: Knabepicer
 - Dynamic character portraits: Scraiza
 - State 0x33 fix: 7743
+- SNES trading: Aera
+- Item names to eight characters: GigaExcalibur
+- Hackbox extension: Laqieer, Aera
+- Character-based promotions: Sme
+- Battle palette rework: HyperGammaSpaces
+- Restore enemy talk AI: Aera
