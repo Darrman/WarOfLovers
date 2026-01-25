@@ -1,21 +1,21 @@
 ## Ch13WorldMap
-With the expulsion of Marth's army from Elibe,[N]
+With the expulsion of Marth's army from Elibe,[N][Event]
 Alear scored a great victory in her quest.[AN]
 But Marth still draws breath, and the war[N]
-is far from over.[AN]
+is far from over.[AN][Event]
 //Time span should be properly calculated, put in a placeholder for now
 //By point of comparison: it took Columbus five weeks to get from the Canaries
 //to the New World, so six months is way too long. Off-screen non-canon islands
 //to resupply, I suppose? Sure it's not important, but I want to be somewhat
 //plausible with my long inter-continental ocean voyage to get to Valencia.
 Three long months pass as the survivors of[N]
-Lycia sail across the ocean.[AN]
+Lycia sail across the ocean.[AN][Event]
 The party's food supply dwindles, with only[N]
 the occasional fish nourishing them[AN]
 or a chance encounter with a desert island[N]
 providing extra drinking water.[AN]
 With the threat of starvation imminent,[N]
-a reprieve rises above the horizon.[AN]
+a reprieve rises above the horizon.[AN][Event]
 Though distant from Akaneia, its presence[N]
 is still known amongst its people.[AN]
 Marth had arrived on the shores of the[N]

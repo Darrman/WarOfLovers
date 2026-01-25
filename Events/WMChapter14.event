@@ -12,10 +12,21 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch14WorldMap)
 TEXTEND
+WorldMapShowPortraitLeft(0,0x2F) //Alm
+STAL 30
+TEXTCONT
+TEXTEND
+WorldMapShowPortraitRight(1,0x4D) //Celica
+TEXTCONT
+TEXTEND
+WorldMapClearRightPortrait(1)
+STAL 30
+WorldMapClearLeftPortrait(0)
+STAL 30
 WorldMapLoadMapSprite(0, Lord, 0, 12) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, General, 1, 5)
-//WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
-//WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+WorldMapLoadMapSprite(1, BowKnight, 1, 5)
+WorldMapDisplayMapSprite(0, 0, 70, 50, 10)
+WorldMapDisplayMapSprite(1, 0, 44, 92, 10)
 TEXTCONT
 TEXTEND
 //WorldMapShowPortraitLeft(0,0x2) //Marth

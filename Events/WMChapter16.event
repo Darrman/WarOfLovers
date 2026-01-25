@@ -12,13 +12,23 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch16WorldMap)
 TEXTEND
-WorldMapLoadMapSprite(0, Lord, 0, 14) //Marth's node seems to control chapter?
-WorldMapLoadMapSprite(1, General, 1, 5)
-//WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
-//WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
+WorldMapShowPortraitLeft(0,0x2F) //Alm
+STAL 30
+WorldMapShowPortraitRight(1,0x37) //Celine
+STAL 30
 TEXTCONT
 TEXTEND
-//WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapClearRightPortrait(0)
+STAL 20
+WorldMapClearLeftPortrait(1)
+STAL 20
+WM_SETCAM 0 48
+WorldMapLoadMapSprite(0, Lord, 0, 14) //Marth's node seems to control chapter?
+WorldMapLoadMapSprite(1, HeroAlm, 1, 5)
+WorldMapLoadMapSprite(2, Priestess, 1, 5)
+WorldMapDisplayMapSprite(0, 0, 92, 132, 10)
+WorldMapDisplayMapSprite(1, 0, 80, 152, 10)
+WorldMapDisplayMapSprite(2, 0, 104, 152, 10)
 TEXTCONT
 TEXTEND
 
@@ -26,5 +36,6 @@ STAL 60
 FADI 16
 REMSPRITE 0
 REMSPRITE 1
+REMSPRITE 2
 SKIPWN
 ENDA

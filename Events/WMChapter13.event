@@ -5,12 +5,39 @@ WM_Events:
 //We don't want WM_SHOWDRAWNMAP called, so...
 _0xC220
 STAL 2
-WM_SETCAM 0 0
+WM_SETCAM 240 160
 WM_FADEOUT 0x0 0x0 0x0
-MUSC M_ToSofia
+MUSC M_Charge
 STAL 120
 WorldMapShowTextBox
+WorldMapShowPortraitLeft(0,0x02) //Marth
+STAL 30
+WorldMapShowPortraitRight(1,0x2B) //Alear
+STAL 30
 WorldMapTextBegin(Ch13WorldMap)
+TEXTEND
+WorldMapClearRightPortrait(0)
+STAL 30
+TEXTCONT
+TEXTEND
+WorldMapClearLeftPortrait(1)
+STAL 30
+WorldMapLoadMapSprite(3, Fleet, 0, 0)
+WorldMapDisplayMapSprite(3, 0, 348, 228, 10) //south of Badon
+STAL 10
+WorldMapMoveMapSprite(3, 5, 348, 228, 348, 272, 300, 0, 1) //boat sails south
+TEXTCONT
+TEXTEND
+WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
+WorldMapMoveMapSprite(3, 5, 348, 272, 232, 312, 450, 0, 1) //boat sails west
+TEXTCONT
+TEXTEND
+FADI 15
+WM_SETCAM 0 0
+STAL 60
+REMSPRITE 3
+FADU 10
+TEXTCONT
 TEXTEND
 WorldMapLoadMapSprite(0, Lord, 0, 11) //Marth's node seems to control chapter?
 WorldMapLoadMapSprite(1, General, 1, 5)
