@@ -280,8 +280,8 @@ to make up for it! I'm sorry,[N]
 Captain![A][X]
 
 ## EndOfDemoMessage
-[ML][LoadMarth]
-You have made it to the end of[N]
-the current demo. Thank you[AN]
-for playing, and stay tuned[N]
-for any future updates.[A][X]
+[ML][LoadMarth][X]
+//You have made it to the end of[N]
+//the current demo. Thank you[AN]
+//for playing, and stay tuned[N]
+//for any future updates.[A][X]

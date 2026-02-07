@@ -64,7 +64,7 @@ Divine One, please forgive me...[A][CloseEyes][X]
 ## ClanneDeath
 [Left][LoadClanne]
 No... I didn't help here at all...[N]
-Divine One... Alear... help...[A][CloseEyes][X]
+Divine One... help...[A][CloseEyes][X]
 
 ## LouisDeath
 [Left][LoadLouis]
@@ -875,7 +875,7 @@ bring this about?[A][CloseEyes][X]
 ## JonathanDeath
 [Right][LoadJonathan]
 So, everything's all coming down.[N]
-I die for what I believe for.[A][CloseEyes][X]
+I die for what I believe in.[A][CloseEyes][X]
 
 ## WalterDeath
 [Right][LoadWalter]
