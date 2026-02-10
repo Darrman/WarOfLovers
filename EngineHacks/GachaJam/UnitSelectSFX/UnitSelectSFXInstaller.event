@@ -47,6 +47,11 @@ POIN RodyVoiceEffect; POIN LilinaVoiceEffect; POIN EliwoodVoiceEffect
 POIN ZeldaVoiceEffect; POIN MarinVoiceEffect; POIN DededeVoiceEffect; POIN MetaKnightVoiceEffect
 POIN FalcoVoiceEffect; POIN PeppyVoiceEffect; POIN SlippyVoiceEffect
 POIN KashimVoiceEffect; POIN SophiaVoiceEffect; POIN BartreVoiceEffect
+POIN GeorgeVoiceEffect; POIN RicardoVoiceEffect; POIN RosheVoiceEffect; POIN LindaVoiceEffect
+POIN OgumaVoiceEffect; POIN BartsVoiceEffect; POIN RiffVoiceEffect
+POIN MiledyVoiceEffect; POIN WoltVoiceEffect; POIN FirVoiceEffect; POIN ValboVoiceEffect
+POIN AlmVoiceEffect; POIN DyuteVoiceEffect; POIN ClaireVoiceEffect; POIN CamusVoiceEffect
+POIN CelineVoiceEffect; POIN DiamantVoiceEffect; POIN AlearVoiceEffect
 
 WORD 0//End marker
 //Default fire emblem 8 voices definitions and bins

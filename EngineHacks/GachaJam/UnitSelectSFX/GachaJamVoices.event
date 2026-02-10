@@ -35,6 +35,25 @@
 #define VoiceBartreSelect 0x166
 #define VoiceSonicSelect 0x167
 #define VoiceSnakeSelect 0x170
+#define VoiceGeorgeSelect 0x171
+#define VoiceRicardoSelect 0x17A
+#define VoiceRosheSelect 0x17B
+#define VoiceRiffSelect 0x184
+#define VoiceLindaSelect 0x185
+#define VoiceOgumaSelect 0x18E
+#define VoiceBartsSelect 0x18F
+#define VoiceMiledySelect 0x196
+#define VoiceWoltSelect 0x197
+#define VoiceFirSelect 0x198
+#define VoiceValboSelect 0x199
+#define VoiceCamusSelect 0x1A0
+#define VoiceClaireSelect 0x1A1
+#define VoiceDyuteSelect 0x1A2
+#define VoiceAlmSelect 0x1A3
+#define VoiceCelineSelect 0x1AA
+#define VoiceDiamantSelect 0x1AB
+#define VoiceAlearSelect 0x1AC
+#define VoiceAlearSelect2 0x1AD
 
 ALIGN 2
 MarthVoiceEffect:
@@ -822,6 +841,403 @@ WORD $FF00FF
 SnakeVoice_wav:
 #incbin "bin/Snake_ImDoneHere.bin"
 SongTable(VoiceSnakeSelect,SnakeVoice,7)
+
+ALIGN 2
+GeorgeVoiceEffect:
+BYTE George
+BYTE 0x00
+SHORT VoiceGeorgeSelect
+
+GeorgeVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+GeorgeVoice:
+WORD $01
+POIN GeorgeVoice_map
+POIN GeorgeVoice_data
+
+GeorgeVoice_map:
+WORD $3c00
+POIN GeorgeVoice_wav
+WORD $FF00FF
+
+GeorgeVoice_wav:
+#incbin "bin/George_JustAsICalculated.bin"
+SongTable(VoiceGeorgeSelect,GeorgeVoice,7)
+
+ALIGN 2
+RicardoVoiceEffect:
+BYTE Ricardo
+BYTE 0x00
+SHORT VoiceRicardoSelect
+
+RicardoVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RicardoVoice:
+WORD $01
+POIN RicardoVoice_map
+POIN RicardoVoice_data
+
+RicardoVoice_map:
+WORD $3c00
+POIN RicardoVoice_wav
+WORD $FF00FF
+
+RicardoVoice_wav:
+#incbin "bin/Ricardo_TimeToGetRich.bin"
+SongTable(VoiceRicardoSelect,RicardoVoice,7)
+
+ALIGN 2
+RosheVoiceEffect:
+BYTE Roshe
+BYTE 0x00
+SHORT VoiceRosheSelect
+
+RosheVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RosheVoice:
+WORD $01
+POIN RosheVoice_map
+POIN RosheVoice_data
+
+RosheVoice_map:
+WORD $3c00
+POIN RosheVoice_wav
+WORD $FF00FF
+
+RosheVoice_wav:
+#incbin "bin/Roshe_IMustStayTrue.bin"
+SongTable(VoiceRosheSelect,RosheVoice,7)
+
+ALIGN 2
+OgumaVoiceEffect:
+BYTE Oguma
+BYTE 0x00
+SHORT VoiceOgumaSelect
+
+OgumaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+OgumaVoice:
+WORD $01
+POIN OgumaVoice_map
+POIN OgumaVoice_data
+
+OgumaVoice_map:
+WORD $3c00
+POIN OgumaVoice_wav
+WORD $FF00FF
+
+OgumaVoice_wav:
+#incbin "bin/Oguma_YoureInMyWay.bin"
+SongTable(VoiceOgumaSelect,OgumaVoice,7)
+
+ALIGN 2
+LindaVoiceEffect:
+BYTE Linda
+BYTE 0x00
+SHORT VoiceLindaSelect
+
+LindaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+LindaVoice:
+WORD $01
+POIN LindaVoice_map
+POIN LindaVoice_data
+
+LindaVoice_map:
+WORD $3c00
+POIN LindaVoice_wav
+WORD $FF00FF
+
+LindaVoice_wav:
+#incbin "bin/Linda_DivineRadiance.bin"
+SongTable(VoiceLindaSelect,LindaVoice,7)
+
+ALIGN 2
+RiffVoiceEffect:
+BYTE Riff
+BYTE 0x00
+SHORT VoiceRiffSelect
+
+RiffVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RiffVoice:
+WORD $01
+POIN RiffVoice_map
+POIN RiffVoice_data
+
+RiffVoice_map:
+WORD $3c00
+POIN RiffVoice_wav
+WORD $FF00FF
+
+RiffVoice_wav:
+#incbin "bin/Riff_IfIMust.bin"
+SongTable(VoiceRiffSelect,RiffVoice,7)
+
+ALIGN 2
+BartsVoiceEffect:
+BYTE Barts
+BYTE 0x00
+SHORT VoiceBartsSelect
+
+BartsVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+BartsVoice:
+WORD $01
+POIN BartsVoice_map
+POIN BartsVoice_data
+
+BartsVoice_map:
+WORD $3c00
+POIN BartsVoice_wav
+WORD $FF00FF
+
+BartsVoice_wav:
+#incbin "bin/Barts_Timber.bin"
+SongTable(VoiceBartsSelect,BartsVoice,7)
+
+ALIGN 2
+MiledyVoiceEffect:
+BYTE Miledy
+BYTE 0x00
+SHORT VoiceMiledySelect
+
+MiledyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MiledyVoice:
+WORD $01
+POIN MiledyVoice_map
+POIN MiledyVoice_data
+
+MiledyVoice_map:
+WORD $3c00
+POIN MiledyVoice_wav
+WORD $FF00FF
+
+MiledyVoice_wav:
+#incbin "bin/Miledy_IShallNotWaver.bin"
+SongTable(VoiceMiledySelect,MiledyVoice,7)
+
+ALIGN 2
+WoltVoiceEffect:
+BYTE Wolt
+BYTE 0x00
+SHORT VoiceWoltSelect
+
+WoltVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+WoltVoice:
+WORD $01
+POIN WoltVoice_map
+POIN WoltVoice_data
+
+WoltVoice_map:
+WORD $3c00
+POIN WoltVoice_wav
+WORD $FF00FF
+
+WoltVoice_wav:
+#incbin "bin/Wolt_ReadyForThis.bin"
+SongTable(VoiceWoltSelect,WoltVoice,7)
+
+ALIGN 2
+FirVoiceEffect:
+BYTE Fir
+BYTE 0x00
+SHORT VoiceFirSelect
+
+FirVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+FirVoice:
+WORD $01
+POIN FirVoice_map
+POIN FirVoice_data
+
+FirVoice_map:
+WORD $3c00
+POIN FirVoice_wav
+WORD $FF00FF
+
+FirVoice_wav:
+#incbin "bin/Fir_IWontLose.bin"
+SongTable(VoiceFirSelect,FirVoice,7)
+
+ALIGN 2
+ValboVoiceEffect:
+BYTE Valbo
+BYTE 0x00
+SHORT VoiceValboSelect
+
+ValboVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ValboVoice:
+WORD $01
+POIN ValboVoice_map
+POIN ValboVoice_data
+
+ValboVoice_map:
+WORD $3c00
+POIN ValboVoice_wav
+WORD $FF00FF
+
+ValboVoice_wav:
+#incbin "bin/Valbo_IllMakeYouPay.bin"
+SongTable(VoiceValboSelect,ValboVoice,7)
+
+ALIGN 2
+CamusVoiceEffect:
+BYTE Camus
+BYTE 0x00
+SHORT VoiceCamusSelect
+
+CamusVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+CamusVoice:
+WORD $01
+POIN CamusVoice_map
+POIN CamusVoice_data
+
+CamusVoice_map:
+WORD $3c00
+POIN CamusVoice_wav
+WORD $FF00FF
+
+CamusVoice_wav:
+#incbin "bin/Camus_PreparedAreYou.bin"
+SongTable(VoiceCamusSelect,CamusVoice,7)
+
+ALIGN 2
+DyuteVoiceEffect:
+BYTE Dyute
+BYTE 0x00
+SHORT VoiceDyuteSelect
+
+DyuteVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DyuteVoice:
+WORD $01
+POIN DyuteVoice_map
+POIN DyuteVoice_data
+
+DyuteVoice_map:
+WORD $3c00
+POIN DyuteVoice_wav
+WORD $FF00FF
+
+DyuteVoice_wav:
+#incbin "bin/Dyute_LetsMakeThisQuick.bin"
+SongTable(VoiceDyuteSelect,DyuteVoice,7)
+
+ALIGN 2
+ClaireVoiceEffect:
+BYTE Claire
+BYTE 0x00
+SHORT VoiceClaireSelect
+
+ClaireVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+ClaireVoice:
+WORD $01
+POIN ClaireVoice_map
+POIN ClaireVoice_data
+
+ClaireVoice_map:
+WORD $3c00
+POIN ClaireVoice_wav
+WORD $FF00FF
+
+ClaireVoice_wav:
+#incbin "bin/Claire_YouShouldBeHonoured.bin"
+SongTable(VoiceClaireSelect,ClaireVoice,7)
+
+ALIGN 2
+AlmVoiceEffect:
+BYTE Alm
+BYTE 0x00
+SHORT VoiceAlmSelect
+
+AlmVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+AlmVoice:
+WORD $01
+POIN AlmVoice_map
+POIN AlmVoice_data
+
+AlmVoice_map:
+WORD $3c00
+POIN AlmVoice_wav
+WORD $FF00FF
+
+AlmVoice_wav:
+#incbin "bin/Alm_YouLeaveMeNoChoice.bin"
+SongTable(VoiceAlmSelect,AlmVoice,7)
+
+ALIGN 2
+CelineVoiceEffect:
+BYTE Celine
+BYTE 0x00
+SHORT VoiceCelineSelect
+
+CelineVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+CelineVoice:
+WORD $01
+POIN CelineVoice_map
+POIN CelineVoice_data
+
+CelineVoice_map:
+WORD $3c00
+POIN CelineVoice_wav
+WORD $FF00FF
+
+CelineVoice_wav:
+#incbin "bin/Celine_IWillDoWhatIMust.bin"
+SongTable(VoiceCelineSelect,CelineVoice,7)
+
+ALIGN 2
+AlearVoiceEffect:
+BYTE Alear
+BYTE 0x00
+SHORT VoiceAlearSelect
+
+AlearVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+AlearVoice:
+WORD $01
+POIN AlearVoice_map
+POIN AlearVoice_data
+
+AlearVoice_map:
+WORD $3c00
+POIN AlearVoice_wav
+WORD $FF00FF
+
+AlearVoice_wav:
+#incbin "bin/Alear_IAmTheFireEmblem.bin"
+SongTable(VoiceAlearSelect,AlearVoice,7)
+
+ALIGN 2
+DiamantVoiceEffect:
+BYTE Diamant
+BYTE 0x00
+SHORT VoiceDiamantSelect
+
+DiamantVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+DiamantVoice:
+WORD $01
+POIN DiamantVoice_map
+POIN DiamantVoice_data
+
+DiamantVoice_map:
+WORD $3c00
+POIN DiamantVoice_wav
+WORD $FF00FF
+
+DiamantVoice_wav:
+#incbin "bin/Diamant_ForThePrideOfBrodia.bin"
+SongTable(VoiceDiamantSelect,DiamantVoice,7)
+
 
 /*ALIGN 2
 EirikaSoundEffect:
