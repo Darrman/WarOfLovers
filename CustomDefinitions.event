@@ -688,6 +688,13 @@
 #define CGRobotnik 0x75
 #define CGShadow 0x76
 #define CGSnake 0x77
+#define CGKain 0x78
+#define CGRydia 0x79
+#define CGRosa 0x7A
+#define CGLenna 0x7B
+#define CGGaluf 0x7C
+#define CGCeles 0x7D
+#define CGLocke 0x7E
 
 //Event IDs
 #define JamModeOn 0x71

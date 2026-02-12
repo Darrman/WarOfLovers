@@ -137,6 +137,13 @@ POIN KnucklesBG; WORD 0x0; POIN KnucklesBGPal
 POIN RobotnikBG; WORD 0x0; POIN RobotnikBGPal
 POIN ShadowBG; WORD 0x0; POIN ShadowBGPal
 POIN SnakeBG; WORD 0x0; POIN SnakeBGPal
+POIN KainBG; WORD 0x0; POIN KainBGPal
+POIN RydiaBG; WORD 0x0; POIN RydiaBGPal
+POIN RosaBG; WORD 0x0; POIN RosaBGPal
+POIN LennaBG; WORD 0x0; POIN LennaBGPal
+POIN GalufBG; WORD 0x0; POIN GalufBGPal
+POIN CelesBG; WORD 0x0; POIN CelesBGPal
+POIN LockeBG; WORD 0x0; POIN LockeBGPal
 
 
 // TSA == 0 indicates 256-colour BGs
@@ -525,3 +532,45 @@ SnakeBG:
 ALIGN 4
 SnakeBGPal:
 #incbin bin/256SnakePal.dmp
+
+KainBG:
+#incbin bin/256Kain.dmp
+ALIGN 4
+KainBGPal:
+#incbin bin/256KainPal.dmp
+
+RydiaBG:
+#incbin bin/256Rydia.dmp
+ALIGN 4
+RydiaBGPal:
+#incbin bin/256RydiaPal.dmp
+
+RosaBG:
+#incbin bin/256Rosa.dmp
+ALIGN 4
+RosaBGPal:
+#incbin bin/256RosaPal.dmp
+
+LennaBG:
+#incbin bin/256Lenna.dmp
+ALIGN 4
+LennaBGPal:
+#incbin bin/256LennaPal.dmp
+
+GalufBG:
+#incbin bin/256Galuf.dmp
+ALIGN 4
+GalufBGPal:
+#incbin bin/256GalufPal.dmp
+
+CelesBG:
+#incbin bin/256Celes.dmp
+ALIGN 4
+CelesBGPal:
+#incbin bin/256CelesPal.dmp
+
+LockeBG:
+#incbin bin/256Locke.dmp
+ALIGN 4
+LockeBGPal:
+#incbin bin/256LockePal.dmp

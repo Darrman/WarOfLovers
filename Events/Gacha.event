@@ -552,8 +552,7 @@ SVAL s2 Popo
 ENDA
 
 RosaCommon:
-//SetBackground(CGRosa)
-SetBackground(CGBlackScreen)
+SetBackground(CGRosa)
 //SOUN VoiceRosaSummon
 STAL 20
 CGTEXTSTART
@@ -565,8 +564,7 @@ SVAL s2 Rosa
 ENDA
 
 KainFF4Common:
-//SetBackground(CGKainFF4)
-SetBackground(CGBlackScreen)
+SetBackground(CGKain)
 //SOUN VoiceKainFF4Summon
 STAL 20
 CGTEXTSTART
@@ -578,8 +576,7 @@ SVAL s2 KainFF4
 ENDA
 
 RydiaCommon:
-//SetBackground(CGRydia)
-SetBackground(CGBlackScreen)
+SetBackground(CGRydia)
 //SOUN VoiceRydiaSummon
 STAL 20
 CGTEXTSTART
@@ -591,8 +588,7 @@ SVAL s2 Rydia
 ENDA
 
 LennaCommon:
-//SetBackground(CGLenna)
-SetBackground(CGBlackScreen)
+SetBackground(CGLenna)
 //SOUN VoiceLennaSummon
 STAL 20
 CGTEXTSTART
@@ -604,8 +600,7 @@ SVAL s2 Lenna
 ENDA
 
 GalufCommon:
-//SetBackground(CGGaluf)
-SetBackground(CGBlackScreen)
+SetBackground(CGGaluf)
 //SOUN VoiceGalufSummon
 STAL 20
 CGTEXTSTART
@@ -617,8 +612,7 @@ SVAL s2 Galuf
 ENDA
 
 CelesCommon:
-//SetBackground(CGCeles)
-SetBackground(CGBlackScreen)
+SetBackground(CGCeles)
 //SOUN VoiceCelesSummon
 STAL 20
 CGTEXTSTART
@@ -630,8 +624,7 @@ SVAL s2 Celes
 ENDA
 
 LockeCommon:
-//SetBackground(CGLocke)
-SetBackground(CGBlackScreen)
+SetBackground(CGLocke)
 //SOUN VoiceLockeSummon
 STAL 20
 CGTEXTSTART
