@@ -178,7 +178,7 @@ UNIT
 CutsceneBarthGate:
 UNIT Barth General 0x00 Level(5,NPC,0) [4,9] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
 UNIT Wendy LanceArmour 0x0 Level(10,NPC,0) [5,9] 0x0 0x0 0x0 0x0 [SteelLance, Javelin] GuardTileAI
-UNIT Alfonse Hero 0x00 Level(20,Enemy,0) [4,10] 0x00 0x0 0x0 0x0 [Falchion] NoAI
+UNIT Alfonse Hero 0x00 Level(20,NPC,0) [4,10] 0x00 0x0 0x0 0x0 [Falchion] NoAI
 UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [4,21] 0x0 0x0 0x0 0x0 [Fire] NoAI
 UNIT Eliwood Paladin 0x00 Level(1,Ally,0) [4,22] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
 UNIT
@@ -199,7 +199,7 @@ UNIT
 CutsceneDiamantDemands:
 UNIT Lilina Mage_F 0x00 Level(10,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [Fire] NoAI
 UNIT Marth Lord 0x00 Level(1,Ally,0) [3,7] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Diamant Hero 0x00 Level(3,Enemy,0) [9,16] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
+UNIT Diamant MasterLord 0x00 Level(3,Enemy,0) [9,16] DropItem 0x0 0x0 0x0 [SilverSword/*, RoyRing, EarthOrb*/] GuardTileAI
 UNIT Ch7Boss Cavalier 0x00 Level(1,Enemy,0) [9,17] 0x0 0x0 0x0 0x0 [IronSword] NoAI //Arcard Jr is unfought, so no ID
 UNIT Barth General 0x00 Level(5,NPC,0) [4,9] 0x00 0x0 0x0 0x0 [SilverLance, HandAxe, Elixir] NoAI
 UNIT
@@ -643,11 +643,12 @@ MOVE 10 Eliwood [2,5]
 //Can only move four units at once, commenting out Akaneians as they're not in next cutscene
 ENUN
 EVBIT_F 9 //stop following
-LOAD2 0x2 CutsceneEndingBad
-CAM1 Alear
-MUSC M_Stratagem
-FlashCursor(Framme,60)
-Text(Volcano,Ch11EndingTwistyLittlePassages)
+//This scene's been cut out entirely
+//LOAD2 0x2 CutsceneEndingBad
+//CAM1 Alear
+//MUSC M_Stratagem
+//FlashCursor(Framme,60)
+//Text(Volcano,Ch11EndingTwistyLittlePassages)
 CAM1 Lilina
 FlashCursor(Lilina,60)
 CHECK_EVENTID DiamantDead

@@ -287,7 +287,7 @@ setMugEntry(0x3E, VeyleMug, 4,6,4,4)
 
 AlfonseMug:
 #incext PortraitFormatter "Alfonse.png"
-setMugEntry(0x3F, AlfonseMug, 3,6,3,4)
+setMugEntry(0x3F, AlfonseMug, 4,4,4,2)
 
 CaesarMug:
 #incext PortraitFormatter "Caesar.png"
@@ -506,7 +506,7 @@ setMugEntry(0xC7, Framme_Mug, 4,6,4,4)
 
 Lapis_Mug:
 #incext PortraitFormatter "Lapis.png"
-setMugEntry(0xC8, Lapis_Mug, 3,7,3,5)
+setMugEntry(0xC8, Lapis_Mug, 2,6,3,4)
 
 Marcus_Mug:
 #incext PortraitFormatter "Marcus.png"

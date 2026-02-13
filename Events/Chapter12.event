@@ -195,6 +195,8 @@ BeginningScene:
 VCWF 0 //no fog during the cutscenes
 LOMA 0x45 //FE6 Ch8x
 MUSC M_AnUnexpectedCaller
+CHECK_ALIVE Lilina
+BEQ s0 sC 1210
 LOAD2 0x0 CutsceneCaveLilinaChiki
 LOAD3 0x1 CutsceneCaveRandomUnits
 CAM1 Lilina
@@ -204,6 +206,11 @@ Text(Volcano,Ch12OpeningExplainingTheEscape)
 MOVE 10 Lilina [24,25]
 MOVE 10 Chiki [25,25]
 ENUN
+GOTO 1211
+LABEL 1210
+//No Lilina variant, not writing these right now
+Text(Volcano,PlaceholderText)
+LABEL 1211
 FADI 10
 CLEA 0
 LOMA 12 //actual chapter

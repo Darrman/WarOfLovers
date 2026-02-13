@@ -118,10 +118,10 @@ And so, all shall be revealed...
 - Veyle: Sterling_Glovner
 - Athena: FE11 (Darrman)
 - Louis: Sterling_Glovner
-- Alfonse: FEH (Darrman)
+- Alfonse: Harpocrates
 - Veronica: FEH (Darrman)
 - Rodent: FE7, palette swapped by Darrman
-- "Arcard Junior": FE6 (Obsidian Daddy, Lenh)
+- Nicholas: FE6 (Obsidian Daddy, Lenh)
 - Amber: Sterling_Glovner
 - Berthold: FE6 (Obsidian Daddy, Lenh), palette swapped by Darrman
 - Merlinus: FE6 (Obsidian Daddy, Lenh)
@@ -129,7 +129,7 @@ And so, all shall be revealed...
 - Citrinne: CavalryUnits
 - Framme: Maximus03, Norikins (minimug)
 - Gebhard: FE6 (Obsidian Daddy, Lenh)
-- Lapis: FE17 (Darrman)
+- Lapis: Thorn
 - Etie: FE17 (Darrman)
 - Chloe: Sterling_Glovner
 - Jade: Sterling_Glovner
@@ -351,6 +351,7 @@ And so, all shall be revealed...
 - Slippy: Star Fox 64 3D
 - Armstrong: Metal Gear Rising
 - Snake: Super Smash Bros Ultimate
+- Raiden: Metal Gear Solid 2
 - Yugi: Yu-Gi-Oh Duel Links
 - Joey: Yu-Gi-Oh Duel Links
 - Tea: Yu-Gi-Oh Duel Links
@@ -369,6 +370,27 @@ And so, all shall be revealed...
 - Knuckles: Sonic Adventure
 - Robotnik: Sonic Adventure
 - Shadow: Sonic Adventure 2
+- Kain: Final Fantasy 4
+- Rydia: Final Fantasy 4
+- Rosa: Final Fantasy 4
+- Lenna: Final Fantasy 5
+- Galuf: Final Fantasy 5
+- Celes: Final Fantasy 6
+- Locke: Final Fantasy 6
+- Ganon: The Legend of Zelda: Ocarina of Time
+- Happy Mask Salesman: The Legend of Zelda: Majora's Mask
+- Wolf: Super SMash Bros Brawl
+- Mewtwo: Pokemon Red and Blue
+- Mr. Game and Watch: Super Smash Bros Brawl
+- Popo: Super Smash Bros Brawl
+- Olimar: Super Smash Bros Brawl
+- Louie: Pikmin 2
+- President: Pikmin 2
+- Flynn: Shin Megami Tensei 4
+- Isabeau: Shin Megami Tensei 4
+- Jonathan: Shin Megami Tensei 4
+- Walter: Shin Megami Tensei 4
+
 - All converted by Darrman.
 
 # Music
@@ -406,15 +428,7 @@ And so, all shall be revealed...
 - Twilight of the Gods: DrGreen3339
 
 - Voice lines from:
-- Marth: Fire Emblem Heroes
-- Sheeda: Fire Emblem Heroes
-- Chiki: Fire Emblem Heroes
-- Lilina: Fire Emblem Heroes
-- Eliwood: Fire Emblem Heroes
-- Rody: Fire Emblem Heroes
-- Kashim: Fire Emblem Heroes
-- Sophia: Fire Emblem Heroes
-- Bartre: Fire Emblem Heroes
+- All Fire Emblem characters: Fire Emblem Heroes
 - Mario: Super Mario 64
 - DK: Donkey Kong 64
 - Link: Super Smash Bros Melee
