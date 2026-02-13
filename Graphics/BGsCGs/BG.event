@@ -144,7 +144,20 @@ POIN LennaBG; WORD 0x0; POIN LennaBGPal
 POIN GalufBG; WORD 0x0; POIN GalufBGPal
 POIN CelesBG; WORD 0x0; POIN CelesBGPal
 POIN LockeBG; WORD 0x0; POIN LockeBGPal
-
+POIN GanonBG; WORD 0x0; POIN GanonBGPal
+POIN SalesmanBG; WORD 0x0; POIN SalesmanBGPal
+POIN WolfBG; WORD 0x0; POIN WolfBGPal
+POIN MewtwoBG; WORD 0x0; POIN MewtwoBGPal
+POIN MrGameAndWatchBG; WORD 0x0; POIN MrGameAndWatchBGPal
+POIN PopoBG; WORD 0x0; POIN PopoBGPal
+POIN OlimarBG; WORD 0x0; POIN OlimarBGPal
+POIN LouieBG; WORD 0x0; POIN LouieBGPal
+POIN PresidentBG; WORD 0x0; POIN PresidentBGPal
+POIN RaidenBG; WORD 0x0; POIN RaidenBGPal
+POIN FlynnBG; WORD 0x0; POIN FlynnBGPal
+POIN IsabeauBG; WORD 0x0; POIN IsabeauBGPal
+POIN JonathanBG; WORD 0x0; POIN JonathanBGPal
+POIN WalterBG; WORD 0x0; POIN WalterBGPal
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -574,3 +587,87 @@ LockeBG:
 ALIGN 4
 LockeBGPal:
 #incbin bin/256LockePal.dmp
+
+GanonBG:
+#incbin bin/256Ganon.dmp
+ALIGN 4
+GanonBGPal:
+#incbin bin/256GanonPal.dmp
+
+SalesmanBG:
+#incbin bin/256Salesman.dmp
+ALIGN 4
+SalesmanBGPal:
+#incbin bin/256SalesmanPal.dmp
+
+WolfBG:
+#incbin bin/256Wolf.dmp
+ALIGN 4
+WolfBGPal:
+#incbin bin/256WolfPal.dmp
+
+MewtwoBG:
+#incbin bin/256Mewtwo.dmp
+ALIGN 4
+MewtwoBGPal:
+#incbin bin/256MewtwoPal.dmp
+
+MrGameAndWatchBG:
+#incbin bin/256MrGameAndWatch.dmp
+ALIGN 4
+MrGameAndWatchBGPal:
+#incbin bin/256MrGameAndWatchPal.dmp
+
+PopoBG:
+#incbin bin/256Popo.dmp
+ALIGN 4
+PopoBGPal:
+#incbin bin/256PopoPal.dmp
+
+OlimarBG:
+#incbin bin/256Olimar.dmp
+ALIGN 4
+OlimarBGPal:
+#incbin bin/256OlimarPal.dmp
+
+LouieBG:
+#incbin bin/256Louie.dmp
+ALIGN 4
+LouieBGPal:
+#incbin bin/256LouiePal.dmp
+
+PresidentBG:
+#incbin bin/256President.dmp
+ALIGN 4
+PresidentBGPal:
+#incbin bin/256PresidentPal.dmp
+
+RaidenBG:
+#incbin bin/256Raiden.dmp
+ALIGN 4
+RaidenBGPal:
+#incbin bin/256RaidenPal.dmp
+
+FlynnBG:
+#incbin bin/256Flynn.dmp
+ALIGN 4
+FlynnBGPal:
+#incbin bin/256FlynnPal.dmp
+
+IsabeauBG:
+#incbin bin/256Isabeau.dmp
+ALIGN 4
+IsabeauBGPal:
+#incbin bin/256IsabeauPal.dmp
+
+JonathanBG:
+#incbin bin/256Jonathan.dmp
+ALIGN 4
+JonathanBGPal:
+#incbin bin/256JonathanPal.dmp
+
+WalterBG:
+#incbin bin/256Walter.dmp
+ALIGN 4
+WalterBGPal:
+#incbin bin/256WalterPal.dmp

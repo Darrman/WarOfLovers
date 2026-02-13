@@ -695,6 +695,20 @@
 #define CGGaluf 0x7C
 #define CGCeles 0x7D
 #define CGLocke 0x7E
+#define CGGanon 0x7F
+#define CGSalesman 0x80
+#define CGWolf 0x81
+#define CGMewtwo 0x82
+#define CGMrGameAndWatch 0x83
+#define CGPopo 0x84
+#define CGOlimar 0x85
+#define CGLouie 0x86
+#define CGPresident 0x87
+#define CGRaiden 0x88
+#define CGFlynn 0x89
+#define CGIsabeau 0x8A
+#define CGJonathan 0x8B
+#define CGWalter 0x8C
 
 //Event IDs
 #define JamModeOn 0x71

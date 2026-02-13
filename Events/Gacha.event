@@ -474,8 +474,7 @@ SVAL s2 Slippy
 ENDA
 
 SalesmanCommon:
-//SetBackground(CGSalesman)
-SetBackground(CGBlackScreen) //placeholder if no CG
+SetBackground(CGSalesman)
 //SOUN VoiceSalesmanSummon
 STAL 20
 CGTEXTSTART
@@ -487,8 +486,7 @@ SVAL s2 Salesman
 ENDA
 
 GanonCommon:
-//SetBackground(CGGanon)
-SetBackground(CGBlackScreen)
+SetBackground(CGGanon)
 //SOUN VoiceGanonSummon
 STAL 20
 CGTEXTSTART
@@ -500,8 +498,7 @@ SVAL s2 Ganon
 ENDA
 
 WolfCommon:
-//SetBackground(CGWolf)
-SetBackground(CGBlackScreen)
+SetBackground(CGWolf)
 //SOUN VoiceWolfSummon
 STAL 20
 CGTEXTSTART
@@ -513,8 +510,7 @@ SVAL s2 Wolf
 ENDA
 
 MewtwoCommon:
-//SetBackground(CGMewtwo)
-SetBackground(CGBlackScreen)
+SetBackground(CGMewtwo)
 //SOUN VoiceMewtwoSummon
 STAL 20
 CGTEXTSTART
@@ -526,9 +522,7 @@ SVAL s2 Mewtwo
 ENDA
 
 MrGAndWCommon:
-//SetBackground(CGMrGandW)
-SetBackground(CGBlackScreen)
-//SOUN VoiceMrGandWSummon
+SetBackground(CGMrGameAndWatch)
 STAL 20
 CGTEXTSTART
 TEXTSHOW RecruitMrGAndW
@@ -539,8 +533,7 @@ SVAL s2 MrGAndW
 ENDA
 
 PopoCommon:
-//SetBackground(CGPopo)
-SetBackground(CGBlackScreen)
+SetBackground(CGPopo)
 //SOUN VoicePopoSummon
 STAL 20
 CGTEXTSTART
@@ -720,8 +713,7 @@ SVAL s2 Chazz
 ENDA
 
 OlimarCommon:
-//SetBackground(CGOlimar)
-SetBackground(CGBlackScreen)
+SetBackground(CGOlimar)
 //SOUN VoiceOlimarSummon
 STAL 20
 CGTEXTSTART
@@ -733,8 +725,7 @@ SVAL s2 Olimar
 ENDA
 
 LouieCommon:
-//SetBackground(CGLouie)
-SetBackground(CGBlackScreen)
+SetBackground(CGLouie)
 //SOUN VoiceLouieSummon
 STAL 20
 CGTEXTSTART
@@ -746,8 +737,7 @@ SVAL s2 Louie
 ENDA
 
 PresidentCommon:
-//SetBackground(CGPresident)
-SetBackground(CGBlackScreen)
+SetBackground(CGPresident)
 //SOUN VoicePresidentSummon
 STAL 20
 CGTEXTSTART
@@ -771,7 +761,7 @@ SVAL s2 Snake
 ENDA
 
 RaidenCommon:
-//SetBackground(CGRaiden)
+SetBackground(CGRaiden)
 //SOUN VoiceRaidenSummon
 STAL 20
 CGTEXTSTART
@@ -855,8 +845,7 @@ SVAL s2 Shadow
 ENDA
 
 FlynnCommon:
-//SetBackground(CGFlynn)
-SetBackground(CGBlackScreen)
+SetBackground(CGFlynn)
 //SOUN VoiceFlynnSummon
 STAL 20
 CGTEXTSTART
@@ -868,8 +857,7 @@ SVAL s2 Flynn
 ENDA
 
 IsabeauCommon:
-//SetBackground(CGIsabeau)
-SetBackground(CGBlackScreen)
+SetBackground(CGIsabeau)
 //SOUN VoiceIsabeauSummon
 STAL 20
 CGTEXTSTART
@@ -881,8 +869,7 @@ SVAL s2 Isabeau
 ENDA
 
 JonathanCommon:
-//SetBackground(CGJonathan)
-SetBackground(CGBlackScreen)
+SetBackground(CGJonathan)
 //SOUN VoiceJonathanSummon
 STAL 20
 CGTEXTSTART
@@ -894,8 +881,7 @@ SVAL s2 Jonathan
 ENDA
 
 WalterCommon:
-//SetBackground(CGWalter)
-SetBackground(CGBlackScreen)
+SetBackground(CGWalter)
 //SOUN VoiceWalterSummon
 STAL 20
 CGTEXTSTART
