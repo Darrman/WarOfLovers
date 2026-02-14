@@ -165,6 +165,11 @@ SongTable(M_MysteryOfTheEmblem,MysteryOfTheEmblem,0)
 SongTable(M_EndingMedleyBook1,B1EndingMedley,0)
 }
 
+{
+#include "VillageGirl.event"
+SongTable(M_VillageGirl,VillageGirl,0)
+}
+
 //Elibe (FE6, 7)
 
 {
@@ -251,6 +256,8 @@ SongTable(M_IntoTheShadowOfTriumph,IntoTheShadowOfTriumph,0)
 #include "ScarsOfTheScouring.event"
 SongTable(M_ScarsOfTheScouring,ScarsOfTheScouring,1)
 }
+
+//Valencia (FE2, 15)
 
 {
 #include "MarchToLiberation.event"

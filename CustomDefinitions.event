@@ -556,6 +556,7 @@
 #define M_GameOverBook1 In_Sorrows_Shroud
 #define M_MysteryOfTheEmblem PrologueMusic
 #define M_EndingMedleyBook1 Records
+#define M_VillageGirl Bonds
 
 //Elibe
 #define M_FE6Attack 0x56 //piece of ending music
