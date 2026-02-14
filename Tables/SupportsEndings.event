@@ -3,74 +3,249 @@
 #define SupportGrowths(Char1, Char2, Char3, Char4, Char5, Char6, Char7) "BYTE Char1 Char2 Char3 Char4 Char5 Char6 Char7"
 
 MarthSupports:
-CharacterSupport(Sheeda, Chiki, 0, 0, 0, 0, 0)
-SupportBases(70, 40, 0, 0, 0, 0, 0)
-SupportGrowths(10, 7, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(Sheeda, Chiki, Eliwood, Celine, Marich, BaldoDescendant, Malliesia)
+SupportBases(70, 40, 20, 0, 50, 0, 30)
+SupportGrowths(10, 7, 3, 3, 5, 2, 2)
+BYTE 7 //support count
 BYTE 0 0
 
 SheedaSupports:
-CharacterSupport(Marth, Chiki, 0, 0, 0, 0, 0)
-SupportBases(70, 40, 0, 0, 0, 0, 0)
-SupportGrowths(10, 7, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(Marth, Chiki, Oguma, Kashim, Lilina, Celine, 0)
+SupportBases(70, 40, 40, 30, 20, 0, 0)
+SupportGrowths(10, 7, 5, 3, 3, 3, 0)
+BYTE 6 //support count
 BYTE 0 0
 
 ChikiSupports:
-CharacterSupport(Marth, Sheeda, 0, 0, 0, 0, 0)
-SupportBases(40, 40, 0, 0, 0, 0, 0)
-SupportGrowths(7, 7, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(Marth, Sheeda, Gato, Riff, Sophia, Alm, 0)
+SupportBases(40, 40, 60, 20, 20, 0, 0)
+SupportGrowths(7, 7, 1, 2, 2, 1, 0)
+BYTE 6 //support count
 BYTE 0 0
 
 MarichSupports:
-CharacterSupport(Ellis, 0, 0, 0, 0, 0, 0)
-SupportBases(78, 0, 0, 0, 0, 0, 0)
-SupportGrowths(3, 0, 0, 0, 0, 0, 0)
-BYTE 1 //support count
+CharacterSupport(Ellis, Marth, Linda, Dyute, 0, 0, 0)
+SupportBases(78, 50, 40, 10, 0, 0, 0)
+SupportGrowths(10, 5, 4, 3, 0, 0, 0)
+BYTE 4 //support count
 BYTE 0 0
 
 EllisSupports:
-CharacterSupport(Marich, 0, 0, 0, 0, 0, 0)
-SupportBases(78, 0, 0, 0, 0, 0, 0)
-SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+CharacterSupport(Marich, Linda, 0, 0, 0, 0, 0)
+SupportBases(78, 30, 0, 0, 0, 0, 0)
+SupportGrowths(10, 3, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
 LilinaSupports:
-CharacterSupport(Roy, Eliwood, 0, 0, 0, 0, 0)
-SupportBases(78, 50, 0, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(Roy, Eliwood, Sophia, Sheeda, Linda, Astore, 0)
+SupportBases(78, 50, 30, 20, 10, 30, 0)
+SupportGrowths(10, 5, 3, 3, 2, 3, 0)
+BYTE 6 //support count
 BYTE 0 0
 
 EliwoodSupports:
 //Leave three blank where an A Ninian once was
-CharacterSupport(/*Ninian*/Roy, Lilina, 0, 0, 0, 0, 0)
-SupportBases(/*241*/78, 50, 0, 0, 0, 0, 0)
-SupportGrowths(/*3*/3, 3, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(/*Ninian*/Roy, Lilina, Bartre, Wolt, Marth, 0, 0)
+SupportBases(/*241*/78, 50, 30, 30, 20, 0, 0)
+SupportGrowths(/*3*/10, 5, 3, 3, 3, 0, 0)
+BYTE 5 //support count
 BYTE 0 0
 
 RoySupports:
-CharacterSupport(Lilina, Eliwood, 0, 0, 0, 0, 0)
-SupportBases(78, 50, 0, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
-BYTE 2 //support count
+CharacterSupport(Lilina, Eliwood, Wolt, Sophia, 0, 0, 0)
+SupportBases(78, 78, 40, 40, 0, 0, 0)
+SupportGrowths(10, 10, 5, 4, 0, 0, 0)
+BYTE 4 //support count
 BYTE 0 0
 
 AlmSupports:
-CharacterSupport(Celica, 0, 0, 0, 0, 0, 0)
-SupportBases(78, 0, 0, 0, 0, 0, 0)
-SupportGrowths(3, 0, 0, 0, 0, 0, 0)
-BYTE 1 //support count
+CharacterSupport(Celica, Celine, Claire, Camus, Chiki, Valbo, 0)
+SupportBases(78, 0, 40, 30, 0, 25, 0)
+SupportGrowths(10, 1, 5, 4, 1, 3, 0)
+BYTE 6 //support count
 BYTE 0 0
 
 CelicaSupports:
-CharacterSupport(Alm, 0, 0, 0, 0, 0, 0)
-SupportBases(78, 0, 0, 0, 0, 0, 0)
-SupportGrowths(3, 0, 0, 0, 0, 0, 0)
-BYTE 1 //support count
+CharacterSupport(Alm, Valbo, 0, 0, 0, 0, 0)
+SupportBases(78, 30, 0, 0, 0, 0, 0)
+SupportGrowths(10, 3, 0, 0, 0, 0, 0)
+BYTE 2 //support count
+BYTE 0 0
+
+GeorgeSupports:
+CharacterSupport(Gordon, Ryan, Tomth, Ricardo, Malliesia, Roshe, 0)
+SupportBases(60, 40, 30, 20, 20, 20, 0)
+SupportGrowths(7, 5, 3, 2, 2, 2, 0)
+BYTE 6
+BYTE 0 0
+
+MalliesiaSupports:
+CharacterSupport(Marth, George, Ricardo, Camus, Riff, Dyute, 0)
+SupportBases(30, 20, 20, 25, 20, 10, 0)
+SupportGrowths(2, 2, 2, 2, 2, 2, 0)
+BYTE 6
+BYTE 0 0
+
+RicardoSupports:
+CharacterSupport(Kashim, George, Malliesia, Astore, Navarre, 0, 0)
+SupportBases(20, 20, 20, 10, 10, 0, 0)
+SupportGrowths(2, 2, 2, 2, 2, 0, 0)
+BYTE 5
+BYTE 0 0
+
+CaesarSupports:
+CharacterSupport(Roshe, Oguma, Ryan, Barts, 0, 0, 0)
+SupportBases(20, 20, 20, 20, 0, 0, 0)
+SupportGrowths(2, 2, 2, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+TomthSupports:
+CharacterSupport(George, Valbo, Camus, Miledy, 0, 0, 0)
+SupportBases(30, 10, 20, 10, 0, 0, 0)
+SupportGrowths(3, 2, 2, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+RyanSupports:
+CharacterSupport(Gordon, George, Wolt, Caesar, Rody, 0, 0)
+SupportBases(50, 40, 10, 20, 20, 0, 0)
+SupportGrowths(6, 5, 2, 2, 2, 0, 0)
+BYTE 3
+BYTE 0 0
+
+SajiSupports:
+CharacterSupport(Barts, Roshe, Bartre, 0, 0, 0, 0)
+SupportBases(30, 20, 10, 0, 0, 0, 0)
+SupportGrowths(4, 2, 2, 0, 0, 0, 0)
+BYTE 3
+BYTE 0 0
+
+RosheSupports:
+CharacterSupport(Saji, George, Kain, Fir, Caesar, 0, 0)
+SupportBases(20, 20, 20, 10, 20, 20, 0)
+SupportGrowths(2, 2, 2, 2, 2, 2, 0)
+BYTE 4
+BYTE 0 0
+
+RodySupports:
+CharacterSupport(Kain, Marich, Ryan, 0, 0, 0, 0)
+SupportBases(20, 20, 20, 0, 0, 0, 0)
+SupportGrowths(2, 2, 2, 0, 0, 0, 0)
+BYTE 3
+BYTE 0 0
+
+KashimSupports:
+CharacterSupport(Sheeda, Ricardo, Fir, Astore, 0, 0, 0)
+SupportBases(30, 20, 10, 10, 0, 0, 0)
+SupportGrowths(3, 2, 2, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+RiffSupports:
+CharacterSupport(Chiki, Malliesia, Oguma, Claire, Bartre, 0, 0)
+SupportBases(20, 20, 20, 10, 10, 0, 0)
+SupportGrowths(2, 2, 2, 2, 2, 0, 0)
+BYTE 5
+BYTE 0 0
+
+LindaSupports:
+CharacterSupport(Marich, Ellis, Oguma, Dyute, Lilina, Camus, 0)
+SupportBases(40, 30, 20, 10, 10, 20, 0)
+SupportGrowths(4, 3, 2, 2, 2, 2, 0)
+BYTE 6
+BYTE 0 0
+
+OgumaSupports:
+CharacterSupport(Sheeda, Barts, Riff, Linda, Caesar, 0, 0)
+SupportBases(40, 20, 20, 20, 20, 0, 0)
+SupportGrowths(5, 2, 2, 2, 2, 0, 0)
+BYTE 5
+BYTE 0 0
+
+BartsSupports:
+CharacterSupport(Oguma, Saji, Caesar, 0, 0, 0, 0)
+SupportBases(20, 30, 20, 0, 0, 0, 0)
+SupportGrowths(2, 4, 2, 0, 0, 0, 0)
+BYTE 3
+BYTE 0 0
+
+MiledySupports:
+CharacterSupport(Wolt, Camus, Tomth, 0, 0, 0, 0)
+SupportBases(20, 10, 10, 0, 0, 0, 0)
+SupportGrowths(2, 2, 2, 0, 0, 0, 0)
+BYTE 3
+BYTE 0 0
+
+WoltSupports:
+CharacterSupport(Roy, Eliwood, Ryan, Miledy, 0, 0, 0)
+SupportBases(40, 30, 10, 20, 0, 0, 0)
+SupportGrowths(5, 3, 2, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+SophiaSupports:
+CharacterSupport(Roy, Lilina, Chiki, 0, 0, 0, 0)
+SupportBases(40, 30, 20, 0, 0, 0, 0)
+SupportGrowths(4, 3, 2, 2, 0, 0, 0)
+BYTE 3
+BYTE 0 0
+
+AstoreSupports:
+CharacterSupport(Lilina, Ricardo, Kashim, 0, 0, 0, 0)
+SupportBases(30, 10, 10, 0, 0, 0, 0)
+SupportGrowths(3, 2, 2, 0, 0, 0, 0)
+BYTE 3
+BYTE 0 0
+
+FirSupports:
+CharacterSupport(Bartre, Kashim, Dyute, Roshe, 0, 0, 0)
+SupportBases(40, 10, 10, 10, 0, 0, 0)
+SupportGrowths(5, 2, 2, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+BartreSupports:
+CharacterSupport(Fir, Eliwood, Saji, Riff, 0, 0, 0)
+SupportBases(40, 30, 10, 10, 0, 0, 0)
+SupportGrowths(5, 3, 2, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+ValboSupports:
+CharacterSupport(Claire, Celica, Alm, Tomth, 0, 0, 0)
+SupportBases(30, 30, 25, 10, 0, 0, 0)
+SupportGrowths(3, 3, 3, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+CamusSupports:
+CharacterSupport(Malliesia, Tomth, Miledy, Alm, Linda, Celine, 0)
+SupportBases(25, 20, 10, 30, 20, 0, 0)
+SupportGrowths(2, 2, 2, 4, 2, 2, 0)
+BYTE 6
+BYTE 0 0
+
+DyuteSupports:
+CharacterSupport(Claire, Marich, Linda, Fir, Malliesia, 0, 0)
+SupportBases(30, 10, 10, 10, 10, 0, 0)
+SupportGrowths(3, 3, 2, 2, 2, 0, 0)
+BYTE 5
+BYTE 0 0
+
+ClaireSupports:
+CharacterSupport(Alm, Dyute, Valbo, Riff, 0, 0, 0)
+SupportBases(40, 30, 30, 10, 0, 0, 0)
+SupportGrowths(5, 3, 3, 2, 0, 0, 0)
+BYTE 4
+BYTE 0 0
+
+CelineSupports:
+CharacterSupport(Alm, Marth, Sheeda, Camus, 0, 0, 0)
+SupportBases(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(1, 3, 3, 2, 0, 0, 0)
+BYTE 4
 BYTE 0 0
 
 MarioSupports:
@@ -272,7 +447,7 @@ BYTE 0 0
 PooSupports:
 CharacterSupport(Ness, Paula, Jeff, 0, 0, 0, 0)
 SupportBases(81, 81, 81, 0, 0, 0, 0)
-SupportGrowths(3, 3, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 3, 0, 0, 0, 0)
 BYTE 3 //support count
 BYTE 0 0
 
@@ -385,7 +560,7 @@ MewtwoSupports:
 //We call this pairing the spares
 CharacterSupport(Wolf, 0, 0, 0, 0, 0, 0)
 SupportBases(81, 0, 0, 0, 0, 0, 0)
-SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
@@ -405,8 +580,8 @@ BYTE 0 0
 
 WolfSupports:
 CharacterSupport(Mewtwo, 0, 0, 0, 0, 0, 0)
-SupportBases(0, 0, 0, 0, 0, 0, 0)
-SupportGrowths(0, 0, 0, 0, 0, 0, 0)
+SupportBases(81, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 0, 0, 0, 0, 0, 0)
 BYTE 1 //support count
 BYTE 0 0
 
@@ -418,7 +593,7 @@ BYTE 2 //support count
 BYTE 0 0
 
 RosaSupports:
-CharacterSupport(CecilFF4, Kain, Rydia, 0, 0, 0, 0)
+CharacterSupport(CecilFF4, KainFF4, Rydia, 0, 0, 0, 0)
 SupportBases(241, 81, 81, 0, 0, 0, 0)
 SupportGrowths(3, 3, 3, 0, 0, 0, 0)
 BYTE 3 //support count
@@ -444,7 +619,7 @@ GalufSupports:
 //Cara would have the A if the gang was all here
 CharacterSupport(Butz, Lenna, 0, 0, 0, 0, 0)
 SupportBases(161, 161, 0, 0, 0, 0, 0)
-SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
@@ -656,7 +831,7 @@ BYTE 0 0
 AliceSupports:
 CharacterSupport(Shinki, Marisa, 0, 0, 0, 0, 0)
 SupportBases(241, 81, 0, 0, 0, 0, 0)
-SupportGrowths(3, 0, 0, 0, 0, 0, 0)
+SupportGrowths(3, 3, 0, 0, 0, 0, 0)
 BYTE 2 //support count
 BYTE 0 0
 
