@@ -27,8 +27,8 @@ Marth and Alear's wedding day will prove to be fateful...
 - Unit randomisation
 - Akaneian, Elibian, and Valencian maps reimagined
 - Dismount
-- 30 Fire Emblem characters to recruit
-- 81 characters to summon if so desired
+- 30 Fire Emblem characters to permanently recruit
+- 83 characters to summon if so desired
 - A close-to-FE1 Falchion, the Wing Spear, and a powerful Divine Stone
 - Music from canon Fire Emblem, adapting to the current situation
 - Marth and Chiki animations
@@ -46,16 +46,11 @@ Please read the attached CREDITS.md file.
 - Ballista animations can be buggy at times.
 - Some character names are too long for certain menus. All should fit in menus
   that allow seven tiles for character names.
-- The "L+R: Combine" graphic has a broken palette.
-- Not every character has a voice clip.
+- Many summoned characters lack voice lines.
 - Summoned characters generally lack palettes, and many tier 2 and dismounted
   palettes are currently placeholders.
 - Dialogue accounting for unit death is sporadic at best, and often assumes a
   dead unit is currently alive or shows placeholder text.
-- Many newly added characters lack summon backgrounds, and almost all lack
-  voice lines.
-- Characterisation of many characters, Alear in particular, is dubious at best.
-  This is intended to be rectified in the next major release.
 - Some character portraits are placeholder requantisations.
 
 ## Patching Instructions
@@ -78,6 +73,16 @@ Apply War of Lovers.ups file to a clean American FE8 rom.
   a gameplay session.
 
 ## Changelog
+
+*v0.41 - 14/02/2026*
+- Significantly rewrote several pieces of dialogue to improve characterisation
+  and to adjust a few plot elements.
+- Gave voice clips to all voiced canon Fire Emblem characters without them.
+- Gave summon backgrounds to all characters without them.
+  No voice clips were added for them for technical reasons.
+- Support data has been added for all playable characters. No conversations
+  have been written outside of the three already present.
+- Continuing from an earlier version should be safe, supports aside.
 
 *v0.4 - Valencia: 25/01/2026*
 - Implemented the third story arc, set on Valencia.
