@@ -69,6 +69,9 @@ I have escaped![A][X]
 #include Supports/MarthSheeda.txt
 #include Supports/MarthChiki.txt
 #include Supports/EliwoodLilina.txt
+#include Supports/CelineCamus.txt
+#include Supports/SheedaLilina.txt
+#include Supports/LindaDyute.txt
 
 ## SavePointLabel
 Save Point[X]
