@@ -7,18 +7,7 @@ WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 
 //SkillAnimation(SureShotID,SureShotAnim)
 //SkillAnimation(AdeptID,AdeptAnim)
@@ -43,4 +32,6 @@ WORD 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 //SkillAnimation(GreatShieldID,PaviseAnim)
 //SkillAnimation(VengeanceID,ImpaleAnim)
 
-ORG SkillAnimationTable+1024
+//ORG SkillAnimationTable+1024
+//I'm unlikely to have more than 64 skills, so I'm slashing this number.
+ORG SkillAnimationTable+256

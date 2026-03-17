@@ -81,15 +81,15 @@ Your progress has been saved.[N]
 You may resume gameplay from this[N]
 point with Resume Chapter.[A][X]
 
-## nameCamus
+//## nameCamus
 //for identity problems
-Camus[X]
+//Camus[X]
 
-## nameSirius
-Sirius[X]
+//## nameSirius
+//Sirius[X]
 
-## nameZeke
-Zeke[X]
+//## nameZeke
+//Zeke[X]
 
 ## StairsNameText
  Stairs[X]
@@ -103,11 +103,13 @@ The staircase is blocked[N]
 from the other side.[X]
 
 ## RaidNameText
- Raid[X]
+// Raid[X]
+[X]
 
 ## RaidDescText
-Destroy this village[N]
-for items and gold.[X]
+//Destroy this village[N]
+//for items and gold.[X]
+[X]
 
 ## EscapeName
  Escape[X]
@@ -130,22 +132,27 @@ This unit must escape last.[X]
 Mov[X]
 
 ## UM_GaidenBlackMagic
- B. Magic[X]
+// B. Magic[X]
+[X]
 
 ## UM_GaidenWhiteMagic
- W. Magic[X]
+// W. Magic[X]
+[X]
 
 ## UM_GaidenMagicDesc
-Spend HP to cast spells[NL]
-this unit has learned.[X]
+//Spend HP to cast spells[NL]
+//this unit has learned.[X]
+[X]
 
 ## GaidenMagicUMErrorText
-You don't have enough HP[NL]
-to cast any spells.[X]
+//You don't have enough HP[NL]
+//to cast any spells.[X]
+[X]
 
 ## GaidenMagicSpellMenuErrorText
-You don't have enough HP[NL]
-to cast this spell.[X]
+//You don't have enough HP[NL]
+//to cast this spell.[X]
+[X]
 
 ## GaidenMagicHPCostText
 Cost[X]
@@ -173,4 +180,4 @@ Cannot be done indoors.[X]
 
 #include "skilldesc_text.txt"
 
-#include "unitinfo_text.txt"
+//#include "unitinfo_text.txt"

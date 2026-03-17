@@ -27,16 +27,19 @@ stats and skills.[X]
 Lead[X]
 
 ## LeadRText
-Leadership. Grants +5 Hit +3 Avo[N]
-to all ally units per star.[X]
+//Leadership. Grants +5 Hit +3 Avo[N]
+//to all ally units per star.[X]
+[X]
 
 ## AllyStarCountRText
-Total number of leadership stars[N]
-for ally units.[X]
+//Total number of leadership stars[N]
+//for ally units.[X]
+[X]
 
 ## EnemyStarCountRText
-Total number of leadership stars[N]
-for enemy units.[X]
+//Total number of leadership stars[N]
+//for enemy units.[X]
+[X]
 
 ## DonateURL
 NOT FOR SALE[X]
@@ -44,42 +47,45 @@ NOT FOR SALE[X]
 ## SS_BiorhythmText
 Bio[X]
 
-## SS_BiorhythmRText
-Biorhythm. Affects[N]
-Hit and Avoid.[X]
+//## SS_BiorhythmRText
+//Biorhythm. Affects[N]
+//Hit and Avoid.[X]
 
-## SS_BiorhythmNeutral
-Neutral[X]
+//## SS_BiorhythmNeutral
+//Neutral[X]
 
-## SS_BiorhythmGood
-Good[X]
+//## SS_BiorhythmGood
+//Good[X]
 
-## SS_BiorhythmGreat
-Great[X]
+//## SS_BiorhythmGreat
+//Great[X]
 
-## SS_BiorhythmBest
-Best[X]
+//## SS_BiorhythmBest
+//Best[X]
 
-## SS_BiorhythmPoor
-Poor[X]
+//## SS_BiorhythmPoor
+//Poor[X]
 
-## SS_BiorhythmBad
-Bad[X]
+//## SS_BiorhythmBad
+//Bad[X]
 
-## SS_BiorhythmWorst
-Worst[X]
+//## SS_BiorhythmWorst
+//Worst[X]
 
 ## LikesDesc
-A list of things this[N]
-character enjoys.[X]
+//A list of things this[N]
+//character enjoys.[X]
+[X]
 
 ## DislikesDesc
-A list of things this[N]
-character does not enjoy.[X]
+//A list of things this[N]
+//character does not enjoy.[X]
+[X]
 
 ## AgeDesc
-This character's current age.[X]
+//This character's current age.[X]
+[X]
 
 ## HeightDesc
-This character's height.[X]
-
+//This character's height.[X]
+[X]

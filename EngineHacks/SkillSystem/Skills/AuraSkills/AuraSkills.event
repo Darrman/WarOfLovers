@@ -12,35 +12,35 @@ WORD $0202B256 // gAuraUnitListOut : Unit allegiance list output
 SHORT $4718 $46C0
 
 
-#include "SpurSkills/SpurSkills.event"
+//#include "SpurSkills/SpurSkills.event"
 
 ALIGN 4
 Demoiselle:
-#incbin "Demoiselle/Demoiselle.dmp"
+//#incbin "Demoiselle/Demoiselle.dmp"
 POIN NewAuraSkillCheck
 WORD DemoiselleID
 
 ALIGN 4
 Gentilhomme:
-#incbin "Gentilhomme/Gentilhomme.dmp"
+//#incbin "Gentilhomme/Gentilhomme.dmp"
 POIN NewAuraSkillCheck
 WORD GentilhommeID
 
 ALIGN 4
 MaleficAura:
-#incbin "MaleficAura/MaleficAura.dmp"
+//#incbin "MaleficAura/MaleficAura.dmp"
 POIN NewAuraSkillCheck
 WORD MaleficAuraID
 
 ALIGN 4
 Intimidate:
-#incbin "Intimidate/Intimidate.dmp"
+//#incbin "Intimidate/Intimidate.dmp"
 POIN NewAuraSkillCheck
 WORD IntimidateID
 
 ALIGN 4
 Inspiration:
-#incbin "Inspiration/Inspiration.dmp"
+//#incbin "Inspiration/Inspiration.dmp"
 POIN NewAuraSkillCheck
 WORD InspirationID
 
@@ -58,27 +58,27 @@ WORD CharismaID
 
 ALIGN 4
 VoiceOfPeace:
-#incbin "VoiceOfPeace/VoiceOfPeace.dmp"
+//#incbin "VoiceOfPeace/VoiceOfPeace.dmp"
 POIN NewAuraSkillCheck
 WORD VoiceOfPeaceID
 
 ALIGN 4
 Tantivy:
-#incbin "Tantivy/Tantivy.dmp"
+//#incbin "Tantivy/Tantivy.dmp"
 POIN SkillTester
 POIN GetUnitsInRange
 WORD TantivyID
 
 ALIGN 4
 Focus:
-#incbin "Focus/Focus.dmp"
+//#incbin "Focus/Focus.dmp"
 POIN SkillTester
 POIN GetUnitsInRange
 WORD FocusID
 
 ALIGN 4
 Anathema:
-#incbin "Anathema/Anathema.dmp"
+//#incbin "Anathema/Anathema.dmp"
 POIN NewAuraSkillCheck
 WORD AnathemaID
 
@@ -101,11 +101,11 @@ WORD UpWithArchID
 
 ALIGN 4
 Solidarity:
-#incbin "Solidarity/Solidarity.dmp"
+//#incbin "Solidarity/Solidarity.dmp"
 POIN NewAuraSkillCheck
 WORD SolidarityID
 
-#include "DriveSkills/DriveSkills.event"
+//#include "DriveSkills/DriveSkills.event"
 
 ALIGN 4
 Daunt:
@@ -133,7 +133,7 @@ WORD NightTideID
 
 ALIGN 4
 Infiltrator:
-#incbin "Infiltrator/Infiltrator.dmp"
+//#incbin "Infiltrator/Infiltrator.dmp"
 POIN SkillTester
 POIN GetUnitsInRange
 WORD InfiltratorID
@@ -142,26 +142,26 @@ WORD InfiltratorID
 
 ALIGN 4
 BlueFlameAura:
-#incbin "BlueFlame/BlueFlame.dmp"
+//#incbin "BlueFlame/BlueFlame.dmp"
 POIN NewAuraSkillCheck
 WORD BlueFlameID
 
 ALIGN 4
 KeepUp:
-#incbin "KeepUp/KeepUp.dmp"
-POIN NewAuraSkillCheck
-WORD DebuffTable
-WORD ArmorMarchBit
-WORD 8 //size of debuff table entry
-POIN SkillTester
-POIN ArmorMarchList
-POIN IndoorTerrainList
-POIN ForagerList
-WORD KeepUpID
-WORD IndoorMarchID
-WORD NatureRushID
-WORD CantoID
-WORD CantoPlusID
+//#incbin "KeepUp/KeepUp.dmp"
+//POIN NewAuraSkillCheck
+//WORD DebuffTable
+//WORD ArmorMarchBit
+//WORD 8 //size of debuff table entry
+//POIN SkillTester
+//POIN ArmorMarchList
+//POIN IndoorTerrainList
+//POIN ForagerList
+//WORD KeepUpID
+//WORD IndoorMarchID
+//WORD NatureRushID
+//WORD CantoID
+//WORD CantoPlusID
 
-#include "ClassTypeSkills/ClassTypeSkills.event"
+//#include "ClassTypeSkills/ClassTypeSkills.event"
 

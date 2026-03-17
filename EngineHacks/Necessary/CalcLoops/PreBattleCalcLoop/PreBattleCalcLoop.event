@@ -31,13 +31,17 @@ POIN DefendingCheck
 #ifdef BIORHYTHM
   POIN BiorhythmFunc
 #endif //BIORHYTHM
-POIN Wrath SpurStr SpurMag SpurSpd SpurDef SpurRes
-POIN DriveStr DriveMag DriveSpd DriveDef DriveRes
-POIN LuckySeven OddRhythm EvenRhythm QuickBurn SlowBurn
+POIN Wrath 
+//SpurStr SpurMag SpurSpd SpurDef SpurRes
+POIN 0x0
+//DriveStr DriveMag DriveSpd DriveDef DriveRes
+POIN 0x0
+// LuckySeven OddRhythm EvenRhythm QuickBurn SlowBurn
 POIN Demoiselle Gentilhomme MaleficAura Intimidate Tantivy Focus Inspiration Charm Solidarity VoiceOfPeace Anathema LilysPoise Charisma Hex Loyalty Infiltrator
 POIN ElbowRoom NaturalCover Gamble FieryBlood LifeAndDeath WindDisciple Perfectionist Puissance Hawkeye LightWeight Trample Opportunist BattleVeteran SilentPride Thunderstorm Outrider HeavyStrikes Charge Vanity KnightAspirant AssassinateDamageBonus ArcaneBlade
 POIN Daunt BloodTide WhitePool NightTide Insight Prescience Vigilance DefiantAvo DefiantCrit TowerShield ShortShield IndoorFighter OutdoorFighter Deadeye Fortune
-POIN BlueFlame BlueFlameAura DoubleLion Cultured Thighdeology Thotslayer KeepUp Armorboost Horseguard Skyguard ForeignPrincess ChargePlus
+POIN DoubleLion
+//BlueFlame BlueFlameAura Cultured Thighdeology Thotslayer KeepUp Armorboost Horseguard Skyguard ForeignPrincess ChargePlus
 POIN Frenzy // This was moved here because Str/Mag Split conflict, and... I'm not sure why it wouldn't be here in the first place.
 POIN UpWithArch
 POIN AxefaithHit
@@ -69,34 +73,35 @@ POIN 0
 
 ALIGN 4
 AuraSkillTable:
-FILL 0xFF
+//FILL 0xFF
+FILL 0x20 //I'm gutting most of these, I surely don't need 32, let alone 256...
 
 AuraSkillEntry(CharmID)
-AuraSkillEntry(DemoiselleID)
-AuraSkillEntry(GentilhommeID)
-AuraSkillEntry(InspirationID)
+//AuraSkillEntry(DemoiselleID)
+//AuraSkillEntry(GentilhommeID)
+//AuraSkillEntry(InspirationID)
 AuraSkillEntry(LilysPoiseID)
-AuraSkillEntry(SpurStrID)
-AuraSkillEntry(SpurMagID)
-AuraSkillEntry(SpurSpdID)
-AuraSkillEntry(SpurDefID)
-AuraSkillEntry(SpurResID)
-AuraSkillEntry(NiceThighsID)
+//AuraSkillEntry(SpurStrID)
+//AuraSkillEntry(SpurMagID)
+//AuraSkillEntry(SpurSpdID)
+//AuraSkillEntry(SpurDefID)
+//AuraSkillEntry(SpurResID)
+//AuraSkillEntry(NiceThighsID)
 AuraSkillEntry(DauntID)
-AuraSkillEntry(MaleficAuraID)
+//AuraSkillEntry(MaleficAuraID)
 AuraSkillEntry(IntimidateID)
-AuraSkillEntry(SolidarityID)
-AuraSkillEntry(VoiceOfPeaceID)
-AuraSkillEntry(AnathemaID)
-AuraSkillEntry(LilysPoiseID)
+//AuraSkillEntry(SolidarityID)
+//AuraSkillEntry(VoiceOfPeaceID)
+//AuraSkillEntry(AnathemaID)
+//AuraSkillEntry(LilysPoiseID)
 AuraSkillEntry(CharismaID)
 AuraSkillEntry(HexID)
-AuraSkillEntry(BlueFlameID)
-AuraSkillEntry(DriveStrID)
-AuraSkillEntry(DriveMagID)
-AuraSkillEntry(DriveSpdID)
-AuraSkillEntry(DriveDefID)
-AuraSkillEntry(DriveResID)
+//AuraSkillEntry(BlueFlameID)
+//AuraSkillEntry(DriveStrID)
+//AuraSkillEntry(DriveMagID)
+//AuraSkillEntry(DriveSpdID)
+//AuraSkillEntry(DriveDefID)
+//AuraSkillEntry(DriveResID)
 AuraSkillEntry(BloodTideID)
 AuraSkillEntry(WhitePoolID)
 AuraSkillEntry(NightTideID)
