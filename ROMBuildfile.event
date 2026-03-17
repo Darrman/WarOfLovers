@@ -35,7 +35,8 @@
 
     //Maps
     #include "Maps/MasterMapInstaller.event"
-    MESSAGE End of area Used map space ends at currentOffset
+    MESSAGE Used map space ends at currentOffset
+    MESSAGE 0xC00000-currentOffset bytes of free space left 
 	
     //install graphics/music at the end of the rom
 //  ORG 0xEFB2E0

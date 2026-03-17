@@ -39,7 +39,7 @@ VeinInitialization:
 
 ALIGN 4
 VeinGraphics:
-#incbin "bin/sparkle_final_4_Sheet.dmp"
+//#incbin "bin/sparkle_final_4_Sheet.dmp"
 
 
 PUSH

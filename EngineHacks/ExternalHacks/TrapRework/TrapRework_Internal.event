@@ -68,33 +68,36 @@
 	
 	ALIGN 4
 	ExampleMapSpriteGraphics:
-	#incext Png2Dmp "bin/Sigil.png" --lz77
+	//#incext Png2Dmp "bin/Sigil.png" --lz77
 	
 	
 	ALIGN 4
 	TrapInitFromEventsJumpTable: //functions here get the pointer to trap data in  events in r5(!)
+	//Dramatically reducing the size of these tables.
+	//Ballista special case is unnecessary here, Akaneian ballistas are used.
+	//All 256es reduced to 32.
 	LoadTrapJumpTable: //index is (trapID-1)
-	ORG (currentOffset + (256*4))
+	ORG (currentOffset + (32*4))
 	
 	ALIGN 4
 	TrapMapSpriteTable: //0 = no map sprite, 0xFF = variable map sprite for ballista
-	ORG (currentOffset + (256*1))
+	ORG (currentOffset + (32*1))
 	
 	ALIGN 4
 	TrapMapSpriteFuncTable: //if non-zero, gets run in place of uncritically passing the ID from the table
-	ORG (currentOffset + (256*4))
+	ORG (currentOffset + (32*4))
 	
 	ALIGN 4
 	TrapMapSpritePaletteTable: //definitely not a separate table because I forgot about it :P
-	ORG (currentOffset + (256*4)) //this will come with definitions for each palette you probably want to use
+	ORG (currentOffset + (32*4)) //this will come with definitions for each palette you probably want to use
 	
 	ALIGN 4
 	TrapFogLightSourceTable: //ext1 is read as strength of light source
-	ORG (currentOffset + (256*1))
+	ORG (currentOffset + (32*1))
 
 	ALIGN 4
 	TrapLightRuneImpassableTable:
-	ORG (currentOffset + (256*1))
+	ORG (currentOffset + (32*1))
 
 
 	#include "asm/TrapRework_BreakableTerrain.lyn.event"
