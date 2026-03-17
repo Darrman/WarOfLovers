@@ -12,3 +12,5 @@
 #include UI/UI.event
 #include Phase/Phase.event
 #include PrepBackground/PrepBackground.event
+#include BattlePlatforms/repointedBattlePlatforms.event
+//taken from Ditto's thread on extending free space

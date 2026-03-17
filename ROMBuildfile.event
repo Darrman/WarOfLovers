@@ -39,7 +39,8 @@
 	
     //install graphics/music at the end of the rom
 //  ORG 0xEFB2E0
-    ORG 0xEF2F20 //with palette rework, I think these are safe to overwrite
+//  ORG 0xEF2F20 //with palette rework, I think these are safe to overwrite
+    ORG 0xE47150 //with battle platforms repointed
     //Music
     #include "Music/MasterAudioInstaller.event"
 
