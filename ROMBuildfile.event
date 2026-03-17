@@ -38,7 +38,8 @@
     MESSAGE End of area Used map space ends at currentOffset
 	
     //install graphics/music at the end of the rom
-    ORG 0xEFB2E0
+//  ORG 0xEFB2E0
+    ORG 0xEF2F20 //with palette rework, I think these are safe to overwrite
     //Music
     #include "Music/MasterAudioInstaller.event"
 
