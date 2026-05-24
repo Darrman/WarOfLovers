@@ -56,3 +56,11 @@ ORG 0xA27FA8
 ORG 0xA29478
 #incbin "MenuTextPalette.dmp"
 POP
+
+//Chapter status screen chapter title: it's a duplicate graphic, so handle it here
+PUSH
+ORG 0xA2D32C
+#incbin "StatusScreen.img.bin"
+ORG 0xA2E1B8
+#incbin "StatusScreen.pal.bin"
+POP
