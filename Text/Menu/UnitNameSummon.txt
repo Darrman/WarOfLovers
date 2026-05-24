@@ -1,0 +1,679 @@
+#0x212 MarioName
+Mario[X]
+
+## MarioDesc
+A plumber from Brooklyn, residing[N]
+in the Mushroom Kingdom. Races karts[N]
+and throws wild parties.[X]
+
+## LuigiName
+Luigi[X]
+
+## LuigiDesc
+Mario's brother, frequently over-[N]
+shadowed. A better jumper than[N]
+Mario, hunting ghosts on the side.[X]
+
+## PeachName
+Peach[X]
+
+## PeachDesc
+Princess of the Mushroom Kingdom.[N]
+Frequently kidnapped by Bowser,[N]
+she is feared at parties.[X]
+
+## BowserName
+Bowser[X]
+
+## BowserDesc
+King of the Koopas. Mario's main[N]
+enemy, usually aiming to kidnap[N]
+Peach or bump into Sunday drivers.[X]
+
+## DKName
+DK[X]
+
+## DKDesc
+He's the leader of the bunch, you[N]
+know him well, he's finally back[N]
+to kick some tail. Loves bananas.[X]
+
+## ToadName
+Toad[X]
+
+## ToadDesc
+He's often found in houses handing[N]
+out items or sitting in incorrect[N]
+castles. Thankful to Mario.[X]
+
+## WarioName
+Wario[X]
+
+## WarioDesc
+A treasure hunter and game developer[N]
+with land holdings including a castle[N]
+and woods. Lover of garlic.[X]
+
+## DaisyName
+Daisy[X]
+
+## DaisyDesc
+Princess of Sarasaland. Energetic and[N]
+loud, known for shouting "Hi, I'm[N]
+Daisy!" and possibly having three eyes.[X]
+
+## YoshiName
+Yoshi[X]
+
+## YoshiDesc
+Mario's steed since birth. Rumours[N]
+suggest Mario has dropped him into[N]
+many bottomless pits to save himself.[X]
+
+## WaluigiName
+Waluigi[X]
+
+## WaluigiDesc
+A tall, lean man who showed up one day[N]
+to be Wario's tennis partner. Often[N]
+seen lurking around parties and races.[X]
+
+## AshName
+Ash[X]
+
+## AshDesc
+A Pokemon Trainer from Pallet, Kanto.[N]
+Claims to be 10, but has been travelling[N]
+the world for over twenty years.[X]
+
+## MistyName
+Misty[X]
+
+## MistyDesc
+Cerulean Gym Leader. Got her bicycle[N]
+stolen by Ash the day he started his[N]
+journey. She followed him afterwards.[X]
+
+## BrockName
+Brock[X]
+
+## BrockDesc
+Pewter Gym Leader. Falls head-over-[N]
+heels in love with any cute girl.[N]
+Misty frequently drags him away.[X]
+
+## JessieName
+Jessie[X]
+
+## JessieDesc
+A Rocket grunt constantly aiming[N]
+to steal Pikachu from Ash. Likes[N]
+entering contests from time to time.[X]
+
+## JamesName
+James[X]
+
+## JamesDesc
+Jessie's partner in crime. The two[N]
+often recite a motto with Meowth and[N]
+get sent blasting off again.[X]
+
+## MayName
+May[X]
+
+## MayDesc
+A Pokemon Co-ordinator from Hoenn.[N]
+Instead of searching for power, she[N]
+prefers Pokemon with grace.[X]
+
+## DawnName
+Dawn[X]
+
+## DawnDesc
+A Co-ordinator from Sinnoh. Often[N]
+says "No need to worry!" when in a[N]
+good mood or if Ash was down.[X]
+
+## SerenaName
+Serena[X]
+
+## SerenaDesc
+A girl from Kalos, in reality France.[N]
+Met Ash before he ever left Pallet[N]
+and gave him a kiss at the end.[X]
+
+## LinkName
+Link[X]
+
+## LinkDesc
+A man reborn many times throughout[N]
+the generations, but always Hyrule's[N]
+hero. Detests all forms of pottery.[X]
+
+## SamusName
+Samus[X]
+
+## SamusDesc
+A bounty hunter. Has a bad habit of[N]
+ending her missions by destroying[N]
+the planet they took place on.[X]
+
+## KirbyName
+Kirby[X]
+
+## KirbyDesc
+First you draw a circle, then you[N]
+dot the eyes. Add a great big smile[N]
+and presto, it's Kirby! Always hungry.[X]
+
+## FoxName
+Fox[X]
+
+## FoxDesc
+Hailing from Corneria, Lylat, he[N]
+fights the mad scientist Andross.[N]
+Hates items, loves Final Destination.[X]
+
+## PikachuName
+Pikachu[X]
+
+## PikachuDesc
+The Pokemon mascot, owned by most[N]
+incarnations of Red. Often hostile[N]
+to evolving into a Raichu.[X]
+
+## FalconName
+Falcon[X]
+
+## FalconDesc
+A driver in F-Zero. Known for the[N]
+Falcon Punch and Kick and asking[N]
+people to show him their moves.[X]
+
+## JigglypuffName
+Jigglypuff[X]
+
+## JigglypuffDesc
+Known for singing abilities.[N]
+Hear her out if you don't want[N]
+your face to be covered in marker.[X]
+
+## NessName
+Ness[X]
+
+## NessDesc
+A kid from Onett, Eagleland. His[N]
+hobbies include beating people up[N]
+with a bat and saying "Okay".[X]
+
+## PaulaName
+Paula[X]
+
+## PaulaDesc
+From Twoson, she believes prayer[N]
+can solve any problem. If it fails,[N]
+PK Freeze will do just as well.[X]
+
+## JeffName
+Jeff[X]
+
+## JeffDesc
+He ditches boarding school after[N]
+hearing Paula in a dream. He also[N]
+fixes broken bazookas.[X]
+
+## PooName
+Poo[X]
+
+## PooDesc
+Prince of Dalaam. He sacrificed[N]
+everything to pass the Mu test.[N]
+He was perfectly fine afterwards.[X]
+
+## PokeyName
+Pokey[X]
+
+## PokeyDesc
+Sometimes known as Porky, this fat[N]
+and rude boy is a constant thorn in[N]
+Ness's side. Willing to spank things.[X]
+
+## CecilFF4Name
+Cecil[X]
+
+## CecilFF4Desc
+Ex-commander of the Red Wings of[N]
+Baron. Orphaned a girl, betrayed[N]
+by his friend, got shipwrecked...[X]
+
+## ButzName
+Butz[X]
+
+## ButzDesc
+A wanderer from one place to the next.[N]
+His wandering reaches the point of[N]
+inter-dimensional travel.[X]
+
+## TerraName
+Terra[X]
+
+## TerraDesc
+A woman who knows m-m-m-m-m-magic![N]
+With magic long gone in the world,[N]
+this is an unusual occurance.[X]
+
+## ZeldaName
+Zelda[X]
+
+## ZeldaDesc
+Almost always Princess of Hyrule.[N]
+Sometimes disguises herself in order[N]
+to avoid capture by villains.[X]
+
+## SahasrahlaName
+Sahasrahla[X]
+
+## SahasrahlaDesc
+Drawing descent from the Seven Sages,[N]
+he often gives Link hints on his journey.[N]
+Once owned a pair of Pegasus Boots.[X]
+
+## MarinName
+Marin[X]
+
+## MarinDesc
+The girl of Link's dreams. Wanted to see[N]
+the world beyond Koholint Island, but[N]
+Link died a few times on his quest.[X]
+
+## SariaName
+Saria[X]
+
+## SariaDesc
+Link's childhood friend. Gave him an[N]
+ocarina as a goodbye gift, but he[N]
+replaced it with a time-travelling one.[X]
+
+## DededeName
+Dedede[X]
+
+## DededeDesc
+King of Dream Land. Occasionally tries[N]
+to steal all of its food, but he also[N]
+defends it from malevolent entities.[X]
+
+## MetaKnightName
+Meta Knight[X]
+
+## MetaKnightDesc
+Owner of the battleship Halberd. Failed to[N]
+stop Dream Land's sloth, and instead[N]
+became a notoriously powerful brawler.[X]
+
+## FalcoName
+Falco[X]
+
+## FalcoDesc
+A member of Team Star Fox. Known for[N]
+his aerial preference and sarcasm.[N]
+His thanks are always reluctant.[X]
+
+## PeppyName
+Peppy[X]
+
+## PeppyDesc
+A veteran pilot who was part of the[N]
+original Star Fox. After a betrayal,[N]
+he offered his services to Fox.[X]
+
+## SlippyName
+Slippy[X]
+
+## SlippyDesc
+An over-eager pilot who gets himself[N]
+into trouble on several occasions. His[N]
+skills instead lie with mechanics.[X]
+
+## SalesmanName
+Salesman[X]
+
+## SalesmanDesc
+A mysterious man with a vast[N]
+collection of masks. Little[N]
+more is known about him.[X]
+
+## GanonName
+Ganon[X]
+
+## GanonDesc
+King of the Gerudo, or the[N]
+King of Evil. Bearer of the[N]
+Triforce of Power.[X]
+
+## WolfName
+Wolf[X]
+
+## WolfDesc
+The leader of Star Wolf and[N]
+rival of Fox. Takes jobs from[N]
+whomever is offering.[X]
+
+## MewtwoName
+Mewtwo[X]
+ 
+## MewtwoDesc
+A Pokemon artifically created[N]
+to be the strongest. Now seeks[N]
+a reason for being.[X]
+
+## MrGameAndWatchName
+//& in text label names breaks
+Mr. G & W[X]
+
+## MrGameAndWatchDesc
+The manifestation of many[N]
+Game and Watch games. A two-[N]
+dimensional being.[X]
+
+## PopoName
+Popo[X]
+
+## PopoDesc
+One of the Ice Climbers. He[N]
+and his partner Nana have[N]
+summitted many mountains.[X]
+
+## KainFF4Name
+Kain[X]
+
+## KainFF4Desc
+Leader of the Dragoons of Baron.[N]
+Friends with Cecil, has a crush[N]
+on Rosa, and notoriously disloyal.[X]
+
+## RosaName
+Rosa[X]
+
+## RosaDesc
+A white mage and Cecil's wife.[N]
+She is willing to follow him[N]
+wherever he goes.[X]
+
+## RydiaName
+Rydia[X]
+
+## RydiaDesc
+The last of the Summoners of Mist.[N]
+Despite many hard experiences,[N]
+she's usually cheerful.[X]
+
+## LennaName
+Lenna[X]
+
+## LennaDesc
+Princess of Tycoon. All-loving[N]
+and elegant, with a tendency[N]
+to be self-sacrificing.[X]
+
+## GalufName
+Galuf[X]
+
+## GalufDesc
+King of Bal. He travelled worlds[N]
+to stop Exdeath, losing his memory[N]
+for a time. Extremely tenacious.[X]
+
+## CelesName
+Celes[X]
+
+## CelesDesc
+Once a general of the Empire,[N]
+before defecting to the Returners.[N]
+Also known for her opera.[X]
+
+## LockeName
+Locke[X]
+
+## LockeDesc
+A treasure hunter who has lost[N]
+a loved one. He's now searching[N]
+the world for a solution.[X]
+
+## YugiName
+Yugi[X]
+
+## YugiDesc
+The King of Games and expert[N]
+Duel Monsters player. Cares[N]
+deeply for his friends.[X]
+
+## JoeyName
+Joey[X]
+
+## JoeyDesc
+A confident duellist. Seems[N]
+a bit rough around the edges,[N]
+but is deeply loyal.[X]
+
+## TeaName
+Tea[X]
+
+## TeaDesc
+An aspiring dancer and friend[N]
+of Yugi's. She dreams of making[N]
+it to Broadway some day.[X]
+
+## KaibaName
+Kaiba[X]
+
+## KaibaDesc
+CEO of Kaiba Corporation. Ruthless[N]
+in all facets of life and has[N]
+a gargantuan ego.[X]
+
+## JadenName
+Jaden[X]
+
+## JadenDesc
+Nicknamed the "Slifer Slacker", he[N]
+loved nothing more than duelling[N]
+in happier times. Now, he's broken.[X]
+
+## AlexisName
+Alexis[X]
+
+## AlexisDesc
+The so-called queen of Obelisk[N]
+Blue. Got brainwashed for a time[N]
+before entering the Dark World.[X]
+
+## ChazzName
+Chazz[X]
+
+## ChazzDesc
+An over-confident student at[N]
+Duel Academy. Known for his[N]
+catchphrase, "Chazz it up!"[X]
+
+## OlimarName
+Olimar[X]
+
+## OlimarDesc
+A captain of Hocotate Freight.[N]
+Involved in several crashes that[N]
+stranded him on alien planets.[X]
+
+## LouieName
+Louie[X]
+
+## LouieDesc
+An employee of Hocotate Freight.[N]
+He was sent to accompany Olimar[N]
+to pay off company debt.[X]
+
+## PresidentName
+President[X]
+
+## PresidentDesc
+Hocotate Freight's president.[N]
+He got a loan from loan sharks[N]
+and had to pay the debt personally.[X]
+
+//## CronoName
+//Crono[X]
+//
+//## CronoDesc
+//Placeholder description.[X]
+//
+//## MarleName
+//Marle[X]
+//
+//## MarleDesc
+//Placeholder description.[X]
+//
+//## LuccaName
+//Lucca[X]
+//
+//## LuccaDesc
+//Placeholder description.[X]
+
+## SonicName
+Sonic[X]
+
+## SonicDesc
+A hedgehog that can run faster[N]
+than the speed of sound.[N]
+Always happy to adventure.[X]
+
+## TailsName
+Tails[X]
+
+## TailsDesc
+A fox, Sonic's best friend, and[N]
+skilled with machinery. Willing[N]
+to lend a hand when he can.[X]
+
+## KnucklesName
+Knuckles[X]
+
+## KnucklesDesc
+A powerful echidna and guardian[N]
+of the Master Emerald. Gullible[N]
+and easy to deceive.[X]
+
+## ShadowName
+Shadow[X]
+
+## ShadowDesc
+The ultimate life form. Known for[N]
+being considered a faker and having[N]
+used many different guns.[X]
+
+## RobotnikName
+Robotnik[X]
+
+## RobotnikDesc
+A supremely intelligent scientist.[N]
+Nicknamed "Eggman", he turns[N]
+animals into robots for sport.[X]
+
+## FlynnName
+Flynn[X]
+
+## FlynnDesc
+A Samurai of Mikado. After finding[N]
+a way to Tokyo, he got involved[N]
+in many supernatural events.[X]
+
+## IsabeauName
+Isabeau[X]
+
+## IsabeauDesc
+A Samurai of Mikado. She tries to[N]
+find a path reconciling every[N]
+faction in Tokyo.[X]
+
+## JonathanName
+Jonathan[X]
+
+## JonathanDesc
+A Samurai of Mikado. He believes[N]
+in an orderly world, where everyone[N]
+has their place.[X]
+
+## WalterName
+Walter[X]
+
+## WalterDesc
+A Samurai of Mikado. He believes[N]
+in a chaotic world, where people[N]
+can find their own calling.[X]
+
+## SnakeName
+Snake[X]
+
+## SnakeDesc
+Placeholder description.[X]
+
+## RaidenName
+Raiden[X]
+
+## RaidenDesc
+Placeholder description.[X]
+
+## ArmstrongName
+Armstrong[X]
+
+## ArmstrongDesc
+Placeholder description.[X]
+
+## ReimuName
+Reimu[X]
+
+## ReimuDesc
+The Hakurei shrine maiden, who[N]
+keeps the peace in Gensokyo.[N]
+Bears no grudges, but quick to anger.[X]
+
+## MarisaName
+Marisa[X]
+
+## MarisaDesc
+A witch and Reimu's best friend.[N]
+Easy-going, but willing to do[N]
+anything to improve her skills.[X]
+
+## MimaName
+Mima[X]
+
+## MimaDesc
+An evil spirit who bore a grudge.[N]
+She forgot the details and now[N]
+teases Reimu. A serial liar.[X]
+
+## YuukaName
+Yuuka[X]
+
+## YuukaDesc
+A youkai with power over flowers.[N]
+While capable of being affable,[N]
+she has a vicious sense of humour.[X]
+
+## ShinkiName
+Shinki[X]
+
+## ShinkiDesc
+The Goddess of Makai. She claims to[N]
+have created everyone there, and[N]
+is protective of her realm.[X]
+
+## AliceName
+Alice[X]
+
+## AliceDesc
+//Barely fits over vanilla names/descriptions.
+//When adding new summons, shove those text IDs somewhere else unused.
+A magician from Makai. She focuses[N]
+her magic in manipulation of dolls,[N]
+but knows extra-powerful spells.[X]
+

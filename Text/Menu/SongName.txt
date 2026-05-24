@@ -1,4 +1,5 @@
-## SRFETheme
+# 0x78B SRFETheme
+//When going beyond vanilla sound room size, cross that bridge later.
 Fire Emblem Theme[X]
 
 ## SRAkaneiaOverture

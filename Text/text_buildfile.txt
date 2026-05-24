@@ -18,22 +18,27 @@ Learned  [X]
 
 #include "Menu/LocationName.txt"
 #include Menu/ChapterNameGoal.txt
+#include Menu/SongName.txt
+#include Menu/UnitNameSummon.txt
 
-#0x903 HouseText
+//#0x903 HouseText
 //Main story text
-[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+//[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
 
-## VillageText
-[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+//## VillageText
+//[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
 
-## PlaceholderText
+#0x8DB PlaceholderText
+//World map narration: Triangle Attack can be changed and suspend
+//text is irrelevant as it's been disabled
+//Ideally keep text IDs beneath 0xD4B to eliminate text table repoint,
+//but don't lose too much sleep over it either
 [MidRight][LoadMarth]
 This text is a placeholder.[A][X]
 
-#include Menu/UnitName.txt
+#include Menu/UnitNameCanon.txt
 #include Menu/ClassName.txt
 #include Menu/ItemName.txt
-#include Menu/SongName.txt
 
 #include Quotes/BossQuotes.txt
 #include Quotes/DeathQuotes.txt

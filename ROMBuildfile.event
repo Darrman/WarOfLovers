@@ -5,6 +5,7 @@
     ORG FreeSpace
 	PROTECT $0 $C0 //no writing to the start of the rom
     PROTECT $C00000 //end of free space
+	PROTECT $15A72C //end of vanilla dialogue
 	PROTECT $2000000 //hard rom limit; hopefully this never activates
 
     #inctext DateTimeSetter //set build time - unnecessary, but why not
@@ -20,7 +21,10 @@
     //Text first for Text ID definitions
     #include "Text/InstallTextData.event"
     MESSAGE Used text space ends at currentOffset
-
+    MESSAGE 0xC00000-currentOffset bytes of free space remaining
+	
+	//overwrite vanilla text with this stuff, starting with world map text
+	ORG 0xF28C8
     //CSV tables
     #include "Tables/TableInstaller.event"
     MESSAGE Used table space ends at currentOffset
@@ -36,7 +40,7 @@
     //Maps
     #include "Maps/MasterMapInstaller.event"
     MESSAGE Used map space ends at currentOffset
-    MESSAGE 0xC00000-currentOffset bytes of free space left 
+    MESSAGE 0x15A72C-currentOffset bytes of free space remaining
 	
     //install graphics/music at the end of the rom
 //  ORG 0xEFB2E0
