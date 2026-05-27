@@ -1,0 +1,316 @@
+//Class card variant
+#define setClassCard(cardEntry, cardLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; WORD 0x0; WORD 0x0; POIN cardLocation; WORD 0x0; POIN cardLocation+0x20; WORD 0x0; WORD 0x01; POP"
+
+Cavalier_Card:
+ALIGN 4
+#incbin "bin/Cavalier.pal.bin"
+#incbin "bin/Cavalier.img.bin"
+setClassCard(P_Cavalier,Cavalier_Card)
+
+Paladin_Card:
+ALIGN 4
+#incbin "bin/Paladin.pal.bin"
+#incbin "bin/Paladin.img.bin"
+setClassCard(P_Paladin,Paladin_Card)
+
+LanceArmour_Card:
+ALIGN 4
+#incbin "bin/LanceArmour.pal.bin"
+#incbin "bin/LanceArmour.img.bin"
+setClassCard(P_LanceArmour,LanceArmour_Card)
+
+General_Card:
+ALIGN 4
+#incbin "bin/General.pal.bin"
+#incbin "bin/General.img.bin"
+setClassCard(P_General,General_Card)
+
+Thief_Card:
+ALIGN 4
+#incbin "bin/Thief.pal.bin"
+#incbin "bin/Thief.img.bin"
+setClassCard(P_Thief,Thief_Card)
+
+Rogue_Card:
+ALIGN 4
+#incbin "bin/Rogue.pal.bin"
+#incbin "bin/Rogue.img.bin"
+setClassCard(P_Rogue,Rogue_Card)
+
+Mercenary_Card:
+ALIGN 4
+#incbin "bin/Mercenary.pal.bin"
+#incbin "bin/Mercenary.img.bin"
+setClassCard(P_Mercenary,Mercenary_Card)
+
+Hero_Card:
+ALIGN 4
+#incbin "bin/Hero.pal.bin"
+#incbin "bin/Hero.img.bin"
+setClassCard(P_Hero,Hero_Card)
+
+Myrmidon_Card:
+ALIGN 4
+#incbin "bin/Myrmidon.pal.bin"
+#incbin "bin/Myrmidon.img.bin"
+setClassCard(P_Myrmidon,Myrmidon_Card)
+
+Swordmaster_Card:
+ALIGN 4
+#incbin "bin/Swordmaster.pal.bin"
+#incbin "bin/Swordmaster.img.bin"
+setClassCard(P_Swordmaster,Swordmaster_Card)
+
+Archer_Card:
+ALIGN 4
+#incbin "bin/Archer.pal.bin"
+#incbin "bin/Archer.img.bin"
+setClassCard(P_Archer,Archer_Card)
+
+Sniper_Card:
+ALIGN 4
+#incbin "bin/Sniper.pal.bin"
+#incbin "bin/Sniper.img.bin"
+setClassCard(P_Sniper,Sniper_Card)
+
+Horseman_Card:
+ALIGN 4
+#incbin "bin/Horseman.pal.bin"
+#incbin "bin/Horseman.img.bin"
+setClassCard(P_Horseman,Horseman_Card)
+
+DragonKnight_Card:
+ALIGN 4
+#incbin "bin/DragonKnight.pal.bin"
+#incbin "bin/DragonKnight.img.bin"
+setClassCard(P_DragonKnight,DragonKnight_Card)
+
+DragonMaster_Card:
+ALIGN 4
+#incbin "bin/DragonMaster.pal.bin"
+#incbin "bin/DragonMaster.img.bin"
+setClassCard(P_DragonMaster,DragonMaster_Card)
+
+Mage_Card:
+ALIGN 4
+#incbin "bin/Mage.pal.bin"
+#incbin "bin/Mage.img.bin"
+setClassCard(P_Mage,Mage_Card)
+
+Sage_Card:
+ALIGN 4
+#incbin "bin/Sage.pal.bin"
+#incbin "bin/Sage.img.bin"
+setClassCard(P_Sage,Sage_Card)
+
+MageKnight_Card:
+ALIGN 4
+#incbin "bin/MageKnight.pal.bin"
+#incbin "bin/MageKnight.img.bin"
+setClassCard(P_MageKnight,MageKnight_Card)
+
+Priest_Card:
+ALIGN 4
+#incbin "bin/Priest.pal.bin"
+#incbin "bin/Priest.img.bin"
+setClassCard(P_Priest,Priest_Card)
+
+Bishop_Card:
+ALIGN 4
+#incbin "bin/Bishop.pal.bin"
+#incbin "bin/Bishop.img.bin"
+setClassCard(P_Bishop,Bishop_Card)
+
+Shaman_Card:
+ALIGN 4
+#incbin "bin/Shaman.pal.bin"
+#incbin "bin/Shaman.img.bin"
+setClassCard(P_Shaman,Shaman_Card)
+
+Druid_Card:
+ALIGN 4
+#incbin "bin/Druid.pal.bin"
+#incbin "bin/Druid.img.bin"
+setClassCard(P_Druid,Druid_Card)
+
+GreatKnight_Card:
+ALIGN 4
+#incbin "bin/GreatKnight.pal.bin"
+#incbin "bin/GreatKnight.img.bin"
+setClassCard(P_GreatKnight,GreatKnight_Card)
+
+Mamkute_Card:
+ALIGN 4
+#incbin "bin/Mamkute.pal.bin"
+#incbin "bin/Mamkute.img.bin"
+setClassCard(P_Mamkute,Mamkute_Card)
+
+Fighter_Card:
+ALIGN 4
+#incbin "bin/Fighter.pal.bin"
+#incbin "bin/Fighter.img.bin"
+setClassCard(P_Fighter,Fighter_Card)
+
+Warrior_Card:
+ALIGN 4
+#incbin "bin/Warrior.pal.bin"
+#incbin "bin/Warrior.img.bin"
+setClassCard(P_Warrior,Warrior_Card)
+
+Brigand_Card:
+ALIGN 4
+#incbin "bin/Brigand.pal.bin"
+#incbin "bin/Brigand.img.bin"
+setClassCard(P_Brigand,Brigand_Card)
+
+Pirate_Card:
+ALIGN 4
+#incbin "bin/Pirate.pal.bin"
+#incbin "bin/Pirate.img.bin"
+setClassCard(P_Pirate,Pirate_Card)
+
+Berserker_Card:
+ALIGN 4
+#incbin "bin/Berserker.pal.bin"
+#incbin "bin/Berserker.img.bin"
+setClassCard(P_Berserker,Berserker_Card)
+
+PegasusKnight_Card:
+ALIGN 4
+#incbin "bin/PegasusKnight.pal.bin"
+#incbin "bin/PegasusKnight.img.bin"
+setClassCard(P_PegasusKnight,PegasusKnight_Card)
+
+FalconKnight_Card:
+ALIGN 4
+#incbin "bin/FalconKnight.pal.bin"
+#incbin "bin/FalconKnight.img.bin"
+setClassCard(P_FalconKnight,FalconKnight_Card)
+
+Troubadour_Card:
+ALIGN 4
+#incbin "bin/Troubadour.pal.bin"
+#incbin "bin/Troubadour.img.bin"
+setClassCard(P_Troubadour,Troubadour_Card)
+
+Valkyrie_Card:
+ALIGN 4
+#incbin "bin/Valkyrie.pal.bin"
+#incbin "bin/Valkyrie.img.bin"
+setClassCard(P_Valkyrie,Valkyrie_Card)
+
+Soldier_Card:
+ALIGN 4
+#incbin "bin/Soldier.pal.bin"
+#incbin "bin/Soldier.img.bin"
+setClassCard(P_Soldier,Soldier_Card)
+
+Fleet_Card:
+ALIGN 4
+#incbin "bin/Fleet.pal.bin"
+#incbin "bin/Fleet.img.bin"
+setClassCard(P_Fleet,Fleet_Card)
+
+//Commenting out non-FE2 monsters for now, if used restore them
+
+Revenant_Card:
+ALIGN 4
+#incbin "bin/Revenant.pal.bin"
+#incbin "bin/Revenant.img.bin"
+setClassCard(P_Revenant,Revenant_Card)
+
+Entombed_Card:
+ALIGN 4
+#incbin "bin/Entombed.pal.bin"
+#incbin "bin/Entombed.img.bin"
+setClassCard(P_Entombed,Entombed_Card)
+
+Bonewalker_Card:
+ALIGN 4
+#incbin "bin/Bonewalker.pal.bin"
+#incbin "bin/Bonewalker.img.bin"
+setClassCard(P_Bonewalker,Bonewalker_Card)
+
+Wight_Card:
+ALIGN 4
+#incbin "bin/Wight.pal.bin"
+#incbin "bin/Wight.img.bin"
+setClassCard(P_Wight,Wight_Card)
+
+//Bael_Card:
+//ALIGN 4
+//#incbin "bin/Bael.pal.bin"
+//#incbin "bin/Bael.img.bin"
+//setClassCard(P_Bael,Bael_Card)
+
+//ElderBael_Card:
+//ALIGN 4
+//#incbin "bin/ElderBael.pal.bin"
+//#incbin "bin/ElderBael.img.bin"
+//setClassCard(P_ElderBael,ElderBael_Card)
+
+//Cyclops_Card:
+//ALIGN 4
+//#incbin "bin/Cyclops.pal.bin"
+//#incbin "bin/Cyclops.img.bin"
+//setClassCard(P_Cyclops,Cyclops_Card)
+
+//MautheDoog_Card:
+//ALIGN 4
+//#incbin "bin/MautheDoog.pal.bin"
+//#incbin "bin/MautheDoog.img.bin"
+//setClassCard(P_MautheDoog,MautheDoog_Card)
+
+//Gwyllgi_Card:
+//ALIGN 4
+//#incbin "bin/Gwyllgi.pal.bin"
+//#incbin "bin/Gwyllgi.img.bin"
+//setClassCard(P_Gwyllgi,Gwyllgi_Card)
+
+//Tarvos_Card:
+//ALIGN 4
+//#incbin "bin/Tarvos.pal.bin"
+//#incbin "bin/Tarvos.img.bin"
+//setClassCard(P_Tarvos,Tarvos_Card)
+
+//Maelduin_Card:
+//ALIGN 4
+//#incbin "bin/Maelduin.pal.bin"
+//#incbin "bin/Maelduin.img.bin"
+//setClassCard(P_Maelduin,Maelduin_Card)
+
+Mogall_Card:
+ALIGN 4
+#incbin "bin/Mogall.pal.bin"
+#incbin "bin/Mogall.img.bin"
+setClassCard(P_Mogall,Mogall_Card)
+
+ArchMogall_Card:
+ALIGN 4
+#incbin "bin/ArchMogall.pal.bin"
+#incbin "bin/ArchMogall.img.bin"
+setClassCard(P_ArchMogall,ArchMogall_Card)
+
+//Gorgon_Card:
+//ALIGN 4
+//#incbin "bin/Gorgon.pal.bin"
+//#incbin "bin/Gorgon.img.bin"
+//setClassCard(P_Gorgon,Gorgon_Card)
+
+Gargoyle_Card:
+ALIGN 4
+#incbin "bin/Gargoyle.pal.bin"
+#incbin "bin/Gargoyle.img.bin"
+setClassCard(P_Gargoyle,Gargoyle_Card)
+
+Deathgoyle_Card:
+ALIGN 4
+#incbin "bin/Deathgoyle.pal.bin"
+#incbin "bin/Deathgoyle.img.bin"
+setClassCard(P_Deathgoyle,Deathgoyle_Card)
+
+DragonZombie_Card:
+ALIGN 4
+#incbin "bin/DragonZombie.pal.bin"
+#incbin "bin/DragonZombie.img.bin"
+setClassCard(P_DragonZombie,DragonZombie_Card)

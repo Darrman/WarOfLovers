@@ -1006,8 +1006,53 @@
 //#define 0xFA
 //#define 0xFB
 //#define 0xFC
-//#define 0xFD
+#define P_Cavalier 0xFD //proof of concept
 #define P_Cecil 0xFE //move her elsewhere
 #define P_Placeholder 0xFF
 
 //Class cards
+//Let's leave 0x30 for villagers.
+#define P_Cavalier      0x130
+#define P_Paladin       0x131
+#define P_LanceArmour   0x132
+#define P_General       0x133
+#define P_Thief         0x134
+#define P_Rogue         0x135
+#define P_Mercenary     0x136
+#define P_Hero          0x137
+#define P_Myrmidon      0x138
+#define P_Swordmaster   0x139
+#define P_Archer        0x13A
+#define P_Sniper        0x13B
+#define P_Horseman      0x13C
+#define P_DragonKnight  0x13D
+#define P_DragonMaster  0x13E
+#define P_Mage          0x13F
+#define P_Sage          0x140
+#define P_MageKnight    0x141
+#define P_Priest        0x142
+#define P_Bishop        0x143
+#define P_Shaman        0x144
+#define P_Druid         0x145
+#define P_GreatKnight   0x146
+#define P_Mamkute       0x147
+#define P_Fighter       0x148
+#define P_Warrior       0x149
+#define P_Brigand       0x14A
+#define P_Pirate        0x14B
+#define P_Berserker     0x14C
+#define P_PegasusKnight 0x14D
+#define P_FalconKnight  0x14E
+#define P_Troubadour    0x14F
+#define P_Valkyrie      0x150
+#define P_Soldier       0x151
+#define P_Fleet         0x152
+#define P_Revenant      0x153
+#define P_Entombed      0x154
+#define P_Bonewalker    0x155
+#define P_Wight         0x156
+#define P_Gargoyle      0x157
+#define P_Deathgoyle    0x158
+#define P_DragonZombie  0x159
+#define P_Mogall        0x15A
+#define P_ArchMogall    0x15B

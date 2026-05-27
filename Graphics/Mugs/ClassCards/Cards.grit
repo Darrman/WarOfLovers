@@ -1,0 +1,16 @@
+-g
+# graphics
+-gt
+# tiled
+-gB4
+# 4bpp
+-gzl
+# LZ77
+-p
+# palette
+-pe 16
+# end at colour 16
+-ftb
+# binary export
+-W1
+# notify errors
