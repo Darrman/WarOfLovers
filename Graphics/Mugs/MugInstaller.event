@@ -5,8 +5,9 @@
 NewPortraitTable:
 #incbin "VanillaPortraitTable.dmp" //Keep generic villagers/class cards the same
 ORG (NewPortraitTable + 0x1C * 0x108) //What do you know, you hit 255
-//Not for this release, but reorganise entirely for the next repoint
-//Retained vanilla assets can be reinserted individually
+//Alright, time to reorganise everything, all that should remain from vanilla
+//are the class cards, which can be reinserted
+//Definitions in Custom Definitions
 
 // Repoint to it
 PUSH

@@ -721,3 +721,293 @@
 #define ChloeSpared 0x77
 #define CelineRecruited 0x78
 #define AlmRecruited 0x79
+
+//Portrait IDs
+//Akaneia 1
+#define P_Marth      0x01
+#define P_Sheeda     0x02
+#define P_Chiki      0x03
+#define P_George     0x04
+#define P_Malliesia  0x05
+#define P_Ricardo    0x06
+#define P_Caesar     0x07
+#define P_Tomth      0x08
+#define P_Ryan       0x09
+#define P_Saji       0x0A
+#define P_Roshe      0x0B
+#define P_Rody       0x0C
+#define P_Kashim     0x0D
+#define P_Riff       0x0E
+#define P_Linda      0x0F
+#define P_Oguma      0x10
+#define P_Barts      0x11
+//Elibe
+#define P_Eliwood    0x12
+#define P_Lilina     0x13
+#define P_Fir        0x14
+#define P_Miledy     0x15
+#define P_Wolt       0x16
+#define P_Sophia     0x17
+#define P_Astore     0x18
+#define P_Bartre     0x19
+#define 0x1A //Extra recruit 1 (Noah?)
+#define 0x1B //Extra recruit 2 (Cecilia/Clarine?)
+//Valencia
+#define P_Alm        0x1C
+#define P_Celine     0x1D
+#define P_Valbo      0x1E
+#define P_Camus      0x1F
+#define P_Dyute      0x20
+#define P_Claire     0x21
+//Akaneia 2
+#define P_Marich     0x22
+#define P_Ellis      0x23
+#define P_Kain       0x24
+#define P_Gordon     0x25
+#define 0x26 //Unassigned Akaneian slot (Minerva?)
+#define 0x27 //Unassigned Akaneian slot (Paola?)
+#define 0x28 //Reassigned Jugdral slot (Yumina/Yubello?)
+#define P_Navarre    0x29
+#define P_Feena      0x2A
+//Elyos
+#define 0x2B //First Elyosian recruit (FE3 Anna? Jean? Giant question mark here)
+#define 0x2C 
+#define 0x2D
+#define 0x2E //Celine's gaiden recruit (Hortensia?)
+#define 0x2F //Opportunistic Elyosian (Yunaka?)
+//Askr
+#define P_Gato       0x30
+#define P_Celica     0x31
+#define P_Roy        0x32
+//Enemies, Akaneia 1
+#define P_Alear      0x33
+#define P_Kris       0x34
+#define P_Luke       0x35
+#define P_Boucheron  0x36
+#define P_Clanne     0x37
+#define P_Athena     0x38
+#define P_Louis      0x39
+//Enemies, Elibe
+#define P_Diamant    0x3A
+#define P_Alcryst    0x3B
+#define P_Nicholas   0x3C
+#define P_Rodent     0x3D
+#define P_Amber      0x3E
+#define P_Berthold   0x3F
+#define P_Citrinne   0x40
+#define P_Gebhard    0x41
+#define P_Lapis      0x42
+//Enemies, Valencia
+#define P_Chloe      0x43
+#define P_Leonid     0x44
+#define P_Etie       0x45
+#define P_Cleive     0x46
+#define P_Grey       0x47
+#define P_Mycen      0x48
+#define P_Pilate     0x49
+//Enemies, Akaneia 2
+#define 0x4A //Chapter 17 boss
+#define 0x4B //Chapter 17x boss (subject to change)
+#define 0x4C //Chapter 18 boss
+#define P_Katarina   0x4D
+#define 0x4E //Chapter 20 mid 1
+#define 0x4F //Chapter 20 mid 2
+#define 0x50
+#define 0x51
+//Enemies, Elyos
+#define P_Veyle      0x52 
+#define P_Ivy        0x53 
+#define P_Framme     0x54 
+#define P_Vander     0x55 
+#define P_Timerra    0x56 
+#define P_Fogato     0x57 
+#define 0x58
+#define 0x59
+#define 0x5A
+#define 0x5B
+#define 0x5C
+#define 0x5D
+#define 0x5E
+#define 0x5F
+//Enemies, Askr
+#define P_Alfonse    0x60
+#define P_Veronica   0x61
+#define P_Sharena    0x62
+#define P_FEHAnna    0x63
+#define P_Anna       0x64 //same slot as vanilla to keep some menus intact
+#define P_Armoury    0x65 //for the sake of not breaking the shops, vanilla ID
+#define P_Vendor     0x66
+#define P_Arena      0x67
+#define P_Secret     0x68
+#define 0x69
+#define 0x6A
+#define 0x6B
+#define 0x6C
+#define 0x6D
+#define 0x6E
+#define 0x6F
+#define 0x70
+#define 0x71
+#define 0x72
+#define 0x73
+#define 0x74
+#define 0x75
+#define 0x76
+#define 0x77
+#define 0x78
+#define 0x79
+#define 0x7A
+#define 0x7B
+//Jam Mode bosses
+#define P_Lucina     0x7C
+#define P_Lyn        0x7D
+#define P_Leaf       0x7E
+#define P_Byleth     0x7F
+//Random units: Super Mario
+#define P_Mario      0x80
+#define P_Luigi      0x81
+#define P_Peach      0x82
+#define P_Bowser     0x83
+#define P_DK         0x84
+#define P_Toad       0x85
+#define P_Wario      0x86
+#define P_Daisy      0x87
+#define P_Yoshi      0x88
+#define P_Waluigi    0x89
+//Legend of Zelda
+#define P_Link       0x8A
+#define P_Zelda      0x8B
+#define P_Sahasrahla 0x8C
+#define P_Marin      0x8D
+#define P_Saria      0x8E
+#define P_Salesman   0x8F
+#define P_Ganon      0x90
+//Kirby
+#define P_Kirby      0x91
+#define P_MetaKnight 0x92
+#define P_Dedede     0x93
+//Star Fox
+#define P_Fox        0x94
+#define P_Falco      0x95
+#define P_Peppy      0x96
+#define P_Slippy     0x97
+#define P_Wolf       0x98
+//Earthbound
+#define P_Ness       0x99
+#define P_Paula      0x9A
+#define P_Jeff       0x9B
+#define P_Poo        0x9C
+#define P_Pokey      0x9D
+//Super Smash Bros
+#define P_Samus      0x9E
+#define P_Pikachu    0x9F
+#define P_Jigglypuff 0xA0
+#define P_Mewtwo     0xA1
+#define P_Falcon     0xA2
+#define P_MrGAndW    0xA3
+#define P_Popo       0xA4
+//Final Fantasy
+#define P_CecilFF4   0xA5
+#define P_Rosa       0xA6
+#define P_KainFF4    0xA7
+#define P_Rydia      0xA8
+#define P_Butz       0xA9
+#define P_Lenna      0xAA
+#define P_Supply     0xAB //vanilla, must be here
+#define P_Galuf      0xAC
+#define P_Terra      0xAD
+#define P_Celes      0xAE
+#define P_Locke      0xAF
+//Pokemon
+#define P_Ash        0xB0
+#define P_Misty      0xB1
+#define P_Brock      0xB2
+#define P_Jessie     0xB3
+#define P_James      0xB4
+#define P_May        0xB5
+#define P_Dawn       0xB6
+#define P_Serena     0xB7
+//Yugioh
+#define P_Yugi       0xB8
+#define P_Joey       0xB9
+#define P_Tea        0xBA
+#define P_Kaiba      0xBB
+#define P_Jaden      0xBC
+#define P_Alexis     0xBD
+#define P_Chazz      0xBE
+//Pikmin
+#define P_Olimar     0xBF
+#define P_Louie      0xC0
+#define P_President  0xC1
+//Metal Gear
+#define P_Snake      0xC2
+#define P_Raiden     0xC3
+#define P_Armstrong  0xC4
+//Sonic the Hedgehog
+#define P_Sonic      0xC5
+#define P_Tails      0xC6
+#define P_Knuckles   0xC7
+#define P_Shadow     0xC8
+#define P_Robotnik   0xC9
+//Megami Tensei
+#define P_Flynn      0xCA
+#define P_Isabeau    0xCB
+#define P_Jonathan   0xCC
+#define P_Walter     0xCD
+//Touhou
+#define P_Reimu      0xCE
+#define P_Marisa     0xCF
+#define P_Mima       0xD0
+#define P_Yuuka      0xD1
+#define P_Shinki     0xD2
+#define P_Alice      0xD3
+//Reserved for empty unit slots
+#define 0xD4
+#define 0xD5
+#define 0xD6
+#define 0xD7
+#define 0xD8
+#define 0xD9
+#define 0xDA
+#define 0xDB
+#define 0xDC
+#define 0xDD
+#define 0xDE
+#define 0xDF
+#define 0xE0
+#define 0xE1
+#define 0xE2
+#define 0xE3
+#define 0xE4
+//Reservation ends here
+//NPCs
+#define P_Alfred     0xE5
+#define P_Merlinus   0xE6
+#define P_Garret     0xE7
+#define P_Wallace    0xE8
+#define P_Marcus     0xE9
+#define P_Barth      0xEA
+#define P_Wendy      0xEB
+#define P_Nina       0xEC
+#define P_Teeta      0xED
+#define 0xEE
+#define 0xEF
+#define 0xF0
+#define 0xF1
+#define 0xF2
+#define 0xF3
+#define 0xF4
+//Mug variants
+#define P_CelineEngaged 0xF5
+#define 0xF6
+#define 0xF7
+#define 0xF8
+#define 0xF9
+#define 0xFA
+#define 0xFB
+#define 0xFC
+#define 0xFD
+#define 0xFE
+#define P_Placeholder 0xFF
+
+//Class cards
