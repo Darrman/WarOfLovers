@@ -18,7 +18,7 @@ WorldMapLoadMapSprite(0, Paladin, 0, 8) //Eliwood
 WorldMapDisplayMapSprite(0, 0, 452, 206, 10)
 WorldMapDisplayMapSprite(1, 0, 386, 220, 10)
 STAL 10
-WorldMapShowPortraitRight(0,0x31) //Eliwood
+WorldMapShowPortraitRight(0,P_Eliwood) //Eliwood
 STAL 20
 TEXTCONT
 TEXTEND

@@ -13,9 +13,9 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch12WorldMap)
 TEXTEND
-WorldMapShowPortraitLeft(0,0x30) //Lilina
+WorldMapShowPortraitLeft(0,P_Lilina) //Lilina
 STAL 30
-WorldMapShowPortraitRight(1,0x52) //Arcard Junior
+WorldMapShowPortraitRight(1,P_Nicholas) //Arcard Junior
 STAL 30
 TEXTCONT
 TEXTEND
@@ -27,9 +27,9 @@ WorldMapClearRightPortrait(0)
 STAL 30
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0,0x2B) //Alear
+WorldMapShowPortraitLeft(0,P_Alear) //Alear
 STAL 30
-WorldMapShowPortraitRight(1,0x04) //Chiki
+WorldMapShowPortraitRight(1,P_Chiki) //Chiki
 STAL 30
 //Degeneration does not discriminate, show Alear to emphasise that
 //Could use someone like Gato or Banutu, but they're not yet on screen

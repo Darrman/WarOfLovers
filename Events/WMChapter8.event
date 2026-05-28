@@ -11,31 +11,31 @@ MUSC M_Charge
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
-WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapShowPortraitLeft(0,P_Marth) //Marth
 STAL 10
 WorldMapTextBegin(Ch8WorldMap)
 TEXTEND
 WorldMapClearLeftPortrait(0)
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0,0x4E) //Roy
+WorldMapShowPortraitLeft(0,P_Roy) //Roy
 STAL 10
 TEXTCONT
 TEXTEND
 WorldMapClearLeftPortrait(0)
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1, 0x56) //Guinevere
+WorldMapShowPortraitRight(1, P_Guinevere) //Guinevere
 STAL 10
 TEXTCONT
 TEXTEND
 WorldMapClearRightPortrait(1)
 STAL 20
-WorldMapShowPortraitLeft(0,0x4E) //Roy
+WorldMapShowPortraitLeft(0,P_Roy) //Roy
 STAL 10
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x30) //Lilina
+WorldMapShowPortraitRight(1,P_Lilina) //Lilina
 STAL 10
 TEXTCONT
 TEXTEND
@@ -45,14 +45,14 @@ TEXTEND
 WorldMapClearRightPortrait(1)
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x31) //Eliwood
+WorldMapShowPortraitRight(1,P_Eliwood) //Eliwood
 TEXTCONT
 TEXTEND
 WorldMapLoadMapSprite(2, Lord, 0, 6) //Marth's node seems to control chapter?
 WorldMapDisplayMapSprite(2, 0, 324, 252, 10)
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x02) //Marth
+WorldMapShowPortraitRight(1,P_Marth) //Marth
 WorldMapLoadMapSprite(3, Mage_F, 2, 6)
 WorldMapDisplayMapSprite(3, 0, 300, 180, 10)
 TEXTCONT

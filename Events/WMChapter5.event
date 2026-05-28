@@ -18,9 +18,9 @@ WorldMapDisplayMapSprite(3, 0, 198, 80, 10)
 STAL 20
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0, 0x3) //Sheeda
+WorldMapShowPortraitLeft(0, P_Sheeda) //Sheeda
 STAL 30
-WorldMapShowPortraitRight(1, 0x2B) //Alear
+WorldMapShowPortraitRight(1, P_Alear) //Alear
 STAL 30
 WorldMapMoveMapSprite(0, 5, 150, 70, 180, 65, 200, 0, 10) //Sheeda to Alear
 TEXTCONT

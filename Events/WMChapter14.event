@@ -12,11 +12,11 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch14WorldMap)
 TEXTEND
-WorldMapShowPortraitLeft(0,0x2F) //Alm
+WorldMapShowPortraitLeft(0,P_Alm) //Alm
 STAL 30
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x4D) //Celica
+WorldMapShowPortraitRight(1,P_Celica) //Celica
 TEXTCONT
 TEXTEND
 WorldMapClearRightPortrait(1)
@@ -29,7 +29,7 @@ WorldMapDisplayMapSprite(0, 0, 70, 50, 10)
 WorldMapDisplayMapSprite(1, 0, 44, 92, 10)
 TEXTCONT
 TEXTEND
-//WorldMapShowPortraitLeft(0,0x2) //Marth
+//WorldMapShowPortraitLeft(0,P_Marth) //Marth
 TEXTCONT
 TEXTEND
 

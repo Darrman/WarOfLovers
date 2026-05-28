@@ -11,9 +11,9 @@ MUSC M_Charge
 WM_SETCAM 240 160
 STAL 120
 WorldMapShowTextBox
-WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapShowPortraitLeft(0,P_Marth) //Marth
 STAL 20
-WorldMapShowPortraitRight(1,0x31) //Eliwood
+WorldMapShowPortraitRight(1,P_Eliwood) //Eliwood
 STAL 20
 WorldMapTextBegin(Ch9WorldMap)
 TEXTEND
@@ -23,7 +23,7 @@ WorldMapClearRightPortrait(1)
 STAL 20
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1, 0x56) //Guinevere
+WorldMapShowPortraitRight(1, P_Guinevere) //Guinevere
 STAL 20
 WorldMapLoadMapSprite(3, DragonMaster, 1, 7) //the boss
 WorldMapDisplayMapSprite(3, 1, 452, 206, 10)

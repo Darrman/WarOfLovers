@@ -7,10 +7,10 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch2WorldMap)
 TEXTEND
-WorldMapShowPortraitLeft(0,0x05) //Marich
+WorldMapShowPortraitLeft(0,P_Marich) //Marich
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x2C) //Kris
+WorldMapShowPortraitRight(1,P_Kris) //Kris
 TEXTCONT
 TEXTEND
 WorldMapClearLeftPortrait(0)

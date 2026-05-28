@@ -13,7 +13,7 @@ WorldMapDisplayMapSprite(0, 0, 188, 65, 10)
 WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0,0x2) //Marth
+WorldMapShowPortraitLeft(0,P_Marth) //Marth
 TEXTCONT
 TEXTEND
 

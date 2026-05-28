@@ -14,7 +14,7 @@ WorldMapShowTextBox
 WorldMapTextBegin(Ch11WorldMap)
 TEXTEND
 //WorldMapLoadMapSprite(0, Lord, 0, 9) //Marth's node seems to control chapter?
-WorldMapShowPortraitLeft(0,0x30) //Lilina
+WorldMapShowPortraitLeft(0,P_Lilina) //Lilina
 TEXTCONT
 TEXTEND
 WorldMapClearLeftPortrait(0)
@@ -41,7 +41,7 @@ TEXTCONT
 TEXTEND
 WM_WAITFORSPRITES 0 0xFFFF 0xFFFF
 STAL 10
-WorldMapShowPortraitLeft(0,0x30) //Lilina
+WorldMapShowPortraitLeft(0,P_Lilina) //Lilina
 TEXTEND
 TEXTCONT
 TEXTEND

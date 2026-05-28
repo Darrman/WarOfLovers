@@ -199,7 +199,7 @@ setMugEntry(P_Lyn, Lyn_Mug, 2,6,3,4)
 
 Leaf_Mug:
 #incext PortraitFormatter "Leaf.png"
-setMugEntry(P_Lyn, Leaf_Mug, 4,7,3,5)
+setMugEntry(P_Leaf, Leaf_Mug, 4,7,3,5)
 
 Byleth_Mug:
 #incext PortraitFormatter "Byleth.png"
@@ -207,7 +207,7 @@ setMugEntry(P_Byleth, Byleth_Mug, 4, 7, 4, 4)
 
 Alear_Mug:
 #incext PortraitFormatter "Alear.png"
-setMugEntry(P_Byleth, Alear_Mug, 3,5,3,3)
+setMugEntry(P_Alear, Alear_Mug, 3,5,3,3)
 
 Kris_Mug:
 #incext PortraitFormatter "Kris.png"

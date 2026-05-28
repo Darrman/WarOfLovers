@@ -10,9 +10,9 @@ WM_FADEOUT 0x0 0x0 0x0
 MUSC M_Charge
 STAL 120
 WorldMapShowTextBox
-WorldMapShowPortraitLeft(0,0x02) //Marth
+WorldMapShowPortraitLeft(0,P_Marth) //Marth
 STAL 30
-WorldMapShowPortraitRight(1,0x2B) //Alear
+WorldMapShowPortraitRight(1,P_Alear) //Alear
 STAL 30
 WorldMapTextBegin(Ch13WorldMap)
 TEXTEND
@@ -45,7 +45,7 @@ WorldMapLoadMapSprite(1, General, 1, 5)
 //WorldMapDisplayMapSprite(1, 0, 180, 30, 10)
 TEXTCONT
 TEXTEND
-//WorldMapShowPortraitLeft(0,0x2) //Marth
+//WorldMapShowPortraitLeft(0,P_Marth) //Marth
 TEXTCONT
 TEXTEND
 

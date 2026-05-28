@@ -12,9 +12,9 @@ STAL 120
 WorldMapShowTextBox
 WorldMapTextBegin(Ch16WorldMap)
 TEXTEND
-WorldMapShowPortraitLeft(0,0x2F) //Alm
+WorldMapShowPortraitLeft(0,P_Alm) //Alm
 STAL 30
-WorldMapShowPortraitRight(1,0x37) //Celine
+WorldMapShowPortraitRight(1,P_Celine) //Celine
 STAL 30
 TEXTCONT
 TEXTEND

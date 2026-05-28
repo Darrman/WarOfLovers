@@ -10,16 +10,16 @@ WM_FADEOUT 0x0 0x0 0x0
 MUSC M_ToSofia
 STAL 120
 WorldMapShowTextBox
-WorldMapShowPortraitLeft(0,0x2F) //Alm
+WorldMapShowPortraitLeft(0,P_Alm) //Alm
 STAL 30
-WorldMapShowPortraitRight(1,0xE1) //Claire
+WorldMapShowPortraitRight(1,P_Claire) //Claire
 STAL 30
 WorldMapTextBegin(Ch15WorldMap)
 TEXTEND
 WorldMapClearLeftPortrait(1)
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x37) //Celine
+WorldMapShowPortraitRight(1,P_Celine) //Celine
 STAL 30
 TEXTCONT
 TEXTEND
@@ -30,11 +30,11 @@ STAL 20
 WM_SETCAM 240 0
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitRight(1,0x2C) //Kris
+WorldMapShowPortraitRight(1,P_Kris) //Kris
 STAL 30
 TEXTCONT
 TEXTEND
-WorldMapShowPortraitLeft(0,0x50) //Kain
+WorldMapShowPortraitLeft(0,P_Kain) //Kain
 STAL 30
 TEXTCONT
 TEXTEND
@@ -44,7 +44,7 @@ WorldMapClearRightPortrait(0)
 STAL 20
 WM_SETCAM 0 48
 STAL 30
-WorldMapShowPortraitLeft(0,0x02) //Marth
+WorldMapShowPortraitLeft(0,P_Marth) //Marth
 STAL 30
 WorldMapLoadMapSprite(0, Lord, 0, 13) //Marth's node seems to control chapter?
 WorldMapLoadMapSprite(1, DukeKnight, 1, 5)
