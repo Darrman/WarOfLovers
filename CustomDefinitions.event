@@ -1006,7 +1006,7 @@
 //#define 0xFA
 //#define 0xFB
 //#define 0xFC
-#define P_Cavalier 0xFD //proof of concept
+//#define 0xFD
 #define P_Cecil 0xFE //move her elsewhere
 #define P_Placeholder 0xFF
 
