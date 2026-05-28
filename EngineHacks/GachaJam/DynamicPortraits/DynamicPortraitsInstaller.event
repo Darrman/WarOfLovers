@@ -85,14 +85,14 @@ BYTE Zelda //she needs to be around
 BYTE 0x0 //but her class doesn't matter
 */
 
-SHORT 0x55 //Merlinus
-SHORT 0x101 //Nina
+SHORT P_Merlinus //Merlinus
+SHORT P_Nina //Nina
 SHORT 0x27 //same hack as Celine but Nina comes before her
 BYTE 0x0
 BYTE 0x0 //cleaner method doesn't work as she's green not blue
 
-SHORT 0x37 //Celine
-SHORT 0xF8 //red Celine
+SHORT P_Celine //Celine
+SHORT P_CelineEngaged //red Celine
 SHORT 0x27
 BYTE 0
 BYTE 0
