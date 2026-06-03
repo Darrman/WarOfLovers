@@ -305,6 +305,11 @@ And so, all shall be revealed...
 - Grove Village: FE2 Alm Ch3 Map 3, Grove Village (Darrman)
 - Outside Sofia Castle: FE2 Alm Ch1 Final Map, Sofia Castle North Gate (Darrman)
 - Sofia Castle: FE2 Sofia Castle (Darrman)
+- Durhua Harbour: Darrman
+- Durhua: FE1 Ch24 (Darrman)
+- Durhua Cape: Darrman
+- Pales Approach: FE1 Ch11, Darrman
+- Pales: BSFE Ep1, Ep3, FE1 Ch12 (Darrman)
 
 # CGs:
 - Mario: Super Mario 64
