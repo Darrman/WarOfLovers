@@ -329,7 +329,7 @@ PlainsTiles:
 #define Ch5xMap 0x8B
 #define Ch10xMap 0x8E
 #define Ch13xMap 0x91
-#define Ch21xMap 0x94
+#define Ch17xMap 0x94
 #define Ch22xMap 0x97
 #define Ch27xMap 0x9A
 #define BadFinalMap 0x9D
@@ -373,7 +373,7 @@ PlainsTiles:
 #define Ch5xMapChanges 0x8C
 #define Ch10xMapChanges 0x8F
 #define Ch13xMapChanges 0x92
-#define Ch21xMapChanges 0x95
+#define Ch17xMapChanges 0x95
 #define Ch22xMapChanges 0x98
 #define Ch27xMapChanges 0x9B
 #define BadFinalMapChanges 0x9E
