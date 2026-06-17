@@ -149,10 +149,10 @@ And so, all shall be revealed...
 - Waluigi: Mario Kart Wii (Sme)
 
 - Ash: Pokemon Anime (Darrman)
-- Misty: Pokemon Anime (Darrman)
+- Misty: Eden
 - Brock: Garytop
-- Jessie: Pokemon Anime (Darrman)
-- James: Pokemon Anime (Darrman)
+- Jessie: Eden
+- James: Eden
 - May: Pokemon Anime (Darrman)
 - Dawn: Pokemon Anime (Darrman)
 - Serena: Pokemon Anime (Darrman)

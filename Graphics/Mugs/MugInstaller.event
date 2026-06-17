@@ -94,7 +94,8 @@ setMugEntry(P_Ash, Ash_Mug, 0,4,10,4, 4,7,4,5, 1)
 Misty_Mug:
 #incext PortraitFormatter "Summons/Misty.png"
 //setMugEntry(0x11, Misty_Mug, 4,7,4,5)
-setMugEntry(P_Misty, Misty_Mug, 0,4,10,1, 4,7,4,5, 1)
+//setMugEntry(P_Misty, Misty_Mug, 0,4,10,1, 4,7,4,5, 1)
+setMugEntry(P_Misty, Misty_Mug, 3,6,3,4)
 
 Brock_Mug:
 #incext PortraitFormatter "Summons/Brock.png"
@@ -103,12 +104,14 @@ setMugEntry(P_Brock, Brock_Mug, 3,5,3,3)
 Jessie_Mug:
 #incext PortraitFormatter "Summons/Jessie.png"
 //setMugEntry(0x13, Jessie_Mug, 5,7,4,4)
-setMugEntry(P_Jessie, Jessie_Mug, 0,2,0,4, 5,7,4,4, 1)
+//setMugEntry(P_Jessie, Jessie_Mug, 0,2,0,4, 5,7,4,4, 1)
+setMugEntry(P_Jessie, Jessie_Mug, 3,5,3,3)
 
 James_Mug:
 #incext PortraitFormatter "Summons/James.png"
 //setMugEntry(0x14, James_Mug, 4,6,4,4)
-setMugEntry(P_James, James_Mug, 10,2,10,4, 4,6,4,4, 1)
+//setMugEntry(P_James, James_Mug, 10,2,10,4, 4,6,4,4, 1)
+setMugEntry(P_James, James_Mug, 3,5,3,3)
 
 May_Mug:
 #incext PortraitFormatter "Summons/May.png"
