@@ -1,0 +1,93 @@
+// i hate febuilder
+#define TRUE 1
+#define FALSE 0
+
+// ASMC 
+#define EnactAutoRepair "ASMC RefreshItemsASMC|1"
+#define EnactAutoRepair(uses) "SVAL s1 uses; ASMC RefreshItemsASMC|1"
+
+// convoy size, change if expanding convoy
+#define MaxConvoy 128
+
+// if true, weapons at 0 durability will have reduced stats and still be equippable.
+#define EQUIP_BROKEN_WEAPONS TRUE
+
+// if false, magic weapons will be exempt from the above rule
+#define EQUIP_BROKEN_MAGIC FALSE
+
+// broken weapon table macro
+//#define BrokenWeaponEntry(name, desc, mt, hit, wt, crit, rng) "SHORT name desc mt hit wt crit rng"
+#define BrokenWeaponEntry(mt,hit,wt,crit) "BYTE mt hit wt crit"
+
+// filler numbers, change to your specifications
+//The default macro order is wrong. Name/desc are known issues, but "hit" is weight.
+//And the alleged lance entry didn't change the broken lance. The sword entry did.
+//It has 50 might and 60 weight, while hit and crit are both zero.
+//How did that happen? Testing the rapier now.
+//That has utterly nonsensical stats. 16 might, one hit, one crit, 17 weight?
+//I wonder if the issue is the name/description still being part of the macro,
+//but since they're not being changed anymore, it throws the rest off?
+//Now that I look at the bytes a bit closer, yeah that's exactly what's
+//happening. 0x10 0x01 0x11 0x01 matches the reported numbers.
+//In fact, the non-Skillsys version has a shortened macro. Ah, copy-paste errors.
+ALIGN 4
+BrokenWeaponTable:
+BrokenWeaponEntry(0,20,20,0) //Broken Sword
+BrokenWeaponEntry(0,20,20,0) //Broken Lance
+BrokenWeaponEntry(0,20,20,0) //Broken Axe
+BrokenWeaponEntry(0,20,20,0) //Broken Bow
+BrokenWeaponEntry(0,0,0,0) //Broken Staff, shouldn't matter
+BrokenWeaponEntry(0,0,0,0) //Empty Book (anima)
+BrokenWeaponEntry(0,0,0,0) //Empty Book (light)
+BrokenWeaponEntry(0,0,0,0) //Empty Book (dark)
+
+//BrokenWeaponEntry(0x110, 0x111, 50, 60, 70, 80, 0x11) // swords
+//BrokenWeaponEntry(0x112, 0x113, 10, 20, 30, 40, 0x11) // lances
+//BrokenWeaponEntry(0x114, 0x115, 90, 100, 110, 120, 0x11) // axes
+//BrokenWeaponEntry(0x116, 0x117, 0, 50, 20, 0, 0x22) // bows
+//BrokenWeaponEntry(0x118, 0x119, 0, 50, 20, 0, 0x11) // staves
+//BrokenWeaponEntry(0x11A, 0x11B, 0, 50, 20, 0, 0x12) // anima
+//BrokenWeaponEntry(0x11C, 0x11D, 0, 50, 20, 0, 0x12) // light
+//BrokenWeaponEntry(0x11E, 0x11F, 0, 50, 20, 0, 0x12) // dark
+
+
+ALIGN 4
+AutoRefreshList:
+//Well, it's meant to be "auto-refresh", except there's no refreshing.
+//I'm here for the SNES mechanics! So that means list everything.
+//There will be more things added in, so don't forget to revise that.
+BYTE IronSword SlimSword SteelSword SilverSword IronBlade SteelBlade SilverBlade
+BYTE PoisonSword Rapier WoDao BraveSword MasterSword KillingEdge Armourslayer Wyrmslayer
+BYTE ThunderSword Runesword Lancereaver Zanbato
+BYTE IronLance SlimLance SteelLance SilverLance ToxinLance BraveLance KillerLance
+BYTE Horseslayer Javelin Spear Axereaver
+BYTE IronAxe SteelAxe SilverAxe PoisonAxe BraveAxe KillerAxe Halberd Hammer
+BYTE DevilAxe HandAxe Tomahawk Swordreaver Swordslayer Hatchet
+BYTE IronBow SteelBow SilverBow PoisonBow KillerBow BraveBow ShortBow Longbow
+//What even happens in FE3/5 when a ballista breaks? I don't remember.
+BYTE Fire Thunder Elfire Bolting Blizzard Bolganone Excalibur
+BYTE Lightning Shine Divine Purge Aura Starlight
+BYTE Flux Luna Resire Doulam Fenrir Maph
+BYTE Heal Mend Recover Physic Fortify Restore Silence Sleep
+BYTE Berserk Warp Rescue TorchStaff Hammerne Unlock Barrier
+BYTE DragonAxe WingSpear ShadowKiller BrightLance Fiendcleaver BeaconBow Falchion BattleAxe
+BYTE Thoron Latona DragonSpear Gradius Naglfar MiracleSword Siegmund Garm
+BYTE Partia HeavySpear ShortSpear WindSword Shaver Elthunder Wind Elwind
+BYTE Tornado Meteor Durandal Forblaze Kingsfang ValencianBow Venomous
+BYTE 0 // terminator
+
+// don't touch anything below here
+ALIGN 4
+ConvoySize_Link:
+WORD MaxConvoy
+
+ALIGN 4
+EQUIP_BROKEN_WEAPONS_Link:
+WORD EQUIP_BROKEN_WEAPONS
+
+ALIGN 4
+EQUIP_BROKEN_MAGIC_Link:
+WORD EQUIP_BROKEN_MAGIC
+
+#include "AutoRefreshingWeapons.lyn.event"
+
