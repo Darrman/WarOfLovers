@@ -1089,6 +1089,17 @@
   AS_End:
 .endm
 
+.macro get_attack_speed_fe3
+  mov     r0, r8
+  blh     SpdGetter
+  mov     r4, r0 @speed in r4
+  mov     r0, r8
+  blh     EquippedWeaponGetter
+  blh     ItemWeightGetter
+  mov     r5, r0 @weight in r5
+  sub     r0, r4, r5 @speed - weight. Known issue: "negative" AS renders as --
+.endm
+
 .macro get_attack
   ldr     r6, =gActiveBattleUnit
   mov     r0, r6
@@ -1403,6 +1414,6 @@
   draw_textID_at 24, 13, 0x0001 @" "
   draw_textID_at 25, 13, 0x0001 @" "
   draw_textID_at 26, 13, 0x0001 @" "
-  get_attack_speed
+  get_attack_speed_fe3
   draw_number_at 27, 13
 .endm
