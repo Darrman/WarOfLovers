@@ -158,11 +158,12 @@
   
   #ifdef QOL_STAT_SCREEN_BALLISTA
   
-    #include "pages/mss_page2_ballista.lyn.event"
+    #include "pages/mss_page2_ballista_as.lyn.event"
 
   #else  // QOL_STAT_SCREEN_BALLISTA
   
-    #include "pages/mss_page2_original.lyn.event"
+    //#include "pages/mss_page2_original.lyn.event"
+    #include "pages/mss_page2_as.lyn.event"
 
   #endif  // QOL_STAT_SCREEN_BALLISTA
   
@@ -291,6 +292,7 @@
   New_Palettes:
     #include "DisplayGrowthsOptions/NewPalette.event"
 
+  #include "StatScreenRng2AS.event" //by Pawkkie
 
   #include "RText.event"
 

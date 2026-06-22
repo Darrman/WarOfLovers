@@ -1,0 +1,25 @@
+PUSH
+
+// Hook into the specific instances of textIDs that used to draw in the Equipment section of the stat screen
+ORG 0xA01194
+SHORT 0x0504 // AS; default is 0x0500 for Rng
+
+ORG 0xA01198
+SHORT 0x04F3 // Atk
+
+ORG 0xA0119C
+SHORT 0x04F4 // Hit
+
+ORG 0xA011A0
+SHORT 0x0501 // Crit
+
+ORG 0xA011A4
+SHORT 0x04F5 // Avoid
+
+
+// Overwrites the text table entry that would go to Weapon Range Rtext with AS Rtext.
+// You can just delete these lines and change the text manually if you prefer with no issues.
+//ORG 0xB2BB88
+//BYTE 0x61 0xC8
+
+POP

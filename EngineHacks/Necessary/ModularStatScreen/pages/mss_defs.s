@@ -1395,3 +1395,14 @@
     mov    r0, r7 @ Next "blank" TextHandle.
   SkipGaidenDraw:
 .endm
+
+@ There's probably an actual include directive but whatever
+@ Let's try including this at the end instead
+.macro as_instead_of_rng
+  draw_textID_at 23, 13, 0x0001 @" "
+  draw_textID_at 24, 13, 0x0001 @" "
+  draw_textID_at 25, 13, 0x0001 @" "
+  draw_textID_at 26, 13, 0x0001 @" "
+  get_attack_speed
+  draw_number_at 27, 13
+.endm
