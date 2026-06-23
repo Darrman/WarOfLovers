@@ -1,0 +1,13 @@
+PUSH
+ORG 0x8035B0 //tiles
+#incbin "LevelUpScreenTiles.img.bin"
+ORG 0x8039E8 //TSA
+#incbin "LevelUpScreenTSA.bin"
+ORG 0x803B10 //palette
+#incbin "LevelUpScreenTiles.pal.bin"
+//EXP bar, may as well handle it here
+ORG 0x802D44 //image - I hope the single garbage tile won't cause issues
+#incbin "EXPBar.img.bin"
+ORG 0x803590 //palette
+#incbin "EXPBar.pal.bin"
+POP

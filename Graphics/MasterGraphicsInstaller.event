@@ -14,3 +14,4 @@
 #include PrepBackground/PrepBackground.event
 #include BattlePlatforms/repointedBattlePlatforms.event
 //taken from Ditto's thread on extending free space
+#include LevelUp/LevelUpScreen.event
