@@ -312,7 +312,7 @@ In the name of the Kingdom of Lycia,[N]
 we shall prevail today![A][X]
 
 ## Ch11VillageText1
-[MR][LoadCurrent][ML][LoadFace][0x58][0x01]
+[MR][LoadCurrent][ML][LoadElibeMoneyMan]
 Oh, for peace to return to Elibe...[N]
 Everything went to pieces when Roy[AN]
 disappeared. I heard he was going to[N]
@@ -323,7 +323,7 @@ everyone has something out for Lycia![N]
 Here, take this. Bring us peace![A][X]
 
 ## Ch11VillageText2
-[MR][LoadCurrent][ML][LoadFace][0x5C][0x01]
+[MR][LoadCurrent][ML][LoadElibeYoungManGreen]
 I saw that Nicholas this morning[N]
 trying to worm his way inside.[AN]
 Any of the queen's soldiers could[N]
@@ -334,7 +334,7 @@ Nail him down from afar with this,[N]
 would you? We'd all thank you![A][X]
 
 ## Ch11VillageText3
-[MR][LoadCurrent][ML][LoadFace][0x60][0x01]
+[MR][LoadCurrent][ML][LoadElibeOldWoman]
 So half of Bern want Guinevere gone.[N]
 I am not even remotely surprised.[AN]
 Then the old colonists in Etruria[N]
@@ -349,7 +349,7 @@ Is somebody pulling the colonial[N]
 faction's strings?[A][X]
 
 ## Ch11VillageText4
-[MR][LoadCurrent][ML][LoadFace][0x5B][0x01]
+[MR][LoadCurrent][ML][LoadElibeMoustacheMan]
 Psst... You're not with Lilina?[N]
 Good. I don't like the way Lycia[AN]
 is going. The marquesses are losing[N]
@@ -364,7 +364,7 @@ Tania... maybe they should rebel![N]
 Before Ostia gets them too![A][X]
 
 ## Ch11VillageText5
-[MR][LoadCurrent][ML][LoadFace][0x62][0x01]
+[MR][LoadCurrent][ML][LoadElibeHeadbandWoman]
 I know I didn't see him. But I swear[N]
 Roy is leading the enemy army![AN]
 Disappearing, turning into a ghost,[N]
@@ -375,7 +375,7 @@ make Lilina doubt herself. Here, this[N]
 should help remove any doubts.[A][X]
 
 ## Ch11VillageText6
-[MR][LoadCurrent][ML][LoadFace][0x59][0x01]
+[MR][LoadCurrent][ML][LoadElibeOldMan]
 Marquess Pherae has been searching[N]
 for the king ever since he vanished.[AN]
 The last place King Roy was seen[N]
@@ -390,7 +390,7 @@ I'm sure his wife just got ill.[N]
 Marrying a dragon... Ha![A][X]
 
 ## Ch11VillageText7
-[MR][LoadCurrent][ML][LoadFace][0x5F][0x01]
+[MR][LoadCurrent][ML][LoadElibeOldWoman
 Queen Lilina was always a friendly girl.[N]
 Then her parents died at Araphen,[AN]
 before getting captured in Legance's[N]
@@ -403,7 +403,7 @@ Either way, Lilina has a heavy burden.[N]
 Use this to help relieve it.[A][X]
 
 ## Ch11VillageText8
-[MR][LoadCurrent][ML][LoadFace][0x5D][0x01]
+[MR][LoadCurrent][ML][LoadElibeYoungManBlue]
 You won't believe what I heard from[N]
 one of these Lythian soldiers.[AN]
 Zephiel was a dragon! Hartmut went[N]

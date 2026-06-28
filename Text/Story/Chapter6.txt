@@ -14,8 +14,9 @@ abound, but few ever lay their eyes on[N]
 structures such as the Ice Dragons'[AN]
 Temple.[Event] Marth visited it once before.[N]
 Now, he aims to return, biding his time[AN]
-until the eyes of Lythos and Askr look[N]
-away from Akaneia...[A][X]
+until the eyes of Lythos look away[N]
+//Stray "Askr" deleted
+from Akaneia...[A][X]
 
 ## Ch6OpeningOnABoatAgain
 [ML][LoadMarth][MR][LoadSheeda]

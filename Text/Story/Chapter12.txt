@@ -173,7 +173,7 @@ Our enemies won't escape us.[A][X]
 Two weeks later...[X]
 
 ## Ch12OpeningCrackdown
-[ML][LoadFace][0x60][0x01][MR][LoadFace][0x61][0x01]
+[ML][LoadElibeYoungWoman][MR][LoadElibeHeadbandWoman]
 //generic villagers
 Did you hear the news? The new[N]
 Marquess Ostia is the head of[AN]
@@ -205,7 +205,7 @@ What did I tell you?! There's a[N]
 guard coming this way![A][X]
 
 ## Ch12OpeningLapisArrestsDissident
-[FL][LoadLapis][Left][LoadFace][0x60][0x01][MR][LoadFace][0x61][0x01]
+[FL][LoadLapis][Left][LoadYoungWoman][MR][LoadHeadbandWoman]
 //if I make Alcryst's goon a character the same guy
 [FL]
 //What's this about the old regime?[N]
@@ -373,7 +373,7 @@ I'll cover you from close range.[N]
 Together, nothing can stop us![A][X]
 
 ## Ch12HouseText1
-[ML][LoadFace][0x59][0x01][MR][LoadCurrent]
+[ML][LoadElibeOldMan][MR][LoadCurrent]
 [ML]
 What's that ruckus outside?![N]
 Can't a man get some sleep?[AN]
@@ -383,7 +383,7 @@ worse and worse here in Badon![N]
 Take this and scram![A][X]
 
 ## Ch12HouseText2
-[ML][LoadFace][0x5D][0x01][MR][LoadCurrent]
+[ML][LoadElibeYoungManGreen][MR][LoadCurrent]
 [ML]
 We give our all to defeat Bern,[N]
 and now half of Lycia's occupied[AN]
@@ -395,7 +395,7 @@ us a lot of bloodshed compared to[N]
 falling to his loyalist officers.[A][X]
 
 ## Ch12HouseText3
-[ML][LoadFace][0x62][0x01][MR][LoadCurrent]
+[ML][LoadElibeYoungWoman][MR][LoadCurrent]
 [ML]
 I haven't been outside of Badon[N]
 for a while - the reasons should[AN]
@@ -411,7 +411,7 @@ has raised a finger against[N]
 Nicholas after Ostia fell![A][X]
 
 ## Ch12HouseText4
-[ML][LoadFace][0x61][0x01][MR][LoadCurrent]
+[ML][LoadElibeHeadbandWoman][MR][LoadCurrent]
 [ML]
 My friend just got arrested for[N]
 speaking her mind about the[AN]
@@ -425,7 +425,7 @@ and her father-in-law get out[N]
 of Lycia to fight another day.[A][X]
 
 ## Ch12HouseText5
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadElibeMoustacheMan][MR][LoadCurrent]
 [ML]
 Word going around is that Ostia's[N]
 been taken over by an Etrurian[AN]
@@ -439,7 +439,7 @@ Will we too be enslaved? Here, take[N]
 this: you deserve it far more.[A][X]
 
 ## Ch12HouseText6
-[ML][LoadFace][0x5E][0x01][MR][LoadCurrent]
+[ML][LoadElibeBoy][MR][LoadCurrent]
 [ML]
 There's so many strange goings-on[N]
 lately. Marquess Pherae finds[AN]
@@ -453,7 +453,7 @@ One". We don't even know her[N]
 name! By Elimine...[A][X]
 
 ## Ch12HouseText7
-[ML][LoadFace][0x58][0x01][MR][LoadCurrent]
+[ML][LoadElibeNoseMan][MR][LoadCurrent]
 [ML]
 Are you with Marth's army?[N]
 I have no idea who Marth is,[AN]
@@ -465,7 +465,7 @@ friend, so if you're with[N]
 Marth, this sword is yours.[A][X]
 
 ## Ch12HouseText8
-[ML][LoadFace][0x58][0x01][MR][LoadCurrent]
+[ML][LoadElibeMoneyMan][MR][LoadCurrent]
 [ML]
 Lycia has collapsed and a[N]
 partition is very possible.[AN]
@@ -483,7 +483,7 @@ Maybe I should try my luck[N]
 with the Dread Isle...[A][X]
 
 ## Ch12HouseText9
-[ML][LoadFace][0x63][0x01][MR][LoadCurrent]
+[ML][LoadElibeGirl][MR][LoadCurrent]
 [ML]
 Praise the Divine One! Long live[N]
 the Divine One! She will show[AN]
@@ -495,7 +495,7 @@ happen! With another Twelve,[N]
 yet more miracles will happen![A][X]
 
 ## Ch12HouseText10
-[ML][LoadFace][0x59][0x01][MR][LoadCurrent]
+[ML][LoadElibeOldMan][MR][LoadCurrent]
 [ML]
 They never say it like this to an[N]
 Elibian, but I've overheard the[AN]
@@ -511,7 +511,7 @@ Here, take this. Give that[N]
 commander what for![A][X]
 
 ## Ch12HouseText11
-[ML][LoadFace][0x5F][0x01][MR][LoadCurrent]
+[ML][LoadElibeHoodedWoman][MR][LoadCurrent]
 [ML]
 The occupation commander never[N]
 shows his face when he can[AN]
@@ -531,7 +531,7 @@ that Alcryst is more than[N]
 capable of spewing evil![A][X]
 
 ## Ch12BarText
-[ML][LoadFace][0x5C][0x01][MR][LoadCurrent]
+[ML][LoadElibeYoungManBlue][MR][LoadCurrent]
 [ML]
 Welcome to Jake's Bar. Are you a[N]
 member? No? That's too bad.[AN]
@@ -545,7 +545,7 @@ Run along now, before any more[N]
 reinforcements arrive![AN][X]
 
 ## Ch12ReinforcementsArrive
-[MR][LoadFace][0x6B][0x01]
+[MR][LoadElibeSoldierRed]
 //generic red
 King Alcryst's raised the alarm.[N]
 We've got a job to do:[AN]
@@ -566,7 +566,7 @@ busy, but I'm very powerful too.[N]
 You shall not leave Badon alive![A][X]
 
 ## Ch12BarFight
-[ML][LoadFace][0x5C][0x01][Right][LoadFace][0x6B][0x01][FR][LoadBartre]
+[ML][LoadElibeYoungManBlue][Right][LoadElibeSoldierRed][FR][LoadBartre]
 //civilian (barman), red soldier, Bartre
 [Right]
 Another drink![A]

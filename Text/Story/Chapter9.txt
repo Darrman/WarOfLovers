@@ -386,7 +386,7 @@ really is travelling in this[N]
 convoy, then today's my lucky[AN]
 day. I can destroy Lycia with[N]
 a single blow. Yes... yes![AN]
-[FL][LoadFace][0x6B][0x01]
+[FL][LoadElibeSoldierRed]
 //red soldier
 Sir Berthold, a detailed report.[N]
 It appears the convoy does[AN]
@@ -481,7 +481,7 @@ Rebellion cannot be tolerated.[A]
 Yes, your majesty![A][X]
 
 ## Ch9House1
-[ML][LoadFace][0x60][0x1][MR][LoadCurrent]
+[ML][LoadElibeOldWoman][MR][LoadCurrent]
 //random civilian
 [ML]
 So, Berthold's finally made his move.[N]
@@ -500,7 +500,7 @@ down a peg, because Guinevere sure[N]
 isn't going to anger them![A][X]
 
 ## Ch9House2
-[ML][LoadFace][0x60][0x1][MR][LoadCurrent]
+[ML][LoadElibeHoodedWoman][MR][LoadCurrent]
 //random civilian
 [ML]
 Berthold fought for Bern during the[N]
@@ -521,7 +521,7 @@ never had any children or lover.[N]
 But Berthold's rebels don't care.[A][X]
 
 ## Ch9Village
-[ML][LoadFace][0x60][0x1][MR][LoadCurrent]
+[ML][LoadElibeHeadbandWoman][MR][LoadCurrent]
 //random civilian
 [ML]
 That foolish Berthold just had to[N]

@@ -376,7 +376,7 @@ cross the mountains and charge[N]
 head-first to Ostia![A][X]
 
 ## Ch8House1
-[ML][LoadFace][0x60][0x1][MR][LoadCurrent]
+[ML][LoadElibeOldWoman][MR][LoadCurrent]
 [ML]
 Lycia may be united now, but will[N]
 it ever be free from conflict?[AN]
@@ -390,7 +390,7 @@ after Roy fell off the face of[N]
 the earth. I suspect them![A][X]
 
 ## Ch8House2
-[ML][LoadFace][0x61][0x1][MR][LoadCurrent]
+[ML][LoadElibeHeadbandWoman][MR][LoadCurrent]
 [ML]
 This area is a major crossing point[N]
 between Lycia and Etruria. Ostia is[AN]
@@ -402,7 +402,7 @@ Sooner or later he's going to launch[N]
 a full invasion of Lycia.[A][X]
 
 ## Ch8House3
-[ML][LoadFace][0x5C][0x1][MR][LoadCurrent]
+[ML][LoadElibeYoungManBlue][MR][LoadCurrent]
 [ML]
 Now I'm not a student of history, but I[N]
 always found it unusual Ostia is the[AN]
@@ -418,7 +418,7 @@ to move the court. I suppose that's[N]
 the least of Lilina's worries now![A][X]
 
 ## Ch8House4
-[ML][LoadFace][0x5B][0x1][MR][LoadCurrent]
+[ML][LoadElibeNoseMan][MR][LoadCurrent]
 [ML]
 To say Arcard was a piece of work is[N]
 an understatement. When he wasn't[AN]
@@ -432,7 +432,7 @@ a grudge against him ever since. But[N]
 Roy's gone now. He can't get revenge.[A][X]
 
 ## Ch8House5
-[ML][LoadFace][0x62][0x1][MR][LoadCurrent]
+[ML][LoadElibeYoungWoman][MR][LoadCurrent]
 [ML]
 I couldn't tell you where that knight[N]
 hails from, but he appears to know[AN]
@@ -446,7 +446,7 @@ One" is meant to be, and neither do I[N]
 know what an "alpaca" is meant to be![A][X]
 
 ## Ch8House6
-[ML][LoadFace][0x5A][0x1][MR][LoadCurrent]
+[ML][LoadElibeMoustacheMan][MR][LoadCurrent]
 [ML]
 The Lycians' treatment of Nicholas is[N]
 despicable. Roy should remember[AN]
@@ -465,7 +465,7 @@ Nicholas makes his woman pay![A][X]
 
 ## Ch8Village1
 //Secret Book or a skill scroll
-[ML][LoadFace][0x60][0x1][MR][LoadCurrent]
+[ML][LoadElibeOldWoman][MR][LoadCurrent]
 [ML]
 You're with the Lycian Army, aren't[N]
 you? Oh, we're saved. That crooked[AN]
@@ -502,7 +502,7 @@ your trouble. Give it a read sometime.[A][X]
 
 ## Ch8FirGetsATalkingTo
 //Basically keep the information in the old text but with new context
-[ML][LoadFace][0x58][0x1][MR][LoadFir]
+[ML][LoadElibeMoneyMan][MR][LoadFir]
 Hello, sir. I'm just passing through[N]
 the area. Do you mind if I rest here?[AN]
 [ML]
