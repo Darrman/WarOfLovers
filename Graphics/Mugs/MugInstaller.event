@@ -761,6 +761,43 @@ DomaFaithfulMinion_Mug:
 #incext PortraitFormatter "DomaFaithfulMinion.png"
 setMugEntry(P_Leonid, DomaFaithfulMinion_Mug, 4,7,4,5)
 
+AkaneiaMoustacheGreen_Mug:
+#incext PortraitFormatter "Generics/AkaneiaMoustacheManGreen.png"
+setMugEntry(P_AkaneiaMoustacheManGreen, AkaneiaMoustacheGreen_Mug, 3,6,4,4)
+
+AkaneiaMoustacheRed_Mug:
+#incext PortraitFormatter "Generics/AkaneiaMoustacheManRed.png"
+setMugEntry(P_AkaneiaMoustacheManRed, AkaneiaMoustacheRed_Mug, 3,6,4,4)
+
+AkaneiaOldMan_Mug:
+#incext PortraitFormatter "Generics/AkaneiaOldMan.png"
+setMugEntry(P_AkaneiaOldMan, AkaneiaOldMan_Mug, 3,6,4,4)
+
+AkaneiaOldWoman_Mug:
+#incext PortraitFormatter "Generics/AkaneiaOldWoman.png"
+setMugEntry(P_AkaneiaOldWoman, AkaneiaOldWoman_Mug, 3,6,4,4)
+
+AkaneiaBottleMan_Mug:
+#incext PortraitFormatter "Generics/AkaneiaBottleMan.png"
+setMugEntry(P_AkaneiaBottleMan, AkaneiaBottleMan_Mug, 3,6,4,4)
+
+AkaneiaBasketWoman_Mug:
+#incext PortraitFormatter "Generics/AkaneiaBasketWoman.png"
+setMugEntry(P_AkaneiaBasketWoman, AkaneiaBasketWoman_Mug, 3,6,4,4)
+
+AkaneiaYoungMan_Mug:
+#incext PortraitFormatter "Generics/AkaneiaYoungMan.png"
+setMugEntry(P_AkaneiaYoungMan, AkaneiaYoungMan_Mug, 3,6,4,4)
+
+AkaneiaYoungWoman_Mug:
+#incext PortraitFormatter "Generics/AkaneiaYoungWoman.png"
+setMugEntry(P_AkaneiaYoungWoman, AkaneiaYoungWoman_Mug, 3,6,4,4)
+
+AkaneiaSoldier_Mug:
+#incext PortraitFormatter "Generics/AkaneiaSoldier.png"
+setMugEntry(P_AkaneiaSoldier, AkaneiaSoldier_Mug, 3,6,3,4)
+
+
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:
 //#incext PortraitFormatter "DragonWarrior.png"

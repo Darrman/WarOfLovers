@@ -1012,6 +1012,16 @@
 
 //Class cards
 //Let's leave 0x30 for villagers.
+#define P_AkaneiaMoustacheManGreen 0x101
+#define P_AkaneiaMoustacheManRed 0x102
+#define P_AkaneiaOldMan 0x103
+#define P_AkaneiaOldWoman 0x104
+#define P_AkaneiaBottleMan 0x105
+#define P_AkaneiaBasketWoman 0x106
+#define P_AkaneiaYoungMan 0x107
+#define P_AkaneiaYoungWoman 0x108
+#define P_AkaneiaSoldier 0x109
+
 #define P_Cavalier      0x130
 #define P_Paladin       0x131
 #define P_LanceArmour   0x132
