@@ -797,6 +797,62 @@ AkaneiaSoldier_Mug:
 #incext PortraitFormatter "Generics/AkaneiaSoldier.png"
 setMugEntry(P_AkaneiaSoldier, AkaneiaSoldier_Mug, 3,6,3,4)
 
+ElibeHeadbandWoman_Mug:
+#incext PortraitFormatter "Generics/ElibeHeadbandWoman.png"
+setMugEntry(P_ElibeHeadbandWoman, ElibeHeadbandWoman_Mug, 2,6,3,4)
+
+ElibeMoneyMan_Mug:
+#incext PortraitFormatter "Generics/ElibeMoneyMan.png"
+setMugEntry(P_ElibeMoneyMan, ElibeMoneyMan_Mug, 4,6,3,4)
+
+ElibeMoustacheMan_Mug:
+#incext PortraitFormatter "Generics/ElibeMoustacheMan.png"
+setMugEntry(P_ElibeMoustacheMan, ElibeMoustacheMan_Mug, 2,5,3,3)
+
+ElibeOldWoman_Mug:
+#incext PortraitFormatter "Generics/ElibeOldWoman.png"
+setMugEntry(P_ElibeOldWoman, ElibeOldWoman_Mug, 2,6,3,4)
+
+ElibeYoungWoman_Mug:
+#incext PortraitFormatter "Generics/ElibeYoungWoman.png"
+setMugEntry(P_ElibeYoungWoman, ElibeYoungWoman_Mug, 2,6,3,4)
+
+ElibeOldMan_Mug:
+#incext PortraitFormatter "Generics/ElibeOldMan.png"
+setMugEntry(P_ElibeOldMan, ElibeOldMan_Mug, 2,7,2,4)
+
+ElibeNoseMan_Mug:
+#incext PortraitFormatter "Generics/ElibeNoseMan.png"
+setMugEntry(P_ElibeNoseMan, ElibeNoseMan_Mug, 2,6,3,4)
+
+ElibeHoodedWoman_Mug:
+#incext PortraitFormatter "Generics/ElibeHoodedWoman.png"
+setMugEntry(P_ElibeHoodedWoman, ElibeHoodedWoman_Mug, 2,6,3,4)
+
+ElibeYoungManGreen_Mug:
+#incext PortraitFormatter "Generics/ElibeYoungManGreen.png"
+setMugEntry(P_ElibeYoungManGreen, ElibeYoungManGreen_Mug, 2,5,3,3)
+
+ElibeYoungManBlue_Mug:
+#incext PortraitFormatter "Generics/ElibeYoungManBlue.png"
+setMugEntry(P_ElibeYoungManBlue, ElibeYoungManBlue_Mug, 2,6,3,4)
+
+ElibeBoy_Mug:
+#incext PortraitFormatter "Generics/ElibeBoy.png"
+setMugEntry(P_ElibeBoy, ElibeBoy_Mug, 3,7,3,5)
+
+ElibeGirl_Mug:
+#incext PortraitFormatter "Generics/ElibeGirl.png"
+setMugEntry(P_ElibeGirl, ElibeGirl_Mug, 3,7,3,5)
+
+ElibeSoldierBlue_Mug:
+#incext PortraitFormatter "Generics/ElibeSoldierBlue.png"
+setMugEntry(P_ElibeSoldierBlue, ElibeSoldierBlue_Mug, 4,6,4,4)
+
+ElibeSoldierRed_Mug:
+#incext PortraitFormatter "Generics/ElibeSoldierRed.png"
+setMugEntry(P_ElibeSoldierRed, ElibeSoldierRed_Mug, 4,6,4,4)
+
 
 //Leftovers from Evening Train Crash 2, may need in future
 //DragonWarrior_Mug:

@@ -1021,6 +1021,20 @@
 #define P_AkaneiaYoungMan 0x107
 #define P_AkaneiaYoungWoman 0x108
 #define P_AkaneiaSoldier 0x109
+#define P_ElibeHeadbandWoman 0x10A
+#define P_ElibeMoneyMan 0x10B
+#define P_ElibeMoustacheMan 0x10C
+#define P_ElibeOldWoman 0x10D
+#define P_ElibeYoungWoman 0x10E
+#define P_ElibeOldMan 0x10F
+#define P_ElibeNoseMan 0x110
+#define P_ElibeHoodedWoman 0x111
+#define P_ElibeYoungManGreen 0x112
+#define P_ElibeYoungManBlue 0x113
+#define P_ElibeBoy 0x114
+#define P_ElibeGirl 0x115
+#define P_ElibeSoldierBlue 0x116
+#define P_ElibeSoldierRed 0x117
 
 #define P_Cavalier      0x130
 #define P_Paladin       0x131
