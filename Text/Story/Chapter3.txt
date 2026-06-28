@@ -312,7 +312,7 @@ That is my top priority.[AN]
 Very well. Watch over me![A][X]
 
 ## Ch3House1Text
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaMoustacheMan][MR][LoadCurrent]
 [ML]
 Devil Mountain is called that[N]
 for a reason: the bandits just[AN]
@@ -324,7 +324,7 @@ the bandits, traveller: many have[N]
 wound up on the end of an axe.[A][X]
 
 ## Ch3House2Text
-[ML][LoadFace][0x5B][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 I heard Marth returned! But everyone[N]
 seems to give a different name for[AN]
@@ -336,7 +336,7 @@ of him and Maria too. For all I know,[N]
 he's actually still loyal to Sheeda![A][X]
 
 ## Ch3House3Text
-[ML][LoadFace][0x5C][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungMan][MR][LoadCurrent]
 [ML]
 I can't stand all the instability[N]
 here in Akaneia! Everyone keeps[AN]
@@ -352,7 +352,7 @@ Better than those louts not in Pales.[N]
 Marth and Sheeda? Bah...[A][X]
 
 ## Ch3VillageText
-[ML][LoadFace][0x5C][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaOldMan][MR][LoadCurrent]
 [ML]
 Hello! What, are you afraid?[N]
 We don't deal in evil abominations[AN]

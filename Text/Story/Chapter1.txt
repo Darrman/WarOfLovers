@@ -1127,7 +1127,7 @@ You got it, chief. Point me[N]
 at a lock, and I'll open it![A][X]
 
 ## Ch1House1Text
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 Kris claims to be the head of the[N]
 Aritian Royal Guard, but I don't[AN]
@@ -1139,7 +1139,7 @@ before Hardin even became the[N]
 Dark Emperor! What a chancer.[A][X]
 
 ## Ch1House2Text
-[ML][LoadFace][0x5B][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][0x01][MR][LoadCurrent]
 [ML]
 I never liked Marth. Akaneia had[N]
 been doing just fine for 600[AN]
@@ -1159,7 +1159,7 @@ war. So yeah. I don't like Marth.[N]
 He makes me sick.[AN][X]
 
 ## Ch1House3Text
-[ML][LoadFace][0x61][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungWoman][MR][LoadCurrent]
 [ML]
 Marich and Princess Ellis have[N]
 been running a school for magic[AN]
@@ -1173,7 +1173,7 @@ her back to send her to Khadein.[N]
 Oh, I hope things work out...[A][X]
 
 ## Ch1House4Text
-[ML][LoadFace][0x62][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungWoman][MR][LoadCurrent]
 [ML]
 Emperor Marth was always very kind.[N]
 He would always give somebody a[AN]

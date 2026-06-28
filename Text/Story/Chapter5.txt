@@ -357,7 +357,7 @@ tear us apart for your own benefit.[N]
 Alear, your interference ends here![A][X]
 
 ## Ch5RiffVillage
-[MR][LoadCurrent][ML][LoadFace][0x61][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaYoungWoman]
 You're with Emperor Marth's army,[N]
 aren't you? Father Riff joined him[AN]
 when he freed us from the Garda[N]
@@ -374,7 +374,7 @@ a vulnerary again! It won't save[N]
 you from a mage's flames, though...[A][X]
 
 ## Ch5MarthFinallyVisits
-[MR][LoadMarth][ML][LoadFace][0x61][0x01]
+[MR][LoadMarth][ML][LoadAkaneiaYoungWoman]
 M-M-Marth! It's you! I can't[N]
 believe you've finally[AN]
 come to visit. Father Riff[N]
@@ -383,7 +383,7 @@ Please, take this! I hope[N]
 it will keep you safe...[AN][X]
 
 ## Ch5RiffReallyIsHome
-[MR][LoadMarth][Left][LoadFace][0x61][0x01]
+[MR][LoadMarth][Left][LoadAkaneiaYoungWoman]
 M-M-Marth! It's you! I can't[N]
 believe you've finally come[AN]
 to visit. Actually, Father Riff[N]
@@ -416,7 +416,7 @@ Take me with you, and you'll[N]
 be very glad you did.[A][X]
 
 ## Ch5MoneyVillage
-[MR][LoadCurrent][ML][LoadFace][0x58][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaMoustacheMan]
 Oh, these Lythians are awful![N]
 They demanded every ounce of[AN]
 gold we had. Their commander[N]
@@ -447,7 +447,7 @@ And with this magic, I will do[N]
 what I can to protect Akaneia![A][X]
 
 ## Ch5RuinedVillageText
-[MR][LoadCurrent][ML][LoadFace][0x5C][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaYoungMan]
 Are we ever going to get a break?[N]
 We finally finished rebuilding[AN]
 after Gazack's pirates demolished[N]
@@ -464,7 +464,7 @@ lance. Sheeda has an eye for this[N]
 stuff, so I'm sure she'll like it.[A][X]
 
 ## Ch5House1Text
-[MR][LoadCurrent][ML][LoadFace][0x5F][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaOldWoman]
 Talis is the edge of the world. No[N]
 map details anything east of here.[AN]
 They say the continent of Lieberia[N]
@@ -475,7 +475,7 @@ Perhaps you might want to visit Lieberia.[N]
 In that case, take care and good luck.[A][X]
 
 ## Ch5House2Text
-[MR][LoadCurrent][ML][LoadFace][0x5A][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaBottleMan]
 There used to be a powerful mercenary[N]
 captain guarding Talis. His name was[AN]
 Oguma, and you didn't mess with him.[N]
@@ -488,7 +488,7 @@ in Peraty, so if I had to guess, he's[N]
 returned home to heal a broken heart...[A][X]
 
 ## Ch5House3Text
-[MR][LoadCurrent][ML][LoadFace][0x5E][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaYoungMan]
 You could sail up the coast to the[N]
 north, but you won't really find[AN]
 anything there. The occasional pirate[N]
@@ -501,7 +501,7 @@ by the dragons; maybe there's some[N]
 treasure lying around?[A][X]
 
 ## Ch5House4Text
-[MR][LoadCurrent][ML][LoadFace][0x5B][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaBottleMan]
 You'll never believe the gossip I[N]
 heard in the pub. General Camus,[AN]
 you know, that Grunian general[N]
@@ -518,7 +518,7 @@ would just melt away. It's a shame[N]
 that's not how it went down, eh?[A][X]
 
 ## Ch5House5Text
-[MR][LoadCurrent][ML][LoadFace][0x5A][0x01]
+[MR][LoadCurrent][ML][LoadAkaneiaMoustacheManRed]
 I try to keep tabs on Emperor Marth's[N]
 two major armies and where everyone[AN]
 is. Est divorced Abel, and neither[N]

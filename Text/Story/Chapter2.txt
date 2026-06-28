@@ -86,7 +86,7 @@ you, your highness. We shall soon[N]
 see which faction is truthful.[A][X]
 
 ## Ch2OpeningLyn
-[ML][LoadLyn][MR][LoadFace][0x6B][0x01]
+[ML][LoadLyn][MR][LoadAkaneiaSoldier]
 //generic soldier
 Lady Lyndis, an unknown figure has[N]
 been spotted at the south of the[AN]
@@ -112,7 +112,7 @@ that he has died in the meantime.[N]
 Now, attack the trespassers![A][X]
 
 ## Ch2OpeningRyan
-[ML][LoadRyan][MR][LoadFace][0x6B][0x01]
+[ML][LoadRyan][MR][LoadAkaneiaSoldier]
 Sir Ryan, unknown figures have[N]
 been spotted at the south of the[AN]
 valley. Permission to attack?[AN]
@@ -133,7 +133,7 @@ Until proven otherwise, Emperor Marth[N]
 is still alive. Now, attack![A][X]
 
 ## Ch2House1
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaMoustacheManRed][MR][LoadCurrent]
 [ML]
 I heard Warren has been liberated.[N]
 Thank goodness. That means that[AN]
@@ -147,7 +147,7 @@ Kris never dragged anywhere into[N]
 a war against Akaneia.[A][X]
 
 ## Ch2House2
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 You know the way Marth kept his[N]
 pet dragon before he disappeared?[AN]
@@ -163,7 +163,7 @@ a Valencian passing through Pales.[N]
 Do they even have dragons there?[A][X]
 
 ## Ch2House3
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBasketWoman][MR][LoadCurrent]
 [ML]
 Emperor Marth was constantly[N]
 harassed by assassins during[AN]

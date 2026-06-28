@@ -251,4 +251,14 @@
 [LoadTeeta] = [LoadFace][0xEE][0x1]
 [LoadDomaMinion] = [LoadFace][0x45][0x1]
 
+[LoadAkaneiaMoustacheMan] = [LoadFace][0x01][0x2]
+[LoadAkaneiaMoustacheManRed] = [LoadFace][0x02][0x2]
+[LoadAkaneiaOldMan] = [LoadFace][0x03][0x2]
+[LoadAkaneiaOldWoman] = [LoadFace][0x04][0x2]
+[LoadAkaneiaBottleMan] = [LoadFace][0x05][0x2]
+[LoadAkaneiaBasketWoman] = [LoadFace][0x06][0x2]
+[LoadAkaneiaYoungMan] = [LoadFace][0x07][0x2]
+[LoadAkaneiaYoungWoman] = [LoadFace][0x08][0x2]
+[LoadAkaneiaSoldier] = [LoadFace][0x09][0x2]
+
 [LoadAnna] = [LoadFace][0x64][0x1]

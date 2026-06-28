@@ -133,7 +133,7 @@ If that is what you desire, then[N]
 I cannot refuse, your highness.[A][X]
 
 ## Ch5xHouse1
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaOldMan][MR][LoadCurrent]
 //Anna is a placeholder for random villagers
 [ML]
 The nearby fort was always the[N]
@@ -163,7 +163,7 @@ place is tidy when I come back.[N]
 Oh, I should take this with me.[A][X]
 
 ## Ch5xHouse3
-[ML][LoadFace][0x5B][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 You... You're with Marth. I'd know[N]
 that man's standard anywhere.[AN]
@@ -181,7 +181,7 @@ enemies? I would love it if you[N]
 could just leave us alone. Out![A][X]
 
 ## Ch5xVillage
-[ML][LoadFace][0x5D][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungMan][MR][LoadCurrent]
 [ML]
 Let's just say I'm well-informed.[N]
 This town was an Akaneian penal[AN]
@@ -214,7 +214,7 @@ Now that I am the emperor, I[N]
 will deal with this myself![A][X]
 
 ## Ch5xEndingCantRunHere
-[Left][LoadFace][0x58][0x01][Right][LoadMarth][FR][LoadSheeda]
+[Left][LoadAkaneiaMoustacheMan][Right][LoadMarth][FR][LoadSheeda]
 [Right]
 The fact that we defeated one of[N]
 Kris's commanders means we can't[AN]

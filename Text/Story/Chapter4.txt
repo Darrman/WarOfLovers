@@ -17,7 +17,7 @@ worthwhile? Marth arrives in a besieged[N]
 Garda: another faction has attacked...[A][X]
 
 ## Ch4Garrison
-[ML][LoadRody][MR][LoadFace][0x6F][0x01]
+[ML][LoadRody][MR][LoadAkaneiaSoldier]
 //random placeholder, a soldier maybe
 //Could make Kashim if I was using more FE people
 Sir Rody, it's not good news. More of[N]
@@ -166,7 +166,7 @@ Subdue Garda. Dissent will not[AN]
 be tolerated. Understood?[A][X]
 
 ## Ch4House1Text
-[ML][LoadFace][0x60][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBasketWoman][MR][LoadCurrent]
 [ML]
 I just heard the latest news.[N]
 Kris has succeeded in his[AN]
@@ -180,7 +180,7 @@ little of what goes on in Pales,[N]
 but know this: I smell a rat.[A][X]
 
 ## Ch4House2Text
-[ML][LoadFace][0x5D][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungMan][MR][LoadCurrent]
 [ML]
 This used to be the site of a storage[N]
 tent. But their services were the[AN]
@@ -192,7 +192,7 @@ That's progress for you. Why have[N]
 tents when you can have wagons?[A][X]
 
 ## Ch4House3Text
-[ML][LoadFace][0x62][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungWoman][MR][LoadCurrent]
 [ML]
 Empress Sheeda - maybe it's only Queen[N]
 Sheeda now, but if Kris had his way[AN]
@@ -204,7 +204,7 @@ And personally, I quite like the idea[N]
 of freedom from those warmongers![A][X]
 
 ## Ch4House4Text
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 I couldn't begin to tell you about[N]
 the army currently invading us.[AN]
@@ -287,7 +287,7 @@ You have my word, Sheeda. I'll[N]
 follow you wherever you go.[A][X]
 
 ## Ch4VillageText
-[ML][LoadFace][0x5F][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaOldWoman][MR][LoadCurrent]
 [ML]
 The world has gotten very dangerous[N]
 lately. That invading army seems[AN]
