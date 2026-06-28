@@ -390,7 +390,7 @@ I'm sure his wife just got ill.[N]
 Marrying a dragon... Ha![A][X]
 
 ## Ch11VillageText7
-[MR][LoadCurrent][ML][LoadElibeOldWoman
+[MR][LoadCurrent][ML][LoadElibeOldWoman]
 Queen Lilina was always a friendly girl.[N]
 Then her parents died at Araphen,[AN]
 before getting captured in Legance's[N]

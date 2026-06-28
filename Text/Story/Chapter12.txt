@@ -205,7 +205,7 @@ What did I tell you?! There's a[N]
 guard coming this way![A][X]
 
 ## Ch12OpeningLapisArrestsDissident
-[FL][LoadLapis][Left][LoadYoungWoman][MR][LoadHeadbandWoman]
+[FL][LoadLapis][Left][LoadElibeYoungWoman][MR][LoadElibeHeadbandWoman]
 //if I make Alcryst's goon a character the same guy
 [FL]
 //What's this about the old regime?[N]

@@ -142,7 +142,7 @@ So, Claire's gone. Does she have[N]
 any muscle on her at all?[AN]
 Alfred would have wanted muscles[N]
 for everyone. Alas, he's gone.[AN]
-[ML][LoadFace][0x6B][0x01]
+[ML][LoadAkaneiaSoldier]
 //red soldier
 Dame Etie, about the nearby army...[N]
 Should we let it pass ahead?[AN]
@@ -178,7 +178,7 @@ Loyal to Alear, not Alm...[N]
 We must defend ourselves.[A][X]
 
 ## Ch14Village1
-[ML][LoadFace][0x5F][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaOldWoman][MR][LoadCurrent]
 [ML]
 So the emperor's started a[N]
 recruitment drive recently.[AN]
@@ -194,7 +194,7 @@ Faithful: we'd be better off[N]
 if she went and disappeared...[A][X]
 
 ## Ch14House1
-[ML][LoadFace][0x5A][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 So I heard the floodgate has been[N]
 opened again. Now, we're not in[AN]
@@ -210,7 +210,7 @@ around somehow. This is a very[N]
 concerning development...[A][X]
 
 ## Ch14House2
-[ML][LoadFace][0x59][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaOldMan][MR][LoadCurrent]
 [ML]
 We're preparing for war, aren't we?[N]
 Normally Empress Celica would be[AN]
@@ -230,7 +230,7 @@ the old days... Mila, please help us![N]
 Return to Sofia in her hour of need![A][X]
 
 ## Ch14House3
-[ML][LoadFace][0x5C][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungMan][MR][LoadCurrent]
 [ML]
 Are you with Sofia? No? Excellent.[N]
 Doma's destruction has left us[AN]
@@ -250,7 +250,7 @@ I don't like Alm, but I'd take him[N]
 any day of the week.[AN][X]
 
 ## Ch14House4
-[ML][LoadFace][0x62][0x01][MR][LoadCurrent]
+[ML][LoadAkaneiaYoungWoman][MR][LoadCurrent]
 [ML]
 //Let's call back to that sidequest
 I've always been inspired by Alm.[N]
