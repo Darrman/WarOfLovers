@@ -57,6 +57,12 @@ POIN NewAuraSkillCheck
 WORD CharismaID
 
 ALIGN 4
+EarthOrbEffect:
+#incbin "EarthOrb/EarthOrb.dmp"
+POIN NewAuraSkillCheck
+WORD EarthOrbID
+
+ALIGN 4
 VoiceOfPeace:
 //#incbin "VoiceOfPeace/VoiceOfPeace.dmp"
 POIN NewAuraSkillCheck

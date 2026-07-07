@@ -38,7 +38,7 @@ ENDA
 DebugUnitsGood:
 UNIT Marth Lord 0x00 Level(1, Ally, 0) [2,1] 0x00 0x00 0x0 0x00 [Falchion, BlackGem, BlackGem, BlackGem] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [WingSpear, MiracleSword, Gradius, Partia] NoAI
-UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, Warp] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1, Ally, 0) [2,3] 0x00 0x00 0x0 0x00 [DivineStone, MemberCard, SilverCard, LifeOrb] NoAI
 //Don't forget to clean up Ch1 so Marisa doesn't become Alfred in a cutscene and turn red.
 UNIT
 
@@ -58,7 +58,7 @@ UNIT
 //UNIT
 
 DebugUnitsAkaneia:
-UNIT George Sniper 0x00 Level(5,Ally,0) [1,2] 0x00 0x0 0x0 0x00 [SilverBow] NoAI
+UNIT George Sniper 0x00 Level(5,Ally,0) [1,2] 0x00 0x0 0x0 0x00 [SilverBow, LightOrb, StarOrb, EarthOrb] NoAI
 UNIT Malliesia Cleric 0x00 Level(4,Ally,0) [2,2] 0x00 0x0 0x0 0x00 [Heal] NoAI
 UNIT Ricardo Thief 0x00 Level(3,Ally,0) [3,2] 0x00 0x0 0x0 0x00 [IronSword, Lockpick] NoAI
 UNIT Caesar Mercenary 0x00 Level(5,Ally,0) [4,2] 0x00 0x0 0x0 0x00 [SteelSword] NoAI

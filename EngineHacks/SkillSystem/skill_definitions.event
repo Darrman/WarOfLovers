@@ -31,6 +31,10 @@
 //By Darrman
 #define CharismaID 4
 
+//Earth Orb Effect: Grants +10 Hit/Avoid/Crit to all allies within three tiles.
+//By Darrman
+#define EarthOrbID 76
+
 //Charm: Allies within 2 tiles deal +2 damage.
 //Author Unknown (Initial Commit)
 #define CharmID 255
@@ -194,6 +198,10 @@
 //Renewal: Restore 30% of max HP at the start of each turn.
 //Author Unknown (Initial Commit)
 #define RenewalID 11
+
+//Life Orb Effect: Restore 100% of max HP at the start of each turn.
+//Edited by Darrman
+#define LifeOrbID 77
 
 //Amaterasu: Allies within 2 tiles recover 20% HP each turn.
 //Author Unknown (Initial Commit)
@@ -781,6 +789,10 @@
 //Armsthrift: Luck % chance to not consume weapon durability.
 //Author Unknown (Initial Commit)
 #define ArmsthriftID 46
+
+//Star Orb Effect
+//Edited by Darrman
+#define StarOrbID 75
 
 //Dazzle: Opponents cannot counterattack this unit.
 //By circleseverywhere

@@ -1268,3 +1268,15 @@ Mag/2 range.[X]
 //Water Boost: Grants +6 Resistance[N]
 //if unit's current HP is at[N]
 //least 3 higher than the enemy's.[X]
+
+## SD_StarOrb
+Star Orb: Weapons never break.[N]
+Internal use only.[X]
+
+## SD_EarthOrb
+Earth Orb: +10 hit/avoid/crit.[N]
+Internal use only.[X]
+
+## SD_LifeOrb
+Life Orb: Fully heals at the start[N]
+of the turn. Internal use only.[X]

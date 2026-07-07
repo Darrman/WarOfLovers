@@ -19,9 +19,12 @@ ALIGN 4
 Armsthrift:
 AxeFaithArmsthrift:
 ArmsthriftAxeFaith:
-#incbin "Armsthrift/armsthriftaxefaith.dmp"
+//Try to figure a way to have luck% Armsthrift (eg: Hortensia)
+//and 100% Armsthrift (Star Orb) at the same time
+//#incbin "Armsthrift/armsthriftaxefaith.dmp"
+#incbin "StarOrbEffect/starorb.dmp"
 POIN SkillTester|1
-WORD ArmsthriftID AxeFaithID
+WORD ArmsthriftID AxeFaithID StarOrbID
 
 ALIGN 4
 DazzleCheck:

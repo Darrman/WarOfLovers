@@ -50,3 +50,7 @@ BYTE 0 5 0 0 0 0 0 0 0 0 0 0
 ForblazeBonus:
 //+5 luck - pretty rubbish, willing to buff
 BYTE 0 0 0 0 0 0 5 0 0 0 0 0
+
+StarOrbBonus:
+//+30% to all growths
+BYTE 0 0 0 0 0 0 0 0 0 0 30 30 30 30 30 30 30 30 0 0

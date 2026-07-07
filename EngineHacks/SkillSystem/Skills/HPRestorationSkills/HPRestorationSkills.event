@@ -13,6 +13,8 @@
 
 #include "Renewal/Renewal.lyn.event"
 
+#include "LifeOrb/LifeOrb.lyn.event"
+
 
 ALIGN 4
 AmaterasuIDLink:
@@ -29,3 +31,5 @@ ReliefIDLink:
 BYTE ReliefID
 RenewalIDLink:
 BYTE RenewalID
+LifeOrbIDLink:
+BYTE LifeOrbID
