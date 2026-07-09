@@ -85,3 +85,19 @@
   ALIGN 4
   #include "WMChapter16.event"
 }
+{
+  ALIGN 4
+  #include "WMChapter17.event"
+}
+{
+  ALIGN 4
+  #include "WMChapter18.event"
+}
+{
+  ALIGN 4
+  #include "WMChapter19.event"
+}
+{
+  ALIGN 4
+  #include "WMChapter20.event"
+}

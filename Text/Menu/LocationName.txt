@@ -44,33 +44,36 @@ Grove Village[X]
 Sofia Castle[X]
 
 ## Ch17LocationName
-Miletos[X]
-
-## Ch18LocationName
-Western Thracia[X]
-
-## Ch19LocationName
-Eastern Grandbell[X]
-
-## Ch20LocationName
-Yied Desert[X]
-
-## Ch21LocationName
-Yied Shrine[X]
-
-## Ch22LocationName
 Durhua Port[X]
 
-## Ch23LocationName
-Straits of Durhua[X]
+## Ch18LocationName
+Durhua Cape[X]
 
-## Ch24LocationName
-Akaneia Port[X]
+## Ch19LocationName
+Adria Shore[X]
 
-## Ch25LocationName
+## Ch20LocationName
 Pales[X]
 
+## Ch21LocationName
+Solm 1[X]
+
+## Ch22LocationName
+Solm 2[X]
+
+## Ch23LocationName
+Elusia 1[X]
+
+## Ch24LocationName
+Elusia 2[X]
+
+## Ch25LocationName
+Elusia 3[X]
+
 ## Ch26LocationName
+Lythos Castle[X]
+
+## Ch27LocationName
 Somniel[X]
 
 ## Ch28LocationName

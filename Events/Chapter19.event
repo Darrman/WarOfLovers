@@ -1,0 +1,151 @@
+EventPointerTable(0x5A, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(0x3,EndingScene,24,25)
+#ifdef __DEBUG__
+Seize(5,13)
+#endif
+Village(0x7,CoastVillage,5,25)
+Village(0x8,MountainVillage,27,5)
+House(0x9,AdriaPeakSeized,4,3)
+House(0x0,HouseByAdriaCastle,7,3)
+House(0x0,HouseByMountainVillage,25,6)
+House(0x0,CoastHouse1,8,21)
+House(0x0,CoastHouse2,3,27)
+House(0x0,CoastHouse3,7,28)
+Armory(Ch19Armoury,5,28)
+Vendor(Ch19Vendor,8,25)
+
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [5,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,10] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,15] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,14] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,10] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [1,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,15] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,12] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [0,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Boucheron Sage_F 0x00 Level(1,Enemy,0) [24,25] 0x0 0x0 0x0 0x0 [Resire] NeverMoveAI
+UNIT Boucheron Warrior 0x00 Level(1,Enemy,0) [4,3] 0x0 0x0 0x0 0x0 [HandAxe] NeverMoveAI
+UNIT Boucheron DragonMaster 0x00 Level(1,Enemy,0) [16,20] 0x0 0x0 0x0 0x0 [Spear] NeverMoveAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+EndingScene:
+WM_LOADLOCATION2 0 18 0 //Required to fix chapter name
+WM_SETDESTINATION 0 18 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 18 //Needed for world map narration.
+MNCH 20
+ENDA
+
+AdriaPeakSeized:
+Text(Village,PlaceholderText)
+NoFade
+ENDA
+
+MountainVillage:
+Text(Village,PlaceholderText)
+SVAL s3 IronSword
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+CoastVillage:
+Text(Village,PlaceholderText)
+SVAL s3 IronSword
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+HouseByAdriaCastle:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+HouseByMountainVillage:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+CoastHouse1:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+CoastHouse2:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+CoastHouse3:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+Ch19Armoury:
+SHLI IronSword
+ALIGN 4
+
+Ch19Vendor:
+SHLI Fire
+ALIGN 4

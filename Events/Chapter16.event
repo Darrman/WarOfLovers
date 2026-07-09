@@ -348,6 +348,9 @@ ENDWARP
 STAL 10
 TILECHANGE 0xA //close the throne room stairs
 //scene
+#ifdef __DEBUG__
+ENUT CelineRecruited //for convenience
+#endif
 ENDA
 
 InitialWarpRagnarok:
@@ -800,17 +803,17 @@ Text(Shrine_lighter,Ch16EndingCelinesBetrayal)
 MUSC M_EvilOnes
 Text(Shrine_lighter,Ch16EndingAlearMeltsDown)
 LABEL 1624
-SetBackground(CGBlackScreen)
-TUTORIALTEXTBOXSTART
-CenterTutorialTextBox
-TEXTSHOW Ch16EndOfDemoMessage
-TEXTEND
-MNTS 0
+//SetBackground(CGBlackScreen)
+//TUTORIALTEXTBOXSTART
+//CenterTutorialTextBox
+//TEXTSHOW Ch16EndOfDemoMessage
+//TEXTEND
+//MNTS 0
 
-//WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
-//WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
-//WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
-//MNCH 17
+WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
+WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
+MNCH 17
 ENDB
 
 SummonMonsters:
@@ -855,6 +858,9 @@ NoFade
 ENDA
 
 HintToReachAlm:
+#ifdef __DEBUG__
+ENUF CelineRecruited //resume normal behaviour if not seizing T1
+#endif
 CAM1 Marth
 STAL 10
 FlashCursor(Marth,60)
