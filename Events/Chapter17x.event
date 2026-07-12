@@ -1,0 +1,131 @@
+EventPointerTable(0x96, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+#ifdef __DEBUG__
+Seize(7,7)
+#endif
+Chest(15,21) //goal to open it a la TRS?
+Village(0x7,NortheastVillage,28,4)
+Village(0x8,SoutheastVillage,29,27)
+House(0x0,StartingHouse1,5,2)
+House(0x0,StartingHouse2,4,4)
+Armory(Ch17xArmoury,4,3)
+Vendor(Ch17xVendor,3,3)
+SecretShop(Ch17xSecret,2,29)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [7,7] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,6] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,6] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,5] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,5] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,6] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,7] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [11,6] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [5,5] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,5] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,7] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Boucheron Swordmaster 0x00 Level(1,Enemy,0) [15,25] 0x0 0x0 0x0 0x0 [Spear] AttackInRangeAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+EndingScene:
+WM_LOADLOCATION2 0 16 0 //Required to fix chapter name
+WM_SETDESTINATION 0 16 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 16 //Needed for world map narration.
+MNCH 18
+ENDA
+
+NortheastVillage:
+Text(Village,PlaceholderText)
+SVAL s3 IronSword
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+SoutheastVillage:
+Text(Village,PlaceholderText)
+SVAL s3 IronSword
+GIVEITEMTO 0xFFFF
+NoFade
+ENDA
+
+StartingHouse1:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+StartingHouse2:
+Text(HouseBG,PlaceholderText)
+NoFade
+ENDA
+
+Ch17xArmoury:
+SHLI IronSword
+ALIGN 4
+
+Ch17xVendor:
+SHLI Fire
+ALIGN 4
+
+Ch17xSecret:
+//The original contents, the stat boosters, are too strong to sell here.
+//Use FE1 Ch17's instead? 
+SHLI Falchion
+ALIGN 4

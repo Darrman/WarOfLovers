@@ -1,0 +1,96 @@
+EventPointerTable(0x5E, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Seize(0x3,EndingScene,17,1)
+#ifdef __DEBUG__
+Seize(5,32)
+#endif
+Chest(IronSword,3,13)
+Chest(IronSword,9,13)
+Chest(IronSword,14,15)
+Chest(IronSword,3,18)
+Chest(IronSword,3,23)
+Chest(IronSword,9,23)
+Chest(IronSword,14,23)
+Chest(IronSword,28,16)
+Chest(IronSword,29,23)
+Door(14,0)
+Door(25,3)
+
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth Lord 0x00 Level(1,Ally,0) [5,32] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [6,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [7,30] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [7,33] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [5,30] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [4,32] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [3,30] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [3,33] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [27,32] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [29,32] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [30,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [28,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [26,31] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [27,30] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Chiki Mamkute_F 0x00 Level(1,Ally,0) [29,30] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT Kris Hero 0x00 Level(20,Enemy,0) [17,1] 0x00 0x00 0x0 0x0 [MiracleSword] NeverMoveAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Good
+LOAD1 0x1 Bad
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC3 0x6
+ENDA
+
