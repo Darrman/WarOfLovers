@@ -1206,3 +1206,13 @@ Nina[X]
 The former Empress of Akaneia, who[N]
 abdicated to Marth and vanished.[N]
 A lonely, miserable woman.[X]
+
+//Overwritten, moving these here
+## ArenaEnemyName
+Enemy[X]
+
+## WallName
+Wall[X]
+
+## SnagName
+Snag[X]

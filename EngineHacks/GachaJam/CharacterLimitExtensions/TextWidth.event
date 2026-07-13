@@ -21,3 +21,9 @@ PUSH
 ORG 0xA00708
 BYTE 9
 POP
+
+PUSH
+//Arena enemy box lengthened +2 tiles to fit longer class names
+ORG 0xB5C54
+BYTE 0x12
+POP
