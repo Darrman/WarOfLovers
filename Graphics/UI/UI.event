@@ -53,3 +53,14 @@ BattlePrepMoney:
 
 //I hope I don't have to mess with too much TSA...
 //Following Alice's tutorial here (with Stephano graphics as base)
+
+//Doesn't deserve its own folder, so here will do
+PUSH
+ORG 0xA1DD0C
+SupportSuccessGraphics:
+#incbin SupportMenu.img.bin
+
+ORG 0xA1E0D8
+SupportSuccessPalette:
+#incbin SupportMenu.pal.bin
+POP
