@@ -864,6 +864,7 @@ SupportConvo(Linda,Dyute,LindeandDootAuraFarmingC,MywaronDarrsnamingconventionsi
 SupportConvo(Sheeda,Celine,TEATIMEC,TEATIMEB,TEATIMEA)
 SupportConvo(Chiki,Sophia,DirginLoreDumpC,DirginLoreDumpB,DirginLoreDumpA)
 SupportConvo(Alm,Celine,AlmIsTheImpostorC,AlmIsTheImpostorB,AlmIsTheImpostorA)
+SupportConvo(Camus,Miledy,MCHasFunWithFE6CrapC,ArcheneaAndElibeAreTheSameB,SupportsAreHardA)
 WORD 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF 0xFFFFFFFF
 
 PUSH
