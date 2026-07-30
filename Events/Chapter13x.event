@@ -241,7 +241,7 @@ EndingScene:
 FADI 8
 CLEA 0
 REMA
-CALL DismountSheeda
+Dismount(Sheeda)
 CHECK_ALIVE Nina
 BEQ 1351 s0 sC //branch if dead
 LOAD2 0x0 CutsceneBetterEnding
@@ -258,7 +258,7 @@ STAL 10
 TurnAlly(Camus)
 FADU 10
 RECLASS Camus Paladin
-CALL MountSheeda
+Mount(Sheeda)
 GOTO 1352
 
 //Nina dies
@@ -283,7 +283,7 @@ LABEL 1352
 FlashCursor(Sheeda,60)
 Text(Fort,Ch13xEndingAnotherRingFound)
 FADU 10
-CALL MountSheeda
+Mount(Sheeda)
 CLEA 0
 CLEE 0
 CLEN 0

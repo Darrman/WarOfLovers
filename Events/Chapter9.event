@@ -168,7 +168,7 @@ FADU 10
 //Text box: Ostia Castle
 FlashCursor(Lilina,60)
 Text(Castle_Room,Ch9OpeningLilinaBarth)
-RECLASS Eliwood KnightPaladin //indoor cutscene!
+Dismount(Eliwood) //indoor cutscene!
 STAL 5
 MOVE 10 Barth [11,21]
 ENUN
@@ -219,7 +219,8 @@ CLEN 0
 LOMA 9 //actual chapter
 STAL 5
 LOAD2 0x1 CutsceneOpeningBern
-RECLASS Eliwood Paladin
+Mount(Eliwood)
+Mount(Sheeda) //safety
 CAM1 Marth
 FADU 10
 //location box

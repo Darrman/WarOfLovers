@@ -192,7 +192,8 @@ CLEE 0
 CLEN 0
 REMA
 //While a legally indoor boat tile forces everyone off their mounts in Ch12,
-//remounting them triggers the bug and drains their stats, no call
+//remounting them no longer triggers the bug, call MountAll
+MountAll
 CAM1 [0,0]
 MUSC M_PreperationsFE11
 LOAD3 0x0 Good

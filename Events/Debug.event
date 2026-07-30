@@ -907,12 +907,12 @@ ENDA
 
 DismountTest:
 //CALL DismountAll
-DismountAllNew
+DismountAll
 NoFade
 ENDA
 
 MountTest:
-MountAllNew
+MountAll
 NoFade
 ENDA
 

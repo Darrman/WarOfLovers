@@ -219,7 +219,7 @@ Text(Castle_Outside,Ch10OpeningPheraeIsRuined)
 CAM1 [3,26] //where Marth will arrive
 STAL 10
 LOAD2 0x1 CutsceneGood
-CALL DismountEliwood
+Dismount(Eliwood)
 STAL 5
 MOVE 10 Marth [3,26]
 MOVE 10 Eliwood [4,25]
@@ -239,7 +239,7 @@ LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
 LOAD1 0x1 PheraenPrisoners
-CALL DismountAll //indoor map
+DismountAll //indoor map
 MUSC M_EnemiesAppear
 CAM1 [0,0]
 FADU 10

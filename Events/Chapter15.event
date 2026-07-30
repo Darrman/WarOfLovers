@@ -173,11 +173,11 @@ STAL 10
 MOVE 20 Sheeda [15,21]
 MOVE 10 Cleive [16,29]
 ENUN
-CALL DismountSheeda
+Dismount(Sheeda)
 STAL 2
 MOVE 20 Sheeda [10,15]
 ENUN
-CALL MountSheeda
+Mount(Sheeda)
 STAL 2
 MOVE 20 Sheeda [10,2]
 ENUN

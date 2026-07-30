@@ -180,7 +180,7 @@ MOVE 8 Sheeda [5,4]
 ENUN
 CLEA 0
 FADI 10
-CALL DismountSheeda
+Dismount(Sheeda)
 LOMA 0x42
 LOAD1 0x1 CutsceneAlear
 LOAD2 0x1 CutsceneMarthInside
@@ -204,7 +204,7 @@ FIGHT Marth Alear Falchion 0
 MUSC M_ThemeOfLove
 Text(Castle_Hall,Ch5AfterScriptedBattle)
 FADI 10
-CALL MountSheeda
+Mount(Sheeda)
 CLEA 0
 CLEE 0
 LOMA 0x4

@@ -26,8 +26,8 @@
 
   #include "MountAndDismount.lyn.event"
 
-  #define DismountAllNew "ASMC ASMC_DismountAllPlayerUnits"
-  #define MountAllNew "ASMC ASMC_MountAllPlayerUnits"
+  #define DismountAll "ASMC ASMC_DismountAllPlayerUnits"
+  #define MountAll "ASMC ASMC_MountAllPlayerUnits"
   #define Dismount(Unit) "SVAL s2 Unit; ASMC ASMC_DismountUnit"
   #define Mount(Unit) "SVAL s2 Unit; ASMC ASMC_MountUnit"
   #define MountDismountEntry(mounted, onFoot) "BYTE (mounted) (onFoot)"

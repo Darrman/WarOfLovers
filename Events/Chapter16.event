@@ -268,7 +268,7 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-CALL DismountAll
+DismountAll
 CAM1 [20,4]
 LOAD2 0x0 CutsceneCeline
 MUSC M_DisquietingSteps
@@ -286,6 +286,7 @@ MOVE 10 Alear [20,0]
 DISA Alear
 MUSC M_TheAirOfBrutality
 LOAD2 0x0 CutsceneGoodOpening
+DismountAll //just to be sure they're all dismounted
 CAM1 [11,31]
 MOVE 10 Marth [11,31]
 MOVE 10 Sheeda [9,31]

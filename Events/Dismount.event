@@ -2,7 +2,7 @@
 //They do not automatically mount when these chapters are complete.
 //In addition, mounted units will have to dismount for cutscenes.
 
-DismountAll:
+DismountAllOld:
 //The proper way would loop through every unit and look up the dismount table.
 //I do not have the technical knowhow for this.
 //Event spaghetti it is!
@@ -289,7 +289,7 @@ LABEL 6054
 
 ENDA
 
-MountAll:
+MountAllOld:
 //A quick and dirty hack to paper over the dismount bug.
 //Also, it corresponds to FE3 behaviour instead of FE5.
 //It's still there, but now if you dismount outdoors you lose stats.

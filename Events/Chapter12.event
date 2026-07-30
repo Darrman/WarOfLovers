@@ -252,8 +252,8 @@ MUSC M_Stratagem
 Text(Village,Ch12OpeningLapisArrestsDissident)
 CAM1 [39,6] //edge of the map
 MUSC M_AnUnexpectedCaller
-CALL MountSheeda
-CALL MountEliwood //dismounted for cutscenes last chapter
+Mount(Sheeda)
+Mount(Eliwood) //dismounted for cutscenes last chapter
 LOAD2 0x0 CutsceneAtTheGate
 STAL 30
 FlashCursor(Marth,60)

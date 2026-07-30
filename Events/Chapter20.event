@@ -91,6 +91,9 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC3 0x6
+WM_LOADLOCATION2 0 19 0 //Required to fix chapter name
+WM_SETDESTINATION 0 19 0 //World map node. Keep these equal.
+WM_SETNEXTLOCATION 0 0 19 //Needed for world map narration.
+MNCH 21
 ENDA
 

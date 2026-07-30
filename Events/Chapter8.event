@@ -188,8 +188,8 @@ MOVE 10 Chiki [10,0]
 MOVE 10 Sheeda [4,5] //stop short: gotta dismount!
 MOVE 10 Eliwood [5,5]
 ENUN
-CALL DismountSheeda
-CALL DismountEliwood
+Dismount(Sheeda)
+Dismount(Eliwood)
 STAL 15
 MOVE 10 Sheeda [10,0]
 MOVE 10 Eliwood [10,0]
@@ -215,8 +215,8 @@ CLEN 10
 LOMA 8 //chapter map
 LOAD2 0x1 CutsceneOnTheMap
 CAM1 [22,11]
-CALL MountEliwood
-CALL MountSheeda //she only dismounted for the cutscene, mount her again
+Mount(Eliwood)
+Mount(Sheeda) //she only dismounted for the cutscene, mount her again
 //Aside: boy, these will be "fun" once I give an elysian whip!
 //Realisation: Just call a "DismountSheeda" event for cutscenes every time?
 //I need a universal dismount anyway for indoor maps.
@@ -236,7 +236,7 @@ ENUN
 CLEA 0
 CLEN 0
 CLEE 0
-CALL MountAll //There's a fair amount of hybrid maps and you're probably ending Ch7 mounted
+//MountAll //There's a fair amount of hybrid maps and you're probably ending Ch7 mounted
 //and the bug will trigger if that happens
 LOAD3 0x1 Good
 LOAD1 0x1 Bad

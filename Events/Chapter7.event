@@ -177,7 +177,7 @@ SHOWUNIT Marth
 Text(Forest,Ch7OpeningWhereIsEveryone)
 Text(Forest,Ch7OpeningFindingMarth)
 //Cutscene map: Akaneian side of the Dragons' Gate
-CALL DismountSheeda //dismount here 
+Dismount(Sheeda) //dismount here 
 Text(Shrine_3,Ch7OpeningInsideRuins)
 MUSC M_LegendOfTheDivineDragonMusicBox
 Text(Shrine_3,Ch7OpeningFindingChiki)
@@ -208,6 +208,7 @@ LOAD2 0x0 CutsceneDragonsGateChiki
 STAL 60
 LOAD2 0x0 CutsceneDragonsGateMarthSheeda
 ENUN
+Dismount(Sheeda) //doesn't seem to be dismounting if not loaded on the map?
 TILEREVERT 1 //close the gate
 MUSC M_Charge
 FlashCursor(Marth,60)
@@ -239,7 +240,7 @@ CLEA 0
 CLEN 0
 CLEE 0
 ENUN
-CALL DismountAll
+DismountAll
 LOAD3 0x1 Good
 LOAD1 0x1 Bad
 LOAD1 0x1 Bad2
