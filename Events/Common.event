@@ -1,0 +1,10 @@
+//Dismount.txt is gone, 0xCE8 bytes saved overall
+//Still need to keep this though
+//Should force her to use the right portrait
+Ch16CelineDeathQuote:
+ENUF 0x27
+TEXTSTART
+TEXTSHOW CelineDeathBoss
+TEXTEND
+REMA
+ENDA
