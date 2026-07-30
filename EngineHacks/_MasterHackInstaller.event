@@ -259,8 +259,8 @@ POP
   //256 colour CGs (Huichelaar)
   #include "GachaJam/ManyColourCG/CGCol.event"
 
-  //Dismount (Crazycolorz, Contro)
-  #include "GachaJam/Dismount/DismountInstaller.event"
+  //Dismount (Crazycolorz, Contro, Zane)
+  #include "GachaJam/Dismount/Installer.event"
 
   //32-colour animations (Huichelaar)
   #include "GachaJam/TwoPaletteAnims/ASM.event"

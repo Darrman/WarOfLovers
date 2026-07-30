@@ -187,9 +187,10 @@ UnitMenuTable:
   //UM_Supply
   MenuCommand(0x68F,0x6D5,GreenText,NewSupplyUsability,0x23FB8)
   
-  MenuCommand(UM_Dismount, UM_DismountDesc, NormalText, DismountUsability, DismountRoutine)
-  MenuCommand(UM_Mount, UM_MountDesc, NormalText, MountUsability, MountRoutine)
-
+  //MenuCommand(UM_Dismount, UM_DismountDesc, NormalText, DismountUsability, DismountRoutine)
+  //MenuCommand(UM_Mount, UM_MountDesc, NormalText, MountUsability, MountRoutine)
+  MenuCommand(UM_Dismount, UM_DismountDesc, NormalText, DismountCommandUsability, DismountCommand)
+  MenuCommand(UM_Mount, UM_MountDesc, NormalText, MountCommandUsability, MountCommand)
 
   UM_Wait
 

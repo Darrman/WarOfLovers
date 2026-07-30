@@ -1,0 +1,71 @@
+
+#ifndef __MOUNTANDDISMOUNT
+  #define __MOUNTANDDISMOUNT
+
+//  #include "../Helpers.event"
+  #include "Extensions/Hack Installation.txt"
+
+  #include "EAstdlib.event"
+
+  /*
+   * This hack adds the ability for units to mount and dismount,
+   * as they do in FE5.
+   *
+   * This is based on Contro's edits to CrazyColorz5's implementation.
+   * Contro's: https://feuniverse.us/t/13514/5
+   * CrazyColorz5's: https://feuniverse.us/t/1645
+   *
+   * Mount/dismount availability is determined by class. To
+   * set a mount/dismount pair, use the `MountDismountEntry()`
+   * macro in the space marked below.
+   *
+   * In order to be used, commands for mount and dismount must be
+   * added to the unit menu. It is up to the user to provide their own
+   * unit menu implementation.
+   */
+
+  #include "MountAndDismount.lyn.event"
+
+  #define DismountAllNew "ASMC ASMC_DismountAllPlayerUnits"
+  #define MountAllNew "ASMC ASMC_MountAllPlayerUnits"
+  #define Dismount(Unit) "SVAL s2 Unit; ASMC ASMC_DismountUnit"
+  #define Mount(Unit) "SVAL s2 Unit; ASMC ASMC_MountUnit"
+  #define MountDismountEntry(mounted, onFoot) "BYTE (mounted) (onFoot)"
+
+  ALIGN 4; MountedClassTable: {
+    // Place your `MountDismountEntry()`s here.
+	MountDismountEntry(Cavalier, KnightCavalier)
+	MountDismountEntry(Cavalier_F, KnightCavalier_F)
+	MountDismountEntry(Paladin, KnightPaladin)
+	MountDismountEntry(Paladin_F, KnightPaladin_F)
+	MountDismountEntry(PegasusKnight, KnightPegasus)
+	MountDismountEntry(FalcoKnight, KnightFalcon)
+	MountDismountEntry(DragonKnight, KnightDragon)
+	MountDismountEntry(DragonKnight_F, KnightDragon_F)
+	MountDismountEntry(FreeKnight, KnightFree)
+	MountDismountEntry(LanceKnight, KnightLance)
+	MountDismountEntry(AxeKnight, KnightAxe)
+	MountDismountEntry(ArchKnight, KnightArch)
+	MountDismountEntry(Ranger, KnightRanger)
+	MountDismountEntry(DukeKnight, KnightDuke)
+	MountDismountEntry(GreatKnight, KnightGreat)
+	MountDismountEntry(BowKnight, KnightBow)
+	MountDismountEntry(Horseman, HunterT2)
+	MountDismountEntry(DragonMaster,KnightDragonM)
+	MountDismountEntry(DragonMaster_F,KnightDragonM_F)
+	MountDismountEntry(Troubadour, KnightTroubadour)
+	MountDismountEntry(Valkyrie, KnightValkyrie)
+	MountDismountEntry(MageKnight, KnightMage)
+	MountDismountEntry(MageKnight_F, KnightMage_F)
+	MountDismountEntry(KnightLord, KnightEliwood)
+	MountDismountEntry(LordKnight, KnightSigurd)
+    SHORT 0;
+  };
+
+#endif // __MOUNTANDDISMOUNT
+
+//Class Locked Weapon Ranks - enforce swords on dismount, in other words
+//Putting it here since for my purposes it's part of dismounting
+//By GigaExcalibur
+ClassLockedWeapon:
+#include "ClassLockedWeaponRanks/ClasslockedWeaponRanks.lyn.event"

@@ -388,6 +388,10 @@ House(0x0,LoadMajorBosses,0,1)
 Seize(0x3,Act1Warp,1,8)
 Seize(0x3,Act2Warp,3,8)
 Seize(0x3,Act3Warp,5,8)
+Seize(0x0,DismountTest,7,8)
+Seize(0x0,MountTest,9,8)
+Seize(0x0,SingleMountTest,11,8)
+
 END_MAIN
 
 DebugMiscBasedEvents:
@@ -902,7 +906,20 @@ ENUN
 ENDA
 
 DismountTest:
-CALL DismountAll
+//CALL DismountAll
+DismountAllNew
+NoFade
+ENDA
+
+MountTest:
+MountAllNew
+NoFade
+ENDA
+
+SingleMountTest:
+Dismount(Sheeda)
+Mount(Eliwood)
+NoFade
 ENDA
 
 Act1Warp:
