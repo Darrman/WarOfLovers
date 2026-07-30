@@ -216,13 +216,13 @@ UNIT Sheeda KnightPegasus 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpea
 UNIT Chiki Mamkute 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Eliwood KnightPaladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT Lilina Mage_F 0x00 Level(1,Ally,0) [13,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Valbo General 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Claire KnightFalcon 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT George Sniper 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Bartre Warrior 0x00 Level(1,Ally,0) [9,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Oguma Mercenary 0x00 Level(1,Ally,0) [10,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Sophia Shaman_F 0x00 Level(1,Ally,0) [11,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
-UNIT Camus KnightPaladin 0x00 Level(1,Ally,0) [12,35] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Valbo General 0x00 Level(1,Ally,0) [12,34] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Claire KnightFalcon 0x00 Level(1,Ally,0) [11,34] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT George Sniper 0x00 Level(1,Ally,0) [10,34] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Bartre Warrior 0x00 Level(1,Ally,0) [9,34] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Oguma Mercenary 0x00 Level(1,Ally,0) [10,33] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Sophia Shaman_F 0x00 Level(1,Ally,0) [11,33] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
+UNIT Camus KnightPaladin 0x00 Level(1,Ally,0) [12,33] 0x0 0x0 0x0 0x0 [WingSpear] NoAI
 UNIT
 
 CutsceneSomniel:
@@ -288,17 +288,19 @@ MUSC M_TheAirOfBrutality
 LOAD2 0x0 CutsceneGoodOpening
 DismountAll //just to be sure they're all dismounted
 CAM1 [11,31]
+STAL 10
 MOVE 10 Marth [11,31]
 MOVE 10 Sheeda [9,31]
 MOVE 10 Chiki [10,31]
-MOVE 10 Eliwood [12,29]
 ENUN
+MOVE 10 Eliwood [12,29]
 MOVE 10 Lilina [11,32]
 MOVE 10 Valbo [10,33]
+ENUN
 MOVE 10 Claire [9,32]
 MOVE 10 George [11,34]
-ENUN
 MOVE 10 Bartre [13,34]
+ENUN
 MOVE 10 Oguma [10,35]
 MOVE 10 Sophia [10,30]
 MOVE 10 Camus [11,29]

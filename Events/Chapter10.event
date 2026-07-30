@@ -194,8 +194,10 @@ Text(Castle_Hall_3,Ch10OpeningFatalNegotiations) //todo: make them less fatal
 STAL 10 //I have no idea why it sometimes inverts this scripted battle, causing a hang
 NormalDamage(0,0) //figure out how to have scripted status staff
 EndAttack
-FIGHT_MAP Brodia Marcus Sleep 0
+FIGHT Brodia Marcus Sleep 0 //a real pace killer, but hangs are bad
 STAL 20
+MOVE 8 Executioner [9,6] //let's try moving this guy to disrupt the scene a little
+ENUN
 NormalDamage(0,14) //take Merlinus to 1
 EndAttack
 FIGHT_MAP Citrinne Merlinus Shaver 0
@@ -203,6 +205,7 @@ FIGHT_MAP Citrinne Merlinus Shaver 0
 MOVE 5 Merlinus [10,5]
 MOVE 10 Citrinne [8,1]
 ENUN
+MUSC M_Stratagem
 FlashCursor(Citrinne,60)
 TEXTSTART
 TEXTSHOW Ch10OpeningReinforcements
