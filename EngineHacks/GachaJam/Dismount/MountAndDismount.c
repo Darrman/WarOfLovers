@@ -154,6 +154,7 @@ u8 MountCommand(struct MenuProc * menu, struct MenuCommandProc * menuItem)
 
 void _ASMC_Body(search_func func)
 {
+  u8 dummy;
 
   int i;
   for ( i = FACTION_BLUE + 1; i < FACTION_GREEN; i++ )
@@ -166,7 +167,7 @@ void _ASMC_Body(search_func func)
     if ( unit->state & US_DEAD )
       continue;
 
-    if ( _Usability(func, unit) )
+    if ( func(&dummy, unit->pClassData->number) )
       _CommandBody(func, unit);
   }
 
@@ -191,6 +192,7 @@ void ASMC_MountAllPlayerUnits(struct Proc * proc)
 void _ASMC_SingleBody(search_func func, struct Proc * proc)
 {
   struct Unit * unit = GetUnitStructFromEventParameter(gEventSlot[2]);
+  u8 dummy;
 
   if ( !UNIT_IS_VALID(unit) )
     return;
@@ -198,7 +200,7 @@ void _ASMC_SingleBody(search_func func, struct Proc * proc)
   if ( unit->state & US_DEAD )
     return;
 
-  if ( !(_Usability(func, unit)) )
+  if ( !(func(&dummy, unit->pClassData->number)) )
     return;
 
   _CommandBody(func, unit);
