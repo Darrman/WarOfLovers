@@ -81,6 +81,7 @@ I have escaped![A][X]
 #include Supports/ChikiSophia.txt
 #include Supports/AlmCeline.txt
 #include Supports/CamusMiledy.txt
+#include Supports/AlmClaire.txt
 
 ## SavePointLabel
 Save Point[X]

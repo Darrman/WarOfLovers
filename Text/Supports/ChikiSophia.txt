@@ -1,5 +1,5 @@
 ## DirginLoreDumpC
-
+//Original file name: "I HATE ELLIPSES.txt"
 [OpenMidLeft][LoadChiki]
 [OpenMidRight][LoadSophia]
 [OpenMidRight]

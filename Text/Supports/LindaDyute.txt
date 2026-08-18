@@ -1,5 +1,5 @@
 ## LindeandDootAuraFarmingC
-
+//Original file name: "AURA FARMING SIMULATOR.txt"
 [OpenMidLeft][LoadLinda]
 [OpenMidRight][LoadDyute]
 [OpenMidLeft]

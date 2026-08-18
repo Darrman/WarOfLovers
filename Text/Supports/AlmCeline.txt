@@ -1,5 +1,5 @@
 ## AlmIsTheImpostorC
-
+//Original file name: "ALMISTHEIMPOSTOR.txt"
 [OpenMidLeft][LoadAlm]
 [OpenMidLeft]
 Her... How could Marth possibly[NL]
