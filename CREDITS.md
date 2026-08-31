@@ -189,7 +189,7 @@ And so, all shall be revealed...
 - Pokey: Earthbound (Darrman)
 
 - Cecil: Final Fantasy 4 (Darrman)
-- Butz: Final Fantasy 5 mobile (Darrman)
+- Butz: Nokitrix, Obsidian_Daddy, Levin64, Spoon_Rhythm
 - Terra: Final Fantasy 6 (Darrman)
 - Rydia: Final Fantasy 4 (Darrman)
 - Kain: Final Fantasy 4 (Darrman)
@@ -197,7 +197,7 @@ And so, all shall be revealed...
 - Celes: Final Fantasy 6 (Darrman)
 - Locke: Final Fantasy 6 (Darrman)
 - Rosa: Final Fantasy 4 (Darrman)
-- Galuf: Final Fantasy 5 Advance (Darrman)
+- Galuf: Nokitrix, Obsidian Daddy
 
 - Sonic: GoudaGrabber
 - Tails: GoudaGrabber

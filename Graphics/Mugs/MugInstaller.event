@@ -186,7 +186,7 @@ setMugEntry(P_CecilFF4, CecilFF4_Mug, 3,7,3,5)
 
 Butz_Mug:
 #incext PortraitFormatter "Summons/Butz.png"
-setMugEntry(P_Butz, Butz_Mug, 5,5,5,3)
+setMugEntry(P_Butz, Butz_Mug, 2,6,3,4)
 
 Terra_Mug:
 #incext PortraitFormatter "Summons/Terra.png"
@@ -691,7 +691,7 @@ setMugEntry(P_Rosa, Rosa_Mug, 3,8,3,5)
 
 Galuf_Mug:
 #incext PortraitFormatter "Summons/Galuf.png"
-setMugEntry(P_Galuf, Galuf_Mug, 4,7,4,4)
+setMugEntry(P_Galuf, Galuf_Mug, 3,5,3,3)
 
 Shadow_Mug:
 #incext PortraitFormatter "Summons/Shadow.png"
