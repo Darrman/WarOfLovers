@@ -331,7 +331,8 @@ STAL 40
 ENUN
 //FAWI 30
 EARTHQUAKE_END
-MNC2 0x7
+//MNC2 0x7
+MNC2 0x2E //Intermission 1
 ENDA
 
 AfterPrepTorches:

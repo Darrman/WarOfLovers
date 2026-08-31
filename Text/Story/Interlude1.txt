@@ -1,0 +1,11 @@
+## InterludeNotification
+The following is a story interlude.[AN]
+While several conversations will[N]
+take place containing character[N]
+interactions and plot developments,[AN]
+[Red]there is no SRPG gameplay.[Red][N]
+Do you wish to watch this interlude?[N]
+[Yes][X]
+
+## InterludeSkipped
+Skipping interlude...[A][X]

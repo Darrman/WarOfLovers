@@ -57,6 +57,7 @@ I have escaped![A][X]
 #include Story/Chapter5.txt
 #include Story/Chapter5x.txt
 #include Story/Chapter6.txt
+#include Story/Interlude1.txt
 #include Story/Chapter7.txt
 #include Story/Chapter8.txt
 #include Story/Chapter9.txt

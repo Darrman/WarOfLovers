@@ -26,6 +26,9 @@
 #include "Chapter6.event"
 }
 {
+#include "Interlude1.event"
+}
+{
 #include "Chapter7.event"
 }
 {
@@ -47,6 +50,9 @@
 #include "Chapter12.event"
 }
 {
+#include "Interlude2.event"
+}
+{
 #include "Chapter13.event"
 }
 {
@@ -62,10 +68,13 @@
 #include "Chapter16.event"
 }
 {
+#include "Interlude3.event"
+}
+{
 #include "Chapter17.event"
 }
 {
-//#include "Chapter17x.event"
+#include "Chapter17x.event"
 }
 {
 #include "Chapter18.event"
@@ -75,4 +84,7 @@
 }
 {
 #include "Chapter20.event"
+}
+{
+#include "Interlude4.event"
 }

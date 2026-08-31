@@ -1,0 +1,88 @@
+EventPointerTable(0xA6, PointerList)
+
+ALIGN 4
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Good Good  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Good:
+UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT
+
+Bad:
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+EVBIT_MODIFY 1 //No skipping
+SetBackground(CGBlackScreen)
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW InterludeNotification
+TEXTEND
+STAL 10
+SVAL s1 1
+BNE 6001 sC s1 //branch if no
+
+EVBIT_MODIFY 0 //skip away, though if you're going to you should hit yes
+FADI 60
+STAL 1
+CALL $9EE2C4 //EndConvo, get rid of black screen
+STAL 10
+Text(PlaceholderText)
+CALL EndingScene
+ENDA
+
+//End chapter early
+LABEL 6001
+TUTORIALTEXTBOXSTART
+CenterTutorialTextBox
+TEXTSHOW InterludeSkipped
+TEXTEND
+CALL EndingScene
+ENDA
+
+EndingScene:
+MNC2 0x7
+ENDB
+

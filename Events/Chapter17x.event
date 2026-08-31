@@ -23,7 +23,7 @@ LocationBasedEvents:
 #ifdef __DEBUG__
 Seize(7,7)
 #endif
-Chest(15,21) //goal to open it a la TRS?
+Chest(IronSword,15,21) //goal to open it a la TRS?
 Village(0x7,NortheastVillage,28,4)
 Village(0x8,SoutheastVillage,29,27)
 House(0x0,StartingHouse1,5,2)

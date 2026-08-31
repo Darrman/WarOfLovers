@@ -158,6 +158,12 @@ Chapter 17[X]
 ## Ch17Goal
 Placeholder[X]
 
+## Ch17xName
+Chapter 17x[X]
+
+## Ch21xGoal
+Placeholder[X]
+
 ## Ch18Name
 Chapter 18[X]
 
@@ -180,12 +186,6 @@ Placeholder[X]
 Chapter 21[X]
 
 ## Ch21Goal
-Placeholder[X]
-
-## Ch21xName
-Chapter 21x[X]
-
-## Ch21xGoal
 Placeholder[X]
 
 ## Ch22Name
@@ -290,3 +290,18 @@ Ch. 99: Debug Room[X]
 ## DebugRoomGoal
 Good luck debugging![N]
 - Darrman[X]
+
+## Interlude1Name
+Interlude 1[X]
+
+## Interlude2Name
+Interlude 2[X]
+
+## Interlude3Name
+Interlude 3[X]
+
+## Interlude4Name
+Interlude 4[X]
+
+## Interlude5Name
+Interlude 5[X]

@@ -314,6 +314,7 @@ MUSC M_AnUnexpectedCaller
 Text(Ship,Ch12EndingKeepSailing)
 MUSC M_IntoTheShadowOfTriumph
 Text(Ship,Ch12EndingElibeFadesAway)
+//everything after this can probably be shoved into the interlude
 //skip next scene if Roy missed
 CHECK_EVENTID DiamantDead
 BEQ 1207 s0 sC
@@ -324,10 +325,11 @@ Text(Ship,Ch12EndingOpenOceanPlotDump)
 MUSC M_LegendOfTheDivineDragonMusicBox
 //probably swap this with normal version later?
 Text(Ship,Ch12EndingChikiLearnsTheTruth)
-WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
-WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
-WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
-MNCH 0xD
+//WM_LOADLOCATION2 0 11 0 //Required to fix chapter name
+//WM_SETDESTINATION 0 11 0 //World map node. Keep these equal.
+//WM_SETNEXTLOCATION 0 0 11 //Needed for world map narration.
+//MNCH 0xD
+MNC2 0x2F //Interlude 2
 //MNC2 13 //temp WM skip: put end of demo message in Ch13
 ENDA
 

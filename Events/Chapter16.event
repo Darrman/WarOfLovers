@@ -813,10 +813,11 @@ LABEL 1624
 //TEXTEND
 //MNTS 0
 
-WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
-WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
-WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
-MNCH 17
+//WM_LOADLOCATION2 0 15 0 //Required to fix chapter name
+//WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
+//WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
+//MNCH 17
+MNC2 0x30 //Interlude 3
 ENDB
 
 SummonMonsters:
