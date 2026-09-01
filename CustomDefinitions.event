@@ -750,8 +750,8 @@
 #define P_Sophia     0x17
 #define P_Astore     0x18
 #define P_Bartre     0x19
-//#define 0x1A //Extra recruit 1 (Noah?)
-//#define 0x1B //Extra recruit 2 (Cecilia/Clarine?)
+#define P_Noah       0x1A //Extra recruit 1 (Noah?)
+#define P_Clarine    0x1B //Extra recruit 2 (Cecilia/Clarine?)
 //Valencia
 #define P_Alm        0x1C
 #define P_Celine     0x1D
@@ -764,9 +764,9 @@
 #define P_Ellis      0x23
 #define P_Kain       0x24
 #define P_Gordon     0x25
-//#define 0x26 //Unassigned Akaneian slot (Minerva?)
-//#define 0x27 //Unassigned Akaneian slot (Paola?)
-//#define 0x28 //Reassigned Jugdral slot (Yumina/Yubello?)
+#define P_Minerva    0x26 //Unassigned Akaneian slot (Minerva?)
+#define P_Paola      0x27 //Unassigned Akaneian slot (Paola?)
+#define P_Yumina     0x28 //Reassigned Jugdral slot (Yumina/Yubello?)
 #define P_Navarre    0x29
 #define P_Feena      0x2A
 //Elyos
@@ -807,13 +807,13 @@
 #define P_Mycen      0x49
 #define P_Pilate     0x4A
 //Enemies, Akaneia 2
-//#define 0x4B //Chapter 17 boss
-//#define 0x4C //Chapter 17x boss (subject to change)
-//#define 0x4D //Chapter 18 boss
+#define P_Cecil      0x4B //Chapter 17 boss
+#define P_Kagetsu    0x4C //Chapter 17x boss (subject to change)
+#define P_Mishelan   0x4D //Chapter 18 boss
 #define P_Katarina   0x4E
-//#define 0x4F //Chapter 20 mid 1
+#define P_Astria     0x4F //Chapter 20 mid 1
 //#define 0x50 //Chapter 20 mid 2
-//#define 0x51
+#define P_Rosado     0x51
 //#define 0x52
 //Enemies, Elyos
 #define P_Veyle      0x53 
@@ -1007,7 +1007,7 @@
 //#define 0xFB
 //#define 0xFC
 //#define 0xFD
-#define P_Cecil 0xFE //move her elsewhere
+//#define 0xFE
 #define P_Placeholder 0xFF
 
 //Class cards

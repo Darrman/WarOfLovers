@@ -761,6 +761,46 @@ DomaFaithfulMinion_Mug:
 #incext PortraitFormatter "DomaFaithfulMinion.png"
 setMugEntry(P_Leonid, DomaFaithfulMinion_Mug, 4,7,4,5)
 
+Kagetsu_Mug:
+#incext PortraitFormatter "Kagetsu.png"
+setMugEntry(P_Kagetsu, Kagetsu_Mug, 6,5,5,4)
+
+Mishelan_Mug:
+#incext PortraitFormatter "Mishelan.png"
+setMugEntry(P_Mishelan, Mishelan_Mug, 3,6,4,4)
+
+Katarina_Mug:
+#incext PortraitFormatter "Katarina.png"
+setMugEntry(P_Katarina, Katarina_Mug, 3,6,3,4)
+
+Clarine_Mug:
+#incext PortraitFormatter "Clarine.png"
+setMugEntry(P_Clarine, Clarine_Mug, 2,6,3,4)
+
+Noah_Mug:
+#incext PortraitFormatter "Noah.png"
+setMugEntry(P_Noah, Noah_Mug, 2,5,3,3)
+
+Yumina_Mug:
+#incext PortraitFormatter "Yumina.png"
+setMugEntry(P_Yumina, Yumina_Mug, 3,6,4,4)
+
+Paola_Mug:
+#incext PortraitFormatter "Paola.png"
+setMugEntry(P_Paola, Paola_Mug, 4,7,4,5)
+
+Minerva_Mug:
+#incext PortraitFormatter "Minerva.png"
+setMugEntry(P_Minerva, Minerva_Mug, 3,7,4,5)
+
+Astria_Mug:
+#incext PortraitFormatter "Astria.png"
+setMugEntry(P_Astria, Astria_Mug, 4,7,4,5)
+
+Rosado_Mug:
+#incext PortraitFormatter "Rosado.png"
+setMugEntry(P_Rosado, Rosado_Mug, 4,6,4,4)
+
 AkaneiaMoustacheGreen_Mug:
 #incext PortraitFormatter "Generics/AkaneiaMoustacheManGreen.png"
 setMugEntry(P_AkaneiaMoustacheManGreen, AkaneiaMoustacheGreen_Mug, 3,6,4,4)

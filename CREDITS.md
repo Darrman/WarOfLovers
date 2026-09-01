@@ -73,6 +73,8 @@ And so, all shall be revealed...
 - Fir: FE6 (Obsidian Daddy, Lenh)
 - Bartre: FE6 (Obsidian Daddy, Lenh)
 - Barth: FE6 (Obsidian Daddy, Lenh)
+- Clarine: FE6 (Obsidian Daddy, Lenh)
+- Noah: FE6 (Obsidian Daddy, Lenh)
 
 - Alm: Atey
 - Celica: Atey
@@ -85,16 +87,17 @@ And so, all shall be revealed...
 - Cleive: FE2 (Darrman)
 - Grey: FE2 (Darrman)
 
-- (All Jugdral characters blank or FE4 (Darrman) as placeholders)
-- Feena: FE3 Book 2 (Darrman)
-- Navarre: FE3 Book 2 (Darrman)
-
 - Kain: Alusq
 - Gordon: Alusq
 - Banutu: FE3 Book 2 (Darrman)
 - Cecil: FE3 Book 2 (Darrman)
+- Yumina: Alusq
+- Minerva: FE3 Book 2 (Darrman)
+- Paola: FE3 Book 2 (Darrman)
 - Ellis: FE3 Book 2 (Darrman)
 - Gato: FE3 Book 2 (Darrman)
+- Feena: FE3 Book 2 (Darrman)
+- Navarre: FE3 Book 2 (Darrman)
 
 - Alear: Jey the Count
 - Kris: FE12 (Darrman)
@@ -135,7 +138,11 @@ And so, all shall be revealed...
 - Jade: Sterling_Glovner
 - Pilate: FE2 (Darrman), palette swapped by Darrman
 - Leonid: FE2 (Darrman), palette swapped by Darrman
-
+- Kagetsu: Tobiki
+- Mishelan: FE3 Book 1 (Darrman)
+- Katarina: FE12 (Darrman)
+- Astria: FE3 Book 2 (Darrman)
+- Rosado: Saihua
 
 - Mario: Super Mario RPG (Darrman)
 - Luigi: Super Mario World (Darrman)
