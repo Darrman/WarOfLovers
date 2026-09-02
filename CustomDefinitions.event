@@ -74,6 +74,8 @@
 #define Astore 0x18
 #define Fir 0x19
 #define Bartre 0x1a
+#define Clarine 0x21
+#define Noah 0x22
 
 //Valencia
 #define Valbo 0x1b
@@ -93,15 +95,17 @@
 #define Ryuto 0x25
 #define BlagiDescendant 0x26
 #define NeirDescendant 0x27
-#define Feena 0x28
-#define Navarre 0x29
 
 //Akaneia 2
+#define Yumina 0x27
+#define Feena 0x28
+#define Navarre 0x29
 #define Kain 0x2a
 #define Gordon 0x2b
-#define Banutu 0x2c
-#define Cecil 0x2d
+#define Minerva 0x2c
+#define Paola 0x2d
 #define Ellis 0x2e
+#define Banutu Minerva //temp, clear lingering mentions later
 
 //Elyos and Askr
 #define ElyosianPlaceholder 0x2f
@@ -273,28 +277,21 @@
 #define DomaFaithfulBoss 0xac
 #define Pilate DomaFaithfulBoss
 //Act 4
-#define MiletosBoss 0xad
-#define RadosBoss 0xae
-#define RobberBaron 0xaf
-#define AlsterBoss 0xb0
-#define MelgenBoss 0xb1
-#define HaroldClone 0xb2
-#define DozelBoss 0xb3
-#define Reptor 0xb4
-#define VelthomerBoss 0xb5
-#define PhinoraBoss 0xb6
-#define DarnaBoss 0xb7
-#define Hortensia 0xb8
-#define YiedBoss 0xb9
-#define Ivy 0xba
-#define Aida 0xbb
-#define Ch21xBoss1 0xbc
-#define Ch21xBoss2 0xbd
+#define Cecil 0xad
+#define Ch17Dragon 0xae
+#define Kagetsu 0xaf
+#define Mishelan 0xb0
+#define Katarina 0xb1
+#define Rosado 0xb2
+#define Ch19AdriaBoss 0xb3
+#define Astria 0xb4
+#define Ch20Midboss2 0xb5
 //Act 5
+#define Hortensia 0xb8
+#define Ivy 0xba
 #define Ch22Boss 0xbe
 #define Ch22xBoss 0xbf
 #define Ch23Boss 0xc0
-#define Katarina 0xc1
 #define Ch25SubBoss1 0xc2
 #define Ch25SubBoss2 0xc3
 //Act 6

@@ -70,38 +70,6 @@ Emperor of Valencia, unified with his[N]
 marraige to Celica. Purged Valencia of[N]
 the gods and will defend it from all.[X]
 
-## ValencianExtraName
-Valencian[X]
-
-## ValencianExtraDesc
-Placeholder description for a third[N]
-Gaiden character. Robin? Grey? Mycen?[N]
-May? Boey? Claire? Dyute? Camus?[X]
-
-## BaldoDescendantName
-Baldo D.[X]
-
-## BaldoDescendantDesc
-Placeholder description for the[N]
-distant descendant of Celice and[N]
-Lana. Probably like Sigurd?[X]
-
-## NobaDescendantName
-Noba D.[X]
-
-## NobaDescendantDesc
-Placeholder description for the[N]
-distant descendant of Leaf and[N]
-Nanna. Vaguely Ethlin?[X]
-
-## JugdralExtraName
-Jugdralian[X]
-
-## JugdralExtraDesc
-Placeholder description for a third[N]
-Jugdralian. The canon characters are[N]
-all long dead - any descendant will do.[X]
-
 ## KainName
 Kain[X]
 
@@ -294,17 +262,21 @@ Queen of Firene. Values peace,[N]
 but is pragmatic and will do[N]
 anything to accomplish it.[X]
 
-## BaldoFriendName
-B. Friend[X]
+## ClarineName
+Clarine[X]
 
-## BaldoFriendDesc
-Placeholder description.[X]
+## ClarineDesc
+A noblewoman of Etruria. Self-[N]
+centred and pampered, but still[N]
+desires to be helpful.[X]
 
-## ThracianRecruitName
-Ch18 Recruit[X]
+## NoahName
+Noah[X]
 
-## ThracianRecruitDesc
-Placeholder description.[X]
+## NoahDesc
+A knight of Ilia. Sent to check[N]
+what is happening in Lycia.[N]
+Once helped Fir in her training.[X]
 
 ## RyutoName
 Ryuto[X]
@@ -312,47 +284,53 @@ Ryuto[X]
 ## RyutoDesc
 Placeholder description.[X]
 
-## EddaDescendantName
-Edda D.[X]
+## PaolaName
+Paola[X]
 
-## EddaDescendantDesc
-Placeholder description.[X]
+## PaolaDesc
+The eldest of three sisters. She has[N]
+dedicated her energy and loyalty[N]
+towards preserving Macedonia.[X]
 
-## DozelDescendantName
-Dozel D.[X]
+## MinervaName
+Minerva[X]
 
-## DozelDescendantDesc
-Placeholder description.[X]
+## MinervaDesc
+Once the Princess of Macedonia.[N]
+She had abdicated to Marth, but now[N]
+fights for her kingdom once again.[X]
 
 ## FeenaName
 Feena[X]
 
 ## FeenaDesc
-Placeholder description.[X]
+A dancer from a far away land.[N]
+Flirty and cheerful, but she has[N]
+a secret few know the truth of.[X]
 
 ## NavarreName
 Navarre[X]
 
 ## NavarreDesc
-Placeholder description.[X]
+A greatly skilled swordsman. Works[N]
+for anyone, with one condition:[N]
+he shall never harm a woman.[X]
 
 ## GordonName
 Gordon[X]
 
 ## GordonDesc
-Placeholder description.[X]
+A veteran knight of Aritia.[N]
+Trained and served under George,[N]
+becoming a great sniper.[X]
 
-## BanutuName
-Banutu[X]
+## YuminaName
+Yumina[X]
 
-## BanutuDesc
-Placeholder description.[X]
-
-## CecilName
-Cecil[X]
-
-## CecilDesc
-Placeholder description.[X]
+## YuminaDesc
+Princess of Grunia. After war broke[N]
+out, she served as a negotiator.[N]
+Stubborn and hates backing down.[X]
 
 ## ElyosianRecruitName
 Elyosian R.[X]
@@ -709,75 +687,61 @@ The heir to Judah's Doma Faithful.[N]
 Willing to do business with anyone[N]
 to see Alm and Celica overthrown.[X]
 
-## MiletosBossName
-Miletos Boss[X]
+## CecilName
+Cecil[X]
 
-## MiletosBossDesc
-Placeholder description.[X]
+## CecilDesc
+//How much of FE12 prologue happens here? Katarina gets busted before "canon"
+//and the assassin subplot is eliminated, but enough needs to happen for Kris
+//to start worming his way back into the Aritian army
+An Aritian knight serving in the[N]
+Akaneian army. An acquaintance[N]
+of Kris, and somewhat rash.[X]
 
-## RadosBossName
-Rados Boss[X]
+## KagetsuName
+Kagetsu[X]
 
-## RadosBossDesc
-Placeholder description.[X]
+## KagetsuDesc
+Retainer of Ivy. A friendly[N]
+swordsman who is somewhat[N]
+over-eager.[X]
 
-## RobberBaronName
-Robber Baron[X]
+## MishelanName
+Mishelan[X]
 
-## RobberBaronDesc
-Boss of Chapter 17.[N]
-On Chronos Castle.[N]
-Placeholder description.[X]
+## MishelanDesc
+A knight of Akaneia, known for his[N]
+bald head, toothy grin, and purple[N]
+armour. Served with Tomth long ago.[X]
 
-## AlsterBossName
-Alster Boss[X]
+## KatarinaName
+Katarina[X]
 
-## AlsterBossDesc
-Placeholder description.[X]
+## KatarinaDesc
+Kris's wife and a tactician.[N]
+Allegedly raised by assassins,[N]
+her loyalty is to Kris alone.[X]
 
-## MelgenBossName
-Melgen Boss[X]
+## RosadoName
+Rosado[X]
 
-## MelgenBossDesc
-Placeholder description.[X]
+## RosadoDesc
+Retainer of Hortensia of Elusia.[N]
+Sent by Alear to assist Kris as[N]
+a test of loyalty.[X]
 
-## HaroldCloneName
-Harold Clone[X]
+## AstriaName
+Astria[X]
 
-## HaroldCloneDesc
-Boss of Chapter 18.[N]
-Attacking Lenster Castle.[N]
-Placeholder description.[X]
+## AstriaDesc
+A knight of Akaneia, fiercely loyal[N]
+to Nina above all else. Extremely[N]
+rash and easy to deceive.[X]
 
-## DozelBossName
-Dozel Boss[X]
+## Ch25SubBoss2Name
+Ch. 25 Sub 2[X]
 
-## DozelBossDesc
-Placeholder description.[X]
-
-## ReptorName
-Reptor[X]
-
-## ReptorDesc
-He's not actually Reptor, but he[N]
-serves the role. Placeholder![X]
-
-## VelthomerBossName
-Velthomer Boss[X]
-
-## VelthomerBossDesc
-Placeholder description.[X]
-
-## PhinoraBossName
-Phinora Boss[X]
-
-## PhinoraBossDesc
-Placeholder description.[X]
-
-## DarnaBossName
-Darna Boss[X]
-
-## DarnaBossDesc
+## Ch25SubBoss2Desc
 Placeholder description.[X]
 
 ## HortensiaName
@@ -788,12 +752,6 @@ Princess of Elusia. Comes off as a[N]
 spoilt brat, but update this when[N]
 she's fought to be more accurate.[X]
 
-## YiedBossName
-Yied Boss[X]
-
-## YiedBossDesc
-Placeholder description.[X]
-
 ## IvyName
 Ivy[X]
 
@@ -801,64 +759,6 @@ Ivy[X]
 Queen of Elusia. Typically serious,[N]
 but is extremely devoted to Alear.[N]
 Subject to revision, placeholder.[X]
-
-## AidaName
-Aida[X]
-
-## AidaDesc
-The arc villain of Jugdral, a member[N]
-of the Lopt Sect and descendant of[N]
-Cyas. Wants to revive Loputousu![X]
-
-## Ch21xBoss1Name
-Ch. 21x Boss 1[X]
-
-## Ch21xBoss1Desc
-Placeholder description.[X]
-
-## Ch21xBoss2Name
-Ch. 21x Boss 2[X]
-
-## Ch21xBoss2Desc
-Placeholder description.[X]
-
-## Ch22BossName
-Ch. 22 Boss[X]
-
-## Ch22BossDesc
-Placeholder description.[X]
-
-## Ch22xBossName
-Ch. 22x Boss[X]
-
-## Ch22xBossDesc
-Placeholder description.[X]
-
-## Ch23BossName
-Ch. 23 Boss[X]
-
-## Ch23BossDesc
-Placeholder description.[X]
-
-## KatarinaName
-Katarina[X]
-
-## KatarinaDesc
-Kris's wife and a tactician.[N]
-Allegedly raised by assassins,[N]
-her loyalty is to Kris alone.[X]
-
-## Ch25SubBoss1Name
-Ch. 25 Sub 1[X]
-
-## Ch25SubBoss1Desc
-Placeholder description.[X]
-
-## Ch25SubBoss2Name
-Ch. 25 Sub 2[X]
-
-## Ch25SubBoss2Desc
-Placeholder description.[X]
 
 ## VeyleName
 Veyle[X]
@@ -1081,48 +981,6 @@ Doma F.[X]
 ## DomaFaithfulDesc
 A member of Pilate's Doma Faithful[N]
 branch, now branded heretical.[X]
-
-## MiletosName
-Miletos[X]
-
-## MiletosDesc
-A soldier of the Republic of Miletos,[N]
-serving under President "Robber Baron".[X]
-
-## ThraciaName
-Thracia[X]
-
-## ThraciaDesc
-A soldier of the Kingdom of Thracia,[N]
-ruled by King "Harold Clone".[X]
-
-## VerdaneName
-Verdane[X]
-
-## VerdaneDesc
-A soldier of the Kingdom of Verdane,[N]
-under the control of (NAME).[X]
-
-## FreegeName
-Freege[X]
-
-## FreegeDesc
-A soldier of the Duchy of Freege,[N]
-in revolt against Grandbell.[X]
-
-## YiedName
-Yied[X]
-
-## YiedDesc
-A secular soldier of the Kingdom of[N]
-Yied, carved out of the titular desert.[X]
-
-## LoptSectName
-Lopt Sect[X]
-
-## LoptSectDesc
-A member of the Lopt Sect, openly[N]
-practicing throughout Jugdral.[X]
 
 ## DegeneratedDragonName
 Dragon[X]
