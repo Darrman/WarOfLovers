@@ -223,6 +223,9 @@ ObjTypePalettePointerTable(CastlePaletteFE6Ostia, FE6CastleOstiaPalette) //2d in
 #define CastlePaletteFE6Pherae 0x2c
 ObjTypePalettePointerTable(CastlePaletteFE6Pherae, FE6CastlePheraePalette) //edit of ostia
 
+#define CastlePaletteFE3 0x33
+ObjTypePalettePointerTable(CastlePaletteFE3, FE3CastlePalette) //all the threes, it's FE3
+
 
 // -------------------------------Tile Anims-------------------------------
 
@@ -284,6 +287,10 @@ FE6CastlePheraePalette:
 #incbin "../../../Maps/Tilesets/FE6CastlePheraePalette.dmp"
 
 ALIGN 4
+FE3CastlePalette:
+#incbin "../../../Maps/Tilesets/FE3CastlePalette.dmp"
+
+ALIGN 4
 PlainsTiles:
 //I figured a tile always took up the same space, but I was wrong
 //and it corrupted the castle data. So, repoint.
@@ -333,6 +340,11 @@ PlainsTiles:
 #define Ch22xMap 0x97
 #define Ch27xMap 0x9A
 #define BadFinalMap 0x9D
+#define Interlude1Map 0xA4
+#define Interlude2Map 0xA7
+#define Interlude3Map 0xAA
+#define Interlude4Map 0xAD
+#define Interlude5Map 0xB0
 
 // ------------------------------- MAP CHANGES ----------------------------
 
@@ -377,3 +389,8 @@ PlainsTiles:
 #define Ch22xMapChanges 0x98
 #define Ch27xMapChanges 0x9B
 #define BadFinalMapChanges 0x9E
+#define Interlude1MapChanges 0xA5
+#define Interlude2MapChanges 0xA8
+#define Interlude3MapChanges 0xAB
+#define Interlude4MapChanges 0xAE
+#define Interlude5MapChanges 0xB1
