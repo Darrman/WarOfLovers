@@ -70,6 +70,11 @@ I have escaped![A][X]
 #include Story/Chapter14.txt
 #include Story/Chapter15.txt
 #include Story/Chapter16.txt
+#include Story/Chapter17.txt
+#include Story/Chapter17x.txt
+#include Story/Chapter18.txt
+#include Story/Chapter19.txt
+#include Story/Chapter20.txt
 #include Story/MiscPromo.txt
 
 #include Supports/MarthSheeda.txt
