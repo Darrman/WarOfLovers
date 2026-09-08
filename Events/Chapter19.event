@@ -92,6 +92,21 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
+//FEE3 trailer joke, because I need people to question my sanity apparently
+CAM1 [24,25] //Gate
+//MUSC M_TogetherWeRide
+//Fake common event
+SetBackground(CGRorona)
+SOUN VoiceRoronaSummon
+STAL 120
+CGTEXTSTART
+TEXTSHOW RecruitReimu //placeholder
+TEXTEND
+REMA
+CALL $9EE2C4 //EndConvo 	
+//SVAL s2 Rorona
+ENDA
+
 WM_LOADLOCATION2 0 18 0 //Required to fix chapter name
 WM_SETDESTINATION 0 18 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 18 //Needed for world map narration.

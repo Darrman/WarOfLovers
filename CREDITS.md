@@ -409,6 +409,7 @@ And so, all shall be revealed...
 
 - All FE3 music converted by Sme.
 - FE11 Battle Preps: RSFlame
+- Tearing Shadows: UnitedStars111
 
 - FE6 Attack: Tristan Hollow
 - For the Commanders: RandomWizard

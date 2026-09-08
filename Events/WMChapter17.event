@@ -1,6 +1,11 @@
 WorldMapPointerTable(17,WM_Events)
 
 WM_Events:
-//To be written
+BeginWorldMap
+MUSC M_ANewJourney
+STAL 120
+WorldMapShowTextBox
+WorldMapTextBegin(Ch17WorldMap)
+TEXTEND
 SKIPWN
 ENDA

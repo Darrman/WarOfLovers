@@ -15,9 +15,11 @@ POIN BeginningScene EndingScene
 
 TurnBasedEvents:
 TurnEventPlayer(0x0,BrigandSpawn,2)
+TurnEventNPC(0x0,HereComesTheCavalry,3)
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0x9,ItsFirsTurnToRecruitNoah,Fir,Noah)
 END_MAIN
 
 LocationBasedEvents:
@@ -99,6 +101,10 @@ UNIT
 
 BrigandGroup:
 UNIT BrigandGeneric Brigand Jade Level(8,Enemy,1) [18,0] 0x0 0x0 0x0 0x0 [IronAxe] BrigandAI
+UNIT
+
+NoahGroup:
+UNIT Noah FreeKnight 0x0 Level(8,NPC,0) [0,4] 0x0 0x0 0x0 0x0 [SteelSword, Vulnerary] AttackInRangeAI
 UNIT
 
 CutsceneLilina:
@@ -219,6 +225,23 @@ ENDA
 BrigandSpawn:
 EVBIT_T 9
 LOAD1 0x0 BrigandGroup
+NoFade
+ENDA
+
+HereComesTheCavalry:
+EVBIT_T 9
+LOAD1 0x0 NoahGroup
+CAM1 Noah
+STAL 10
+FlashCursor(Noah,60)
+Text(PlaceholderText)
+NoFade
+ENDA
+
+ItsFirsTurnToRecruitNoah:
+MUSC M_JoinUs
+Text(PlaceholderText)
+TurnAlly(Noah)
 NoFade
 ENDA
 

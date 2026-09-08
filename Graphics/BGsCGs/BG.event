@@ -158,6 +158,7 @@ POIN FlynnBG; WORD 0x0; POIN FlynnBGPal
 POIN IsabeauBG; WORD 0x0; POIN IsabeauBGPal
 POIN JonathanBG; WORD 0x0; POIN JonathanBGPal
 POIN WalterBG; WORD 0x0; POIN WalterBGPal
+POIN RoronaBG; WORD 0x0; POIN RoronaBGPal
 
 // TSA == 0 indicates 256-colour BGs
 // TSA == 1 indicates 224-colour BGs
@@ -671,3 +672,9 @@ WalterBG:
 ALIGN 4
 WalterBGPal:
 #incbin bin/256WalterPal.dmp
+
+RoronaBG:
+#incbin bin/256Rorona.dmp
+ALIGN 4
+RoronaBGPal:
+#incbin bin/256RoronaPal.dmp

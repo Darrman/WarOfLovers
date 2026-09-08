@@ -520,3 +520,20 @@ WORD $FF00FF
 YugiVoiceSummon_wav:
 #incbin "bin/Yugi_HeartOfTheCards.bin"
 SongTable(VoiceYugiSummon,YugiVoiceSummon,7)
+
+ALIGN 2
+RoronaVoiceSummon_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RoronaVoiceSummon:
+WORD $01
+POIN RoronaVoiceSummon_map
+POIN RoronaVoiceSummon_data
+
+RoronaVoiceSummon_map:
+WORD $3c00
+POIN RoronaVoiceSummon_wav
+WORD $FF00FF
+
+RoronaVoiceSummon_wav:
+#incbin "bin/Rorona_EasyAsPie.bin"
+SongTable(VoiceRoronaSummon,RoronaVoiceSummon,7)

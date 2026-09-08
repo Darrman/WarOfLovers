@@ -170,6 +170,11 @@ SongTable(M_EndingMedleyBook1,B1EndingMedley,0)
 SongTable(M_VillageGirl,VillageGirl,0)
 }
 
+{
+#include "TearingShadows.event"
+SongTable(M_TearingShadows,TearingShadows,0)
+}
+
 //Elibe (FE6, 7)
 
 {
@@ -303,4 +308,3 @@ SongTable(M_DismalNation,LandOfSorrow,1)
 #include "TwilightOfTheGods.event"
 SongTable(M_TwilightOfTheGods,TwilightOfTheGods,1)
 }
-

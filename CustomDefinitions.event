@@ -554,6 +554,7 @@
 #define M_MysteryOfTheEmblem PrologueMusic
 #define M_EndingMedleyBook1 Records
 #define M_VillageGirl Bonds
+#define M_TearingShadows Return_of_the_Demon_King
 
 //Elibe
 #define M_FE6Attack 0x56 //piece of ending music
@@ -621,6 +622,7 @@
 #define VoiceJadenSummon 0x288
 #define VoiceRobotnikSummon 0x289
 #define VoiceYugiSummon 0x28A
+#define VoiceRoronaSummon 0x28B
 
 //Summon CGs
 #define CGMario 0x39
@@ -707,6 +709,7 @@
 #define CGIsabeau 0x8A
 #define CGJonathan 0x8B
 #define CGWalter 0x8C
+#define CGRorona 0x8D
 
 //Event IDs
 #define JamModeOn 0x71

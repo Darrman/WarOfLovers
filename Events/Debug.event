@@ -65,7 +65,7 @@ UNIT Caesar Mercenary 0x00 Level(5,Ally,0) [4,2] 0x00 0x0 0x0 0x00 [SteelSword] 
 UNIT Tomth LanceArmour 0x00 Level(4,Ally,0) [5,2] 0x00 0x0 0x0 0x00 [IronLance, Javelin] NoAI
 UNIT Ryan Archer 0x00 Level(7,Ally,0) [6,2] 0x00 0x0 0x0 0x00 [IronBow] NoAI
 UNIT Saji Fighter 0x00 Level(2,Ally,0) [7,2] 0x00 0x0 0x0 0x00 [IronAxe] NoAI
-UNIT 0x0c AxeKnight 0x00 Level(1,Ally,0) [8,2] 0x00 0x0 0x0 0x00 [IronAxe] NoAI
+UNIT Roshe AxeKnight 0x00 Level(1,Ally,0) [8,2] 0x00 0x0 0x0 0x00 [IronAxe] NoAI
 UNIT Rody DukeKnight 0x00 Level(1,Ally,0) [9,2] 0x00 0x0 0x0 0x00 [SilverLance] NoAI
 UNIT Kashim Hunter 0x00 Level(7,Ally,0) [10,2] 0x00 0x0 0x0 0x00 [IronBow] NoAI
 UNIT Riff Priest 0x00 Level(4,Ally,0) [11,2] 0x00 0x0 0x0 0x00 [Heal] NoAI
@@ -83,6 +83,8 @@ UNIT Sophia Shaman_F 0x00 Level(5,Ally,0) [5,3] 0x0 0x0 0x0 0x0 [Flux] NoAI
 UNIT Astore Thief 0x00 Level(10,Ally,0) [6,3] 0x0 0x0 0x0 0x0 [PoisonSword] NoAI
 UNIT Fir Myrmidon_F 0x00 Level(5,Ally,0) [7,3] 0x0 0x0 0x0 0x0 [Shamshir] NoAI
 UNIT Bartre Warrior 0x00 Level(2,Ally,0) [8,3] 0x0 0x0 0x0 0x0 [SteelAxe] NoAI
+UNIT Clarine Troubadour 0x00 Level(5,Ally,0) [9,3] 0x0 0x0 0x0 [Mend] NoAI
+UNIT Noah FreeKnight 0x00 Level(8,Ally,0) [10,3] 0x0 0x0 0x0 [SteelSword] NoAI
 UNIT
 
 DebugUnitsValencia:
@@ -90,29 +92,19 @@ UNIT Valbo General 0x00 Level(1, Ally, 0) [1,4] 0x00 0x00 0x0 0x00 [SilverLance]
 UNIT Camus Paladin 0x00 Level(3, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [Gradius] NoAI
 UNIT Dyute Myrmidon_F 0x00 Level(1, Ally, 0) [3,4] 0x00 0x00 0x0 0x00 [IronSword] NoAI
 UNIT Claire FalconKnight 0x00 Level(1, Ally, 0) [4,4] 0x00 0x00 0x0 0x00 [SteelLance] NoAI
-UNIT Alm HeroAlm 0x00 Level(5, Ally, 0) [5,4] 0x00 0x00 0x0 0x00 [Falchion] NoAI
+UNIT Alm HeroAlm 0x00 Level(5, Ally, 0) [5,4] 0x00 0x00 0x0 0x00 [Kingsfang] NoAI
 UNIT Celine Priestess 0x00 Level(5, Ally, 0) [6,4] 0x00 0x00 0x0 0x00 [Bolganone] NoAI
-UNIT
-
-DebugUnitsJugdral:
-UNIT BaldoDescendant Civilian 0x0 Level(1, Ally, 0) [1,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
-UNIT BaldoFriend Civilian 0x0 Level(1, Ally, 0) [2,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
-UNIT NobaDescendant Civilian 0x0 Level(1, Ally, 0) [3,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
-UNIT GuyYouGetInThracia Civilian 0x0 Level(1, Ally, 0) [4,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
-UNIT Ryuto Druid 0x0 Level(1, Ally, 0) [5,5] 0x0 0x0 0x0 0x0 [Luna] NoAI
-UNIT BlagiDescendant Civilian 0x0 Level(1, Ally, 0) [6,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
-UNIT NeirDescendant Civilian 0x0 Level(1, Ally, 0) [7,5] 0x0 0x0 0x0 0x0 [Falchion] NoAI
-UNIT Feena Dancer 0x0 Level(1, Ally, 0) [8,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
-UNIT Navarre Swordmaster 0x0 Level(1, Ally, 0) [9,5] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
 UNIT
 
 DebugUnitsAkaneia2:
 UNIT Kain Ranger 0x0 Level(10,Ally,0) [1,6] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
 UNIT Gordon Sniper 0x0 Level(10,Ally,0) [2,6] 0x0 0x0 0x0 0x0 [SilverBow] NoAI
-UNIT Banutu Mamkute 0x0 Level(10,Ally,0) [3,6] 0x0 0x0 0x0 0x0 [WretchedAir] NoAI
-UNIT Cecil Ranger_F 0x0 Level(10,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [SilverSword] NoAI
+UNIT Minerva DragonMaster_F 0x0 Level(5,Ally,0) [3,6] 0x0 0x0 0x0 0x0 [Garm, IronSword] NoAI
+UNIT Paola PegasusKnight 0x0 Level(10,Ally,0) [4,6] 0x0 0x0 0x0 0x0 [SilverLance] NoAI
 UNIT Marich Sage 0x0 Level(10,Ally,0) [5,6] 0x0 0x0 0x0 0x0 [Excalibur] NoAI
 UNIT Ellis Bishop_F 0x0 Level(5,Ally,0) [6,6] 0x0 0x0 0x0 0x0 [Fortify] NoAI
+UNIT Feena Dancer 0x0 Level(1, Ally, 0) [8,5] 0x0 0x0 0x0 0x0 [Rapier] NoAI
+UNIT Navarre Swordmaster 0x0 Level(1, Ally, 0) [9,5] 0x0 0x0 0x0 0x0 [KillingEdge] NoAI
 UNIT
 
 DebugUnitsElyos:
@@ -388,9 +380,11 @@ House(0x0,LoadMajorBosses,0,1)
 Seize(0x3,Act1Warp,1,8)
 Seize(0x3,Act2Warp,3,8)
 Seize(0x3,Act3Warp,5,8)
-Seize(0x0,DismountTest,7,8)
-Seize(0x0,MountTest,9,8)
-Seize(0x0,SingleMountTest,11,8)
+Seize(0x3,Act4Warp,7,8)
+Seize(0x0,FEE3TrailerRecording,9,8)
+//Seize(0x0,DismountTest,7,8)
+//Seize(0x0,MountTest,9,8)
+//Seize(0x0,SingleMountTest,11,8)
 
 END_MAIN
 
@@ -824,7 +818,6 @@ LoadFireEmblemUnits:
 LOAD1 0x1 DebugUnitsAkaneia
 LOAD1 0x1 DebugUnitsElibe
 LOAD1 0x1 DebugUnitsValencia
-LOAD1 0x1 DebugUnitsJugdral
 LOAD1 0x1 DebugUnitsAkaneia2
 LOAD1 0x1 DebugUnitsElyos
 ENUN
@@ -937,6 +930,10 @@ MNC2 13
 EVBIT_T 0x7
 ENDA
 
+Act4Warp:
+MNC2 17
+EVBIT_T 0x7
+ENDA
 
 FEE3TrailerRecording:
 /*CALL LoadMario
@@ -964,15 +961,17 @@ CALL LoadSlippy
 */
 
 //2025: just call the common, you don't need a unit
-CALL JadenCommon
+/*CALL JadenCommon
 CALL ReimuCommon
 CALL RobotnikCommon
 CALL SnakeCommon
 CALL YugiCommon
 CALL SonicCommon
 CALL MimaCommon
-CALL ArmstrongCommon
+CALL ArmstrongCommon*/
 
+//2026: random dialogue
+Text(Castle_Room,Ch17OpeningPoliticsAreDifficult)
 ENDA
 
 FEE32023Units:

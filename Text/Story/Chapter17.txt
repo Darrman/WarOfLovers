@@ -1,4 +1,4 @@
-## Ch17WorldMapNarration
+## Ch17WorldMap
 Marth's campaign on Valencia has come to a[N]
 close. He is now within touching distance[AN]
 of stepping foot on Akaneian shores once again.[N]
@@ -75,7 +75,7 @@ A direct charge on our position?[N]
 I see how it is. Take this! Elephant![A][X]
 
 ## Ch17OpeningPoliticsAreDifficult
-[ML][LoadKain][MR][LoadFace][0x01][0x01]
+[ML][LoadKain][MR][LoadYumina]
 //Yumina and Yubello are 13-14 in 607.
 //It's 615 now, so 21-22. Too old for Kris to pull any fast ones.
 //Yubello's in charge but he's not exactly confrontational, so Yumina does
@@ -201,7 +201,7 @@ He's wearing entirely blue. That's...[N]
 the emperor! Emperor Marth! Cease fire![A][X]
 
 ## Ch17OpeningPoliticsAreEasyForMarth
-[Left][LoadMarth][Right][LoadKain][FR][LoadFace][0x01][0x01]
+[Left][LoadMarth][Right][LoadKain][FR][LoadYumina]
 //Marth, Kain, Yumina
 [Right]
 Again, please forgive me for[N]
