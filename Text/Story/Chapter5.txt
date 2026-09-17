@@ -835,10 +835,152 @@ nearby if you just keep going[AN]
 north from here. But we've almost[N]
 no food. Can we make it there?[AN]
 [Left]
+//Planning an escape is one thing,[N]
+//but I must also make plans for[AN]
+//the homecoming. Resistance to Kris[N]
+//must be kept up. Sir Rody?[AN]
 Planning an escape is one thing,[N]
-but I must also make plans for[AN]
-the homecoming. Resistance to Kris[N]
-must be kept up. Sir Rody?[AN]
+but I have no intent on making[AN]
+this departure permanent. One day,[N]
+I will make my return to Aritia.[AN]
+With Pales having fallen, any[N]
+resistance must be further west.[AN]
+Someone must serve as a messenger,[N]
+to let them know I was here.[AN][X]
+
+## Ch5EndingWhoIsTheMessenger
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+//I want to keep the "oops you lose a unit", but I also want better unit
+//balance. So I'm bringing back an FE11 thing: the decoy. Different context
+//and their survival is true instead of a retcon this time - you get them
+//back with their stats scaled appropriately during the return to Akaneia.
+//Rody will still be the default messenger. Roshe, Linda, Kashim as alts?
+//(None fight against you here. Alts all in both books.)
+Whoever I choose as the messenger[N]
+must be trustworthy. This isn't[AN]
+the time to put my faith in people[N]
+I have only just met.[AN]
+My first instinct would be to have[N]
+Sir Rody serve as my messenger.[AN]
+[Right]
+He would be a sensible choice,[N]
+but we should think it over[AN]
+briefly. We only have a few[N]
+minutes to decide, however...[A][X]
+
+## Ch5EndingMakeRodyMessenger
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+Rody is a knight of Aritia, and as[N]
+far as I know he was never aligned[AN]
+with Kris during this war. My first[N]
+instinct still remains.[AN]
+[Right]
+You know, we haven't seen Cecil yet.[N]
+I wonder where she could be?[AN]
+I have no objections here, but we[N]
+really should consider some others.[AN]
+[Left]
+(Do I send Rody as my messenger?)[N]
+[Yes][X]
+
+## Ch5EndingMakeRosheMessenger
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+Who else... Roshe, perhaps? He has[N]
+fought for us during both previous[AN]
+wars. I'm inclined to trust his[N]
+judgement, personally.[AN]
+[Right]
+Assuming he accepts, he would be a[N]
+decent choice. I would take a moment[AN]
+to consider his skills, though. Can[N]
+we afford to part ways with him?[AN]
+[Left]
+(Do I send Roshe as my messenger?)[N]
+[Yes][X]
+
+## Ch5EndingMakeLindaMessenger
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+Oh, we did just meet Linda. She has[N]
+done this before for Lady Nina.[AN]
+She gave me the Fire Emblem then.[N]
+I trust her to give a message now.[AN]
+[Right]
+While she is a safe pair of hands,[N]
+her magic is also very powerful.[AN]
+Marth, are you sure sending a mage[N]
+away is a good idea right now?[AN]
+[Left]
+(Do I send Linda as my messenger?)[N]
+[Yes][X]
+
+## Ch5EndingMakeKashimMessenger
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+...Kashim? We have been comrades[N]
+from early on. Perhaps he can[AN]
+assist in fundraising once the[N]
+message has been delivered.[AN]
+[Right]
+Or he could be intercepted and[N]
+paid off. I admit it's low of me[AN]
+to be talking like this, but I[N]
+do have to bring this up, Marth.[AN]
+[Left]
+(Do I send Kashim as my messenger?)[N]
+[Yes][X]
+
+## Ch5EndingTheObviousJoke
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+Hm, who else would be suitable?[N]
+Malliesia, maybe? The message[AN]
+may be embellished, but it will[N]
+be received. I know that.[AN]
+[Right]
+...Marth, you need some rest.[N]
+Do you really think sending our[AN]
+healer away is a good idea? Who[N]
+knows what she might say or do?[AN]
+I won't stop you, but I cannot[N]
+in good faith recommend this...[AN]
+[Left]
+(Do I send Malliesia as my messenger?)[N]
+[Yes][X]
+
+## Ch5EndingLoopAround
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+I'm running out of ideas. Wait...[N]
+Of course, she's right next to me.[AN]
+[Right]
+No. You really are exhausted. I'm[N]
+not flying off to Aritia.[AN]
+We really don't have any time, but[N]
+let's go around from the start.[AN]
+[Left]
+Yawn... Perhaps we should. I'm[N]
+sorry for that, Sheeda.[A][X]
+
+## Ch5EndingHowAreTheyAllDead
+[Left][LoadMarth][Right][LoadSheeda]
+[Left]
+...Anyone who I could reasonably[N]
+consider to be a good choice for[AN]
+a messenger is dead. How did this[N]
+even happen? Where did I fail?[AN]
+[Right]
+Do we truly have no choice but to[N]
+resort to the rumour mill?[AN]
+Sigh... At least everyone here on[N]
+Talis knows you were here.[A][X]
+
+## Ch5EndingRodyPicked
+//Rewrite the scene a little soon, get the events in place first
+[FL][LoadRody][Left][LoadMarth]
 [FL]
 Yes, your majesty?[A]
 [Left]
@@ -873,6 +1015,22 @@ I understand, Emperor Marth. I will[N]
 let you arrange your escape plans[AN]
 with Empress Sheeda and Princess Chiki[N]
 in private. May fortune favour you...[A][X]
+
+## Ch5EndingRoshePicked
+[ML][LoadMarth][MR][LoadRoshe]
+This text is a placeholder.[A][X]
+
+## Ch5EndingLindaPicked
+[ML][LoadMarth][MR][LoadLinda]
+This text is a placeholder.[A][X]
+
+## Ch5EndingKashimPicked
+[ML][LoadMarth][MR][LoadKashim]
+This text is a placeholder.[A][X]
+
+## Ch5EndingMalliesiaPicked
+[ML][LoadMarth][MR][LoadMalliesia]
+This text is a placeholder.[A][X]
 
 ## Ch5MarthSailsNorth
 [Left][LoadMarth][Right][LoadSheeda][FR][LoadChiki]

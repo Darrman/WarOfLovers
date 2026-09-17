@@ -721,6 +721,12 @@
 #define ChloeSpared 0x77
 #define CelineRecruited 0x78
 #define AlmRecruited 0x79
+#define RodyMessenger 0x7A
+#define RosheMessenger 0x7B
+#define LindaMessenger 0x7C
+#define KashimMessenger 0x7D
+#define MalliesiaMessenger 0x7E
+#define NoMessenger 0x7F
 
 //Portrait IDs
 //Akaneia 1

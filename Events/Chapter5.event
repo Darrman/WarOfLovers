@@ -318,12 +318,126 @@ MUSC M_Conspiracy
 Text(Castle_Hall_Night,Ch5AlfonseAppears)
 MUSC M_OffToWar
 Text(Castle_Hall_Night,Ch5RodyEscapes)
+
+//The "decoy": someone has to be the messenger
+Text(Castle_Hall_Night,Ch5EndingWhoIsTheMessenger)
+EVBIT_MODIFY 4 //A to skip ahead should work, but B/Start shouldn't?
+COUNTER_SET 0 1 //use to measure if there are zero candidates
+LABEL 514 //to loop the event if necessary
+CHECK_ALIVE Rody
+BEQ 516 s0 sC //if Rody's dead, skip him; otherwise remove his unit presence until 5x?
+//It's a bad idea, if you killed everyone off that one's on you; it's not FE11
+COUNTER_SET 0 0 //he's alive, so the dead unit failsafe can be switched off
+TEXTSTART
+TEXTSHOW Ch5EndingMakeRodyMessenger
+TEXTEND
+REMA
+SVAL s7 1 //branch if yes
+BEQ 517 s7 sC
+STAL 10
+
+LABEL 516
+CHECK_ALIVE Roshe
+BEQ 518 s0 sC
+COUNTER_SET 0 0
+TEXTSTART
+TEXTSHOW Ch5EndingMakeRosheMessenger
+TEXTEND
+REMA
+SVAL s7 1 //branch if yes
+BEQ 519 s7 sC
+STAL 10
+
+LABEL 518
+CHECK_ALIVE Linda
+BEQ 520 s0 sC
+COUNTER_SET 0 0
+TEXTSTART
+TEXTSHOW Ch5EndingMakeLindaMessenger
+TEXTEND
+REMA
+SVAL s7 1 //branch if yes
+BEQ 521 s7 sC
+STAL 10
+
+LABEL 520
+CHECK_ALIVE Kashim
+BEQ 522 s0 sC
+COUNTER_SET 0 0
+TEXTSTART
+TEXTSHOW Ch5EndingMakeKashimMessenger
+TEXTEND
+REMA
+SVAL s7 1 //branch if yes
+BEQ 523 s7 sC
+STAL 10
+
+LABEL 522
+CHECK_ALIVE Malliesia
+BEQ 524 s0 sC
+COUNTER_SET 0 0
+TEXTSTART
+TEXTSHOW Ch5EndingTheObviousJoke
+TEXTEND
+REMA
+SVAL s7 1 //branch if yes
+BEQ 525 s7 sC
+STAL 10
+
+LABEL 524
+COUNTER_CHECK 0 //why is this backwards compared to every other check?
+BNE 526 s0 sC //if not equal = everyone is dead, play that cutscene
+Text(Ch5EndingLoopAround)
+GOTO 514
+
+LABEL 526
+EVBIT_MODIFY 0
+Text(Ch5EndingHowAreTheyAllDead)
+ENUT NoMessenger
+GOTO 515
+
+LABEL 517
+ENUT RodyMessenger
+EVBIT_MODIFY 0
+Text(Ch5EndingRodyPicked)
+DISA Rody //reload him in interlude 3 freshly promoted
+GOTO 515
+
+LABEL 519
+ENUT RosheMessenger
+EVBIT_MODIFY 0
+Text(Ch5EndingRoshePicked)
+DISA Roshe
+GOTO 515
+
+LABEL 521
+ENUT LindaMessenger
+EVBIT_MODIFY 0
+Text(Ch5EndingLindaPicked)
+DISA Linda
+GOTO 515
+
+LABEL 523
+ENUT KashimMessenger
+EVBIT_MODIFY 0
+Text(Ch5EndingKashimPicked)
+DISA Kashim
+GOTO 515
+
+LABEL 525
+ENUT MalliesiaMessenger
+EVBIT_MODIFY 0
+Text(Ch5EndingMalliesiaPicked)
+DISA Malliesia
+GOTO 515
+
 //gaiden conditional
+LABEL 515
 SVAL s1 10 //let's say 10 turns to hit the gaiden
 CHECK_TURNS
 BGT 510 s1 sC
 Text(Castle_Hall_Night,Ch5MarthSailsNorth)
-REMU Rody
+//REMU Rody
 SVAL s3 ShieldOfSeals
 GIVEITEMTO Marth
 WM_LOADLOCATION2 0 5 0 //Required to fix chapter name
@@ -334,7 +448,8 @@ GOTO 511
 
 LABEL 510
 Text(Castle_Hall_Night,Ch5MarthSailsSouth)
-REMU Rody
+//REMU Rody //it's better if he doesn't leave - or allow the player to pick?
+//Of course, keeping track of the decoy is going to be necessary.
 SVAL s3 ShieldOfSeals
 GIVEITEMTO Marth
 MNC2 0x24 //Ch5x
