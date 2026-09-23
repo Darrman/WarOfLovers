@@ -438,7 +438,7 @@ and follow that fleet to Aritia.[AN]
 And what of everyone else in Durhua?[N]
 We cannot leave the port undefended.[AN]
 [MR]
-(Ch18 boss) is keeping the Macedonian[N]
+Mishelan is keeping the Macedonian[N]
 insurgents busy, and so long as we[AN]
 don't bother the dragons, the dragons[N]
 shouldn't bother us.[AN]
@@ -507,7 +507,7 @@ you very much. The sooner I make[AN]
 it out of here, the better. How about[N]
 you use this to end this mess?[A][X]
 
-## Ch17PoliticalExplaination
+## Ch17PoliticalExplanation
 [ML][LoadAkaneiaBottleMan][MR][LoadCurrent]
 [ML]
 So, things are going slowly enough.[N]
@@ -656,7 +656,7 @@ the bad guys written first[A][X]
 ## Ch17EndingKrisLearnsOfMarth
 //Let's just say Kris is talking to Astria, mule that he is
 //Astria, Kris, Katarina
-[Left][LoadPlaceholder][Right][LoadKris][FR][LoadPlaceholder]
+[Left][LoadAstria][Right][LoadKris][FR][LoadKatarina]
 [Left]
 Your majesty, I have word that we[N]
 were defeated in Durhua.[AN]

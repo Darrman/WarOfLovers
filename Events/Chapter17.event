@@ -24,7 +24,7 @@ LocationBasedEvents:
 Seize(4,12)
 #endif
 Door(3,17)
-Door(3,18)
+Door(4,17)
 Door(16,23)
 Door(17,23)
 Door(28,15)
@@ -65,19 +65,50 @@ UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [2,12] 0x0  0x0 0x0 0x0 [SilverSw
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,10] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [8,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,3] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,1] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [10,4] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
-UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,7] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [1,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [1,11] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [3,15] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
+UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [9,10] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [6,14] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [4,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT Sheeda PegasusKnight 0x00 Level(1,Ally,0) [7,13] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT
 
 Bad:
-UNIT Cecil Paladin_F 0x00 Level(1,Enemy,0) [28,12] 0x0  0x0 0x0 0x0 [SilverSword] AttackInRangeAI
-UNIT DegeneratedDragon FireDragon 0x00 Level(1,Enemy,0) [13,29] 0x0 0x0 0x0 0x0 [IceStone] GuardTileAI
+UNIT Cecil Paladin_F 0x00 Level(8,Enemy,0) [28,12] 0x0  0x0 0x0 0x0 [SilverSword, Spear] AttackInRangeAI
+UNIT Akaneia Mercenary Cecil Level(17,Enemy,1) [24,6] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Akaneia Soldier Cecil Level(17,Enemy,1) [23,5] 0x0 0x0 0x0 0x0 [SteelLance] ChaseOnceApproachedAI
+UNIT Akaneia LanceKnight Cecil Level(17,Enemy,1) [20,9] 0x0 0x0 0x0 0x0 [Horseslayer] PursueWithoutHeedAI
+UNIT Akaneia LanceKnight Cecil Level(17,Enemy,1) [20,11] 0x0 0x0 0x0 0x0 [SteelLance] PursueWithoutHeedAI
+UNIT Akaneia DukeKnight Cecil Level(2,Enemy,1) [20,10] 0x0 0x0 0x0 0x0 [SilverLance] PursueWithoutHeedAI
+UNIT Akaneia LanceArmour Cecil Level(17,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+UNIT Akaneia LanceArmour Cecil Level(17,Enemy,1) [13,10] 0x0 0x0 0x0 0x0 [SteelLance] NeverMoveAI
+UNIT Akaneia General Cecil Level(2,Enemy,1) [12,11] 0x0 0x0 0x0 0x0 [Spear, Elixir] NeverMoveAI
+UNIT Akaneia Mercenary Cecil Level(17,Enemy,1) [9,17] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Akaneia Mercenary Cecil Level(17,Enemy,1) [11,15] 0x0 0x0 0x0 0x0 [SteelSword] ChaseOnceApproachedAI
+UNIT Akaneia Fighter Cecil Level(17,Enemy,1) [11,21] 0x0 0x0 0x0 0x0 [SteelAxe] ChaseOnceApproachedAI
+UNIT Akaneia Soldier Cecil Level(17,Enemy,1) [20,18] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT Akaneia Archer Cecil Level(17,Enemy,1) [19,17] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Akaneia Myrmidon Cecil Level(17,Enemy,1) [21,21] 0x0 0x0 0x0 0x0 [KillingEdge] AttackInRangeAI
+UNIT Akaneia Mercenary Cecil Level(17,Enemy,1) [17,24] 0x0 0x0 0x0 0x0 [Wyrmslayer] AttackInRangeAI
 UNIT
+
+Bad2:
+UNIT Ch17Dragon FireDragon 0x00 Level(5,Enemy,0) [17,29] DropItem 0x0 0x0 0x0 [IceStone] AttackInRangeAI //make this a magic dragon
+UNIT DegeneratedDragon FlyingDragon 0x0 Level(1,Enemy,1) [2,27] 0x0 0x0 0x0 0x0 [IceStone] AttackInRangeAI
+UNIT DegeneratedDragon FlyingDragon 0x0 Level(1,Enemy,1) [29,23] 0x0 0x0 0x0 0x0 [IceStone] AttackInRangeAI
+UNIT Bandit Brigand 0x0 Level(15,Enemy,1) [12,27] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Bandit Brigand 0x0 Level(15,Enemy,1) [20,28] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Bandit Hunter 0x0 Level(15,Enemy,1) [8,25] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT Bandit Hunter 0x0 Level(15,Enemy,1) [2,21] 0x0 0x0 0x0 0x0 [IronBow] AttackInRangeAI
+UNIT Bandit Brigand 0x0 Level(15,Enemy,1) [26,27] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT Bandit Berserker 0x0 Level(1,Enemy,1) [3,30] 0x0 0x0 0x0 0x0 [SilverAxe] AttackInRangeAI
+UNIT Akaneia PegasusKnight Cecil Level(17,Enemy,1) [17,4] 0x0 0x0 0x0 0x0 [SlimLance] PursueWithoutHeedAI
+UNIT Akaneia PegasusKnight Cecil Level(17,Enemy,1) [21,6] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Akaneia FreeKnight Cecil Level(17,Enemy,1) [27,10] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT Akaneia FreeKnight Cecil Level(17,Enemy,1) [27,14] 0x0 0x0 0x0 0x0 [SteelSword] AttackInRangeAI
+UNIT
+
 
 Traps1:
 ENDTRAP
@@ -90,6 +121,7 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 Good
 LOAD1 0x1 Bad
+LOAD1 0x1 Bad2
 GotoPrepScreen
 ENDA
 
@@ -102,21 +134,21 @@ MNCH 18
 ENDA
 
 NorthVillage:
-Text(Village,PlaceholderText)
+Text(Village,Ch17TheRumourMillTurns)
 SVAL s3 IronSword
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 MiddleVillage:
-Text(Village,PlaceholderText)
+Text(Village,Ch17HistoricalRevisionism)
 SVAL s3 IronSword
 GIVEITEMTO 0xFFFF
 NoFade
 ENDA
 
 SouthVillage:
-Text(Village,PlaceholderText)
+Text(Village,Ch17PoliticalExplanation)
 SVAL s3 IronSword
 GIVEITEMTO 0xFFFF
 NoFade
@@ -128,17 +160,17 @@ NoFade
 ENDA
 
 EastHouse:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch17DegenerationThreat)
 NoFade
 ENDA
 
 WestHouse:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch17DragonGaidenHint)
 NoFade
 ENDA
 
 SoutheastHouse:
-Text(HouseBG,PlaceholderText)
+Text(HouseBG,Ch17AngryPacifist)
 NoFade
 ENDA
 
