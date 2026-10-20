@@ -1,0 +1,14 @@
+#include SetUnitStats.lyn.event
+
+#define ChangeStat(Unit,Stat,Number) "SVAL s2 Unit; SVAL s1 Stat; SVAL s3 Number; ASMC SetUnitStats"
+#define CheckStat(Unit,Stat) "SVAL s2 UNIT; SVAL s1 Stat; ASMC GetUnitStats"
+#define S_HP 0x12
+#define S_Str 0x14
+#define S_Skl 0x15
+#define S_Spd 0x16
+#define S_Def 0x17
+#define S_Res 0x18
+#define S_Luk 0x19
+#define S_Mag 0x3A
+#define S_Con 0x1A
+#define S_Mov 0x1D

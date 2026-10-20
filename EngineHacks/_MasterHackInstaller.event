@@ -323,3 +323,5 @@ POP
   //SNES broken weapons (GigaExcalibur)
   //#include "GachaJam/SNESBrokenItems/AutoRefreshingWeapons.event"
   
+  //Directly change unit stats (7743, Ditto)
+  #include "GachaJam/UnitStats/UnitStats.event"

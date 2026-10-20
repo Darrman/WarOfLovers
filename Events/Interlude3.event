@@ -43,23 +43,23 @@ UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [Silver
 UNIT
 
 RodyGroup:
-UNIT Rody DukeKnight 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] NoAI
+UNIT Rody DukeKnight 0x00 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] NoAI
 UNIT
 
 RosheGroup:
-UNIT Roshe GreatKnight 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [SilverAxe, Hammer] NoAI
+UNIT Roshe GreatKnight 0x00 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [SilverAxe, Hammer] NoAI
 UNIT
 
 LindaGroup:
-UNIT Linda Sage_F 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [Aura, Resire, Heal] NoAI
+UNIT Linda Sage_F 0x00 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Aura, Resire, Heal] NoAI
 UNIT
 
 KashimGroup:
-UNIT Kashim Horseman 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [KillerBow, SteelSword, BlueGem] NoAI
+UNIT Kashim Horseman 0x00 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [KillerBow, SteelSword, BlueGem] NoAI
 UNIT
 
 MalliesiaGroup:
-UNIT Malliesia Bishop_F 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [Lightning, Hammerne, Physic] NoAI
+UNIT Malliesia Bishop_F 0x00 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x0 [Lightning, Hammerne, Physic] NoAI
 UNIT
 
 Bad:
@@ -124,16 +124,54 @@ BNE 6206 s0 sC
 
 LABEL 6202
 LOAD1 0x1 RodyGroup
+ChangeStat(Rody,S_HP,37)
+ChangeStat(Rody,S_Str,15)
+ChangeStat(Rody,S_Skl,18)
+ChangeStat(Rody,S_Spd,19)
+ChangeStat(Rody,S_Luk,13)
+ChangeStat(Rody,S_Def,12)
+ChangeStat(Rody,S_Res,6)
+//20/1 averages
+//99% sure it's RAM offsets here, changing 0x1 made Rody a Firenese generic
+//Well, per builder, he's actually "Max HP increased"?
 ENDA
 LABEL 6203
 LOAD1 0x1 RosheGroup
+ChangeStat(Roshe,S_HP,40) //Great knights aren't in FE3, make bonuses up (+4 HP)
+ChangeStat(Roshe,S_Str,16) //+3 str
+ChangeStat(Roshe,S_Skl,16) //+2 skl
+ChangeStat(Roshe,S_Spd,15) //+1 spd
+ChangeStat(Roshe,S_Luk,13)
+ChangeStat(Roshe,S_Def,16) //+4 def
+ChangeStat(Roshe,S_Res,2) //+2 res
 ENDA
 LABEL 6204
 LOAD1 0x1 LindaGroup
+ChangeStat(Linda,S_HP,29) //using the Marich bonuses as sage bonuses
+ChangeStat(Linda,S_Mag,8)
+ChangeStat(Linda,S_Skl,20)
+ChangeStat(Linda,S_Spd,20)
+ChangeStat(Linda,S_Luk,21)
+ChangeStat(Linda,S_Def,5)
+ChangeStat(Linda,S_Res,8)
 ENDA
 LABEL 6205
 LOAD1 0x1 KashimGroup
+ChangeStat(Kashim,S_HP,36) //horseman promo gains are so miserable! +1 to all.
+ChangeStat(Kashim,S_Str,19)
+ChangeStat(Kashim,S_Skl,15)
+ChangeStat(Kashim,S_Spd,14)
+ChangeStat(Kashim,S_Luk,7)
+ChangeStat(Kashim,S_Def,12)
+ChangeStat(Kashim,S_Res,3)
 ENDA
 LABEL 6206
 LOAD1 0x1 MalliesiaGroup
+ChangeStat(Malliesia,S_HP,26)
+ChangeStat(Malliesia,S_Mag,9)
+ChangeStat(Malliesia,S_Skl,6)
+ChangeStat(Malliesia,S_Spd,16)
+ChangeStat(Malliesia,S_Luk,18)
+ChangeStat(Malliesia,S_Def,4)
+ChangeStat(Malliesia,S_Res,8)
 ENDA
