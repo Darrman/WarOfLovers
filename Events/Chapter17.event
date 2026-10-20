@@ -133,6 +133,10 @@ WM_SETNEXTLOCATION 0 0 16 //Needed for world map narration.
 MNCH 18
 ENDA
 
+EasternReinforcements:
+//Have them come from the road. Open the eastern gate after a few turns.
+ENDA
+
 NorthVillage:
 Text(Village,Ch17TheRumourMillTurns)
 SVAL s3 IronSword

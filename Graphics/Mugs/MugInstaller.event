@@ -559,7 +559,7 @@ setMugEntry(P_KainFF4, KainFF4_Mug, 4,8,4,6)
 
 Lenna_Mug:
 #incext PortraitFormatter "Summons/Lenna.png"
-setMugEntry(P_Lenna, Lenna_Mug, 3,5,3,3)
+setMugEntry(P_Lenna, Lenna_Mug, 4,5,4,3)
 
 Celes_Mug:
 #incext PortraitFormatter "Summons/Celes.png"

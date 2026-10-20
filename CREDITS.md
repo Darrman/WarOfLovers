@@ -200,7 +200,7 @@ And so, all shall be revealed...
 - Terra: Final Fantasy 6 (Darrman)
 - Rydia: Final Fantasy 4 (Darrman)
 - Kain: Final Fantasy 4 (Darrman)
-- Lenna: Final Fantasy 5 mobile (Darrman)
+- Lenna: Nokitrix, Backer, LonkFC, BlueVi
 - Celes: Final Fantasy 6 (Darrman)
 - Locke: Final Fantasy 6 (Darrman)
 - Rosa: Final Fantasy 4 (Darrman)

@@ -42,6 +42,26 @@ Good:
 UNIT Marth EirikaMasterLord 0x00 Level(1,Ally,0) [13,8] 0x0  0x0 0x0 0x0 [SilverSword, Vulnerary] NoAI
 UNIT
 
+RodyGroup:
+UNIT Rody DukeKnight 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [SilverLance, Javelin] NoAI
+UNIT
+
+RosheGroup:
+UNIT Roshe GreatKnight 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [SilverAxe, Hammer] NoAI
+UNIT
+
+LindaGroup:
+UNIT Linda Sage_F 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [Aura, Resire, Heal] NoAI
+UNIT
+
+KashimGroup:
+UNIT Kashim Horseman 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [KillerBow, SteelSword, BlueGem] NoAI
+UNIT
+
+MalliesiaGroup:
+UNIT Malliesia Bishop_F 0x00 Level(1,Ally,1) [0,0] 0x0 0x0 0x0 0x0 [Lightning, Hammerne, Physic] NoAI
+UNIT
+
 Bad:
 UNIT
 
@@ -70,6 +90,7 @@ STAL 1
 CALL $9EE2C4 //EndConvo, get rid of black screen
 STAL 10
 Text(PlaceholderText)
+CALL ReturnOfTheDecoy
 CALL EndingScene
 ENDA
 
@@ -88,3 +109,31 @@ WM_SETDESTINATION 0 15 0 //World map node. Keep these equal.
 WM_SETNEXTLOCATION 0 0 15 //Needed for world map narration.
 MNCH 17
 ENDB
+
+ReturnOfTheDecoy:
+CHECK_EVENTID RodyMessenger
+BNE 6202 s0 sC
+CHECK_EVENTID RosheMessenger
+BNE 6203 s0 sC
+CHECK_EVENTID LindaMessenger
+BNE 6204 s0 sC
+CHECK_EVENTID KashimMessenger
+BNE 6205 s0 sC
+CHECK_EVENTID MalliesiaMessenger
+BNE 6206 s0 sC
+
+LABEL 6202
+LOAD1 0x1 RodyGroup
+ENDA
+LABEL 6203
+LOAD1 0x1 RosheGroup
+ENDA
+LABEL 6204
+LOAD1 0x1 LindaGroup
+ENDA
+LABEL 6205
+LOAD1 0x1 KashimGroup
+ENDA
+LABEL 6206
+LOAD1 0x1 MalliesiaGroup
+ENDA
