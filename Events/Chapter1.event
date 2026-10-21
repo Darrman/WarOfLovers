@@ -540,7 +540,7 @@ TEXTSTART
 TEXTSHOW Ch1BuyingCaesarOff
 TEXTEND
 EVBIT_MODIFY 1 //No skipping
-SVAL s1 5000
+SVAL s1 3000
 CHECK_MONEY
 BGT 110 s1 sC //can't afford him, no good
 TEXTSTART
@@ -550,7 +550,7 @@ REMA
 SVAL s7 1 //it's how VBA Ch24 does it, I'm stealing the conditional from there
 BNE 111 s7 sC
 EVBIT_MODIFY 0
-SVAL s3 5000
+SVAL s3 3000
 TAKEMONEY
 TurnAlly(Caesar)
 MUSC M_TogetherWeRide

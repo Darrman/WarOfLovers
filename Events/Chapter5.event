@@ -110,11 +110,11 @@ UNIT Lythos General Alear2 Level(5,Enemy,1) [25,3] 0x0 0x0 0x0 0x0 [Javelin] Att
 UNIT
 
 RiffGroup:
-UNIT Riff Priest 0x00 Level(4,Ally,0) [4,10] 0x0 0x0 0x0 0x0 [Barrier, Heal, Vulnerary] NoAI
+UNIT Riff Priest 0x00 Level(4,Ally,0) [4,10] 0x0 0x0 0x1 RiffREDA [Barrier, Heal, Vulnerary] NoAI
 UNIT
 
 LindaGroup:
-UNIT Linda MageLinda 0x00 Level(5,Ally,0) [28,5] 0x0 0x0 0x0 0x0 [Aura, Wind] NoAI
+UNIT Linda MageLinda 0x00 Level(5,Ally,0) [28,5] 0x0 0x0 0x1 LindaREDA [Aura, Wind] NoAI
 UNIT
 
 ClanneGroup:
@@ -486,20 +486,32 @@ ENDA
 
 Ch5WestVillage:
 //Let's make Riff need a Marth visit for old time's sake.
+//Swapping the rewards: you get the dragon shield with the Marth visit, Riff no matter what
+CHECK_EVENTID JamModeOn
+BNE 513 s0 sC //old text/reward if so
+MUSC M_TogetherWeRide
 SVAL s1 Marth
 CHECK_ACTIVE
 BEQ 506 s1 sC
 Text(Village,Ch5RiffVillage)
+LOAD1 0x1 RiffGroup
+GOTO 507
+LABEL 506
+Text(Village,Ch5RiffReallyIsHome)
+SVAL s3 Dragonshield
+GIVEITEMTO 0xFFFF
+LOAD1 0x1 RiffGroup
+GOTO 507
+
+LABEL 513
+SVAL s1 Marth
+CHECK_ACTIVE
+BEQ 527 s1 sC
+Text(Village,Ch5RiffVillageOld)
 SVAL s3 Dragonshield
 GIVEITEMTO 0xFFFF
 GOTO 507
-LABEL 506
-CHECK_EVENTID JamModeOn
-BNE 513 s0 sC //old text/reward if so
-Text(Village,Ch5RiffReallyIsHome)
-LOAD1 0x1 RiffGroup
-GOTO 507
-LABEL 513
+LABEL 527
 Text(Village,Ch5MarthFinallyVisits)
 SVAL s3 Dragonshield
 GIVEITEMTO 0xFFFF
@@ -556,6 +568,12 @@ ENDA
 Ch5Armoury:
 SHLI IronSword IronBow KillerBow IronAxe IronLance Javelin
 ALIGN 4
+
+RiffREDA:
+REDA [4,11]
+
+LindaREDA:
+REDA [28,6]
 
 ReturnToTitle:
 MNTS 0x0

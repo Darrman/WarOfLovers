@@ -1212,17 +1212,17 @@ are you attacking it now?[AN]
 [ML]
 Boss's orders, buddy! Tell[N]
 you what. If you can stump up[AN]
-five thousand, my sword is yours.[N]
+three thousand, my sword is yours.[N]
 Otherwise, I'll cut you down.[AN][X]
 
 ## Ch1HireCaesarYesNo
 [MR][LoadMarth][ToggleMouthMove]
-(Is Caesar worth 5,000 gold?)[N]
+(Is Caesar worth 3,000 gold?)[N]
 [Yes][X]
 
 ## Ch1CaesarGet
 [ML][LoadCaesar][MR][LoadMarth]
-Deal. Here it is: five thousand.[N]
+Deal. Here it is: three thousand.[N]
 You're hired while this war goes on.[AN]
 [ML]
 Thank you, Mr... wait a minute...[N]
