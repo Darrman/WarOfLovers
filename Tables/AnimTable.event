@@ -105,6 +105,49 @@ weaponTypeAnim(animNone, 0x36) //cav unarmed
 weaponAnimEnd
 
 ALIGN 4
+SetAnimationPointers(DragonMaster, DragonMasterAnims)
+DragonMasterAnims:
+weaponTypeAnim(animLance, 0x5D)
+weaponTypeAnim(animAxe, 0x5F)
+weaponAnim(HandAxe, 0x60)
+weaponAnim(Tomahawk, 0x60)
+weaponAnim(Hatchet, 0x60)
+weaponAnim(animNone, 0x5E)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(General, GeneralAnims)
+GeneralAnims:
+weaponTypeAnim(animLance, 0x45)
+weaponTypeAnim(animAxe, 0x46)
+weaponAnim(HandAxe, 0x47)
+weaponAnim(Tomahawk, 0x47)
+weaponAnim(Hatchet, 0x47)
+weaponAnim(animSword, 0x44)
+weaponAnim(animBow, 0x5B)
+weaponAnim(animNone, 0x48)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(IceDragon, IceDragonAnims)
+IceDragonAnims:
+weaponAnim(animNone, 0x97)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(FireDragon, FireDragonAnims)
+FireDragonAnims:
+weaponAnim(animNone, 0x93)
+weaponAnimEnd
+
+ALIGN 4
+SetAnimationPointers(MagicDragon, MagicDragonAnims)
+MagicDragonAnims:
+weaponAnim(animNone, 0x92)
+weaponAnimEnd
+
+/* Advance Wars animations
+ALIGN 4
 SetAnimationPointers(Infantry, InfantryAnims)
 InfantryAnims:
 weaponTypeAnim(animBow, 0x92)
@@ -121,3 +164,4 @@ SetAnimationPointers(Tank, TankAnims)
 TankAnims:
 weaponTypeAnim(animBow, 0x94)
 weaponAnimEnd
+*/

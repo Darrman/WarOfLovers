@@ -265,6 +265,10 @@ And so, all shall be revealed...
 - Halberdier: TheBlindArcher
 - Arch Knight: Orihara_Saki, DerTheVaporeon, Kao, Aurora
 - Hunter: MeatOfJustice, Leo_link, Spud
+- Dragon Master (Axe): TheBlindArcher
+- Magic Dragon: L95
+- Fire Dragon: FE6 (Eldrich Abomination)
+- General (Bow): TheBlindArcher
 
 # Magic Animations:
 - Bolganone: Mikey Seregon

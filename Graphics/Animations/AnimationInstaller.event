@@ -29,6 +29,16 @@
 #include "IceDragon/Breath/BreathInstaller.event"
 }
 
+//Magic (Demon) Dragon
+{
+#include "MagicDragon/Breath/BreathInstaller.event"
+}
+
+//Fire Dragon
+{
+#include "FireDragon/Breath/BreathInstaller.event"
+}
+
 //FE6 Mage F - Lilina
 {
 #include "Lilina/Magic/MagicInstaller.event"
@@ -57,14 +67,15 @@
 }
 
 //Advance Wars animations - future Jugdral
+//Take them out for now, may reinstate a handful for the very end of the game
 {
-#include "Infantry/Gun/GunInstaller.event"
+//#include "Infantry/Gun/GunInstaller.event"
 }
 {
-#include "AntiAir/Cannon/CannonInstaller.event"
+//#include "AntiAir/Cannon/CannonInstaller.event"
 }
 {
-#include "Tank/Cannon/CannonInstaller.event"
+//#include "Tank/Cannon/CannonInstaller.event"
 }
 
 //Axe Knight
@@ -108,6 +119,19 @@
 //Arch Knight
 {
 #include "ArchKnight/Bow/BowInstaller.event"
+}
+
+//Dragon Master
+{
+#include "DragonMaster/Axe/AxeInstaller.event"
+}
+{
+#include "DragonMaster/HandAxe/HandAxeInstaller.event"
+}
+
+//General
+{
+#include "General/Bow/BowInstaller.event"
 }
 
 //Battle Palettes
