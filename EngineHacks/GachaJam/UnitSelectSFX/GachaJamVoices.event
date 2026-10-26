@@ -54,6 +54,18 @@
 #define VoiceDiamantSelect 0x1AB
 #define VoiceAlearSelect 0x1AC
 #define VoiceAlearSelect2 0x1AD
+#define VoiceFeenaSelect 0x1B4
+#define VoiceNavarreSelect 0x1B5
+#define VoiceKainSelect 0x1B6
+#define VoiceGordonSelect 0x1B7
+#define VoiceMinervaSelect 0x1BE
+#define VoicePaolaSelect 0x1BF
+#define VoiceEllisSelect 0x1C0
+#define VoiceMarichSelect 0x1C1
+#define VoiceYuminaSelect 0x1C8
+#define VoiceGatoSelect 0x1C9
+#define VoiceCelicaSelect 0x1CA
+#define VoiceRoySelect 0x1CB
 
 ALIGN 2
 MarthVoiceEffect:
@@ -1237,6 +1249,270 @@ WORD $FF00FF
 DiamantVoice_wav:
 #incbin "bin/Diamant_ForThePrideOfBrodia.bin"
 SongTable(VoiceDiamantSelect,DiamantVoice,7)
+
+ALIGN 2
+NavarreVoiceEffect:
+BYTE Navarre
+BYTE 0x00
+SHORT VoiceNavarreSelect
+
+NavarreVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+NavarreVoice:
+WORD $01
+POIN NavarreVoice_map
+POIN NavarreVoice_data
+
+NavarreVoice_map:
+WORD $3c00
+POIN NavarreVoice_wav
+WORD $FF00FF
+
+NavarreVoice_wav:
+#incbin "bin/Navarre_CareToTestMe.bin"
+SongTable(VoiceNavarreSelect,NavarreVoice,7)
+
+ALIGN 2
+FeenaVoiceEffect:
+BYTE Feena
+BYTE 0x00
+SHORT VoiceFeenaSelect
+
+FeenaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+FeenaVoice:
+WORD $01
+POIN FeenaVoice_map
+POIN FeenaVoice_data
+
+FeenaVoice_map:
+WORD $3c00
+POIN FeenaVoice_wav
+WORD $FF00FF
+
+FeenaVoice_wav:
+#incbin "bin/Feena_TooBusyOgling.bin"
+SongTable(VoiceFeenaSelect,FeenaVoice,7)
+
+ALIGN 2
+KainVoiceEffect:
+BYTE Kain
+BYTE 0x00
+SHORT VoiceKainSelect
+
+KainVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+KainVoice:
+WORD $01
+POIN KainVoice_map
+POIN KainVoice_data
+
+KainVoice_map:
+WORD $3c00
+POIN KainVoice_wav
+WORD $FF00FF
+
+KainVoice_wav:
+#incbin "bin/Kain_GoredByTheHorns.bin"
+SongTable(VoiceKainSelect,KainVoice,7)
+
+ALIGN 2
+GordonVoiceEffect:
+BYTE Gordon
+BYTE 0x00
+SHORT VoiceGordonSelect
+
+GordonVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+GordonVoice:
+WORD $01
+POIN GordonVoice_map
+POIN GordonVoice_data
+
+GordonVoice_map:
+WORD $3c00
+POIN GordonVoice_wav
+WORD $FF00FF
+
+GordonVoice_wav:
+#incbin "bin/Gordon_Bullseye.bin"
+SongTable(VoiceGordonSelect,GordonVoice,7)
+
+ALIGN 2
+MinervaVoiceEffect:
+BYTE Minerva
+BYTE 0x00
+SHORT VoiceMinervaSelect
+
+MinervaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MinervaVoice:
+WORD $01
+POIN MinervaVoice_map
+POIN MinervaVoice_data
+
+MinervaVoice_map:
+WORD $3c00
+POIN MinervaVoice_wav
+WORD $FF00FF
+
+MinervaVoice_wav:
+#incbin "bin/Minerva_MakePeaceWithGod.bin"
+SongTable(VoiceMinervaSelect,MinervaVoice,7)
+
+ALIGN 2
+PaolaVoiceEffect:
+BYTE Paola
+BYTE 0x00
+SHORT VoicePaolaSelect
+
+PaolaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+PaolaVoice:
+WORD $01
+POIN PaolaVoice_map
+POIN PaolaVoice_data
+
+PaolaVoice_map:
+WORD $3c00
+POIN PaolaVoice_wav
+WORD $FF00FF
+
+PaolaVoice_wav:
+#incbin "bin/Paola_Demonstrate.bin"
+SongTable(VoicePaolaSelect,PaolaVoice,7)
+
+ALIGN 2
+MarichVoiceEffect:
+BYTE Marich
+BYTE 0x00
+SHORT VoiceMarichSelect
+
+MarichVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+MarichVoice:
+WORD $01
+POIN MarichVoice_map
+POIN MarichVoice_data
+
+MarichVoice_map:
+WORD $3c00
+POIN MarichVoice_wav
+WORD $FF00FF
+
+MarichVoice_wav:
+#incbin "bin/Marich_WindGuideMe.bin"
+SongTable(VoiceMarichSelect,MarichVoice,7)
+
+ALIGN 2
+EllisVoiceEffect:
+BYTE Ellis
+BYTE 0x00
+SHORT VoiceEllisSelect
+
+EllisVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+EllisVoice:
+WORD $01
+POIN EllisVoice_map
+POIN EllisVoice_data
+
+EllisVoice_map:
+WORD $3c00
+POIN EllisVoice_wav
+WORD $FF00FF
+
+EllisVoice_wav:
+#incbin "bin/Ellis_ReconsiderYourActions.bin"
+SongTable(VoiceEllisSelect,EllisVoice,7)
+
+ALIGN 2
+GatoVoiceEffect:
+BYTE Gato
+BYTE 0x00
+SHORT VoiceGatoSelect
+
+GatoVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+GatoVoice:
+WORD $01
+POIN GatoVoice_map
+POIN GatoVoice_data
+
+GatoVoice_map:
+WORD $3c00
+POIN GatoVoice_wav
+WORD $FF00FF
+
+GatoVoice_wav:
+#incbin "bin/Gato_IgnoreAtPeril.bin"
+SongTable(VoiceGatoSelect,GatoVoice,7)
+
+ALIGN 2
+CelicaVoiceEffect:
+BYTE Celica
+BYTE 0x00
+SHORT VoiceCelicaSelect
+
+CelicaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+CelicaVoice:
+WORD $01
+POIN CelicaVoice_map
+POIN CelicaVoice_data
+
+CelicaVoice_map:
+WORD $3c00
+POIN CelicaVoice_wav
+WORD $FF00FF
+
+CelicaVoice_wav:
+#incbin "bin/Celica_ForTheFuture.bin"
+SongTable(VoiceCelicaSelect,CelicaVoice,7)
+
+ALIGN 2
+RoyVoiceEffect:
+BYTE Roy
+BYTE 0x00
+SHORT VoiceRoySelect
+
+RoyVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+RoyVoice:
+WORD $01
+POIN RoyVoice_map
+POIN RoyVoice_data
+
+RoyVoice_map:
+WORD $3c00
+POIN RoyVoice_wav
+WORD $FF00FF
+
+RoyVoice_wav:
+#incbin "bin/Roy_RefuseToLose.bin"
+SongTable(VoiceRoySelect,RoyVoice,7)
+
+ALIGN 2
+YuminaVoiceEffect:
+BYTE Yumina
+BYTE 0x00
+SHORT VoiceYuminaSelect
+
+YuminaVoice_data:
+BYTE $BE $7F $BC $00 $BB $05 $BD $00 $E7 $3C $40 $98 $B1 $79 $83 $83
+YuminaVoice:
+WORD $01
+POIN YuminaVoice_map
+POIN YuminaVoice_data
+
+YuminaVoice_map:
+WORD $3c00
+POIN YuminaVoice_wav
+WORD $FF00FF
+
+YuminaVoice_wav:
+#incbin "bin/Yumina_DoNotCower.bin"
+SongTable(VoiceYuminaSelect,YuminaVoice,7)
 
 
 /*ALIGN 2

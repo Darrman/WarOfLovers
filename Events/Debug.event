@@ -59,7 +59,7 @@ UNIT
 
 DebugUnitsAkaneia:
 UNIT George Sniper 0x00 Level(5,Ally,0) [1,2] 0x00 0x0 0x0 0x00 [SilverBow, LightOrb, StarOrb, EarthOrb] NoAI
-UNIT Malliesia Cleric 0x00 Level(4,Ally,0) [2,2] 0x00 0x0 0x0 0x00 [Heal] NoAI
+UNIT Malliesia Cleric 0x00 Level(4,Ally,0) [2,2] 0x00 0x0 0x0 0x00 [Heal, Warp, Rescue] NoAI
 UNIT Ricardo Thief 0x00 Level(3,Ally,0) [3,2] 0x00 0x0 0x0 0x00 [IronSword, Lockpick] NoAI
 UNIT Caesar Mercenary 0x00 Level(5,Ally,0) [4,2] 0x00 0x0 0x0 0x00 [SteelSword] NoAI
 UNIT Tomth LanceArmour 0x00 Level(4,Ally,0) [5,2] 0x00 0x0 0x0 0x00 [IronLance, Javelin] NoAI

@@ -164,10 +164,10 @@ POIN RoronaBG; WORD 0x0; POIN RoronaBGPal
 // TSA == 1 indicates 224-colour BGs
 
 TestBG:
-#incbin bin/256TestCG.dmp
+//#incbin bin/256TestCG.dmp
 ALIGN 4
 TestBGPal:
-#incbin bin/256TestCGPal.dmp
+//#incbin bin/256TestCGPal.dmp
 
 MarioBG:
 #incbin bin/256Mario.dmp

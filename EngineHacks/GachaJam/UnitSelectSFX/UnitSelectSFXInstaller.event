@@ -52,6 +52,10 @@ POIN OgumaVoiceEffect; POIN BartsVoiceEffect; POIN RiffVoiceEffect
 POIN MiledyVoiceEffect; POIN WoltVoiceEffect; POIN FirVoiceEffect; POIN ValboVoiceEffect
 POIN AlmVoiceEffect; POIN DyuteVoiceEffect; POIN ClaireVoiceEffect; POIN CamusVoiceEffect
 POIN CelineVoiceEffect; POIN DiamantVoiceEffect; POIN AlearVoiceEffect
+POIN YuminaVoiceEffect; POIN FeenaVoiceEffect; POIN NavarreVoiceEffect; POIN KainVoiceEffect
+POIN GordonVoiceEffect; POIN MinervaVoiceEffect; POIN PaolaVoiceEffect; POIN EllisVoiceEffect
+POIN MarichVoiceEffect; POIN GatoVoiceEffect; POIN CelicaVoiceEffect; POIN RoyVoiceEffect
+
 
 WORD 0//End marker
 //Default fire emblem 8 voices definitions and bins
